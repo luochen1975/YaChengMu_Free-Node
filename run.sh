@@ -515,8 +515,8 @@ echo "编码后URL: $encoded_combined_urls"
 
 # 构建订阅链接
 echo "========== 生成订阅链接 =========="
-subscribeclash="https://api.v1.mk/sub?target=clash&url=$encoded_combined_urls&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fzsokami%2FACL4SSR%2Frefs%2Fheads%2Fmain%2FACL4SSR_Online_Full_Mannix_No_DNS_Leak.ini&filename=GitHub-GetNode&emoji=true&sort=true&udp=true"
-subscribeV2ray="https://api.v1.mk/sub?target=v2ray&url=$encoded_combined_urls&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fzsokami%2FACL4SSR%2Frefs%2Fheads%2Fmain%2FACL4SSR_Online_Full_Mannix_No_DNS_Leak.ini&filename=GitHub-GetNode&emoji=true&sort=true&udp=true"
+subscribeclash="https://api.v1.mk/sub?target=clash&url=$encoded_combined_urls&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fzsokami%2FACL4SSR%2Frefs%2Fheads%2Fmain%2FACL4SSR_Online_Full_Mannix_No_DNS_Leak.ini&exclude=聖荷西&filename=GitHub-GetNode&emoji=true&sort=true&udp=true"
+subscribeV2ray="https://api.v1.mk/sub?target=v2ray&url=$encoded_combined_urls&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fzsokami%2FACL4SSR%2Frefs%2Fheads%2Fmain%2FACL4SSR_Online_Full_Mannix_No_DNS_Leak.ini&exclude=聖荷西&filename=GitHub-GetNode&emoji=true&sort=true&udp=true"
 
 # 打印完整的订阅链接参数
 echo "========== 订阅链接详情 =========="

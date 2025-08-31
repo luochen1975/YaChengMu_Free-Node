@@ -278,12 +278,12 @@ proxies:
   - {name: 🇹🇼 台湾2, server: 36.232.72.237, port: 10130, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 7fcfaa5c-5ce1-422a-bcb6-b96284aada90, udp: true}
   - {name: 🇹🇼 台湾2|@ripaojiedian, server: 125.228.31.10, port: 10113, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ce7149cd-ea77-4e46-af7d-d4f6930ea541, udp: true}
   - {name: 🇹🇼 台湾|@ripaojiedian, server: 114.35.114.182, port: 10129, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 182a640c-ca1a-425e-8398-d5ac86bfb096, udp: true}
-  - {name: 🇹🇼 台湾省彰化县 中华电信, server: 1.170.17.172, port: 10101, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dfe6dde7-5966-403b-b564-7e00a5eae72f, udp: true}
+  - {name: 🇹🇼 台湾省 中华电信(HiNet)数据中心, server: 125.228.162.233, port: 10145, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 579084fb-9323-4090-b577-639b6a997fde, udp: true}
+  - {name: 🇹🇼 台湾省南投县 中华电信, server: 114.46.66.211, port: 10077, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b16d72b9-5a93-4bea-82e9-81edb2ad2575, udp: true}
   - {name: 🇺🇦 _UA_乌克兰_1, server: 95.164.6.178, port: 1925, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 18Vz0GruOhKd3TaRwBwIH2, udp: true}
   - {name: 🇺🇦 _UA_乌克兰_2, server: 95.164.44.146, port: 33573, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: OdVDQwVdkSRTzBmXGfdcLf, udp: true}
   - {name: 🇺🇦 乌克兰 001, server: 45.67.215.95, port: 443, client-fingerprint: chrome, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
   - {name: 🇺🇦 乌克兰 002, server: 195.245.221.194, port: 2096, client-fingerprint: chrome, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇺🇦 乌克兰 V2CROSS.COM, server: 2.59.163.104, port: 2222, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: qscavF5UviIL-8V-E4raBA, udp: true}
   - {name: 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】25, server: 45.67.215.95, port: 443, client-fingerprint: chrome, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
   - {name: 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】9, server: switcher-nick-croquet.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
   - {name: 🇺🇸 US_speednode_0020, server: uk.hotspoto.news, port: 625, client-fingerprint: chrome, type: vless, uuid: 6c8f15df-cd15-4002-abfd-3902ceffb5b9, tls: false, servername: zhaket.com, network: http, http-opts: {method: GET, path: [/], headers: {Host: [zhaket.com]}}, udp: true}
@@ -368,8 +368,8 @@ proxies:
   - {name: 🇺🇸 美国 055, server: 166.62.104.194, port: 2096, client-fingerprint: chrome, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ttfang.fange.me}}, udp: true}
   - {name: 🇺🇸 美国 056, server: test3.flha.ru, port: 80, client-fingerprint: chrome, type: vmess, uuid: 9a81340d-f81b-4c76-8abb-f4d305c535c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /9a81340d-f81b-4c76-8abb-f4d305c535c0-vmess, headers: {Host: test3.flha.ru}}, udp: true}
   - {name: 🇺🇸 美国 057, server: GgGgGGgGggggGg.222769.XYZ, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: gggggggggggggg.222769.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: linux.do, port: 443, client-fingerprint: chrome, type: vmess, uuid: 2fbe41db-0797-44f6-a3eb-9c680e5f09ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /2fbe41db-0797-44f6-a3eb-9c680e5f09ce-vm, headers: {Host: designs-cycles-submission-really.trycloudflare.com}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 165.140.216.141, port: 443, client-fingerprint: chrome, type: vmess, uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.21.77.149, port: 443, client-fingerprint: chrome, type: vmess, uuid: 20e89a95-cedf-4fe3-9421-517ce66be170, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /SHToRcqfiraYkzOdf, headers: {Host: dddcccvghyu.999834.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.18.14.54, port: 80, client-fingerprint: chrome, type: vmess, uuid: bd8f4c3a-b55a-4a55-a4be-d2ead4a4c66a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/index.html?ed=2048", headers: {Host: 845296302850992025082820102725073.s15.chibaba.filegear-sg.me}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: cache.netflix.com.unlimited.spauu.web.id, port: 443, client-fingerprint: chrome, type: vless, uuid: 532cc91d-e878-410d-9e09-b58d51b5e052, tls: true, servername: cache.netflix.com.unlimited.spauu.web.id, network: ws, ws-opts: {path: /vl=129.150.58.86=57621, headers: {Host: cache.netflix.com.unlimited.spauu.web.id}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: 45.131.7.216, port: 2096, client-fingerprint: chrome, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ttfang.fange.me}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_100, server: all.tellmethetrue.shop, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh30v7.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -873,12 +873,12 @@ proxy-groups:
       - 🇹🇼 台湾2
       - 🇹🇼 台湾2|@ripaojiedian
       - 🇹🇼 台湾|@ripaojiedian
-      - 🇹🇼 台湾省彰化县 中华电信
+      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
+      - 🇹🇼 台湾省南投县 中华电信
       - 🇺🇦 _UA_乌克兰_1
       - 🇺🇦 _UA_乌克兰_2
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
-      - 🇺🇦 乌克兰 V2CROSS.COM
       - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】25
       - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】9
       - 🇺🇸 US_speednode_0020
@@ -964,7 +964,7 @@ proxy-groups:
       - 🇺🇸 美国 056
       - 🇺🇸 美国 057
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -1443,12 +1443,12 @@ proxy-groups:
       - 🇹🇼 台湾2
       - 🇹🇼 台湾2|@ripaojiedian
       - 🇹🇼 台湾|@ripaojiedian
-      - 🇹🇼 台湾省彰化县 中华电信
+      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
+      - 🇹🇼 台湾省南投县 中华电信
       - 🇺🇦 _UA_乌克兰_1
       - 🇺🇦 _UA_乌克兰_2
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
-      - 🇺🇦 乌克兰 V2CROSS.COM
       - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】25
       - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】9
       - 🇺🇸 US_speednode_0020
@@ -1534,7 +1534,7 @@ proxy-groups:
       - 🇺🇸 美国 056
       - 🇺🇸 美国 057
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -1877,7 +1877,8 @@ proxy-groups:
       - 🇹🇼 台湾2
       - 🇹🇼 台湾2|@ripaojiedian
       - 🇹🇼 台湾|@ripaojiedian
-      - 🇹🇼 台湾省彰化县 中华电信
+      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
+      - 🇹🇼 台湾省南投县 中华电信
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -1962,7 +1963,8 @@ proxy-groups:
       - 🇹🇼 台湾2
       - 🇹🇼 台湾2|@ripaojiedian
       - 🇹🇼 台湾|@ripaojiedian
-      - 🇹🇼 台湾省彰化县 中华电信
+      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
+      - 🇹🇼 台湾省南投县 中华电信
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -2091,7 +2093,7 @@ proxy-groups:
       - 🇺🇸 美国 056
       - 🇺🇸 美国 057
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -2470,7 +2472,6 @@ proxy-groups:
       - 🇺🇦 _UA_乌克兰_2
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
-      - 🇺🇦 乌克兰 V2CROSS.COM
       - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】25
       - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】9
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
@@ -2553,7 +2554,8 @@ proxy-groups:
       - 🇹🇼 台湾2
       - 🇹🇼 台湾2|@ripaojiedian
       - 🇹🇼 台湾|@ripaojiedian
-      - 🇹🇼 台湾省彰化县 中华电信
+      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
+      - 🇹🇼 台湾省南投县 中华电信
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
@@ -2635,7 +2637,8 @@ proxy-groups:
       - 🇹🇼 台湾2
       - 🇹🇼 台湾2|@ripaojiedian
       - 🇹🇼 台湾|@ripaojiedian
-      - 🇹🇼 台湾省彰化县 中华电信
+      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
+      - 🇹🇼 台湾省南投县 中华电信
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
@@ -2755,7 +2758,7 @@ proxy-groups:
       - 🇺🇸 美国 056
       - 🇺🇸 美国 057
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -3131,7 +3134,6 @@ proxy-groups:
       - 🇺🇦 _UA_乌克兰_2
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
-      - 🇺🇦 乌克兰 V2CROSS.COM
       - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】25
       - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】9
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1

@@ -15,32 +15,18 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: _CN_中国->🇩🇪_DE_德国, server: mmde92.micloud.buzz, port: 46092, client-fingerprint: chrome, type: vmess, uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mmde92.micloud.buzz}}, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国, server: v29.heduian.link, port: 30829, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
   - {name: _DK_丹麦->🇺🇸_US_美国, server: fastcup.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: fastcup.net}}, udp: true}
   - {name: _DK_丹麦->🇺🇸_US_美国_1, server: csgo.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: csgo.com}}, udp: true}
-  - {name: _DK_丹麦->🇺🇸_US_美国_2, server: pubg.ac, port: 80, client-fingerprint: chrome, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: pubg.ac}}, udp: true}
-  - {name: _NL_荷兰->🇺🇸_US_美国, server: sgp.cdn-sgp.xyz, port: 40045, client-fingerprint: chrome, type: vmess, uuid: f50389b3-b3fa-43f6-803a-c04e45b1d565, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sgp.cdn-sgp.xyz}}, udp: true}
+  - {name: _DK_丹麦->🇺🇸_US_美国_1 2, server: csgo.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: csgo.com}}, udp: true}
+  - {name: _DK_丹麦->🇺🇸_US_美国_2, server: fastcup.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: fastcup.net}}, udp: true}
+  - {name: _DK_丹麦->🇺🇸_US_美国_2 2, server: pubg.ac, port: 80, client-fingerprint: chrome, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: pubg.ac}}, udp: true}
+  - {name: _DK_丹麦->🇺🇸_US_美国_3, server: pubg.ac, port: 80, client-fingerprint: chrome, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: pubg.ac}}, udp: true}
+  - {name: _DK_丹麦->🇺🇸_US_美国_4, server: csgo.com, port: 8443, client-fingerprint: chrome, type: trojan, password: 457f64d5-cc68-4911-82ee-636ebb568a46, sni: cdn-node-oss-99.paofu.de, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}, udp: true}
+  - {name: _DK_丹麦->🇺🇸_US_美国_5, server: pubg.ac, port: 8443, client-fingerprint: chrome, type: trojan, password: 457f64d5-cc68-4911-82ee-636ebb568a46, sni: cdn-node-oss-99.paofu.de, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}, udp: true}
+  - {name: _DK_丹麦->🇺🇸_US_美国_6, server: fastcup.net, port: 8443, client-fingerprint: chrome, type: trojan, password: 457f64d5-cc68-4911-82ee-636ebb568a46, sni: cdn-node-oss-99.paofu.de, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-99.paofu.de}}, udp: true}
+  - {name: _MD_摩尔多瓦->🇷🇺_RU_俄罗斯, server: 185.153.197.5, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: _TW_台湾->🇺🇸_US_美国, server: 107.167.182.230, port: 80, client-fingerprint: chrome, type: vmess, uuid: efcb7d7c-c582-46f5-eeff-0e553342528d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@hkaa0}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_1, server: 104.19.59.89, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_10, server: russia.com, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: russia.com}}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_11, server: 104.19.45.11, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_12, server: 162.159.140.77, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_13, server: 104.26.5.88, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_14, server: 104.19.46.56, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_15, server: 104.19.47.79, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_16, server: 104.26.9.156, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_17, server: 104.19.46.27, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_18, server: 172.64.167.5, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_19, server: 104.19.47.27, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_2, server: 104.19.45.15, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_3, server: 104.19.32.46, port: 2086, client-fingerprint: chrome, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_4, server: 104.19.21.71, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_5, server: 172.64.167.29, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_6, server: 104.19.45.13, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_7, server: 172.64.166.12, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_8, server: 104.19.46.63, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大_9, server: 104.19.32.216, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: _US_美国->🇩🇪_DE_德国, server: flkf2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}, udp: true}
   - {name: _US_美国->🇬🇧_GB_英国_1, server: mrb2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}, udp: true}
   - {name: _US_美国->🇬🇧_GB_英国_2, server: ld2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}, udp: true}
@@ -75,7 +61,6 @@ proxies:
   - {name: ℹ️ 未知【机场推荐：https://a0a.xyz/】9, server: 2606:4700:9b0e::643d:4e1, port: 80, client-fingerprint: chrome, type: vmess, uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/index.html?ed=2048", headers: {Host: 148177909970882025090113121486614.s15.chibaba.filegear-sg.me}}, udp: true}
   - {name: ℹ️ 节点日期：09-02, server: gggggggggggggg.222769.xyz, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: gggggggggggggg.222769.xyz}}, udp: true}
   - {name: 安圭拉 001, server: 209.94.90.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 未知, server: sdhdffjblkgfh_cdn.hfhfb.homes, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 3449a86e-e304-45b2-a543-b6d8ef429012, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdhdffjblkgfh_cdn.hfhfb.homes}}, udp: true}
   - {name: 🇦🇲 亚美尼亚 001, server: 188.164.159.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇦🇲 亚美尼亚 002, server: 188.164.158.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇦🇲 亚美尼亚 003, server: 185.162.231.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
@@ -99,10 +84,11 @@ proxies:
   - {name: 🇨🇳 CN_speednode_0004, server: v8.heduian.link, port: 30808, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: 🇨🇳 CN_speednode_0005, server: v30.heduian.link, port: 30830, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
   - {name: 🇨🇳 CN_speednode_0006, server: v24.heduian.link, port: 30824, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇨🇳 _CN_中国_1, server: 103.13.19.254, port: 50414, client-fingerprint: chrome, type: vmess, uuid: aacec49a-c6eb-43a0-b14a-e3b4302e5f1a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇳 _CN_中国_2, server: v5.heduian.link, port: 30805, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
   - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 1, server: 112.132.215.34, port: 50007, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 4, server: 120.210.205.59, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】50, server: 103.13.19.254, port: 50414, client-fingerprint: chrome, type: vmess, uuid: aacec49a-c6eb-43a0-b14a-e3b4302e5f1a, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇳 江苏省 移动, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: "🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 5", server: 47.116.166.178, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6, server: 47.92.152.169, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, servername: chunchuan.kejixiaoqi666.store, udp: true}
   - {name: "🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3", server: 120.26.55.225, port: 50112, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -188,6 +174,7 @@ proxies:
   - {name: 🇱🇺 卢森堡 001, server: 188.42.89.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇱🇺 卢森堡 002, server: 188.42.88.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇲🇩 摩尔多瓦 001, server: 185.170.166.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 🇳🇱 _NL_荷兰, server: 185.242.247.249, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: Sur5Ny74npD3, udp: true}
   - {name: "🇳🇱 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 2", server: aio.proxybox.dpdns.org, port: 443, client-fingerprint: chrome, type: trojan, password: 318cab24-ec99-40a6-a54a-0db9c661a3d0, sni: aio.proxybox.dpdns.org, network: ws, ws-opts: {path: /188.34.160.97-2053, headers: {Host: aio.proxybox.dpdns.org}}, udp: true}
   - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - Macarne LLC - 3, server: yapc-1.adamhayward.co.uk, port: 35000, client-fingerprint: chrome, type: hysteria2, password: Yet-Another-Public-Config-1, auth: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, udp: true}
   - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - Matteo Martelloni trading as DELUXHOST - 1, server: switcher-nick-croquet.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
@@ -201,6 +188,8 @@ proxies:
   - {name: 🇳🇱 荷兰 008, server: 185.193.29.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇳🇱 荷兰 009, server: 185.193.28.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇷🇴 罗马尼亚 001, server: 213.182.199.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 🇷🇺 _RU_俄罗斯_1, server: 185.231.233.112, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 🇷🇺 _RU_俄罗斯_2, server: 83.217.9.101, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: NbQNqngaIwS7, udp: true}
   - {name: 🇷🇺 俄罗斯 - 莫斯科 - Citytelecom LLC - 1, server: 95.181.212.141, port: 16187, client-fingerprint: chrome, type: hysteria2, password: ee4a8f20-5467-4f12-bd87-ff21b7ba817c, auth: ee4a8f20-5467-4f12-bd87-ff21b7ba817c, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 俄罗斯 001, server: 213.241.198.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇷🇺 俄罗斯 002, server: 213.219.247.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
@@ -258,12 +247,9 @@ proxies:
   - {name: 🇺🇸 US_speednode_0026, server: 159.203.173.101, port: 10721, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: YA4zGmd4OPLkKZGyLfR6PN, udp: true}
   - {name: 🇺🇸 US_speednode_0027, server: 63.141.128.26, port: 80, client-fingerprint: chrome, type: vless, uuid: c032bdcd-bcd6-4d85-99ee-e12a9458ba62, tls: false, servername: f.jOin.zEdMoDeOn.oNl., network: ws, ws-opts: {path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON, headers: {Host: f.jOin.zEdMoDeOn.oNl.}}, udp: true}
   - {name: 🇺🇸 US_speednode_0028, server: 63.141.128.13, port: 8080, client-fingerprint: chrome, type: vless, uuid: c8919b30-1117-405d-9e0f-9577c7e0f0ff, tls: false, servername: c.jOin.zEdMoDeOn.oNl., network: ws, ws-opts: {path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON, headers: {Host: c.jOin.zEdMoDeOn.oNl.}}, udp: true}
-  - {name: 🇺🇸 _US_美国_1, server: 172.64.99.22, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 _US_美国_1 2, server: 206.168.190.219, port: 2082, client-fingerprint: chrome, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
-  - {name: 🇺🇸 _US_美国_2, server: 104.20.17.186, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 _US_美国_2 2, server: wnd2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
-  - {name: 🇺🇸 _US_美国_3, server: 104.19.21.63, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 _US_美国_3 2, server: 45.199.138.186, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696682720138}, udp: true}
+  - {name: 🇺🇸 _US_美国_1, server: 206.168.190.219, port: 2082, client-fingerprint: chrome, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
+  - {name: 🇺🇸 _US_美国_2, server: wnd2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
+  - {name: 🇺🇸 _US_美国_3, server: 45.199.138.186, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696682720138}, udp: true}
   - {name: 🇺🇸 _US_美国_4, server: wnd3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 30, server: us.xilucloud.top, port: 14558, client-fingerprint: chrome, type: hysteria2, password: ba8f7058-4f30-4720-9454-714ad2481f6b, auth: ba8f7058-4f30-4720-9454-714ad2481f6b, sni: us.xilucloud.top, skip-cert-verify: true, udp: true}
@@ -304,9 +290,10 @@ proxies:
   - {name: 🇺🇸 美国 030, server: 190.93.245.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇺🇸 美国 031, server: 190.93.244.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇺🇸 美国 032, server: 185.149.135.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.18.14.54, port: 80, client-fingerprint: chrome, type: vmess, uuid: bd8f4c3a-b55a-4a55-a4be-d2ead4a4c66a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/index.html?ed=2048", headers: {Host: 845296302850992025082820102725073.s15.chibaba.filegear-sg.me}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: ssssssssssssfffffffgh.2032.pp.ua, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: ssssssssssssfffffffgh.2032.pp.ua}}, udp: true}
   - {name: 🇺🇸 美国 CloudFlare节点 2, server: cloudflare-ip.mofashi.ltd, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: us.freeyyds.dpdns.org}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 190.93.247.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: baota.me, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: us.freeyyds.dpdns.org}}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 63.141.128.14, port: 80, client-fingerprint: chrome, type: vless, uuid: 18494a96-f6a7-425d-ae82-dc00c4f3f819, tls: false, servername: a.joIn.zEdMoDeOn.oNl., network: ws, ws-opts: {path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON, headers: {Host: a.joIn.zEdMoDeOn.oNl.}}, udp: true}
   - {name: 🇺🇸 美国 加州, server: 64.81.24.59, port: 42940, client-fingerprint: chrome, type: vmess, uuid: f68d852e-cef3-4baf-f4ce-b98c88197bde, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 172.67.130.204, port: 443, client-fingerprint: chrome, type: vless, uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8, tls: true, servername: HHhhhHhhhhH.777198.xYz, network: ws, ws-opts: {path: /OjdW89Bpg4ykd4O}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: tgju.org, port: 80, client-fingerprint: chrome, type: vless, uuid: 2b277eea-66b2-4f3a-b934-46225c1f5e6f, tls: true, servername: SeRvER16.VtNEt.InFO, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tgju.org}}, udp: true}
@@ -516,32 +503,18 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
-      - _CN_中国->🇩🇪_DE_德国
       - _CN_中国->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国_1
+      - _DK_丹麦->🇺🇸_US_美国_1 2
       - _DK_丹麦->🇺🇸_US_美国_2
-      - _NL_荷兰->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国_2 2
+      - _DK_丹麦->🇺🇸_US_美国_3
+      - _DK_丹麦->🇺🇸_US_美国_4
+      - _DK_丹麦->🇺🇸_US_美国_5
+      - _DK_丹麦->🇺🇸_US_美国_6
+      - _MD_摩尔多瓦->🇷🇺_RU_俄罗斯
       - _TW_台湾->🇺🇸_US_美国
-      - _US_美国->🇨🇦_CA_加拿大_1
-      - _US_美国->🇨🇦_CA_加拿大_10
-      - _US_美国->🇨🇦_CA_加拿大_11
-      - _US_美国->🇨🇦_CA_加拿大_12
-      - _US_美国->🇨🇦_CA_加拿大_13
-      - _US_美国->🇨🇦_CA_加拿大_14
-      - _US_美国->🇨🇦_CA_加拿大_15
-      - _US_美国->🇨🇦_CA_加拿大_16
-      - _US_美国->🇨🇦_CA_加拿大_17
-      - _US_美国->🇨🇦_CA_加拿大_18
-      - _US_美国->🇨🇦_CA_加拿大_19
-      - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国->🇨🇦_CA_加拿大_3
-      - _US_美国->🇨🇦_CA_加拿大_4
-      - _US_美国->🇨🇦_CA_加拿大_5
-      - _US_美国->🇨🇦_CA_加拿大_6
-      - _US_美国->🇨🇦_CA_加拿大_7
-      - _US_美国->🇨🇦_CA_加拿大_8
-      - _US_美国->🇨🇦_CA_加拿大_9
       - _US_美国->🇩🇪_DE_德国
       - _US_美国->🇬🇧_GB_英国_1
       - _US_美国->🇬🇧_GB_英国_2
@@ -576,7 +549,6 @@ proxy-groups:
       - ℹ️ 未知【机场推荐：https://a0a.xyz/】9
       - ℹ️ 节点日期：09-02
       - 安圭拉 001
-      - 未知
       - 🇦🇲 亚美尼亚 001
       - 🇦🇲 亚美尼亚 002
       - 🇦🇲 亚美尼亚 003
@@ -600,10 +572,11 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0004
       - 🇨🇳 CN_speednode_0005
       - 🇨🇳 CN_speednode_0006
+      - 🇨🇳 _CN_中国_1
+      - 🇨🇳 _CN_中国_2
       - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 1
       - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 4
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】50
-      - 🇨🇳 江苏省 移动
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 5
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
       - 🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
@@ -689,6 +662,7 @@ proxy-groups:
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
       - 🇲🇩 摩尔多瓦 001
+      - 🇳🇱 _NL_荷兰
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 2
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Macarne LLC - 3
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Matteo Martelloni trading as DELUXHOST - 1
@@ -702,6 +676,8 @@ proxy-groups:
       - 🇳🇱 荷兰 008
       - 🇳🇱 荷兰 009
       - 🇷🇴 罗马尼亚 001
+      - 🇷🇺 _RU_俄罗斯_1
+      - 🇷🇺 _RU_俄罗斯_2
       - 🇷🇺 俄罗斯 - 莫斯科 - Citytelecom LLC - 1
       - 🇷🇺 俄罗斯 001
       - 🇷🇺 俄罗斯 002
@@ -760,11 +736,8 @@ proxy-groups:
       - 🇺🇸 US_speednode_0027
       - 🇺🇸 US_speednode_0028
       - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_2 2
       - 🇺🇸 _US_美国_3
-      - 🇺🇸 _US_美国_3 2
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 30
@@ -808,6 +781,7 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 加州
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
@@ -992,32 +966,18 @@ proxy-groups:
   - name: 👆🏻 ‍指定
     type: select
     proxies:
-      - _CN_中国->🇩🇪_DE_德国
       - _CN_中国->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国_1
+      - _DK_丹麦->🇺🇸_US_美国_1 2
       - _DK_丹麦->🇺🇸_US_美国_2
-      - _NL_荷兰->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国_2 2
+      - _DK_丹麦->🇺🇸_US_美国_3
+      - _DK_丹麦->🇺🇸_US_美国_4
+      - _DK_丹麦->🇺🇸_US_美国_5
+      - _DK_丹麦->🇺🇸_US_美国_6
+      - _MD_摩尔多瓦->🇷🇺_RU_俄罗斯
       - _TW_台湾->🇺🇸_US_美国
-      - _US_美国->🇨🇦_CA_加拿大_1
-      - _US_美国->🇨🇦_CA_加拿大_10
-      - _US_美国->🇨🇦_CA_加拿大_11
-      - _US_美国->🇨🇦_CA_加拿大_12
-      - _US_美国->🇨🇦_CA_加拿大_13
-      - _US_美国->🇨🇦_CA_加拿大_14
-      - _US_美国->🇨🇦_CA_加拿大_15
-      - _US_美国->🇨🇦_CA_加拿大_16
-      - _US_美国->🇨🇦_CA_加拿大_17
-      - _US_美国->🇨🇦_CA_加拿大_18
-      - _US_美国->🇨🇦_CA_加拿大_19
-      - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国->🇨🇦_CA_加拿大_3
-      - _US_美国->🇨🇦_CA_加拿大_4
-      - _US_美国->🇨🇦_CA_加拿大_5
-      - _US_美国->🇨🇦_CA_加拿大_6
-      - _US_美国->🇨🇦_CA_加拿大_7
-      - _US_美国->🇨🇦_CA_加拿大_8
-      - _US_美国->🇨🇦_CA_加拿大_9
       - _US_美国->🇩🇪_DE_德国
       - _US_美国->🇬🇧_GB_英国_1
       - _US_美国->🇬🇧_GB_英国_2
@@ -1052,7 +1012,6 @@ proxy-groups:
       - ℹ️ 未知【机场推荐：https://a0a.xyz/】9
       - ℹ️ 节点日期：09-02
       - 安圭拉 001
-      - 未知
       - 🇦🇲 亚美尼亚 001
       - 🇦🇲 亚美尼亚 002
       - 🇦🇲 亚美尼亚 003
@@ -1076,10 +1035,11 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0004
       - 🇨🇳 CN_speednode_0005
       - 🇨🇳 CN_speednode_0006
+      - 🇨🇳 _CN_中国_1
+      - 🇨🇳 _CN_中国_2
       - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 1
       - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 4
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】50
-      - 🇨🇳 江苏省 移动
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co., Ltd. - 5
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
       - 🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 3
@@ -1165,6 +1125,7 @@ proxy-groups:
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
       - 🇲🇩 摩尔多瓦 001
+      - 🇳🇱 _NL_荷兰
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 2
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Macarne LLC - 3
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Matteo Martelloni trading as DELUXHOST - 1
@@ -1178,6 +1139,8 @@ proxy-groups:
       - 🇳🇱 荷兰 008
       - 🇳🇱 荷兰 009
       - 🇷🇴 罗马尼亚 001
+      - 🇷🇺 _RU_俄罗斯_1
+      - 🇷🇺 _RU_俄罗斯_2
       - 🇷🇺 俄罗斯 - 莫斯科 - Citytelecom LLC - 1
       - 🇷🇺 俄罗斯 001
       - 🇷🇺 俄罗斯 002
@@ -1236,11 +1199,8 @@ proxy-groups:
       - 🇺🇸 US_speednode_0027
       - 🇺🇸 US_speednode_0028
       - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_2 2
       - 🇺🇸 _US_美国_3
-      - 🇺🇸 _US_美国_3 2
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 30
@@ -1284,6 +1244,7 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 加州
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
@@ -1566,10 +1527,11 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0004
       - 🇨🇳 CN_speednode_0005
       - 🇨🇳 CN_speednode_0006
+      - 🇨🇳 _CN_中国_1
+      - 🇨🇳 _CN_中国_2
       - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 1
       - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 4
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】50
-      - 🇨🇳 江苏省 移动
       - 🇭🇰 HK_speednode_0009
       - 🇭🇰 HK_speednode_0010
       - 🇭🇰 HK_speednode_0011
@@ -1656,8 +1618,13 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国_1
+      - _DK_丹麦->🇺🇸_US_美国_1 2
       - _DK_丹麦->🇺🇸_US_美国_2
-      - _NL_荷兰->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国_2 2
+      - _DK_丹麦->🇺🇸_US_美国_3
+      - _DK_丹麦->🇺🇸_US_美国_4
+      - _DK_丹麦->🇺🇸_US_美国_5
+      - _DK_丹麦->🇺🇸_US_美国_6
       - _TW_台湾->🇺🇸_US_美国
       - 🇺🇸 US_speednode_0018
       - 🇺🇸 US_speednode_0019
@@ -1671,11 +1638,8 @@ proxy-groups:
       - 🇺🇸 US_speednode_0027
       - 🇺🇸 US_speednode_0028
       - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_2 2
       - 🇺🇸 _US_美国_3
-      - 🇺🇸 _US_美国_3 2
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 30
@@ -1719,6 +1683,7 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 加州
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
@@ -1906,26 +1871,7 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国->🇨🇦_CA_加拿大_1
-      - _US_美国->🇨🇦_CA_加拿大_10
-      - _US_美国->🇨🇦_CA_加拿大_11
-      - _US_美国->🇨🇦_CA_加拿大_12
-      - _US_美国->🇨🇦_CA_加拿大_13
-      - _US_美国->🇨🇦_CA_加拿大_14
-      - _US_美国->🇨🇦_CA_加拿大_15
-      - _US_美国->🇨🇦_CA_加拿大_16
-      - _US_美国->🇨🇦_CA_加拿大_17
-      - _US_美国->🇨🇦_CA_加拿大_18
-      - _US_美国->🇨🇦_CA_加拿大_19
-      - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国->🇨🇦_CA_加拿大_3
-      - _US_美国->🇨🇦_CA_加拿大_4
-      - _US_美国->🇨🇦_CA_加拿大_5
-      - _US_美国->🇨🇦_CA_加拿大_6
-      - _US_美国->🇨🇦_CA_加拿大_7
-      - _US_美国->🇨🇦_CA_加拿大_8
-      - _US_美国->🇨🇦_CA_加拿大_9
+      - _MD_摩尔多瓦->🇷🇺_RU_俄罗斯
       - _US_美国->🇩🇪_DE_德国
       - _US_美国->🇬🇧_GB_英国_1
       - _US_美国->🇬🇧_GB_英国_2
@@ -1960,7 +1906,6 @@ proxy-groups:
       - ℹ️ 未知【机场推荐：https://a0a.xyz/】9
       - ℹ️ 节点日期：09-02
       - 安圭拉 001
-      - 未知
       - 🇦🇲 亚美尼亚 001
       - 🇦🇲 亚美尼亚 002
       - 🇦🇲 亚美尼亚 003
@@ -2024,6 +1969,7 @@ proxy-groups:
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
       - 🇲🇩 摩尔多瓦 001
+      - 🇳🇱 _NL_荷兰
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 2
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Macarne LLC - 3
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Matteo Martelloni trading as DELUXHOST - 1
@@ -2037,6 +1983,8 @@ proxy-groups:
       - 🇳🇱 荷兰 008
       - 🇳🇱 荷兰 009
       - 🇷🇴 罗马尼亚 001
+      - 🇷🇺 _RU_俄罗斯_1
+      - 🇷🇺 _RU_俄罗斯_2
       - 🇷🇺 俄罗斯 - 莫斯科 - Citytelecom LLC - 1
       - 🇷🇺 俄罗斯 001
       - 🇷🇺 俄罗斯 002
@@ -2103,10 +2051,11 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0004
       - 🇨🇳 CN_speednode_0005
       - 🇨🇳 CN_speednode_0006
+      - 🇨🇳 _CN_中国_1
+      - 🇨🇳 _CN_中国_2
       - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 1
       - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 4
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】50
-      - 🇨🇳 江苏省 移动
       - 🇭🇰 HK_speednode_0009
       - 🇭🇰 HK_speednode_0010
       - 🇭🇰 HK_speednode_0011
@@ -2184,8 +2133,13 @@ proxy-groups:
       - _CN_中国->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国
       - _DK_丹麦->🇺🇸_US_美国_1
+      - _DK_丹麦->🇺🇸_US_美国_1 2
       - _DK_丹麦->🇺🇸_US_美国_2
-      - _NL_荷兰->🇺🇸_US_美国
+      - _DK_丹麦->🇺🇸_US_美国_2 2
+      - _DK_丹麦->🇺🇸_US_美国_3
+      - _DK_丹麦->🇺🇸_US_美国_4
+      - _DK_丹麦->🇺🇸_US_美国_5
+      - _DK_丹麦->🇺🇸_US_美国_6
       - _TW_台湾->🇺🇸_US_美国
       - 🇺🇸 US_speednode_0018
       - 🇺🇸 US_speednode_0019
@@ -2199,11 +2153,8 @@ proxy-groups:
       - 🇺🇸 US_speednode_0027
       - 🇺🇸 US_speednode_0028
       - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_2 2
       - 🇺🇸 _US_美国_3
-      - 🇺🇸 _US_美国_3 2
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国 - 拉斯维加斯 - FranTech Solutions - 30
@@ -2247,6 +2198,7 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 加州
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
@@ -2431,26 +2383,7 @@ proxy-groups:
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:
-      - _CN_中国->🇩🇪_DE_德国
-      - _US_美国->🇨🇦_CA_加拿大_1
-      - _US_美国->🇨🇦_CA_加拿大_10
-      - _US_美国->🇨🇦_CA_加拿大_11
-      - _US_美国->🇨🇦_CA_加拿大_12
-      - _US_美国->🇨🇦_CA_加拿大_13
-      - _US_美国->🇨🇦_CA_加拿大_14
-      - _US_美国->🇨🇦_CA_加拿大_15
-      - _US_美国->🇨🇦_CA_加拿大_16
-      - _US_美国->🇨🇦_CA_加拿大_17
-      - _US_美国->🇨🇦_CA_加拿大_18
-      - _US_美国->🇨🇦_CA_加拿大_19
-      - _US_美国->🇨🇦_CA_加拿大_2
-      - _US_美国->🇨🇦_CA_加拿大_3
-      - _US_美国->🇨🇦_CA_加拿大_4
-      - _US_美国->🇨🇦_CA_加拿大_5
-      - _US_美国->🇨🇦_CA_加拿大_6
-      - _US_美国->🇨🇦_CA_加拿大_7
-      - _US_美国->🇨🇦_CA_加拿大_8
-      - _US_美国->🇨🇦_CA_加拿大_9
+      - _MD_摩尔多瓦->🇷🇺_RU_俄罗斯
       - _US_美国->🇩🇪_DE_德国
       - _US_美国->🇬🇧_GB_英国_1
       - _US_美国->🇬🇧_GB_英国_2
@@ -2485,7 +2418,6 @@ proxy-groups:
       - ℹ️ 未知【机场推荐：https://a0a.xyz/】9
       - ℹ️ 节点日期：09-02
       - 安圭拉 001
-      - 未知
       - 🇦🇲 亚美尼亚 001
       - 🇦🇲 亚美尼亚 002
       - 🇦🇲 亚美尼亚 003
@@ -2549,6 +2481,7 @@ proxy-groups:
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
       - 🇲🇩 摩尔多瓦 001
+      - 🇳🇱 _NL_荷兰
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 2
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Macarne LLC - 3
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Matteo Martelloni trading as DELUXHOST - 1
@@ -2562,6 +2495,8 @@ proxy-groups:
       - 🇳🇱 荷兰 008
       - 🇳🇱 荷兰 009
       - 🇷🇴 罗马尼亚 001
+      - 🇷🇺 _RU_俄罗斯_1
+      - 🇷🇺 _RU_俄罗斯_2
       - 🇷🇺 俄罗斯 - 莫斯科 - Citytelecom LLC - 1
       - 🇷🇺 俄罗斯 001
       - 🇷🇺 俄罗斯 002

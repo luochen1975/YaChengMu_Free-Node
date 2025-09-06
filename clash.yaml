@@ -69,6 +69,7 @@ proxies:
   - {name: 🇦🇹 奥地利 - 維也納 - Aeza International LTD - 3, server: 95.163.176.37, port: 8506, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: VdswxetVc6AhIps18rtYbm, udp: true}
   - {name: 🇦🇹 奥地利 001, server: 212.183.88.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇦🇹 奥地利 002, server: 212.183.88.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 🇦🇹 奥地利 V2CROSS.COM, server: 212.183.88.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇦🇹 奥地利【机场推荐：https://a0a.xyz/】35, server: 212.183.88.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, network: ws, ws-opts: {path: Telegram%F0%9F%87%A8%F0%9F%87%B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇦🇺 澳大利亚 001, server: 192.65.217.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇦🇺 澳大利亚【机场推荐：https://a0a.xyz/】50, server: 192.65.217.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, network: ws, ws-opts: {path: Telegram%F0%9F%87%A8%F0%9F%87%B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
@@ -82,8 +83,7 @@ proxies:
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6, server: 112.132.215.34, port: 50007, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 4, server: 120.210.205.59, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 江苏省 移动, server: v39.heduian.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇨🇳 江苏省 移动 2, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇨🇳 江苏省 移动, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 10, server: 39.107.155.11, port: 30302, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 8, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 7", server: 120.26.55.225, port: 50112, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -95,8 +95,6 @@ proxies:
   - {name: 🇨🇿 CZ_speednode_0003, server: 193.124.224.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇩🇪 DE_speednode_0004, server: 188.244.122.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇩🇪 德国 001, server: 185.16.110.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 🇩🇪 德国 V2CROSS.COM, server: 195.13.45.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 🇩🇪 德国 V2CROSS.COM 2, server: 185.16.110.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇩🇪 德国【机场推荐：https://a0a.xyz/】77, server: 185.16.110.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, network: ws, ws-opts: {path: Telegram%F0%9F%87%A8%F0%9F%87%B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇩🇰 丹麦 001, server: 195.85.59.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇩🇰 丹麦 002, server: 195.85.23.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
@@ -119,6 +117,7 @@ proxies:
   - {name: 🇪🇸 西班牙【机场推荐：https://a0a.xyz/】48, server: 185.251.80.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, network: ws, ws-opts: {path: Telegram%F0%9F%87%A8%F0%9F%87%B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇪🇸 西班牙【机场推荐：https://a0a.xyz/】5, server: 185.18.250.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇪🇸 西班牙【机场推荐：https://a0a.xyz/】73, server: 185.251.81.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, network: ws, ws-opts: {path: Telegram%F0%9F%87%A8%F0%9F%87%B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 🇪🇺 欧盟 V2CROSS.COM, server: 45.91.171.116, port: 443, client-fingerprint: chrome, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: sto.freeguard.org, udp: true}
   - {name: 🇫🇷 FR_speednode_0010, server: 185.16.110.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇫🇷 FR_speednode_0011, server: 185.7.240.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -140,7 +139,7 @@ proxies:
   - {name: 🇬🇧 英国 007, server: 194.36.55.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇬🇧 英国 008, server: 193.124.224.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇬🇧 英国 009, server: 188.244.122.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 194.36.55.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 188.244.122.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点)_1, server: 188.244.122.253, port: 2096, client-fingerprint: chrome, type: vless, uuid: e191ac99-e071-4e36-9a01-107eaf26a780, tls: true, servername: krill.xfan01.sbs, network: ws, ws-opts: {path: "/Telegram🇨🇳@WangCai2/?ed=2560"}, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点)_2, server: 45.8.211.86, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v4.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点)_3, server: 45.12.30.253, port: 2096, client-fingerprint: chrome, type: vless, uuid: d0d83117-db64-45da-aba4-461b42e0990b, tls: true, servername: xuping.pumingxu.ddns-ip.net, network: ws, ws-opts: {path: "/Telegram🇨🇳@WangCai2/?ed=2560"}, udp: true}
@@ -153,13 +152,13 @@ proxies:
   - {name: 🇭🇰 HK_speednode_0013, server: 103.30.76.251, port: 21872, client-fingerprint: chrome, type: vmess, uuid: 566d4bf4-b0be-4b38-b73b-0bf18d86f2ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/jxjxhsnsjhcd]}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Akari Networks Limited - 11, server: okanc.iepl.cac.cab, port: 23001, client-fingerprint: chrome, type: trojan, password: 82d0fb76-b9ff-41c2-ba15-2aec44f78e7c, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
   - {name: 🇭🇰 香港2, server: 156.251.179.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true}, udp: true}
-  - {name: 🇭🇰 香港3, server: 38.147.188.234, port: 15778, client-fingerprint: chrome, type: vmess, uuid: e4c54f8f-78bd-439d-8365-28f261078962, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港3, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 🇭🇰 香港3|@ripaojiedian, server: 38.147.188.234, port: 15778, client-fingerprint: chrome, type: vmess, uuid: e4c54f8f-78bd-439d-8365-28f261078962, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港4, server: 18.162.156.99, port: 441, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4|@ripaojiedian, server: 18.162.156.99, port: 441, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港5, server: 43.247.134.80, port: 28677, client-fingerprint: chrome, type: vmess, uuid: f9575b63-7410-4c76-88db-91c24a429ea8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港6, server: 18.162.147.157, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港6|@ripaojiedian, server: 18.162.147.157, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港|@ripaojiedian, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
@@ -167,7 +166,7 @@ proxies:
   - {name: 🇮🇳 IN_speednode_0015, server: 123.58.203.92, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 0bb0365b-c183-48c3-ad0d-a90fc76e2926, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇮🇷 IR_speednode_0016, server: 193.151.135.21, port: 44443, reality-opts: {public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ}, client-fingerprint: chrome, type: vless, uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33, tls: true, flow: xtls-rprx-vision, servername: www.speedtest.net, network: tcp, udp: true}
   - {name: 🇮🇸 _IS_冰岛, server: 37.235.49.168, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 🇯🇵 日本, server: cn01.efan8867801.xyz, port: 8766, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-l8SKVM0gmL.download.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本, server: cn01.efan8867801.xyz, port: 8766, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-Q3bErDTbkB.download.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点), server: 156.238.19.95, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh24v3.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇯🇵 日本2, server: 137.220.142.150, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8a6ca14c0936, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jpxw9v1.dashengjs.net, path: /wrdfiatyd, tls: true, mux: false}, udp: true}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.142.150, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8a6ca14c0936, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jpxw9v1.dashengjs.net, path: /wrdfiatyd, tls: true, mux: false}, udp: true}
@@ -177,6 +176,7 @@ proxies:
   - {name: 🇯🇵 日本4|@ripaojiedian, server: xingxing.jiasu123.org, port: 1924, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8766, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-l8SKVM0gmL.download.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本【机场推荐：https://a0a.xyz/】56, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
+  - {name: 🇰🇷 韩国, server: kr2.qiangdong.xyz, port: 1052, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: http, host: 182039459a34f64238143cd31ddebbc914362.taobao.com}, udp: true}
   - {name: 🇰🇷 韩国 - Gwangsan-gu - Korea Telecom - 2, server: 121.148.27.194, port: 55582, client-fingerprint: chrome, type: vmess, uuid: c47059b2-c52e-4abd-b585-417461366b0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /arki}, udp: true}
   - {name: 🇰🇷 韩国 - 首尔特别市 - Sejong Networks - 1, server: kr2.qiangdong.xyz, port: 1052, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: VXPipi29nxMO, plugin: obfs, plugin-opts: {mode: http, host: 182039459a34f64238143cd31ddebbc914362.taobao.com}, udp: true}
   - {name: 🇰🇿 KZ_speednode_0017, server: 194.76.18.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
@@ -185,6 +185,9 @@ proxies:
   - {name: 🇱🇹 立陶宛 002, server: 185.148.107.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇱🇹 立陶宛 003, server: 185.148.106.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇱🇹 立陶宛 004, server: 185.148.104.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 🇱🇹 立陶宛 NGS新闻, server: 185.176.24.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 🇱🇹 立陶宛 V2CROSS.COM, server: 185.148.106.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 🇱🇹 立陶宛 V2CROSS.COM 2, server: 185.148.107.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇱🇹 立陶宛【机场推荐：https://a0a.xyz/】16, server: 185.148.107.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, network: ws, ws-opts: {path: Telegram%F0%9F%87%A8%F0%9F%87%B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇱🇹 立陶宛【机场推荐：https://a0a.xyz/】36, server: 185.148.104.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, network: ws, ws-opts: {path: Telegram%F0%9F%87%A8%F0%9F%87%B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇱🇹 立陶宛【机场推荐：https://a0a.xyz/】41, server: 185.148.105.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
@@ -194,6 +197,7 @@ proxies:
   - {name: 🇱🇺 LU_speednode_0020, server: 188.42.89.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇱🇺 卢森堡 001, server: 188.42.88.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇱🇺 卢森堡 002, server: 188.42.89.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 🇱🇺 卢森堡 root.lu数据中心, server: 188.42.89.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇱🇺 卢森堡【机场推荐：https://a0a.xyz/】42, server: 188.42.88.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, network: ws, ws-opts: {path: Telegram%F0%9F%87%A8%F0%9F%87%B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇱🇺 卢森堡【机场推荐：https://a0a.xyz/】71, server: 188.42.89.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, network: ws, ws-opts: {path: Telegram%F0%9F%87%A8%F0%9F%87%B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇲🇩 _MD_摩尔多瓦, server: 185.153.197.5, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -213,6 +217,7 @@ proxies:
   - {name: 🇳🇱 荷兰【机场推荐：https://a0a.xyz/】59, server: 188.42.145.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, network: ws, ws-opts: {path: Telegram%F0%9F%87%A8%F0%9F%87%B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: "🇳🇴 挪威 - 奥斯陆 - BrainStorm Network, Inc - 1", server: 185.213.23.226, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇷🇴 罗马尼亚 001, server: 213.182.199.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 188.208.141.177, port: 443, client-fingerprint: chrome, type: vmess, uuid: 0970834f-5b4d-44da-d890-19dcb2a72d4c, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇷🇺 RU_speednode_0022, server: 185.176.24.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇷🇺 RU_speednode_0023, server: 185.148.107.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇷🇺 RU_speednode_0024, server: 193.9.49.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
@@ -233,7 +238,6 @@ proxies:
   - {name: 🇷🇺 俄罗斯 011, server: 194.76.18.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇷🇺 俄罗斯 012, server: 193.124.18.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇷🇺 俄罗斯 013, server: 193.9.49.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 185.59.218.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇷🇺 俄罗斯(yfuye.com免费节点), server: 94.247.142.103, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v5.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】14, server: 195.13.45.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, network: ws, ws-opts: {path: Telegram%F0%9F%87%A8%F0%9F%87%B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】19, server: 195.13.44.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, network: ws, ws-opts: {path: Telegram%F0%9F%87%A8%F0%9F%87%B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
@@ -252,7 +256,7 @@ proxies:
   - {name: 🇸🇬 SG_speednode_0029, server: 8.219.14.179, port: 59286, client-fingerprint: chrome, type: vmess, uuid: e911d420-0f9f-4985-9483-03f5c8b00205, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
   - {name: 🇸🇬 SG_speednode_0030, server: 8.219.14.179, port: 38071, client-fingerprint: chrome, type: vmess, uuid: c28cfb2c-8225-4648-c0aa-192f52df1ca3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
   - {name: 🇸🇬 SG_speednode_0031, server: 8.219.14.179, port: 15881, client-fingerprint: chrome, type: vmess, uuid: 0278e64a-7f0b-40e9-8214-9d5061c6eeb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: 🇸🇬 新加坡, server: xingxing.jiasu123.org, port: 1523, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡, server: xingxing.jiasu123.org, port: 46943, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡 - 新加坡 - Alibaba Cloud (Singapore) Private Limited - 1, server: 8.219.14.179, port: 15881, client-fingerprint: chrome, type: vmess, uuid: 0278e64a-7f0b-40e9-8214-9d5061c6eeb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
   - {name: 🇸🇬 新加坡2, server: xingxing.jiasu123.org, port: 3043, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡2|@ripaojiedian, server: xingxing.jiasu123.org, port: 3043, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
@@ -263,10 +267,10 @@ proxies:
   - {name: "🇹🇼 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 12", server: 114.33.53.213, port: 10037, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ed7b6c5e-4658-426e-9764-13226b4256d8, udp: true}
   - {name: "🇹🇼 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 13", server: 59.126.32.59, port: 10066, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 674ee5a2-42e6-4c9f-ab6f-885f9c8e71c9, udp: true}
   - {name: "🇹🇼 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 14", server: 59.126.32.59, port: 10066, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 140e4cb2-a874-414b-a58b-c0300720fa7d, udp: true}
-  - {name: 🇹🇼 台湾, server: 118.170.200.223, port: 10031, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b9d3c170-e6a5-45a3-bc37-f56892b9e819, udp: true}
-  - {name: 🇹🇼 台湾2, server: 114.46.70.116, port: 10055, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ed212b13-12b8-4ea2-9643-6658b18d5583, udp: true}
+  - {name: 🇹🇼 台湾, server: 125.231.72.120, port: 10065, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: e690cd6f-6c50-42e2-8b51-570e95a9be19, udp: true}
+  - {name: 🇹🇼 台湾2, server: 125.231.72.120, port: 10065, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 674ee5a2-42e6-4c9f-ab6f-885f9c8e71c9, udp: true}
   - {name: 🇹🇼 台湾2|@ripaojiedian, server: 114.46.70.116, port: 10055, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ed212b13-12b8-4ea2-9643-6658b18d5583, udp: true}
-  - {name: 🇹🇼 台湾3, server: 125.229.88.58, port: 10121, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 5695443d-9206-49b5-99be-e1276218c54e, udp: true}
+  - {name: 🇹🇼 台湾3, server: 59.126.32.59, port: 10066, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 140e4cb2-a874-414b-a58b-c0300720fa7d, udp: true}
   - {name: 🇹🇼 台湾3|@ripaojiedian, server: 125.229.88.58, port: 10121, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 5695443d-9206-49b5-99be-e1276218c54e, udp: true}
   - {name: 🇹🇼 台湾|@ripaojiedian, server: 118.170.200.223, port: 10031, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b9d3c170-e6a5-45a3-bc37-f56892b9e819, udp: true}
   - {name: 🇺🇦 乌克兰 001, server: 195.245.221.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
@@ -344,10 +348,8 @@ proxies:
   - {name: 🇺🇸 美国 043, server: 192.0.54.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇺🇸 美国 044, server: 190.93.245.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇺🇸 美国 045, server: 190.93.244.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: ssssssssssssfffffffgh.2032.pp.ua, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: ssssssssssssfffffffgh.2032.pp.ua}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: cf.fovi.tk, port: 443, client-fingerprint: chrome, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxlux.fovi.tk}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 192.200.160.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 192.0.63.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 199.68.156.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 192.200.160.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: aio.loophole.biz.id, port: 80, client-fingerprint: chrome, type: vless, uuid: f282b878-8711-45a1-8c69-5564172123c1, tls: true, servername: aio.loophole.biz.id, network: ws, ws-opts: {path: /aioproxybot/129.150.49.58-18650, headers: {Host: aio.loophole.biz.id}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: tttttttttttt.222769.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, tls: true, servername: ttTttttTTTTT.222769.xYz, network: ws, ws-opts: {path: /sMrAaoCaOSZb9TPR, headers: {Host: tttttttttttt.222769.xyz}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_100, server: 104.16.79.65, port: 80, client-fingerprint: chrome, type: vmess, uuid: 149f4b38-0e1a-44b7-9831-006fe07287fa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/index.html?ed=2048"}, udp: true}
@@ -525,7 +527,7 @@ proxies:
   - {name: 🇺🇸 美国(yfuye.com免费节点)_97, server: jealous-competition.seotoolsforyou.co.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: 7094df26-af60-41c4-afac-857060d1bab0, tls: true, network: ws, ws-opts: {path: "/?serverrrVPNTELEGRAM---_@vpnserverrr_@vpnserverrr_@vpnserverrr_@vpnserverrr_@vpnserverrr", headers: {Host: jealous-competition.seotoolsforyou.co.uk}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_98, server: 104.19.221.70, port: 80, client-fingerprint: chrome, type: vmess, uuid: 3f32cfae-0d4a-4afa-82f1-04c3eea10e74, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/index.html?ed=2048"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_99, server: all.tellmethetrue.shop, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v4.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇺🇸 美国2, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-l8SKVM0gmL.download.microsoft.com}, udp: true}
+  - {name: 🇺🇸 美国2, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-Q3bErDTbkB.download.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509031722041-l8SKVM0gmL.download.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国3, server: xingxing.jiasu123.org, port: 4801, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3|@ripaojiedian, server: xingxing.jiasu123.org, port: 4801, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
@@ -625,6 +627,7 @@ proxy-groups:
       - 🇦🇹 奥地利 - 維也納 - Aeza International LTD - 3
       - 🇦🇹 奥地利 001
       - 🇦🇹 奥地利 002
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇦🇹 奥地利【机场推荐：https://a0a.xyz/】35
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚【机场推荐：https://a0a.xyz/】50
@@ -639,7 +642,6 @@ proxy-groups:
       - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
       - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 4
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 江苏省 移动 2
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 10
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 8
       - 🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 7
@@ -651,8 +653,6 @@ proxy-groups:
       - 🇨🇿 CZ_speednode_0003
       - 🇩🇪 DE_speednode_0004
       - 🇩🇪 德国 001
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇩🇪 德国 V2CROSS.COM 2
       - 🇩🇪 德国【机场推荐：https://a0a.xyz/】77
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
@@ -675,6 +675,7 @@ proxy-groups:
       - 🇪🇸 西班牙【机场推荐：https://a0a.xyz/】48
       - 🇪🇸 西班牙【机场推荐：https://a0a.xyz/】5
       - 🇪🇸 西班牙【机场推荐：https://a0a.xyz/】73
+      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇷 FR_speednode_0010
       - 🇫🇷 FR_speednode_0011
       - 🇫🇷 _FR_法国
@@ -709,13 +710,13 @@ proxy-groups:
       - 🇭🇰 HK_speednode_0013
       - 🇭🇰 中国 - 香港 - Akari Networks Limited - 11
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
@@ -733,6 +734,7 @@ proxy-groups:
       - 🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】56
+      - 🇰🇷 韩国
       - 🇰🇷 韩国 - Gwangsan-gu - Korea Telecom - 2
       - 🇰🇷 韩国 - 首尔特别市 - Sejong Networks - 1
       - 🇰🇿 KZ_speednode_0017
@@ -741,6 +743,9 @@ proxy-groups:
       - 🇱🇹 立陶宛 002
       - 🇱🇹 立陶宛 003
       - 🇱🇹 立陶宛 004
+      - 🇱🇹 立陶宛 NGS新闻
+      - 🇱🇹 立陶宛 V2CROSS.COM
+      - 🇱🇹 立陶宛 V2CROSS.COM 2
       - 🇱🇹 立陶宛【机场推荐：https://a0a.xyz/】16
       - 🇱🇹 立陶宛【机场推荐：https://a0a.xyz/】36
       - 🇱🇹 立陶宛【机场推荐：https://a0a.xyz/】41
@@ -750,6 +755,7 @@ proxy-groups:
       - 🇱🇺 LU_speednode_0020
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
+      - 🇱🇺 卢森堡 root.lu数据中心
       - 🇱🇺 卢森堡【机场推荐：https://a0a.xyz/】42
       - 🇱🇺 卢森堡【机场推荐：https://a0a.xyz/】71
       - 🇲🇩 _MD_摩尔多瓦
@@ -769,6 +775,7 @@ proxy-groups:
       - 🇳🇱 荷兰【机场推荐：https://a0a.xyz/】59
       - 🇳🇴 挪威 - 奥斯陆 - BrainStorm Network, Inc - 1
       - 🇷🇴 罗马尼亚 001
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 RU_speednode_0022
       - 🇷🇺 RU_speednode_0023
       - 🇷🇺 RU_speednode_0024
@@ -789,7 +796,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 011
       - 🇷🇺 俄罗斯 012
       - 🇷🇺 俄罗斯 013
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯(yfuye.com免费节点)
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】14
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】19
@@ -900,8 +906,6 @@ proxy-groups:
       - 🇺🇸 美国 043
       - 🇺🇸 美国 044
       - 🇺🇸 美国 045
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国(yfuye.com免费节点)_1
@@ -1156,6 +1160,7 @@ proxy-groups:
       - 🇦🇹 奥地利 - 維也納 - Aeza International LTD - 3
       - 🇦🇹 奥地利 001
       - 🇦🇹 奥地利 002
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇦🇹 奥地利【机场推荐：https://a0a.xyz/】35
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚【机场推荐：https://a0a.xyz/】50
@@ -1170,7 +1175,6 @@ proxy-groups:
       - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
       - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 4
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 江苏省 移动 2
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 10
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 8
       - 🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 7
@@ -1182,8 +1186,6 @@ proxy-groups:
       - 🇨🇿 CZ_speednode_0003
       - 🇩🇪 DE_speednode_0004
       - 🇩🇪 德国 001
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇩🇪 德国 V2CROSS.COM 2
       - 🇩🇪 德国【机场推荐：https://a0a.xyz/】77
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
@@ -1206,6 +1208,7 @@ proxy-groups:
       - 🇪🇸 西班牙【机场推荐：https://a0a.xyz/】48
       - 🇪🇸 西班牙【机场推荐：https://a0a.xyz/】5
       - 🇪🇸 西班牙【机场推荐：https://a0a.xyz/】73
+      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇷 FR_speednode_0010
       - 🇫🇷 FR_speednode_0011
       - 🇫🇷 _FR_法国
@@ -1240,13 +1243,13 @@ proxy-groups:
       - 🇭🇰 HK_speednode_0013
       - 🇭🇰 中国 - 香港 - Akari Networks Limited - 11
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
@@ -1264,6 +1267,7 @@ proxy-groups:
       - 🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】56
+      - 🇰🇷 韩国
       - 🇰🇷 韩国 - Gwangsan-gu - Korea Telecom - 2
       - 🇰🇷 韩国 - 首尔特别市 - Sejong Networks - 1
       - 🇰🇿 KZ_speednode_0017
@@ -1272,6 +1276,9 @@ proxy-groups:
       - 🇱🇹 立陶宛 002
       - 🇱🇹 立陶宛 003
       - 🇱🇹 立陶宛 004
+      - 🇱🇹 立陶宛 NGS新闻
+      - 🇱🇹 立陶宛 V2CROSS.COM
+      - 🇱🇹 立陶宛 V2CROSS.COM 2
       - 🇱🇹 立陶宛【机场推荐：https://a0a.xyz/】16
       - 🇱🇹 立陶宛【机场推荐：https://a0a.xyz/】36
       - 🇱🇹 立陶宛【机场推荐：https://a0a.xyz/】41
@@ -1281,6 +1288,7 @@ proxy-groups:
       - 🇱🇺 LU_speednode_0020
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
+      - 🇱🇺 卢森堡 root.lu数据中心
       - 🇱🇺 卢森堡【机场推荐：https://a0a.xyz/】42
       - 🇱🇺 卢森堡【机场推荐：https://a0a.xyz/】71
       - 🇲🇩 _MD_摩尔多瓦
@@ -1300,6 +1308,7 @@ proxy-groups:
       - 🇳🇱 荷兰【机场推荐：https://a0a.xyz/】59
       - 🇳🇴 挪威 - 奥斯陆 - BrainStorm Network, Inc - 1
       - 🇷🇴 罗马尼亚 001
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 RU_speednode_0022
       - 🇷🇺 RU_speednode_0023
       - 🇷🇺 RU_speednode_0024
@@ -1320,7 +1329,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 011
       - 🇷🇺 俄罗斯 012
       - 🇷🇺 俄罗斯 013
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯(yfuye.com免费节点)
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】14
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】19
@@ -1431,8 +1439,6 @@ proxy-groups:
       - 🇺🇸 美国 043
       - 🇺🇸 美国 044
       - 🇺🇸 美国 045
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国(yfuye.com免费节点)_1
@@ -1685,13 +1691,13 @@ proxy-groups:
       - 🇭🇰 HK_speednode_0013
       - 🇭🇰 中国 - 香港 - Akari Networks Limited - 11
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
@@ -1721,17 +1727,16 @@ proxy-groups:
       - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
       - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 4
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 江苏省 移动 2
       - 🇭🇰 HK_speednode_0013
       - 🇭🇰 中国 - 香港 - Akari Networks Limited - 11
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
@@ -1863,8 +1868,6 @@ proxy-groups:
       - 🇺🇸 美国 043
       - 🇺🇸 美国 044
       - 🇺🇸 美国 045
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国(yfuye.com免费节点)_1
@@ -2114,6 +2117,7 @@ proxy-groups:
       - 🇦🇹 奥地利 - 維也納 - Aeza International LTD - 3
       - 🇦🇹 奥地利 001
       - 🇦🇹 奥地利 002
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇦🇹 奥地利【机场推荐：https://a0a.xyz/】35
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚【机场推荐：https://a0a.xyz/】50
@@ -2136,8 +2140,6 @@ proxy-groups:
       - 🇨🇿 CZ_speednode_0003
       - 🇩🇪 DE_speednode_0004
       - 🇩🇪 德国 001
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇩🇪 德国 V2CROSS.COM 2
       - 🇩🇪 德国【机场推荐：https://a0a.xyz/】77
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
@@ -2160,6 +2162,7 @@ proxy-groups:
       - 🇪🇸 西班牙【机场推荐：https://a0a.xyz/】48
       - 🇪🇸 西班牙【机场推荐：https://a0a.xyz/】5
       - 🇪🇸 西班牙【机场推荐：https://a0a.xyz/】73
+      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇷 FR_speednode_0010
       - 🇫🇷 FR_speednode_0011
       - 🇫🇷 _FR_法国
@@ -2195,6 +2198,7 @@ proxy-groups:
       - 🇮🇳 IN_speednode_0015
       - 🇮🇷 IR_speednode_0016
       - 🇮🇸 _IS_冰岛
+      - 🇰🇷 韩国
       - 🇰🇷 韩国 - Gwangsan-gu - Korea Telecom - 2
       - 🇰🇷 韩国 - 首尔特别市 - Sejong Networks - 1
       - 🇰🇿 KZ_speednode_0017
@@ -2203,6 +2207,9 @@ proxy-groups:
       - 🇱🇹 立陶宛 002
       - 🇱🇹 立陶宛 003
       - 🇱🇹 立陶宛 004
+      - 🇱🇹 立陶宛 NGS新闻
+      - 🇱🇹 立陶宛 V2CROSS.COM
+      - 🇱🇹 立陶宛 V2CROSS.COM 2
       - 🇱🇹 立陶宛【机场推荐：https://a0a.xyz/】16
       - 🇱🇹 立陶宛【机场推荐：https://a0a.xyz/】36
       - 🇱🇹 立陶宛【机场推荐：https://a0a.xyz/】41
@@ -2212,6 +2219,7 @@ proxy-groups:
       - 🇱🇺 LU_speednode_0020
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
+      - 🇱🇺 卢森堡 root.lu数据中心
       - 🇱🇺 卢森堡【机场推荐：https://a0a.xyz/】42
       - 🇱🇺 卢森堡【机场推荐：https://a0a.xyz/】71
       - 🇲🇩 _MD_摩尔多瓦
@@ -2231,6 +2239,7 @@ proxy-groups:
       - 🇳🇱 荷兰【机场推荐：https://a0a.xyz/】59
       - 🇳🇴 挪威 - 奥斯陆 - BrainStorm Network, Inc - 1
       - 🇷🇴 罗马尼亚 001
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 RU_speednode_0022
       - 🇷🇺 RU_speednode_0023
       - 🇷🇺 RU_speednode_0024
@@ -2251,7 +2260,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 011
       - 🇷🇺 俄罗斯 012
       - 🇷🇺 俄罗斯 013
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯(yfuye.com免费节点)
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】14
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】19
@@ -2274,13 +2282,13 @@ proxy-groups:
       - 🇭🇰 HK_speednode_0013
       - 🇭🇰 中国 - 香港 - Akari Networks Limited - 11
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
@@ -2304,17 +2312,16 @@ proxy-groups:
       - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
       - 🇨🇳 中国 - 广州市 - China Mobile communications corporation - 4
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 江苏省 移动 2
       - 🇭🇰 HK_speednode_0013
       - 🇭🇰 中国 - 香港 - Akari Networks Limited - 11
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
@@ -2437,8 +2444,6 @@ proxy-groups:
       - 🇺🇸 美国 043
       - 🇺🇸 美国 044
       - 🇺🇸 美国 045
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国(yfuye.com免费节点)_1
@@ -2685,6 +2690,7 @@ proxy-groups:
       - 🇦🇹 奥地利 - 維也納 - Aeza International LTD - 3
       - 🇦🇹 奥地利 001
       - 🇦🇹 奥地利 002
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇦🇹 奥地利【机场推荐：https://a0a.xyz/】35
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚【机场推荐：https://a0a.xyz/】50
@@ -2707,8 +2713,6 @@ proxy-groups:
       - 🇨🇿 CZ_speednode_0003
       - 🇩🇪 DE_speednode_0004
       - 🇩🇪 德国 001
-      - 🇩🇪 德国 V2CROSS.COM
-      - 🇩🇪 德国 V2CROSS.COM 2
       - 🇩🇪 德国【机场推荐：https://a0a.xyz/】77
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
@@ -2731,6 +2735,7 @@ proxy-groups:
       - 🇪🇸 西班牙【机场推荐：https://a0a.xyz/】48
       - 🇪🇸 西班牙【机场推荐：https://a0a.xyz/】5
       - 🇪🇸 西班牙【机场推荐：https://a0a.xyz/】73
+      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇷 FR_speednode_0010
       - 🇫🇷 FR_speednode_0011
       - 🇫🇷 _FR_法国
@@ -2766,6 +2771,7 @@ proxy-groups:
       - 🇮🇳 IN_speednode_0015
       - 🇮🇷 IR_speednode_0016
       - 🇮🇸 _IS_冰岛
+      - 🇰🇷 韩国
       - 🇰🇷 韩国 - Gwangsan-gu - Korea Telecom - 2
       - 🇰🇷 韩国 - 首尔特别市 - Sejong Networks - 1
       - 🇰🇿 KZ_speednode_0017
@@ -2774,6 +2780,9 @@ proxy-groups:
       - 🇱🇹 立陶宛 002
       - 🇱🇹 立陶宛 003
       - 🇱🇹 立陶宛 004
+      - 🇱🇹 立陶宛 NGS新闻
+      - 🇱🇹 立陶宛 V2CROSS.COM
+      - 🇱🇹 立陶宛 V2CROSS.COM 2
       - 🇱🇹 立陶宛【机场推荐：https://a0a.xyz/】16
       - 🇱🇹 立陶宛【机场推荐：https://a0a.xyz/】36
       - 🇱🇹 立陶宛【机场推荐：https://a0a.xyz/】41
@@ -2783,6 +2792,7 @@ proxy-groups:
       - 🇱🇺 LU_speednode_0020
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
+      - 🇱🇺 卢森堡 root.lu数据中心
       - 🇱🇺 卢森堡【机场推荐：https://a0a.xyz/】42
       - 🇱🇺 卢森堡【机场推荐：https://a0a.xyz/】71
       - 🇲🇩 _MD_摩尔多瓦
@@ -2802,6 +2812,7 @@ proxy-groups:
       - 🇳🇱 荷兰【机场推荐：https://a0a.xyz/】59
       - 🇳🇴 挪威 - 奥斯陆 - BrainStorm Network, Inc - 1
       - 🇷🇴 罗马尼亚 001
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 RU_speednode_0022
       - 🇷🇺 RU_speednode_0023
       - 🇷🇺 RU_speednode_0024
@@ -2822,7 +2833,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 011
       - 🇷🇺 俄罗斯 012
       - 🇷🇺 俄罗斯 013
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯(yfuye.com免费节点)
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】14
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】19

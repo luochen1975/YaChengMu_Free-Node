@@ -73,7 +73,6 @@ proxies:
   - {name: 🇦🇺 澳大利亚 001, server: 192.65.217.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇦🇺 澳大利亚 002, server: 185.207.197.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇦🇺 澳大利亚 003, server: 43.198.184.150, port: 2282, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: fe2.update.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 澳大利亚 V2CROSS.COM, server: 202.79.161.192, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: path/170733132233}, udp: true}
   - {name: 🇦🇺 澳大利亚【机场推荐：https://a0a.xyz/】24, server: 43.162.114.137, port: 59674, client-fingerprint: chrome, type: vmess, uuid: 6a4ce5b9-0d60-4a21-a8fe-897798019500, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇦🇺 澳洲, server: 103.133.1.227, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh24v3.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇧🇪 比利时 - Nossegem - M247 Europe SRL - 1, server: 146.70.176.222, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmicqQWeSlj5Dspgpe75UJ31ZoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
@@ -118,7 +117,8 @@ proxies:
   - {name: 🇨🇳 中国 - 惠州市 - China Mobile - 1, server: 183.236.51.36, port: 59003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, servername: trojan.burgerip.co.uk, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】18, server: nnertn.vxzjv.xyz, port: 47205, client-fingerprint: chrome, type: vmess, uuid: ffaf7559-d3a9-37fd-8e5b-a3abeb53d924, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】9, server: 36.235.4.151, port: 10083, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 5ffe559b-66d2-4118-a37e-19c2e140cb01, udp: true}
-  - {name: 🇨🇳 江苏省 移动, server: v39.heduian.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇨🇳 广东省 移动, server: 183.240.245.242, port: 33331, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇳 江苏省 移动, server: v8.heduian.link, port: 30808, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}, udp: true}
   - {name: 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 6, server: 106.14.75.114, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 8, server: 39.107.155.11, port: 30302, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 9, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -492,6 +492,7 @@ proxies:
   - {name: 🇺🇦 乌克兰 - Kyiv - Hostpro Ltd - 3, server: 194.28.84.109, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmiemQkI5V8H5xdo-7Q_YrlvToXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇺🇦 乌克兰 - Kyiv - Ivanov Vitaliy Sergeevich - 1, server: 176.103.50.127, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9Bmmick-YfwLjdUaGEABM2bzubgoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇺🇦 乌克兰 - Kyiv - Ivanov Vitaliy Sergeevich - 2, server: 176.103.54.71, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9Bmmifz5e2j6esVyBxOp1mOroTZoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
+  - {name: 🇺🇦 乌克兰 V2CROSS.COM, server: switcher-nick-croquet.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
   - {name: 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】8, server: switcher-nick-croquet.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
   - {name: 🇺🇸 US_speednode_0023, server: 38.244.39.95, port: 17779, reality-opts: {public-key: zM_4XVYflnr-VmBsc06Qk_KzaUABAriVqqKEsEBb2C8, short-id: "ea7bf16e8eb5769d" }, client-fingerprint: random, type: vless, uuid: a83d7ca8-9ff7-3c65-ace5-b2f53dd5b1dc, tls: true, flow: xtls-rprx-vision, servername: learn.microsoft.com, network: tcp, udp: true}
   - {name: 🇺🇸 US_speednode_0024, server: 1002.952326.xyz, port: 10001, reality-opts: {public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4}, client-fingerprint: ios, type: vless, uuid: 68bec4db-a813-417e-85ff-0367e8f3cf22, tls: true, flow: xtls-rprx-vision, servername: www.python.org, network: tcp, udp: true}
@@ -603,7 +604,6 @@ proxies:
   - {name: 🇺🇸 美国 048, server: xingxing.jiasu123.org, port: 3043, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 049, server: xingxing.jiasu123.org, port: 4317, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 050, server: xingxing.jiasu123.org, port: 1523, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.144.174.60, port: 23171, client-fingerprint: chrome, type: vmess, uuid: c67ce191-466b-4a31-ae19-5ec886e4302b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国2, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-LUEpIR0Pwo.download.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-hgGUWL4a7n.download.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国3, server: xingxing.jiasu123.org, port: 2966, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
@@ -751,7 +751,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚 002
       - 🇦🇺 澳大利亚 003
-      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇦🇺 澳大利亚【机场推荐：https://a0a.xyz/】24
       - 🇦🇺 澳洲
       - 🇧🇪 比利时 - Nossegem - M247 Europe SRL - 1
@@ -796,6 +795,7 @@ proxy-groups:
       - 🇨🇳 中国 - 惠州市 - China Mobile - 1
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】18
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】9
+      - 🇨🇳 广东省 移动
       - 🇨🇳 江苏省 移动
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 6
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 8
@@ -1170,6 +1170,7 @@ proxy-groups:
       - 🇺🇦 乌克兰 - Kyiv - Hostpro Ltd - 3
       - 🇺🇦 乌克兰 - Kyiv - Ivanov Vitaliy Sergeevich - 1
       - 🇺🇦 乌克兰 - Kyiv - Ivanov Vitaliy Sergeevich - 2
+      - 🇺🇦 乌克兰 V2CROSS.COM
       - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】8
       - 🇺🇸 US_speednode_0023
       - 🇺🇸 US_speednode_0024
@@ -1281,7 +1282,6 @@ proxy-groups:
       - 🇺🇸 美国 048
       - 🇺🇸 美国 049
       - 🇺🇸 美国 050
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -1404,7 +1404,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚 002
       - 🇦🇺 澳大利亚 003
-      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇦🇺 澳大利亚【机场推荐：https://a0a.xyz/】24
       - 🇦🇺 澳洲
       - 🇧🇪 比利时 - Nossegem - M247 Europe SRL - 1
@@ -1449,6 +1448,7 @@ proxy-groups:
       - 🇨🇳 中国 - 惠州市 - China Mobile - 1
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】18
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】9
+      - 🇨🇳 广东省 移动
       - 🇨🇳 江苏省 移动
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 6
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 8
@@ -1823,6 +1823,7 @@ proxy-groups:
       - 🇺🇦 乌克兰 - Kyiv - Hostpro Ltd - 3
       - 🇺🇦 乌克兰 - Kyiv - Ivanov Vitaliy Sergeevich - 1
       - 🇺🇦 乌克兰 - Kyiv - Ivanov Vitaliy Sergeevich - 2
+      - 🇺🇦 乌克兰 V2CROSS.COM
       - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】8
       - 🇺🇸 US_speednode_0023
       - 🇺🇸 US_speednode_0024
@@ -1934,7 +1935,6 @@ proxy-groups:
       - 🇺🇸 美国 048
       - 🇺🇸 美国 049
       - 🇺🇸 美国 050
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -2161,6 +2161,7 @@ proxy-groups:
       - 🇨🇳 中国 - 惠州市 - China Mobile - 1
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】18
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】9
+      - 🇨🇳 广东省 移动
       - 🇨🇳 江苏省 移动
       - 🇭🇰 HK_speednode_0006
       - 🇭🇰 |HK|yfuye.com免费节点|126
@@ -2400,7 +2401,6 @@ proxy-groups:
       - 🇺🇸 美国 048
       - 🇺🇸 美国 049
       - 🇺🇸 美国 050
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -2515,7 +2515,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚 002
       - 🇦🇺 澳大利亚 003
-      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇦🇺 澳大利亚【机场推荐：https://a0a.xyz/】24
       - 🇦🇺 澳洲
       - 🇧🇪 比利时 - Nossegem - M247 Europe SRL - 1
@@ -2800,6 +2799,7 @@ proxy-groups:
       - 🇺🇦 乌克兰 - Kyiv - Hostpro Ltd - 3
       - 🇺🇦 乌克兰 - Kyiv - Ivanov Vitaliy Sergeevich - 1
       - 🇺🇦 乌克兰 - Kyiv - Ivanov Vitaliy Sergeevich - 2
+      - 🇺🇦 乌克兰 V2CROSS.COM
       - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】8
       - 🇻🇳 VN_speednode_0027
       - 🇻🇳 VN_speednode_0028
@@ -2921,6 +2921,7 @@ proxy-groups:
       - 🇨🇳 中国 - 惠州市 - China Mobile - 1
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】18
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】9
+      - 🇨🇳 广东省 移动
       - 🇨🇳 江苏省 移动
       - 🇭🇰 HK_speednode_0006
       - 🇭🇰 |HK|yfuye.com免费节点|126
@@ -3151,7 +3152,6 @@ proxy-groups:
       - 🇺🇸 美国 048
       - 🇺🇸 美国 049
       - 🇺🇸 美国 050
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -3263,7 +3263,6 @@ proxy-groups:
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚 002
       - 🇦🇺 澳大利亚 003
-      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇦🇺 澳大利亚【机场推荐：https://a0a.xyz/】24
       - 🇦🇺 澳洲
       - 🇧🇪 比利时 - Nossegem - M247 Europe SRL - 1
@@ -3548,6 +3547,7 @@ proxy-groups:
       - 🇺🇦 乌克兰 - Kyiv - Hostpro Ltd - 3
       - 🇺🇦 乌克兰 - Kyiv - Ivanov Vitaliy Sergeevich - 1
       - 🇺🇦 乌克兰 - Kyiv - Ivanov Vitaliy Sergeevich - 2
+      - 🇺🇦 乌克兰 V2CROSS.COM
       - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】8
       - 🇻🇳 VN_speednode_0027
       - 🇻🇳 VN_speednode_0028

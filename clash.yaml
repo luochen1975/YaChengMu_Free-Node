@@ -74,6 +74,7 @@ proxies:
   - {name: 🇦🇺 澳大利亚 001, server: 192.65.217.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇦🇺 澳大利亚 002, server: 185.207.197.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇦🇺 澳大利亚 003, server: 43.198.184.150, port: 2282, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: fe2.update.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇺 澳大利亚 V2CROSS.COM, server: 202.79.161.192, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: path/170733132233}, udp: true}
   - {name: 🇦🇺 澳大利亚【机场推荐：https://a0a.xyz/】24, server: 43.162.114.137, port: 59674, client-fingerprint: chrome, type: vmess, uuid: 6a4ce5b9-0d60-4a21-a8fe-897798019500, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇦🇺 澳洲, server: 103.133.1.227, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh24v3.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇧🇪 比利时 - Nossegem - M247 Europe SRL - 1, server: 146.70.176.222, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmicqQWeSlj5Dspgpe75UJ31ZoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
@@ -94,6 +95,7 @@ proxies:
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇭 |CH|yfuye.com免费节点|63, server: 185.18.250.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /由零开始, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇨🇭 瑞士 - 苏黎世 - M247 Europe SRL - 1, server: 185.183.104.146, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmifW1yOR8IuAgf9SWEIOvc7WoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
+  - {name: 🇨🇭 瑞士 V2CROSS.COM, server: 89.31.120.192, port: 443, client-fingerprint: chrome, type: vmess, uuid: 44537595-9ccc-4b83-8936-5f9ad3229019, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇨🇳 CN_speednode_0001, server: freed.themars.top, port: 31101, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: D8FCC5C0-4AB6-4978-BAC7-55B31D67D76E, udp: true}
   - {name: 🇨🇳 CN_speednode_0002, server: freed.themars.top, port: 31102, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: D8FCC5C0-4AB6-4978-BAC7-55B31D67D76E, udp: true}
   - {name: 🇨🇳 CN_speednode_0003, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: c2ff46e3-117f-4575-b8d2-38dd706e15bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
@@ -116,13 +118,10 @@ proxies:
   - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3, server: 119.29.98.43, port: 56532, client-fingerprint: chrome, type: vmess, uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 4, server: 119.29.98.43, port: 11399, client-fingerprint: chrome, type: vmess, uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇨🇳 中国 - 惠州市 - China Mobile - 1, server: 183.236.51.36, port: 59003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, servername: trojan.burgerip.co.uk, udp: true}
-  - {name: 🇨🇳 中国 阿里云, server: 8.217.182.124, port: 20521, client-fingerprint: chrome, type: vmess, uuid: 6da85c84-feba-4661-87eb-fd8e0534ee61, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇨🇳 中国 阿里云 2, server: 8.217.95.43, port: 20521, client-fingerprint: chrome, type: vmess, uuid: 026c4c2f-9887-4c8f-a353-382d58fa6145, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】18, server: nnertn.vxzjv.xyz, port: 47205, client-fingerprint: chrome, type: vmess, uuid: ffaf7559-d3a9-37fd-8e5b-a3abeb53d924, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】9, server: 36.235.4.151, port: 10083, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 5ffe559b-66d2-4118-a37e-19c2e140cb01, udp: true}
-  - {name: 🇨🇳 江苏省 移动, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇨🇳 江苏省 移动 2, server: v8.heduian.link, port: 30808, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}, udp: true}
-  - {name: 🇨🇳 江苏省 移动 3, server: v39.heduian.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇨🇳 广东省东莞市 电信, server: aflzzul.meiquankongjian.com, port: 52512, client-fingerprint: chrome, type: vmess, uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflzzul.meiquankongjian.com}}, udp: true}
+  - {name: 🇨🇳 江苏省 移动, server: v8.heduian.link, port: 30808, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}, udp: true}
   - {name: 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 6, server: 106.14.75.114, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 8, server: 39.107.155.11, port: 30302, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 9, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -193,8 +192,6 @@ proxies:
   - {name: 🇫🇷 法国 - 聖但尼 - M247 Europe SRL - 11, server: 188.241.83.138, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmiesUj3FhzQm3Pqywh8WHq0yoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇫🇷 法国 - 鲁贝 - OVH SAS - 7, server: 51.91.106.58, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9Bmmif5o_y09hd60AQIBM821WIZxsnp5o63PElOVpFduiCmYA==, password: 1, tls: false, udp: true}
   - {name: 🇫🇷 法国 001, server: 185.7.240.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 🇫🇷 法国 国际航空电讯集团公司(SITA), server: 57.129.28.216, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: fapeng.org}}, udp: true}
-  - {name: 🇫🇷 法国 国际航空电讯集团公司(SITA) 2, server: 57.129.28.63, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: fapeng.org}}, udp: true}
   - {name: 🇫🇷 法国【机场推荐：https://a0a.xyz/】15, server: 2001:bc8:32d7:302::10, port: 44579, client-fingerprint: chrome, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇬🇧 |GB|yfuye.com免费节点|114, server: 185.156.19.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /由零开始, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇬🇧 |GB|yfuye.com免费节点|125, server: 94.247.142.103, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v4.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -229,23 +226,6 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Baxet Group Inc. - 58, server: hkhub.xg-hub.icu, port: 25782, client-fingerprint: chrome, type: hysteria2, password: 7b60cab2-e71f-476e-ba03-9d8068d6e8ef, auth: 7b60cab2-e71f-476e-ba03-9d8068d6e8ef, sni: hkhub.xg-hub.icu, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Communilink Internet LTD - 13, server: 43.252.166.214, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9Bmmic6GcLZogCI6kosNFP1xCoyoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇭🇰 香港, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港 阿里云, server: 47.86.16.64, port: 56957, client-fingerprint: chrome, type: vmess, uuid: 4347661b-f276-4f83-9676-55b0743f3270, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 2, server: 47.86.47.186, port: 60281, client-fingerprint: chrome, type: vmess, uuid: e27ad4a4-ef1f-4902-bee5-0e44ce38e9d6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 3, server: 47.86.46.68, port: 20521, client-fingerprint: chrome, type: vmess, uuid: 8ba9ca48-5e28-411d-a194-689f99b4ab54, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 4, server: 47.86.35.193, port: 20521, client-fingerprint: chrome, type: vmess, uuid: 9d3c4552-28b3-4b62-ba80-deef68d1af85, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 5, server: 47.86.45.136, port: 61980, client-fingerprint: chrome, type: vmess, uuid: 851b7167-6587-4990-b9de-80f76ca49c2a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 6, server: 47.83.248.27, port: 46426, client-fingerprint: chrome, type: vmess, uuid: 2f5e418d-35d7-49fd-9902-4d6aeb27e90e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 7, server: 47.83.246.177, port: 6688, client-fingerprint: chrome, type: vmess, uuid: ff84cbb3-51da-411e-ea65-271dd0246307, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 8, server: 47.86.42.228, port: 20521, client-fingerprint: chrome, type: vmess, uuid: d562673f-ed45-43f3-95dd-c84e472f0bba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 9, server: 47.83.213.165, port: 37352, client-fingerprint: chrome, type: vmess, uuid: e2d5ec9f-0d5e-47e9-9ca4-32d86b9c57ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 10, server: 47.86.46.44, port: 20521, client-fingerprint: chrome, type: vmess, uuid: 9034968b-bf6c-473d-aab3-7964960032a9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 11, server: 47.86.16.208, port: 29120, client-fingerprint: chrome, type: vmess, uuid: 383b6416-0bd0-4bab-862a-83791b927991, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 12, server: 47.86.44.179, port: 20521, client-fingerprint: chrome, type: vmess, uuid: 2597f3ff-e19d-4318-848e-dcff180a34e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 13, server: 47.86.45.61, port: 20521, client-fingerprint: chrome, type: vmess, uuid: 920c31bc-4bfc-4b5c-9d72-668290f811f8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 14, server: 47.86.18.229, port: 53719, client-fingerprint: chrome, type: vmess, uuid: 33dbf25a-285f-48f7-9080-cc3ac3f7490e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 15, server: 47.86.17.177, port: 34584, client-fingerprint: chrome, type: vmess, uuid: e92a4543-4a7d-47af-bbe5-a45a51b2cd50, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 16, server: 47.86.47.146, port: 50475, client-fingerprint: chrome, type: vmess, uuid: 13d9fe5d-da41-4a1a-a20c-1ba7b0b976ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇭🇰 香港2, server: 156.251.179.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港3, server: 43.247.134.211, port: 46981, client-fingerprint: chrome, type: vmess, uuid: 0f6e3f70-d64d-4825-aa04-1ead22e96b8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
@@ -303,6 +283,7 @@ proxies:
   - {name: 🇯🇵 日本【机场推荐：https://a0a.xyz/】25, server: knd.balouliangzhimao.xyz, port: 10151, client-fingerprint: chrome, type: vmess, uuid: ffaf7559-d3a9-37fd-8e5b-a3abeb53d924, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇰🇷 韩国 - 首尔特别市 - Hostcenter - 1, server: 61.255.174.11, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmieFomc5nzJ2-kkiP-IaP8J1oXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇰🇷 韩国 001, server: 202.79.161.188, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/170733132233, headers: {Host: www.32278117.xyz}}, udp: true}
+  - {name: 🇰🇷 韩国 V2CROSS.COM, server: 45.141.139.109, port: 13311, client-fingerprint: chrome, type: vmess, uuid: 6752e2c4-ff7c-4da5-a815-c307bf83ab48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇰🇷 韩国 光州广域市KT电信, server: 115.23.87.171, port: 20521, client-fingerprint: chrome, type: vmess, uuid: 8447d810-05b2-46dc-b933-f6a5b1801faf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇰🇿 |KZ|yfuye.com免费节点|43, server: 194.76.18.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇰🇿 |KZ|yfuye.com免费节点|58, server: 195.245.221.87, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram馃嚚馃嚦, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
@@ -626,8 +607,7 @@ proxies:
   - {name: 🇺🇸 美国 048, server: xingxing.jiasu123.org, port: 3043, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 049, server: xingxing.jiasu123.org, port: 4317, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 050, server: xingxing.jiasu123.org, port: 1523, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 192.3.107.252, port: 443, client-fingerprint: chrome, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: rc8.freeguard.org, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 140.235.38.89, port: 20521, client-fingerprint: chrome, type: vmess, uuid: c65ef645-2172-44d1-909f-cb30a40bca1c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: qqqqqqqqqqqqaaaa.www890604.dpdns.org, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: qqqqqqqqqqqqaaaa.www890604.dpdns.org}}, udp: true}
   - {name: 🇺🇸 美国2, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-LUEpIR0Pwo.download.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-hgGUWL4a7n.download.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国3, server: xingxing.jiasu123.org, port: 2966, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
@@ -689,7 +669,6 @@ proxies:
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 5, server: 103.186.154.33, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 6, server: 103.186.154.31, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 越南 - 胡志明市 - VINAHOST - 7, server: 103.9.78.107, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9Bmmiek9wNNDmlCdvcUpOeXzHGboXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
-  - {name: 🇿🇦 南非 V2CROSS.COM, server: 154.201.76.172, port: 20521, client-fingerprint: chrome, type: vmess, uuid: 496cec71-a0fd-4f25-bba1-cba9e9d5a52f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: ✈️ ‍起飞
     type: select
@@ -777,6 +756,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚 002
       - 🇦🇺 澳大利亚 003
+      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇦🇺 澳大利亚【机场推荐：https://a0a.xyz/】24
       - 🇦🇺 澳洲
       - 🇧🇪 比利时 - Nossegem - M247 Europe SRL - 1
@@ -797,6 +777,7 @@ proxy-groups:
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 |CH|yfuye.com免费节点|63
       - 🇨🇭 瑞士 - 苏黎世 - M247 Europe SRL - 1
+      - 🇨🇭 瑞士 V2CROSS.COM
       - 🇨🇳 CN_speednode_0001
       - 🇨🇳 CN_speednode_0002
       - 🇨🇳 CN_speednode_0003
@@ -819,13 +800,10 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 4
       - 🇨🇳 中国 - 惠州市 - China Mobile - 1
-      - 🇨🇳 中国 阿里云
-      - 🇨🇳 中国 阿里云 2
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】18
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】9
+      - 🇨🇳 广东省东莞市 电信
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 江苏省 移动 2
-      - 🇨🇳 江苏省 移动 3
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 6
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 8
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 9
@@ -896,8 +874,6 @@ proxy-groups:
       - 🇫🇷 法国 - 聖但尼 - M247 Europe SRL - 11
       - 🇫🇷 法国 - 鲁贝 - OVH SAS - 7
       - 🇫🇷 法国 001
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA) 2
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】15
       - 🇬🇧 |GB|yfuye.com免费节点|114
       - 🇬🇧 |GB|yfuye.com免费节点|125
@@ -932,23 +908,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Baxet Group Inc. - 58
       - 🇭🇰 中国 - 香港 - Communilink Internet LTD - 13
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 阿里云 2
-      - 🇭🇰 香港 阿里云 3
-      - 🇭🇰 香港 阿里云 4
-      - 🇭🇰 香港 阿里云 5
-      - 🇭🇰 香港 阿里云 6
-      - 🇭🇰 香港 阿里云 7
-      - 🇭🇰 香港 阿里云 8
-      - 🇭🇰 香港 阿里云 9
-      - 🇭🇰 香港 阿里云 10
-      - 🇭🇰 香港 阿里云 11
-      - 🇭🇰 香港 阿里云 12
-      - 🇭🇰 香港 阿里云 13
-      - 🇭🇰 香港 阿里云 14
-      - 🇭🇰 香港 阿里云 15
-      - 🇭🇰 香港 阿里云 16
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -1006,6 +965,7 @@ proxy-groups:
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】25
       - 🇰🇷 韩国 - 首尔特别市 - Hostcenter - 1
       - 🇰🇷 韩国 001
+      - 🇰🇷 韩国 V2CROSS.COM
       - 🇰🇷 韩国 光州广域市KT电信
       - 🇰🇿 |KZ|yfuye.com免费节点|43
       - 🇰🇿 |KZ|yfuye.com免费节点|58
@@ -1329,8 +1289,7 @@ proxy-groups:
       - 🇺🇸 美国 048
       - 🇺🇸 美国 049
       - 🇺🇸 美国 050
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -1392,7 +1351,6 @@ proxy-groups:
       - 🇻🇳 越南 - Hải Dương - FASTLY - 5
       - 🇻🇳 越南 - Hải Dương - FASTLY - 6
       - 🇻🇳 越南 - 胡志明市 - VINAHOST - 7
-      - 🇿🇦 南非 V2CROSS.COM
   - name: 👆🏻 ‍指定
     type: select
     proxies:
@@ -1455,6 +1413,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚 002
       - 🇦🇺 澳大利亚 003
+      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇦🇺 澳大利亚【机场推荐：https://a0a.xyz/】24
       - 🇦🇺 澳洲
       - 🇧🇪 比利时 - Nossegem - M247 Europe SRL - 1
@@ -1475,6 +1434,7 @@ proxy-groups:
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 |CH|yfuye.com免费节点|63
       - 🇨🇭 瑞士 - 苏黎世 - M247 Europe SRL - 1
+      - 🇨🇭 瑞士 V2CROSS.COM
       - 🇨🇳 CN_speednode_0001
       - 🇨🇳 CN_speednode_0002
       - 🇨🇳 CN_speednode_0003
@@ -1497,13 +1457,10 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 4
       - 🇨🇳 中国 - 惠州市 - China Mobile - 1
-      - 🇨🇳 中国 阿里云
-      - 🇨🇳 中国 阿里云 2
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】18
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】9
+      - 🇨🇳 广东省东莞市 电信
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 江苏省 移动 2
-      - 🇨🇳 江苏省 移动 3
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 6
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 8
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 9
@@ -1574,8 +1531,6 @@ proxy-groups:
       - 🇫🇷 法国 - 聖但尼 - M247 Europe SRL - 11
       - 🇫🇷 法国 - 鲁贝 - OVH SAS - 7
       - 🇫🇷 法国 001
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA) 2
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】15
       - 🇬🇧 |GB|yfuye.com免费节点|114
       - 🇬🇧 |GB|yfuye.com免费节点|125
@@ -1610,23 +1565,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Baxet Group Inc. - 58
       - 🇭🇰 中国 - 香港 - Communilink Internet LTD - 13
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 阿里云 2
-      - 🇭🇰 香港 阿里云 3
-      - 🇭🇰 香港 阿里云 4
-      - 🇭🇰 香港 阿里云 5
-      - 🇭🇰 香港 阿里云 6
-      - 🇭🇰 香港 阿里云 7
-      - 🇭🇰 香港 阿里云 8
-      - 🇭🇰 香港 阿里云 9
-      - 🇭🇰 香港 阿里云 10
-      - 🇭🇰 香港 阿里云 11
-      - 🇭🇰 香港 阿里云 12
-      - 🇭🇰 香港 阿里云 13
-      - 🇭🇰 香港 阿里云 14
-      - 🇭🇰 香港 阿里云 15
-      - 🇭🇰 香港 阿里云 16
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -1684,6 +1622,7 @@ proxy-groups:
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】25
       - 🇰🇷 韩国 - 首尔特别市 - Hostcenter - 1
       - 🇰🇷 韩国 001
+      - 🇰🇷 韩国 V2CROSS.COM
       - 🇰🇷 韩国 光州广域市KT电信
       - 🇰🇿 |KZ|yfuye.com免费节点|43
       - 🇰🇿 |KZ|yfuye.com免费节点|58
@@ -2007,8 +1946,7 @@ proxy-groups:
       - 🇺🇸 美国 048
       - 🇺🇸 美国 049
       - 🇺🇸 美国 050
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -2070,7 +2008,6 @@ proxy-groups:
       - 🇻🇳 越南 - Hải Dương - FASTLY - 5
       - 🇻🇳 越南 - Hải Dương - FASTLY - 6
       - 🇻🇳 越南 - 胡志明市 - VINAHOST - 7
-      - 🇿🇦 南非 V2CROSS.COM
   - name: 🛩️ ‍墙内
     type: select
     proxies:
@@ -2129,23 +2066,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Baxet Group Inc. - 58
       - 🇭🇰 中国 - 香港 - Communilink Internet LTD - 13
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 阿里云 2
-      - 🇭🇰 香港 阿里云 3
-      - 🇭🇰 香港 阿里云 4
-      - 🇭🇰 香港 阿里云 5
-      - 🇭🇰 香港 阿里云 6
-      - 🇭🇰 香港 阿里云 7
-      - 🇭🇰 香港 阿里云 8
-      - 🇭🇰 香港 阿里云 9
-      - 🇭🇰 香港 阿里云 10
-      - 🇭🇰 香港 阿里云 11
-      - 🇭🇰 香港 阿里云 12
-      - 🇭🇰 香港 阿里云 13
-      - 🇭🇰 香港 阿里云 14
-      - 🇭🇰 香港 阿里云 15
-      - 🇭🇰 香港 阿里云 16
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -2251,36 +2171,16 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 4
       - 🇨🇳 中国 - 惠州市 - China Mobile - 1
-      - 🇨🇳 中国 阿里云
-      - 🇨🇳 中国 阿里云 2
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】18
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】9
+      - 🇨🇳 广东省东莞市 电信
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 江苏省 移动 2
-      - 🇨🇳 江苏省 移动 3
       - 🇭🇰 HK_speednode_0006
       - 🇭🇰 |HK|yfuye.com免费节点|126
       - 🇭🇰 中国 - 香港 - Baxet Group Inc. - 22
       - 🇭🇰 中国 - 香港 - Baxet Group Inc. - 58
       - 🇭🇰 中国 - 香港 - Communilink Internet LTD - 13
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 阿里云 2
-      - 🇭🇰 香港 阿里云 3
-      - 🇭🇰 香港 阿里云 4
-      - 🇭🇰 香港 阿里云 5
-      - 🇭🇰 香港 阿里云 6
-      - 🇭🇰 香港 阿里云 7
-      - 🇭🇰 香港 阿里云 8
-      - 🇭🇰 香港 阿里云 9
-      - 🇭🇰 香港 阿里云 10
-      - 🇭🇰 香港 阿里云 11
-      - 🇭🇰 香港 阿里云 12
-      - 🇭🇰 香港 阿里云 13
-      - 🇭🇰 香港 阿里云 14
-      - 🇭🇰 香港 阿里云 15
-      - 🇭🇰 香港 阿里云 16
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -2512,8 +2412,7 @@ proxy-groups:
       - 🇺🇸 美国 048
       - 🇺🇸 美国 049
       - 🇺🇸 美国 050
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -2629,6 +2528,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚 002
       - 🇦🇺 澳大利亚 003
+      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇦🇺 澳大利亚【机场推荐：https://a0a.xyz/】24
       - 🇦🇺 澳洲
       - 🇧🇪 比利时 - Nossegem - M247 Europe SRL - 1
@@ -2649,6 +2549,7 @@ proxy-groups:
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 |CH|yfuye.com免费节点|63
       - 🇨🇭 瑞士 - 苏黎世 - M247 Europe SRL - 1
+      - 🇨🇭 瑞士 V2CROSS.COM
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 6
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 8
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 9
@@ -2719,8 +2620,6 @@ proxy-groups:
       - 🇫🇷 法国 - 聖但尼 - M247 Europe SRL - 11
       - 🇫🇷 法国 - 鲁贝 - OVH SAS - 7
       - 🇫🇷 法国 001
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA) 2
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】15
       - 🇬🇧 |GB|yfuye.com免费节点|114
       - 🇬🇧 |GB|yfuye.com免费节点|125
@@ -2773,6 +2672,7 @@ proxy-groups:
       - 🇯🇴 约旦 - 安曼 - Al-hadatheh Lil-itisalat WA Al-technologia CO. - 3
       - 🇰🇷 韩国 - 首尔特别市 - Hostcenter - 1
       - 🇰🇷 韩国 001
+      - 🇰🇷 韩国 V2CROSS.COM
       - 🇰🇷 韩国 光州广域市KT电信
       - 🇰🇿 |KZ|yfuye.com免费节点|43
       - 🇰🇿 |KZ|yfuye.com免费节点|58
@@ -2927,7 +2827,6 @@ proxy-groups:
       - 🇻🇳 越南 - Hải Dương - FASTLY - 5
       - 🇻🇳 越南 - Hải Dương - FASTLY - 6
       - 🇻🇳 越南 - 胡志明市 - VINAHOST - 7
-      - 🇿🇦 南非 V2CROSS.COM
   - name: 👆🏻🇭🇰 ‍香港
     type: select
     proxies:
@@ -2937,23 +2836,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Baxet Group Inc. - 58
       - 🇭🇰 中国 - 香港 - Communilink Internet LTD - 13
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 阿里云 2
-      - 🇭🇰 香港 阿里云 3
-      - 🇭🇰 香港 阿里云 4
-      - 🇭🇰 香港 阿里云 5
-      - 🇭🇰 香港 阿里云 6
-      - 🇭🇰 香港 阿里云 7
-      - 🇭🇰 香港 阿里云 8
-      - 🇭🇰 香港 阿里云 9
-      - 🇭🇰 香港 阿里云 10
-      - 🇭🇰 香港 阿里云 11
-      - 🇭🇰 香港 阿里云 12
-      - 🇭🇰 香港 阿里云 13
-      - 🇭🇰 香港 阿里云 14
-      - 🇭🇰 香港 阿里云 15
-      - 🇭🇰 香港 阿里云 16
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -3053,36 +2935,16 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 3
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 4
       - 🇨🇳 中国 - 惠州市 - China Mobile - 1
-      - 🇨🇳 中国 阿里云
-      - 🇨🇳 中国 阿里云 2
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】18
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】9
+      - 🇨🇳 广东省东莞市 电信
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 江苏省 移动 2
-      - 🇨🇳 江苏省 移动 3
       - 🇭🇰 HK_speednode_0006
       - 🇭🇰 |HK|yfuye.com免费节点|126
       - 🇭🇰 中国 - 香港 - Baxet Group Inc. - 22
       - 🇭🇰 中国 - 香港 - Baxet Group Inc. - 58
       - 🇭🇰 中国 - 香港 - Communilink Internet LTD - 13
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 阿里云 2
-      - 🇭🇰 香港 阿里云 3
-      - 🇭🇰 香港 阿里云 4
-      - 🇭🇰 香港 阿里云 5
-      - 🇭🇰 香港 阿里云 6
-      - 🇭🇰 香港 阿里云 7
-      - 🇭🇰 香港 阿里云 8
-      - 🇭🇰 香港 阿里云 9
-      - 🇭🇰 香港 阿里云 10
-      - 🇭🇰 香港 阿里云 11
-      - 🇭🇰 香港 阿里云 12
-      - 🇭🇰 香港 阿里云 13
-      - 🇭🇰 香港 阿里云 14
-      - 🇭🇰 香港 阿里云 15
-      - 🇭🇰 香港 阿里云 16
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -3305,8 +3167,7 @@ proxy-groups:
       - 🇺🇸 美国 048
       - 🇺🇸 美国 049
       - 🇺🇸 美国 050
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -3419,6 +3280,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚 002
       - 🇦🇺 澳大利亚 003
+      - 🇦🇺 澳大利亚 V2CROSS.COM
       - 🇦🇺 澳大利亚【机场推荐：https://a0a.xyz/】24
       - 🇦🇺 澳洲
       - 🇧🇪 比利时 - Nossegem - M247 Europe SRL - 1
@@ -3439,6 +3301,7 @@ proxy-groups:
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 |CH|yfuye.com免费节点|63
       - 🇨🇭 瑞士 - 苏黎世 - M247 Europe SRL - 1
+      - 🇨🇭 瑞士 V2CROSS.COM
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 6
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 8
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 9
@@ -3509,8 +3372,6 @@ proxy-groups:
       - 🇫🇷 法国 - 聖但尼 - M247 Europe SRL - 11
       - 🇫🇷 法国 - 鲁贝 - OVH SAS - 7
       - 🇫🇷 法国 001
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA) 2
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】15
       - 🇬🇧 |GB|yfuye.com免费节点|114
       - 🇬🇧 |GB|yfuye.com免费节点|125
@@ -3563,6 +3424,7 @@ proxy-groups:
       - 🇯🇴 约旦 - 安曼 - Al-hadatheh Lil-itisalat WA Al-technologia CO. - 3
       - 🇰🇷 韩国 - 首尔特别市 - Hostcenter - 1
       - 🇰🇷 韩国 001
+      - 🇰🇷 韩国 V2CROSS.COM
       - 🇰🇷 韩国 光州广域市KT电信
       - 🇰🇿 |KZ|yfuye.com免费节点|43
       - 🇰🇿 |KZ|yfuye.com免费节点|58
@@ -3717,7 +3579,6 @@ proxy-groups:
       - 🇻🇳 越南 - Hải Dương - FASTLY - 5
       - 🇻🇳 越南 - Hải Dương - FASTLY - 6
       - 🇻🇳 越南 - 胡志明市 - VINAHOST - 7
-      - 🇿🇦 南非 V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,DIRECT
   - DOMAIN-SUFFIX,ip6-localhost,DIRECT

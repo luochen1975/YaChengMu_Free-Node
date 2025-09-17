@@ -156,6 +156,7 @@ proxies:
   - {name: 🇫🇷 法国 001, server: 45.80.110.255, port: 80, client-fingerprint: chrome, type: vless, uuid: 7c326126-7e75-457d-a8cd-8120da01eb25, tls: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: myvps.nilphreakz.me}}, udp: true}
   - {name: 🇫🇷 法国 002, server: 45.80.111.255, port: 80, client-fingerprint: chrome, type: vless, uuid: acf0cb41-ac1a-448f-98cf-0b58a9f92b05, tls: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: myvps.nilphreakz.me}}, udp: true}
   - {name: 🇫🇷 法国 003, server: 94.140.0.255, port: 80, client-fingerprint: chrome, type: vless, uuid: a225a8ff-1505-4dfd-a3b7-59737bb499ee, tls: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: myvps.nilphreakz.me}}, udp: true}
+  - {name: 🇫🇷 法国 国际航空电讯集团公司(SITA), server: serkat.org, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}, udp: true}
   - {name: 🇫🇷 法国【机场推荐：https://a0a.xyz/】6, server: 2001:bc8:32d7:302::10, port: 44579, client-fingerprint: chrome, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇬🇧 |GB|yfuye.com免费节点|114, server: 185.156.19.195, port: 2096, client-fingerprint: chrome, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /由零开始, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 🇬🇧 |GB|yfuye.com免费节点|125, server: 94.247.142.103, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v4.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -190,7 +191,6 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1, server: 103.229.124.3, port: 20521, client-fingerprint: chrome, type: vmess, uuid: 292e9c90-25b3-4ff5-b98a-9ef5877714ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED - 15, server: 106.75.134.1, port: 12000, client-fingerprint: chrome, type: trojan, password: 1640ef52-2db0-44ab-b3f3-8690b762ebc9, sni: aliyun.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
   - {name: 🇭🇰 香港2, server: 156.251.179.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港3, server: 149.104.15.178, port: 21201, client-fingerprint: chrome, type: vmess, uuid: e43b6c20-2f61-4e8c-a692-c737fa5cfa0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
@@ -445,7 +445,6 @@ proxies:
   - {name: 🇺🇸 美国 036, server: 72.167.25.255, port: 80, client-fingerprint: chrome, type: vless, uuid: f0d0c1f0-bd67-4c9d-9827-757dc0043fab, tls: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: myvps.nilphreakz.me}}, udp: true}
   - {name: 🇺🇸 美国 037, server: 72.167.241.255, port: 80, client-fingerprint: chrome, type: vless, uuid: 9c0caffc-04c5-413e-98e8-666052b19da8, tls: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: myvps.nilphreakz.me}}, udp: true}
   - {name: 🇺🇸 美国 038, server: 72.167.243.255, port: 80, client-fingerprint: chrome, type: vless, uuid: a4798d14-063c-4b01-9b70-5b5793335b87, tls: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: myvps.nilphreakz.me}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.144.174.60, port: 22112, client-fingerprint: chrome, type: vmess, uuid: 32807277-6527-4bd0-a5b6-de6375496707, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国2, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-hDcp24etDx.download.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-hDcp24etDx.download.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国3, server: 36.150.215.200, port: 13855, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
@@ -748,6 +747,7 @@ proxy-groups:
       - 🇫🇷 法国 001
       - 🇫🇷 法国 002
       - 🇫🇷 法国 003
+      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】6
       - 🇬🇧 |GB|yfuye.com免费节点|114
       - 🇬🇧 |GB|yfuye.com免费节点|125
@@ -782,7 +782,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1
       - 🇭🇰 中国 - 香港 - UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED - 15
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -1037,7 +1036,6 @@ proxy-groups:
       - 🇺🇸 美国 036
       - 🇺🇸 美国 037
       - 🇺🇸 美国 038
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -1315,6 +1313,7 @@ proxy-groups:
       - 🇫🇷 法国 001
       - 🇫🇷 法国 002
       - 🇫🇷 法国 003
+      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】6
       - 🇬🇧 |GB|yfuye.com免费节点|114
       - 🇬🇧 |GB|yfuye.com免费节点|125
@@ -1349,7 +1348,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1
       - 🇭🇰 中国 - 香港 - UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED - 15
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -1604,7 +1602,6 @@ proxy-groups:
       - 🇺🇸 美国 036
       - 🇺🇸 美国 037
       - 🇺🇸 美国 038
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -1794,7 +1791,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1
       - 🇭🇰 中国 - 香港 - UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED - 15
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -1867,7 +1863,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1
       - 🇭🇰 中国 - 香港 - UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED - 15
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -2033,7 +2028,6 @@ proxy-groups:
       - 🇺🇸 美国 036
       - 🇺🇸 美国 037
       - 🇺🇸 美国 038
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -2221,6 +2215,7 @@ proxy-groups:
       - 🇫🇷 法国 001
       - 🇫🇷 法国 002
       - 🇫🇷 法国 003
+      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】6
       - 🇬🇧 |GB|yfuye.com免费节点|114
       - 🇬🇧 |GB|yfuye.com免费节点|125
@@ -2429,7 +2424,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1
       - 🇭🇰 中国 - 香港 - UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED - 15
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -2496,7 +2490,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dingke human resource co.LTD - 1
       - 🇭🇰 中国 - 香港 - UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED - 15
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -2653,7 +2646,6 @@ proxy-groups:
       - 🇺🇸 美国 036
       - 🇺🇸 美国 037
       - 🇺🇸 美国 038
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -2838,6 +2830,7 @@ proxy-groups:
       - 🇫🇷 法国 001
       - 🇫🇷 法国 002
       - 🇫🇷 法国 003
+      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】6
       - 🇬🇧 |GB|yfuye.com免费节点|114
       - 🇬🇧 |GB|yfuye.com免费节点|125

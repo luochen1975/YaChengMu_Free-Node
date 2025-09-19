@@ -164,7 +164,6 @@ proxies:
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】35, server: 36.234.115.149, port: 10003, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 6f7fc4ea-bef4-4eec-ae54-d718777ebc94, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】37, server: 36.234.116.69, port: 10008, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 6f7fc4ea-bef4-4eec-ae54-d718777ebc94, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】43, server: 183.240.180.3, port: 34141, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇳 江苏省 移动, server: v39.heduian.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2, server: 106.14.75.114, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4, server: 39.107.155.11, port: 30302, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -221,7 +220,6 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - rainbow network limited - 12, server: xg.xfy003.cfd, port: 21333, client-fingerprint: chrome, type: hysteria2, password: 794283d6-0e98-4849-87a4-c93f8eb8c39b, auth: 794283d6-0e98-4849-87a4-c93f8eb8c39b, sni: xg.xfy003.cfd, up: 50, down: 100, skip-cert-verify: false, obfs: salamander, obfs-password: zTCsHcttqdA0PniW, udp: true}
   - {name: 🇭🇰 中国 - 香港 - rainbow network limited - 9, server: xg.xfy003.cfd, port: 21333, client-fingerprint: chrome, type: hysteria2, password: 4df3cd2f-0699-4e12-b766-67a4065845b7, auth: 4df3cd2f-0699-4e12-b766-67a4065845b7, sni: xg.xfy003.cfd, up: 50, down: 100, skip-cert-verify: false, obfs: salamander, obfs-password: zTCsHcttqdA0PniW, udp: true}
   - {name: 🇭🇰 香港, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 🇭🇰 香港2, server: 156.251.179.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港3, server: 149.104.15.178, port: 21201, client-fingerprint: chrome, type: vmess, uuid: e43b6c20-2f61-4e8c-a692-c737fa5cfa0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
@@ -518,6 +516,8 @@ proxies:
   - {name: 🇺🇸 美国 084, server: openai.com, port: 443, client-fingerprint: randomized, type: vless, uuid: 101e6a7d-7d10-4859-a626-8a76daab4547, tls: true, servername: nkAnG2rEpLACE.airlineSHoma.Com, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: nkAnG2rEpLACE.airlineSHoma.Com}}, udp: true}
   - {name: 🇺🇸 美国 085, server: light-presence.oneeat.co, port: 80, client-fingerprint: chrome, type: vless, uuid: 7e74ff43-3a90-48b3-8372-7d92a045c2d4, tls: false, network: ws, ws-opts: {path: /, headers: {Host: light-presence.oneeat.co}}, udp: true}
   - {name: 🇺🇸 美国 086, server: 45.82.251.180, port: 8880, client-fingerprint: chrome, type: vless, uuid: e4824193-4f54-453b-d037-88368e85ef0e, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.144.174.60, port: 23176, client-fingerprint: chrome, type: vmess, uuid: ba414bbb-6fca-44f8-a097-b8f50aeb406e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.180.249.177, port: 8443, client-fingerprint: chrome, type: trojan, password: installshield, sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司, server: 198.46.152.83, port: 443, client-fingerprint: chrome, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: sj3.freeguard.org, udp: true}
   - {name: 🇺🇸 美国2, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-hDcp24etDx.download.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-XAa9x2cfsM.download.microsoft.com}, udp: true}
@@ -858,7 +858,6 @@ proxy-groups:
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】35
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】37
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】43
-      - 🇨🇳 江苏省 移动
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
@@ -915,7 +914,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - rainbow network limited - 12
       - 🇭🇰 中国 - 香港 - rainbow network limited - 9
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -1212,6 +1210,8 @@ proxy-groups:
       - 🇺🇸 美国 084
       - 🇺🇸 美国 085
       - 🇺🇸 美国 086
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
@@ -1527,7 +1527,6 @@ proxy-groups:
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】35
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】37
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】43
-      - 🇨🇳 江苏省 移动
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
@@ -1584,7 +1583,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - rainbow network limited - 12
       - 🇭🇰 中国 - 香港 - rainbow network limited - 9
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -1881,6 +1879,8 @@ proxy-groups:
       - 🇺🇸 美国 084
       - 🇺🇸 美国 085
       - 🇺🇸 美国 086
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
@@ -2102,7 +2102,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - rainbow network limited - 12
       - 🇭🇰 中国 - 香港 - rainbow network limited - 9
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -2206,14 +2205,12 @@ proxy-groups:
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】35
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】37
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】43
-      - 🇨🇳 江苏省 移动
       - 🇭🇰 HK_speednode_0014
       - 🇭🇰 中国 - 香港 - rainbow network limited - 10
       - 🇭🇰 中国 - 香港 - rainbow network limited - 11
       - 🇭🇰 中国 - 香港 - rainbow network limited - 12
       - 🇭🇰 中国 - 香港 - rainbow network limited - 9
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -2454,6 +2451,8 @@ proxy-groups:
       - 🇺🇸 美国 084
       - 🇺🇸 美国 085
       - 🇺🇸 美国 086
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
@@ -2828,7 +2827,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - rainbow network limited - 12
       - 🇭🇰 中国 - 香港 - rainbow network limited - 9
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -2926,14 +2924,12 @@ proxy-groups:
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】35
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】37
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】43
-      - 🇨🇳 江苏省 移动
       - 🇭🇰 HK_speednode_0014
       - 🇭🇰 中国 - 香港 - rainbow network limited - 10
       - 🇭🇰 中国 - 香港 - rainbow network limited - 11
       - 🇭🇰 中国 - 香港 - rainbow network limited - 12
       - 🇭🇰 中国 - 香港 - rainbow network limited - 9
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -3165,6 +3161,8 @@ proxy-groups:
       - 🇺🇸 美国 084
       - 🇺🇸 美国 085
       - 🇺🇸 美国 086
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国 纽约州伊利县威廉斯维尔村ColoCrossing有限公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian

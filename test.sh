@@ -624,6 +624,9 @@ if [ -f "./clash.yaml" ]; then
     current_server=""
     proxy_content=""
     
+    # 添加调试信息
+    echo "开始处理clash.yaml文件..." >&2
+    
     while IFS= read -r line; do
         # 检查是否是proxies部分开始
         if echo "$line" | grep -q "^proxies:$"; then
@@ -632,6 +635,7 @@ if [ -f "./clash.yaml" ]; then
             in_proxies_list=0
             in_url_test_group=0
             echo "$line"
+            echo "进入proxies部分" >&2
             continue
         fi
         
@@ -642,6 +646,9 @@ if [ -f "./clash.yaml" ]; then
             in_proxies_list=0
             in_url_test_group=0
             echo "$line"
+            echo "进入proxy-groups部分" >&2
+            # 输出删除的节点名称用于调试
+            echo "删除的节点名称: $deleted_names" >&2
             continue
         fi
         
@@ -670,20 +677,26 @@ if [ -f "./clash.yaml" ]; then
                             # 记录有效的节点名称
                             if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
                                 node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                                # 使用引号包围节点名称以处理特殊字符
                                 valid_names="$valid_names \"$node_name\""
+                                echo "添加有效节点: \"$node_name\"" >&2
                             fi
                         else
                             # 记录被删除的重复节点名称
                             if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
                                 node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                                # 使用引号包围节点名称以处理特殊字符
                                 deleted_names="$deleted_names \"$node_name\""
+                                echo "删除重复节点: \"$node_name\"" >&2
                             fi
                         fi
                     else
                         # 记录被删除的无效节点名称
                         if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
                             node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                            # 使用引号包围节点名称以处理特殊字符
                             deleted_names="$deleted_names \"$node_name\""
+                            echo "删除无效节点: \"$node_name\" (cipher或password为空)" >&2
                         fi
                     fi
                 fi
@@ -749,20 +762,26 @@ $line"
                         # 记录有效的节点名称
                         if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
                             node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                            # 使用引号包围节点名称以处理特殊字符
                             valid_names="$valid_names \"$node_name\""
+                            echo "添加有效节点: \"$node_name\"" >&2
                         fi
                     else
                         # 记录被删除的重复节点名称
                         if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
                             node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                            # 使用引号包围节点名称以处理特殊字符
                             deleted_names="$deleted_names \"$node_name\""
+                            echo "删除重复节点: \"$node_name\"" >&2
                         fi
                     fi
                 elif [ $in_current_proxy -eq 1 ] && [ $remove_current -eq 1 ]; then
                     # 记录被删除的无效节点名称
                     if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
                         node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                        # 使用引号包围节点名称以处理特殊字符
                         deleted_names="$deleted_names \"$node_name\""
+                        echo "删除无效节点: \"$node_name\" (cipher或password为空)" >&2
                     fi
                 fi
                 
@@ -784,6 +803,7 @@ $line"
             if echo "$line" | grep -q "^  name:"; then
                 in_proxies_list=0
                 echo "$line"
+                echo "发现新的proxy-group" >&2
                 continue
             fi
             
@@ -791,6 +811,7 @@ $line"
             if echo "$line" | grep -q "^  type: url-test"; then
                 in_url_test_group=1
                 echo "$line"
+                echo "当前group类型为url-test" >&2
                 continue
             fi
             
@@ -798,6 +819,7 @@ $line"
             if echo "$line" | grep -q "^    proxies:$"; then
                 in_proxies_list=1
                 echo "$line"
+                echo "进入proxies列表" >&2
                 continue
             fi
             
@@ -819,7 +841,10 @@ $line"
                     if [ -n "$proxy_name" ]; then
                         # 使用引号包围proxy_name以处理特殊字符，并检查是否在删除列表中
                         if echo "$deleted_names" | grep -q "\"$proxy_name\""; then
+                            echo "从url-test组中移除无效引用: \"$proxy_name\"" >&2
                             continue
+                        else
+                            echo "保留url-test组中的引用: \"$proxy_name\"" >&2
                         fi
                     fi
                     echo "$line"
@@ -830,6 +855,7 @@ $line"
                     if echo "$line" | grep -q "^    [a-z]"; then
                         in_proxies_list=0
                         in_url_test_group=0
+                        echo "退出proxies列表和url-test组" >&2
                     fi
                 fi
             # 如果在其他组的proxies列表中或者不是proxies列表条目
@@ -842,6 +868,7 @@ $line"
                     # 重置proxies列表标记
                     if echo "$line" | grep -q "^    [a-z]"; then
                         in_proxies_list=0
+                        echo "退出proxies列表" >&2
                     fi
                 fi
                 echo "$line"
@@ -852,6 +879,7 @@ $line"
             if echo "$line" | grep -q "^  [a-z]"; then
                 in_proxies_list=0
                 in_url_test_group=0
+                echo "重置group状态" >&2
             fi
             
             echo "$line"

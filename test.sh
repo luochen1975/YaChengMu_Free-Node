@@ -764,7 +764,7 @@ $line"
         
         # 处理proxy-groups部分
         if [ $in_proxy_groups -eq 1 ]; then
-            # 检查是否是proxies列表中的条目
+            # 检查是否是proxies属性下的列表条目
             if echo "$line" | grep -q "^      - "; then
                 # 提取proxy名称
                 proxy_name=""
@@ -782,8 +782,6 @@ $line"
                         continue
                     fi
                 fi
-                echo "$line"
-                continue
             fi
             echo "$line"
             continue

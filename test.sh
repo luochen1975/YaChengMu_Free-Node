@@ -767,6 +767,13 @@ $line"
         
         # 处理proxy-groups部分
         if [ $in_proxy_groups -eq 1 ]; then
+            # 检查是否是group定义开始（以name:开头且前面有2个空格）
+            if echo "$line" | grep -q "^  name:"; then
+                in_proxies_list=0
+                echo "$line"
+                continue
+            fi
+            
             # 检查是否是proxies属性开始
             if echo "$line" | grep -q "^    proxies:$"; then
                 in_proxies_list=1

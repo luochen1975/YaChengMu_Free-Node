@@ -598,134 +598,120 @@ if [ -f "./clash.yaml" ]; then
     # 创建临时文件
     temp_file=$(mktemp)
     
-    # 标记是否在proxy节点内
-    in_proxy=0
-    # 标记是否需要删除当前节点
-    remove_current=0
-    
-    while IFS= read -r line; do
-        # 检查是否进入proxies部分
-        if echo "$line" | grep -q "^proxies:"; then
-            in_proxy=1
-            echo "$line"
-            continue
-        fi
-        
-        # 如果在proxies部分内
-        if [ $in_proxy -eq 1 ]; then
-            # 检查是否是新节点的开始（通常是- {name: ...）
-            if echo "$line" | grep -q "^  - \|^  -" && echo "$line" | grep -q "name:"; then
-                # 新节点开始，重置删除标记
-                remove_current=0
-                
-                # 检查是否包含 cipher: "" 或 password: ""
-                if echo "$line" | grep -q "cipher: \"\"" || echo "$line" | grep -q "password: \"\""; then
-                    remove_current=1
-                    continue  # 跳过这个节点
-                fi
-            fi
-            
-            # 如果当前节点需要删除，跳过
-            if [ $remove_current -eq 1 ]; then
-                # 检查是否是下一个节点的开始或者结束
-                if echo "$line" | grep -q "^  - \|^  -" && echo "$line" | grep -q "name:"; then
-                    remove_current=0
-                    # 检查这个新节点是否也需要删除
-                    if echo "$line" | grep -q "cipher: \"\"" || echo "$line" | grep -q "password: \"\""; then
-                        remove_current=1
-                        continue
-                    fi
-                else
-                    continue
-                fi
-            fi
-            
-            # 检查当前行是否包含 cipher: "" 或 password: ""
-            if echo "$line" | grep -q "cipher: \"\"" || echo "$line" | grep -q "password: \"\""; then
-                remove_current=1
-                continue
-            fi
-        fi
-        
-        # 输出不需要删除的行
-        if [ $remove_current -eq 0 ]; then
-            echo "$line"
-        fi
-    done < ./clash.yaml > "$temp_file"
-    
-    # IP去重功能
-    # 提取节点部分并去重
+    # 使用更准确的节点解析和去重方法
     awk '
     BEGIN { 
         in_proxy = 0
         in_current_proxy = 0
-        ip_list[""] = 1
+        proxy_content = ""
+        current_ip = ""
+        ip_count[0] = 0
     }
-    /^proxies:/ { 
+    
+    # 检查是否是proxies部分开始
+    /^proxies:$/ { 
         in_proxy = 1
         print $0
         next
     }
-    in_proxy == 1 && /^  -/ { 
+    
+    # 处理非proxies部分
+    in_proxy == 0 {
+        print $0
+        next
+    }
+    
+    # proxies部分处理逻辑
+    in_proxy == 1 && /^[ ]{2,}-/ { 
+        # 新节点开始
+        if (in_current_proxy == 1) {
+            # 处理上一个节点
+            if (remove_current == 0) {
+                # 检查是否已存在相同IP的节点
+                if (current_ip == "" || ip_count[current_ip] == 0) {
+                    # IP未出现过，输出节点并记录IP
+                    printf "%s", proxy_content
+                    if (current_ip != "") {
+                        ip_count[current_ip] = 1
+                    }
+                }
+            }
+        }
+        
+        # 重置状态以处理新节点
         in_current_proxy = 1
         proxy_content = $0 "\n"
+        current_ip = ""
+        remove_current = 0
+        
+        # 检查是否包含 cipher: "" 或 password: ""
+        if (index($0, "cipher: \"\"") > 0 || index($0, "password: \"\"") > 0) {
+            remove_current = 1
+        }
+        
         # 尝试提取IP
         if (match($0, /server: ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/, arr)) {
             current_ip = arr[1]
-        } else if (match($0, /server: ([a-zA-Z0-9][-a-zA-Z0-9.]*[a-zA-Z0-9])/, arr)) {
-            current_ip = arr[1]
-        } else {
-            current_ip = ""
         }
-        next
+        下一处
     }
-    in_current_proxy == 1 && /^ {4,}/ {
-        proxy_content = proxy_content $0 "\n"
-        if (current_ip != "" && (match($0, /server: ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/, arr) || match($0, /server: ([a-zA-Z0-9][-a-zA-Z0-9.]*[a-zA-Z0-9])/, arr))) {
-            current_ip = arr[1]
-        }
-        next
-    }
-    in_current_proxy == 1 {
-        # 节点结束，检查是否应该保留
-        if (current_ip == "" || ! (current_ip in ip_list)) {
-            if (current_ip != "") {
-                ip_list[current_ip] = 1
-            }
-            printf "%s", proxy_content
-        }
-        in_current_proxy = 0
-        proxy_content = ""
-        
-        # 处理新的节点开始或者结束
-        if (/^  -/ && match($0, /name:/)) {
-            in_current_proxy = 1
-            proxy_content = $0 "\n"
-            if (match($0, /server: ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/, arr)) {
-                current_ip = arr[1]
-            } else if (match($0, /server: ([a-zA-Z0-9][-a-zA-Z0-9.]*[a-zA-Z0-9])/, arr)) {
-                current_ip = arr[1]
-            } else {
-                current_ip = ""
-            }
-        } else {
-            in_proxy = 0
-            print $0
-        }
-        next
-    }
-    in_proxy == 0 { print $0 }
-    ' "$temp_file" > ./clash.yaml
     
-    rm -f "$temp_file"
+    # 在节点内容中
+    in_current_proxy == 1 && in_proxy == 1 {
+        proxy_content = proxy_content $0 "\n"
+        
+        # 继续检查是否需要删除当前节点
+        if (remove_current == 0 && (index($0, "cipher: \"\"") > 0 || index($0, "password: \"\"") > 0)) {
+            remove_current = 1
+        }
+        
+        # 继续尝试提取IP
+        if (current_ip == "" && match($0, /server: ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/, arr)) {
+            current_ip = arr[1]
+        }
+        next
+    }
+    
+    # proxies部分结束
+    in_proxy == 1 && /^[^ ]/ {
+        # 处理最后一个节点
+        if (in_current_proxy == 1 && remove_current == 0) {
+            if (current_ip == "" || ip_count[current_ip] == 0) {
+                printf "%s", proxy_content
+                if (current_ip != "") {
+                    ip_count[current_ip] = 1
+                }
+            }
+        }
+        
+        # 结束proxies部分处理
+        in_proxy = 0
+        in_current_proxy = 0
+        print $0
+        下一处
+    }
+    
+    # 默认输出（处理剩下的行）
+    {
+        print $0
+    }
+    
+    END {
+        # 处理文件末尾的最后一个节点
+        if (in_current_proxy == 1 && remove_current == 0) {
+            if (current_ip == "" || ip_count[current_ip] == 0) {
+                printf "%s", proxy_content
+                if (current_ip != "") {
+                    ip_count[current_ip] = 1
+                }
+            }
+        }
+    }
+    ' ./clash.yaml > "$temp_file"
+    
+    # 移动临时文件到原文件
+    mv "$temp_file" ./clash.yaml
     echo "Clash配置已清理完成"
 fi
 
 echo "========== 任务完成 =========="
-echo "生成的文件:"
-echo "1. clash.yaml - Clash配置文件"
-echo "2. v2ray.txt - V2Ray配置文件"
-echo "3. clash_subscribe_url.txt - Clash订阅链接"
-echo ""
-echo "可以使用以下命令查看完整的订阅链接:"
-echo "cat ./clash_subscribe_url.txt"

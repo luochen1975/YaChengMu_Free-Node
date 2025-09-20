@@ -599,7 +599,7 @@ if [ -f "./clash.yaml" ]; then
     temp_file=$(mktemp)
     
     # 使用更准确的节点解析和去重方法
-    awk '
+    LC_ALL=C.UTF-8 awk '
     BEGIN { 
         in_proxy = 0
         in_proxy_groups = 0

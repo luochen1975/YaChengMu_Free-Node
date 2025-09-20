@@ -862,6 +862,8 @@ $line"
                         echo "退出proxies列表和url-test组" >&2
                     fi
                 fi
+                echo "$line"
+                continue
             # 如果在其他组的proxies列表中或者不是proxies列表条目
             elif [ "$in_proxies_list" = "1" ]; then
                 # 检查是否是proxies列表条目

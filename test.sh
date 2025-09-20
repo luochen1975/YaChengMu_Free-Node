@@ -593,7 +593,7 @@ else
 fi
 
 echo "========== 清理无效节点并去重 =========="
-# 删除clash配置中cipher: "" 和 password: "" 的节点
+# 删除clash配置中cipher: "" 和 password: "" 的节点，并按IP去重
 if [ -f "./clash.yaml" ]; then
     # 创建临时文件
     temp_file=$(mktemp)
@@ -605,7 +605,11 @@ if [ -f "./clash.yaml" ]; then
         in_current_proxy = 0
         proxy_content = ""
         current_ip = ""
-        ip_count[0] = 0
+        # 初始化IP计数数组
+        for (i = 0; i < 10000; i++) {
+            ip_seen[i] = 0
+        }
+        ip_index = 0
     }
     
     # 检查是否是proxies部分开始
@@ -621,18 +625,29 @@ if [ -f "./clash.yaml" ]; then
         next
     }
     
-    # proxies部分处理逻辑
+    # proxies部分处理逻辑 - 新节点开始
     in_proxy == 1 && /^[ ]{2,}-/ { 
-        # 新节点开始
+        # 处理上一个节点（如果存在）
         if (in_current_proxy == 1) {
-            # 处理上一个节点
+            # 如果节点有效且未重复，则输出
             if (remove_current == 0) {
                 # 检查是否已存在相同IP的节点
-                if (current_ip == "" || ip_count[current_ip] == 0) {
+                is_duplicate = 0
+                if (current_ip != "") {
+                    for (idx = 0; idx < ip_index; idx++) {
+                        if (ip_list[idx] == current_ip) {
+                            is_duplicate = 1
+                            break
+                        }
+                    }
+                }
+                
+                if (is_duplicate == 0) {
                     # IP未出现过，输出节点并记录IP
                     printf "%s", proxy_content
                     if (current_ip != "") {
-                        ip_count[current_ip] = 1
+                        ip_list[ip_index] = current_ip
+                        ip_index++
                     }
                 }
             }
@@ -653,7 +668,7 @@ if [ -f "./clash.yaml" ]; then
         if (match($0, /server: ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/, arr)) {
             current_ip = arr[1]
         }
-        下一处
+        next
     }
     
     # 在节点内容中
@@ -673,13 +688,26 @@ if [ -f "./clash.yaml" ]; then
     }
     
     # proxies部分结束
-    in_proxy == 1 && /^[^ ]/ {
+    in_proxy == 1 && /^[^ ]/ && !/^[ ]/ {
         # 处理最后一个节点
         if (in_current_proxy == 1 && remove_current == 0) {
-            if (current_ip == "" || ip_count[current_ip] == 0) {
+            # 检查是否已存在相同IP的节点
+            is_duplicate = 0
+            if (current_ip != "") {
+                for (idx = 0; idx < ip_index; idx++) {
+                    if (ip_list[idx] == current_ip) {
+                        is_duplicate = 1
+                        break
+                    }
+                }
+            }
+            
+            if (is_duplicate == 0) {
+                # IP未出现过，输出节点并记录IP
                 printf "%s", proxy_content
                 if (current_ip != "") {
-                    ip_count[current_ip] = 1
+                    ip_list[ip_index] = current_ip
+                    ip_index++
                 }
             }
         }
@@ -688,21 +716,40 @@ if [ -f "./clash.yaml" ]; then
         in_proxy = 0
         in_current_proxy = 0
         print $0
-        下一处
+        next
     }
     
     # 默认输出（处理剩下的行）
     {
-        print $0
+        if (in_proxy == 1) {
+            # 仍在proxies部分内部但不是节点定义的行
+            print $0
+        } else {
+            # 不在proxies部分的行
+            print $0
+        }
     }
     
     END {
         # 处理文件末尾的最后一个节点
         if (in_current_proxy == 1 && remove_current == 0) {
-            if (current_ip == "" || ip_count[current_ip] == 0) {
+            # 检查是否已存在相同IP的节点
+            is_duplicate = 0
+            if (current_ip != "") {
+                for (idx = 0; idx < ip_index; idx++) {
+                    if (ip_list[idx] == current_ip) {
+                        is_duplicate = 1
+                        break
+                    }
+                }
+            }
+            
+            if (is_duplicate == 0) {
+                # IP未出现过，输出节点并记录IP
                 printf "%s", proxy_content
                 if (current_ip != "") {
-                    ip_count[current_ip] = 1
+                    ip_list[ip_index] = current_ip
+                    ip_index++
                 }
             }
         }

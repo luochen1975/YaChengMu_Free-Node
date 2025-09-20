@@ -602,6 +602,7 @@ if [ -f "./clash.yaml" ]; then
     awk '
     BEGIN { 
         in_proxy = 0
+        in_proxy_groups = 0
         in_current_proxy = 0
         proxy_content = ""
         current_server = ""
@@ -615,21 +616,178 @@ if [ -f "./clash.yaml" ]; then
     # 检查是否是proxies部分开始
     /^proxies:$/ { 
         in_proxy = 1
+        in_proxy_groups = 0
         print $0
         next
     }
     
-    # 处理非proxies部分
-    in_proxy == 0 {
+    # 检查是否是proxy-groups部分开始
+    /^proxy-groups:$/ {
+        in_proxy = 0
+        in_proxy_groups = 1
         print $0
         next
     }
     
-    # proxies部分处理逻辑 - 新节点开始
-    in_proxy == 1 && /^[ ]{2,}-/ { 
-        # 处理上一个节点（如果存在）
+    # 处理proxies部分
+    in_proxy == 1 {
+        # proxies部分处理逻辑 - 新节点开始
+        if (/^[ ]{2,}-/) { 
+            # 处理上一个节点（如果存在）
+            if (in_current_proxy == 1) {
+                # 如果节点有效且未重复，则输出
+                if (remove_current == 0) {
+                    # 检查是否已存在相同server的节点
+                    is_duplicate = 0
+                    if (current_server != "") {
+                        for (idx = 0; idx < server_index; idx++) {
+                            if (server_list[idx] == current_server) {
+                                is_duplicate = 1
+                                break
+                            }
+                        }
+                    }
+                    
+                    if (is_duplicate == 0) {
+                        # server未出现过，输出节点并记录server
+                        printf "%s", proxy_content
+                        if (current_server != "") {
+                            server_list[server_index] = current_server
+                            server_index++
+                            # 记录有效的节点名称
+                            if (match(proxy_content, /name: ([^,} ]+)/, name_arr)) {
+                                valid_names[name_arr[1]] = 1
+                            }
+                        }
+                    } else {
+                        # 记录被删除的重复节点名称，用于后续清理
+                        if (match(proxy_content, /name: ([^,} ]+)/, name_arr)) {
+                            deleted_names[name_arr[1]] = 1
+                        }
+                    }
+                } else {
+                    # 记录被删除的无效节点名称，用于后续清理
+                    if (match(proxy_content, /name: ([^,} ]+)/, name_arr)) {
+                        deleted_names[name_arr[1]] = 1
+                    }
+                }
+            }
+            
+            # 重置状态以处理新节点
+            in_current_proxy = 1
+            proxy_content = $0 "\n"
+            current_server = ""
+            remove_current = 0
+            
+            # 检查是否包含 cipher: "" 或 password: ""
+            if (index($0, "cipher: \"\"") > 0 || index($0, "password: \"\"") > 0) {
+                remove_current = 1
+            }
+            
+            # 尝试提取server
+            if (match($0, /server: ([^,} ]+)/, arr)) {
+                current_server = arr[1]
+            }
+            next
+        }
+        
+        # 在节点内容中
         if (in_current_proxy == 1) {
-            # 如果节点有效且未重复，则输出
+            proxy_content = proxy_content $0 "\n"
+            
+            # 继续检查是否需要删除当前节点
+            if (remove_current == 0 && (index($0, "cipher: \"\"") > 0 || index($0, "password: \"\"") > 0)) {
+                remove_current = 1
+            }
+            
+            # 继续尝试提取server
+            if (current_server == "" && match($0, /server: ([^,} ]+)/, arr)) {
+                current_server = arr[1]
+            }
+            next
+        }
+        
+        # proxies部分结束
+        if (/^[^ ]/ && !/^[ ]/) {
+            # 处理最后一个节点
+            if (in_current_proxy == 1 && remove_current == 0) {
+                # 检查是否已存在相同server的节点
+                is_duplicate = 0
+                if (current_server != "") {
+                    for (idx = 0; idx < server_index; idx++) {
+                        if (server_list[idx] == current_server) {
+                            is_duplicate = 1
+                            break
+                        }
+                    }
+                }
+                
+                if (is_duplicate == 0) {
+                    # server未出现过，输出节点并记录server
+                    printf "%s", proxy_content
+                    if (current_server != "") {
+                        server_list[server_index] = current_server
+                        server_index++
+                        # 记录有效的节点名称
+                        if (match(proxy_content, /name: ([^,} ]+)/, name_arr)) {
+                            valid_names[name_arr[1]] = 1
+                        }
+                    }
+                } else {
+                    # 记录被删除的重复节点名称，用于后续清理
+                    if (match(proxy_content, /name: ([^,} ]+)/, name_arr)) {
+                        deleted_names[name_arr[1]] = 1
+                    }
+                }
+            } else if (in_current_proxy == 1 && remove_current == 1) {
+                # 记录被删除的无效节点名称，用于后续清理
+                if (match(proxy_content, /name: ([^,} ]+)/, name_arr)) {
+                    deleted_names[name_arr[1]] = 1
+                }
+            }
+            
+            # 结束proxies部分处理
+            in_proxy = 0
+            in_current_proxy = 0
+            print $0
+            next
+        }
+        
+        # proxies部分的其他行
+        print $0
+        next
+    }
+    
+    # 处理proxy-groups部分
+    in_proxy_groups == 1 {
+        # 检查是否是proxies列表中的条目
+        if (/^[ ]{6,}- / || /^[ ]{6,}-\{/) {
+            # 提取proxy名称
+            proxy_name = ""
+            if (match($0, /^[ ]{6,}- ([^#]+)/, arr)) {
+                proxy_name = arr[1]
+                gsub(/^[ ]+|[ ]+$/, "", proxy_name)  # 去除前后空格
+            } else if (match($0, /^[ ]{6,}-\{name: ([^,} ]+)/, arr)) {
+                proxy_name = arr[1]
+            }
+            
+            # 如果这个proxy名称已被删除，则跳过不输出
+            if (proxy_name != "" && (deleted_names[proxy_name] == 1)) {
+                下一处
+            }
+        }
+        print $0
+        next
+    }
+    
+    # 处理其他部分
+    {
+        print $0
+    }
+    
+    END {
+        # 处理文件末尾的最后一个节点
+        if (in_current_proxy == 1) {
             if (remove_current == 0) {
                 # 检查是否已存在相同server的节点
                 is_duplicate = 0
@@ -648,108 +806,21 @@ if [ -f "./clash.yaml" ]; then
                     if (current_server != "") {
                         server_list[server_index] = current_server
                         server_index++
+                        # 记录有效的节点名称
+                        if (match(proxy_content, /name: ([^,} ]+)/, name_arr)) {
+                            valid_names[name_arr[1]] = 1
+                        }
+                    }
+                } else {
+                    # 记录被删除的重复节点名称，用于后续清理
+                    if (match(proxy_content, /name: ([^,} ]+)/, name_arr)) {
+                        deleted_names[name_arr[1]] = 1
                     }
                 }
-            }
-        }
-        
-        # 重置状态以处理新节点
-        in_current_proxy = 1
-        proxy_content = $0 "\n"
-        current_server = ""
-        remove_current = 0
-        
-        # 检查是否包含 cipher: "" 或 password: ""
-        if (index($0, "cipher: \"\"") > 0 || index($0, "password: \"\"") > 0) {
-            remove_current = 1
-        }
-        
-        # 尝试提取server
-        if (match($0, /server: ([^,} ]+)/, arr)) {
-            current_server = arr[1]
-        }
-        next
-    }
-    
-    # 在节点内容中
-    in_current_proxy == 1 && in_proxy == 1 {
-        proxy_content = proxy_content $0 "\n"
-        
-        # 继续检查是否需要删除当前节点
-        if (remove_current == 0 && (index($0, "cipher: \"\"") > 0 || index($0, "password: \"\"") > 0)) {
-            remove_current = 1
-        }
-        
-        # 继续尝试提取server
-        if (current_server == "" && match($0, /server: ([^,} ]+)/, arr)) {
-            current_server = arr[1]
-        }
-        next
-    }
-    
-    # proxies部分结束
-    in_proxy == 1 && /^[^ ]/ && !/^[ ]/ {
-        # 处理最后一个节点
-        if (in_current_proxy == 1 && remove_current == 0) {
-            # 检查是否已存在相同server的节点
-            is_duplicate = 0
-            if (current_server != "") {
-                for (idx = 0; idx < server_index; idx++) {
-                    if (server_list[idx] == current_server) {
-                        is_duplicate = 1
-                        break
-                    }
-                }
-            }
-            
-            if (is_duplicate == 0) {
-                # server未出现过，输出节点并记录server
-                printf "%s", proxy_content
-                if (current_server != "") {
-                    server_list[server_index] = current_server
-                    server_index++
-                }
-            }
-        }
-        
-        # 结束proxies部分处理
-        in_proxy = 0
-        in_current_proxy = 0
-        print $0
-        next
-    }
-    
-    # 默认输出（处理剩下的行）
-    {
-        if (in_proxy == 1) {
-            # 仍在proxies部分内部但不是节点定义的行
-            print $0
-        } else {
-            # 不在proxies部分的行
-            print $0
-        }
-    }
-    
-    END {
-        # 处理文件末尾的最后一个节点
-        if (in_current_proxy == 1 && remove_current == 0) {
-            # 检查是否已存在相同server的节点
-            is_duplicate = 0
-            if (current_server != "") {
-                for (idx = 0; idx < server_index; idx++) {
-                    if (server_list[idx] == current_server) {
-                        is_duplicate = 1
-                        break
-                    }
-                }
-            }
-            
-            if (is_duplicate == 0) {
-                # server未出现过，输出节点并记录server
-                printf "%s", proxy_content
-                if (current_server != "") {
-                    server_list[server_index] = current_server
-                    server_index++
+            } else {
+                # 记录被删除的无效节点名称，用于后续清理
+                if (match(proxy_content, /name: ([^,} ]+)/, name_arr)) {
+                    deleted_names[name_arr[1]] = 1
                 }
             }
         }

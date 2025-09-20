@@ -603,6 +603,7 @@ if [ -f "./clash.yaml" ]; then
     in_proxy=0
     in_proxy_groups=0
     in_current_proxy=0
+    in_proxies_list=0
     remove_current=0
     current_server=""
     proxy_content=""
@@ -617,6 +618,7 @@ if [ -f "./clash.yaml" ]; then
         if echo "$line" | grep -q "^proxies:$"; then
             in_proxy=1
             in_proxy_groups=0
+            in_proxies_list=0
             echo "$line"
             continue
         fi
@@ -625,6 +627,7 @@ if [ -f "./clash.yaml" ]; then
         if echo "$line" | grep -q "^proxy-groups:$"; then
             in_proxy=0
             in_proxy_groups=1
+            in_proxies_list=0
             echo "$line"
             continue
         fi
@@ -764,22 +767,40 @@ $line"
         
         # 处理proxy-groups部分
         if [ $in_proxy_groups -eq 1 ]; then
-            # 检查是否是proxies属性下的列表条目
-            if echo "$line" | grep -q "^      - "; then
-                # 提取proxy名称
-                proxy_name=""
-                if echo "$line" | grep -q "^      - [^{]"; then
-                    # 处理普通格式: "      - ProxyName"
-                    proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ .*//' | sed 's/#.*//' | sed 's/ *$//')
-                elif echo "$line" | grep -q "^      -{name:"; then
-                    # 处理内联格式: "      - {name: ProxyName, ...}"
-                    proxy_name=$(echo "$line" | grep -o "name: [^,} ]*" | head -1 | cut -d" " -f2)
-                fi
-                
-                # 如果这个proxy名称已被删除，则跳过不输出
-                if [ -n "$proxy_name" ]; then
-                    if echo " $deleted_names " | grep -q " $proxy_name "; then
-                        continue
+            # 检查是否是proxies属性开始
+            if echo "$line" | grep -q "^    proxies:$"; then
+                in_proxies_list=1
+                echo "$line"
+                continue
+            fi
+            
+            # 如果在proxies列表中
+            if [ "$in_proxies_list" = "1" ]; then
+                # 检查是否是proxies列表条目
+                if echo "$line" | grep -q "^      - "; then
+                    # 提取proxy名称
+                    proxy_name=""
+                    if echo "$line" | grep -q "^      - [^{]"; then
+                        # 处理普通格式: "      - ProxyName"
+                        proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ .*//' | sed 's/#.*//' | sed 's/ *$//')
+                    elif echo "$line" | grep -q "^      -{name:"; then
+                        # 处理内联格式: "      - {name: ProxyName, ...}"
+                        proxy_name=$(echo "$line" | grep -o "name: [^,} ]*" | head -1 | cut -d" " -f2)
+                    fi
+                    
+                    # 如果这个proxy名称已被删除，则跳过不输出
+                    if [ -n "$proxy_name" ]; then
+                        if echo " $deleted_names " | grep -q " $proxy_name "; then
+                            continue
+                        fi
+                    fi
+                    echo "$line"
+                    continue
+                else
+                    # 不是proxies列表条目，可能是结束或其他属性
+                    # 重置proxies列表标记
+                    if echo "$line" | grep -q "^    [a-z]"; then
+                        in_proxies_list=0
                     fi
                 fi
             fi

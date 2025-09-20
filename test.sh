@@ -614,6 +614,16 @@ if [ -f "./clash.yaml" ]; then
     valid_names=""
     deleted_names=""
     
+    # 初始化所有状态变量
+    in_proxy=0
+    in_proxy_groups=0
+    in_current_proxy=0
+    in_proxies_list=0
+    in_url_test_group=0
+    remove_current=0
+    current_server=""
+    proxy_content=""
+    
     while IFS= read -r line; do
         # 检查是否是proxies部分开始
         if echo "$line" | grep -q "^proxies:$"; then
@@ -658,21 +668,21 @@ if [ -f "./clash.yaml" ]; then
                                 servers_seen="$servers_seen $current_server"
                             fi
                             # 记录有效的节点名称
-                            if echo "$proxy_content" | grep -o "name: [^,} ]*" | head -1 | grep -q "name:"; then
-                                node_name=$(echo "$proxy_content" | grep -o "name: [^,} ]*" | head -1 | cut -d" " -f2)
+                            if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
+                                node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
                                 valid_names="$valid_names $node_name"
                             fi
                         else
                             # 记录被删除的重复节点名称
-                            if echo "$proxy_content" | grep -o "name: [^,} ]*" | head -1 | grep -q "name:"; then
-                                node_name=$(echo "$proxy_content" | grep -o "name: [^,} ]*" | head -1 | cut -d" " -f2)
+                            if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
+                                node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
                                 deleted_names="$deleted_names $node_name"
                             fi
                         fi
                     else
                         # 记录被删除的无效节点名称
-                        if echo "$proxy_content" | grep -o "name: [^,} ]*" | head -1 | grep -q "name:"; then
-                            node_name=$(echo "$proxy_content" | grep -o "name: [^,} ]*" | head -1 | cut -d" " -f2)
+                        if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
+                            node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
                             deleted_names="$deleted_names $node_name"
                         fi
                     fi
@@ -690,8 +700,8 @@ if [ -f "./clash.yaml" ]; then
                 fi
                 
                 # 尝试提取server
-                if echo "$line" | grep -o "server: [^,} ]*" | head -1 | grep -q "server:"; then
-                    current_server=$(echo "$line" | grep -o "server: [^,} ]*" | head -1 | cut -d" " -f2)
+                if echo "$line" | grep -o "server: [^,}]*" | head -1 | grep -q "server:"; then
+                    current_server=$(echo "$line" | grep -o "server: [^,}]*" | head -1 | cut -d" " -f2)
                 fi
                 continue
             fi
@@ -710,8 +720,8 @@ $line"
                 
                 # 继续尝试提取server
                 if [ -z "$current_server" ]; then
-                    if echo "$line" | grep -o "server: [^,} ]*" | head -1 | grep -q "server:"; then
-                        current_server=$(echo "$line" | grep -o "server: [^,} ]*" | head -1 | cut -d" " -f2)
+                    if echo "$line" | grep -o "server: [^,}]*" | head -1 | grep -q "server:"; then
+                        current_server=$(echo "$line" | grep -o "server: [^,}]*" | head -1 | cut -d" " -f2)
                     fi
                 fi
                 continue
@@ -737,21 +747,21 @@ $line"
                             servers_seen="$servers_seen $current_server"
                         fi
                         # 记录有效的节点名称
-                        if echo "$proxy_content" | grep -o "name: [^,} ]*" | head -1 | grep -q "name:"; then
-                            node_name=$(echo "$proxy_content" | grep -o "name: [^,} ]*" | head -1 | cut -d" " -f2)
+                        if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
+                            node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
                             valid_names="$valid_names $node_name"
                         fi
                     else
                         # 记录被删除的重复节点名称
-                        if echo "$proxy_content" | grep -o "name: [^,} ]*" | head -1 | grep -q "name:"; then
-                            node_name=$(echo "$proxy_content" | grep -o "name: [^,} ]*" | head -1 | cut -d" " -f2)
+                        if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
+                            node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
                             deleted_names="$deleted_names $node_name"
                         fi
                     fi
                 elif [ $in_current_proxy -eq 1 ] && [ $remove_current -eq 1 ]; then
                     # 记录被删除的无效节点名称
-                    if echo "$proxy_content" | grep -o "name: [^,} ]*" | head -1 | grep -q "name:"; then
-                        node_name=$(echo "$proxy_content" | grep -o "name: [^,} ]*" | head -1 | cut -d" " -f2)
+                    if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
+                        node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
                         deleted_names="$deleted_names $node_name"
                     fi
                 fi
@@ -802,7 +812,7 @@ $line"
                         proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ .*//' | sed 's/#.*//' | sed 's/ *$//')
                     elif echo "$line" | grep -q "^      -{name:"; then
                         # 处理内联格式: "      - {name: ProxyName, ...}"
-                        proxy_name=$(echo "$line" | grep -o "name: [^,} ]*" | head -1 | cut -d" " -f2)
+                        proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
                     fi
                     
                     # 如果这个proxy名称已被删除，则跳过不输出

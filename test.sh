@@ -858,8 +858,8 @@ $line"
                     continue
                 else
                     # 不是proxies列表条目，可能是结束或其他属性
-                    # 重置proxies列表标记（检测到非列表项且以2个空格开头的属性）
-                    if echo "$line" | grep -q "^  [a-zA-Z]" && ! echo "$line" | grep -q "^  proxies:$"; then
+                    # 重置proxies列表标记
+                    if echo "$line" | grep -q "^    [a-z]"; then
                         in_proxies_list=0
                         in_url_test_group=0
                         echo "退出proxies列表和url-test组" >&2

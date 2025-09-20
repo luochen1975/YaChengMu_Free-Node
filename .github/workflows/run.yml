@@ -4,7 +4,7 @@ name: Download The SUBSCRIBE
 on:
   workflow_dispatch:
   push:
-    分支:
+    branch:
       - main
   schedule:   
     - cron: '0 * * * *'   #国际标准时间，北京时间+8，即下午1点钟
@@ -30,6 +30,6 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          分支: main
+          branch: main
           force_with_lease: true
           directory: .

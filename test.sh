@@ -606,10 +606,6 @@ if [ -f "./clash.yaml" ]; then
         in_current_proxy = 0
         proxy_content = ""
         current_server = ""
-        # 初始化server计数数组
-        for (i = 0; i < 10000; i++) {
-            server_seen[i] = 0
-        }
         server_index = 0
     }
     

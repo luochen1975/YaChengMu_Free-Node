@@ -844,7 +844,7 @@ $line"
                     # 如果这个proxy名称已被删除，则跳过不输出
                     if [ -n "$proxy_name" ]; then
                         # 使用引号包围proxy_name以处理特殊字符，并检查是否在删除列表中
-                        if echo "$deleted_names" | grep -q "\"$proxy_name\""; then
+                        if echo " $deleted_names " | grep -q " \"$proxy_name\" "; then
                             echo "从url-test组中移除无效引用: \"$proxy_name\"" >&2
                             continue
                         else

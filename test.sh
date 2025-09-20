@@ -829,16 +829,19 @@ $line"
             
             # 如果在url-test组的proxies列表中
             if [ "$in_proxies_list" = "1" ] && [ "$in_url_test_group" = "1" ]; then
-                # 检查是否是proxies列表条目
-                if echo "$line" | grep -q "^      - "; then
+                # 检查是否是proxies列表条目（支持4个空格缩进）
+                if echo "$line" | grep -q "^    - "; then
                     # 提取proxy名称
                     proxy_name=""
-                    if echo "$line" | grep -q "^      - [^{]"; then
-                        # 处理普通格式: "      - ProxyName"
-                        proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ .*//' | sed 's/#.*//' | sed 's/ *$//')
-                    elif echo "$line" | grep -q "^      -{name:"; then
-                        # 处理内联格式: "      - {name: ProxyName, ...}"
+                    # 处理普通格式: "    - ProxyName"
+                    if echo "$line" | grep -q "^    - [^{]"; then
+                        proxy_name=$(echo "$line" | sed 's/^    - //' | sed 's/ .*//' | sed 's/#.*//' | sed 's/ *$//')
+                    # 处理内联格式: "    - {name: ProxyName, ...}"
+                    elif echo "$line" | grep -q "^    - {name:"; then
                         proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                    # 处理带引号的名称
+                    elif echo "$line" | grep -q "^    - \"[^\"]*\""; then
+                        proxy_name=$(echo "$line" | sed 's/^    - "\(.*\)".*/\1/')
                     fi
                     
                     # 如果这个proxy名称已被删除，则跳过不输出
@@ -855,8 +858,8 @@ $line"
                     continue
                 else
                     # 不是proxies列表条目，可能是结束或其他属性
-                    # 重置proxies列表标记
-                    if echo "$line" | grep -q "^    [a-z]"; then
+                    # 重置proxies列表标记（检测到非列表项且以2个空格开头的属性）
+                    if echo "$line" | grep -q "^  [a-zA-Z]" && ! echo "$line" | grep -q "^  proxies:$"; then
                         in_proxies_list=0
                         in_url_test_group=0
                         echo "退出proxies列表和url-test组" >&2
@@ -864,15 +867,15 @@ $line"
                 fi
                 echo "$line"
                 continue
-            # 如果在其他组的proxies列表中或者不是proxies列表条目
+            # 如果在其他组的proxies列表中
             elif [ "$in_proxies_list" = "1" ]; then
-                # 检查是否是proxies列表条目
-                if echo "$line" | grep -q "^      - "; then
+                # 检查是否是proxies列表条目（支持4个空格缩进）
+                if echo "$line" | grep -q "^    - "; then
                     echo "$line"
                     continue
                 else
-                    # 重置proxies列表标记
-                    if echo "$line" | grep -q "^    [a-z]"; then
+                    # 重置proxies列表标记（检测到非列表项且以2个空格开头的属性）
+                    if echo "$line" | grep -q "^  [a-zA-Z]" && ! echo "$line" | grep -q "^  proxies:$"; then
                         in_proxies_list=0
                         echo "退出proxies列表" >&2
                     fi

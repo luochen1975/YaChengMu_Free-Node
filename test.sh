@@ -593,7 +593,7 @@ else
 fi
 
 echo "========== 清理无效节点并去重 =========="
-# 删除clash配置中cipher: "" 和 password: "" 的节点，并按IP去重
+# 删除clash配置中cipher: "" 和 password: "" 的节点，并按server去重
 if [ -f "./clash.yaml" ]; then
     # 创建临时文件
     temp_file=$(mktemp)
@@ -604,12 +604,12 @@ if [ -f "./clash.yaml" ]; then
         in_proxy = 0
         in_current_proxy = 0
         proxy_content = ""
-        current_ip = ""
-        # 初始化IP计数数组
+        current_server = ""
+        # 初始化server计数数组
         for (i = 0; i < 10000; i++) {
-            ip_seen[i] = 0
+            server_seen[i] = 0
         }
-        ip_index = 0
+        server_index = 0
     }
     
     # 检查是否是proxies部分开始
@@ -631,11 +631,11 @@ if [ -f "./clash.yaml" ]; then
         if (in_current_proxy == 1) {
             # 如果节点有效且未重复，则输出
             if (remove_current == 0) {
-                # 检查是否已存在相同IP的节点
+                # 检查是否已存在相同server的节点
                 is_duplicate = 0
-                if (current_ip != "") {
-                    for (idx = 0; idx < ip_index; idx++) {
-                        if (ip_list[idx] == current_ip) {
+                if (current_server != "") {
+                    for (idx = 0; idx < server_index; idx++) {
+                        if (server_list[idx] == current_server) {
                             is_duplicate = 1
                             break
                         }
@@ -643,11 +643,11 @@ if [ -f "./clash.yaml" ]; then
                 }
                 
                 if (is_duplicate == 0) {
-                    # IP未出现过，输出节点并记录IP
+                    # server未出现过，输出节点并记录server
                     printf "%s", proxy_content
-                    if (current_ip != "") {
-                        ip_list[ip_index] = current_ip
-                        ip_index++
+                    if (current_server != "") {
+                        server_list[server_index] = current_server
+                        server_index++
                     }
                 }
             }
@@ -656,7 +656,7 @@ if [ -f "./clash.yaml" ]; then
         # 重置状态以处理新节点
         in_current_proxy = 1
         proxy_content = $0 "\n"
-        current_ip = ""
+        current_server = ""
         remove_current = 0
         
         # 检查是否包含 cipher: "" 或 password: ""
@@ -664,9 +664,9 @@ if [ -f "./clash.yaml" ]; then
             remove_current = 1
         }
         
-        # 尝试提取IP
-        if (match($0, /server: ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/, arr)) {
-            current_ip = arr[1]
+        # 尝试提取server
+        if (match($0, /server: ([^,} ]+)/, arr)) {
+            current_server = arr[1]
         }
         next
     }
@@ -680,9 +680,9 @@ if [ -f "./clash.yaml" ]; then
             remove_current = 1
         }
         
-        # 继续尝试提取IP
-        if (current_ip == "" && match($0, /server: ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/, arr)) {
-            current_ip = arr[1]
+        # 继续尝试提取server
+        if (current_server == "" && match($0, /server: ([^,} ]+)/, arr)) {
+            current_server = arr[1]
         }
         next
     }
@@ -691,11 +691,11 @@ if [ -f "./clash.yaml" ]; then
     in_proxy == 1 && /^[^ ]/ && !/^[ ]/ {
         # 处理最后一个节点
         if (in_current_proxy == 1 && remove_current == 0) {
-            # 检查是否已存在相同IP的节点
+            # 检查是否已存在相同server的节点
             is_duplicate = 0
-            if (current_ip != "") {
-                for (idx = 0; idx < ip_index; idx++) {
-                    if (ip_list[idx] == current_ip) {
+            if (current_server != "") {
+                for (idx = 0; idx < server_index; idx++) {
+                    if (server_list[idx] == current_server) {
                         is_duplicate = 1
                         break
                     }
@@ -703,11 +703,11 @@ if [ -f "./clash.yaml" ]; then
             }
             
             if (is_duplicate == 0) {
-                # IP未出现过，输出节点并记录IP
+                # server未出现过，输出节点并记录server
                 printf "%s", proxy_content
-                if (current_ip != "") {
-                    ip_list[ip_index] = current_ip
-                    ip_index++
+                if (current_server != "") {
+                    server_list[server_index] = current_server
+                    server_index++
                 }
             }
         }
@@ -733,11 +733,11 @@ if [ -f "./clash.yaml" ]; then
     END {
         # 处理文件末尾的最后一个节点
         if (in_current_proxy == 1 && remove_current == 0) {
-            # 检查是否已存在相同IP的节点
+            # 检查是否已存在相同server的节点
             is_duplicate = 0
-            if (current_ip != "") {
-                for (idx = 0; idx < ip_index; idx++) {
-                    if (ip_list[idx] == current_ip) {
+            if (current_server != "") {
+                for (idx = 0; idx < server_index; idx++) {
+                    if (server_list[idx] == current_server) {
                         is_duplicate = 1
                         break
                     }
@@ -745,11 +745,11 @@ if [ -f "./clash.yaml" ]; then
             }
             
             if (is_duplicate == 0) {
-                # IP未出现过，输出节点并记录IP
+                # server未出现过，输出节点并记录server
                 printf "%s", proxy_content
-                if (current_ip != "") {
-                    ip_list[ip_index] = current_ip
-                    ip_index++
+                if (current_server != "") {
+                    server_list[server_index] = current_server
+                    server_index++
                 }
             }
         }

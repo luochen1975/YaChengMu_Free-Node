@@ -170,7 +170,8 @@ proxies:
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】35, server: 36.234.115.149, port: 10003, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 6f7fc4ea-bef4-4eec-ae54-d718777ebc94, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】37, server: 36.234.116.69, port: 10008, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 6f7fc4ea-bef4-4eec-ae54-d718777ebc94, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】43, server: 183.240.180.3, port: 34141, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇳 江苏省 移动, server: v39.heduian.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇨🇳 江苏省 移动, server: v8.heduian.link, port: 30808, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}, udp: true}
+  - {name: 🇨🇳 江苏省 移动 2, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2, server: 106.14.75.114, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4, server: 39.107.155.11, port: 30302, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -221,7 +222,6 @@ proxies:
   - {name: 🇬🇧 _GB_英国_2, server: 62.100.205.48, port: 989, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 🇬🇧 英国, server: 45.144.235.103, port: 1080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: aE5rFdxzG8GQf5TAQhZhRA, udp: true}
   - {name: 🇬🇧 英国 001, server: 89.31.120.192, port: 443, client-fingerprint: chrome, type: vmess, uuid: 44537595-9ccc-4b83-8936-5f9ad3229019, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: jamekk.org, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: jamekk.org}}, udp: true}
   - {name: 🇬🇷 GR_speednode_0013, server: 185.39.207.121, port: 443, reality-opts: {public-key: Mjz6Gz75xTMe9ZU08h0y-A_VgRQ6tnt3qoOzdEn1k1M, short-id: "0fa84b90" }, client-fingerprint: chrome, type: vless, uuid: 6035325d-399a-5148-9126-29cedfd5966a, tls: true, flow: xtls-rprx-vision, servername: outlook.office.com, network: tcp, udp: true}
   - {name: 🇭🇰 HK_speednode_0014, server: 165.154.112.107, port: 12000, client-fingerprint: chrome, type: trojan, password: 1640ef52-2db0-44ab-b3f3-8690b762ebc9, sni: aliyun.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - rainbow network limited - 10, server: xg.xfy003.cfd, port: 21333, client-fingerprint: chrome, type: hysteria2, password: 3daf96f1-d547-4a8d-aef4-1030c22b2db4, auth: 3daf96f1-d547-4a8d-aef4-1030c22b2db4, sni: xg.xfy003.cfd, up: 50, down: 100, skip-cert-verify: false, obfs: salamander, obfs-password: zTCsHcttqdA0PniW, udp: true}
@@ -229,6 +229,7 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - rainbow network limited - 12, server: xg.xfy003.cfd, port: 21333, client-fingerprint: chrome, type: hysteria2, password: 794283d6-0e98-4849-87a4-c93f8eb8c39b, auth: 794283d6-0e98-4849-87a4-c93f8eb8c39b, sni: xg.xfy003.cfd, up: 50, down: 100, skip-cert-verify: false, obfs: salamander, obfs-password: zTCsHcttqdA0PniW, udp: true}
   - {name: 🇭🇰 中国 - 香港 - rainbow network limited - 9, server: xg.xfy003.cfd, port: 21333, client-fingerprint: chrome, type: hysteria2, password: 4df3cd2f-0699-4e12-b766-67a4065845b7, auth: 4df3cd2f-0699-4e12-b766-67a4065845b7, sni: xg.xfy003.cfd, up: 50, down: 100, skip-cert-verify: false, obfs: salamander, obfs-password: zTCsHcttqdA0PniW, udp: true}
   - {name: 🇭🇰 香港, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇭🇰 香港 UCloud, server: 165.154.112.107, port: 12000, client-fingerprint: chrome, type: trojan, password: 1640ef52-2db0-44ab-b3f3-8690b762ebc9, sni: aliyun.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港2, server: 156.251.179.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: 156.251.179.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港3, server: 149.104.15.178, port: 21201, client-fingerprint: chrome, type: vmess, uuid: e43b6c20-2f61-4e8c-a692-c737fa5cfa0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
@@ -266,6 +267,7 @@ proxies:
   - {name: 🇯🇵 日本 003, server: 153.121.73.102, port: 3294, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本 004, server: 153.121.73.102, port: 3296, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本 东京SAKURA数据中心, server: 153.121.73.102, port: 3296, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 东京SAKURA数据中心 2, server: 153.121.73.102, port: 3294, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本2, server: 137.220.142.139, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8808e9f11454, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /nvcnjrmkggoy, tls: true, mux: false}, udp: true}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 137.220.142.139, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8808e9f11454, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /nvcnjrmkggoy, tls: true, mux: false}, udp: true}
   - {name: 🇯🇵 日本3, server: 153.121.45.139, port: 327, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
@@ -338,7 +340,6 @@ proxies:
   - {name: 🇸🇬 SG_speednode_0025, server: www.tiktok.com.jp4.viefast.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 9e76767d-4bfa-4f04-a800-42e2f63afed2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /viefast, headers: {Host: www.linemo.jp}}, udp: true}
   - {name: 🇸🇬 新加坡, server: 36.151.251.6, port: 4801, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: "🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1", server: 47.237.20.174, port: 45235, client-fingerprint: chrome, type: http, username: kZXMC3Z1, password: tXA14Qlh, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡 腾讯云, server: 43.156.224.60, port: 50512, client-fingerprint: chrome, type: vmess, uuid: 05c83256-cc7b-4356-a6de-a2e4d4e6c184, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇸🇬 新加坡2, server: 36.151.251.6, port: 9160, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 36.151.251.6, port: 9160, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡3, server: v39.heduian.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
@@ -441,7 +442,6 @@ proxies:
   - {name: 🇺🇸 _US_美国_3, server: 45.199.138.186, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696682720138}, udp: true}
   - {name: 🇺🇸 _US_美国_4, server: wnd3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国, server: serkat.org, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}, udp: true}
   - {name: "🇺🇸 美国 - 圣克拉拉 - prgmr.com, Inc. - 1", server: pupas-shirting-unsung.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx, udp: true}
   - {name: 🇺🇸 美国 - 明克勒 - Alibaba Cloud LLC - 2, server: 47.254.121.69, port: 6770, client-fingerprint: chrome, type: http, username: HlZHOwkdIL, password: ZYxVNDT9pS, tls: false, udp: true}
   - {name: 🇺🇸 美国 001, server: 154.29.155.249, port: 443, client-fingerprint: chrome, type: trojan, password: juzi, sni: juzi8186-sr1.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: juzi8186-sr1.pages.dev}}, udp: true}
@@ -530,8 +530,8 @@ proxies:
   - {name: 🇺🇸 美国 084, server: 54.36.117.130, port: 25369, client-fingerprint: chrome, type: vless, uuid: 3bba9a08-157f-442b-b814-313e3ec7f350, tls: true, network: grpc, grpc-opts: {grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON}, udp: true}
   - {name: 🇺🇸 美国 085, server: 152.53.52.242, port: 80, client-fingerprint: chrome, type: vless, uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33, tls: false, network: ws, ws-opts: {path: /news, headers: {Host: cdn.ir}}, udp: true}
   - {name: 🇺🇸 美国 086, server: openai.com, port: 443, client-fingerprint: randomized, type: vless, uuid: 101e6a7d-7d10-4859-a626-8a76daab4547, tls: true, servername: nkAnG2rEpLACE.airlineSHoma.Com, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: nkAnG2rEpLACE.airlineSHoma.Com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: cf.fovi.tk, port: 443, client-fingerprint: chrome, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxlux.fovi.tk}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 154.29.155.249, port: 443, client-fingerprint: chrome, type: trojan, password: juzi, sni: juzi8186-sr1.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: juzi8186-sr1.pages.dev}}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.144.174.60, port: 22115, client-fingerprint: chrome, type: vmess, uuid: ba414bbb-6fca-44f8-a097-b8f50aeb406e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.180.249.177, port: 8443, client-fingerprint: chrome, type: trojan, password: installshield, sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-XAa9x2cfsM.download.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-XAa9x2cfsM.download.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国3, server: 153.121.73.102, port: 3294, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
@@ -878,6 +878,7 @@ proxy-groups:
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】37
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】43
       - 🇨🇳 江苏省 移动
+      - 🇨🇳 江苏省 移动 2
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
@@ -928,7 +929,6 @@ proxy-groups:
       - 🇬🇧 _GB_英国_2
       - 🇬🇧 英国
       - 🇬🇧 英国 001
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇷 GR_speednode_0013
       - 🇭🇰 HK_speednode_0014
       - 🇭🇰 中国 - 香港 - rainbow network limited - 10
@@ -936,6 +936,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - rainbow network limited - 12
       - 🇭🇰 中国 - 香港 - rainbow network limited - 9
       - 🇭🇰 香港
+      - 🇭🇰 香港 UCloud
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -973,6 +974,7 @@ proxy-groups:
       - 🇯🇵 日本 003
       - 🇯🇵 日本 004
       - 🇯🇵 日本 东京SAKURA数据中心
+      - 🇯🇵 日本 东京SAKURA数据中心 2
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -1045,7 +1047,6 @@ proxy-groups:
       - 🇸🇬 SG_speednode_0025
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇸🇬 新加坡 腾讯云
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
@@ -1148,7 +1149,6 @@ proxy-groups:
       - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
-      - 🇺🇸 美国
       - 🇺🇸 美国 - 圣克拉拉 - prgmr.com, Inc. - 1
       - 🇺🇸 美国 - 明克勒 - Alibaba Cloud LLC - 2
       - 🇺🇸 美国 001
@@ -1237,8 +1237,8 @@ proxy-groups:
       - 🇺🇸 美国 084
       - 🇺🇸 美国 085
       - 🇺🇸 美国 086
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -1560,6 +1560,7 @@ proxy-groups:
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】37
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】43
       - 🇨🇳 江苏省 移动
+      - 🇨🇳 江苏省 移动 2
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 2
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
@@ -1610,7 +1611,6 @@ proxy-groups:
       - 🇬🇧 _GB_英国_2
       - 🇬🇧 英国
       - 🇬🇧 英国 001
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇷 GR_speednode_0013
       - 🇭🇰 HK_speednode_0014
       - 🇭🇰 中国 - 香港 - rainbow network limited - 10
@@ -1618,6 +1618,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - rainbow network limited - 12
       - 🇭🇰 中国 - 香港 - rainbow network limited - 9
       - 🇭🇰 香港
+      - 🇭🇰 香港 UCloud
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -1655,6 +1656,7 @@ proxy-groups:
       - 🇯🇵 日本 003
       - 🇯🇵 日本 004
       - 🇯🇵 日本 东京SAKURA数据中心
+      - 🇯🇵 日本 东京SAKURA数据中心 2
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -1727,7 +1729,6 @@ proxy-groups:
       - 🇸🇬 SG_speednode_0025
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇸🇬 新加坡 腾讯云
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
@@ -1830,7 +1831,6 @@ proxy-groups:
       - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
-      - 🇺🇸 美国
       - 🇺🇸 美国 - 圣克拉拉 - prgmr.com, Inc. - 1
       - 🇺🇸 美国 - 明克勒 - Alibaba Cloud LLC - 2
       - 🇺🇸 美国 001
@@ -1919,8 +1919,8 @@ proxy-groups:
       - 🇺🇸 美国 084
       - 🇺🇸 美国 085
       - 🇺🇸 美国 086
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -2141,6 +2141,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - rainbow network limited - 12
       - 🇭🇰 中国 - 香港 - rainbow network limited - 9
       - 🇭🇰 香港
+      - 🇭🇰 香港 UCloud
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -2246,12 +2247,14 @@ proxy-groups:
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】37
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】43
       - 🇨🇳 江苏省 移动
+      - 🇨🇳 江苏省 移动 2
       - 🇭🇰 HK_speednode_0014
       - 🇭🇰 中国 - 香港 - rainbow network limited - 10
       - 🇭🇰 中国 - 香港 - rainbow network limited - 11
       - 🇭🇰 中国 - 香港 - rainbow network limited - 12
       - 🇭🇰 中国 - 香港 - rainbow network limited - 9
       - 🇭🇰 香港
+      - 🇭🇰 香港 UCloud
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -2275,7 +2278,6 @@ proxy-groups:
       - 🇸🇬 SG_speednode_0025
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇸🇬 新加坡 腾讯云
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
@@ -2304,6 +2306,7 @@ proxy-groups:
       - 🇯🇵 日本 003
       - 🇯🇵 日本 004
       - 🇯🇵 日本 东京SAKURA数据中心
+      - 🇯🇵 日本 东京SAKURA数据中心 2
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -2408,7 +2411,6 @@ proxy-groups:
       - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
-      - 🇺🇸 美国
       - 🇺🇸 美国 - 圣克拉拉 - prgmr.com, Inc. - 1
       - 🇺🇸 美国 - 明克勒 - Alibaba Cloud LLC - 2
       - 🇺🇸 美国 001
@@ -2497,8 +2499,8 @@ proxy-groups:
       - 🇺🇸 美国 084
       - 🇺🇸 美国 085
       - 🇺🇸 美国 086
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -2692,7 +2694,6 @@ proxy-groups:
       - 🇬🇧 _GB_英国_2
       - 🇬🇧 英国
       - 🇬🇧 英国 001
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇷 GR_speednode_0013
       - 🇮🇳 IN_speednode_0015
       - 🇮🇳 IN_yfuye.com免费节点_1
@@ -2879,6 +2880,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - rainbow network limited - 12
       - 🇭🇰 中国 - 香港 - rainbow network limited - 9
       - 🇭🇰 香港
+      - 🇭🇰 香港 UCloud
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -2978,12 +2980,14 @@ proxy-groups:
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】37
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】43
       - 🇨🇳 江苏省 移动
+      - 🇨🇳 江苏省 移动 2
       - 🇭🇰 HK_speednode_0014
       - 🇭🇰 中国 - 香港 - rainbow network limited - 10
       - 🇭🇰 中国 - 香港 - rainbow network limited - 11
       - 🇭🇰 中国 - 香港 - rainbow network limited - 12
       - 🇭🇰 中国 - 香港 - rainbow network limited - 9
       - 🇭🇰 香港
+      - 🇭🇰 香港 UCloud
       - 🇭🇰 香港2
       - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
@@ -3004,7 +3008,6 @@ proxy-groups:
       - 🇸🇬 SG_speednode_0025
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1
-      - 🇸🇬 新加坡 腾讯云
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
@@ -3030,6 +3033,7 @@ proxy-groups:
       - 🇯🇵 日本 003
       - 🇯🇵 日本 004
       - 🇯🇵 日本 东京SAKURA数据中心
+      - 🇯🇵 日本 东京SAKURA数据中心 2
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -3131,7 +3135,6 @@ proxy-groups:
       - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
-      - 🇺🇸 美国
       - 🇺🇸 美国 - 圣克拉拉 - prgmr.com, Inc. - 1
       - 🇺🇸 美国 - 明克勒 - Alibaba Cloud LLC - 2
       - 🇺🇸 美国 001
@@ -3220,8 +3223,8 @@ proxy-groups:
       - 🇺🇸 美国 084
       - 🇺🇸 美国 085
       - 🇺🇸 美国 086
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -3412,7 +3415,6 @@ proxy-groups:
       - 🇬🇧 _GB_英国_2
       - 🇬🇧 英国
       - 🇬🇧 英国 001
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇷 GR_speednode_0013
       - 🇮🇳 IN_speednode_0015
       - 🇮🇳 IN_yfuye.com免费节点_1

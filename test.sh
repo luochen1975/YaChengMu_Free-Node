@@ -639,7 +639,7 @@ if [ -f "./clash.yaml" ]; then
                         # 检查是否已存在相同server的节点
                         is_duplicate=0
                         if [ -n "$current_server" ]; then
-                            if echo "$servers_seen" | grep -q "(^| )$current_server( |$)"; then
+                            if echo " $servers_seen " | grep -q " $current_server "; then
                                 is_duplicate=1
                             fi
                         fi
@@ -712,13 +712,13 @@ $line"
             fi
             
             # proxies部分结束
-            if ! echo "$line" | grep -q "^ "; then
+            if echo "$line" | grep -q "^[^ ]" && ! echo "$line" | grep -q "^ "; then
                 # 处理最后一个节点
                 if [ $in_current_proxy -eq 1 ] && [ $remove_current -eq 0 ]; then
                     # 检查是否已存在相同server的节点
                     is_duplicate=0
                     if [ -n "$current_server" ]; then
-                        if echo "$servers_seen" | grep -q "(^| )$current_server( |$)"; then
+                        if echo " $servers_seen " | grep -q " $current_server "; then
                             is_duplicate=1
                         fi
                     fi
@@ -769,14 +769,14 @@ $line"
                 # 提取proxy名称
                 proxy_name=""
                 if echo "$line" | grep -q "^      - [^{]"; then
-                    proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ .*//')
+                    proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ .*//' | sed 's/#.*//' | sed 's/ *$//')
                 elif echo "$line" | grep -q "^      -{name:"; then
                     proxy_name=$(echo "$line" | grep -o "name: [^,} ]*" | head -1 | cut -d" " -f2)
                 fi
                 
                 # 如果这个proxy名称已被删除，则跳过不输出
                 if [ -n "$proxy_name" ]; then
-                    if echo "$deleted_names" | grep -q "(^| )$proxy_name( |$)"; then
+                    if echo " $deleted_names " | grep -q " $proxy_name "; then
                         continue
                     fi
                 fi

@@ -670,20 +670,20 @@ if [ -f "./clash.yaml" ]; then
                             # 记录有效的节点名称
                             if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
                                 node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                                valid_names="$valid_names $node_name"
+                                valid_names="$valid_names \"$node_name\""
                             fi
                         else
                             # 记录被删除的重复节点名称
                             if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
                                 node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                                deleted_names="$deleted_names $node_name"
+                                deleted_names="$deleted_names \"$node_name\""
                             fi
                         fi
                     else
                         # 记录被删除的无效节点名称
                         if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
                             node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                            deleted_names="$deleted_names $node_name"
+                            deleted_names="$deleted_names \"$node_name\""
                         fi
                     fi
                 fi
@@ -749,20 +749,20 @@ $line"
                         # 记录有效的节点名称
                         if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
                             node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                            valid_names="$valid_names $node_name"
+                            valid_names="$valid_names \"$node_name\""
                         fi
                     else
                         # 记录被删除的重复节点名称
                         if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
                             node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                            deleted_names="$deleted_names $node_name"
+                            deleted_names="$deleted_names \"$node_name\""
                         fi
                     fi
                 elif [ $in_current_proxy -eq 1 ] && [ $remove_current -eq 1 ]; then
                     # 记录被删除的无效节点名称
                     if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
                         node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                        deleted_names="$deleted_names $node_name"
+                        deleted_names="$deleted_names \"$node_name\""
                     fi
                 fi
                 
@@ -817,7 +817,8 @@ $line"
                     
                     # 如果这个proxy名称已被删除，则跳过不输出
                     if [ -n "$proxy_name" ]; then
-                        if echo " $deleted_names " | grep -q " $proxy_name "; then
+                        # 使用引号包围proxy_name以处理特殊字符，并检查是否在删除列表中
+                        if echo "$deleted_names" | grep -q "\"$proxy_name\""; then
                             continue
                         fi
                     fi

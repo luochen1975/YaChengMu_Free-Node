@@ -802,6 +802,7 @@ $line"
             # 检查是否是group定义开始（以name:开头且前面有2个空格）
             if echo "$line" | grep -q "^  name:"; then
                 in_proxies_list=0
+                in_url_test_group=0  # 重置url-test组标记
                 echo "$line"
                 echo "发现新的proxy-group" >&2
                 continue

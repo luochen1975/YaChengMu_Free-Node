@@ -808,8 +808,8 @@ $line"
                 continue
             fi
             
-            # 检查type是否为url-test
-            if echo "$line" | grep -q "^  type: url-test"; then
+            # 检查type是否为url-test（更宽松的匹配）
+            if echo "$line" | grep -q "type: url-test"; then
                 in_url_test_group=1
                 echo "$line"
                 echo "当前group类型为url-test" >&2
@@ -821,6 +821,9 @@ $line"
                 in_proxies_list=1
                 echo "$line"
                 echo "进入proxies列表" >&2
+                if [ "$in_url_test_group" = "1" ]; then
+                    echo "当前在url-test组中" >&2
+                fi
                 continue
             fi
             

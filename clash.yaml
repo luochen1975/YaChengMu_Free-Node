@@ -86,7 +86,8 @@ proxies:
   - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 2, server: 112.132.215.12, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6, server: 112.132.215.34, port: 50007, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 12, server: 119.29.98.43, port: 11399, client-fingerprint: chrome, type: vmess, uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
-  - {name: 🇨🇳 福建省厦门市 电信 2, server: hk.fastsoonlink.com, port: 40000, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41, udp: true}
+  - {name: 🇨🇳 福建省厦门市 电信, server: us.fastsoonlink.com, port: 40001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41, udp: true}
+  - {name: 🇨🇳 福建省厦门市 电信 2, server: tur.fastsoonlink.com, port: 40019, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41, udp: true}
   - {name: 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 10, server: 106.14.75.114, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5, server: 39.107.155.11, port: 30302, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -126,7 +127,6 @@ proxies:
   - {name: 🇫🇷 法国 - 巴黎 - Online S.A.S. - 4, server: 62.210.127.217, port: 35511, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
   - {name: 🇫🇷 法国 - 巴黎 - Online S.A.S. - 6, server: 195.154.200.40, port: 15010, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 100, down: 100, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
   - {name: 🇫🇷 法国 001, server: 146.59.55.50, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: o.metuji.com}}, udp: true}
-  - {name: 🇫🇷 法国 国际航空电讯集团公司(SITA), server: jamekk.org, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: jamekk.org}}, udp: true}
   - {name: 🇫🇷 法国【机场推荐：https://a0a.xyz/】2, server: 2001:bc8:32d7:302::10, port: 44579, client-fingerprint: chrome, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇬🇧 GB_speednode_0008, server: am.unibot.monster, port: 443, reality-opts: {public-key: aFjX3HZJZr6IjvKuTp1s3ZrwkNRj3w-7U1adUROktGM, short-id: "657e6f4ccdb8a092" }, client-fingerprint: chrome, type: vless, uuid: 9ff70fc1-e675-4edb-8328-db52a267458d, tls: true, flow: xtls-rprx-vision, servername: deepl.com, network: tcp, udp: true}
   - {name: 🇬🇧 GB_yfuye.com免费节点_1, server: 45.8.211.71, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh24v3.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -137,6 +137,7 @@ proxies:
   - {name: 🇬🇧 _GB_英国_2, server: 51.15.17.169, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇬🇧 英国 - 伦敦 - Comsenso BV - 1, server: uk.fastsoonlink.com, port: 40008, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41, udp: true}
   - {name: 🇬🇧 英国 001, server: 89.31.120.192, port: 443, client-fingerprint: chrome, type: vmess, uuid: 44537595-9ccc-4b83-8936-5f9ad3229019, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: jamekk.org, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: jamekk.org}}, udp: true}
   - {name: 🇬🇷 希腊 - 塞萨洛尼基 - SYNAPSECOM S.A. Provider of Telecommunications and Internet Services - 1, server: 192.71.166.100, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1, server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net}}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - SunnyVision Limited - 11, server: 150.107.46.21, port: 8083, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: iFqnzSscN, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
@@ -147,8 +148,12 @@ proxies:
   - {name: 🇭🇰 香港2, server: 156.251.179.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港3, server: 43.247.135.86, port: 44601, client-fingerprint: chrome, type: vmess, uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港4, server: 160.16.63.16, port: 447, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 202.181.103.246, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港5, server: hk.fastsoonlink.com, port: 40000, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41, udp: true}
   - {name: 🇭🇰 香港6, server: 160.16.70.180, port: 447, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港6|@ripaojiedian, server: 160.16.236.32, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港7, server: 103.224.80.96, port: 13193, client-fingerprint: chrome, type: vmess, uuid: 080d4d5d-6dbd-4d75-9927-aa3902c150a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: 🇭🇰 香港7|@ripaojiedian, server: gw.liangyuandianwan.com, port: 35602, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: e4469310-00fc-4527-8afa-71788b3bcef7, udp: true}
   - {name: 🇮🇳 IN_yfuye.com免费节点_1, server: 14.102.229.249, port: 80, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: yaya.web.id, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
   - {name: 🇮🇳 IN_yfuye.com免费节点_2, server: 14.102.228.249, port: 80, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: yaya.web.id, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
   - {name: 🇮🇷 IR_yfuye.com免费节点_2, server: 193.151.135.21, port: 44443, client-fingerprint: chrome, type: vless, uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33, tls: false, flow: xtls-rprx-vision, servername: www.speedtest.net, network: tcp, udp: true}
@@ -167,8 +172,6 @@ proxies:
   - {name: 🇯🇵 日本 002, server: 160.16.72.33, port: 1924, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本 003, server: 160.16.130.66, port: 2045, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 004, server: 160.16.117.182, port: 4397, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 007, server: 202.181.103.246, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 008, server: 160.16.236.32, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本 009, server: 160.16.196.59, port: 1802, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本 010, server: 153.121.45.139, port: 1700, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本2, server: 137.220.142.139, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8808e9f11454, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jp5v1.lingjfjkm002.com, path: /nvcnjrmkggoy, tls: true, mux: false}, udp: true}
@@ -214,14 +217,16 @@ proxies:
   - {name: 🇷🇺 俄罗斯 005, server: 185.236.232.116, port: 8880, client-fingerprint: chrome, type: vless, uuid: e4824193-4f54-453b-d037-88368e85ef0e, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 006, server: 185.231.205.181, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 007, server: 185.231.205.246, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇷🇺 俄罗斯 Rubtsovsk Branch of Altai State University, server: 212.192.12.77, port: 30398, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, udp: true}
+  - {name: 🇷🇺 俄罗斯 莫斯科JustHost, server: 45.140.169.26, port: 30102, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 7ae4e68cf77f6089, udp: true}
   - {name: 🇸🇦 SA_yfuye.com免费节点, server: 91.209.253.249, port: 80, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: yaya.web.id, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
   - {name: 🇸🇪 SE_speednode_0012, server: 45.91.171.116, port: 443, client-fingerprint: chrome, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: sto.freeguard.org, skip-cert-verify: true, udp: true}
   - {name: 🇸🇪 瑞典 - 斯德哥尔摩 - Aeza International LTD - 1, server: 46.29.34.205, port: 38918, client-fingerprint: chrome, type: vless, uuid: fb9183fc-f0bb-4d19-8c8b-704b017d04b8, tls: false, network: tcp, udp: true}
   - {name: 🇸🇬 新加坡 - 新加坡 - M1 LIMITED - 1, server: sgmob222.asuscomm.com, port: 8899, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 03241, udp: true}
-  - {name: 🇸🇬 新加坡 腾讯云, server: 43.156.175.95, port: 52377, client-fingerprint: chrome, type: vmess, uuid: 0e5ffcbd-0607-4ce7-df0f-ea56660ab735, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇸🇬 新加坡3, server: v39.heduian.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: 🇸🇮 SI_yfuye.com免费节点, server: 92.53.188.36, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v4.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇹🇷 TR_yfuye.com免费节点, server: 188.132.183.15, port: 2589, client-fingerprint: chrome, type: vless, uuid: 8f0120f1-ba26-e137-5e06-a99b844741aa, tls: false, flow: xtls-rprx-vision, servername: tgju.org, network: tcp, udp: true}
+  - {name: 🇹🇼 台湾|@ripaojiedian, server: 103.236.227.7, port: 49795, client-fingerprint: chrome, type: vmess, uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇺🇦 UA_yfuye.com免费节点_1, server: 31.43.179.38, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v4.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 UA_yfuye.com免费节点_2, server: 46.202.30.249, port: 80, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: yaya.web.id, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
   - {name: 🇺🇦 UA_yfuye.com免费节点_3, server: 195.245.221.249, port: 80, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: yaya.web.id, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560"}, udp: true}
@@ -384,10 +389,9 @@ proxies:
   - {name: 🇺🇸 美国 082, server: 51.89.118.126, port: 25369, client-fingerprint: chrome, type: vless, uuid: 5fda29b6-0688-44e3-afdf-df533c800109, tls: true, network: grpc, grpc-opts: {grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON}, udp: true}
   - {name: 🇺🇸 美国 083, server: 54.36.117.130, port: 25369, client-fingerprint: chrome, type: vless, uuid: 3bba9a08-157f-442b-b814-313e3ec7f350, tls: true, network: grpc, grpc-opts: {grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON}, udp: true}
   - {name: 🇺🇸 美国 084, server: 152.53.52.242, port: 80, client-fingerprint: chrome, type: vless, uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33, tls: false, network: ws, ws-opts: {path: /news, headers: {Host: cdn.ir}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: dddvvbn.931.pp.ua, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: dddvvbn.931.pp.ua}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: ssssssssssssfffffffgh.2032.pp.ua, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: ssssssssssssfffffffgh.2032.pp.ua}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: serkat.org, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}, udp: true}
   - {name: 🇺🇸 美国_12, server: 2606:4700:3030::6815:4001, port: 80, client-fingerprint: chrome, type: vmess, uuid: 681eda16-e94d-439c-9067-b55db0c0543f, alterId: 0, cipher: auto, tls: false, servername: 4496a55e-a4bc-c238-2c1e-5e66f7b0829c.8900604.xyz, network: ws, ws-opts: {path: /2uRsM4Z4Y8O5OsbJkA, headers: {Host: 4496a55e-a4bc-c238-2c1e-5e66f7b0829c.8900604.xyz}}, udp: true}
+  - {name: 🇺🇸 美国_14, server: ssssssssssssfffffffgh.2032.pp.ua, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, servername: ssssssssssssfffffffgh.2032.pp.ua, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: ssssssssssssfffffffgh.2032.pp.ua}}, udp: true}
+  - {name: 🇺🇸 美国_15, server: dddvvbn.931.pp.ua, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, servername: dddvvbn.931.pp.ua, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: dddvvbn.931.pp.ua}}, udp: true}
   - {name: 🇺🇸 美国【机场推荐：https://a0a.xyz/】13, server: 192.3.107.252, port: 443, client-fingerprint: chrome, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: rc8.freeguard.org, udp: true}
   - {name: 🇺🇸 美国【机场推荐：https://a0a.xyz/】17, server: nnnnnnnnnnnnnn.222769.xyz, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: nnnnnnnnnnnnnn.222769.xyz}}, udp: true}
   - {name: 🇺🇸 美国【机场推荐：https://a0a.xyz/】20, server: gggggggggggggg.222769.xyz, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: gggggggggggggg.222769.xyz}}, udp: true}
@@ -754,6 +758,8 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 8
       - 🇨🇳 福建省厦门市 电信
       - 🇨🇳 福建省厦门市 电信 2
+      - 🇨🇳 福建省厦门市 电信 3
+      - 🇨🇳 福建省厦门市 电信 4
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 10
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
@@ -796,7 +802,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 5
       - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 6
       - 🇫🇷 法国 001
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】2
       - 🇬🇧 GB_speednode_0008
       - 🇬🇧 GB_yfuye.com免费节点_1
@@ -808,6 +813,7 @@ proxy-groups:
       - 🇬🇧 _GB_英国_2
       - 🇬🇧 英国 - 伦敦 - Comsenso BV - 1
       - 🇬🇧 英国 001
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇷 希腊 - 塞萨洛尼基 - SYNAPSECOM S.A. Provider of Telecommunications and Internet Services - 1
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
       - 🇭🇰 中国 - 香港 - SunnyVision Limited - 11
@@ -864,12 +870,10 @@ proxy-groups:
       - 🇯🇵 日本4
       - 🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 日本5
-      - 🇯🇵 日本5|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】12
       - 🇰🇷 韩国
       - 🇰🇷 韩国 - 光明市 - SK Broadband Co Ltd - 1
-      - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 韩国【机场推荐：https://a0a.xyz/】15
       - 🇱🇹 LT_yfuye.com免费节点_1
       - 🇱🇹 LT_yfuye.com免费节点_2
@@ -922,13 +926,14 @@ proxy-groups:
       - 🇷🇺 俄罗斯 005
       - 🇷🇺 俄罗斯 006
       - 🇷🇺 俄罗斯 007
+      - 🇷🇺 俄罗斯 Rubtsovsk Branch of Altai State University
+      - 🇷🇺 俄罗斯 莫斯科JustHost
       - 🇸🇦 SA_yfuye.com免费节点
       - 🇸🇪 SE_speednode_0012
       - 🇸🇪 _SE_瑞典
       - 🇸🇪 瑞典 - 斯德哥尔摩 - Aeza International LTD - 1
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 - 新加坡 - M1 LIMITED - 1
-      - 🇸🇬 新加坡 腾讯云
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
@@ -937,6 +942,7 @@ proxy-groups:
       - 🇸🇮 SI_yfuye.com免费节点
       - 🇸🇰 斯洛伐克 - 布拉迪斯拉发 - DataCamp Limited - 1
       - 🇹🇷 TR_yfuye.com免费节点
+      - 🇹🇼 台湾|@ripaojiedian
       - 🇺🇦 UA_yfuye.com免费节点_1
       - 🇺🇦 UA_yfuye.com免费节点_2
       - 🇺🇦 UA_yfuye.com免费节点_3
@@ -1132,10 +1138,7 @@ proxy-groups:
       - 🇺🇸 美国 082
       - 🇺🇸 美国 083
       - 🇺🇸 美国 084
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 惠普HP
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -1503,6 +1506,8 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 8
       - 🇨🇳 福建省厦门市 电信
       - 🇨🇳 福建省厦门市 电信 2
+      - 🇨🇳 福建省厦门市 电信 3
+      - 🇨🇳 福建省厦门市 电信 4
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 10
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
@@ -1545,7 +1550,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 5
       - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 6
       - 🇫🇷 法国 001
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】2
       - 🇬🇧 GB_speednode_0008
       - 🇬🇧 GB_yfuye.com免费节点_1
@@ -1557,6 +1561,7 @@ proxy-groups:
       - 🇬🇧 _GB_英国_2
       - 🇬🇧 英国 - 伦敦 - Comsenso BV - 1
       - 🇬🇧 英国 001
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇷 希腊 - 塞萨洛尼基 - SYNAPSECOM S.A. Provider of Telecommunications and Internet Services - 1
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
       - 🇭🇰 中国 - 香港 - SunnyVision Limited - 11
@@ -1613,12 +1618,10 @@ proxy-groups:
       - 🇯🇵 日本4
       - 🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 日本5
-      - 🇯🇵 日本5|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】12
       - 🇰🇷 韩国
       - 🇰🇷 韩国 - 光明市 - SK Broadband Co Ltd - 1
-      - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 韩国【机场推荐：https://a0a.xyz/】15
       - 🇱🇹 LT_yfuye.com免费节点_1
       - 🇱🇹 LT_yfuye.com免费节点_2
@@ -1671,13 +1674,14 @@ proxy-groups:
       - 🇷🇺 俄罗斯 005
       - 🇷🇺 俄罗斯 006
       - 🇷🇺 俄罗斯 007
+      - 🇷🇺 俄罗斯 Rubtsovsk Branch of Altai State University
+      - 🇷🇺 俄罗斯 莫斯科JustHost
       - 🇸🇦 SA_yfuye.com免费节点
       - 🇸🇪 SE_speednode_0012
       - 🇸🇪 _SE_瑞典
       - 🇸🇪 瑞典 - 斯德哥尔摩 - Aeza International LTD - 1
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 - 新加坡 - M1 LIMITED - 1
-      - 🇸🇬 新加坡 腾讯云
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
@@ -1686,6 +1690,7 @@ proxy-groups:
       - 🇸🇮 SI_yfuye.com免费节点
       - 🇸🇰 斯洛伐克 - 布拉迪斯拉发 - DataCamp Limited - 1
       - 🇹🇷 TR_yfuye.com免费节点
+      - 🇹🇼 台湾|@ripaojiedian
       - 🇺🇦 UA_yfuye.com免费节点_1
       - 🇺🇦 UA_yfuye.com免费节点_2
       - 🇺🇦 UA_yfuye.com免费节点_3
@@ -1881,10 +1886,7 @@ proxy-groups:
       - 🇺🇸 美国 082
       - 🇺🇸 美国 083
       - 🇺🇸 美国 084
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 惠普HP
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -2209,7 +2211,7 @@ proxy-groups:
     interval: 15
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇹🇼 台湾|@ripaojiedian
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -2270,6 +2272,8 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 8
       - 🇨🇳 福建省厦门市 电信
       - 🇨🇳 福建省厦门市 电信 2
+      - 🇨🇳 福建省厦门市 电信 3
+      - 🇨🇳 福建省厦门市 电信 4
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
       - 🇭🇰 中国 - 香港 - SunnyVision Limited - 11
       - 🇭🇰 中国 - 香港 - WAP.AC LTD - 14
@@ -2289,6 +2293,7 @@ proxy-groups:
       - 🇭🇰 香港7
       - 🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
+      - 🇹🇼 台湾|@ripaojiedian
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -2297,7 +2302,6 @@ proxy-groups:
     proxies:
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 - 新加坡 - M1 LIMITED - 1
-      - 🇸🇬 新加坡 腾讯云
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
@@ -2337,7 +2341,6 @@ proxy-groups:
       - 🇯🇵 日本4
       - 🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 日本5
-      - 🇯🇵 日本5|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】12
   - name: 🇺🇸 ‍美国
@@ -2536,10 +2539,7 @@ proxy-groups:
       - 🇺🇸 美国 082
       - 🇺🇸 美国 083
       - 🇺🇸 美国 084
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 惠普HP
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -2680,7 +2680,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 5
       - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 6
       - 🇫🇷 法国 001
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】2
       - 🇬🇧 GB_speednode_0008
       - 🇬🇧 GB_yfuye.com免费节点_1
@@ -2692,6 +2691,7 @@ proxy-groups:
       - 🇬🇧 _GB_英国_2
       - 🇬🇧 英国 - 伦敦 - Comsenso BV - 1
       - 🇬🇧 英国 001
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇷 希腊 - 塞萨洛尼基 - SYNAPSECOM S.A. Provider of Telecommunications and Internet Services - 1
       - 🇮🇳 IN_yfuye.com免费节点_1
       - 🇮🇳 IN_yfuye.com免费节点_2
@@ -2703,7 +2703,6 @@ proxy-groups:
       - 🇮🇹 IT_speednode_0009
       - 🇰🇷 韩国
       - 🇰🇷 韩国 - 光明市 - SK Broadband Co Ltd - 1
-      - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 韩国【机场推荐：https://a0a.xyz/】15
       - 🇱🇹 LT_yfuye.com免费节点_1
       - 🇱🇹 LT_yfuye.com免费节点_2
@@ -2756,6 +2755,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 005
       - 🇷🇺 俄罗斯 006
       - 🇷🇺 俄罗斯 007
+      - 🇷🇺 俄罗斯 Rubtsovsk Branch of Altai State University
+      - 🇷🇺 俄罗斯 莫斯科JustHost
       - 🇸🇦 SA_yfuye.com免费节点
       - 🇸🇪 SE_speednode_0012
       - 🇸🇪 _SE_瑞典
@@ -3011,7 +3012,7 @@ proxy-groups:
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
     proxies:
-      - DIRECT
+      - 🇹🇼 台湾|@ripaojiedian
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
@@ -3069,6 +3070,8 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 8
       - 🇨🇳 福建省厦门市 电信
       - 🇨🇳 福建省厦门市 电信 2
+      - 🇨🇳 福建省厦门市 电信 3
+      - 🇨🇳 福建省厦门市 电信 4
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 1
       - 🇭🇰 中国 - 香港 - SunnyVision Limited - 11
       - 🇭🇰 中国 - 香港 - WAP.AC LTD - 14
@@ -3088,12 +3091,12 @@ proxy-groups:
       - 🇭🇰 香港7
       - 🇭🇰 香港7|@ripaojiedian
       - 🇭🇰 香港|@ripaojiedian
+      - 🇹🇼 台湾|@ripaojiedian
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 - 新加坡 - M1 LIMITED - 1
-      - 🇸🇬 新加坡 腾讯云
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
@@ -3130,7 +3133,6 @@ proxy-groups:
       - 🇯🇵 日本4
       - 🇯🇵 日本4|@ripaojiedian
       - 🇯🇵 日本5
-      - 🇯🇵 日本5|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】12
   - name: 👆🏻🇺🇸 ‍美国
@@ -3326,10 +3328,7 @@ proxy-groups:
       - 🇺🇸 美国 082
       - 🇺🇸 美国 083
       - 🇺🇸 美国 084
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 惠普HP
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -3467,7 +3466,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 5
       - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 6
       - 🇫🇷 法国 001
-      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】2
       - 🇬🇧 GB_speednode_0008
       - 🇬🇧 GB_yfuye.com免费节点_1
@@ -3479,6 +3477,7 @@ proxy-groups:
       - 🇬🇧 _GB_英国_2
       - 🇬🇧 英国 - 伦敦 - Comsenso BV - 1
       - 🇬🇧 英国 001
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇷 希腊 - 塞萨洛尼基 - SYNAPSECOM S.A. Provider of Telecommunications and Internet Services - 1
       - 🇮🇳 IN_yfuye.com免费节点_1
       - 🇮🇳 IN_yfuye.com免费节点_2
@@ -3490,7 +3489,6 @@ proxy-groups:
       - 🇮🇹 IT_speednode_0009
       - 🇰🇷 韩国
       - 🇰🇷 韩国 - 光明市 - SK Broadband Co Ltd - 1
-      - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇷 韩国【机场推荐：https://a0a.xyz/】15
       - 🇱🇹 LT_yfuye.com免费节点_1
       - 🇱🇹 LT_yfuye.com免费节点_2
@@ -3543,6 +3541,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 005
       - 🇷🇺 俄罗斯 006
       - 🇷🇺 俄罗斯 007
+      - 🇷🇺 俄罗斯 Rubtsovsk Branch of Altai State University
+      - 🇷🇺 俄罗斯 莫斯科JustHost
       - 🇸🇦 SA_yfuye.com免费节点
       - 🇸🇪 SE_speednode_0012
       - 🇸🇪 _SE_瑞典

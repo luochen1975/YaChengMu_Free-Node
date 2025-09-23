@@ -807,7 +807,7 @@ $line"
                 proxy_name=""
                 if echo "$line" | grep -q "^      - [^{]"; then
                     # 处理普通格式: "      - ProxyName"
-                    # 使用更简单直接的方法提取节点名称
+                    # 使用更简单直接的方法提取节点名称，保留完整内容包括空格和特殊字符
                     proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ *#.*//' | sed 's/ *$//')
                 elif echo "$line" | grep -q "^      -{name:"; then
                     # 处理内联格式: "      - {name: ProxyName, ...}"
@@ -816,7 +816,7 @@ $line"
                 
                 # 如果这个proxy名称已在删除列表中或不在有效节点列表中，则跳过不输出
                 if [ -n "$proxy_name" ]; then
-                    # 检查是否在有效节点列表中
+                    # 检查是否在有效节点列表中，使用引号包围确保精确匹配
                     if echo " $valid_names " | grep -q " \"$proxy_name\" "; then
                         echo "$line"
                     fi

@@ -838,8 +838,8 @@ $line"
                     proxy_name=""
                     if echo "$line" | grep -q "^      - [^{]"; then
                         # 处理普通格式: "      - ProxyName"
-                        # 修复节点名称提取逻辑，正确处理包含空格和特殊字符的名称
-                        proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/#.*//' | sed 's/ *$//')
+                        # 进一步修复节点名称提取逻辑，确保正确处理所有类型的节点名称
+                        proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/#.*//' | sed 's/[[:space:]]*$//')
                     elif echo "$line" | grep -q "^      -{name:"; then
                         # 处理内联格式: "      - {name: ProxyName, ...}"
                         proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)

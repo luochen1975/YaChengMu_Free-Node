@@ -799,7 +799,7 @@ $line"
         
         # 处理proxy-groups部分
         if [ $in_proxy_groups -eq 1 ]; then
-            # 棜查是否是group定义开始（以name:开头且前面有2个空格）
+            # 检查是否是group定义开始（以name:开头且前面有2个空格）
             if echo "$line" | grep -q "^  name:"; then
                 in_proxies_list=0
                 in_url_test_group=0  # 重置url-test组标记
@@ -821,7 +821,9 @@ $line"
                 in_proxies_list=1
                 echo "$line"
                 echo "进入proxies列表" >&2
-                echo "当前url-test组状态: $in_url_test_group" >&2
+                if [ "$in_url_test_group" = "1" ]; then
+                    echo "当前在url-test组中" >&2
+                fi
                 continue
             fi
             

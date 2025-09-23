@@ -839,7 +839,11 @@ $line"
                     if echo "$line" | grep -q "^      - [^{]"; then
                         # 处理普通格式: "      - ProxyName"
                         # 修复节点名称提取逻辑，确保正确提取包含特殊字符和空格的完整节点名称
-                        proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/[[:space:]]*$//' | awk -F'#' '{print $1}' | sed 's/[[:space:]]*$//')
+                        proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/[[:space:]]*$//' | sed 's/#[^#]*$//' | sed 's/[[:space:]]*$//')
+                        # 如果上面的命令未能正确处理，使用更简单的方法
+                        if [ -z "$proxy_name" ]; then
+                            proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/[[:space:]]*$//')
+                        fi
                     elif echo "$line" | grep -q "^      -{name:"; then
                         # 处理内联格式: "      - {name: ProxyName, ...}"
                         proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)

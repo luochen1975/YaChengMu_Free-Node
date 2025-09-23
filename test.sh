@@ -860,10 +860,8 @@ $line"
                             continue
                             ;;
                         *)
-                            # 检查节点是否在有效节点列表中
-                            if echo " $valid_names " | grep -q " \"$proxy_name\" "; then
-                                echo "$line"
-                            fi
+                            # 对于非url-test组，除了特殊名称外，其余节点不做处理
+                            echo "$line"
                             ;;
                     esac
                 else

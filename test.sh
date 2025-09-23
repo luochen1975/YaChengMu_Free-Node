@@ -838,12 +838,8 @@ $line"
                     proxy_name=""
                     if echo "$line" | grep -q "^      - [^{]"; then
                         # 处理普通格式: "      - ProxyName"
-                        # 修复节点名称提取逻辑，确保正确提取包含特殊字符和空格的完整节点名称
-                        proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/[[:space:]]*$//' | sed 's/#[^#]*$//' | sed 's/[[:space:]]*$//')
-                        # 如果上面的命令未能正确处理，使用更简单的方法
-                        if [ -z "$proxy_name" ]; then
-                            proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/[[:space:]]*$//')
-                        fi
+                        # 使用更简单直接的方法提取节点名称
+                        proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ *#.*//' | sed 's/ *$//')
                     elif echo "$line" | grep -q "^      -{name:"; then
                         # 处理内联格式: "      - {name: ProxyName, ...}"
                         proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
@@ -880,18 +876,15 @@ $line"
                 # 检查是否是proxies列表项
                 if echo "$line" | grep -q "^      - "; then
                     # 只有在url-test组中才需要检查节点有效性
-                    if [ "$current_group_type" = "url-test" ]; then
+                    if [ "$in_url_test_group" = "1" ]; then
                         # 提取proxy名称
                         proxy_name=""
                         # 处理普通格式: - ProxyName
                         if echo "$line" | grep -q "^      - [^{]"; then
-                            proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ .*//' | sed 's/#.*//' | sed 's/ *$//')
+                            proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ *#.*//' | sed 's/ *$//')
                         # 处理内联格式: - {name: ProxyName, ...}
                         elif echo "$line" | grep -q "^      -{name:"; then
                             proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                        # 处理带引号的名称
-                        elif echo "$line" | grep -q "^      - \"[^\"]*\""; then
-                            proxy_name=$(echo "$line" | sed 's/^      - "\(.*\)".*/\1/')
                         fi
                         
                         # 检查并过滤无效的节点引用
@@ -913,6 +906,7 @@ $line"
                     # 检查是否是其他属性开始，表示proxies列表结束
                     if echo "$line" | grep -q "^    [a-zA-Z]" && ! echo "$line" | grep -q "^    proxies:"; then
                         in_proxies_list=0
+                        in_url_test_group=0
                         echo "退出proxies列表" >&2
                     fi
                 fi

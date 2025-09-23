@@ -830,6 +830,47 @@ $line"
                 continue
             fi
             
+            # 如果在url-test组的proxies列表中
+            if [ "$in_proxies_list" = "1" ] && [ "$in_url_test_group" = "1" ]; then
+                # 检查是否是proxies列表条目 (以"      - "开头)
+                if echo "$line" | grep -q "^      - "; then
+                    # 提取proxy名称
+                    proxy_name=""
+                    if echo "$line" | grep -q "^      - [^{]"; then
+                        # 处理普通格式: "      - ProxyName"
+                        # 修复节点名称提取逻辑，正确处理包含空格和特殊字符的名称
+                        proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/#.*//' | sed 's/ *$//')
+                    elif echo "$line" | grep -q "^      -{name:"; then
+                        # 处理内联格式: "      - {name: ProxyName, ...}"
+                        proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                    fi
+                    
+                    # 如果这个proxy名称已被删除，则跳过不输出
+                    if [ -n "$proxy_name" ]; then
+                        echo "检查url-test节点引用: \"$proxy_name\"" >&2
+                        # 使用引号包围proxy_name以处理特殊字符，并检查是否在删除列表中
+                        if echo " $deleted_names " | grep -q " \"$proxy_name\" "; then
+                            echo "从url-test组中移除无效引用: \"$proxy_name\"" >&2
+                            continue
+                        else
+                            echo "保留url-test组中的引用: \"$proxy_name\"" >&2
+                        fi
+                    fi
+                    echo "$line"
+                    continue
+                else
+                    # 不是proxies列表条目，可能是结束或其他属性
+                    # 重置proxies列表标记
+                    if echo "$line" | grep -q "^    [a-z]"; then
+                        in_proxies_list=0
+                        in_url_test_group=0
+                        echo "退出proxies列表和url-test组" >&2
+                    fi
+                fi
+                echo "$line"
+                continue
+            fi
+            
             # 处理proxies列表中的条目
             if [ $in_proxies_list -eq 1 ]; then
                 # 检查是否是proxies列表项

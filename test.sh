@@ -866,6 +866,7 @@ $line"
                 else
                     # 不是proxies列表条目，可能是结束或其他属性
                     # 只有在遇到其他属性时才重置proxies列表标记
+                    # 修复：使用更严格的条件判断是否为属性行
                     if echo "$line" | grep -q "^    [a-zA-Z]" && ! echo "$line" | grep -q "^    proxies:"; then
                         in_proxies_list=0
                         in_url_test_group=0

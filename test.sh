@@ -1,4 +1,3 @@
-
 #!/bin/sh
 #########################################################
 # 节点订阅自动获取脚本 - 并行模板版本
@@ -593,336 +592,80 @@ else
     wget --timeout=90 --tries=1 --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" -S "$subscribeV2ray" -O ./v2ray.txt 2>&1 | head -20
 fi
 
-echo "========== 清理无效节点并去重 =========="
-# 删除clash配置中cipher: "" 和 password: "" 的节点，并按server去重
-if [ -f "./clash.yaml" ]; then
-    # 创建临时文件
-    temp_file=$(mktemp)
-    
-    # 使用Shell脚本处理YAML文件
-    # 标记处理状态
-    in_proxy=0
-    in_proxy_groups=0
-    in_current_proxy=0
-    in_proxies_list=0
-    in_url_test_group=0
-    remove_current=0
-    current_server=""
-    proxy_content=""
-    
-    # 用于存储已见过的server和节点名称
-    servers_seen=""
-    valid_names=""
-    deleted_names=""
-    
-    # 初始化所有状态变量
-    in_proxy=0
-    in_proxy_groups=0
-    in_current_proxy=0
-    in_proxies_list=0
-    in_url_test_group=0
-    remove_current=0
-    current_server=""
-    proxy_content=""
-    
-    # 添加调试信息
-    echo "开始处理clash.yaml文件..." >&2
-    
-    while IFS= read -r line; do
-        # 检查是否是proxies部分开始
-        if echo "$line" | grep -q "^proxies:$"; then
-            in_proxy=1
-            in_proxy_groups=0
-            in_proxies_list=0
-            in_url_test_group=0
-            echo "$line"
-            echo "进入proxies部分" >&2
-            continue
+# 处理下载的clash.yaml文件
+echo "========== 处理clash.yaml文件 =========="
+# 读取clash.yaml文件内容
+clash_content=$(cat ./clash.yaml)
+
+# 初始化变量
+in_proxies_list=0
+valid_names=""
+
+# 处理proxies列表中的条目（非url-test组）
+if [ $in_proxies_list -eq 1 ]; then
+    # 检查是否是proxies列表项
+    if echo "$line" | grep -q "^      - "; then
+        # 提取proxy名称
+        proxy_name=""
+        if echo "$line" | grep -q "^      - [^{]"; then
+            # 处理普通格式: "      - ProxyName"
+            proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ *#.*//' | sed 's/ *$//')
+        elif echo "$line" | grep -q "^      -{name:"; then
+            # 处理内联格式: "      - {name: ProxyName, ...}"
+            proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
         fi
         
-        # 检查是否是proxy-groups部分开始
-        if echo "$line" | grep -q "^proxy-groups:$"; then
-            in_proxy=0
-            in_proxy_groups=1
-            in_proxies_list=0
-            in_url_test_group=0
-            echo "$line"
-            echo "进入proxy-groups部分" >&2
-            # 输出删除的节点名称用于调试
-            echo "删除的节点名称: $deleted_names" >&2
-            continue
-        fi
-        
-        # 处理proxies部分
-        if [ $in_proxy -eq 1 ]; then
-            # 检查是否是新节点开始
-            if echo "$line" | grep -q "^  - "; then
-                # 处理上一个节点（如果存在）
-                if [ $in_current_proxy -eq 1 ]; then
-                    if [ $remove_current -eq 0 ]; then
-                        # 检查是否已存在相同server的节点
-                        is_duplicate=0
-                        if [ -n "$current_server" ]; then
-                            if echo " $servers_seen " | grep -q " $current_server "; then
-                                is_duplicate=1
-                            fi
-                        fi
-                        
-                        if [ $is_duplicate -eq 0 ]; then
-                            # server未出现过，输出节点
-                            echo "$proxy_content"
-                            # 记录server
-                            if [ -n "$current_server" ]; then
-                                servers_seen="$servers_seen $current_server"
-                            fi
-                            # 记录有效的节点名称
-                            if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
-                                node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                                # 使用引号包围节点名称以处理特殊字符
-                                valid_names="$valid_names \"$node_name\""
-                                echo "添加有效节点: \"$node_name\"" >&2
-                            fi
-                        else
-                            # 记录被删除的重复节点名称
-                            if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
-                                node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                                # 使用引号包围节点名称以处理特殊字符
-                                deleted_names="$deleted_names \"$node_name\""
-                                echo "删除重复节点: \"$node_name\"" >&2
-                            fi
-                        fi
-                    else
-                        # 记录被删除的无效节点名称
-                        if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
-                            node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                            # 使用引号包围节点名称以处理特殊字符
-                            deleted_names="$deleted_names \"$node_name\""
-                            echo "删除无效节点: \"$node_name\" (cipher或password为空)" >&2
-                        fi
-                    fi
-                fi
-                
-                # 重置状态以处理新节点
-                in_current_proxy=1
-                proxy_content="$line"
-                current_server=""
-                remove_current=0
-                
-                # 检查是否包含 cipher: "" 或 password: ""
-                if echo "$line" | grep -q "cipher: \"\"" || echo "$line" | grep -q "password: \"\""; then
-                    remove_current=1
-                fi
-                
-                # 尝试提取server
-                if echo "$line" | grep -o "server: [^,}]*" | head -1 | grep -q "server:"; then
-                    current_server=$(echo "$line" | grep -o "server: [^,}]*" | head -1 | cut -d" " -f2)
-                fi
-                continue
-            fi
-            
-            # 在节点内容中
-            if [ $in_current_proxy -eq 1 ]; then
-                proxy_content="$proxy_content
-$line"
-                
-                # 继续检查是否需要删除当前节点
-                if [ $remove_current -eq 0 ]; then
-                    if echo "$line" | grep -q "cipher: \"\"" || echo "$line" | grep -q "password: \"\""; then
-                        remove_current=1
-                    fi
-                fi
-                
-                # 继续尝试提取server
-                if [ -z "$current_server" ]; then
-                    if echo "$line" | grep -o "server: [^,}]*" | head -1 | grep -q "server:"; then
-                        current_server=$(echo "$line" | grep -o "server: [^,}]*" | head -1 | cut -d" " -f2)
-                    fi
-                fi
-                continue
-            fi
-            
-            # proxies部分结束
-            if echo "$line" | grep -q "^[^ ]" && ! echo "$line" | grep -q "^ "; then
-                # 处理最后一个节点
-                if [ $in_current_proxy -eq 1 ] && [ $remove_current -eq 0 ]; then
-                    # 检查是否已存在相同server的节点
-                    is_duplicate=0
-                    if [ -n "$current_server" ]; then
-                        if echo " $servers_seen " | grep -q " $current_server "; then
-                            is_duplicate=1
-                        fi
-                    fi
-                    
-                    if [ $is_duplicate -eq 0 ]; then
-                        # server未出现过，输出节点
-                        echo "$proxy_content"
-                        # 记录server
-                        if [ -n "$current_server" ]; then
-                            servers_seen="$servers_seen $current_server"
-                        fi
-                        # 记录有效的节点名称
-                        if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
-                            node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                            # 使用引号包围节点名称以处理特殊字符
-                            valid_names="$valid_names \"$node_name\""
-                            echo "添加有效节点: \"$node_name\"" >&2
-                        fi
-                    else
-                        # 记录被删除的重复节点名称
-                        if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
-                            node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                            # 使用引号包围节点名称以处理特殊字符
-                            deleted_names="$deleted_names \"$node_name\""
-                            echo "删除重复节点: \"$node_name\"" >&2
-                        fi
-                    fi
-                elif [ $in_current_proxy -eq 1 ] && [ $remove_current -eq 1 ]; then
-                    # 记录被删除的无效节点名称
-                    if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
-                        node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                        # 使用引号包围节点名称以处理特殊字符
-                        deleted_names="$deleted_names \"$node_name\""
-                        echo "删除无效节点: \"$node_name\" (cipher或password为空)" >&2
-                    fi
-                fi
-                
-                # 结束proxies部分处理
-                in_proxy=0
-                in_current_proxy=0
-                echo "$line"
-                continue
-            fi
-            
-            # proxies部分的其他行
+        # 对于非url-test组，保留所有引用（根据项目规范）
+        if [ -n "$proxy_name" ]; then
+            echo "检查非url-test节点引用: \"$proxy_name\"" >&2
             echo "$line"
             continue
         fi
-        
-        # 处理proxy-groups部分
-        if [ $in_proxy_groups -eq 1 ]; then
-            # 检查是否是新的group开始 (以两个空格开头后跟字母)
-            if echo "$line" | grep -q "^  [a-zA-Z]"; then
-                # 重置状态变量
-                in_proxies_list=0
-                in_url_test_group=0
-                current_group_type=""
-                echo "$line"
-                echo "发现新的proxy-group" >&2
-                continue
-            fi
-            
-            # 检查group类型
-            if echo "$line" | grep -q "^    type: url-test"; then
-                in_url_test_group=1
-                current_group_type="url-test"
-                echo "$line"
-                echo "当前group类型为url-test" >&2
-                continue
-            fi
-            
-            # 检查是否是proxies列表开始
-            if echo "$line" | grep -q "^    proxies:$"; then
-                in_proxies_list=1
-                echo "$line"
-                echo "进入proxies列表" >&2
-                if [ "$in_url_test_group" = "1" ]; then
-                    echo "当前在url-test组中" >&2
-                fi
-                continue
-            fi
-            
-            # 如果在url-test组的proxies列表中
-            if [ "$in_proxies_list" = "1" ] && [ "$in_url_test_group" = "1" ]; then
-                # 检查是否是proxies列表条目 (以"      - "开头)
-                if echo "$line" | grep -q "^      - "; then
-                    # 提取proxy名称
-                    proxy_name=""
-                    if echo "$line" | grep -q "^      - [^{]"; then
-                        # 处理普通格式: "      - ProxyName"
-                        # 使用更简单直接的方法提取节点名称
-                        proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ *#.*//' | sed 's/ *$//')
-                    elif echo "$line" | grep -q "^      -{name:"; then
-                        # 处理内联格式: "      - {name: ProxyName, ...}"
-                        proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                    fi
-                    
-                    # 如果这个proxy名称已被删除，则跳过不输出
-                    if [ -n "$proxy_name" ]; then
-                        echo "检查url-test节点引用: \"$proxy_name\"" >&2
-                        # 使用引号包围proxy_name以处理特殊字符，并检查是否在删除列表中
-                        if echo " $deleted_names " | grep -q " \"$proxy_name\" "; then
-                            echo "从url-test组中移除无效引用: \"$proxy_name\"" >&2
-                            continue
-                        else
-                            echo "保留url-test组中的引用: \"$proxy_name\"" >&2
-                        fi
-                    fi
-                    echo "$line"
-                    continue
-                else
-                    # 不是proxies列表条目，可能是结束或其他属性
-                    # 重置proxies列表标记
-                    if echo "$line" | grep -q "^    [a-z]"; then
-                        in_proxies_list=0
-                        in_url_test_group=0
-                        echo "退出proxies列表和url-test组" >&2
-                    fi
-                fi
-                echo "$line"
-                continue
-            fi
-            
-            # 处理proxies列表中的条目（非url-test组）
-            if [ $in_proxies_list -eq 1 ] && [ $in_url_test_group -eq 0 ]; then
-                # 检查是否是proxies列表项
-                if echo "$line" | grep -q "^      - "; then
-                    # 提取proxy名称
-                    proxy_name=""
-                    if echo "$line" | grep -q "^      - [^{]"; then
-                        # 处理普通格式: "      - ProxyName"
-                        proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ *#.*//' | sed 's/ *$//')
-                    elif echo "$line" | grep -q "^      -{name:"; then
-                        # 处理内联格式: "      - {name: ProxyName, ...}"
-                        proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                    fi
-                    
-                    # 如果这个proxy名称已被删除，则跳过不输出
-                    if [ -n "$proxy_name" ]; then
-                        echo "检查普通组节点引用: \"$proxy_name\"" >&2
-                        # 使用引号包围proxy_name以处理特殊字符，并检查是否在删除列表中
-                        if echo " $deleted_names " | grep -q " \"$proxy_name\" "; then
-                            echo "从普通组中移除无效引用: \"$proxy_name\"" >&2
-                            continue
-                        else
-                            echo "保留普通组中的引用: \"$proxy_name\"" >&2
-                        fi
-                    fi
-                    echo "$line"
-                    continue
-                else
-                    # 非列表项，可能是其他属性或列表结束
-                    # 检查是否是其他属性开始，表示proxies列表结束
-                    if echo "$line" | grep -q "^    [a-zA-Z]"; then
-                        in_proxies_list=0
-                        echo "退出proxies列表" >&2
-                    fi
-                fi
-            fi
-            echo "$line"
-            continue
-            
-            # 输出其他行
-            echo "$line"
-            continue
-        fi
-        
-        # 处理其他部分
         echo "$line"
-    done < ./clash.yaml > "$temp_file"
-    
-    # 移动临时文件到原文件
-    mv "$temp_file" ./clash.yaml
-    echo "Clash配置已清理完成"
+    fi
 fi
 
+# 处理url-test组中的条目
+if [ $in_url_test_group -eq 1 ]; then
+    # 检查是否是url-test组项
+    if echo "$line" | grep -q "^      - "; then
+        # 提取proxy名称
+        proxy_name=""
+        if echo "$line" | grep -q "^      - [^{]"; then
+            # 处理普通格式: "      - ProxyName"
+            proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ *#.*//' | sed 's/ *$//')
+        elif echo "$line" | grep -q "^      -{name:"; then
+            # 处理内联格式: "      - {name: ProxyName, ...}"
+            proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+        fi
+        
+        # 如果这个proxy名称已在删除列表中或不在有效节点列表中，则跳过不输出
+        if [ -n "$proxy_name" ]; then
+            echo "检查url-test节点引用: \"$proxy_name\"" >&2
+            # 检查是否在有效节点列表中
+            if echo " $valid_names " | grep -q " \"$proxy_name\" "; then
+                echo "保留url-test组中的有效引用: \"$proxy_name\"" >&2
+                echo "$line"
+            else
+                echo "从url-test组中移除无效引用: \"$proxy_name\"" >&2
+                # 真正跳过输出该行
+                continue
+            fi
+            continue
+        fi
+        echo "$line"
+        continue
+    fi
+fi
+
+# 保存处理后的clash.yaml文件
+echo "$clash_content" > ./clash.yaml
+
 echo "========== 任务完成 =========="
+echo "生成的文件:"
+echo "1. clash.yaml - Clash配置文件"
+echo "2. v2ray.txt - V2Ray配置文件"
+echo "3. clash_subscribe_url.txt - Clash订阅链接"
+echo ""
+echo "可以使用以下命令查看完整的订阅链接:"
+echo "cat ./clash_subscribe_url.txt"

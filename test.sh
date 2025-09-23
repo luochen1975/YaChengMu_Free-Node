@@ -799,24 +799,27 @@ $line"
         
         # 处理proxy-groups部分
         if [ $in_proxy_groups -eq 1 ]; then
-            # 检查是否是group定义开始（以name:开头且前面有2个空格）
-            if echo "$line" | grep -q "^  name:"; then
+            # 检查是否是新的group开始 (以两个空格开头后跟字母)
+            if echo "$line" | grep -q "^  [a-zA-Z]"; then
+                # 重置状态变量
                 in_proxies_list=0
-                in_url_test_group=0  # 重置url-test组标记
+                in_url_test_group=0
+                current_group_type=""
                 echo "$line"
                 echo "发现新的proxy-group" >&2
                 continue
             fi
             
-            # 检查type是否为url-test（更宽松的匹配）
-            if echo "$line" | grep -q "type: url-test"; then
+            # 检查group类型
+            if echo "$line" | grep -q "^    type: url-test"; then
                 in_url_test_group=1
+                current_group_type="url-test"
                 echo "$line"
                 echo "当前group类型为url-test" >&2
                 continue
             fi
             
-            # 检查是否是proxies属性开始
+            # 检查是否是proxies列表开始
             if echo "$line" | grep -q "^    proxies:$"; then
                 in_proxies_list=1
                 echo "$line"
@@ -827,69 +830,50 @@ $line"
                 continue
             fi
             
-            # 如果在url-test组的proxies列表中
-            if [ "$in_proxies_list" = "1" ] && [ "$in_url_test_group" = "1" ]; then
-                # 检查是否是proxies列表条目 (以"      - "开头)
+            # 处理proxies列表中的条目
+            if [ $in_proxies_list -eq 1 ]; then
+                # 检查是否是proxies列表项
                 if echo "$line" | grep -q "^      - "; then
-                    # 提取proxy名称
-                    proxy_name=""
-                    if echo "$line" | grep -q "^      - [^{]"; then
-                        # 处理普通格式: "      - ProxyName"
-                        proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ .*//' | sed 's/#.*//' | sed 's/ *$//')
-                    elif echo "$line" | grep -q "^      -{name:"; then
-                        # 处理内联格式: "      - {name: ProxyName, ...}"
-                        proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                    fi
-                    
-                    # 如果这个proxy名称已被删除，则跳过不输出
-                    if [ -n "$proxy_name" ]; then
-                        echo "检查url-test节点引用: \"$proxy_name\"" >&2
-                        # 使用引号包围proxy_name以处理特殊字符，并检查是否在删除列表中
-                        if echo " $deleted_names " | grep -q " \"$proxy_name\" "; then
-                            echo "从url-test组中移除无效引用: \"$proxy_name\"" >&2
-                            continue
-                        else
-                            echo "保留url-test组中的引用: \"$proxy_name\"" >&2
+                    # 只有在url-test组中才需要检查节点有效性
+                    if [ "$current_group_type" = "url-test" ]; then
+                        # 提取proxy名称
+                        proxy_name=""
+                        # 处理普通格式: - ProxyName
+                        if echo "$line" | grep -q "^      - [^{]"; then
+                            proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ .*//' | sed 's/#.*//' | sed 's/ *$//')
+                        # 处理内联格式: - {name: ProxyName, ...}
+                        elif echo "$line" | grep -q "^      -{name:"; then
+                            proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                        # 处理带引号的名称
+                        elif echo "$line" | grep -q "^      - \"[^\"]*\""; then
+                            proxy_name=$(echo "$line" | sed 's/^      - "\(.*\)".*/\1/')
+                        fi
+                        
+                        # 检查并过滤无效的节点引用
+                        if [ -n "$proxy_name" ]; then
+                            echo "检查url-test节点引用: \"$proxy_name\"" >&2
+                            if echo " $deleted_names " | grep -q " \"$proxy_name\" "; then
+                                echo "从url-test组中移除无效引用: \"$proxy_name\"" >&2
+                                continue  # 跳过此行，不输出
+                            else
+                                echo "保留url-test组中的引用: \"$proxy_name\"" >&2
+                            fi
                         fi
                     fi
+                    # 输出有效的proxies列表项
                     echo "$line"
                     continue
                 else
-                    # 不是proxies列表条目，可能是结束或其他属性
-                    # 重置proxies列表标记
-                    if echo "$line" | grep -q "^    [a-z]"; then
-                        in_proxies_list=0
-                        in_url_test_group=0
-                        echo "退出proxies列表和url-test组" >&2
-                    fi
-                fi
-                echo "$line"
-                continue
-            # 如果在其他组的proxies列表中或者不是proxies列表条目
-            elif [ "$in_proxies_list" = "1" ]; then
-                # 检查是否是proxies列表条目
-                if echo "$line" | grep -q "^      - "; then
-                    echo "处理非url-test组中的条目: $line" >&2
-                    echo "$line"
-                    continue
-                else
-                    # 重置proxies列表标记
-                    if echo "$line" | grep -q "^    [a-z]"; then
+                    # 非列表项，可能是其他属性或列表结束
+                    # 检查是否是其他属性开始，表示proxies列表结束
+                    if echo "$line" | grep -q "^    [a-zA-Z]" && ! echo "$line" | grep -q "^    proxies:"; then
                         in_proxies_list=0
                         echo "退出proxies列表" >&2
                     fi
                 fi
-                echo "$line"
-                continue
             fi
             
-            # 检查是否是新组的开始或其他属性
-            if echo "$line" | grep -q "^  [a-z]"; then
-                in_proxies_list=0
-                in_url_test_group=0
-                echo "重置group状态" >&2
-            fi
-            
+            # 输出其他行
             echo "$line"
             continue
         fi

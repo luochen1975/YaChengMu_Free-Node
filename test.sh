@@ -854,9 +854,11 @@ $line"
                             echo "$line"
                         else
                             echo "从url-test组中移除无效引用: \"$proxy_name\"" >&2
+                            # 不输出该行，相当于移除该引用
                         fi
                         continue
                     fi
+                    # 如果无法提取proxy名称，仍然输出该行
                     echo "$line"
                     continue
                 else

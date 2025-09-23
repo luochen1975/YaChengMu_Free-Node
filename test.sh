@@ -836,9 +836,11 @@ $line"
                     if echo "$line" | grep -q "^      - [^{]"; then
                         # 处理普通格式: "      - ProxyName"
                         proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ .*//' | sed 's/#.*//' | sed 's/ *$//')
+                        echo "从普通格式中提取到节点名称: \"$proxy_name\"" >&2
                     elif echo "$line" | grep -q "^      -{name:"; then
-                        # 处理内联格式: "      - {name: ProxyName, ...}" (注意：无空格在-后)
+                        # 处理内联格式: "      - {name: ProxyName, ...}"
                         proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                        echo "从内联格式中提取到节点名称: \"$proxy_name\"" >&2
                     fi
                     
                     # 如果这个proxy名称已被删除，则跳过不输出
@@ -857,7 +859,7 @@ $line"
                 else
                     # 不是proxies列表条目，可能是结束或其他属性
                     # 重置proxies列表标记
-                    if echo "$line" | grep -q "^    [a-zA-Z]"; then
+                    if echo "$line" | grep -q "^    [a-z]"; then
                         in_proxies_list=0
                         in_url_test_group=0
                         echo "退出proxies列表和url-test组" >&2
@@ -865,16 +867,16 @@ $line"
                 fi
                 echo "$line"
                 continue
-            # 如果在其他组的proxies列表中
+            # 如果在其他组的proxies列表中或者不是proxies列表条目
             elif [ "$in_proxies_list" = "1" ]; then
-                # 检查是否是proxies列表条目 (以"      - "开头)
+                # 检查是否是proxies列表条目
                 if echo "$line" | grep -q "^      - "; then
                     echo "处理非url-test组中的条目: $line" >&2
                     echo "$line"
                     continue
                 else
-                    # 重置proxies列表标记（检测到非列表项且以4个空格开头的属性）
-                    if echo "$line" | grep -q "^    [a-zA-Z]" && ! echo "$line" | grep -q "^    proxies:$"; then
+                    # 重置proxies列表标记
+                    if echo "$line" | grep -q "^    [a-z]"; then
                         in_proxies_list=0
                         echo "退出proxies列表" >&2
                     fi

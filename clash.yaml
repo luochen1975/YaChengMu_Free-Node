@@ -15,7 +15,13 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 2025.9.23, server: 104.24.184.212, port: 443, client-fingerprint: random, type: vless, uuid: 31f64d6b-099c-4e72-8bb8-b0b8c7720452, tls: true, servername: xw0083.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: xw0083.dpdns.org}}, udp: true}
+  - {name: FREE_CF 01ᵀʳᵉᵛᵉˡʸ, server: ip.sb, port: 443, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: FREE_CF 02ᵀʳᵉᵛᵉˡʸ, server: icook.hk, port: 2053, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: FREE_CF 03ᵀʳᵉᵛᵉˡʸ, server: icook.tw, port: 2083, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: FREE_CF 04ᵀʳᵉᵛᵉˡʸ, server: www.visa.cn, port: 2087, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: FREE_CF 05ᵀʳᵉᵛᵉˡʸ, server: www.visa.com.tw, port: 2096, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: FREE_CF 06ᵀʳᵉᵛᵉˡʸ, server: "[2606:4700::]", port: 8443, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: FREE_CF 06ᵀʳᵉᵛᵉˡʸ_1, server: "2606:4700::", port: 8443, client-fingerprint: random, type: vless, uuid: 9f2beb39-97e5-4bae-8002-b6e561026d4c, tls: true, servername: vlessfree.trevely.us.kg, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vlessfree.trevely.us.kg}}, udp: true}
   - {name: IQ_speednode_0011, server: get.gemton.ir, port: 443, reality-opts: {public-key: 0M_bLwMXbR_PaBLwNrsf3hwhiLidkeG5geeOMaxcoE4, short-id: "e54b5ad736ae4c38" }, client-fingerprint: firefox, type: vless, uuid: cc08ceae-7608-47c4-9a6a-23e041db8b90, tls: true, servername: tgju.org, network: tcp, udp: true}
   - {name: _IT_意大利->🇬🇧_GB_英国, server: 185.213.23.226, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: _TW_台湾->🇺🇸_US_美国, server: 107.167.182.230, port: 80, client-fingerprint: chrome, type: vmess, uuid: efcb7d7c-c582-46f5-eeff-0e553342528d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@hkaa0}, udp: true}
@@ -28,11 +34,10 @@ proxies:
   - {name: _US_美国->🇮🇳_IN_印度_4, server: mm3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}, udp: true}
   - {name: _US_美国->🇳🇱_NL_荷兰, server: 45.199.138.191, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696251522438}, udp: true}
   - {name: _US_美国->🇸🇦_SA_沙特阿拉伯, server: jd3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jd3.shabijichang.com}}, udp: true}
-  - {name: ℹ️ https://t.me/stymei1, server: 104.16.53.218, port: 443, client-fingerprint: random, type: vless, uuid: 31f64d6b-099c-4e72-8bb8-b0b8c7720452, tls: true, servername: xw0083.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: xw0083.dpdns.org}}, udp: true}
   - {name: ℹ️ tg频道:@freenodedaily, server: 18.159.61.225, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: ℹ️ 一定要关注TG频道, server: 104.16.227.193, port: 443, client-fingerprint: random, type: vless, uuid: 31f64d6b-099c-4e72-8bb8-b0b8c7720452, tls: true, servername: xw0083.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: xw0083.dpdns.org}}, udp: true}
   - {name: ℹ️ 节点日期：09-23, server: louber.missionsec.us, port: 443, client-fingerprint: chrome, type: trojan, password: BAu7ZSyD3IZppnCOxCzaFXje3SECzZgX83e3x7yZA8SDCacyagKFlEO6O0AlTSwDDe4SF, sni: louber.missionsec.us, udp: true}
-  - {name: ℹ️ 裤佬公益订阅, server: 104.24.144.124, port: 443, client-fingerprint: random, type: vless, uuid: 31f64d6b-099c-4e72-8bb8-b0b8c7720452, tls: true, servername: xw0083.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: xw0083.dpdns.org}}, udp: true}
+  - {name: ℹ️ 裤佬公益订阅Max版, server: testkr3.ssv.vc, port: 30446, client-fingerprint: chrome, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 裤佬求你了凿斯它, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, client-fingerprint: chrome, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, udp: true}
   - {name: 🇦🇺 澳大利亚 001, server: hk3.kaipi.link, port: 443, client-fingerprint: chrome, type: vless, uuid: d8665d45-8103-46e9-9cb7-8902bb7559b4, tls: true, servername: hk3.kaipi.link, network: ws, ws-opts: {path: /texaws, headers: {Host: hk3.kaipi.link}}, udp: true}
   - {name: 🇦🇺 澳洲(yfuye.com免费节点)_1, server: 91.108.241.188, port: 443, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
   - {name: 🇦🇺 澳洲(yfuye.com免费节点)_2, server: 43.134.191.217, port: 9811, client-fingerprint: chrome, type: vless, uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a, tls: true, servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)"}, udp: true}
@@ -149,7 +154,25 @@ proxies:
   - {name: 🇯🇵 日本【机场推荐：https://a0a.xyz/】21, server: 163.61.208.189, port: 4355, client-fingerprint: chrome, type: vmess, uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇯🇵 日本【机场推荐：https://a0a.xyz/】29, server: qige.zaide.tech, port: 22846, client-fingerprint: chrome, type: trojan, password: 6et7U7udLe, sni: qige.zaide.tech, udp: true}
   - {name: 🇯🇵 日本【机场推荐：https://a0a.xyz/】30, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
-  - {name: 🇰🇷 KR_speednode_0017, server: testkr3.ssv.vc, port: 30446, client-fingerprint: chrome, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 FREE_KR 01ᵀʳᵉᵛᵉˡʸ, server: 1.214.208.5, port: 50001, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 02ᵀʳᵉᵛᵉˡʸ, server: 49.168.9.171, port: 50001, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 03ᵀʳᵉᵛᵉˡʸ, server: 49.175.158.24, port: 50001, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 04ᵀʳᵉᵛᵉˡʸ, server: 59.7.0.176, port: 50001, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 05ᵀʳᵉᵛᵉˡʸ, server: 61.253.84.2, port: 50001, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 06ᵀʳᵉᵛᵉˡʸ, server: 112.165.11.40, port: 50000, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 07ᵀʳᵉᵛᵉˡʸ, server: 112.165.215.157, port: 50000, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 08ᵀʳᵉᵛᵉˡʸ, server: 112.168.35.73, port: 50001, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 09ᵀʳᵉᵛᵉˡʸ, server: 118.35.75.140, port: 50000, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 10ᵀʳᵉᵛᵉˡʸ, server: 118.39.44.24, port: 50000, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 12ᵀʳᵉᵛᵉˡʸ, server: 118.44.98.228, port: 50001, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 13ᵀʳᵉᵛᵉˡʸ, server: 118.46.37.203, port: 50000, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 14ᵀʳᵉᵛᵉˡʸ, server: 119.193.156.30, port: 50001, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 15ᵀʳᵉᵛᵉˡʸ, server: 121.153.38.160, port: 50001, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 16ᵀʳᵉᵛᵉˡʸ, server: 121.178.121.161, port: 50000, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 17ᵀʳᵉᵛᵉˡʸ, server: 125.143.29.83, port: 50000, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 18ᵀʳᵉᵛᵉˡʸ, server: 203.243.54.42, port: 50000, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 19ᵀʳᵉᵛᵉˡʸ, server: 211.184.116.84, port: 50001, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇰🇷 FREE_KR 20ᵀʳᵉᵛᵉˡʸ, server: 211.209.211.83, port: 50001, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
   - {name: 🇰🇷 韩国 - 光明市 - SK Broadband Co Ltd - 1, server: p141.panda001.net, port: 4652, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 🇰🇷 韩国(yfuye.com免费节点)_1, server: 112.160.1.110, port: 12351, client-fingerprint: chrome, type: vless, uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a, tls: true, servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)"}, udp: true}
   - {name: 🇰🇷 韩国(yfuye.com免费节点)_10, server: 152.67.197.197, port: 19120, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
@@ -200,9 +223,12 @@ proxies:
   - {name: 🇹🇷 土耳其(yfuye.com免费节点)_2, server: 89.22.227.239, port: 443, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
   - {name: 🇹🇷 土耳其(yfuye.com免费节点)_3, server: 92.42.102.73, port: 8443, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
   - {name: 🇹🇷 土耳其(yfuye.com免费节点)_4, server: 89.22.239.42, port: 2020, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
+  - {name: 🇹🇼 FREE_TW 01ᵀʳᵉᵛᵉˡʸ, server: 118.163.37.32, port: 81, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
+  - {name: 🇹🇼 FREE_TW 02ᵀʳᵉᵛᵉˡʸ, server: 220.135.202.250, port: 81, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
   - {name: 🇹🇼 台湾, server: 103.236.227.7, port: 49795, client-fingerprint: chrome, type: vmess, uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇺🇦 乌克兰 001, server: pq-brazil1.09vpn.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: pq-brazil1.09vpn.com}}, udp: true}
   - {name: 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】8, server: switcher-nick-croquet.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: 🇺🇸 FREE_US 00ᵀʳᵉᵛᵉˡʸ, server: 122.117.174.80, port: 443, client-fingerprint: chrome, type: trojan, password: Trevely, sni: trojanfree.trevely.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojanfree.trevely.us.kg}}, udp: true}
   - {name: 🇺🇸 US_speednode_0023, server: 500770.xyz, port: 34074, reality-opts: {public-key: zimSAAs4SyUKAR-MTMaw08PuI7skyi1U5Peb6VGJwjY, short-id: "061cca24" }, client-fingerprint: qq, type: vless, uuid: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, tls: true, flow: xtls-rprx-vision, servername: www.ucla.edu, network: tcp, udp: true}
   - {name: 🇺🇸 US_speednode_0025, server: m24a.vip784.com, port: 33801, client-fingerprint: chrome, type: vless, uuid: d36f457f-17a9-4891-a113-322ec6792917, tls: false, servername: varzesh3.ir, network: http, http-opts: {method: GET, path: [/], headers: {Host: [varzesh3.ir]}}, udp: true}
   - {name: 🇺🇸 US_speednode_0033, server: 146.235.193.81, port: 443, reality-opts: {public-key: Xd2u-uX0dhiJrB_ESaDSoQBmT6Jv1tEmqn3inOiYFDg, short-id: "207a3de5" }, client-fingerprint: safari, type: vless, uuid: 747c62da-109f-4add-8e67-c66e1af7d255, tls: true, flow: xtls-rprx-vision, servername: iosapps.itunes.apple.com, network: tcp, udp: true}
@@ -241,7 +267,6 @@ proxies:
   - {name: 🇺🇸 美国 029, server: koma-yt.pages.dev, port: 8443, client-fingerprint: chrome, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/tro8sFW1S91B6sZrM1?ed=2560", headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇺🇸 美国 030, server: time.is, port: 2087, client-fingerprint: chrome, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}, udp: true}
   - {name: 🇺🇸 美国 031, server: 172.66.46.254, port: 443, client-fingerprint: chrome, type: trojan, password: auto, sni: dcf741e8.epeius-2gy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dcf741e8.epeius-2gy.pages.dev}}, udp: true}
-  - {name: 🇺🇸 美国 032, server: ip.sb, port: 8443, client-fingerprint: chrome, type: trojan, password: trojan, sni: fofang.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: fofang.pages.dev}}, udp: true}
   - {name: 🇺🇸 美国 033, server: www.udemy.com, port: 443, client-fingerprint: chrome, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}, udp: true}
   - {name: 🇺🇸 美国 034, server: singapore.com, port: 443, client-fingerprint: chrome, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}, udp: true}
   - {name: 🇺🇸 美国 036, server: www.wto.org, port: 443, client-fingerprint: chrome, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}, udp: true}
@@ -251,7 +276,6 @@ proxies:
   - {name: 🇺🇸 美国 040, server: www.pcmag.com, port: 443, client-fingerprint: chrome, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}, udp: true}
   - {name: 🇺🇸 美国 041, server: www.udacity.com, port: 443, client-fingerprint: chrome, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}, udp: true}
   - {name: 🇺🇸 美国 042, server: japan.com, port: 443, client-fingerprint: chrome, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}, udp: true}
-  - {name: 🇺🇸 美国 043, server: www.visa.com.tw, port: 443, client-fingerprint: chrome, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}, udp: true}
   - {name: 🇺🇸 美国 045, server: 45.82.14.144, port: 2025, client-fingerprint: chrome, type: trojan, password: vpn, sni: dns.google.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dns.google.com}}, udp: true}
   - {name: 🇺🇸 美国 046, server: 38.207.133.204, port: 10002, client-fingerprint: chrome, type: trojan, password: trojan, sni: qingming-b08.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: qingming-b08.pages.dev}}, udp: true}
   - {name: 🇺🇸 美国 047, server: 104.21.18.192, port: 443, client-fingerprint: chrome, type: trojan, password: rXzh%3B%3FnW1GGKB(K8, sni: sAiKOXpUbGm.ZhkinGkuRD13.WorkErs.dEV, skip-cert-verify: true, network: ws, ws-opts: {path: /tr4BCdusB84159lWnu, headers: {Host: sAiKOXpUbGm.ZhkinGkuRD13.WorkErs.dEV}}, udp: true}
@@ -611,7 +635,18 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
-      - 2025.9.23
+      - FREE_CF 01ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 01ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 02ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 02ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 03ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 03ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 04ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 04ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 05ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 05ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 06ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 06ᵀʳᵉᵛᵉˡʸ_1
       - IQ_speednode_0011
       - _IT_意大利->🇬🇧_GB_英国
       - _TW_台湾->🇺🇸_US_美国
@@ -624,12 +659,11 @@ proxy-groups:
       - _US_美国->🇮🇳_IN_印度_4
       - _US_美国->🇳🇱_NL_荷兰
       - _US_美国->🇸🇦_SA_沙特阿拉伯
-      - ℹ️ https://t.me/stymei1
       - ℹ️ tg频道:@freenodedaily
       - ℹ️ tg频道:@ripaojiedian
-      - ℹ️ 一定要关注TG频道
       - ℹ️ 节点日期：09-23
-      - ℹ️ 裤佬公益订阅
+      - ℹ️ 裤佬公益订阅Max版
+      - 裤佬求你了凿斯它
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳洲(yfuye.com免费节点)_1
       - 🇦🇺 澳洲(yfuye.com免费节点)_2
@@ -773,6 +807,44 @@ proxy-groups:
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】21
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】29
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】30
+      - 🇰🇷 FREE_KR 01ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 01ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 02ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 02ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 03ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 03ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 04ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 04ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 05ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 05ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 06ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 06ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 07ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 07ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 08ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 08ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 09ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 09ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 10ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 10ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 12ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 12ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 13ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 13ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 14ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 14ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 15ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 15ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 16ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 16ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 17ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 17ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 18ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 18ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 19ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 19ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 20ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 20ᵀʳᵉᵛᵉˡʸ_1
       - 🇰🇷 KR_speednode_0017
       - 🇰🇷 韩国 - 光明市 - SK Broadband Co Ltd - 1
       - 🇰🇷 韩国(yfuye.com免费节点)_1
@@ -835,9 +907,15 @@ proxy-groups:
       - 🇹🇷 土耳其(yfuye.com免费节点)_2
       - 🇹🇷 土耳其(yfuye.com免费节点)_3
       - 🇹🇷 土耳其(yfuye.com免费节点)_4
+      - 🇹🇼 FREE_TW 01ᵀʳᵉᵛᵉˡʸ
+      - 🇹🇼 FREE_TW 01ᵀʳᵉᵛᵉˡʸ_1
+      - 🇹🇼 FREE_TW 02ᵀʳᵉᵛᵉˡʸ
+      - 🇹🇼 FREE_TW 02ᵀʳᵉᵛᵉˡʸ_1
       - 🇹🇼 台湾
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】8
+      - 🇺🇸 FREE_US 00ᵀʳᵉᵛᵉˡʸ
+      - 🇺🇸 FREE_US 00ᵀʳᵉᵛᵉˡʸ_1
       - 🇺🇸 US_speednode_0023
       - 🇺🇸 US_speednode_0025
       - 🇺🇸 US_speednode_0033
@@ -1307,7 +1385,18 @@ proxy-groups:
   - name: 👆🏻 ‍指定
     type: select
     proxies:
-      - 2025.9.23
+      - FREE_CF 01ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 01ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 02ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 02ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 03ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 03ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 04ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 04ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 05ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 05ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 06ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 06ᵀʳᵉᵛᵉˡʸ_1
       - IQ_speednode_0011
       - _IT_意大利->🇬🇧_GB_英国
       - _TW_台湾->🇺🇸_US_美国
@@ -1320,12 +1409,11 @@ proxy-groups:
       - _US_美国->🇮🇳_IN_印度_4
       - _US_美国->🇳🇱_NL_荷兰
       - _US_美国->🇸🇦_SA_沙特阿拉伯
-      - ℹ️ https://t.me/stymei1
       - ℹ️ tg频道:@freenodedaily
       - ℹ️ tg频道:@ripaojiedian
-      - ℹ️ 一定要关注TG频道
       - ℹ️ 节点日期：09-23
-      - ℹ️ 裤佬公益订阅
+      - ℹ️ 裤佬公益订阅Max版
+      - 裤佬求你了凿斯它
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳洲(yfuye.com免费节点)_1
       - 🇦🇺 澳洲(yfuye.com免费节点)_2
@@ -1469,6 +1557,44 @@ proxy-groups:
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】21
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】29
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】30
+      - 🇰🇷 FREE_KR 01ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 01ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 02ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 02ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 03ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 03ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 04ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 04ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 05ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 05ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 06ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 06ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 07ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 07ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 08ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 08ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 09ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 09ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 10ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 10ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 12ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 12ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 13ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 13ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 14ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 14ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 15ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 15ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 16ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 16ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 17ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 17ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 18ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 18ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 19ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 19ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 20ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 20ᵀʳᵉᵛᵉˡʸ_1
       - 🇰🇷 KR_speednode_0017
       - 🇰🇷 韩国 - 光明市 - SK Broadband Co Ltd - 1
       - 🇰🇷 韩国(yfuye.com免费节点)_1
@@ -1531,9 +1657,15 @@ proxy-groups:
       - 🇹🇷 土耳其(yfuye.com免费节点)_2
       - 🇹🇷 土耳其(yfuye.com免费节点)_3
       - 🇹🇷 土耳其(yfuye.com免费节点)_4
+      - 🇹🇼 FREE_TW 01ᵀʳᵉᵛᵉˡʸ
+      - 🇹🇼 FREE_TW 01ᵀʳᵉᵛᵉˡʸ_1
+      - 🇹🇼 FREE_TW 02ᵀʳᵉᵛᵉˡʸ
+      - 🇹🇼 FREE_TW 02ᵀʳᵉᵛᵉˡʸ_1
       - 🇹🇼 台湾
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】8
+      - 🇺🇸 FREE_US 00ᵀʳᵉᵛᵉˡʸ
+      - 🇺🇸 FREE_US 00ᵀʳᵉᵛᵉˡʸ_1
       - 🇺🇸 US_speednode_0023
       - 🇺🇸 US_speednode_0025
       - 🇺🇸 US_speednode_0033
@@ -2059,6 +2191,10 @@ proxy-groups:
     interval: 15
     tolerance: 100
     proxies:
+      - 🇹🇼 FREE_TW 01ᵀʳᵉᵛᵉˡʸ
+      - 🇹🇼 FREE_TW 01ᵀʳᵉᵛᵉˡʸ_1
+      - 🇹🇼 FREE_TW 02ᵀʳᵉᵛᵉˡʸ
+      - 🇹🇼 FREE_TW 02ᵀʳᵉᵛᵉˡʸ_1
       - 🇹🇼 台湾
   - name: 🇨🇳 ‍中国
     type: url-test
@@ -2095,6 +2231,10 @@ proxy-groups:
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7
       - 🇭🇰 香港|@ripaojiedian
+      - 🇹🇼 FREE_TW 01ᵀʳᵉᵛᵉˡʸ
+      - 🇹🇼 FREE_TW 01ᵀʳᵉᵛᵉˡʸ_1
+      - 🇹🇼 FREE_TW 02ᵀʳᵉᵛᵉˡʸ
+      - 🇹🇼 FREE_TW 02ᵀʳᵉᵛᵉˡʸ_1
       - 🇹🇼 台湾
   - name: 🇸🇬 ‍新加坡
     type: url-test
@@ -2159,6 +2299,8 @@ proxy-groups:
     tolerance: 300
     proxies:
       - _TW_台湾->🇺🇸_US_美国
+      - 🇺🇸 FREE_US 00ᵀʳᵉᵛᵉˡʸ
+      - 🇺🇸 FREE_US 00ᵀʳᵉᵛᵉˡʸ_1
       - 🇺🇸 US_speednode_0023
       - 🇺🇸 US_speednode_0025
       - 🇺🇸 US_speednode_0033
@@ -2421,7 +2563,18 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
-      - 2025.9.23
+      - FREE_CF 01ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 01ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 02ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 02ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 03ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 03ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 04ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 04ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 05ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 05ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 06ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 06ᵀʳᵉᵛᵉˡʸ_1
       - IQ_speednode_0011
       - _IT_意大利->🇬🇧_GB_英国
       - _US_美国->🇩🇪_DE_德国
@@ -2433,12 +2586,11 @@ proxy-groups:
       - _US_美国->🇮🇳_IN_印度_4
       - _US_美国->🇳🇱_NL_荷兰
       - _US_美国->🇸🇦_SA_沙特阿拉伯
-      - ℹ️ https://t.me/stymei1
       - ℹ️ tg频道:@freenodedaily
       - ℹ️ tg频道:@ripaojiedian
-      - ℹ️ 一定要关注TG频道
       - ℹ️ 节点日期：09-23
-      - ℹ️ 裤佬公益订阅
+      - ℹ️ 裤佬公益订阅Max版
+      - 裤佬求你了凿斯它
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳洲(yfuye.com免费节点)_1
       - 🇦🇺 澳洲(yfuye.com免费节点)_2
@@ -2519,6 +2671,44 @@ proxy-groups:
       - 🇬🇷 希腊 V2CROSS.COM
       - 🇮🇷 伊朗【机场推荐：https://a0a.xyz/】23
       - 🇮🇹 IT_speednode_0016
+      - 🇰🇷 FREE_KR 01ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 01ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 02ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 02ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 03ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 03ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 04ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 04ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 05ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 05ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 06ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 06ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 07ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 07ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 08ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 08ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 09ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 09ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 10ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 10ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 12ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 12ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 13ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 13ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 14ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 14ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 15ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 15ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 16ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 16ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 17ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 17ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 18ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 18ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 19ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 19ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 20ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 20ᵀʳᵉᵛᵉˡʸ_1
       - 🇰🇷 KR_speednode_0017
       - 🇰🇷 韩国 - 光明市 - SK Broadband Co Ltd - 1
       - 🇰🇷 韩国(yfuye.com免费节点)_1
@@ -2808,6 +2998,10 @@ proxy-groups:
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
     proxies:
+      - 🇹🇼 FREE_TW 01ᵀʳᵉᵛᵉˡʸ
+      - 🇹🇼 FREE_TW 01ᵀʳᵉᵛᵉˡʸ_1
+      - 🇹🇼 FREE_TW 02ᵀʳᵉᵛᵉˡʸ
+      - 🇹🇼 FREE_TW 02ᵀʳᵉᵛᵉˡʸ_1
       - 🇹🇼 台湾
   - name: 👆🏻🇨🇳 ‍中国
     type: select
@@ -2841,6 +3035,10 @@ proxy-groups:
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7
       - 🇭🇰 香港|@ripaojiedian
+      - 🇹🇼 FREE_TW 01ᵀʳᵉᵛᵉˡʸ
+      - 🇹🇼 FREE_TW 01ᵀʳᵉᵛᵉˡʸ_1
+      - 🇹🇼 FREE_TW 02ᵀʳᵉᵛᵉˡʸ
+      - 🇹🇼 FREE_TW 02ᵀʳᵉᵛᵉˡʸ_1
       - 🇹🇼 台湾
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
@@ -2896,6 +3094,8 @@ proxy-groups:
     type: select
     proxies:
       - _TW_台湾->🇺🇸_US_美国
+      - 🇺🇸 FREE_US 00ᵀʳᵉᵛᵉˡʸ
+      - 🇺🇸 FREE_US 00ᵀʳᵉᵛᵉˡʸ_1
       - 🇺🇸 US_speednode_0023
       - 🇺🇸 US_speednode_0025
       - 🇺🇸 US_speednode_0033
@@ -3155,7 +3355,18 @@ proxy-groups:
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:
-      - 2025.9.23
+      - FREE_CF 01ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 01ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 02ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 02ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 03ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 03ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 04ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 04ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 05ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 05ᵀʳᵉᵛᵉˡʸ_1
+      - FREE_CF 06ᵀʳᵉᵛᵉˡʸ
+      - FREE_CF 06ᵀʳᵉᵛᵉˡʸ_1
       - IQ_speednode_0011
       - _IT_意大利->🇬🇧_GB_英国
       - _US_美国->🇩🇪_DE_德国
@@ -3167,12 +3378,11 @@ proxy-groups:
       - _US_美国->🇮🇳_IN_印度_4
       - _US_美国->🇳🇱_NL_荷兰
       - _US_美国->🇸🇦_SA_沙特阿拉伯
-      - ℹ️ https://t.me/stymei1
       - ℹ️ tg频道:@freenodedaily
       - ℹ️ tg频道:@ripaojiedian
-      - ℹ️ 一定要关注TG频道
       - ℹ️ 节点日期：09-23
-      - ℹ️ 裤佬公益订阅
+      - ℹ️ 裤佬公益订阅Max版
+      - 裤佬求你了凿斯它
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳洲(yfuye.com免费节点)_1
       - 🇦🇺 澳洲(yfuye.com免费节点)_2
@@ -3253,6 +3463,44 @@ proxy-groups:
       - 🇬🇷 希腊 V2CROSS.COM
       - 🇮🇷 伊朗【机场推荐：https://a0a.xyz/】23
       - 🇮🇹 IT_speednode_0016
+      - 🇰🇷 FREE_KR 01ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 01ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 02ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 02ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 03ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 03ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 04ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 04ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 05ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 05ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 06ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 06ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 07ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 07ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 08ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 08ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 09ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 09ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 10ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 10ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 12ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 12ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 13ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 13ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 14ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 14ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 15ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 15ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 16ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 16ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 17ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 17ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 18ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 18ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 19ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 19ᵀʳᵉᵛᵉˡʸ_1
+      - 🇰🇷 FREE_KR 20ᵀʳᵉᵛᵉˡʸ
+      - 🇰🇷 FREE_KR 20ᵀʳᵉᵛᵉˡʸ_1
       - 🇰🇷 KR_speednode_0017
       - 🇰🇷 韩国 - 光明市 - SK Broadband Co Ltd - 1
       - 🇰🇷 韩国(yfuye.com免费节点)_1

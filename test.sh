@@ -863,8 +863,8 @@ $line"
                     continue
                 else
                     # 不是proxies列表条目，可能是结束或其他属性
-                    # 重置proxies列表标记
-                    if echo "$line" | grep -q "^    [a-z]"; then
+                    # 只有在遇到其他属性时才重置proxies列表标记
+                    if echo "$line" | grep -q "^    [a-z]" && ! echo "$line" | grep -q "^    proxies:"; then
                         in_proxies_list=0
                         in_url_test_group=0
                         echo "退出proxies列表和url-test组" >&2
@@ -883,8 +883,8 @@ $line"
                     continue
                 else
                     # 非列表项，可能是其他属性或列表结束
-                    # 检查是否是其他属性开始，表示proxies列表结束
-                    if echo "$line" | grep -q "^    [a-zA-Z]"; then
+                    # 只有在遇到其他属性时才重置proxies列表标记
+                    if echo "$line" | grep -q "^    [a-z]" && ! echo "$line" | grep -q "^    proxies:"; then
                         in_proxies_list=0
                         echo "退出proxies列表" >&2
                     fi

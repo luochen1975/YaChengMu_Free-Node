@@ -845,16 +845,17 @@ $line"
                         proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
                     fi
                     
-                    # 如果这个proxy名称已被删除，则跳过不输出
+                    # 如果这个proxy名称已在删除列表中或不在有效节点列表中，则跳过不输出
                     if [ -n "$proxy_name" ]; then
                         echo "检查url-test节点引用: \"$proxy_name\"" >&2
-                        # 使用引号包围proxy_name以处理特殊字符，并检查是否在删除列表中
-                        if echo " $deleted_names " | grep -q " \"$proxy_name\" "; then
-                            echo "从url-test组中移除无效引用: \"$proxy_name\"" >&2
-                            continue
+                        # 检查是否在有效节点列表中
+                        if echo " $valid_names " | grep -q " \"$proxy_name\" "; then
+                            echo "保留url-test组中的有效引用: \"$proxy_name\"" >&2
+                            echo "$line"
                         else
-                            echo "保留url-test组中的引用: \"$proxy_name\"" >&2
+                            echo "从url-test组中移除无效引用: \"$proxy_name\"" >&2
                         fi
+                        continue
                     fi
                     echo "$line"
                     continue
@@ -872,7 +873,7 @@ $line"
             fi
             
             # 处理proxies列表中的条目（非url-test组）
-            if [ $in_proxies_list -eq 1 ] && [ $in_url_test_group -eq 0 ]; then
+            if [ $in_proxies_list -eq 1 ]; then
                 # 检查是否是proxies列表项
                 if echo "$line" | grep -q "^      - "; then
                     # 提取proxy名称
@@ -885,16 +886,17 @@ $line"
                         proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
                     fi
                     
-                    # 如果这个proxy名称已被删除，则跳过不输出
+                    # 如果这个proxy名称已在删除列表中或不在有效节点列表中，则跳过不输出
                     if [ -n "$proxy_name" ]; then
-                        echo "检查普通组节点引用: \"$proxy_name\"" >&2
-                        # 使用引号包围proxy_name以处理特殊字符，并检查是否在删除列表中
-                        if echo " $deleted_names " | grep -q " \"$proxy_name\" "; then
-                            echo "从普通组中移除无效引用: \"$proxy_name\"" >&2
-                            continue
+                        echo "检查非url-test节点引用: \"$proxy_name\"" >&2
+                        # 检查是否在有效节点列表中
+                        if echo " $valid_names " | grep -q " \"$proxy_name\" "; then
+                            echo "保留非url-test组中的有效引用: \"$proxy_name\"" >&2
+                            echo "$line"
                         else
-                            echo "保留普通组中的引用: \"$proxy_name\"" >&2
+                            echo "从非url-test组中移除无效引用: \"$proxy_name\"" >&2
                         fi
+                        continue
                     fi
                     echo "$line"
                     continue
@@ -906,9 +908,9 @@ $line"
                         echo "退出proxies列表" >&2
                     fi
                 fi
+                echo "$line"
+                continue
             fi
-            echo "$line"
-            continue
             
             # 输出其他行
             echo "$line"

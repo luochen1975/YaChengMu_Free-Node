@@ -831,11 +831,11 @@ $line"
             fi
             
             # 如果在proxies列表中
-            if [ $in_proxies_list -eq 1 ]; then
+            if [ "$in_proxies_list" = "1" ]; then
                 # 检查是否是proxies列表条目 (以"      - "开头)
                 if echo "$line" | grep -q "^      - "; then
                     # 特殊处理url-test组
-                    if [ $in_url_test_group -eq 1 ]; then
+                    if [ "$in_url_test_group" = "1" ]; then
                         # 提取proxy名称
                         proxy_name=""
                         if echo "$line" | grep -q "^      - [^{]"; then
@@ -866,7 +866,6 @@ $line"
                 else
                     # 不是proxies列表条目，可能是结束或其他属性
                     # 只有在遇到其他属性时才重置proxies列表标记
-                    # 修复：确保只有在真正的属性行才重置状态
                     if echo "$line" | grep -q "^    [a-zA-Z]" && ! echo "$line" | grep -q "^    proxies:"; then
                         in_proxies_list=0
                         in_url_test_group=0

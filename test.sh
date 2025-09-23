@@ -799,7 +799,7 @@ $line"
         
         # 处理proxy-groups部分
         if [ $in_proxy_groups -eq 1 ]; then
-            # 检查是否是group定义开始（以name:开头且前面有2个空格）
+            # 棜查是否是group定义开始（以name:开头且前面有2个空格）
             if echo "$line" | grep -q "^  name:"; then
                 in_proxies_list=0
                 in_url_test_group=0  # 重置url-test组标记
@@ -821,9 +821,7 @@ $line"
                 in_proxies_list=1
                 echo "$line"
                 echo "进入proxies列表" >&2
-                if [ "$in_url_test_group" = "1" ]; then
-                    echo "当前在url-test组中" >&2
-                fi
+                echo "当前url-test组状态: $in_url_test_group" >&2
                 continue
             fi
             
@@ -836,11 +834,9 @@ $line"
                     if echo "$line" | grep -q "^      - [^{]"; then
                         # 处理普通格式: "      - ProxyName"
                         proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ .*//' | sed 's/#.*//' | sed 's/ *$//')
-                        echo "从普通格式中提取到节点名称: \"$proxy_name\"" >&2
                     elif echo "$line" | grep -q "^      -{name:"; then
                         # 处理内联格式: "      - {name: ProxyName, ...}"
                         proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                        echo "从内联格式中提取到节点名称: \"$proxy_name\"" >&2
                     fi
                     
                     # 如果这个proxy名称已被删除，则跳过不输出

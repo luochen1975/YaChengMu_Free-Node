@@ -780,6 +780,7 @@ $line"
             in_proxies_list=0
             in_url_test_group=0
             current_group_type=""
+            echo "DEBUG: 检测到新的proxy-group开始" >&2
             echo "$line"
             continue
         fi
@@ -788,6 +789,7 @@ $line"
         if echo "$line" | grep -q "^    type: url-test"; then
             in_url_test_group=1
             current_group_type="url-test"
+            echo "DEBUG: 检测到url-test类型的group" >&2
             echo "$line"
             continue
         fi
@@ -795,6 +797,7 @@ $line"
         # 检查是否是proxies列表开始
         if echo "$line" | grep -q "^    proxies:$"; then
             in_proxies_list=1
+            echo "DEBUG: 进入proxies列表，当前group类型: $current_group_type" >&2
             echo "$line"
             continue
         fi
@@ -814,20 +817,33 @@ $line"
                     proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
                 fi
                 
+                # 添加调试日志
+                echo "DEBUG: 处理url-test组中的节点引用: '$proxy_name'" >&2
+                echo "DEBUG: 当前有效节点列表: $valid_names" >&2
+                
                 # 如果这个proxy名称已在删除列表中或不在有效节点列表中，则跳过不输出
                 if [ -n "$proxy_name" ]; then
                     # 检查是否在有效节点列表中，使用引号包围确保精确匹配
                     if echo " $valid_names " | grep -q " \"$proxy_name\" "; then
+                        echo "DEBUG: 保留有效的节点引用: '$proxy_name'" >&2
                         echo "$line"
+                    else
+                        echo "DEBUG: 移除无效的节点引用: '$proxy_name'" >&2
+                        # 真正跳过输出该行
+                        continue
                     fi
                     continue
                 fi
+                echo "DEBUG: proxy_name为空，直接输出行内容" >&2
                 echo "$line"
                 continue
             else
+                echo "DEBUG: 不是proxies列表条目，检查是否需要重置状态" >&2
+                echo "DEBUG: 当前行内容: $line" >&2
                 # 不是proxies列表条目，可能是结束或其他属性
                 # 重置proxies列表标记
                 if echo "$line" | grep -q "^    [a-z]"; then
+                    echo "DEBUG: 检测到属性行，重置proxies列表状态" >&2
                     in_proxies_list=0
                     in_url_test_group=0
                 fi
@@ -851,27 +867,36 @@ $line"
                     proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
                 fi
                 
+                echo "DEBUG: 处理非url-test组中的节点引用: '$proxy_name'" >&2
+                echo "DEBUG: 当前有效节点列表: $valid_names" >&2
+                
                 # 对于非url-test组，仅移除特定名称的节点引用
                 if [ -n "$proxy_name" ]; then
                     # 检查是否是需要移除的特殊节点名称
                     case "$proxy_name" in
                         "⚡ ‍低延迟"|"👆🏻 ‍指定"|"🇭🇰 ‍香港"|"🇹🇼 ‍台湾"|"🇨🇳 ‍中国"|"🇸🇬 ‍新加坡"|"🇯🇵 ‍日本"|"🇺🇸 ‍美国"|"🎏 ‍其他"|"👆🏻🇭🇰 ‍香港"|"👆🏻🇹🇼 ‍台湾"|"👆🏻🇨🇳 ‍中国"|"👆🏻🇸🇬 ‍新加坡"|"👆🏻🇯🇵 ‍日本"|"👆🏻🇺🇸 ‍美国"|"👆🏻🎏 ‍其他")
                             # 这些特殊名称的节点引用需要被移除
+                            echo "DEBUG: 移除特殊名称节点引用: '$proxy_name'" >&2
                             continue
                             ;;
                         *)
                             # 对于非url-test组，除了特殊名称外，其余节点不做处理
+                            echo "DEBUG: 保留非特殊名称节点引用: '$proxy_name'" >&2
                             echo "$line"
                             ;;
                     esac
                 else
+                    echo "DEBUG: proxy_name为空，直接输出行内容" >&2
                     echo "$line"
                 fi
                 continue
             else
+                echo "DEBUG: 非url-test组中不是proxies列表条目，检查是否需要重置状态" >&2
+                echo "DEBUG: 当前行内容: $line" >&2
                 # 非列表项，可能是其他属性或列表结束
                 # 检查是否是其他属性开始，表示proxies列表结束
                 if echo "$line" | grep -q "^    [a-zA-Z]"; then
+                    echo "DEBUG: 检测到属性行，重置proxies列表状态" >&2
                     in_proxies_list=0
                 fi
             fi

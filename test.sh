@@ -860,13 +860,12 @@ $line"
                             continue
                         fi
                     fi
-                    # 对于非url-test组或者无法提取名称的情况，直接输出
+                    # 对于非url-test组，直接输出所有proxies列表项
                     echo "$line"
                     continue
                 else
                     # 不是proxies列表条目，可能是结束或其他属性
                     # 只有在遇到其他属性时才重置proxies列表标记
-                    # 修复：使用更严格的条件判断是否为属性行，排除空行和注释
                     if echo "$line" | grep -q "^    [a-zA-Z]" && ! echo "$line" | grep -q "^    proxies:"; then
                         in_proxies_list=0
                         in_url_test_group=0

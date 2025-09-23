@@ -599,10 +599,11 @@ clash_content=$(cat ./clash.yaml)
 
 # 初始化变量
 in_proxies_list=0
+in_url_test_group=0
 valid_names=""
 
 # 处理proxies列表中的条目（非url-test组）
-if [ $in_proxies_list -eq 1 ]; then
+if [ "$in_proxies_list" -eq 1 ]; then
     # 检查是否是proxies列表项
     if echo "$line" | grep -q "^      - "; then
         # 提取proxy名称
@@ -626,7 +627,7 @@ if [ $in_proxies_list -eq 1 ]; then
 fi
 
 # 处理url-test组中的条目
-if [ $in_url_test_group -eq 1 ]; then
+if [ "$in_url_test_group" -eq 1 ]; then
     # 检查是否是url-test组项
     if echo "$line" | grep -q "^      - "; then
         # 提取proxy名称

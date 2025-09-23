@@ -830,35 +830,37 @@ $line"
                 continue
             fi
             
-            # 如果在url-test组的proxies列表中
-            if [ "$in_proxies_list" = "1" ] && [ "$in_url_test_group" = "1" ]; then
+            # 如果在proxies列表中
+            if [ $in_proxies_list -eq 1 ]; then
                 # 检查是否是proxies列表条目 (以"      - "开头)
                 if echo "$line" | grep -q "^      - "; then
-                    # 提取proxy名称
-                    proxy_name=""
-                    if echo "$line" | grep -q "^      - [^{]"; then
-                        # 处理普通格式: "      - ProxyName"
-                        # 使用更简单直接的方法提取节点名称
-                        proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ *#.*//' | sed 's/ *$//')
-                    elif echo "$line" | grep -q "^      -{name:"; then
-                        # 处理内联格式: "      - {name: ProxyName, ...}"
-                        proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
-                    fi
-                    
-                    # 如果这个proxy名称已在删除列表中或不在有效节点列表中，则跳过不输出
-                    if [ -n "$proxy_name" ]; then
-                        echo "检查url-test节点引用: \"$proxy_name\"" >&2
-                        # 检查是否在有效节点列表中
-                        if echo " $valid_names " | grep -q " \"$proxy_name\" "; then
-                            echo "保留url-test组中的有效引用: \"$proxy_name\"" >&2
-                            echo "$line"
-                        else
-                            echo "从url-test组中移除无效引用: \"$proxy_name\"" >&2
-                            # 不输出该行，相当于移除该引用
+                    # 特殊处理url-test组
+                    if [ $in_url_test_group -eq 1 ]; then
+                        # 提取proxy名称
+                        proxy_name=""
+                        if echo "$line" | grep -q "^      - [^{]"; then
+                            # 处理普通格式: "      - ProxyName"
+                            proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ *#.*//' | sed 's/ *$//')
+                        elif echo "$line" | grep -q "^      -{name:"; then
+                            # 处理内联格式: "      - {name: ProxyName, ...}"
+                            proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
                         fi
-                        continue
+                        
+                        # 如果这个proxy名称已在删除列表中或不在有效节点列表中，则跳过不输出
+                        if [ -n "$proxy_name" ]; then
+                            echo "检查url-test节点引用: \"$proxy_name\"" >&2
+                            # 检查是否在有效节点列表中
+                            if echo " $valid_names " | grep -q " \"$proxy_name\" "; then
+                                echo "保留url-test组中的有效引用: \"$proxy_name\"" >&2
+                                echo "$line"
+                            else
+                                echo "从url-test组中移除无效引用: \"$proxy_name\"" >&2
+                                # 不输出该行，相当于移除该引用
+                            fi
+                            continue
+                        fi
                     fi
-                    # 如果无法提取proxy名称，仍然输出该行
+                    # 对于非url-test组或者无法提取名称的情况，直接输出
                     echo "$line"
                     continue
                 else
@@ -867,25 +869,6 @@ $line"
                     if echo "$line" | grep -q "^    [a-z]" && ! echo "$line" | grep -q "^    proxies:"; then
                         in_proxies_list=0
                         in_url_test_group=0
-                        echo "退出proxies列表和url-test组" >&2
-                    fi
-                fi
-                echo "$line"
-                continue
-            fi
-            
-            # 处理proxies列表中的条目（非url-test组）
-            if [ $in_proxies_list -eq 1 ]; then
-                # 检查是否是proxies列表项
-                if echo "$line" | grep -q "^      - "; then
-                    # 对于非url-test组，直接输出所有proxies列表项
-                    echo "$line"
-                    continue
-                else
-                    # 非列表项，可能是其他属性或列表结束
-                    # 只有在遇到其他属性时才重置proxies列表标记
-                    if echo "$line" | grep -q "^    [a-z]" && ! echo "$line" | grep -q "^    proxies:"; then
-                        in_proxies_list=0
                         echo "退出proxies列表" >&2
                     fi
                 fi

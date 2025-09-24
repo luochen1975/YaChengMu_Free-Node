@@ -789,11 +789,12 @@ $line"
         
         # 获取当前group的名称
         if echo "$line" | grep -q "^  name:"; then
-            # 提取group名称，处理带引号和不带引号的情况
-            current_group_name=$(echo "$line" | sed -n 's/.*name: *"\{0,1\}\([^"]*\)"\{0,1\}.*/\1/p' | sed 's/[[:space:]]*$//')
-            # 如果上面的方法失败，尝试更通用的方法
+            # 提取group名称，使用更可靠的方法
+            # 首先尝试提取引号内的内容
+            current_group_name=$(echo "$line" | sed -n 's/.*name: *"\([^"]*\)".*/\1/p')
+            # 如果没有引号，则提取冒号后的内容并去除前后空格
             if [ -z "$current_group_name" ]; then
-                current_group_name=$(echo "$line" | sed 's/.*name: *"\{0,1\}//' | sed 's/"\{0,1\}[[:space:]]*$//' | sed 's/[[:space:]]*$//')
+                current_group_name=$(echo "$line" | sed 's/.*name: *//' | sed 's/^[[:space:]]*//' | sed 's/[[:space:]]*$//')
             fi
             echo "DEBUG: 当前group名称: $current_group_name" >&2
             echo "$line"

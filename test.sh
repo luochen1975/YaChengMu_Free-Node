@@ -787,8 +787,11 @@ $line"
         
         # 获取当前group的名称
         if echo "$line" | grep -q "^  name:"; then
-            # 提取group名称，使用更通用的方法处理各种格式
-            current_group_name=$(echo "$line" | sed 's/.*name: *"\{0,1\}//' | sed 's/"\{0,1\}[[:space:]]*$//' | sed 's/[[:space:]]*$//')
+            # 提取group名称，使用更精确的方法处理包含emoji的名称
+            # 移除行首的空格和"name:"字段，保留其余所有内容
+            current_group_name=$(echo "$line" | sed 's/^  name: *//')
+            # 去除可能存在的前后引号和尾部空格
+            current_group_name=$(echo "$current_group_name" | sed 's/^"\(.*\)"$/\1/' | sed 's/[[:space:]]*$//')
             echo "DEBUG: 当前group名称: $current_group_name" >&2
             echo "$line"
             continue

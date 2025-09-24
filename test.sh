@@ -782,12 +782,15 @@ $line"
             in_proxies_list=0
             in_url_test_group=0
             current_group_type=""
+            # 注意：不要在这里重置current_group_name，因为name行可能在type行之后
             echo "DEBUG: 检测到新的proxy-group开始" >&2
+            echo "$line"
+            continue
         fi
         
         # 获取当前group的名称
         if echo "$line" | grep -q "^  name:"; then
-            # 直接替换掉"- name: "前缀来获取名称
+            # 直接替换掉"  name: "前缀来获取名称
             current_group_name=$(echo "$line" | sed 's/  name: //')
             # 去除可能存在的前后引号和尾部空格
             current_group_name=$(echo "$current_group_name" | sed 's/^"\(.*\)"$/\1/' | sed 's/[[:space:]]*$//')

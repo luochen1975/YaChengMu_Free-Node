@@ -783,19 +783,12 @@ $line"
             in_url_test_group=0
             current_group_type=""
             echo "DEBUG: 检测到新的proxy-group开始" >&2
-            echo "$line"
-            continue
         fi
         
         # 获取当前group的名称
         if echo "$line" | grep -q "^  name:"; then
-            # 提取group名称，使用更可靠的方法
-            # 首先尝试提取引号内的内容
-            current_group_name=$(echo "$line" | sed -n 's/.*name: *"\([^"]*\)".*/\1/p')
-            # 如果没有引号，则提取冒号后的内容并去除前后空格
-            if [ -z "$current_group_name" ]; then
-                current_group_name=$(echo "$line" | sed 's/.*name: *//' | sed 's/^[[:space:]]*//' | sed 's/[[:space:]]*$//')
-            fi
+            # 提取group名称，使用更通用的方法处理各种格式
+            current_group_name=$(echo "$line" | sed 's/.*name: *"\{0,1\}//' | sed 's/"\{0,1\}[[:space:]]*$//' | sed 's/[[:space:]]*$//')
             echo "DEBUG: 当前group名称: $current_group_name" >&2
             echo "$line"
             continue

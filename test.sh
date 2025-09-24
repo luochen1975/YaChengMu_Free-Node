@@ -791,6 +791,10 @@ $line"
         if echo "$line" | grep -q "^  name:"; then
             # 提取group名称，处理带引号和不带引号的情况
             current_group_name=$(echo "$line" | sed -n 's/.*name: *"\{0,1\}\([^"]*\)"\{0,1\}.*/\1/p' | sed 's/[[:space:]]*$//')
+            # 如果上面的方法失败，尝试更通用的方法
+            if [ -z "$current_group_name" ]; then
+                current_group_name=$(echo "$line" | sed 's/.*name: *"\{0,1\}//' | sed 's/"\{0,1\}[[:space:]]*$//' | sed 's/[[:space:]]*$//')
+            fi
             echo "DEBUG: 当前group名称: $current_group_name" >&2
             echo "$line"
             continue

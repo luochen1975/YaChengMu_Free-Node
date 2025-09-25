@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@main  #采用main分支下的
       - name: Download the subscribe
         run: |
-          sh ./test.sh
+          bash ./test.sh
       - name: Commit Changes
         run: |
          git config --global user.email XinYiAndXiaoLan@msn.cn

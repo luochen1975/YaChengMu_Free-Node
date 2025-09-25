@@ -16,16 +16,6 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: _GB_英国->🇨🇳_CN_中国, server: 51.15.17.169, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _TW_台湾->🇺🇸_US_美国, server: 107.167.182.230, port: 80, client-fingerprint: chrome, type: vmess, uuid: efcb7d7c-c582-46f5-eeff-0e553342528d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@hkaa0}, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国, server: flkf2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}, udp: true}
-  - {name: _US_美国->🇬🇧_GB_英国_1, server: mrb2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}, udp: true}
-  - {name: _US_美国->🇬🇧_GB_英国_2, server: ld2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}, udp: true}
-  - {name: _US_美国->🇮🇳_IN_印度_1, server: 104.17.18.26, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5180444a-4756-43b4-960b-49eb9052e4e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇮🇳_IN_印度_2, server: 104.26.8.44, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5180444a-4756-43b4-960b-49eb9052e4e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国->🇮🇳_IN_印度_3, server: mm2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mm2.shabijichang.com}}, udp: true}
-  - {name: _US_美国->🇮🇳_IN_印度_4, server: mm3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰, server: 45.199.138.191, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696251522438}, udp: true}
-  - {name: _US_美国->🇸🇦_SA_沙特阿拉伯, server: jd3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jd3.shabijichang.com}}, udp: true}
   - {name: ℹ️ tg频道:@ripaojiedian, server: 18.185.56.207, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇦🇹 AT_speednode_0001, server: 77.73.131.77, port: 2053, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇦🇺 AU_speednode_0002, server: 185.207.197.253, port: 2096, client-fingerprint: chrome, type: vless, uuid: 6e433a29-22ac-4061-ae8b-f1731715d0d9, tls: true, servername: vlesspro.llengcugit.sbs, network: ws, ws-opts: {path: "/Telegram@freecodes/?ed=2560", headers: {Host: vlesspro.llengcugit.sbs}}, udp: true}
@@ -33,8 +23,6 @@ proxies:
   - {name: 🇦🇿 AZ_speednode_0003, server: 180.149.44.216, port: 999, reality-opts: {public-key: -d7gZw19wFxZcnqRsf0L8gin2NcQC8Quub0Y-NUnaR4, short-id: "e1ac6d894342c318" }, client-fingerprint: firefox, type: vless, uuid: 85ef33fe-5f5b-4a8f-9e1e-cbf2738ae96a, tls: true, servername: tgju.org, network: tcp, udp: true}
   - {name: 🇧🇬 BG_speednode_0004, server: 91.215.153.85, port: 443, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇧🇬 BG_speednode_0005, server: noads.torprospeed.ir, port: 223, reality-opts: {public-key: JOKX-kH_SOPrdPG26TdJzO6YSDItrRGXKhtv70Bn81o, short-id: "c7f175a94bd79f8d" }, client-fingerprint: firefox, type: vless, uuid: d358f512-5789-464e-b8ae-da6ee9543ff5, tls: true, flow: xtls-rprx-vision, servername: cloudflare.com, network: tcp, udp: true}
-  - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, client-fingerprint: chrome, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇳 CN_speednode_0006, server: blog.811520.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 2c4d3d64-9742-4d2e-9f6f-a1ecabd22b27, tls: true, servername: vless4-8y8.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vless4-8y8.pages.dev}}, udp: true}
   - {name: 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6, server: 112.132.215.34, port: 50007, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1, server: 119.29.98.43, port: 11399, client-fingerprint: chrome, type: vmess, uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
@@ -53,7 +41,6 @@ proxies:
   - {name: 🇩🇪 德国 - 法兰克福 - OVH SAS - 1, server: lt.fxlcn.com, port: 45228, client-fingerprint: chrome, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: lt.fxlcn.com, udp: true}
   - {name: "🇩🇪 德国 - 莱比锡 - Cloudflare, Inc. - 2", server: buyix.qzz.io, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 2d24d147-366a-4cfa-9f15-c86402d3840d, alterId: 0, cipher: auto, tls: true, servername: buyix.qzz.io, network: ws, ws-opts: {path: /2d24d147-366a-4cfa-9f15-c86402d3840d-vm, headers: {Host: buyix.qzz.io}}, udp: true}
   - {name: 🇫🇮 FI_speednode_0012, server: 91.108.241.44, port: 8443, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
-  - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇬🇧 GB_speednode_0015, server: lii.bliscorp.org, port: 30849, client-fingerprint: chrome, type: vless, uuid: dca511f0-f98c-45d3-a0ff-1ba61c651374, tls: false, servername: JouRNaloFbIgdATA.SpRinGeropEn.coM., network: http, http-opts: {method: GET, path: [/], headers: {Host: [JouRNaloFbIgdATA.SpRinGeropEn.coM.]}}, udp: true}
   - {name: 🇬🇧 _GB_英国, server: 62.100.205.48, port: 989, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1, server: lt.fxlcn.com, port: 45210, client-fingerprint: chrome, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: vle.amclubdns.dpdns.org, udp: true}
@@ -151,11 +138,6 @@ proxies:
   - {name: 🇺🇸 US_speednode_0075, server: 172.66.40.99, port: 80, client-fingerprint: chrome, type: vless, uuid: f4f8e632-334c-41a6-b4e9-e3fb21b82114, tls: false, servername: websocket.network.www.speedtest.net.flutter.dev.russia.python.js.elmahstyle.xyz., network: ws, ws-opts: {path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy, headers: {Host: websocket.network.www.speedtest.net.flutter.dev.russia.python.js.elmahstyle.xyz.}}, udp: true}
   - {name: 🇺🇸 WIS-US-1(https), server: wis-us-18934.strongpipe.cloud, port: 20443, client-fingerprint: chrome, type: http, username: dd247fc262, password: 80c9752a41, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 WIS-US-1(trojan), server: wis-us-18934.strongpipe.cloud, port: 29444, client-fingerprint: chrome, type: trojan, password: 9cf136d3-d95c-40b8-95a6-830dcf899995, sni: 106-110-192-225.d.cjjd20.com, alpn: [h2], skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 _US_美国_1, server: 206.168.190.219, port: 2082, client-fingerprint: chrome, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
-  - {name: 🇺🇸 _US_美国_2, server: wnd2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
-  - {name: 🇺🇸 _US_美国_3, server: 45.199.138.186, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696682720138}, udp: true}
-  - {name: 🇺🇸 _US_美国_4, server: wnd3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
-  - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: "🇺🇸 美国 - 东洛杉矶 - Cloudflare, Inc. - 4", server: 154.29.155.249, port: 443, client-fingerprint: chrome, type: trojan, password: juzi, sni: juzi8186-sr1.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: juzi8186-sr1.pages.dev}}, udp: true}
   - {name: "🇺🇸 美国 - 圣克拉拉 - prgmr.com, Inc. - 1", server: pupas-shirting-unsung.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: cn01.efan8867801.xyz, port: 8774, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509121565513-HpWeCj5Hza.download.microsoft.com}, udp: true}
@@ -349,16 +331,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - _GB_英国->🇨🇳_CN_中国
-      - _TW_台湾->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国->🇬🇧_GB_英国_1
-      - _US_美国->🇬🇧_GB_英国_2
-      - _US_美国->🇮🇳_IN_印度_1
-      - _US_美国->🇮🇳_IN_印度_2
-      - _US_美国->🇮🇳_IN_印度_3
-      - _US_美国->🇮🇳_IN_印度_4
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇸🇦_SA_沙特阿拉伯
       - ℹ️ tg频道:@ripaojiedian
       - 🇦🇹 AT_speednode_0001
       - 🇦🇺 AU_speednode_0002
@@ -366,8 +338,6 @@ proxy-groups:
       - 🇦🇿 AZ_speednode_0003
       - 🇧🇬 BG_speednode_0004
       - 🇧🇬 BG_speednode_0005
-      - 🇨🇦 _CA_加拿大
-      - 🇨🇭 _CH_瑞士
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
@@ -385,7 +355,6 @@ proxy-groups:
       - 🇩🇪 MSK-DE-1(hysteria)
       - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
       - 🇫🇮 FI_speednode_0012
-      - 🇫🇷 _FR_法国
       - 🇬🇧 GB_speednode_0015
       - 🇬🇧 _GB_英国
       - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
@@ -483,11 +452,6 @@ proxy-groups:
       - 🇺🇸 US_speednode_0075
       - 🇺🇸 WIS-US-1(https)
       - 🇺🇸 WIS-US-1(trojan)
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_3
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸 _US_美国_5
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
@@ -654,16 +618,6 @@ proxy-groups:
     type: select
     proxies:
       - _GB_英国->🇨🇳_CN_中国
-      - _TW_台湾->🇺🇸_US_美国
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国->🇬🇧_GB_英国_1
-      - _US_美国->🇬🇧_GB_英国_2
-      - _US_美国->🇮🇳_IN_印度_1
-      - _US_美国->🇮🇳_IN_印度_2
-      - _US_美国->🇮🇳_IN_印度_3
-      - _US_美国->🇮🇳_IN_印度_4
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇸🇦_SA_沙特阿拉伯
       - ℹ️ tg频道:@ripaojiedian
       - 🇦🇹 AT_speednode_0001
       - 🇦🇺 AU_speednode_0002
@@ -671,8 +625,6 @@ proxy-groups:
       - 🇦🇿 AZ_speednode_0003
       - 🇧🇬 BG_speednode_0004
       - 🇧🇬 BG_speednode_0005
-      - 🇨🇦 _CA_加拿大
-      - 🇨🇭 _CH_瑞士
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 中国 - 合肥 - China Unicom CHINA169 Anhui Province Network - 6
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
@@ -690,7 +642,6 @@ proxy-groups:
       - 🇩🇪 MSK-DE-1(hysteria)
       - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
       - 🇫🇮 FI_speednode_0012
-      - 🇫🇷 _FR_法国
       - 🇬🇧 GB_speednode_0015
       - 🇬🇧 _GB_英国
       - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
@@ -788,11 +739,6 @@ proxy-groups:
       - 🇺🇸 US_speednode_0075
       - 🇺🇸 WIS-US-1(https)
       - 🇺🇸 WIS-US-1(trojan)
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_3
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸 _US_美国_5
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
@@ -1120,7 +1066,6 @@ proxy-groups:
     interval: 15
     tolerance: 300
     proxies:
-      - _TW_台湾->🇺🇸_US_美国
       - 🇺🇸 AW-US-1(https)
       - 🇺🇸 AW-US-1(trojan)
       - 🇺🇸 MSK-US-1(hysteria)
@@ -1141,11 +1086,6 @@ proxy-groups:
       - 🇺🇸 US_speednode_0075
       - 🇺🇸 WIS-US-1(https)
       - 🇺🇸 WIS-US-1(trojan)
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_3
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸 _US_美国_5
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
@@ -1155,15 +1095,6 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国->🇬🇧_GB_英国_1
-      - _US_美国->🇬🇧_GB_英国_2
-      - _US_美国->🇮🇳_IN_印度_1
-      - _US_美国->🇮🇳_IN_印度_2
-      - _US_美国->🇮🇳_IN_印度_3
-      - _US_美国->🇮🇳_IN_印度_4
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇸🇦_SA_沙特阿拉伯
       - ℹ️ tg频道:@ripaojiedian
       - 🇦🇹 AT_speednode_0001
       - 🇦🇺 AU_speednode_0002
@@ -1171,8 +1102,6 @@ proxy-groups:
       - 🇦🇿 AZ_speednode_0003
       - 🇧🇬 BG_speednode_0004
       - 🇧🇬 BG_speednode_0005
-      - 🇨🇦 _CA_加拿大
-      - 🇨🇭 _CH_瑞士
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 3
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
@@ -1185,7 +1114,6 @@ proxy-groups:
       - 🇩🇪 MSK-DE-1(hysteria)
       - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
       - 🇫🇮 FI_speednode_0012
-      - 🇫🇷 _FR_法国
       - 🇬🇧 GB_speednode_0015
       - 🇬🇧 _GB_英国
       - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1
@@ -1476,7 +1404,6 @@ proxy-groups:
   - name: 👆🏻🇺🇸 ‍美国
     type: select
     proxies:
-      - _TW_台湾->🇺🇸_US_美国
       - 🇺🇸 AW-US-1(https)
       - 🇺🇸 AW-US-1(trojan)
       - 🇺🇸 MSK-US-1(hysteria)
@@ -1497,26 +1424,12 @@ proxy-groups:
       - 🇺🇸 US_speednode_0075
       - 🇺🇸 WIS-US-1(https)
       - 🇺🇸 WIS-US-1(trojan)
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_3
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸 _US_美国_5
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国->🇬🇧_GB_英国_1
-      - _US_美国->🇬🇧_GB_英国_2
-      - _US_美国->🇮🇳_IN_印度_1
-      - _US_美国->🇮🇳_IN_印度_2
-      - _US_美国->🇮🇳_IN_印度_3
-      - _US_美国->🇮🇳_IN_印度_4
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇸🇦_SA_沙特阿拉伯
       - ℹ️ tg频道:@ripaojiedian
       - 🇦🇹 AT_speednode_0001
       - 🇦🇺 AU_speednode_0002
@@ -1524,8 +1437,6 @@ proxy-groups:
       - 🇦🇿 AZ_speednode_0003
       - 🇧🇬 BG_speednode_0004
       - 🇧🇬 BG_speednode_0005
-      - 🇨🇦 _CA_加拿大
-      - 🇨🇭 _CH_瑞士
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 3
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
@@ -1538,7 +1449,6 @@ proxy-groups:
       - 🇩🇪 MSK-DE-1(hysteria)
       - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
       - 🇫🇮 FI_speednode_0012
-      - 🇫🇷 _FR_法国
       - 🇬🇧 GB_speednode_0015
       - 🇬🇧 _GB_英国
       - 🇬🇧 英国 - Tower Hamlets - VORBOSS-LEASE - 1

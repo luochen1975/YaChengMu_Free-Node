@@ -257,7 +257,7 @@ url_templates=(
 check_all_templates_parallel
 
 # 统计找到的可用URL数量
-local found_count=0
+found_count=0
 for key in "${!template_valid_urls[@]}"; do
     if [ -n "${template_valid_urls[$key]}" ]; then
         found_count=$((found_count + 1))
@@ -269,17 +269,17 @@ if [ $found_count -eq 0 ]; then
     echo "警告: 所有模板均未找到可用URL，使用默认URL"
     
     for key in "${!url_templates[@]}"; do
-        local template_info="${url_templates[$key]}"
-        local template=$(echo "$template_info" | cut -d'|' -f1)
-        local param1_type=$(echo "$template_info" | cut -d'|' -f2)
-        local param2_type=$(echo "$template_info" | cut -d'|' -f3)
-        local param3_type=$(echo "$template_info" | cut -d'|' -f4)
+        template_info="${url_templates[$key]}"
+        template=$(echo "$template_info" | cut -d'|' -f1)
+        param1_type=$(echo "$template_info" | cut -d'|' -f2)
+        param2_type=$(echo "$template_info" | cut -d'|' -f3)
+        param3_type=$(echo "$template_info" | cut -d'|' -f4)
         
         # 使用当天日期生成默认URL
-        local date_full_default="${currentyear}${currentmonth_padded}${currentday_padded}"
+        date_full_default="${currentyear}${currentmonth_padded}${currentday_padded}"
         
         # 根据模板参数数量和类型生成默认URL
-        local url=""
+        url=""
         case $key in
             1)
                 # 模板1: https://a.nodeshare.xyz/uploads/%s/%s/%s.yaml|year|month_no_zero|date_full
@@ -308,10 +308,9 @@ if [ $found_count -eq 0 ]; then
                 elif [ -n "$param1_type" ] && [ -n "$param2_type" ] && [ -n "$param3_type" ]; then
                     # 三个参数的模板
                     # 处理年份参数
-                    local param1_val="$currentyear"
+                    param1_val="$currentyear"
                     
                     # 处理月份参数
-                    local param2_val
                     case $param2_type in
                         "month") param2_val="$currentmonth_padded" ;;
                         "month_no_zero") param2_val="$currentmonth" ;;
@@ -320,7 +319,6 @@ if [ $found_count -eq 0 ]; then
                     esac
                     
                     # 处理日期参数
-                    local param3_val
                     case $param3_type in
                         "date") param3_val="$currentday_padded" ;;
                         "date_no_zero") param3_val="$currentday" ;;
@@ -333,10 +331,9 @@ if [ $found_count -eq 0 ]; then
                 elif [ -n "$param1_type" ] && [ -n "$param2_type" ] && [ -z "$param3_type" ]; then
                     # 两个参数的模板
                     # 处理第一个参数
-                    local param1_val="$currentyear"
+                    param1_val="$currentyear"
                     
                     # 处理第二个参数
-                    local param2_val
                     case $param2_type in
                         "month") param2_val="$currentmonth_padded" ;;
                         "month_no_zero") param2_val="$currentmonth" ;;

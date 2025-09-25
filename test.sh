@@ -605,6 +605,7 @@ in_proxies_list=0
 in_url_test_group=0
 remove_current=0
 current_server=""
+current_port=""
 proxy_content=""
 servers_seen=""
 valid_names=""
@@ -642,20 +643,20 @@ while IFS= read -r line; do
             # 处理上一个节点（如果存在）
             if [ $in_current_proxy -eq 1 ]; then
                 if [ $remove_current -eq 0 ]; then
-                    # 检查是否已存在相同server的节点
+                    # 检查是否已存在相同server和port的节点
                     is_duplicate=0
-                    if [ -n "$current_server" ]; then
-                        if echo " $servers_seen " | grep -q " $current_server "; then
+                    if [ -n "$current_server" ] && [ -n "$current_port" ]; then
+                        if echo " $servers_seen " | grep -q " $current_server:$current_port "; then
                             is_duplicate=1
                         fi
                     fi
                     
                     if [ $is_duplicate -eq 0 ]; then
-                        # server未出现过，输出节点
+                        # server和port未同时出现过，输出节点
                         echo "$proxy_content"
-                        # 记录server
-                        if [ -n "$current_server" ]; then
-                            servers_seen="$servers_seen $current_server"
+                        # 记录server:port组合
+                        if [ -n "$current_server" ] && [ -n "$current_port" ]; then
+                            servers_seen="$servers_seen $current_server:$current_port"
                         fi
                         # 记录有效的节点名称
                         if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
@@ -685,6 +686,7 @@ while IFS= read -r line; do
             in_current_proxy=1
             proxy_content="$line"
             current_server=""
+            current_port=""
             remove_current=0
             
             # 检查是否包含 cipher: "" 或 password: ""
@@ -692,9 +694,12 @@ while IFS= read -r line; do
                 remove_current=1
             fi
             
-            # 尝试提取server
+            # 尝试提取server和port
             if echo "$line" | grep -o "server: [^,}]*" | head -1 | grep -q "server:"; then
                 current_server=$(echo "$line" | grep -o "server: [^,}]*" | head -1 | cut -d" " -f2)
+            fi
+            if echo "$line" | grep -o "port: [^,}]*" | head -1 | grep -q "port:"; then
+                current_port=$(echo "$line" | grep -o "port: [^,}]*" | head -1 | cut -d" " -f2)
             fi
             continue
         fi
@@ -711,10 +716,15 @@ $line"
                 fi
             fi
             
-            # 继续尝试提取server
+            # 继续尝试提取server和port
             if [ -z "$current_server" ]; then
                 if echo "$line" | grep -o "server: [^,}]*" | head -1 | grep -q "server:"; then
                     current_server=$(echo "$line" | grep -o "server: [^,}]*" | head -1 | cut -d" " -f2)
+                fi
+            fi
+            if [ -z "$current_port" ]; then
+                if echo "$line" | grep -o "port: [^,}]*" | head -1 | grep -q "port:"; then
+                    current_port=$(echo "$line" | grep -o "port: [^,}]*" | head -1 | cut -d" " -f2)
                 fi
             fi
             continue
@@ -724,20 +734,20 @@ $line"
         if echo "$line" | grep -q "^[^ ]" && ! echo "$line" | grep -q "^ "; then
             # 处理最后一个节点
             if [ $in_current_proxy -eq 1 ] && [ $remove_current -eq 0 ]; then
-                # 检查是否已存在相同server的节点
+                # 检查是否已存在相同server和port的节点
                 is_duplicate=0
-                if [ -n "$current_server" ]; then
-                    if echo " $servers_seen " | grep -q " $current_server "; then
+                if [ -n "$current_server" ] && [ -n "$current_port" ]; then
+                    if echo " $servers_seen " | grep -q " $current_server:$current_port "; then
                         is_duplicate=1
                     fi
                 fi
                 
                 if [ $is_duplicate -eq 0 ]; then
-                    # server未出现过，输出节点
+                    # server和port未同时出现过，输出节点
                     echo "$proxy_content"
-                    # 记录server
-                    if [ -n "$current_server" ]; then
-                        servers_seen="$servers_seen $current_server"
+                    # 记录server:port组合
+                    if [ -n "$current_server" ] && [ -n "$current_port" ]; then
+                        servers_seen="$servers_seen $current_server:$current_port"
                     fi
                     # 记录有效的节点名称
                     if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then

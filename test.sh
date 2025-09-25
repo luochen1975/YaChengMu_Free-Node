@@ -220,7 +220,9 @@ temp_file=$(mktemp)
 # 并行检查所有模板
 i=1
 # 创建一个临时目录来存储各个任务的结果
-result_dir=$(mktemp -d)
+result_dir=$(mktemp -d 2>/dev/null || echo "./temp_$$")
+mkdir -p "$result_dir" 2>/dev/null || result_dir="./temp_$$"
+mkdir -p "$result_dir" 2>/dev/null
 
 echo "$templates" | while IFS= read -r template_info; do
     # 如果到达最后一行（空行），则跳出循环

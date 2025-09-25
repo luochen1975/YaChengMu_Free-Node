@@ -220,8 +220,7 @@ temp_file=$(mktemp)
 # 并行检查所有模板
 i=1
 # 创建一个临时目录来存储各个任务的结果
-result_dir=$(mktemp -d 2>/dev/null || echo "./temp_$$")
-mkdir -p "$result_dir" 2>/dev/null || result_dir="./temp_$$"
+result_dir=$(mktemp -d 2>/dev/null || mktemp -d ./temp_XXXXXX 2>/dev/null || echo "./temp_$$")
 mkdir -p "$result_dir" 2>/dev/null
 
 echo "$templates" | while IFS= read -r template_info; do
@@ -238,11 +237,14 @@ echo "$templates" | while IFS= read -r template_info; do
     # 后台运行检查，结果写入独立的临时文件
     (
         result=$(check_template_urls "$i" "$template" "$param1_type" "$param2_type" "$param3_type")
+        result_file="${result_dir}/${i}"
+        # 确保结果文件的目录存在
+        mkdir -p "$(dirname "$result_file")" 2>/dev/null
         if [ -n "$result" ]; then
-            echo "${i}|${result}" > "${result_dir}/${i}"
+            echo "${i}|${result}" > "$result_file"
             echo "检测到有效URL (模板[$i]): $result" >&2
         else
-            echo "$i|未找到可用URL" > "${result_dir}/${i}"
+            echo "$i|未找到可用URL" > "$result_file"
             echo "模板[$i] 未找到有效URL" >&2
         fi
     ) &
@@ -282,20 +284,28 @@ echo "========== URL查找完成 =========="
 found_count=0
 url_count=$(echo "$templates" | grep -v '^$' | wc -l | tr -d ' ')
 
-# 使用for循环替代while循环以避免子shell问题
-i=1
-for url_value in $(echo "$template_valid_urls" | tr '|' ' '); do
-    if [ -n "$url_value" ] && [ "$url_value" != "未找到可用URL" ]; then
-        found_count=$((found_count + 1))
-    fi
-    if [ $i -ge $url_count ]; then
-        break
-    fi
-    i=$((i + 1))
-done
+# 检查template_valid_urls中有效URL的数量
+if [ -n "$template_valid_urls" ]; then
+    # 计算有效URL的数量（不包含"未找到可用URL"的条目）
+    found_count=0
+    
+    # 使用for循环计算有效URL数量
+    i=1
+    for url_value in $(echo "$template_valid_urls" | tr '|' ' '); do
+        if [ -n "$url_value" ] && [ "$url_value" != "未找到可用URL" ]; then
+            found_count=$((found_count + 1))
+        fi
+        if [ $i -ge $url_count ]; then
+            break
+        fi
+        i=$((i + 1))
+    done
+else
+    found_count=0
+fi
 
-# 如果template_valid_urls为空或者只有"未找到可用URL"，则found_count为0
-if [ -z "$template_valid_urls" ] || [ "$template_valid_urls" = "未找到可用URL" ]; then
+# 确保found_count不会为负数
+if [ $found_count -lt 0 ]; then
     found_count=0
 fi
 
@@ -392,54 +402,8 @@ generate_default_url() {
     echo "$url"
 }
 
-# 如果所有模板都未找到可用URL，才使用默认URL
-if [ $found_count -eq 0 ]; then
-    echo "警告: 所有模板均未找到可用URL，使用默认URL"
-    i=1
-    echo "$templates" | while IFS= read -r template_info; do
-        # 如果到达最后一行（空行），则跳出循环
-        if [ -z "$template_info" ]; then
-            break
-        fi
-        
-        template=$(echo "$template_info" | cut -d'|' -f1)
-        param1_type=$(echo "$template_info" | cut -d'|' -f2)
-        param2_type=$(echo "$template_info" | cut -d'|' -f3)
-        param3_type=$(echo "$template_info" | cut -d'|' -f4)
-        
-        # 生成默认URL
-        url=$(generate_default_url "$template" "$param1_type" "$param2_type" "$param3_type" "$i")
-        
-        # 保存URL
-        if [ -n "$url" ]; then
-            # 使用逗号分隔的方式存储结果
-            if [ -z "$template_valid_urls" ]; then
-                template_valid_urls="$url"
-            else
-                template_valid_urls="$template_valid_urls|$url"
-            fi
-        fi
-        
-        i=$((i + 1))
-    done
-else
-    # 显示最终使用的URL，并收集到valid_urls变量中
-    valid_urls="$template_valid_urls"
-    i=1
-    for url_value in $(echo "$template_valid_urls" | tr '|' ' '); do
-        if [ -n "$url_value" ] && [ "$url_value" != "未找到可用URL" ]; then
-            echo "使用模板[$i]: $url_value"
-        fi
-        if [ $i -ge $url_count ]; then
-            break
-        fi
-        i=$((i + 1))
-    done
-fi
-
 # 如果没有找到有效的URL，则使用默认URL
-# 注意：这个逻辑应该只在template_valid_urls为空时执行
-if [ -z "$template_valid_urls" ] || [ "$template_valid_urls" = "未找到可用URL" ]; then
+if [ $found_count -eq 0 ] || [ -z "$template_valid_urls" ]; then
     echo "未找到任何有效URL，使用默认URL"
     i=1
     echo "$templates" | while IFS= read -r template_info; do
@@ -464,20 +428,26 @@ if [ -z "$template_valid_urls" ] || [ "$template_valid_urls" = "未找到可用U
             else
                 template_valid_urls="$template_valid_urls|$url"
             fi
-            
-            if [ -z "$valid_urls" ]; then
-                valid_urls="$url"
-            else
-                valid_urls="$valid_urls|$url"
-            fi
         fi
             
         i=$((i + 1))
     done
 else
-    # 如果已经有有效的URL，直接使用
-    valid_urls="$template_valid_urls"
+    # 显示最终使用的URL
+    i=1
+    for url_value in $(echo "$template_valid_urls" | tr '|' ' '); do
+        if [ -n "$url_value" ] && [ "$url_value" != "未找到可用URL" ]; then
+            echo "使用模板[$i]: $url_value"
+        fi
+        if [ $i -ge $url_count ]; then
+            break
+        fi
+        i=$((i + 1))
+    done
 fi
+
+# 设置valid_urls为template_valid_urls
+valid_urls="$template_valid_urls"
 
 # 使用管道符号(|)连接所有有效URL
 combined_urls="$valid_urls"
@@ -516,6 +486,11 @@ for url_value in $(echo "$template_valid_urls" | tr '|' ' '); do
     fi
     i=$((i + 1))
 done
+
+# 如果template_valid_urls为空，则设置valid_url_count为0
+if [ -z "$template_valid_urls" ]; then
+    valid_url_count=0
+fi
 
 # 如果没有找到任何有效URL，显示提示信息
 if [ $valid_url_count -eq 0 ]; then

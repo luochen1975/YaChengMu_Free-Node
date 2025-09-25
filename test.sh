@@ -219,6 +219,9 @@ temp_file=$(mktemp)
 
 # 并行检查所有模板
 i=1
+# 创建一个临时目录来存储各个任务的结果
+result_dir=$(mktemp -d)
+
 echo "$templates" | while IFS= read -r template_info; do
     # 如果到达最后一行（空行），则跳出循环
     if [ -z "$template_info" ]; then
@@ -230,14 +233,14 @@ echo "$templates" | while IFS= read -r template_info; do
     param2_type=$(echo "$template_info" | cut -d'|' -f3)
     param3_type=$(echo "$template_info" | cut -d'|' -f4)
     
-    # 后台运行检查，结果写入临时文件
+    # 后台运行检查，结果写入独立的临时文件
     (
         result=$(check_template_urls "$i" "$template" "$param1_type" "$param2_type" "$param3_type")
         if [ -n "$result" ]; then
-            echo "${i}|${result}" >> "$temp_file"
+            echo "${i}|${result}" > "${result_dir}/${i}"
             echo "检测到有效URL (模板[$i]): $result" >&2
         else
-            echo "$i|未找到可用URL" >> "$temp_file"
+            echo "$i|未找到可用URL" > "${result_dir}/${i}"
             echo "模板[$i] 未找到有效URL" >&2
         fi
     ) &
@@ -247,6 +250,16 @@ done
 
 # 等待所有后台进程完成
 wait
+
+# 合并所有结果文件到一个临时文件
+for result_file in "${result_dir}"/*; do
+    if [ -f "$result_file" ]; then
+        cat "$result_file" >> "$temp_file"
+    fi
+done
+
+# 清理临时目录
+rm -rf "$result_dir"
 
 # 从临时文件加载结果
 while IFS="|" read -r template_key result; do
@@ -265,7 +278,7 @@ echo "========== URL查找完成 =========="
 
 # 统计找到的可用URL数量
 found_count=0
-url_count=$(echo "$templates" | grep -v '^$' | wc -l)
+url_count=$(echo "$templates" | grep -v '^$' | wc -l | tr -d ' ')
 
 # 使用for循环替代while循环以避免子shell问题
 i=1
@@ -496,7 +509,7 @@ for url_value in $(echo "$template_valid_urls" | tr '|' ' '); do
         echo "  * $url_value"
         valid_url_count=$((valid_url_count + 1))
     fi
-    if [ $i -eq $url_count ]; then
+    if [ $i -ge $url_count ]; then
         break
     fi
     i=$((i + 1))

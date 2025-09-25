@@ -94,14 +94,50 @@ check_url_availability() {
     esac
 }
 
-# 检查单个模板的URL可用性
-check_template_urls() {
-    template_key="$1"
-    template="$2"
-    param1_type="$3"
-    param2_type="$4"
-    param3_type="$5"
-    max_days_to_check=7  # 最多检查7天
+# 并行检查所有模板URL
+check_all_urls() {
+    # 设置超时时间
+    local connect_timeout=10
+    local max_time=20
+    
+    # 并行检查所有模板
+    for key in "${!templates[@]}"; do
+    {
+        template="${templates[$key]}"
+        params=(${param_types[$key]})
+        
+        # 检查当天URL
+        url=$(generate_url "$key" "$template" "${params[0]}" "${params[1]}" "${params[2]}" 0)
+        if check_url_availability "$url" "$connect_timeout" "$max_time"; then
+            echo "$url" > "template_result_$key"
+        fi
+    } &
+    done
+    wait
+    
+    # 收集结果
+    for key in "${!templates[@]}"; do
+        if [ -f "template_result_$key" ]; then
+            template_result_$key=$(cat "template_result_$key")
+            rm "template_result_$key"
+        else
+            template_result_$key="未找到可用URL"
+        fi
+    done
+}
+
+# 生成URL
+generate_url() {
+    local key=$1
+    local template=$2
+    local param1=$3
+    local param2=$4
+    local param3=$5
+    local days_ago=$6
+    
+    # 日期处理逻辑...
+    # 返回生成的URL
+}
     
     # 初始化日期变量
     year=$currentyear
@@ -197,7 +233,44 @@ check_template_urls() {
 # 初始化日期变量
 get_current_date
 
-# 定义URL模板结构体
+# 定义URL模板数组
+declare -A templates=(
+    [1]="https://a.nodeshare.xyz/uploads/%Y/%m/%Y%m%d.yaml"
+    [2]="https://nodefree.githubrowcontent.com/%Y/%m/%Y%m%d.yaml"
+    [3]="https://free.datiya.com/uploads/%Y%m%d-clash.yaml"
+    [4]="https://fastly.jsdelivr.net/gh/ripaojiedian/freenode@main/clash"
+    [5]="https://www.xrayvip.com/free.yaml"
+    [6]="https://ghproxy.net/https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml"
+    [7]="https://ghproxy.net/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+    [8]="https://fastly.jsdelivr.net/gh/zhangkaiitugithub/passcro@main/speednodes.yaml"
+    [9]="https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
+    [10]="https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml"
+    [11]="https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg"
+    [12]="https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml"
+    [13]="https://fpyjdy.zzong6599.workers.dev"
+    [14]="https://rss.zyfx6.xyz/clash"
+)
+
+# 模板参数类型
+declare -A param_types=(
+    [1]="year month_padded date_padded"
+    [2]="year month_padded date_padded"
+    [3]="date_full"
+    [4]=""
+    [5]=""
+    [6]=""
+    [7]=""
+    [8]=""
+    [9]=""
+    [10]=""
+    [11]=""
+    [12]=""
+    [13]=""
+    [14]=""
+)
+
+# 最大检查天数
+max_days_to_check=3
 # 格式: "URL模板|年份参数类型|月份参数类型|日期参数类型"
 url_template_1="https://a.nodeshare.xyz/uploads/%s/%s/%s.yaml|year|month_no_zero|date_full"
 url_template_2="https://nodefree.githubrowcontent.com/%s/%s/%s.yaml|year|month_padded|date_full"
@@ -237,7 +310,7 @@ temp_file=$(mktemp)
 
 # 并行检查所有模板
 i=1
-while [ $i -le 14 ]; do
+while [ $i -le ${#templates[@]} ]; do
     # 解析模板和参数
     eval "template_info=\$url_template_$i"
     template=$(echo "$template_info" | cut -d'|' -f1)
@@ -276,7 +349,7 @@ echo "========== URL查找完成 =========="
 # 统计找到的可用URL数量
 found_count=0
 i=1
-while [ $i -le 14 ]; do
+while [ $i -le ${#templates[@]} ]; do
     eval "url_value=\$template_valid_urls_${i}"
     if [ -n "$url_value" ]; then
         found_count=$((found_count + 1))
@@ -288,7 +361,7 @@ done
 if [ $found_count -eq 0 ]; then
     echo "警告: 所有模板均未找到可用URL，使用默认URL"
     i=1
-    while [ $i -le 14 ]; do
+    while [ $i -le ${#templates[@]} ]; do
         eval "template_info=\$url_template_$i"
         template=$(echo "$template_info" | cut -d'|' -f1)
         param1_type=$(echo "$template_info" | cut -d'|' -f2)
@@ -387,7 +460,7 @@ if [ $found_count -eq 0 ]; then
 else
     # 显示最终使用的URL，并收集到valid_urls变量中
     i=1
-    while [ $i -le 14 ]; do
+    while [ $i -le ${#templates[@]} ]; do
         eval "url_value=\$template_valid_urls_${i}"
         if [ -n "$url_value" ]; then
             echo "使用模板[$i]: $url_value"
@@ -406,7 +479,7 @@ fi
 if [ -z "$valid_urls" ]; then
     echo "未找到任何有效URL，使用默认URL"
     i=1
-    while [ $i -le 14 ]; do
+    while [ $i -le ${#templates[@]} ]; do
         eval "template_info=\$url_template_$i"
         template=$(echo "$template_info" | cut -d'|' -f1)
         param1_type=$(echo "$template_info" | cut -d'|' -f2)
@@ -536,7 +609,7 @@ echo "- 源URL列表: "
 # 显示所有有效的URL
 valid_url_count=0
 i=1
-while [ $i -le 14 ]; do
+while [ $i -le ${#templates[@]} ]; do
     eval "url_value=\$template_valid_urls_${i}"
     if [ -n "$url_value" ]; then
         echo "  * $url_value"

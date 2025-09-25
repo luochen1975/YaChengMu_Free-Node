@@ -237,7 +237,7 @@ temp_file=$(mktemp)
 
 # 并行检查所有模板
 i=1
-while [ $i -le 12 ]; do
+while [ $i -le 14 ]; do
     # 解析模板和参数
     eval "template_info=\$url_template_$i"
     template=$(echo "$template_info" | cut -d'|' -f1)
@@ -276,7 +276,7 @@ echo "========== URL查找完成 =========="
 # 统计找到的可用URL数量
 found_count=0
 i=1
-while [ $i -le 12 ]; do
+while [ $i -le 14 ]; do
     eval "url_value=\$template_valid_urls_${i}"
     if [ -n "$url_value" ]; then
         found_count=$((found_count + 1))
@@ -288,7 +288,7 @@ done
 if [ $found_count -eq 0 ]; then
     echo "警告: 所有模板均未找到可用URL，使用默认URL"
     i=1
-    while [ $i -le 12 ]; do
+    while [ $i -le 14 ]; do
         eval "template_info=\$url_template_$i"
         template=$(echo "$template_info" | cut -d'|' -f1)
         param1_type=$(echo "$template_info" | cut -d'|' -f2)
@@ -387,7 +387,7 @@ if [ $found_count -eq 0 ]; then
 else
     # 显示最终使用的URL，并收集到valid_urls变量中
     i=1
-    while [ $i -le 12 ]; do
+    while [ $i -le 14 ]; do
         eval "url_value=\$template_valid_urls_${i}"
         if [ -n "$url_value" ]; then
             echo "使用模板[$i]: $url_value"
@@ -406,7 +406,7 @@ fi
 if [ -z "$valid_urls" ]; then
     echo "未找到任何有效URL，使用默认URL"
     i=1
-    while [ $i -le 12 ]; do
+    while [ $i -le 14 ]; do
         eval "template_info=\$url_template_$i"
         template=$(echo "$template_info" | cut -d'|' -f1)
         param1_type=$(echo "$template_info" | cut -d'|' -f2)
@@ -536,7 +536,7 @@ echo "- 源URL列表: "
 # 显示所有有效的URL
 valid_url_count=0
 i=1
-while [ $i -le 12 ]; do
+while [ $i -le 14 ]; do
     eval "url_value=\$template_valid_urls_${i}"
     if [ -n "$url_value" ]; then
         echo "  * $url_value"

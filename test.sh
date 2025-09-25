@@ -519,22 +519,59 @@ fi
 
 # 下载订阅
 echo "========== 下载订阅文件 =========="
-echo "下载Clash配置..."
-if wget --timeout=90 --tries=3 --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" -q "$subscribeclash" -O ./clash.yaml; then
-    echo "Clash配置下载成功"
+
+# 定义下载函数，带重试机制
+download_with_retry() {
+    local url="$1"
+    local output_file="$2"
+    local description="$3"
+    local max_retries=3
+    local retry_count=0
+    
+    while [ $retry_count -lt $max_retries ]; do
+        echo "下载${description} (尝试 $((retry_count+1))/$max_retries)..."
+        if wget --timeout=90 --tries=1 --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" -q "$url" -O "$output_file"; then
+            echo "${description}下载成功"
+            return 0
+        else
+            local exit_code=$?
+            echo "${description}下载失败，退出码: $exit_code"
+            retry_count=$((retry_count+1))
+            if [ $retry_count -lt $max_retries ]; then
+                echo "等待5秒后重试..."
+                sleep 5
+            fi
+        fi
+    done
+    
+    # 最终尝试显示详细错误信息
+    echo "最终尝试获取详细错误信息:"
+    wget --timeout=90 --tries=1 --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" -S "$url" -O "$output_file" 2>&1 | head -20
+    return 1
+}
+
+# 下载Clash配置
+if download_with_retry "$subscribeclash" "./clash.yaml" "Clash配置"; then
+    echo "Clash配置下载完成"
 else
-    echo "Clash配置下载失败，退出码: $?"
-    # 尝试显示更多错误信息
-    wget --timeout=90 --tries=1 --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" -S "$subscribeclash" -O ./clash.yaml 2>&1 | head -20
+    echo "Clash配置下载最终失败"
+    # 如果文件存在但下载失败，检查文件内容
+    if [ -f "./clash.yaml" ]; then
+        echo "检查下载的文件内容:"
+        head -10 ./clash.yaml
+    fi
 fi
 
-echo "下载V2Ray配置..."
-if wget --timeout=90 --tries=3 --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" -q "$subscribeV2ray" -O ./v2ray.txt; then
-    echo "V2Ray配置下载成功"
+# 下载V2Ray配置
+if download_with_retry "$subscribeV2ray" "./v2ray.txt" "V2Ray配置"; then
+    echo "V2Ray配置下载完成"
 else
-    echo "V2Ray配置下载失败，退出码: $?"
-    # 尝试显示更多错误信息
-    wget --timeout=90 --tries=1 --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" -S "$subscribeV2ray" -O ./v2ray.txt 2>&1 | head -20
+    echo "V2Ray配置下载最终失败"
+    # 如果文件存在但下载失败，检查文件内容
+    if [ -f "./v2ray.txt" ]; then
+        echo "检查下载的文件内容:"
+        head -10 ./v2ray.txt
+    fi
 fi
 
 # 处理下载的clash.yaml文件

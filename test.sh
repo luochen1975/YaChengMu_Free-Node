@@ -444,8 +444,18 @@ else
     done
 fi
 
-# 设置valid_urls为template_valid_urls
-valid_urls="$template_valid_urls"
+# 重新收集所有有效URL
+valid_urls=""
+for i in $(seq 1 $url_count); do
+    eval "result=\"\$template_result_$i\""
+    if [ -n "$result" ] && [ "$result" != "未找到可用URL" ]; then
+        if [ -z "$valid_urls" ]; then
+            valid_urls="$result"
+        else
+            valid_urls="$valid_urls|$result"
+        fi
+    fi
+done
 
 # 使用管道符号(|)连接所有有效URL
 combined_urls="$valid_urls"

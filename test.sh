@@ -557,6 +557,11 @@ valid_names=""
 current_group_name=""
 current_group_type=""
 
+# 打印初始去重信息
+echo "开始处理clash.yaml文件，初始去重状态:" >&2
+echo "servers_seen: $servers_seen" >&2
+echo "valid_names: $valid_names" >&2
+
 # 逐行处理clash.yaml文件
 while IFS= read -r line; do
     # 检查是否是proxies部分开始
@@ -586,10 +591,12 @@ while IFS= read -r line; do
             # 处理上一个节点（如果存在）
             if [ $in_current_proxy -eq 1 ]; then
                 if [ $remove_current -eq 0 ]; then
-                    # 检查是否已存在相同server和port的节点
+                    # 检查是否已存在相同server和port的节点（忽略大小写）
                     is_duplicate=0
                     if [ -n "$current_server" ] && [ -n "$current_port" ]; then
-                        if [[ " $servers_seen " =~ " $current_server:$current_port " ]]; then
+                        # 转换为小写进行比较
+                        lowercase_server=$(echo "$current_server" | tr '[:upper:]' '[:lower:]')
+                        if [[ " $servers_seen " =~ " $lowercase_server:$current_port " ]]; then
                             is_duplicate=1
                         fi
                     fi
@@ -597,22 +604,27 @@ while IFS= read -r line; do
                     if [ $is_duplicate -eq 0 ]; then
                         # server和port未同时出现过，输出节点
                         echo "$proxy_content"
-                        # 记录server:port组合
+                        # 记录server:port组合（使用小写server）
                         if [ -n "$current_server" ] && [ -n "$current_port" ]; then
-                            servers_seen="$servers_seen $current_server:$current_port"
+                            lowercase_server=$(echo "$current_server" | tr '[:upper:]' '[:lower:]')
+                            servers_seen="$servers_seen $lowercase_server:$current_port"
+                            echo "添加节点: $current_server:$current_port" >&2
                         fi
                         # 记录有效的节点名称
                         if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
                             node_name="${BASH_REMATCH[1]}"
                             # 使用引号包围节点名称以处理特殊字符
                             valid_names="$valid_names \"$node_name\""
+                            echo "记录有效节点名称: $node_name" >&2
                         fi
                     else
                         # 记录被删除的重复节点名称
+                        echo "发现重复节点: $current_server:$current_port" >&2
                         if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
                             node_name="${BASH_REMATCH[1]}"
                             # 使用引号包围节点名称以处理特殊字符
                             deleted_names+=("$node_name")
+                            echo "删除重复节点名称: $node_name" >&2
                         fi
                     fi
                 else
@@ -621,6 +633,7 @@ while IFS= read -r line; do
                         node_name="${BASH_REMATCH[1]}"
                         # 使用引号包围节点名称以处理特殊字符
                         deleted_names+=("$node_name")
+                        echo "删除无效节点名称: $node_name" >&2
                     fi
                 fi
             fi
@@ -676,10 +689,12 @@ while IFS= read -r line; do
         if [[ "$line" =~ ^[^[:space:]] ]] && ! [[ "$line" =~ ^[[:space:]] ]]; then
             # 处理最后一个节点
             if [ $in_current_proxy -eq 1 ] && [ $remove_current -eq 0 ]; then
-                # 检查是否已存在相同server和port的节点
+                # 检查是否已存在相同server和port的节点（忽略大小写）
                 is_duplicate=0
                 if [ -n "$current_server" ] && [ -n "$current_port" ]; then
-                    if [[ " $servers_seen " =~ " $current_server:$current_port " ]]; then
+                    # 转换为小写进行比较
+                    lowercase_server=$(echo "$current_server" | tr '[:upper:]' '[:lower:]')
+                    if [[ " $servers_seen " =~ " $lowercase_server:$current_port " ]]; then
                         is_duplicate=1
                     fi
                 fi
@@ -687,22 +702,27 @@ while IFS= read -r line; do
                 if [ $is_duplicate -eq 0 ]; then
                     # server和port未同时出现过，输出节点
                     echo "$proxy_content"
-                    # 记录server:port组合
+                    # 记录server:port组合（使用小写server）
                     if [ -n "$current_server" ] && [ -n "$current_port" ]; then
-                        servers_seen="$servers_seen $current_server:$current_port"
+                        lowercase_server=$(echo "$current_server" | tr '[:upper:]' '[:lower:]')
+                        servers_seen="$servers_seen $lowercase_server:$current_port"
+                        echo "添加节点: $current_server:$current_port" >&2
                     fi
                     # 记录有效的节点名称
                     if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
                         node_name="${BASH_REMATCH[1]}"
                         # 使用引号包围节点名称以处理特殊字符
                         valid_names="$valid_names \"$node_name\""
+                        echo "记录有效节点名称: $node_name" >&2
                     fi
                 else
                     # 记录被删除的重复节点名称
+                    echo "发现重复节点: $current_server:$current_port" >&2
                     if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
                         node_name="${BASH_REMATCH[1]}"
                         # 使用引号包围节点名称以处理特殊字符
                         deleted_names+=("$node_name")
+                        echo "删除重复节点名称: $node_name" >&2
                     fi
                 fi
             elif [ $in_current_proxy -eq 1 ] && [ $remove_current -eq 1 ]; then
@@ -711,6 +731,7 @@ while IFS= read -r line; do
                     node_name="${BASH_REMATCH[1]}"
                     # 使用引号包围节点名称以处理特殊字符
                     deleted_names+=("$node_name")
+                    echo "删除无效节点名称: $node_name" >&2
                 fi
             fi
             
@@ -835,7 +856,13 @@ done < ./clash.yaml > "$temp_file"
 
 # 移动临时文件到原文件
 mv "$temp_file" ./clash.yaml
-echo "Clash配置已清理完成"
+
+# 打印最终去重信息
+echo "Clash配置已清理完成" >&2
+echo "最终去重状态:" >&2
+echo "servers_seen: $servers_seen" >&2
+echo "valid_names: $valid_names" >&2
+echo "deleted_names: ${deleted_names[*]}" >&2
 
 echo "========== 任务完成 =========="
 echo "生成的文件:"

@@ -1,71 +1,66 @@
 #!/bin/bash
 #########################################################
-# 节点订阅自动获取脚本 - 并行模板版本
+# 节点订阅自动获取脚本 - 并行模板版本 (Bash优化版)
 # 功能：自动查找可用的节点URL并生成订阅
 # 特点：并行检测、超时控制、多模板支持
 #########################################################
+
+# ===== 全局变量定义 =====
+declare -A url_templates
+declare -A template_valid_urls
+declare -a valid_urls
+declare -a deleted_names
 
 # ===== 日期处理函数 =====
 
 # 获取当前日期（多种格式）
 get_current_date() {
-    # 完整日期（年月日）
+    # 使用bash内建日期功能
     currentdate=$(date +%Y%m%d)
     currentyear=$(date +%Y)
     # 包含前导零的月份和日期
     currentmonth_padded=$(date +%m)
     currentday_padded=$(date +%d)
     # 不包含前导零的月份和日期
-    currentmonth=$(echo "$currentmonth_padded" | sed 's/^0*//')
-    currentday=$(echo "$currentday_padded" | sed 's/^0*//')
-    
-    # 确保日期部分始终为两位数
-    if [ -z "$currentday" ]; then
-        currentday="0"
-    fi
+    currentmonth=$((10#$currentmonth_padded))  # 使用算术扩展去除前导零
+    currentday=$((10#$currentday_padded))
 }
 
 # 计算前N天的日期函数
 calculate_previous_date() {
-    days_to_subtract=$1
-    # 在POSIX shell中使用不同的日期计算方法
-    target_date=$(date -d "$currentyear-$currentmonth_padded-$currentday_padded -$days_to_subtract days" +"%Y %m %d %m %d" 2>/dev/null || echo "$currentyear $currentmonth_padded $currentday_padded $currentmonth $currentday")
-    # 确保month_no_zero不包含前导零
-    target_date_no_zero=$(echo "$target_date" | awk '{print $1 " " $2 " " $3 " " ($4 + 0) " " ($5 + 0)}')
-    echo $target_date_no_zero
+    local days_to_subtract=$1
+    # 使用bash内建日期功能
+    local target_date=$(date -d "$currentyear-$currentmonth_padded-$currentday_padded -$days_to_subtract days" +"%Y %m %d %m %d" 2>/dev/null || echo "$currentyear $currentmonth_padded $currentday_padded $currentmonth $currentday")
+    echo $target_date
 }
 
 # ===== URL处理函数 =====
 
 # URL解码函数
 urldecode() {
-    url_encoded="$1"
+    local url_encoded="$1"
     # 替换+为空格
-    url_encoded=$(echo "$url_encoded" | sed 's/+/ /g')
+    url_encoded=${url_encoded//+/ }
     # 解码%编码的字符
-    printf '%b' "$(echo "$url_encoded" | sed 's/%/\\\\x/g')"
+    printf '%b' "${url_encoded//%/\\x}"
 }
 
-# URL编码函数（不依赖外部工具）
+# URL编码函数（使用bash内建功能）
 urlencode() {
-    string="$1"
-    strlen=$(echo "$string" | wc -c)
-    strlen=$((strlen - 1))  # 减去换行符的长度
+    local string="$1"
+    local encoded=""
+    local pos
+    local c
     
-    encoded=""
-    pos=0
-    
-    while [ $pos -lt $strlen ]; do
-        pos=$((pos + 1))
-        c=$(echo "$string" | cut -c$pos-$pos)
+    for ((pos=0; pos<${#string}; pos++)); do
+        c=${string:$pos:1}
         case "$c" in
             [-_.~a-zA-Z0-9]) # 这些字符不需要编码
-                encoded="$encoded$c"
+                encoded+="$c"
                 ;;
             *)
                 # 将字符转换为十六进制
-                hex=$(printf '%02x' "'$c" 2>/dev/null || printf '%%02x' "'$c")
-                encoded="$encoded%$hex"
+                printf -v encoded "%s%%%02X" "$encoded" "'$c"
                 ;;
         esac
     done
@@ -74,14 +69,14 @@ urlencode() {
 
 # 检查URL可用性
 check_url_availability() {
-    url="$1"
+    local url="$1"
     # 使用curl检查URL是否可访问
     # -s: 静默模式，不显示进度
     # -L: 跟随重定向
     # -I: 只获取头信息
-    # --connect-timeout 20: 连接超时20秒（从15秒增加到20秒）
-    # --max-time 45: 总超时45秒（从30秒增加到45秒）
-    status_code=$(curl -s -L -I --connect-timeout 20 --max-time 45 -o /dev/null -w '%{http_code}' "$url")
+    # --connect-timeout 20: 连接超时20秒
+    # --max-time 45: 总超时45秒
+    local status_code=$(curl -s -L -I --connect-timeout 20 --max-time 45 -o /dev/null -w '%{http_code}' "$url")
     
     # 检查状态码是否为200或30x（表示成功或重定向）
     case "$status_code" in
@@ -94,65 +89,28 @@ check_url_availability() {
     esac
 }
 
-# 并行检查所有模板URL
-check_all_urls() {
-    # 设置超时时间
-    local connect_timeout=10
-    local max_time=20
-    
-    # 并行检查所有模板
-    for key in "${!templates[@]}"; do
-    {
-        template="${templates[$key]}"
-        params=(${param_types[$key]})
-        
-        # 检查当天URL
-        url=$(generate_url "$key" "$template" "${params[0]}" "${params[1]}" "${params[2]}" 0)
-        if check_url_availability "$url" "$connect_timeout" "$max_time"; then
-            echo "$url" > "template_result_$key"
-        fi
-    } &
-    done
-    wait
-    
-    # 收集结果
-    for key in "${!templates[@]}"; do
-        if [ -f "template_result_$key" ]; then
-            template_result_$key=$(cat "template_result_$key")
-            rm "template_result_$key"
-        else
-            template_result_$key="未找到可用URL"
-        fi
-    done
-}
-
-# 生成URL
-generate_url() {
-    local key=$1
-    local template=$2
-    local param1=$3
-    local param2=$4
-    local param3=$5
-    local days_ago=$6
-    
-    # 日期处理逻辑...
-    # 返回生成的URL
-}
+# 检查单个模板的URL可用性
+check_template_urls() {
+    local template_key="$1"
+    local template="$2"
+    local param1_type="$3"
+    local param2_type="$4"
+    local param3_type="$5"
+    local max_days_to_check=7  # 最多检查7天
     
     # 初始化日期变量
-    year=$currentyear
-    month_padded=$currentmonth_padded
-    date_padded=$currentday_padded
-    month_no_zero=$currentmonth
-    date_no_zero=$currentday
-    date_full="${year}${month_padded}${date_padded}"
+    local year=$currentyear
+    local month_padded=$currentmonth_padded
+    local date_padded=$currentday_padded
+    local month_no_zero=$currentmonth
+    local date_no_zero=$currentday
+    local date_full="${year}${month_padded}${date_padded}"
     
     # 检查最近几天的URL (从当天开始)
-    i=0
-    while [ $i -lt $max_days_to_check ]; do
+    for ((i=0; i<max_days_to_check; i++)); do
         # 计算日期 (当天及之前几天)
         if [ $i -gt 0 ]; then
-            date_info=$(calculate_previous_date $i)
+            local date_info=$(calculate_previous_date $i)
             year=$(echo $date_info | cut -d' ' -f1)
             month_padded=$(echo $date_info | cut -d' ' -f2)
             date_padded=$(echo $date_info | cut -d' ' -f3)
@@ -162,9 +120,10 @@ generate_url() {
         fi
         
         # 根据参数类型选择对应的值
-        check_param1=$year  # 年份总是相同格式
+        local check_param1=$year  # 年份总是相同格式
         
         # 处理月份参数
+        local check_param2
         case $param2_type in
             "month") check_param2=$month_padded ;;
             "month_no_zero") check_param2=$month_no_zero ;;
@@ -173,6 +132,7 @@ generate_url() {
         esac
         
         # 处理日期参数
+        local check_param3
         case $param3_type in
             "date") check_param3=$date_padded ;;
             "date_no_zero") check_param3=$date_no_zero ;;
@@ -182,7 +142,7 @@ generate_url() {
         esac
         
         # 使用printf格式化URL
-        check_url=""
+        local check_url=""
         # 特殊处理模板
         if [ "$template_key" = "3" ]; then
             # 模板3只需要一个date_full参数
@@ -216,16 +176,57 @@ generate_url() {
         fi
         
         # 每检查5天打印一次进度
-        remainder=$(( (i+1) % 5 ))
+        local remainder=$(( (i+1) % 5 ))
         if [ $remainder -eq 0 ]; then
             echo "已检查 $((i+1)) 天，继续搜索..." >&2
         fi
-        
-        i=$((i + 1))
     done
     
     # 如果没有找到有效的URL，返回空
     return 1
+}
+
+# 并行检查所有模板
+check_all_templates_parallel() {
+    echo "========== 开始查找可用节点 =========="
+    
+    # 创建临时目录存储并行任务结果
+    local temp_dir=$(mktemp -d)
+    
+    # 并行检查所有模板
+    for key in "${!url_templates[@]}"; do
+        local template_info="${url_templates[$key]}"
+        local template=$(echo "$template_info" | cut -d'|' -f1)
+        local param1_type=$(echo "$template_info" | cut -d'|' -f2)
+        local param2_type=$(echo "$template_info" | cut -d'|' -f3)
+        local param3_type=$(echo "$template_info" | cut -d'|' -f4)
+        
+        # 后台运行检查，结果写入临时文件
+        (
+            result=$(check_template_urls "$key" "$template" "$param1_type" "$param2_type" "$param3_type")
+            if [ -n "$result" ]; then
+                echo "$result" > "$temp_dir/result_$key"
+                echo "检测到有效URL (模板[$key]): $result" >&2
+            else
+                echo "模板[$key] 未找到有效URL" >&2
+            fi
+        ) &
+    done
+    
+    # 等待所有后台进程完成
+    wait
+    
+    # 从临时文件加载结果
+    for key in "${!url_templates[@]}"; do
+        if [ -f "$temp_dir/result_$key" ]; then
+            template_valid_urls[$key]=$(cat "$temp_dir/result_$key")
+        fi
+    done
+    
+    # 清理临时目录
+    rm -rf "$temp_dir"
+    
+    echo "========== URL查找完成 =========="
 }
 
 # ===== 主程序 =====
@@ -233,11 +234,12 @@ generate_url() {
 # 初始化日期变量
 get_current_date
 
-# 定义URL模板数组
-declare -A templates=(
-    [1]="https://a.nodeshare.xyz/uploads/%Y/%m/%Y%m%d.yaml"
-    [2]="https://nodefree.githubrowcontent.com/%Y/%m/%Y%m%d.yaml"
-    [3]="https://free.datiya.com/uploads/%Y%m%d-clash.yaml"
+# 定义URL模板结构体
+# 格式: "URL模板|年份参数类型|月份参数类型|日期参数类型"
+url_templates=(
+    [1]="https://a.nodeshare.xyz/uploads/%s/%s/%s.yaml|year|month_no_zero|date_full"
+    [2]="https://nodefree.githubrowcontent.com/%s/%s/%s.yaml|year|month_padded|date_full"
+    [3]="https://free.datiya.com/uploads/%s-clash.yaml|date_full"
     [4]="https://fastly.jsdelivr.net/gh/ripaojiedian/freenode@main/clash"
     [5]="https://www.xrayvip.com/free.yaml"
     [6]="https://ghproxy.net/https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml"
@@ -251,129 +253,34 @@ declare -A templates=(
     [14]="https://rss.zyfx6.xyz/clash"
 )
 
-# 模板参数类型
-declare -A param_types=(
-    [1]="year month_padded date_padded"
-    [2]="year month_padded date_padded"
-    [3]="date_full"
-    [4]=""
-    [5]=""
-    [6]=""
-    [7]=""
-    [8]=""
-    [9]=""
-    [10]=""
-    [11]=""
-    [12]=""
-    [13]=""
-    [14]=""
-)
-
-# 最大检查天数
-max_days_to_check=3
-# 格式: "URL模板|年份参数类型|月份参数类型|日期参数类型"
-url_template_1="https://a.nodeshare.xyz/uploads/%s/%s/%s.yaml|year|month_no_zero|date_full"
-url_template_2="https://nodefree.githubrowcontent.com/%s/%s/%s.yaml|year|month_padded|date_full"
-url_template_3="https://free.datiya.com/uploads/%s-clash.yaml|date_full"
-url_template_4="https://fastly.jsdelivr.net/gh/ripaojiedian/freenode@main/clash"
-url_template_5="https://www.xrayvip.com/free.yaml"
-url_template_6="https://ghproxy.net/https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml"
-url_template_7="https://ghproxy.net/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
-url_template_8="https://fastly.jsdelivr.net/gh/zhangkaiitugithub/passcro@main/speednodes.yaml"
-url_template_9="https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
-url_template_10="https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml"
-url_template_11="https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg"
-url_template_12="https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml"
-url_template_13="https://fpyjdy.zzong6599.workers.dev"
-url_template_14="https://rss.zyfx6.xyz/clash"
-
-# 用于存储每个模板找到的可用URL
-template_valid_urls_1=""
-template_valid_urls_2=""
-template_valid_urls_3=""
-template_valid_urls_4=""
-template_valid_urls_5=""
-template_valid_urls_6=""
-template_valid_urls_7=""
-template_valid_urls_8=""
-template_valid_urls_9=""
-template_valid_urls_10=""
-template_valid_urls_11=""
-template_valid_urls_12=""
-template_valid_urls_13=""
-template_valid_urls_14=""
-
-echo "========== 开始查找可用节点 =========="
-
-# 创建临时文件存储并行任务结果
-temp_file=$(mktemp)
-
 # 并行检查所有模板
-i=1
-while [ $i -le ${#templates[@]} ]; do
-    # 解析模板和参数
-    eval "template_info=\$url_template_$i"
-    template=$(echo "$template_info" | cut -d'|' -f1)
-    param1_type=$(echo "$template_info" | cut -d'|' -f2)
-    param2_type=$(echo "$template_info" | cut -d'|' -f3)
-    param3_type=$(echo "$template_info" | cut -d'|' -f4)
-    
-    # 后台运行检查，结果写入临时文件
-    (
-        result=$(check_template_urls "$i" "$template" "$param1_type" "$param2_type" "$param3_type")
-        if [ -n "$result" ]; then
-            echo "${i}|${result}" >> "$temp_file"
-            echo "检测到有效URL (模板[$i]): $result" >&2
-        else
-            echo "$i|未找到可用URL" >> "$temp_file"
-            echo "模板[$i] 未找到有效URL" >&2
-        fi
-    ) &
-    
-    i=$((i + 1))
-done
-
-# 等待所有后台进程完成
-wait
-
-# 从临时文件加载结果
-while IFS="|" read -r template_key result; do
-    if [ "$result" != "未找到可用URL" ]; then
-        eval "template_valid_urls_${template_key}=\"$result\""
-    fi
-done < "$temp_file"
-rm -f "$temp_file"
-
-echo "========== URL查找完成 =========="
+check_all_templates_parallel
 
 # 统计找到的可用URL数量
-found_count=0
-i=1
-while [ $i -le ${#templates[@]} ]; do
-    eval "url_value=\$template_valid_urls_${i}"
-    if [ -n "$url_value" ]; then
+local found_count=0
+for key in "${!template_valid_urls[@]}"; do
+    if [ -n "${template_valid_urls[$key]}" ]; then
         found_count=$((found_count + 1))
     fi
-    i=$((i + 1))
 done
 
 # 如果所有模板都未找到可用URL，才使用默认URL
 if [ $found_count -eq 0 ]; then
     echo "警告: 所有模板均未找到可用URL，使用默认URL"
-    i=1
-    while [ $i -le ${#templates[@]} ]; do
-        eval "template_info=\$url_template_$i"
-        template=$(echo "$template_info" | cut -d'|' -f1)
-        param1_type=$(echo "$template_info" | cut -d'|' -f2)
-        param2_type=$(echo "$template_info" | cut -d'|' -f3)
-        param3_type=$(echo "$template_info" | cut -d'|' -f4)
+    
+    for key in "${!url_templates[@]}"; do
+        local template_info="${url_templates[$key]}"
+        local template=$(echo "$template_info" | cut -d'|' -f1)
+        local param1_type=$(echo "$template_info" | cut -d'|' -f2)
+        local param2_type=$(echo "$template_info" | cut -d'|' -f3)
+        local param3_type=$(echo "$template_info" | cut -d'|' -f4)
         
         # 使用当天日期生成默认URL
-        date_full_default="${currentyear}${currentmonth_padded}${currentday_padded}"
+        local date_full_default="${currentyear}${currentmonth_padded}${currentday_padded}"
         
         # 根据模板参数数量和类型生成默认URL
-        url=""
-        case $i in
+        local url=""
+        case $key in
             1)
                 # 模板1: https://a.nodeshare.xyz/uploads/%s/%s/%s.yaml|year|month_no_zero|date_full
                 url=$(printf "$template" "$currentyear" "$currentmonth" "$date_full_default")
@@ -389,12 +296,8 @@ if [ $found_count -eq 0 ]; then
                 url=$(printf "$template" "$date_full_default")
                 echo "生成模板3的默认URL: $url" >&2
                 ;;
-            4)
-                # 模板4: https://fastly.jsdelivr.net/gh/ripaojiedian/freenode@main/clash (无参数)
-                url="$template"
-                ;;
-            7)
-                # 模板7: https://ghproxy.net/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub (无参数)
+            4|7)
+                # 模板4和7: 无参数
                 url="$template"
                 ;;
             *)
@@ -405,12 +308,10 @@ if [ $found_count -eq 0 ]; then
                 elif [ -n "$param1_type" ] && [ -n "$param2_type" ] && [ -n "$param3_type" ]; then
                     # 三个参数的模板
                     # 处理年份参数
-                    case $param1_type in
-                        "year") param1_val="$currentyear" ;;
-                        *) param1_val="$currentyear" ;;
-                    esac
+                    local param1_val="$currentyear"
                     
                     # 处理月份参数
+                    local param2_val
                     case $param2_type in
                         "month") param2_val="$currentmonth_padded" ;;
                         "month_no_zero") param2_val="$currentmonth" ;;
@@ -419,6 +320,7 @@ if [ $found_count -eq 0 ]; then
                     esac
                     
                     # 处理日期参数
+                    local param3_val
                     case $param3_type in
                         "date") param3_val="$currentday_padded" ;;
                         "date_no_zero") param3_val="$currentday" ;;
@@ -431,12 +333,10 @@ if [ $found_count -eq 0 ]; then
                 elif [ -n "$param1_type" ] && [ -n "$param2_type" ] && [ -z "$param3_type" ]; then
                     # 两个参数的模板
                     # 处理第一个参数
-                    case $param1_type in
-                        "year") param1_val="$currentyear" ;;
-                        *) param1_val="$currentyear" ;;
-                    esac
+                    local param1_val="$currentyear"
                     
                     # 处理第二个参数
+                    local param2_val
                     case $param2_type in
                         "month") param2_val="$currentmonth_padded" ;;
                         "month_no_zero") param2_val="$currentmonth" ;;
@@ -452,35 +352,25 @@ if [ $found_count -eq 0 ]; then
         
         # 保存URL
         if [ -n "$url" ]; then
-            eval "template_valid_urls_${i}=\"$url\""
+            template_valid_urls[$key]="$url"
         fi
-        
-        i=$((i + 1))
     done
 else
-    # 显示最终使用的URL，并收集到valid_urls变量中
-    i=1
-    while [ $i -le ${#templates[@]} ]; do
-        eval "url_value=\$template_valid_urls_${i}"
-        if [ -n "$url_value" ]; then
-            echo "使用模板[$i]: $url_value"
-            # 同时收集到valid_urls变量中
-            if [ -z "$valid_urls" ]; then
-                valid_urls="$url_value"
-            else
-                valid_urls="$valid_urls|$url_value"
-            fi
+    # 显示最终使用的URL
+    for key in "${!template_valid_urls[@]}"; do
+        if [ -n "${template_valid_urls[$key]}" ]; then
+            echo "使用模板[$key]: ${template_valid_urls[$key]}"
+            valid_urls+=("${template_valid_urls[$key]}")
         fi
-        i=$((i + 1))
     done
 fi
 
 # 如果没有找到有效的URL，则使用默认URL
-if [ -z "$valid_urls" ]; then
+if [ ${#valid_urls[@]} -eq 0 ]; then
     echo "未找到任何有效URL，使用默认URL"
-    i=1
-    while [ $i -le ${#templates[@]} ]; do
-        eval "template_info=\$url_template_$i"
+    
+    for key in "${!url_templates[@]}"; do
+        template_info="${url_templates[$key]}"
         template=$(echo "$template_info" | cut -d'|' -f1)
         param1_type=$(echo "$template_info" | cut -d'|' -f2)
         param2_type=$(echo "$template_info" | cut -d'|' -f3)
@@ -491,7 +381,7 @@ if [ -z "$valid_urls" ]; then
             
         # 根据模板参数数量和类型生成默认URL
         url=""
-        case $i in
+        case $key in
             1)
                 # 模板1: https://a.nodeshare.xyz/uploads/%s/%s/%s.yaml|year|month_no_zero|date_full
                 url=$(printf "$template" "$currentyear" "$currentmonth" "$date_full_default")
@@ -507,12 +397,8 @@ if [ -z "$valid_urls" ]; then
                 url=$(printf "$template" "$date_full_default")
                 echo "生成模板3的备用URL: $url" >&2
                 ;;
-            4)
-                # 模板4: https://fastly.jsdelivr.net/gh/ripaojiedian/freenode@main/clash (无参数)
-                url="$template"
-                ;;
-            7)
-                # 模板7: https://ghproxy.net/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub (无参数)
+            4|7)
+                # 模板4和7: 无参数
                 url="$template"
                 ;;
             *)
@@ -523,10 +409,7 @@ if [ -z "$valid_urls" ]; then
                 elif [ -n "$param1_type" ] && [ -n "$param2_type" ] && [ -n "$param3_type" ]; then
                     # 三个参数的模板
                     # 处理年份参数
-                    case $param1_type in
-                        "year") param1_val="$currentyear" ;;
-                        *) param1_val="$currentyear" ;;
-                    esac
+                    param1_val="$currentyear"
                         
                     # 处理月份参数
                     case $param2_type in
@@ -549,10 +432,7 @@ if [ -z "$valid_urls" ]; then
                 elif [ -n "$param1_type" ] && [ -n "$param2_type" ] && [ -z "$param3_type" ]; then
                     # 两个参数的模板
                     # 处理第一个参数
-                    case $param1_type in
-                        "year") param1_val="$currentyear" ;;
-                        *) param1_val="$currentyear" ;;
-                    esac
+                    param1_val="$currentyear"
                         
                     # 处理第二个参数
                     case $param2_type in
@@ -570,20 +450,14 @@ if [ -z "$valid_urls" ]; then
             
         # 保存URL
         if [ -n "$url" ]; then
-            eval "template_valid_urls_${i}=\"$url\""
-            if [ -z "$valid_urls" ]; then
-                valid_urls="$url"
-            else
-                valid_urls="$valid_urls|$url"
-            fi
+            template_valid_urls[$key]="$url"
+            valid_urls+=("$url")
         fi
-            
-        i=$((i + 1))
     done
 fi
 
 # 使用管道符号(|)连接所有有效URL
-combined_urls="$valid_urls"
+combined_urls=$(IFS='|'; echo "${valid_urls[*]}")
 echo "合并URL: $combined_urls"
 
 # 对combined_urls进行URL编码
@@ -608,14 +482,11 @@ echo "- 源URL列表: "
 
 # 显示所有有效的URL
 valid_url_count=0
-i=1
-while [ $i -le ${#templates[@]} ]; do
-    eval "url_value=\$template_valid_urls_${i}"
-    if [ -n "$url_value" ]; then
-        echo "  * $url_value"
+for key in "${!template_valid_urls[@]}"; do
+    if [ -n "${template_valid_urls[$key]}" ]; then
+        echo "  * ${template_valid_urls[$key]}"
         valid_url_count=$((valid_url_count + 1))
     fi
-    i=$((i + 1))
 done
 
 # 如果没有找到任何有效URL，显示提示信息
@@ -686,14 +557,13 @@ current_port=""
 proxy_content=""
 servers_seen=""
 valid_names=""
-deleted_names=""
 current_group_name=""
 current_group_type=""
 
 # 逐行处理clash.yaml文件
 while IFS= read -r line; do
     # 检查是否是proxies部分开始
-    if echo "$line" | grep -q "^proxies:$"; then
+    if [[ "$line" =~ ^proxies:$ ]]; then
         in_proxy=1
         in_proxy_groups=0
         in_proxies_list=0
@@ -703,27 +573,26 @@ while IFS= read -r line; do
     fi
     
     # 检查是否是proxy-groups部分开始
-    if echo "$line" | grep -q "^proxy-groups:$"; then
+    if [[ "$line" =~ ^proxy-groups:$ ]]; then
         in_proxy=0
         in_proxy_groups=1
         in_proxies_list=0
         in_url_test_group=0
         echo "$line"
-        # 输出删除的节点名称用于调试
         continue
     fi
     
     # 处理proxies部分
     if [ $in_proxy -eq 1 ]; then
         # 检查是否是新节点开始
-        if echo "$line" | grep -q "^  - "; then
+        if [[ "$line" =~ ^\ \ -\  ]]; then
             # 处理上一个节点（如果存在）
             if [ $in_current_proxy -eq 1 ]; then
                 if [ $remove_current -eq 0 ]; then
                     # 检查是否已存在相同server和port的节点
-                    is_duplicate=0
+                    local is_duplicate=0
                     if [ -n "$current_server" ] && [ -n "$current_port" ]; then
-                        if echo " $servers_seen " | grep -q " $current_server:$current_port "; then
+                        if [[ " $servers_seen " =~ " $current_server:$current_port " ]]; then
                             is_duplicate=1
                         fi
                     fi
@@ -736,25 +605,25 @@ while IFS= read -r line; do
                             servers_seen="$servers_seen $current_server:$current_port"
                         fi
                         # 记录有效的节点名称
-                        if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
-                            node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                        if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
+                            local node_name="${BASH_REMATCH[1]}"
                             # 使用引号包围节点名称以处理特殊字符
                             valid_names="$valid_names \"$node_name\""
                         fi
                     else
                         # 记录被删除的重复节点名称
-                        if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
-                            node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                        if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
+                            local node_name="${BASH_REMATCH[1]}"
                             # 使用引号包围节点名称以处理特殊字符
-                            deleted_names="$deleted_names \"$node_name\""
+                            deleted_names+=("$node_name")
                         fi
                     fi
                 else
                     # 记录被删除的无效节点名称
-                    if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
-                        node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                    if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
+                        local node_name="${BASH_REMATCH[1]}"
                         # 使用引号包围节点名称以处理特殊字符
-                        deleted_names="$deleted_names \"$node_name\""
+                        deleted_names+=("$node_name")
                     fi
                 fi
             fi
@@ -767,54 +636,53 @@ while IFS= read -r line; do
             remove_current=0
             
             # 检查是否包含 cipher: "" 或 password: ""
-            if echo "$line" | grep -q "cipher: \"\"" || echo "$line" | grep -q "password: \"\""; then
+            if [[ "$line" =~ cipher:\ \"\" ]] || [[ "$line" =~ password:\ \"\" ]]; then
                 remove_current=1
             fi
             
             # 尝试提取server和port
-            if echo "$line" | grep -o "server: [^,}]*" | head -1 | grep -q "server:"; then
-                current_server=$(echo "$line" | grep -o "server: [^,}]*" | head -1 | cut -d" " -f2)
+            if [[ "$line" =~ server:\ ([^,}]*) ]]; then
+                current_server="${BASH_REMATCH[1]}"
             fi
-            if echo "$line" | grep -o "port: [^,}]*" | head -1 | grep -q "port:"; then
-                current_port=$(echo "$line" | grep -o "port: [^,}]*" | head -1 | cut -d" " -f2)
+            if [[ "$line" =~ port:\ ([^,}]*) ]]; then
+                current_port="${BASH_REMATCH[1]}"
             fi
             continue
         fi
         
         # 在节点内容中
         if [ $in_current_proxy -eq 1 ]; then
-            proxy_content="$proxy_content
-$line"
+            proxy_content="$proxy_content"$'\n'"$line"
             
             # 继续检查是否需要删除当前节点
             if [ $remove_current -eq 0 ]; then
-                if echo "$line" | grep -q "cipher: \"\"" || echo "$line" | grep -q "password: \"\""; then
+                if [[ "$line" =~ cipher:\ \"\" ]] || [[ "$line" =~ password:\ \"\" ]]; then
                     remove_current=1
                 fi
             fi
             
             # 继续尝试提取server和port
             if [ -z "$current_server" ]; then
-                if echo "$line" | grep -o "server: [^,}]*" | head -1 | grep -q "server:"; then
-                    current_server=$(echo "$line" | grep -o "server: [^,}]*" | head -1 | cut -d" " -f2)
+                if [[ "$line" =~ server:\ ([^,}]*) ]]; then
+                    current_server="${BASH_REMATCH[1]}"
                 fi
             fi
             if [ -z "$current_port" ]; then
-                if echo "$line" | grep -o "port: [^,}]*" | head -1 | grep -q "port:"; then
-                    current_port=$(echo "$line" | grep -o "port: [^,}]*" | head -1 | cut -d" " -f2)
+                if [[ "$line" =~ port:\ ([^,}]*) ]]; then
+                    current_port="${BASH_REMATCH[1]}"
                 fi
             fi
             continue
         fi
         
         # proxies部分结束
-        if echo "$line" | grep -q "^[^ ]" && ! echo "$line" | grep -q "^ "; then
+        if [[ "$line" =~ ^[^[:space:]] ]] && ! [[ "$line" =~ ^[[:space:]] ]]; then
             # 处理最后一个节点
             if [ $in_current_proxy -eq 1 ] && [ $remove_current -eq 0 ]; then
                 # 检查是否已存在相同server和port的节点
-                is_duplicate=0
+                local is_duplicate=0
                 if [ -n "$current_server" ] && [ -n "$current_port" ]; then
-                    if echo " $servers_seen " | grep -q " $current_server:$current_port "; then
+                    if [[ " $servers_seen " =~ " $current_server:$current_port " ]]; then
                         is_duplicate=1
                     fi
                 fi
@@ -827,25 +695,25 @@ $line"
                         servers_seen="$servers_seen $current_server:$current_port"
                     fi
                     # 记录有效的节点名称
-                    if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
-                        node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                    if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
+                        local node_name="${BASH_REMATCH[1]}"
                         # 使用引号包围节点名称以处理特殊字符
                         valid_names="$valid_names \"$node_name\""
                     fi
                 else
                     # 记录被删除的重复节点名称
-                    if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
-                        node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                    if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
+                        local node_name="${BASH_REMATCH[1]}"
                         # 使用引号包围节点名称以处理特殊字符
-                        deleted_names="$deleted_names \"$node_name\""
+                        deleted_names+=("$node_name")
                     fi
                 fi
             elif [ $in_current_proxy -eq 1 ] && [ $remove_current -eq 1 ]; then
                 # 记录被删除的无效节点名称
-                if echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | grep -q "name:"; then
-                    node_name=$(echo "$proxy_content" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
+                    local node_name="${BASH_REMATCH[1]}"
                     # 使用引号包围节点名称以处理特殊字符
-                    deleted_names="$deleted_names \"$node_name\""
+                    deleted_names+=("$node_name")
                 fi
             fi
             
@@ -864,99 +732,83 @@ $line"
     # 处理proxy-groups部分
     if [ $in_proxy_groups -eq 1 ]; then
         # 检查是否是新的group开始 (以两个空格开头后跟字母)
-        if echo "$line" | grep -q "^  [a-zA-Z]"; then
+        if [[ "$line" =~ ^\ \ [a-zA-Z] ]]; then
             # 重置状态变量
             in_proxies_list=0
             in_url_test_group=0
             current_group_type=""
-            # 注意：不要在这里重置current_group_name，因为name行可能在type行之后出现
-            echo "DEBUG: 检测到新的proxy-group开始" >&2
             echo "$line"
             continue
         fi
         
         # 获取当前group的名称
-        if echo "$line" | grep -q "^  - name:"; then
-            # 直接替换掉"  - name: "前缀来获取名称
-            current_group_name=$(echo "$line" | sed 's/  - name: *//')
+        if [[ "$line" =~ ^\ \ -\ name:\ (.*) ]]; then
+            # 直接获取名称
+            current_group_name="${BASH_REMATCH[1]}"
             # 去除可能存在的前后引号和尾部空格
             current_group_name=$(echo "$current_group_name" | sed 's/^"\(.*\)"$/\1/' | sed 's/[[:space:]]*$//')
-            echo "DEBUG: 当前group名称: $current_group_name" >&2
             echo "$line"
             continue
         fi
         
         # 检查group类型
-        if echo "$line" | grep -q "^    type: url-test"; then
+        if [[ "$line" =~ ^\ \ \ \ type:\ url-test ]]; then
             in_url_test_group=1
             current_group_type="url-test"
-            echo "DEBUG: 检测到url-test类型的group" >&2
             echo "$line"
             continue
         fi
         
         # 检查是否是proxies列表开始
-        if echo "$line" | grep -q "^    proxies:$"; then
+        if [[ "$line" =~ ^\ \ \ \ proxies:$ ]]; then
             in_proxies_list=1
-            echo "DEBUG: 进入proxies列表，当前group类型: $current_group_type" >&2
             echo "$line"
             continue
         fi
         
         # 定义需要检查节点有效性的proxy-group名称集合
-        special_group_names="\"⚡ ‍低延迟\" \"👆🏻 ‍指定\" \"🇭🇰 ‍香港\" \"🇹🇼 ‍台湾\" \"🇨🇳 ‍中国\" \"🇸🇬 ‍新加坡\" \"🇯🇵 ‍日本\" \"🇺🇸 ‍美国\" \"🎏 ‍其他\" \"👆🏻🇭🇰 ‍香港\" \"👆🏻🇹🇼 ‍台湾\" \"👆🏻🇨🇳 ‍中国\" \"👆🏻🇸🇬 ‍新加坡\" \"👆🏻🇯🇵 ‍日本\" \"👆🏻🇺🇸 ‍美国\" \"👆🏻🎏 ‍其他\""
+        local special_group_names="\"⚡ ‍低延迟\" \"👆🏻 ‍指定\" \"🇭🇰 ‍香港\" \"🇹🇼 ‍台湾\" \"🇨🇳 ‍中国\" \"🇸🇬 ‍新加坡\" \"🇯🇵 ‍日本\" \"🇺🇸 ‍美国\" \"🎏 ‍其他\" \"👆🏻🇭🇰 ‍香港\" \"👆🏻🇹🇼 ‍台湾\" \"👆🏻🇨🇳 ‍中国\" \"👆🏻🇸🇬 ‍新加坡\" \"👆🏻🇯🇵 ‍日本\" \"👆🏻🇺🇸 ‍美国\" \"👆🏻🎏 ‍其他\""
         
         # 如果在proxies列表中
         if [ "$in_proxies_list" = "1" ]; then
             # 检查是否是proxies列表条目 (以"      - "开头)
-            if echo "$line" | grep -q "^      - "; then
+            if [[ "$line" =~ ^\ \ \ \ \ \ -\  ]]; then
                 # 提取proxy名称
-                proxy_name=""
-                if echo "$line" | grep -q "^      - [^{]"; then
+                local proxy_name=""
+                if [[ "$line" =~ ^\ \ \ \ \ \ -\ [^{] ]]; then
                     # 处理普通格式: "      - ProxyName"
                     # 使用更简单直接的方法提取节点名称，保留完整内容包括空格和特殊字符
                     proxy_name=$(echo "$line" | sed 's/^      - //' | sed 's/ *#.*//' | sed 's/ *$//')
-                elif echo "$line" | grep -q "^      -{name:"; then
+                elif [[ "$line" =~ ^\ \ \ \ \ \ -\{name:(.*) ]]; then
                     # 处理内联格式: "      - {name: ProxyName, ...}"
-                    proxy_name=$(echo "$line" | grep -o "name: [^,}]*" | head -1 | cut -d" " -f2-)
+                    if [[ "$line" =~ name:\ ([^,}]*) ]]; then
+                        proxy_name="${BASH_REMATCH[1]}"
+                    fi
                 fi
                 
-                # 添加调试日志
-                echo "DEBUG: 处理组中的节点引用: '$proxy_name'" >&2
-                echo "DEBUG: 当前group类型: $current_group_type" >&2
-                echo "DEBUG: 当前group名称: $current_group_name" >&2
-                echo "DEBUG: 当前有效节点列表: $valid_names" >&2
-                
                 # 检查是否需要验证节点有效性
-                need_check_validity=0
+                local need_check_validity=0
                 
                 # 对于url-test类型的group，需要检查节点有效性
                 if [ "$in_url_test_group" = "1" ]; then
                     need_check_validity=1
-                    echo "DEBUG: url-test组，需要检查节点有效性" >&2
                 # 对于非url-test类型但name在指定集合中的group，需要检查节点有效性
-                elif echo " $special_group_names " | grep -q " \"$current_group_name\" "; then
+                elif [[ " $special_group_names " =~ " \"$current_group_name\" " ]]; then
                     need_check_validity=1
-                    echo "DEBUG: 特殊名称组，需要检查节点有效性" >&2
-                else
-                    echo "DEBUG: 普通组，不需要检查节点有效性" >&2
                 fi
                 
                 # 如果需要检查节点有效性
                 if [ "$need_check_validity" = "1" ]; then
                     if [ -n "$proxy_name" ]; then
                         # 检查是否在有效节点列表中，使用引号包围确保精确匹配
-                        if echo " $valid_names " | grep -q " \"$proxy_name\" "; then
-                            echo "DEBUG: 保留有效的节点引用: '$proxy_name'" >&2
+                        if [[ " $valid_names " =~ " \"$proxy_name\" " ]]; then
                             echo "$line"
                         else
-                            echo "DEBUG: 移除无效的节点引用: '$proxy_name'" >&2
                             # 真正跳过输出该行
                             continue
                         fi
                         continue
                     fi
-                    echo "DEBUG: proxy_name为空，直接输出行内容" >&2
                     echo "$line"
                 else
                     # 不需要检查节点有效性，直接输出
@@ -964,12 +816,9 @@ $line"
                 fi
                 continue
             else
-                echo "DEBUG: 不是proxies列表条目，检查是否需要重置状态" >&2
-                echo "DEBUG: 当前行内容: $line" >&2
                 # 不是proxies列表条目，可能是结束或其他属性
                 # 重置proxies列表标记
-                if echo "$line" | grep -q "^    [a-zA-Z]"; then
-                    echo "DEBUG: 检测到属性行，重置proxies列表状态" >&2
+                if [[ "$line" =~ ^\ \ \ \ [a-zA-Z] ]]; then
                     in_proxies_list=0
                     in_url_test_group=0
                 fi

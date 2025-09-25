@@ -439,8 +439,8 @@ else
     echo "$template_valid_urls" | tr '|' '\n' | while IFS= read -r url_value; do
         if [ -n "$url_value" ] && [ "$url_value" != "未找到可用URL" ]; then
             echo "使用模板[$i]: $url_value"
+            i=$((i + 1))
         fi
-        i=$((i + 1))
     done
 fi
 

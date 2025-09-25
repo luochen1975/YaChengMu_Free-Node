@@ -211,6 +211,8 @@ url_template_9="https://raw.githubusercontent.com/ermaozi/get_subscribe/main/sub
 url_template_10="https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml"
 url_template_11="https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg"
 url_template_12="https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml"
+url_template_13="https://fpyjdy.zzong6599.workers.dev"
+url_template_14="https://rss.zyfx6.xyz/clash"
 
 # 用于存储每个模板找到的可用URL
 template_valid_urls_1=""
@@ -225,6 +227,8 @@ template_valid_urls_9=""
 template_valid_urls_10=""
 template_valid_urls_11=""
 template_valid_urls_12=""
+template_valid_urls_13=""
+template_valid_urls_14=""
 
 echo "========== 开始查找可用节点 =========="
 

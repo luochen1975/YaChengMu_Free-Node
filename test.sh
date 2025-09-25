@@ -460,8 +460,8 @@ fi
 combined_urls=$(IFS='|'; echo "${valid_urls[*]}")
 echo "合并URL: $combined_urls"
 
-# 对combined_urls进行URL编码
-encoded_combined_urls=$(urlencode "$combined_urls")
+# 不对URL进行额外编码，直接使用原始URL
+encoded_combined_urls="$combined_urls"
 echo "编码后URL: $encoded_combined_urls"
 
 # 构建订阅链接
@@ -590,7 +590,7 @@ while IFS= read -r line; do
             if [ $in_current_proxy -eq 1 ]; then
                 if [ $remove_current -eq 0 ]; then
                     # 检查是否已存在相同server和port的节点
-                    local is_duplicate=0
+                    is_duplicate=0
                     if [ -n "$current_server" ] && [ -n "$current_port" ]; then
                         if [[ " $servers_seen " =~ " $current_server:$current_port " ]]; then
                             is_duplicate=1
@@ -606,14 +606,14 @@ while IFS= read -r line; do
                         fi
                         # 记录有效的节点名称
                         if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
-                            local node_name="${BASH_REMATCH[1]}"
+                            node_name="${BASH_REMATCH[1]}"
                             # 使用引号包围节点名称以处理特殊字符
                             valid_names="$valid_names \"$node_name\""
                         fi
                     else
                         # 记录被删除的重复节点名称
                         if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
-                            local node_name="${BASH_REMATCH[1]}"
+                            node_name="${BASH_REMATCH[1]}"
                             # 使用引号包围节点名称以处理特殊字符
                             deleted_names+=("$node_name")
                         fi
@@ -621,7 +621,7 @@ while IFS= read -r line; do
                 else
                     # 记录被删除的无效节点名称
                     if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
-                        local node_name="${BASH_REMATCH[1]}"
+                        node_name="${BASH_REMATCH[1]}"
                         # 使用引号包围节点名称以处理特殊字符
                         deleted_names+=("$node_name")
                     fi
@@ -680,7 +680,7 @@ while IFS= read -r line; do
             # 处理最后一个节点
             if [ $in_current_proxy -eq 1 ] && [ $remove_current -eq 0 ]; then
                 # 检查是否已存在相同server和port的节点
-                local is_duplicate=0
+                is_duplicate=0
                 if [ -n "$current_server" ] && [ -n "$current_port" ]; then
                     if [[ " $servers_seen " =~ " $current_server:$current_port " ]]; then
                         is_duplicate=1
@@ -696,14 +696,14 @@ while IFS= read -r line; do
                     fi
                     # 记录有效的节点名称
                     if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
-                        local node_name="${BASH_REMATCH[1]}"
+                        node_name="${BASH_REMATCH[1]}"
                         # 使用引号包围节点名称以处理特殊字符
                         valid_names="$valid_names \"$node_name\""
                     fi
                 else
                     # 记录被删除的重复节点名称
                     if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
-                        local node_name="${BASH_REMATCH[1]}"
+                        node_name="${BASH_REMATCH[1]}"
                         # 使用引号包围节点名称以处理特殊字符
                         deleted_names+=("$node_name")
                     fi
@@ -711,7 +711,7 @@ while IFS= read -r line; do
             elif [ $in_current_proxy -eq 1 ] && [ $remove_current -eq 1 ]; then
                 # 记录被删除的无效节点名称
                 if [[ "$proxy_content" =~ name:\ ([^,}]*) ]]; then
-                    local node_name="${BASH_REMATCH[1]}"
+                    node_name="${BASH_REMATCH[1]}"
                     # 使用引号包围节点名称以处理特殊字符
                     deleted_names+=("$node_name")
                 fi
@@ -767,14 +767,14 @@ while IFS= read -r line; do
         fi
         
         # 定义需要检查节点有效性的proxy-group名称集合
-        local special_group_names="\"⚡ ‍低延迟\" \"👆🏻 ‍指定\" \"🇭🇰 ‍香港\" \"🇹🇼 ‍台湾\" \"🇨🇳 ‍中国\" \"🇸🇬 ‍新加坡\" \"🇯🇵 ‍日本\" \"🇺🇸 ‍美国\" \"🎏 ‍其他\" \"👆🏻🇭🇰 ‍香港\" \"👆🏻🇹🇼 ‍台湾\" \"👆🏻🇨🇳 ‍中国\" \"👆🏻🇸🇬 ‍新加坡\" \"👆🏻🇯🇵 ‍日本\" \"👆🏻🇺🇸 ‍美国\" \"👆🏻🎏 ‍其他\""
+        special_group_names="\"⚡ ‍低延迟\" \"👆🏻 ‍指定\" \"🇭🇰 ‍香港\" \"🇹🇼 ‍台湾\" \"🇨🇳 ‍中国\" \"🇸🇬 ‍新加坡\" \"🇯🇵 ‍日本\" \"🇺🇸 ‍美国\" \"🎏 ‍其他\" \"👆🏻🇭🇰 ‍香港\" \"👆🏻🇹🇼 ‍台湾\" \"👆🏻🇨🇳 ‍中国\" \"👆🏻🇸🇬 ‍新加坡\" \"👆🏻🇯🇵 ‍日本\" \"👆🏻🇺🇸 ‍美国\" \"👆🏻🎏 ‍其他\""
         
         # 如果在proxies列表中
         if [ "$in_proxies_list" = "1" ]; then
             # 检查是否是proxies列表条目 (以"      - "开头)
             if [[ "$line" =~ ^\ \ \ \ \ \ -\  ]]; then
                 # 提取proxy名称
-                local proxy_name=""
+                proxy_name=""
                 if [[ "$line" =~ ^\ \ \ \ \ \ -\ [^{] ]]; then
                     # 处理普通格式: "      - ProxyName"
                     # 使用更简单直接的方法提取节点名称，保留完整内容包括空格和特殊字符
@@ -787,7 +787,7 @@ while IFS= read -r line; do
                 fi
                 
                 # 检查是否需要验证节点有效性
-                local need_check_validity=0
+                need_check_validity=0
                 
                 # 对于url-test类型的group，需要检查节点有效性
                 if [ "$in_url_test_group" = "1" ]; then

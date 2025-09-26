@@ -99,7 +99,6 @@ proxies:
   - {name: 🇩🇪 德国 001, server: 94.136.185.230, port: 10534, client-fingerprint: chrome, type: vmess, uuid: b01c7ef9-33ec-41f6-bfbf-77ddc4d21649, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 德国(yfuye.com免费节点), server: 185.135.9.144, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v4.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇩🇰 丹麦 001, server: www.csgo.com, port: 443, client-fingerprint: chrome, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}, udp: true}
-  - {name: 🇪🇺 欧盟 V2CROSS.COM, server: beesyar.org, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 🇫🇮 FI_speednode_0009, server: 91.149.254.138, port: 443, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇫🇷 FR_speednode_0010, server: 23.162.152.30, port: 8443, client-fingerprint: chrome, type: trojan, password: installshield, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FR_speednode_0011, server: 89.168.43.31, port: 2053, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
@@ -176,7 +175,8 @@ proxies:
   - {name: 🇮🇳 IN_speednode_0019, server: 65.20.82.22, port: 443, client-fingerprint: chrome, type: vless, uuid: 01996549-6892-dbf0-0453-f700236936bd, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇮🇳 IN_speednode_0020, server: 65.20.76.125, port: 8443, client-fingerprint: chrome, type: vless, uuid: 01996549-6892-dbf0-0453-f700236936bd, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇮🇷 IR_speednode_0021, server: hybrid.arvancloud.online, port: 44443, reality-opts: {public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ}, client-fingerprint: chrome, type: vless, uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33, tls: true, flow: xtls-rprx-vision, servername: www.speedtest.net, network: tcp, udp: true}
-  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 151.242.251.144, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: beesyar.org, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM 2, server: 151.242.251.144, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 🇮🇷 伊朗【机场推荐：https://a0a.xyz/】18, server: 31.57.172.235, port: 51897, client-fingerprint: chrome, type: vmess, uuid: 2b281c56-3fc2-449c-ab39-a7da5a022404, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: "🇯🇵 JP #1", server: shdata1.233netpro.com, port: 10121, client-fingerprint: chrome, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP_speednode_0022, server: 141.147.161.249, port: 51037, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
@@ -748,7 +748,6 @@ proxy-groups:
       - 🇩🇪 德国 001
       - 🇩🇪 德国(yfuye.com免费节点)
       - 🇩🇰 丹麦 001
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 FI_speednode_0009
       - 🇫🇷 FR_speednode_0010
       - 🇫🇷 FR_speednode_0011
@@ -822,6 +821,7 @@ proxy-groups:
       - 🇮🇳 IN_speednode_0020
       - 🇮🇷 IR_speednode_0021
       - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇮🇷 伊朗 V2CROSS.COM 2
       - 🇮🇷 伊朗【机场推荐：https://a0a.xyz/】18
       - 🇯🇵 JP_speednode_0022
       - 🇯🇵 JP_speednode_0023
@@ -1364,7 +1364,6 @@ proxy-groups:
       - 🇩🇪 德国 001
       - 🇩🇪 德国(yfuye.com免费节点)
       - 🇩🇰 丹麦 001
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 FI_speednode_0009
       - 🇫🇷 FR_speednode_0010
       - 🇫🇷 FR_speednode_0011
@@ -1438,6 +1437,7 @@ proxy-groups:
       - 🇮🇳 IN_speednode_0020
       - 🇮🇷 IR_speednode_0021
       - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇮🇷 伊朗 V2CROSS.COM 2
       - 🇮🇷 伊朗【机场推荐：https://a0a.xyz/】18
       - 🇯🇵 JP_speednode_0022
       - 🇯🇵 JP_speednode_0023
@@ -2429,7 +2429,6 @@ proxy-groups:
       - 🇩🇪 德国 001
       - 🇩🇪 德国(yfuye.com免费节点)
       - 🇩🇰 丹麦 001
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 FI_speednode_0009
       - 🇫🇷 FR_speednode_0010
       - 🇫🇷 FR_speednode_0011
@@ -2455,6 +2454,7 @@ proxy-groups:
       - 🇮🇳 IN_speednode_0020
       - 🇮🇷 IR_speednode_0021
       - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇮🇷 伊朗 V2CROSS.COM 2
       - 🇮🇷 伊朗【机场推荐：https://a0a.xyz/】18
       - 🇰🇷 KR_speednode_0026
       - 🇰🇷 KR_speednode_0027
@@ -3122,7 +3122,6 @@ proxy-groups:
       - 🇩🇪 德国 001
       - 🇩🇪 德国(yfuye.com免费节点)
       - 🇩🇰 丹麦 001
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 FI_speednode_0009
       - 🇫🇷 FR_speednode_0010
       - 🇫🇷 FR_speednode_0011
@@ -3148,6 +3147,7 @@ proxy-groups:
       - 🇮🇳 IN_speednode_0020
       - 🇮🇷 IR_speednode_0021
       - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇮🇷 伊朗 V2CROSS.COM 2
       - 🇮🇷 伊朗【机场推荐：https://a0a.xyz/】18
       - 🇰🇷 KR_speednode_0026
       - 🇰🇷 KR_speednode_0027

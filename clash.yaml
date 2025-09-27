@@ -496,7 +496,6 @@ proxies:
   - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1, server: 119.29.98.43, port: 11399, client-fingerprint: chrome, type: vmess, uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2, server: 119.29.98.43, port: 48536, client-fingerprint: chrome, type: vmess, uuid: 057caba1-2237-41e6-a54d-ec03509898a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5, server: 119.29.98.43, port: 56532, client-fingerprint: chrome, type: vmess, uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
-  - {name: 🇨🇳 江苏省 移动, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: 🇨🇴 CO_51_1@50-368, server: 181.119.30.20, port: 990, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 3, server: 106.14.75.114, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -516,6 +515,7 @@ proxies:
   - {name: 🇩🇪 德国 - 法兰克福 - OVH SAS - 1, server: lt.fxlcn.com, port: 45228, client-fingerprint: chrome, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: lt.fxlcn.com, udp: true}
   - {name: "🇩🇪 德国 - 莱比锡 - Cloudflare, Inc. - 2", server: buyix.qzz.io, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 2d24d147-366a-4cfa-9f15-c86402d3840d, alterId: 0, cipher: auto, tls: true, servername: buyix.qzz.io, network: ws, ws-opts: {path: /2d24d147-366a-4cfa-9f15-c86402d3840d-vm, headers: {Host: buyix.qzz.io}}, udp: true}
   - {name: 🇩🇪 德国 001, server: 94.136.185.230, port: 10534, client-fingerprint: chrome, type: vmess, uuid: b01c7ef9-33ec-41f6-bfbf-77ddc4d21649, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 V2CROSS.COM, server: 185.16.110.32, port: 2096, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippetsfp=chrome, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇩🇪 德国(yfuye.com免费节点), server: 185.135.9.144, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v4.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇩🇰 丹麦 001, server: www.csgo.com, port: 443, client-fingerprint: chrome, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}, udp: true}
   - {name: 🇪🇸 ES_58_1@57-375, server: 134.255.210.49, port: 990, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -614,6 +614,7 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|18, server: bs2.jymzffbquawl.com, port: 3607, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|19, server: bs2.jymzffbquawl.com, port: 3608, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: 🇭🇰 香港 005-168, server: 9you.sevenka.top, port: 44132, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDQ5YmU5OTBhNWNiZWYyMQ==:MDU0MzVmZDMtZTYwOS00OA==, udp: true}
   - {name: 🇭🇰 香港 014-264, server: hneyoxqhenuf.dnsfailover.org, port: 1326, client-fingerprint: chrome, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21138:3veJGX, obfs-param: "", udp: true}
   - {name: 🇭🇰 香港 017-226, server: 9you.sevenka.top, port: 12079, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDQ5YmU5OTBhNWNiZWYyMQ==:MDU0MzVmZDMtZTYwOS00OA==, udp: true}
@@ -625,7 +626,6 @@ proxies:
   - {name: 🇭🇰 香港 077-233, server: hg1.xiaohuolongjc.top, port: 37771, client-fingerprint: chrome, type: hysteria2, password: 1c001cea-2da9-455d-96ed-0e9b79d1644b, auth: 1c001cea-2da9-455d-96ed-0e9b79d1644b, sni: hg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 110-198, server: 45.144.174.60, port: 23182, client-fingerprint: chrome, type: vmess, uuid: 54c7de29-2dc3-4792-91f9-62c11422e351, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇭🇰 香港 117-287, server: xg1.xiaohuolongjc.top, port: 37771, client-fingerprint: chrome, type: hysteria2, password: 05bac355-24b7-4e14-9bc7-98b7bafa5fca, auth: 05bac355-24b7-4e14-9bc7-98b7bafa5fca, sni: xg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 UCloud, server: 165.154.112.107, port: 12000, client-fingerprint: chrome, type: trojan, password: 1640ef52-2db0-44ab-b3f3-8690b762ebc9, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 154.211.8.220, port: 2096, client-fingerprint: chrome, type: vless, uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a, tls: true, servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4"}, udp: true}
   - {name: 🇭🇰 香港02-IPv6-10, server: 9you.sevenka.top, port: 16999, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDQ5YmU5OTBhNWNiZWYyMQ==:MDU0MzVmZDMtZTYwOS00OA==, udp: true}
   - {name: 🇭🇰 香港03-GPT-7, server: 1yyy.sevenka.top, port: 28123, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDQ5YmU5OTBhNWNiZWYyMQ==:MDU0MzVmZDMtZTYwOS00OA==, udp: true}
@@ -1711,7 +1711,6 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
-      - 🇨🇳 江苏省 移动
       - 🇨🇴 CO_51_1@50-368
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 3
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
@@ -1729,6 +1728,7 @@ proxy-groups:
       - 🇩🇪 Relay_DE-DE_17_2@16-551
       - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
       - 🇩🇪 德国 001
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇩🇪 德国(yfuye.com免费节点)
       - 🇩🇰 丹麦 001
       - 🇪🇸 ES_58_1@57-375
@@ -1823,6 +1823,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港
       - 🇭🇰 香港 005-168
       - 🇭🇰 香港 014-264
       - 🇭🇰 香港 017-226
@@ -1834,7 +1835,6 @@ proxy-groups:
       - 🇭🇰 香港 077-233
       - 🇭🇰 香港 110-198
       - 🇭🇰 香港 117-287
-      - 🇭🇰 香港 UCloud
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港02-IPv6-10
       - 🇭🇰 香港03-GPT-7
@@ -2890,7 +2890,6 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
-      - 🇨🇳 江苏省 移动
       - 🇨🇴 CO_51_1@50-368
       - 🇨🇴 中国 - 上海 - Hangzhou Alibaba Advertising Co - 3
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
@@ -2908,6 +2907,7 @@ proxy-groups:
       - 🇩🇪 Relay_DE-DE_17_2@16-551
       - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
       - 🇩🇪 德国 001
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇩🇪 德国(yfuye.com免费节点)
       - 🇩🇰 丹麦 001
       - 🇪🇸 ES_58_1@57-375
@@ -3002,6 +3002,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港
       - 🇭🇰 香港 005-168
       - 🇭🇰 香港 014-264
       - 🇭🇰 香港 017-226
@@ -3013,7 +3014,6 @@ proxy-groups:
       - 🇭🇰 香港 077-233
       - 🇭🇰 香港 110-198
       - 🇭🇰 香港 117-287
-      - 🇭🇰 香港 UCloud
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港02-IPv6-10
       - 🇭🇰 香港03-GPT-7
@@ -3691,6 +3691,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港
       - 🇭🇰 香港 005-168
       - 🇭🇰 香港 014-264
       - 🇭🇰 香港 017-226
@@ -3702,7 +3703,6 @@ proxy-groups:
       - 🇭🇰 香港 077-233
       - 🇭🇰 香港 110-198
       - 🇭🇰 香港 117-287
-      - 🇭🇰 香港 UCloud
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港02-IPv6-10
       - 🇭🇰 香港03-GPT-7
@@ -3758,7 +3758,6 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
-      - 🇨🇳 江苏省 移动
       - 🇭🇰 HK_35_2@34-555
       - 🇭🇰 HK_37_2@36-556
       - 🇭🇰 HK_38_2@37-557
@@ -3813,6 +3812,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港
       - 🇭🇰 香港 005-168
       - 🇭🇰 香港 014-264
       - 🇭🇰 香港 017-226
@@ -3824,7 +3824,6 @@ proxy-groups:
       - 🇭🇰 香港 077-233
       - 🇭🇰 香港 110-198
       - 🇭🇰 香港 117-287
-      - 🇭🇰 香港 UCloud
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港02-IPv6-10
       - 🇭🇰 香港03-GPT-7
@@ -4785,6 +4784,7 @@ proxy-groups:
       - 🇩🇪 Relay_DE-DE_17_2@16-551
       - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
       - 🇩🇪 德国 001
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇩🇪 德国(yfuye.com免费节点)
       - 🇩🇰 丹麦 001
       - 🇪🇸 ES_58_1@57-375
@@ -5005,6 +5005,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港
       - 🇭🇰 香港 005-168
       - 🇭🇰 香港 014-264
       - 🇭🇰 香港 017-226
@@ -5016,7 +5017,6 @@ proxy-groups:
       - 🇭🇰 香港 077-233
       - 🇭🇰 香港 110-198
       - 🇭🇰 香港 117-287
-      - 🇭🇰 香港 UCloud
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港02-IPv6-10
       - 🇭🇰 香港03-GPT-7
@@ -5066,7 +5066,6 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 1
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 2
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 5
-      - 🇨🇳 江苏省 移动
       - 🇭🇰 HK_35_2@34-555
       - 🇭🇰 HK_37_2@36-556
       - 🇭🇰 HK_38_2@37-557
@@ -5121,6 +5120,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港
       - 🇭🇰 香港 005-168
       - 🇭🇰 香港 014-264
       - 🇭🇰 香港 017-226
@@ -5132,7 +5132,6 @@ proxy-groups:
       - 🇭🇰 香港 077-233
       - 🇭🇰 香港 110-198
       - 🇭🇰 香港 117-287
-      - 🇭🇰 香港 UCloud
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港02-IPv6-10
       - 🇭🇰 香港03-GPT-7
@@ -6081,6 +6080,7 @@ proxy-groups:
       - 🇩🇪 Relay_DE-DE_17_2@16-551
       - 🇩🇪 德国 - 法兰克福 - OVH SAS - 1
       - 🇩🇪 德国 001
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇩🇪 德国(yfuye.com免费节点)
       - 🇩🇰 丹麦 001
       - 🇪🇸 ES_58_1@57-375

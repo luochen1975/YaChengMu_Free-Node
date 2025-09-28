@@ -15,7 +15,6 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: _CN_中国->🇺🇸_US_美国, server: v29.heduian.link, port: 30829, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
   - {name: _TW_台湾->🇺🇸_US_美国, server: 107.167.182.230, port: 80, client-fingerprint: chrome, type: vmess, uuid: efcb7d7c-c582-46f5-eeff-0e553342528d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@hkaa0}, udp: true}
   - {name: _US_美国->🇩🇪_DE_德国, server: flkf2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}, udp: true}
   - {name: _US_美国->🇬🇧_GB_英国_1, server: mrb2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}, udp: true}
@@ -31,8 +30,7 @@ proxies:
   - {name: ‍☠️ 如果“仅”显示此节点-33, server: m2bba1.maocf1.top, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 05435fd3-e609-48ca-b158-e9a6fda89eeb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: m2bba1.maocf1.top}}, udp: true}
   - {name: ‍☠️ 您的账号已被封禁-151, server: 127.0.0.1, port: 6666, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 25a7e22a-d5b0-4306-8f6e-d9b62f996f72, udp: true}
   - {name: ℹ️ IQ_52_2@51-565, server: 91.132.94.200, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: ℹ️ tg频道:@freenodedaily, server: 54.72.237.123, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: ℹ️ tg频道:@ripaojiedian, server: 3.250.25.159, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: ℹ️ tg频道:@freenodedaily, server: 3.250.25.159, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "ℹ️ ‍☠️ Channel: https://t.me/txwl666-2", server: qq.com, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: txwl666, udp: true}
   - {name: "ℹ️ ‍☠️ Group: https://t.me/txwl233-1", server: www.360.com, port: 88, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: txwl666, udp: true}
   - {name: ℹ️ ‍☠️ NULL_0@0-317, server: "NULL", port: 11708, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
@@ -488,7 +486,8 @@ proxies:
   - {name: 🇨🇳 Pool_CN_13_2@12-548, server: 222.186.20.102, port: 41228, client-fingerprint: chrome, type: ssr, cipher: aes-256-cfb, password: http://cc.ax/, protocol: auth_aes128_md5, obfs: plain, protocol-param: 165400:Hr2aXO, obfs-param: data.bilibili.com/ed5a2165400, udp: true}
   - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 4, server: 119.29.98.43, port: 11399, client-fingerprint: chrome, type: vmess, uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 6, server: 119.29.98.43, port: 56532, client-fingerprint: chrome, type: vmess, uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
-  - {name: 🇨🇳 江苏省 移动, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇨🇳 江苏省 移动, server: v29.heduian.link, port: 30829, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
+  - {name: 🇨🇳 江苏省 移动 2, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: 🇨🇳 江苏省 移动 3, server: v39.heduian.link, port: 30839, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: 🇨🇴 CO_51_1@50-368, server: 181.119.30.20, port: 990, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -524,7 +523,6 @@ proxies:
   - {name: 🇫🇷 法国 - 巴黎 - Amazon Technologies Inc. - 1, server: 15.236.93.132, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国 - 巴黎 - Amazon Technologies Inc. - 2, server: 15.236.93.132, port: 22223, client-fingerprint: chrome, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国 001, server: 146.59.55.50, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: o.metuji.com}}, udp: true}
-  - {name: 🇫🇷 法国 002, server: 51.75.161.102, port: 443, client-fingerprint: chrome, type: vmess, uuid: 1805c3ae-ed84-4e7e-8ca2-fe9acd0897b0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvkwss, headers: {Host: bLAZe-UK-102.bLaZESErvErS1.Site}}, udp: true}
   - {name: 🇫🇷 法国 03-286, server: 51.210.77.32, port: 24292, client-fingerprint: chrome, type: vless, uuid: bb5be5c2-bf5e-4050-8193-eb18f1faa42e, tls: false, network: grpc, grpc-opts: {grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON}, udp: true}
   - {name: 🇫🇷 法国 07-214, server: 62.210.127.217, port: 50011, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11 Mbps, down: 55 Mbps, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
   - {name: 🇫🇷 法国(yfuye.com免费节点), server: 45.81.58.168, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh24v3.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -631,10 +629,8 @@ proxies:
   - {name: 🇭🇰 香港06-IPv6-6, server: 9you.sevenka.top, port: 12079, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDQ5YmU5OTBhNWNiZWYyMQ==:MDU0MzVmZDMtZTYwOS00OA==, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港3, server: 43.247.135.86, port: 44601, client-fingerprint: chrome, type: vmess, uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港4, server: 202.181.103.246, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 203.198.123.86, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: fe2.update.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港6, server: 160.16.236.32, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港6|@ripaojiedian, server: 221.128.195.239, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港4, server: 203.198.123.86, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: fe2.update.microsoft.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港6, server: 221.128.195.239, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇮🇩 ID_80_1@79-397, server: 223.165.4.173, port: 990, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇮🇳 IN_48_2@47-562, server: 134.209.147.198, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇮🇳 IN_50_2@49-563, server: 188.208.141.177, port: 443, client-fingerprint: chrome, type: vmess, uuid: 0970834f-5b4d-44da-d890-19dcb2a72d4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -670,18 +666,23 @@ proxies:
   - {name: 🇯🇵 Standard|广日|IEPL|07, server: bs4.jymzffbquawl.com, port: 4602, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Standard|广日|IEPL|08, server: bs4.jymzffbquawl.com, port: 4603, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本, server: cn01.efan8867801.xyz, port: 8766, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: efanccyun, plugin: obfs, plugin-opts: {mode: http, host: 202509242154338-Zr8tJCX9sq.download.microsoft.com}, udp: true}
-  - {name: 🇯🇵 日本 003, server: 160.16.68.250, port: 3160, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 004, server: 160.16.231.103, port: 1331, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 005, server: 160.16.130.66, port: 2045, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 006, server: 160.16.117.182, port: 4397, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 007, server: 160.16.87.174, port: 1700, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 008, server: 160.16.117.182, port: 3296, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 009, server: 153.121.45.139, port: 1700, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 011, server: 160.16.72.33, port: 1924, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 012, server: 160.16.72.33, port: 3294, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 013, server: 160.16.63.16, port: 447, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 014, server: 153.121.73.102, port: 3294, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 015, server: 153.121.73.102, port: 3296, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 001, server: 160.16.231.103, port: 1331, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 002, server: 160.16.130.66, port: 2045, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 003, server: 160.16.117.182, port: 4397, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 004, server: 160.16.87.174, port: 1700, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 005, server: 160.16.117.182, port: 3296, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 006, server: 126.116.225.149, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 007, server: 160.16.231.103, port: 3160, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 008, server: 160.16.89.176, port: 3160, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 009, server: 202.181.103.246, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 010, server: 160.16.236.32, port: 443, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 011, server: 160.16.68.250, port: 3160, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 012, server: 153.121.45.139, port: 1700, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 014, server: 160.16.72.33, port: 1924, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 015, server: 160.16.72.33, port: 3294, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 016, server: 160.16.63.16, port: 447, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 017, server: 153.121.73.102, port: 3294, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 018, server: 153.121.73.102, port: 3296, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本 05-157, server: 47.79.38.17, port: 443, client-fingerprint: chrome, type: vless, uuid: 019984df-e8d5-10ee-435f-9143d7beb674, tls: true, servername: getsub.saas.classelivre.eu.org, network: ws, ws-opts: {path: "/snippets?ip=ProxyIP.Oracle.cmliussss.net&nat64=6to4", headers: {Host: getsub.saas.classelivre.eu.org}}, udp: true}
   - {name: 🇯🇵 日本 10-293, server: 36.151.194.31, port: 1336, client-fingerprint: chrome, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21138:3veJGX, obfs-param: "", udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_1, server: 160.16.123.65, port: 443, client-fingerprint: chrome, type: vless, uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a, tls: true, servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4"}, udp: true}
@@ -694,12 +695,10 @@ proxies:
   - {name: 🇯🇵 日本02-IPv6-16, server: 9you.sevenka.top, port: 44832, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDQ5YmU5OTBhNWNiZWYyMQ==:MDU0MzVmZDMtZTYwOS00OA==, udp: true}
   - {name: 🇯🇵 日本03-17, server: 1yyy.sevenka.top, port: 46292, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDQ5YmU5OTBhNWNiZWYyMQ==:MDU0MzVmZDMtZTYwOS00OA==, udp: true}
   - {name: 🇯🇵 日本04-18, server: 9you.sevenka.top, port: 31780, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDQ5YmU5OTBhNWNiZWYyMQ==:MDU0MzVmZDMtZTYwOS00OA==, udp: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 153.121.39.240, port: 1331, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本4, server: a.lyazzz.online, port: 41315, client-fingerprint: chrome, type: vmess, uuid: bd64d2a3-76a1-407f-af7f-bdcdcb78d21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /obj, headers: {Host: img14.360buyimg.com}}, udp: true}
+  - {name: 🇯🇵 日本2, server: 153.121.39.240, port: 1331, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇰🇷 KR_68_2@67-574, server: 121.170.203.147, port: 2520, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 🇰🇷 KR_88_1@87-405, server: p141.panda001.net, port: 4652, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 🇰🇷 KR_89_1@88-406, server: 218.237.185.230, port: 4652, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 🇰🇷 韩国, server: 154.90.63.177, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇰🇷 韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 1, server: 154.90.62.168, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇰🇷 韩国 01-262, server: 9you.sevenka.top, port: 13885, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDQ5YmU5OTBhNWNiZWYyMQ==:MDU0MzVmZDMtZTYwOS00OA==, udp: true}
   - {name: 🇰🇷 韩国 04-273, server: x-sega-01.o-airport.net, port: 37271, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9rLHtN, plugin: obfs, plugin-opts: {mode: http, host: 018085824a.microsoft.com}, udp: true}
@@ -933,6 +932,7 @@ proxies:
   - {name: 🇺🇸 US_166_1@165-45, server: 156.146.62.162, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 🇺🇸 US_166_2@165-127, server: 154.201.80.214, port: 44471, client-fingerprint: chrome, type: vmess, uuid: 7b454c2e-51d2-49ef-8814-71531c2bd41f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /arki}, udp: true}
   - {name: 🇺🇸 US_167_2@166-128, server: 154.201.67.40, port: 20840, client-fingerprint: chrome, type: vmess, uuid: 6bdff969-dc85-4f83-9242-ddeacb9d6df1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /arki}, udp: true}
+  - {name: 🇺🇸 US_168_1@167-462, server: 154.90.63.177, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇺🇸 US_169_1@168-463, server: 38.54.57.90, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇺🇸 US_169_2@168-129, server: 154.201.80.214, port: 13660, client-fingerprint: chrome, type: vmess, uuid: aeffa9bc-8bb5-4974-8d51-9cfec0051c3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /arki}, udp: true}
   - {name: 🇺🇸 US_170_1@169-464, server: 212.102.47.130, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -1006,7 +1006,7 @@ proxies:
   - {name: 🇺🇸 US_speednode_0034, server: 159.112.235.32, port: 2096, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇺🇸 US_speednode_0037, server: 192.0.54.32, port: 2096, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: "🇺🇸 [Hy2]斑马白嫖-美国-302", server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, client-fingerprint: chrome, type: hysteria2, password: a9d90262-a45f-4a73-8038-417d512402d7, auth: a9d90262-a45f-4a73-8038-417d512402d7, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 _US_美国, server: uk-03.allhubb.info, port: 8443, client-fingerprint: chrome, type: trojan, password: 1ce1df7962f71c6f, sni: uk-03.allhubb.info, udp: true}
+  - {name: 🇺🇸 _US_美国_0@0-308, server: uk-03.allhubb.info, port: 8443, client-fingerprint: chrome, type: trojan, password: 1ce1df7962f71c6f, sni: uk-03.allhubb.info, udp: true}
   - {name: 🇺🇸 _US_美国_1, server: 206.168.190.219, port: 2082, client-fingerprint: chrome, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
   - {name: 🇺🇸 _US_美国_2, server: wnd2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_3, server: 45.199.138.186, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696682720138}, udp: true}
@@ -1105,7 +1105,6 @@ proxies:
   - {name: 🇺🇸 美国 084, server: 51.89.118.126, port: 25369, client-fingerprint: chrome, type: vless, uuid: 5fda29b6-0688-44e3-afdf-df533c800109, tls: true, network: grpc, grpc-opts: {grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON}, udp: true}
   - {name: 🇺🇸 美国 084-288, server: 185.251.80.32, port: 2096, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇺🇸 美国 085, server: 54.36.117.130, port: 25369, client-fingerprint: chrome, type: vless, uuid: 3bba9a08-157f-442b-b814-313e3ec7f350, tls: true, network: grpc, grpc-opts: {grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON}, udp: true}
-  - {name: 🇺🇸 美国 086, server: dddvvbn.931.pp.ua, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: dddvvbn.931.pp.ua}}, udp: true}
   - {name: 🇺🇸 美国 097-298, server: bgpus.91king.win, port: 19901, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 14837141-5001-4d21-9a25-52feb9967302, udp: true}
   - {name: 🇺🇸 美国 098-270, server: eha8-wus1-9ue7.yostar.org, port: 21000, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 14837141-5001-4d21-9a25-52feb9967302, udp: true}
   - {name: 🇺🇸 美国 104-263, server: 92.53.189.32, port: 2096, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
@@ -1214,6 +1213,7 @@ proxies:
   - {name: 🇺🇸 美国(yfuye.com免费节点)_82, server: 67.216.210.229, port: 15677, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_83, server: 138.2.32.76, port: 15821, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_86, server: 147.45.143.22, port: 443, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
+  - {name: 🇺🇸 美国(yfuye.com免费节点)_87, server: dddvvbn.931.pp.ua, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: dddvvbn.931.pp.ua}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_88, server: 77.91.78.97, port: 2053, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_89, server: 43.203.199.76, port: 443, client-fingerprint: chrome, type: vless, uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a, tls: true, servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_90, server: 138.2.10.149, port: 45638, client-fingerprint: chrome, type: vless, uuid: 01996549-6892-dbf0-0453-f700236936bd, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
@@ -1256,7 +1256,6 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
-      - _CN_中国->🇺🇸_US_美国
       - _TW_台湾->🇺🇸_US_美国
       - _US_美国->🇩🇪_DE_德国
       - _US_美国->🇬🇧_GB_英国_1
@@ -1273,7 +1272,6 @@ proxy-groups:
       - ‍☠️ 您的账号已被封禁-151
       - ℹ️ IQ_52_2@51-565
       - ℹ️ tg频道:@freenodedaily
-      - ℹ️ tg频道:@ripaojiedian
       - "ℹ️ ‍☠️ Channel: https://t.me/txwl666-2"
       - "ℹ️ ‍☠️ Group: https://t.me/txwl233-1"
       - ℹ️ ‍☠️ NULL_0@0-317
@@ -1729,6 +1727,7 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 4
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 6
       - 🇨🇳 江苏省 移动
+      - 🇨🇳 江苏省 移动 2
       - 🇨🇳 江苏省 移动 3
       - 🇨🇴 CO_51_1@50-368
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
@@ -1762,7 +1761,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - Amazon Technologies Inc. - 1
       - 🇫🇷 法国 - 巴黎 - Amazon Technologies Inc. - 2
       - 🇫🇷 法国 001
-      - 🇫🇷 法国 002
       - 🇫🇷 法国 03-286
       - 🇫🇷 法国 07-214
       - 🇫🇷 法国(yfuye.com免费节点)
@@ -1866,9 +1864,7 @@ proxy-groups:
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港6
-      - 🇭🇰 香港6|@ripaojiedian
       - 🇮🇩 ID_80_1@79-397
       - 🇮🇳 IN_48_2@47-562
       - 🇮🇳 IN_50_2@49-563
@@ -1902,6 +1898,8 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
+      - 🇯🇵 日本 001
+      - 🇯🇵 日本 002
       - 🇯🇵 日本 003
       - 🇯🇵 日本 004
       - 🇯🇵 日本 005
@@ -1909,11 +1907,14 @@ proxy-groups:
       - 🇯🇵 日本 007
       - 🇯🇵 日本 008
       - 🇯🇵 日本 009
+      - 🇯🇵 日本 010
       - 🇯🇵 日本 011
       - 🇯🇵 日本 012
-      - 🇯🇵 日本 013
       - 🇯🇵 日本 014
       - 🇯🇵 日本 015
+      - 🇯🇵 日本 016
+      - 🇯🇵 日本 017
+      - 🇯🇵 日本 018
       - 🇯🇵 日本 05-157
       - 🇯🇵 日本 10-293
       - 🇯🇵 日本(yfuye.com免费节点)_1
@@ -1926,12 +1927,10 @@ proxy-groups:
       - 🇯🇵 日本02-IPv6-16
       - 🇯🇵 日本03-17
       - 🇯🇵 日本04-18
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本4
+      - 🇯🇵 日本2
       - 🇰🇷 KR_68_2@67-574
       - 🇰🇷 KR_88_1@87-405
       - 🇰🇷 KR_89_1@88-406
-      - 🇰🇷 韩国
       - 🇰🇷 韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 1
       - 🇰🇷 韩国 01-262
       - 🇰🇷 韩国 04-273
@@ -2159,6 +2158,7 @@ proxy-groups:
       - 🇺🇸 US_166_1@165-45
       - 🇺🇸 US_166_2@165-127
       - 🇺🇸 US_167_2@166-128
+      - 🇺🇸 US_168_1@167-462
       - 🇺🇸 US_169_1@168-463
       - 🇺🇸 US_169_2@168-129
       - 🇺🇸 US_170_1@169-464
@@ -2231,7 +2231,7 @@ proxy-groups:
       - 🇺🇸 US_speednode_0033
       - 🇺🇸 US_speednode_0034
       - 🇺🇸 US_speednode_0037
-      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国_0@0-308
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
       - 🇺🇸 _US_美国_3
@@ -2329,7 +2329,6 @@ proxy-groups:
       - 🇺🇸 美国 084
       - 🇺🇸 美国 084-288
       - 🇺🇸 美国 085
-      - 🇺🇸 美国 086
       - 🇺🇸 美国 097-298
       - 🇺🇸 美国 098-270
       - 🇺🇸 美国 104-263
@@ -2438,6 +2437,7 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_82
       - 🇺🇸 美国(yfuye.com免费节点)_83
       - 🇺🇸 美国(yfuye.com免费节点)_86
+      - 🇺🇸 美国(yfuye.com免费节点)_87
       - 🇺🇸 美国(yfuye.com免费节点)_88
       - 🇺🇸 美国(yfuye.com免费节点)_89
       - 🇺🇸 美国(yfuye.com免费节点)_90
@@ -2455,7 +2455,6 @@ proxy-groups:
   - name: 👆🏻 ‍指定
     type: select
     proxies:
-      - _CN_中国->🇺🇸_US_美国
       - _TW_台湾->🇺🇸_US_美国
       - _US_美国->🇩🇪_DE_德国
       - _US_美国->🇬🇧_GB_英国_1
@@ -2472,7 +2471,6 @@ proxy-groups:
       - ‍☠️ 您的账号已被封禁-151
       - ℹ️ IQ_52_2@51-565
       - ℹ️ tg频道:@freenodedaily
-      - ℹ️ tg频道:@ripaojiedian
       - "ℹ️ ‍☠️ Channel: https://t.me/txwl666-2"
       - "ℹ️ ‍☠️ Group: https://t.me/txwl233-1"
       - ℹ️ ‍☠️ NULL_0@0-317
@@ -2928,6 +2926,7 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 4
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 6
       - 🇨🇳 江苏省 移动
+      - 🇨🇳 江苏省 移动 2
       - 🇨🇳 江苏省 移动 3
       - 🇨🇴 CO_51_1@50-368
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
@@ -2961,7 +2960,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - Amazon Technologies Inc. - 1
       - 🇫🇷 法国 - 巴黎 - Amazon Technologies Inc. - 2
       - 🇫🇷 法国 001
-      - 🇫🇷 法国 002
       - 🇫🇷 法国 03-286
       - 🇫🇷 法国 07-214
       - 🇫🇷 法国(yfuye.com免费节点)
@@ -3065,9 +3063,7 @@ proxy-groups:
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港6
-      - 🇭🇰 香港6|@ripaojiedian
       - 🇮🇩 ID_80_1@79-397
       - 🇮🇳 IN_48_2@47-562
       - 🇮🇳 IN_50_2@49-563
@@ -3101,6 +3097,8 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
+      - 🇯🇵 日本 001
+      - 🇯🇵 日本 002
       - 🇯🇵 日本 003
       - 🇯🇵 日本 004
       - 🇯🇵 日本 005
@@ -3108,11 +3106,14 @@ proxy-groups:
       - 🇯🇵 日本 007
       - 🇯🇵 日本 008
       - 🇯🇵 日本 009
+      - 🇯🇵 日本 010
       - 🇯🇵 日本 011
       - 🇯🇵 日本 012
-      - 🇯🇵 日本 013
       - 🇯🇵 日本 014
       - 🇯🇵 日本 015
+      - 🇯🇵 日本 016
+      - 🇯🇵 日本 017
+      - 🇯🇵 日本 018
       - 🇯🇵 日本 05-157
       - 🇯🇵 日本 10-293
       - 🇯🇵 日本(yfuye.com免费节点)_1
@@ -3125,12 +3126,10 @@ proxy-groups:
       - 🇯🇵 日本02-IPv6-16
       - 🇯🇵 日本03-17
       - 🇯🇵 日本04-18
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本4
+      - 🇯🇵 日本2
       - 🇰🇷 KR_68_2@67-574
       - 🇰🇷 KR_88_1@87-405
       - 🇰🇷 KR_89_1@88-406
-      - 🇰🇷 韩国
       - 🇰🇷 韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 1
       - 🇰🇷 韩国 01-262
       - 🇰🇷 韩国 04-273
@@ -3358,6 +3357,7 @@ proxy-groups:
       - 🇺🇸 US_166_1@165-45
       - 🇺🇸 US_166_2@165-127
       - 🇺🇸 US_167_2@166-128
+      - 🇺🇸 US_168_1@167-462
       - 🇺🇸 US_169_1@168-463
       - 🇺🇸 US_169_2@168-129
       - 🇺🇸 US_170_1@169-464
@@ -3430,7 +3430,7 @@ proxy-groups:
       - 🇺🇸 US_speednode_0033
       - 🇺🇸 US_speednode_0034
       - 🇺🇸 US_speednode_0037
-      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国_0@0-308
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
       - 🇺🇸 _US_美国_3
@@ -3528,7 +3528,6 @@ proxy-groups:
       - 🇺🇸 美国 084
       - 🇺🇸 美国 084-288
       - 🇺🇸 美国 085
-      - 🇺🇸 美国 086
       - 🇺🇸 美国 097-298
       - 🇺🇸 美国 098-270
       - 🇺🇸 美国 104-263
@@ -3637,6 +3636,7 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_82
       - 🇺🇸 美国(yfuye.com免费节点)_83
       - 🇺🇸 美国(yfuye.com免费节点)_86
+      - 🇺🇸 美国(yfuye.com免费节点)_87
       - 🇺🇸 美国(yfuye.com免费节点)_88
       - 🇺🇸 美国(yfuye.com免费节点)_89
       - 🇺🇸 美国(yfuye.com免费节点)_90
@@ -3781,9 +3781,7 @@ proxy-groups:
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港6
-      - 🇭🇰 香港6|@ripaojiedian
   - name: 🇹🇼 ‍台湾
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -3825,6 +3823,7 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 4
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 6
       - 🇨🇳 江苏省 移动
+      - 🇨🇳 江苏省 移动 2
       - 🇨🇳 江苏省 移动 3
       - 🇭🇰 HK_35_2@34-555
       - 🇭🇰 HK_37_2@36-556
@@ -3904,9 +3903,7 @@ proxy-groups:
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港6
-      - 🇭🇰 香港6|@ripaojiedian
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -3997,6 +3994,8 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
+      - 🇯🇵 日本 001
+      - 🇯🇵 日本 002
       - 🇯🇵 日本 003
       - 🇯🇵 日本 004
       - 🇯🇵 日本 005
@@ -4004,11 +4003,14 @@ proxy-groups:
       - 🇯🇵 日本 007
       - 🇯🇵 日本 008
       - 🇯🇵 日本 009
+      - 🇯🇵 日本 010
       - 🇯🇵 日本 011
       - 🇯🇵 日本 012
-      - 🇯🇵 日本 013
       - 🇯🇵 日本 014
       - 🇯🇵 日本 015
+      - 🇯🇵 日本 016
+      - 🇯🇵 日本 017
+      - 🇯🇵 日本 018
       - 🇯🇵 日本 05-157
       - 🇯🇵 日本 10-293
       - 🇯🇵 日本(yfuye.com免费节点)_1
@@ -4021,15 +4023,13 @@ proxy-groups:
       - 🇯🇵 日本02-IPv6-16
       - 🇯🇵 日本03-17
       - 🇯🇵 日本04-18
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本4
+      - 🇯🇵 日本2
   - name: 🇺🇸 ‍美国
     type: url-test
     url: https://i.ytimg.com/generate_204
     interval: 15
     tolerance: 300
     proxies:
-      - _CN_中国->🇺🇸_US_美国
       - _TW_台湾->🇺🇸_US_美国
       - 🇺🇸 Relay_RU-US_101_2@100-585
       - 🇺🇸 Relay_US-US_139_2@138-103
@@ -4076,6 +4076,7 @@ proxy-groups:
       - 🇺🇸 US_166_1@165-45
       - 🇺🇸 US_166_2@165-127
       - 🇺🇸 US_167_2@166-128
+      - 🇺🇸 US_168_1@167-462
       - 🇺🇸 US_169_1@168-463
       - 🇺🇸 US_169_2@168-129
       - 🇺🇸 US_170_1@169-464
@@ -4148,7 +4149,7 @@ proxy-groups:
       - 🇺🇸 US_speednode_0033
       - 🇺🇸 US_speednode_0034
       - 🇺🇸 US_speednode_0037
-      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国_0@0-308
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
       - 🇺🇸 _US_美国_3
@@ -4246,7 +4247,6 @@ proxy-groups:
       - 🇺🇸 美国 084
       - 🇺🇸 美国 084-288
       - 🇺🇸 美国 085
-      - 🇺🇸 美国 086
       - 🇺🇸 美国 097-298
       - 🇺🇸 美国 098-270
       - 🇺🇸 美国 104-263
@@ -4355,6 +4355,7 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_82
       - 🇺🇸 美国(yfuye.com免费节点)_83
       - 🇺🇸 美国(yfuye.com免费节点)_86
+      - 🇺🇸 美国(yfuye.com免费节点)_87
       - 🇺🇸 美国(yfuye.com免费节点)_88
       - 🇺🇸 美国(yfuye.com免费节点)_89
       - 🇺🇸 美国(yfuye.com免费节点)_90
@@ -4386,7 +4387,6 @@ proxy-groups:
       - ‍☠️ 您的账号已被封禁-151
       - ℹ️ IQ_52_2@51-565
       - ℹ️ tg频道:@freenodedaily
-      - ℹ️ tg频道:@ripaojiedian
       - "ℹ️ ‍☠️ Channel: https://t.me/txwl666-2"
       - "ℹ️ ‍☠️ Group: https://t.me/txwl233-1"
       - ℹ️ ‍☠️ NULL_0@0-317
@@ -4866,7 +4866,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - Amazon Technologies Inc. - 1
       - 🇫🇷 法国 - 巴黎 - Amazon Technologies Inc. - 2
       - 🇫🇷 法国 001
-      - 🇫🇷 法国 002
       - 🇫🇷 法国 03-286
       - 🇫🇷 法国 07-214
       - 🇫🇷 法国(yfuye.com免费节点)
@@ -4911,7 +4910,6 @@ proxy-groups:
       - 🇰🇷 KR_68_2@67-574
       - 🇰🇷 KR_88_1@87-405
       - 🇰🇷 KR_89_1@88-406
-      - 🇰🇷 韩国
       - 🇰🇷 韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 1
       - 🇰🇷 韩国 01-262
       - 🇰🇷 韩国 04-273
@@ -5118,9 +5116,7 @@ proxy-groups:
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港6
-      - 🇭🇰 香港6|@ripaojiedian
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
     proxies:
@@ -5156,6 +5152,7 @@ proxy-groups:
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 4
       - 🇨🇳 中国 - 广州市 - Shenzhen Tencent Computer Systems Company Limited - 6
       - 🇨🇳 江苏省 移动
+      - 🇨🇳 江苏省 移动 2
       - 🇨🇳 江苏省 移动 3
       - 🇭🇰 HK_35_2@34-555
       - 🇭🇰 HK_37_2@36-556
@@ -5235,9 +5232,7 @@ proxy-groups:
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港6
-      - 🇭🇰 香港6|@ripaojiedian
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -5322,6 +5317,8 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
+      - 🇯🇵 日本 001
+      - 🇯🇵 日本 002
       - 🇯🇵 日本 003
       - 🇯🇵 日本 004
       - 🇯🇵 日本 005
@@ -5329,11 +5326,14 @@ proxy-groups:
       - 🇯🇵 日本 007
       - 🇯🇵 日本 008
       - 🇯🇵 日本 009
+      - 🇯🇵 日本 010
       - 🇯🇵 日本 011
       - 🇯🇵 日本 012
-      - 🇯🇵 日本 013
       - 🇯🇵 日本 014
       - 🇯🇵 日本 015
+      - 🇯🇵 日本 016
+      - 🇯🇵 日本 017
+      - 🇯🇵 日本 018
       - 🇯🇵 日本 05-157
       - 🇯🇵 日本 10-293
       - 🇯🇵 日本(yfuye.com免费节点)_1
@@ -5346,12 +5346,10 @@ proxy-groups:
       - 🇯🇵 日本02-IPv6-16
       - 🇯🇵 日本03-17
       - 🇯🇵 日本04-18
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本4
+      - 🇯🇵 日本2
   - name: 👆🏻🇺🇸 ‍美国
     type: select
     proxies:
-      - _CN_中国->🇺🇸_US_美国
       - _TW_台湾->🇺🇸_US_美国
       - 🇺🇸 Relay_RU-US_101_2@100-585
       - 🇺🇸 Relay_US-US_139_2@138-103
@@ -5398,6 +5396,7 @@ proxy-groups:
       - 🇺🇸 US_166_1@165-45
       - 🇺🇸 US_166_2@165-127
       - 🇺🇸 US_167_2@166-128
+      - 🇺🇸 US_168_1@167-462
       - 🇺🇸 US_169_1@168-463
       - 🇺🇸 US_169_2@168-129
       - 🇺🇸 US_170_1@169-464
@@ -5470,7 +5469,7 @@ proxy-groups:
       - 🇺🇸 US_speednode_0033
       - 🇺🇸 US_speednode_0034
       - 🇺🇸 US_speednode_0037
-      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国_0@0-308
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
       - 🇺🇸 _US_美国_3
@@ -5568,7 +5567,6 @@ proxy-groups:
       - 🇺🇸 美国 084
       - 🇺🇸 美国 084-288
       - 🇺🇸 美国 085
-      - 🇺🇸 美国 086
       - 🇺🇸 美国 097-298
       - 🇺🇸 美国 098-270
       - 🇺🇸 美国 104-263
@@ -5677,6 +5675,7 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_82
       - 🇺🇸 美国(yfuye.com免费节点)_83
       - 🇺🇸 美国(yfuye.com免费节点)_86
+      - 🇺🇸 美国(yfuye.com免费节点)_87
       - 🇺🇸 美国(yfuye.com免费节点)_88
       - 🇺🇸 美国(yfuye.com免费节点)_89
       - 🇺🇸 美国(yfuye.com免费节点)_90
@@ -5705,7 +5704,6 @@ proxy-groups:
       - ‍☠️ 您的账号已被封禁-151
       - ℹ️ IQ_52_2@51-565
       - ℹ️ tg频道:@freenodedaily
-      - ℹ️ tg频道:@ripaojiedian
       - "ℹ️ ‍☠️ Channel: https://t.me/txwl666-2"
       - "ℹ️ ‍☠️ Group: https://t.me/txwl233-1"
       - ℹ️ ‍☠️ NULL_0@0-317
@@ -6185,7 +6183,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - Amazon Technologies Inc. - 1
       - 🇫🇷 法国 - 巴黎 - Amazon Technologies Inc. - 2
       - 🇫🇷 法国 001
-      - 🇫🇷 法国 002
       - 🇫🇷 法国 03-286
       - 🇫🇷 法国 07-214
       - 🇫🇷 法国(yfuye.com免费节点)
@@ -6230,7 +6227,6 @@ proxy-groups:
       - 🇰🇷 KR_68_2@67-574
       - 🇰🇷 KR_88_1@87-405
       - 🇰🇷 KR_89_1@88-406
-      - 🇰🇷 韩国
       - 🇰🇷 韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 1
       - 🇰🇷 韩国 01-262
       - 🇰🇷 韩国 04-273

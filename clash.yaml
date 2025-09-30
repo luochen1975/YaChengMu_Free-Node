@@ -510,7 +510,7 @@ proxies:
   - {name: 🇭🇰 香港 36-278, server: 1036a5-330-co.9966661.xyz, port: 3000, client-fingerprint: chrome, type: hysteria2, password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, sni: 1036a5-330-co.9966661.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港 41-252, server: 212.192.12.251, port: 80, client-fingerprint: chrome, type: hysteria2, password: f4656d19-b6a5-4d03-ad86-5ea667423379, auth: f4656d19-b6a5-4d03-ad86-5ea667423379, up: 10, down: 10, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==, udp: true}
   - {name: 🇭🇰 香港 47-264, server: 183.240.179.94, port: 8080, client-fingerprint: chrome, type: vless, uuid: b1e5c3d2-7a49-4f88-8c3d-5a1e9b7c4d20, tls: false, network: tcp, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 154.211.8.220, port: 2096, client-fingerprint: chrome, type: vless, uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a, tls: true, servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4"}, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港3|@ripaojiedian, server: 149.30.232.103, port: 31469, client-fingerprint: chrome, type: vmess, uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
@@ -2398,7 +2398,7 @@ proxy-groups:
       - 🇭🇰 香港 36-278
       - 🇭🇰 香港 41-252
       - 🇭🇰 香港 47-264
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3|@ripaojiedian
@@ -4248,7 +4248,7 @@ proxy-groups:
       - 🇭🇰 香港 36-278
       - 🇭🇰 香港 41-252
       - 🇭🇰 香港 47-264
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3|@ripaojiedian
@@ -5711,7 +5711,7 @@ proxy-groups:
       - 🇭🇰 香港 36-278
       - 🇭🇰 香港 41-252
       - 🇭🇰 香港 47-264
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3|@ripaojiedian
@@ -5897,7 +5897,7 @@ proxy-groups:
       - 🇭🇰 香港 36-278
       - 🇭🇰 香港 41-252
       - 🇭🇰 香港 47-264
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3|@ripaojiedian
@@ -7665,7 +7665,7 @@ proxy-groups:
       - 🇭🇰 香港 36-278
       - 🇭🇰 香港 41-252
       - 🇭🇰 香港 47-264
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3|@ripaojiedian
@@ -7845,7 +7845,7 @@ proxy-groups:
       - 🇭🇰 香港 36-278
       - 🇭🇰 香港 41-252
       - 🇭🇰 香港 47-264
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3|@ripaojiedian

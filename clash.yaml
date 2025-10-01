@@ -392,8 +392,6 @@ proxies:
   - {name: 🇬🇧 英国 015, server: 82.197.69.131, port: 39674, client-fingerprint: chrome, type: vmess, uuid: 5a89386a-827b-4f54-8778-2f1b5122c6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 016, server: 141.11.251.231, port: 52728, client-fingerprint: chrome, type: vmess, uuid: d5e16b83-7b5c-45ea-d749-d6f6ad214447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 017, server: 46.250.243.56, port: 50394, client-fingerprint: chrome, type: vmess, uuid: a75f3f95-ad4e-4498-fc72-dd740dd02bfc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 1-332, server: apo.342579.xyz, port: 2095, client-fingerprint: chrome, type: vless, uuid: fbf3d481-7e67-454c-b531-195a74389db7, tls: false, network: ws, ws-opts: {path: /abc, headers: {Host: uk1.342579.xyz}}, udp: true}
-  - {name: 🇬🇧 英国 2-333, server: apo.342579.xyz, port: 2082, client-fingerprint: chrome, type: vless, uuid: fbf3d481-7e67-454c-b531-195a74389db7, tls: false, network: ws, ws-opts: {path: /abc, headers: {Host: uk2.342579.xyz}}, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点)_1, server: 164.38.155.97, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh24v3.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点)_2, server: 45.8.211.71, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh24v3.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点)_3, server: 45.8.211.86, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v4.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -406,6 +404,7 @@ proxies:
   - {name: 🇬🇧 英国_4, server: 141.11.203.49, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: getsub.saas.classelivre.eu.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560", headers: {Host: getsub.saas.classelivre.eu.org}}, udp: true}
   - {name: 🇬🇷 GR_speednode_0008, server: gr1-2.9966662.xyz, port: 20223, reality-opts: {public-key: dRgK6_86Zkd_nFhiUxmrBjAbO_nis9zCEKZpiCl2Z2Q, short-id: "ec372208" }, client-fingerprint: chrome, type: vless, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, tls: true, flow: xtls-rprx-vision, servername: www.cloudflare.com, network: tcp, udp: true}
   - {name: 🇬🇷 GR_speednode_0009, server: gr1-4.9966662.xyz, port: 20223, reality-opts: {public-key: dRgK6_86Zkd_nFhiUxmrBjAbO_nis9zCEKZpiCl2Z2Q, short-id: "ec372208" }, client-fingerprint: chrome, type: vless, uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, tls: true, flow: xtls-rprx-vision, servername: www.cloudflare.com, network: tcp, udp: true}
+  - {name: 🇬🇷 希腊 V2CROSS.COM, server: vc.fly.dev, port: 443, client-fingerprint: chrome, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, network: ws, ws-opts: {path: /vc, headers: {Host: vc.fly.dev}}, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, client-fingerprint: chrome, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 113.108.0.62 #1", server: 113.108.0.62, port: 10111, client-fingerprint: chrome, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 117.78.52.97 #1", server: 117.78.52.97, port: 10111, client-fingerprint: chrome, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -459,11 +458,10 @@ proxies:
   - {name: 🇭🇰 香港 011-232, server: baigou1.kkieo555.cn, port: 21866, client-fingerprint: chrome, type: trojan, password: a5fdbe3f-f770-4825-9133-b824713cf849, sni: douyin.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 024-235, server: baigou1.kkieo555.cn, port: 21863, client-fingerprint: chrome, type: trojan, password: 7bcc0f74-a9f3-4bcb-8547-da0be73e8e28, sni: douyin.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 098-222, server: hzhz2.sssyun.xyz, port: 40011, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==, udp: true}
-  - {name: 🇭🇰 香港 1-308, server: apo.342579.xyz, port: 2086, client-fingerprint: chrome, type: vless, uuid: fbf3d481-7e67-454c-b531-195a74389db7, tls: false, network: ws, ws-opts: {path: /abc, headers: {Host: hk1.342579.xyz}}, udp: true}
   - {name: 🇭🇰 香港 104-185, server: 742343-u-jv-hk2-3.9966661.xyz, port: 3000, client-fingerprint: chrome, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: 742343-u-jv-hk2.9966661.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港 107-174, server: hzhz1.sssyun.xyz, port: 29527, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==, udp: true}
   - {name: 🇭🇰 香港 108-204, server: hzhz2.sssyun.xyz, port: 40010, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: v10.heduian.link, port: 30807, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 154.211.8.220, port: 2096, client-fingerprint: chrome, type: vless, uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a, tls: true, servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4"}, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港3, server: 149.30.232.103, port: 31469, client-fingerprint: chrome, type: vmess, uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
@@ -475,7 +473,6 @@ proxies:
   - {name: 🇮🇳 印度 - 孟买 - The Constant Company - 3, server: 682077.supplanter.xyz, port: 32020, client-fingerprint: chrome, type: vmess, uuid: 388BB536-C97B-CC3F-D104-49247B9B1B65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: "🇮🇳 印度 - 孟买 - The Constant Company, LLC - 2", server: x-sega-01.o-airport.net, port: 37279, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9rLHtN, plugin: obfs, plugin-opts: {mode: http, host: 018085824a.microsoft.com}, udp: true}
   - {name: "🇮🇳 印度 - 班加羅爾 - DigitalOcean, LLC - 1", server: 134.209.147.198, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 🇮🇳 英属印度洋领地 001, server: vc.fly.dev, port: 443, client-fingerprint: chrome, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vc, headers: {Host: vc.fly.dev}}, udp: true}
   - {name: 🇮🇷 IR_speednode_0013, server: hybrid.arvancloud.online, port: 44443, reality-opts: {public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ}, client-fingerprint: chrome, type: vless, uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33, tls: true, flow: xtls-rprx-vision, servername: www.speedtest.net, network: tcp, udp: true}
   - {name: 🇮🇷 IR_speednode_0014, server: 193.151.135.21, port: 44443, reality-opts: {public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ}, client-fingerprint: chrome, type: vless, uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33, tls: true, flow: xtls-rprx-vision, servername: www.speedtest.net, network: tcp, udp: true}
   - {name: 🇮🇷 伊朗 - Tehran - Pars Abr Toseeh Ertebatat Company - 1, server: 89.44.242.222, port: 29500, client-fingerprint: chrome, type: vless, uuid: 888a20e2-fc3f-4f52-973c-36a6386225b8, tls: false, network: tcp, udp: true}
@@ -727,9 +724,9 @@ proxies:
   - {name: 🇯🇵 日本(yfuye.com免费节点)_2, server: 146.56.99.255, port: 56789, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_6, server: 140.238.62.82, port: 1443, client-fingerprint: chrome, type: vless, uuid: 01996549-6892-dbf0-0453-f700236936bd, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_8, server: 140.238.37.103, port: 14782, client-fingerprint: chrome, type: vless, uuid: 01996549-6892-dbf0-0453-f700236936bd, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
-  - {name: 🇯🇵 日本-336, server: 133.18.163.202, port: 50000, client-fingerprint: chrome, type: hysteria2, password: e0fafa17-7ac1-4435-af1a-d61e2904f367, auth: e0fafa17-7ac1-4435-af1a-d61e2904f367, sni: www.microsoft.com, skip-cert-verify: true, ports: 50000-55000, udp: true}
+  - {name: 🇯🇵 日本-308, server: 133.18.163.202, port: 50000, client-fingerprint: chrome, type: hysteria2, password: e0fafa17-7ac1-4435-af1a-d61e2904f367, auth: e0fafa17-7ac1-4435-af1a-d61e2904f367, sni: www.microsoft.com, skip-cert-verify: true, ports: 50000-55000, udp: true}
   - {name: 🇯🇵 日本2, server: 160.16.130.66, port: 3160, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本2-337, server: 45.11.1.62, port: 50000, client-fingerprint: chrome, type: hysteria2, password: e0fafa17-7ac1-4435-af1a-d61e2904f367, auth: e0fafa17-7ac1-4435-af1a-d61e2904f367, sni: www.microsoft.com, skip-cert-verify: true, ports: 50000-55000, udp: true}
+  - {name: 🇯🇵 日本2-309, server: 45.11.1.62, port: 50000, client-fingerprint: chrome, type: hysteria2, password: e0fafa17-7ac1-4435-af1a-d61e2904f367, auth: e0fafa17-7ac1-4435-af1a-d61e2904f367, sni: www.microsoft.com, skip-cert-verify: true, ports: 50000-55000, udp: true}
   - {name: 🇯🇵 日本【机场推荐：https://a0a.xyz/】9, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
   - {name: 🇰🇭 柬埔寨 001, server: 111.92.240.243, port: 8080, client-fingerprint: chrome, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇰🇷 KR_speednode_0015, server: testkr3.ssv.vc, port: 30446, client-fingerprint: chrome, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
@@ -900,8 +897,8 @@ proxies:
   - {name: 🇷🇺 俄罗斯 056, server: 46.8.231.197, port: 3479, client-fingerprint: chrome, type: vless, uuid: 70d8e055-9062-4184-a224-fe7e60f2527e, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 057, server: 185.231.205.5, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 058, server: 638946986851076125.hamedan-drc-tusabl.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: tr.vpnsparta.pro, port: 57456, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true}
   - {name: 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】17, server: 78.40.117.109, port: 37538, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: RP767jpZVarzQ0iI0vbTuA, udp: true}
+  - {name: 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】7, server: tr.vpnsparta.pro, port: 57456, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true}
   - {name: "🇸🇪 瑞典 - Steninge - Cloudflare, Inc. - 1", server: 92.42.102.73, port: 8443, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: "🇸🇪 瑞典 - Steninge - Cloudflare, Inc. - 2", server: 89.169.160.84, port: 2053, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇸🇪 瑞典 001, server: 141.147.161.53, port: 8080, client-fingerprint: chrome, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -2272,8 +2269,6 @@ proxy-groups:
       - 🇬🇧 英国 015
       - 🇬🇧 英国 016
       - 🇬🇧 英国 017
-      - 🇬🇧 英国 1-332
-      - 🇬🇧 英国 2-333
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_2
       - 🇬🇧 英国(yfuye.com免费节点)_3
@@ -2286,6 +2281,7 @@ proxy-groups:
       - 🇬🇧 英国_4
       - 🇬🇷 GR_speednode_0008
       - 🇬🇷 GR_speednode_0009
+      - 🇬🇷 希腊 V2CROSS.COM
       - 🇭🇰 HK_speednode_0010
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -2335,11 +2331,10 @@ proxy-groups:
       - 🇭🇰 香港 011-232
       - 🇭🇰 香港 024-235
       - 🇭🇰 香港 098-222
-      - 🇭🇰 香港 1-308
       - 🇭🇰 香港 104-185
       - 🇭🇰 香港 107-174
       - 🇭🇰 香港 108-204
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -2349,7 +2344,6 @@ proxy-groups:
       - 🇮🇱 以色列 001
       - 🇮🇳 IN_speednode_0012
       - 🇮🇳 印度 - 孟买 - The Constant Company - 3
-      - 🇮🇳 英属印度洋领地 001
       - 🇮🇷 IR_speednode_0013
       - 🇮🇷 IR_speednode_0014
       - 🇮🇷 伊朗 - Tehran - Pars Abr Toseeh Ertebatat Company - 1
@@ -2600,9 +2594,9 @@ proxy-groups:
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_6
       - 🇯🇵 日本(yfuye.com免费节点)_8
-      - 🇯🇵 日本-336
+      - 🇯🇵 日本-308
       - 🇯🇵 日本2
-      - 🇯🇵 日本2-337
+      - 🇯🇵 日本2-309
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】9
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 KR_speednode_0015
@@ -2770,8 +2764,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 056
       - 🇷🇺 俄罗斯 057
       - 🇷🇺 俄罗斯 058
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】17
+      - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】7
       - 🇸🇪 瑞典 001
       - 🇸🇪 瑞典 003
       - 🇸🇪 瑞典 005
@@ -4110,8 +4104,6 @@ proxy-groups:
       - 🇬🇧 英国 015
       - 🇬🇧 英国 016
       - 🇬🇧 英国 017
-      - 🇬🇧 英国 1-332
-      - 🇬🇧 英国 2-333
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_2
       - 🇬🇧 英国(yfuye.com免费节点)_3
@@ -4124,6 +4116,7 @@ proxy-groups:
       - 🇬🇧 英国_4
       - 🇬🇷 GR_speednode_0008
       - 🇬🇷 GR_speednode_0009
+      - 🇬🇷 希腊 V2CROSS.COM
       - 🇭🇰 HK_speednode_0010
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -4173,11 +4166,10 @@ proxy-groups:
       - 🇭🇰 香港 011-232
       - 🇭🇰 香港 024-235
       - 🇭🇰 香港 098-222
-      - 🇭🇰 香港 1-308
       - 🇭🇰 香港 104-185
       - 🇭🇰 香港 107-174
       - 🇭🇰 香港 108-204
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -4187,7 +4179,6 @@ proxy-groups:
       - 🇮🇱 以色列 001
       - 🇮🇳 IN_speednode_0012
       - 🇮🇳 印度 - 孟买 - The Constant Company - 3
-      - 🇮🇳 英属印度洋领地 001
       - 🇮🇷 IR_speednode_0013
       - 🇮🇷 IR_speednode_0014
       - 🇮🇷 伊朗 - Tehran - Pars Abr Toseeh Ertebatat Company - 1
@@ -4438,9 +4429,9 @@ proxy-groups:
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_6
       - 🇯🇵 日本(yfuye.com免费节点)_8
-      - 🇯🇵 日本-336
+      - 🇯🇵 日本-308
       - 🇯🇵 日本2
-      - 🇯🇵 日本2-337
+      - 🇯🇵 日本2-309
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】9
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 KR_speednode_0015
@@ -4608,8 +4599,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 056
       - 🇷🇺 俄罗斯 057
       - 🇷🇺 俄罗斯 058
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】17
+      - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】7
       - 🇸🇪 瑞典 001
       - 🇸🇪 瑞典 003
       - 🇸🇪 瑞典 005
@@ -5673,11 +5664,10 @@ proxy-groups:
       - 🇭🇰 香港 011-232
       - 🇭🇰 香港 024-235
       - 🇭🇰 香港 098-222
-      - 🇭🇰 香港 1-308
       - 🇭🇰 香港 104-185
       - 🇭🇰 香港 107-174
       - 🇭🇰 香港 108-204
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -5826,11 +5816,10 @@ proxy-groups:
       - 🇭🇰 香港 011-232
       - 🇭🇰 香港 024-235
       - 🇭🇰 香港 098-222
-      - 🇭🇰 香港 1-308
       - 🇭🇰 香港 104-185
       - 🇭🇰 香港 107-174
       - 🇭🇰 香港 108-204
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -6115,9 +6104,9 @@ proxy-groups:
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_6
       - 🇯🇵 日本(yfuye.com免费节点)_8
-      - 🇯🇵 日本-336
+      - 🇯🇵 日本-308
       - 🇯🇵 日本2
-      - 🇯🇵 日本2-337
+      - 🇯🇵 日本2-309
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】9
   - name: 🇺🇸 ‍美国
     type: url-test
@@ -7172,8 +7161,6 @@ proxy-groups:
       - 🇬🇧 英国 015
       - 🇬🇧 英国 016
       - 🇬🇧 英国 017
-      - 🇬🇧 英国 1-332
-      - 🇬🇧 英国 2-333
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_2
       - 🇬🇧 英国(yfuye.com免费节点)_3
@@ -7186,11 +7173,11 @@ proxy-groups:
       - 🇬🇧 英国_4
       - 🇬🇷 GR_speednode_0008
       - 🇬🇷 GR_speednode_0009
+      - 🇬🇷 希腊 V2CROSS.COM
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 001
       - 🇮🇳 IN_speednode_0012
       - 🇮🇳 印度 - 孟买 - The Constant Company - 3
-      - 🇮🇳 英属印度洋领地 001
       - 🇮🇷 IR_speednode_0013
       - 🇮🇷 IR_speednode_0014
       - 🇮🇷 伊朗 - Tehran - Pars Abr Toseeh Ertebatat Company - 1
@@ -7375,8 +7362,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 056
       - 🇷🇺 俄罗斯 057
       - 🇷🇺 俄罗斯 058
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】17
+      - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】7
       - 🇸🇪 瑞典 001
       - 🇸🇪 瑞典 003
       - 🇸🇪 瑞典 005
@@ -7619,11 +7606,10 @@ proxy-groups:
       - 🇭🇰 香港 011-232
       - 🇭🇰 香港 024-235
       - 🇭🇰 香港 098-222
-      - 🇭🇰 香港 1-308
       - 🇭🇰 香港 104-185
       - 🇭🇰 香港 107-174
       - 🇭🇰 香港 108-204
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -7766,11 +7752,10 @@ proxy-groups:
       - 🇭🇰 香港 011-232
       - 🇭🇰 香港 024-235
       - 🇭🇰 香港 098-222
-      - 🇭🇰 香港 1-308
       - 🇭🇰 香港 104-185
       - 🇭🇰 香港 107-174
       - 🇭🇰 香港 108-204
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -8049,9 +8034,9 @@ proxy-groups:
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_6
       - 🇯🇵 日本(yfuye.com免费节点)_8
-      - 🇯🇵 日本-336
+      - 🇯🇵 日本-308
       - 🇯🇵 日本2
-      - 🇯🇵 日本2-337
+      - 🇯🇵 日本2-309
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】9
   - name: 👆🏻🇺🇸 ‍美国
     type: select
@@ -9100,8 +9085,6 @@ proxy-groups:
       - 🇬🇧 英国 015
       - 🇬🇧 英国 016
       - 🇬🇧 英国 017
-      - 🇬🇧 英国 1-332
-      - 🇬🇧 英国 2-333
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_2
       - 🇬🇧 英国(yfuye.com免费节点)_3
@@ -9114,11 +9097,11 @@ proxy-groups:
       - 🇬🇧 英国_4
       - 🇬🇷 GR_speednode_0008
       - 🇬🇷 GR_speednode_0009
+      - 🇬🇷 希腊 V2CROSS.COM
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 001
       - 🇮🇳 IN_speednode_0012
       - 🇮🇳 印度 - 孟买 - The Constant Company - 3
-      - 🇮🇳 英属印度洋领地 001
       - 🇮🇷 IR_speednode_0013
       - 🇮🇷 IR_speednode_0014
       - 🇮🇷 伊朗 - Tehran - Pars Abr Toseeh Ertebatat Company - 1
@@ -9303,8 +9286,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 056
       - 🇷🇺 俄罗斯 057
       - 🇷🇺 俄罗斯 058
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】17
+      - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】7
       - 🇸🇪 瑞典 001
       - 🇸🇪 瑞典 003
       - 🇸🇪 瑞典 005

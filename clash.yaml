@@ -417,6 +417,7 @@ proxies:
   - {name: 🇫🇷 法国 069, server: 141.227.170.131, port: 39113, client-fingerprint: chrome, type: vless, uuid: 787979c0-3691-4612-86a1-e0f1101d5eb2, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇫🇷 法国 070, server: 141.227.134.241, port: 13905, client-fingerprint: chrome, type: vless, uuid: 9eecee32-1abb-42db-b296-af0168c17412, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇫🇷 法国 071, server: 135.125.88.154, port: 33310, client-fingerprint: chrome, type: vless, uuid: ee092289-4502-4fd9-8fef-6e2b859d2016, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇫🇷 法国 国际航空电讯集团公司(SITA), server: 57.128.189.240, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 🇫🇷 法国【机场推荐：https://a0a.xyz/】3, server: 2001:bc8:32d7:302::10, port: 44579, client-fingerprint: chrome, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇬🇧 英国 - 梅登黑德 - Iomart Hosting Ltd - 1, server: cloud4.leechirankadeh.cloud, port: 2096, client-fingerprint: chrome, type: vless, uuid: 08604288-670b-4663-854d-fa47ab3fe068, tls: false, network: tcp, udp: true}
   - {name: 🇬🇧 英国 001, server: 89.31.120.192, port: 443, client-fingerprint: chrome, type: vmess, uuid: 44537595-9ccc-4b83-8936-5f9ad3229019, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -437,7 +438,6 @@ proxies:
   - {name: 🇬🇧 英国 017, server: 46.250.243.56, port: 50394, client-fingerprint: chrome, type: vmess, uuid: a75f3f95-ad4e-4498-fc72-dd740dd02bfc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 1-242, server: apo.342579.xyz, port: 2095, client-fingerprint: chrome, type: vless, uuid: fbf3d481-7e67-454c-b531-195a74389db7, tls: false, network: ws, ws-opts: {path: /abc, headers: {Host: uk1.342579.xyz}}, udp: true}
   - {name: 🇬🇧 英国 2-243, server: apo.342579.xyz, port: 2082, client-fingerprint: chrome, type: vless, uuid: fbf3d481-7e67-454c-b531-195a74389db7, tls: false, network: ws, ws-opts: {path: /abc, headers: {Host: uk2.342579.xyz}}, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 195.35.113.79, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 1112935345BtgV5PDHVww, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点)_1, server: 164.38.155.97, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh24v3.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点)_2, server: 45.8.211.71, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh24v3.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点)_3, server: 45.8.211.86, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v4.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -501,8 +501,6 @@ proxies:
   - {name: 🇭🇰 香港 15-204, server: hg1.xiaohuolongjc.top, port: 37771, client-fingerprint: chrome, type: hysteria2, password: 49904f74-629c-40e4-ab64-19613e557ca8, auth: 49904f74-629c-40e4-ab64-19613e557ca8, sni: hg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 62-170, server: fq-hk.mxtn.net, port: 11044, client-fingerprint: chrome, type: hysteria2, password: a54ad565-1853-4954-98ab-1b1bd2f5f724, auth: a54ad565-1853-4954-98ab-1b1bd2f5f724, sni: fq-hk.mxtn.net, skip-cert-verify: false, ports: 11001-11099, udp: true}
   - {name: 🇭🇰 香港 69-202, server: 156.251.179.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2b5fad3874e5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /aqwshiog, tls: true, mux: true}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: v10.heduian.link, port: 30807, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 154.211.8.220, port: 2096, client-fingerprint: chrome, type: vless, uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a, tls: true, servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4"}, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港3, server: 149.30.232.103, port: 31469, client-fingerprint: chrome, type: vmess, uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
@@ -750,8 +748,7 @@ proxies:
   - {name: 🇯🇵 日本 97-144, server: 104.254.140.32, port: 2096, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇯🇵 日本 98-119, server: 92.53.191.32, port: 2096, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇯🇵 日本 99-120, server: 91.124.127.32, port: 2096, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets}, udp: true}
-  - {name: 🇯🇵 日本 东京都Amazon数据中心, server: cgroup.node1.v.nodelist-airport.com, port: 53231, client-fingerprint: chrome, type: vmess, uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本 东京阿里云, server: 47.74.10.111, port: 46049, client-fingerprint: chrome, type: vmess, uuid: 728257b1-5158-47d9-a1a1-6ac29faab878, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
+  - {name: 🇯🇵 日本 V2CROSS.COM, server: ss.030.node-for-bigairport.win, port: 10079, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_1, server: 160.16.123.65, port: 443, client-fingerprint: chrome, type: vless, uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a, tls: true, servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4"}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_2, server: 146.56.99.255, port: 56789, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_6, server: 140.238.62.82, port: 1443, client-fingerprint: chrome, type: vless, uuid: 01996549-6892-dbf0-0453-f700236936bd, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
@@ -786,7 +783,6 @@ proxies:
   - {name: 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1, server: 185.153.197.5, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇲🇩 摩尔多瓦 001, server: 5.182.39.44, port: 444, client-fingerprint: chrome, type: vmess, uuid: 7d52a409-aa5a-471f-aca5-e7621bf1b813, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇲🇾 马来西亚 01-207, server: my075.jd.kunlunpx.com, port: 45576, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: fe51727afe2fca582ebf, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: 🇲🇾 马来西亚 阿里云, server: 47.254.240.75, port: 21572, client-fingerprint: chrome, type: vmess, uuid: c2ca7006-042e-442f-984c-1148f797c1e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: "🇳🇱 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 1", server: 146.0.79.184, port: 443, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: "🇳🇱 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 2", server: 166.1.201.179, port: 443, client-fingerprint: chrome, type: vless, uuid: 01996549-6892-dbf0-0453-f700236936bd, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560fp=chrome", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: "🇳🇱 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 3", server: 91.201.113.193, port: 443, client-fingerprint: chrome, type: vless, uuid: 01996549-6892-dbf0-0453-f700236936bd, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets/ip=proxyip.fxxk.dedyn.io:443, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
@@ -1667,6 +1663,9 @@ proxies:
   - {name: 🇺🇸 美国 690, server: 172.64.166.2, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 691, server: 172.64.194.76, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip11.6016725.xyz}}, udp: true}
   - {name: 🇺🇸 美国 692, server: 172.64.167.10, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip14.6016725.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: cpp007-2.facai20250909.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: e134b5e9-4b16-4d50-b3d9-eaef652660b0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /e134b5e9, headers: {Host: cpp007-2.facai20250909.com}}, udp: true}
+  - {name: 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司, server: hackney-latest-strike.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
+  - {name: 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司 2, server: 71.19.148.74, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: gqkUCvmeOTghYJXF1YIuk5, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_101, server: 107.173.84.99, port: 45630, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_102, server: 146.103.33.38, port: 443, client-fingerprint: chrome, type: vless, uuid: 01996549-6892-dbf0-0453-f700236936bd, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_103, server: 148.135.17.203, port: 23469, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
@@ -2313,6 +2312,7 @@ proxy-groups:
       - 🇫🇷 法国 069
       - 🇫🇷 法国 070
       - 🇫🇷 法国 071
+      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】3
       - 🇬🇧 英国 - 梅登黑德 - Iomart Hosting Ltd - 1
       - 🇬🇧 英国 001
@@ -2333,7 +2333,6 @@ proxy-groups:
       - 🇬🇧 英国 017
       - 🇬🇧 英国 1-242
       - 🇬🇧 英国 2-243
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_2
       - 🇬🇧 英国(yfuye.com免费节点)_3
@@ -2393,8 +2392,6 @@ proxy-groups:
       - 🇭🇰 香港 15-204
       - 🇭🇰 香港 62-170
       - 🇭🇰 香港 69-202
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -2639,8 +2636,7 @@ proxy-groups:
       - 🇯🇵 日本 97-144
       - 🇯🇵 日本 98-119
       - 🇯🇵 日本 99-120
-      - 🇯🇵 日本 东京都Amazon数据中心
-      - 🇯🇵 日本 东京阿里云
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_6
@@ -2675,7 +2671,6 @@ proxy-groups:
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
       - 🇲🇩 摩尔多瓦 001
       - 🇲🇾 马来西亚 01-207
-      - 🇲🇾 马来西亚 阿里云
       - 🇳🇱 荷兰 001
       - 🇳🇱 荷兰 002
       - 🇳🇱 荷兰 003
@@ -3546,6 +3541,9 @@ proxy-groups:
       - 🇺🇸 美国 690
       - 🇺🇸 美国 691
       - 🇺🇸 美国 692
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司
+      - 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司 2
       - 🇺🇸 美国(yfuye.com免费节点)_101
       - 🇺🇸 美国(yfuye.com免费节点)_102
       - 🇺🇸 美国(yfuye.com免费节点)_103
@@ -4167,6 +4165,7 @@ proxy-groups:
       - 🇫🇷 法国 069
       - 🇫🇷 法国 070
       - 🇫🇷 法国 071
+      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】3
       - 🇬🇧 英国 - 梅登黑德 - Iomart Hosting Ltd - 1
       - 🇬🇧 英国 001
@@ -4187,7 +4186,6 @@ proxy-groups:
       - 🇬🇧 英国 017
       - 🇬🇧 英国 1-242
       - 🇬🇧 英国 2-243
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_2
       - 🇬🇧 英国(yfuye.com免费节点)_3
@@ -4247,8 +4245,6 @@ proxy-groups:
       - 🇭🇰 香港 15-204
       - 🇭🇰 香港 62-170
       - 🇭🇰 香港 69-202
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -4493,8 +4489,7 @@ proxy-groups:
       - 🇯🇵 日本 97-144
       - 🇯🇵 日本 98-119
       - 🇯🇵 日本 99-120
-      - 🇯🇵 日本 东京都Amazon数据中心
-      - 🇯🇵 日本 东京阿里云
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_6
@@ -4529,7 +4524,6 @@ proxy-groups:
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
       - 🇲🇩 摩尔多瓦 001
       - 🇲🇾 马来西亚 01-207
-      - 🇲🇾 马来西亚 阿里云
       - 🇳🇱 荷兰 001
       - 🇳🇱 荷兰 002
       - 🇳🇱 荷兰 003
@@ -5400,6 +5394,9 @@ proxy-groups:
       - 🇺🇸 美国 690
       - 🇺🇸 美国 691
       - 🇺🇸 美国 692
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司
+      - 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司 2
       - 🇺🇸 美国(yfuye.com免费节点)_101
       - 🇺🇸 美国(yfuye.com免费节点)_102
       - 🇺🇸 美国(yfuye.com免费节点)_103
@@ -5721,8 +5718,6 @@ proxy-groups:
       - 🇭🇰 香港 15-204
       - 🇭🇰 香港 62-170
       - 🇭🇰 香港 69-202
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -5909,8 +5904,6 @@ proxy-groups:
       - 🇭🇰 香港 15-204
       - 🇭🇰 香港 62-170
       - 🇭🇰 香港 69-202
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -6167,8 +6160,7 @@ proxy-groups:
       - 🇯🇵 日本 97-144
       - 🇯🇵 日本 98-119
       - 🇯🇵 日本 99-120
-      - 🇯🇵 日本 东京都Amazon数据中心
-      - 🇯🇵 日本 东京阿里云
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_6
@@ -6838,6 +6830,9 @@ proxy-groups:
       - 🇺🇸 美国 690
       - 🇺🇸 美国 691
       - 🇺🇸 美国 692
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司
+      - 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司 2
       - 🇺🇸 美国(yfuye.com免费节点)_101
       - 🇺🇸 美国(yfuye.com免费节点)_102
       - 🇺🇸 美国(yfuye.com免费节点)_103
@@ -7214,6 +7209,7 @@ proxy-groups:
       - 🇫🇷 法国 069
       - 🇫🇷 法国 070
       - 🇫🇷 法国 071
+      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】3
       - 🇬🇧 英国 - 梅登黑德 - Iomart Hosting Ltd - 1
       - 🇬🇧 英国 001
@@ -7234,7 +7230,6 @@ proxy-groups:
       - 🇬🇧 英国 017
       - 🇬🇧 英国 1-242
       - 🇬🇧 英国 2-243
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_2
       - 🇬🇧 英国(yfuye.com免费节点)_3
@@ -7301,7 +7296,6 @@ proxy-groups:
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
       - 🇲🇩 摩尔多瓦 001
       - 🇲🇾 马来西亚 01-207
-      - 🇲🇾 马来西亚 阿里云
       - 🇳🇱 荷兰 001
       - 🇳🇱 荷兰 002
       - 🇳🇱 荷兰 003
@@ -7677,8 +7671,6 @@ proxy-groups:
       - 🇭🇰 香港 15-204
       - 🇭🇰 香港 62-170
       - 🇭🇰 香港 69-202
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -7859,8 +7851,6 @@ proxy-groups:
       - 🇭🇰 香港 15-204
       - 🇭🇰 香港 62-170
       - 🇭🇰 香港 69-202
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -8111,8 +8101,7 @@ proxy-groups:
       - 🇯🇵 日本 97-144
       - 🇯🇵 日本 98-119
       - 🇯🇵 日本 99-120
-      - 🇯🇵 日本 东京都Amazon数据中心
-      - 🇯🇵 日本 东京阿里云
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_6
@@ -8779,6 +8768,9 @@ proxy-groups:
       - 🇺🇸 美国 690
       - 🇺🇸 美国 691
       - 🇺🇸 美国 692
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司
+      - 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司 2
       - 🇺🇸 美国(yfuye.com免费节点)_101
       - 🇺🇸 美国(yfuye.com免费节点)_102
       - 🇺🇸 美国(yfuye.com免费节点)_103
@@ -9152,6 +9144,7 @@ proxy-groups:
       - 🇫🇷 法国 069
       - 🇫🇷 法国 070
       - 🇫🇷 法国 071
+      - 🇫🇷 法国 国际航空电讯集团公司(SITA)
       - 🇫🇷 法国【机场推荐：https://a0a.xyz/】3
       - 🇬🇧 英国 - 梅登黑德 - Iomart Hosting Ltd - 1
       - 🇬🇧 英国 001
@@ -9172,7 +9165,6 @@ proxy-groups:
       - 🇬🇧 英国 017
       - 🇬🇧 英国 1-242
       - 🇬🇧 英国 2-243
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_2
       - 🇬🇧 英国(yfuye.com免费节点)_3
@@ -9239,7 +9231,6 @@ proxy-groups:
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
       - 🇲🇩 摩尔多瓦 001
       - 🇲🇾 马来西亚 01-207
-      - 🇲🇾 马来西亚 阿里云
       - 🇳🇱 荷兰 001
       - 🇳🇱 荷兰 002
       - 🇳🇱 荷兰 003

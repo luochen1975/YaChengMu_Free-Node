@@ -1676,7 +1676,6 @@ proxies:
   - {name: 🇰🇷 韩国 003, server: 220.92.146.161, port: 50001, client-fingerprint: chrome, type: vmess, uuid: ffde381b-4a30-41d4-90eb-151f228b06ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qq, headers: {Host: aa.nbee.pp.ua}}, udp: true}
   - {name: 🇰🇷 韩国 004, server: 125.134.123.178, port: 50001, client-fingerprint: chrome, type: vmess, uuid: ffde381b-4a30-41d4-90eb-151f228b06ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qq, headers: {Host: aa.nbee.pp.ua}}, udp: true}
   - {name: 🇰🇷 韩国 005, server: 154.223.19.117, port: 46418, client-fingerprint: chrome, type: vmess, uuid: d1de8433-692d-47fd-9a8d-6ccb02ea39bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国 电信, server: 221.149.11.173, port: 35591, client-fingerprint: chrome, type: vmess, uuid: ffde381b-4a30-41d4-90eb-151f228b06ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qq, headers: {Host: aa.nbee.pp.ua}}, udp: true}
   - {name: 🇰🇷 韩国(yfuye.com免费节点)_1, server: 112.160.1.110, port: 12351, client-fingerprint: chrome, type: vless, uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a, tls: true, servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)"}, udp: true}
   - {name: 🇰🇷 韩国(yfuye.com免费节点)_10, server: 152.67.197.197, port: 19120, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
   - {name: 🇰🇷 韩国(yfuye.com免费节点)_11, server: 140.238.10.44, port: 23253, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
@@ -1802,6 +1801,7 @@ proxies:
   - {name: 🇵🇱 波兰 - 若利博日区 - M247 Europe - 2, server: 5.253.206.122, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kUzS0XxmIWg5iAd5FOI6sPNLrReBZhffDzjJ1HSRlocNoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇵🇱 波兰 001, server: 128.204.223.42, port: 27377, client-fingerprint: chrome, type: vmess, uuid: bd996dac-3b1c-42a9-b8a1-66b87d0b72ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇵🇱 波兰 002, server: 185.254.220.229, port: 1002, client-fingerprint: chrome, type: vless, uuid: 489d84ab-2895-4dea-adf2-8915349742b4, tls: true, network: tcp, udp: true}
+  - {name: 🇵🇱 波兰 V2CROSS.COM 2, server: ss.008.node-for-bigairport.win, port: 19888, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53, udp: true}
   - {name: 🇵🇷 波多黎各 - Arecibo - Xairnet - 2, server: 199.255.116.5, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kUzS0XxmIWg5iAd5FOI6sPP2yrPvKp6WWer23LTQe_jroXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇵🇷 波多黎各 - Guaynabo - FiberX - 1, server: 38.158.220.26, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kUzS0XxmIWg5iAd5FOI6sPN6YZPWWBjpWBEq2FeyZXRvoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇵🇹 PT_speednode_0020, server: 31.129.22.117, port: 8080, reality-opts: {public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs, short-id: "27cfa05000c23cc4" }, client-fingerprint: chrome, type: vless, uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37, tls: true, servername: yandex.com, network: tcp, udp: true}
@@ -4536,7 +4536,6 @@ proxy-groups:
       - 🇰🇷 韩国 003
       - 🇰🇷 韩国 004
       - 🇰🇷 韩国 005
-      - 🇰🇷 韩国 电信
       - 🇰🇷 韩国(yfuye.com免费节点)_1
       - 🇰🇷 韩国(yfuye.com免费节点)_10
       - 🇰🇷 韩国(yfuye.com免费节点)_11
@@ -4658,6 +4657,7 @@ proxy-groups:
       - 🇵🇱 波兰 - 若利博日区 - M247 Europe - 2
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
+      - 🇵🇱 波兰 V2CROSS.COM 2
       - 🇵🇷 波多黎各 - Arecibo - Xairnet - 2
       - 🇵🇷 波多黎各 - Guaynabo - FiberX - 1
       - 🇵🇹 PT_speednode_0020
@@ -7362,7 +7362,6 @@ proxy-groups:
       - 🇰🇷 韩国 003
       - 🇰🇷 韩国 004
       - 🇰🇷 韩国 005
-      - 🇰🇷 韩国 电信
       - 🇰🇷 韩国(yfuye.com免费节点)_1
       - 🇰🇷 韩国(yfuye.com免费节点)_10
       - 🇰🇷 韩国(yfuye.com免费节点)_11
@@ -7484,6 +7483,7 @@ proxy-groups:
       - 🇵🇱 波兰 - 若利博日区 - M247 Europe - 2
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
+      - 🇵🇱 波兰 V2CROSS.COM 2
       - 🇵🇷 波多黎各 - Arecibo - Xairnet - 2
       - 🇵🇷 波多黎各 - Guaynabo - FiberX - 1
       - 🇵🇹 PT_speednode_0020
@@ -11297,7 +11297,6 @@ proxy-groups:
       - 🇰🇷 韩国 003
       - 🇰🇷 韩国 004
       - 🇰🇷 韩国 005
-      - 🇰🇷 韩国 电信
       - 🇰🇷 韩国(yfuye.com免费节点)_1
       - 🇰🇷 韩国(yfuye.com免费节点)_10
       - 🇰🇷 韩国(yfuye.com免费节点)_11
@@ -11419,6 +11418,7 @@ proxy-groups:
       - 🇵🇱 波兰 - 若利博日区 - M247 Europe - 2
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
+      - 🇵🇱 波兰 V2CROSS.COM 2
       - 🇵🇷 波多黎各 - Arecibo - Xairnet - 2
       - 🇵🇷 波多黎各 - Guaynabo - FiberX - 1
       - 🇵🇹 PT_speednode_0020
@@ -14242,7 +14242,6 @@ proxy-groups:
       - 🇰🇷 韩国 003
       - 🇰🇷 韩国 004
       - 🇰🇷 韩国 005
-      - 🇰🇷 韩国 电信
       - 🇰🇷 韩国(yfuye.com免费节点)_1
       - 🇰🇷 韩国(yfuye.com免费节点)_10
       - 🇰🇷 韩国(yfuye.com免费节点)_11
@@ -14364,6 +14363,7 @@ proxy-groups:
       - 🇵🇱 波兰 - 若利博日区 - M247 Europe - 2
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
+      - 🇵🇱 波兰 V2CROSS.COM 2
       - 🇵🇷 波多黎各 - Arecibo - Xairnet - 2
       - 🇵🇷 波多黎各 - Guaynabo - FiberX - 1
       - 🇵🇹 PT_speednode_0020

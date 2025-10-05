@@ -190,6 +190,8 @@ proxies:
   - {name: 🇨🇳 CN_speednode_0006, server: v6.heduian.link, port: 30806, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
   - {name: 🇨🇳 CN_speednode_0007, server: 36.156.102.88, port: 472, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 CN_speednode_0008, server: v33.heduian.link, port: 30833, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇨🇳 上海市 电信IDC机房, server: entrance02.qqa678.cc, port: 47081, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8e94ed0e-3717-4c46-aa13-6757a89b392e, udp: true}
+  - {name: 🇨🇳 上海市 电信IDC机房 2, server: entrance03.qqa678.cc, port: 47081, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8e94ed0e-3717-4c46-aa13-6757a89b392e, udp: true}
   - {name: 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 104, server: 212.192.12.234, port: 61532, client-fingerprint: chrome, type: tuic, password: 0494e68d-e085-4237-b274-5e65574ad7c2, uuid: 0494e68d-e085-4237-b274-5e65574ad7c2, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
   - {name: 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 105, server: 212.192.12.234, port: 44463, client-fingerprint: chrome, type: hysteria2, password: 0494e68d-e085-4237-b274-5e65574ad7c2, auth: 0494e68d-e085-4237-b274-5e65574ad7c2, sni: apple.com, skip-cert-verify: true, obfs: salamander, obfs-password: CDDQ1dntNm3j0K9i, udp: true}
   - {name: 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 111, server: 212.192.12.234, port: 51562, client-fingerprint: chrome, type: tuic, password: 0494e68d-e085-4237-b274-5e65574ad7c2, uuid: 0494e68d-e085-4237-b274-5e65574ad7c2, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
@@ -301,6 +303,7 @@ proxies:
   - {name: 🇨🇳 中国 081, server: gzdx.newbee8.me, port: 35660, client-fingerprint: chrome, type: vmess, uuid: 89c4f90d-6016-4d16-b17f-ee527564d12e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 082, server: 154.211.8.12, port: 443, client-fingerprint: chrome, type: vless, uuid: 0d89a36e-36bc-41d2-8bd3-bbd639991f29, tls: true, servername: nicorobin.eula.cloudns.org, network: ws, ws-opts: {path: /Telegram, headers: {Host: nicorobin.eula.cloudns.org}}, udp: true}
   - {name: 🇨🇳 中国 083, server: 154.198.173.54, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, network: tcp, udp: true}
+  - {name: 🇨🇳 广东省广州市 电信IDC机房, server: dfes.bcymanuscript.top, port: 38318, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ba7bb62d-e5e2-42f6-ab7e-57baf5e95a4b, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 003, server: 190.93.246.246, port: 8443, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: true, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: bitget1.asdasd.click}}, udp: true}
@@ -2625,8 +2628,6 @@ proxies:
   - {name: 🇺🇸 美国 831, server: 172.67.130.9, port: 443, client-fingerprint: chrome, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linde06.indiavideo.sbs:443/linkws, headers: {Host: new-configmy.clashroyale733232.wOrKERS.dev}}, udp: true}
   - {name: 🇺🇸 美国 832, server: kailn-g01.jp04-3771-vm0.entry.fr0307a.art, port: 444, client-fingerprint: chrome, type: vmess, uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 833, server: 104.17.254.241, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 4bb242a7-68db-4bb8-850a-0c112941f0cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /13111/Nextlife, headers: {Host: n1w3napp4.clockdeny.eu}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, client-fingerprint: chrome, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 172.67.204.19, port: 443, client-fingerprint: chrome, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_101, server: 107.173.84.99, port: 45630, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_102, server: 146.103.33.38, port: 443, client-fingerprint: chrome, type: vless, uuid: 01996549-6892-dbf0-0453-f700236936bd, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_103, server: 148.135.17.203, port: 23469, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560"}, udp: true}
@@ -2915,6 +2916,8 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 CN_speednode_0007
       - 🇨🇳 CN_speednode_0008
+      - 🇨🇳 上海市 电信IDC机房
+      - 🇨🇳 上海市 电信IDC机房 2
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 104
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 105
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 111
@@ -3026,6 +3029,7 @@ proxy-groups:
       - 🇨🇳 中国 081
       - 🇨🇳 中国 082
       - 🇨🇳 中国 083
+      - 🇨🇳 广东省广州市 电信IDC机房
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
@@ -5249,8 +5253,6 @@ proxy-groups:
       - 🇺🇸 美国 831
       - 🇺🇸 美国 832
       - 🇺🇸 美国 833
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国(yfuye.com免费节点)_101
       - 🇺🇸 美国(yfuye.com免费节点)_102
       - 🇺🇸 美国(yfuye.com免费节点)_103
@@ -5514,6 +5516,8 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 CN_speednode_0007
       - 🇨🇳 CN_speednode_0008
+      - 🇨🇳 上海市 电信IDC机房
+      - 🇨🇳 上海市 电信IDC机房 2
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 104
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 105
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 111
@@ -5625,6 +5629,7 @@ proxy-groups:
       - 🇨🇳 中国 081
       - 🇨🇳 中国 082
       - 🇨🇳 中国 083
+      - 🇨🇳 广东省广州市 电信IDC机房
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
@@ -7848,8 +7853,6 @@ proxy-groups:
       - 🇺🇸 美国 831
       - 🇺🇸 美国 832
       - 🇺🇸 美国 833
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国(yfuye.com免费节点)_101
       - 🇺🇸 美国(yfuye.com免费节点)_102
       - 🇺🇸 美国(yfuye.com免费节点)_103
@@ -8238,6 +8241,8 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 CN_speednode_0007
       - 🇨🇳 CN_speednode_0008
+      - 🇨🇳 上海市 电信IDC机房
+      - 🇨🇳 上海市 电信IDC机房 2
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 104
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 105
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 111
@@ -8349,6 +8354,7 @@ proxy-groups:
       - 🇨🇳 中国 081
       - 🇨🇳 中国 082
       - 🇨🇳 中国 083
+      - 🇨🇳 广东省广州市 电信IDC机房
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -9948,8 +9954,6 @@ proxy-groups:
       - 🇺🇸 美国 831
       - 🇺🇸 美国 832
       - 🇺🇸 美国 833
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国(yfuye.com免费节点)_101
       - 🇺🇸 美国(yfuye.com免费节点)_102
       - 🇺🇸 美国(yfuye.com免费节点)_103
@@ -11103,6 +11107,8 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 CN_speednode_0007
       - 🇨🇳 CN_speednode_0008
+      - 🇨🇳 上海市 电信IDC机房
+      - 🇨🇳 上海市 电信IDC机房 2
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 104
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 105
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 111
@@ -11214,6 +11220,7 @@ proxy-groups:
       - 🇨🇳 中国 081
       - 🇨🇳 中国 082
       - 🇨🇳 中国 083
+      - 🇨🇳 广东省广州市 电信IDC机房
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -12804,8 +12811,6 @@ proxy-groups:
       - 🇺🇸 美国 831
       - 🇺🇸 美国 832
       - 🇺🇸 美国 833
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国(yfuye.com免费节点)_101
       - 🇺🇸 美国(yfuye.com免费节点)_102
       - 🇺🇸 美国(yfuye.com免费节点)_103

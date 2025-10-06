@@ -1600,6 +1600,7 @@ proxies:
   - {name: 🇷🇺 俄罗斯 072, server: pqh28v5.waipdirect.shop, port: 8880, client-fingerprint: chrome, type: vless, uuid: e4824193-4f54-453b-d037-88368e85ef0e, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 073, server: 638950280342844263.esfahan-drc-tusaas.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 074, server: 195.13.44.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes", headers: {Host: saas.git.cloudns.org}}, udp: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 212.192.15.244, port: 23183, client-fingerprint: chrome, type: vmess, uuid: 07558080-2897-42a1-98f9-ac4503b36b02, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】17, server: us1.opensocks.site, port: 8139, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ZmQyM, udp: true}
   - {name: 🇸🇦 沙特阿拉伯 001, server: 91.209.253.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes+", headers: {Host: saas.git.cloudns.org}}, udp: true}
   - {name: 🇸🇪 瑞典 001, server: 148.135.110.150, port: 48503, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
@@ -1701,7 +1702,6 @@ proxies:
   - {name: "🇹🇼 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 85", server: db6fc17a-t2hgg0-ta5nd4-e06r.tw3.p5pv.com, port: 443, client-fingerprint: chrome, type: http, username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902, password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902, tls: true, udp: true}
   - {name: "🇹🇼 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 89", server: 500faffc-t2hgg0-tei4of-1qxa1.tw3.p5pv.com, port: 443, client-fingerprint: chrome, type: http, username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d, password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d, tls: true, udp: true}
   - {name: "🇹🇼 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 94", server: afa76f99-t2jb40-tedirp-1fli7.tw3.p5pv.com, port: 443, client-fingerprint: chrome, type: http, username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, tls: true, udp: true}
-  - {name: 🇹🇼 台湾省台北市 V2CROSS.COM, server: 46.3.26.12, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}, udp: true}
   - {name: 🇺🇦 乌克兰 001, server: 94.131.13.163, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 002, server: 94.131.13.207, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 003, server: 185.234.66.89, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -2610,6 +2610,7 @@ proxies:
   - {name: 🇺🇸 美国 758, server: 64.69.40.135, port: 41185, client-fingerprint: chrome, type: vmess, uuid: 9ba1c290-2f90-4fe7-efab-390af3dfd498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 759, server: 47.83.10.70, port: 53544, client-fingerprint: chrome, type: vmess, uuid: e7b88e16-7480-4ec1-e1f2-523b45462467, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 760, server: 172.82.65.77, port: 443, client-fingerprint: chrome, type: vmess, uuid: 1ecc7e61-d639-4e18-8cae-2cff9e787261, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ZVrc7MGZcKzYE40sF9Z5, headers: {Host: m16-9d86dc15-7d51-7138-bee5-645e0ef7936c.huangshang.pp.ua}}, udp: true}
+  - {name: 🇺🇸 美国 761, server: 46.3.26.12, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}, udp: true}
   - {name: 🇺🇸 美国 762, server: 166.62.111.54, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: sni.aizrf.com, network: ws, ws-opts: {path: "/snippets&freecodes", headers: {Host: sni.aizrf.com}}, udp: true}
   - {name: 🇺🇸 美国 763, server: medium.com, port: 443, client-fingerprint: chrome, type: vless, uuid: f2a73750-3087-48ff-a763-1348c15dce68, tls: true, servername: rAyAn-007.mAxImA.DpDnS.OrG, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: rAyAn-007.mAxImA.DpDnS.OrG}}, udp: true}
   - {name: 🇺🇸 美国 764, server: 104.129.166.54, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: sni.aizrf.com, network: ws, ws-opts: {path: /snippets, headers: {Host: sni.aizrf.com}}, udp: true}
@@ -4432,6 +4433,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 072
       - 🇷🇺 俄罗斯 073
       - 🇷🇺 俄罗斯 074
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】17
       - 🇸🇦 沙特阿拉伯 001
       - 🇸🇪 瑞典 001
@@ -4480,7 +4482,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 台湾省台北市 V2CROSS.COM
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -5377,6 +5378,7 @@ proxy-groups:
       - 🇺🇸 美国 758
       - 🇺🇸 美国 759
       - 🇺🇸 美国 760
+      - 🇺🇸 美国 761
       - 🇺🇸 美国 762
       - 🇺🇸 美国 763
       - 🇺🇸 美国 764
@@ -7174,6 +7176,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 072
       - 🇷🇺 俄罗斯 073
       - 🇷🇺 俄罗斯 074
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】17
       - 🇸🇦 沙特阿拉伯 001
       - 🇸🇪 瑞典 001
@@ -7222,7 +7225,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 台湾省台北市 V2CROSS.COM
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -8119,6 +8121,7 @@ proxy-groups:
       - 🇺🇸 美国 758
       - 🇺🇸 美国 759
       - 🇺🇸 美国 760
+      - 🇺🇸 美国 761
       - 🇺🇸 美国 762
       - 🇺🇸 美国 763
       - 🇺🇸 美国 764
@@ -8666,7 +8669,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -9055,7 +9057,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -10350,6 +10351,7 @@ proxy-groups:
       - 🇺🇸 美国 758
       - 🇺🇸 美国 759
       - 🇺🇸 美国 760
+      - 🇺🇸 美国 761
       - 🇺🇸 美国 762
       - 🇺🇸 美国 763
       - 🇺🇸 美国 764
@@ -11375,6 +11377,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 072
       - 🇷🇺 俄罗斯 073
       - 🇷🇺 俄罗斯 074
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】17
       - 🇸🇦 沙特阿拉伯 001
       - 🇸🇪 瑞典 001
@@ -11686,7 +11689,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
@@ -12072,7 +12074,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
@@ -13358,6 +13359,7 @@ proxy-groups:
       - 🇺🇸 美国 758
       - 🇺🇸 美国 759
       - 🇺🇸 美国 760
+      - 🇺🇸 美国 761
       - 🇺🇸 美国 762
       - 🇺🇸 美国 763
       - 🇺🇸 美国 764
@@ -14380,6 +14382,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 072
       - 🇷🇺 俄罗斯 073
       - 🇷🇺 俄罗斯 074
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】17
       - 🇸🇦 沙特阿拉伯 001
       - 🇸🇪 瑞典 001

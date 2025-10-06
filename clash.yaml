@@ -193,6 +193,7 @@ proxies:
   - {name: 🇨🇳 CN_speednode_0006, server: v6.heduian.link, port: 30806, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
   - {name: 🇨🇳 CN_speednode_0007, server: 36.156.102.88, port: 472, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 CN_speednode_0008, server: v33.heduian.link, port: 30833, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇨🇳 上海市 电信IDC机房, server: entrance02.qqa678.cc, port: 47081, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8e94ed0e-3717-4c46-aa13-6757a89b392e, udp: true}
   - {name: 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 104, server: 212.192.12.234, port: 61532, client-fingerprint: chrome, type: tuic, password: 0494e68d-e085-4237-b274-5e65574ad7c2, uuid: 0494e68d-e085-4237-b274-5e65574ad7c2, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
   - {name: 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 105, server: 212.192.12.234, port: 44463, client-fingerprint: chrome, type: hysteria2, password: 0494e68d-e085-4237-b274-5e65574ad7c2, auth: 0494e68d-e085-4237-b274-5e65574ad7c2, sni: apple.com, skip-cert-verify: true, obfs: salamander, obfs-password: CDDQ1dntNm3j0K9i, udp: true}
   - {name: 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 111, server: 212.192.12.234, port: 51562, client-fingerprint: chrome, type: tuic, password: 0494e68d-e085-4237-b274-5e65574ad7c2, uuid: 0494e68d-e085-4237-b274-5e65574ad7c2, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
@@ -958,6 +959,7 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - YOUTHIDC - 159, server: nat-hk-37465.strongpipe.cloud, port: 20443, client-fingerprint: chrome, type: http, username: dd247fc262, password: 80c9752a41, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - ZYC Network LLC - 174, server: planb.mojcn.com, port: 16632, client-fingerprint: chrome, type: vmess, uuid: 1ecaf43c-5b0c-4ed6-bb19-5423084071ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ac14afb6e6a4050c1803dc03874ffd7d.mobgslb.tbcache.com}}, udp: true}
   - {name: 🇭🇰 香港 2, server: 154.206.12.49, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: getsub.saas.classelivre.eu.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560", headers: {Host: getsub.saas.classelivre.eu.org}}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: v10.heduian.link, port: 30807, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 154.194.0.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_10, server: 154.218.15.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_11, server: 154.197.88.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
@@ -1600,7 +1602,6 @@ proxies:
   - {name: 🇷🇺 俄罗斯 072, server: pqh28v5.waipdirect.shop, port: 8880, client-fingerprint: chrome, type: vless, uuid: e4824193-4f54-453b-d037-88368e85ef0e, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 073, server: 638950280342844263.esfahan-drc-tusaas.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 074, server: 195.13.44.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes", headers: {Host: saas.git.cloudns.org}}, udp: true}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 212.192.15.244, port: 23183, client-fingerprint: chrome, type: vmess, uuid: 07558080-2897-42a1-98f9-ac4503b36b02, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】17, server: us1.opensocks.site, port: 8139, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ZmQyM, udp: true}
   - {name: 🇸🇦 沙特阿拉伯 001, server: 91.209.253.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes+", headers: {Host: saas.git.cloudns.org}}, udp: true}
   - {name: 🇸🇪 瑞典 001, server: 148.135.110.150, port: 48503, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
@@ -2705,7 +2706,6 @@ proxies:
   - {name: 🇺🇸 美国 863, server: 69.50.93.90, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 69.50.93.90}}, udp: true}
   - {name: 🇺🇸 美国 864, server: singapore.com, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}, udp: true}
   - {name: 🇺🇸 美国 865, server: www.baldengineer.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws/afrhms16v.bestxray.buzz, headers: {Host: yelan.thelastronin.cloudns.org}}, udp: true}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.180.249.177, port: 8443, client-fingerprint: chrome, type: trojan, password: installshield, sni: 38.180.249.177, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 213.182.199.50, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.sosocn.abrdns.com, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: 198.12.144.50, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.sosocn.abrdns.com, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_100, server: 199.181.197.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
@@ -2772,7 +2772,6 @@ proxies:
   - {name: 🇺🇸 美国(yfuye.com免费节点)_164, server: 185.149.135.50, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.sosocn.abrdns.com, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_165, server: pupas-shirting-unsung.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_2, server: 193.227.99.50, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.sosocn.abrdns.com, network: ws, ws-opts: {path: /snippets}, udp: true}
-  - {name: 🇺🇸 美国(yfuye.com免费节点)_20, server: entrance02.qqa678.cc, port: 47081, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 8e94ed0e-3717-4c46-aa13-6757a89b392e, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_23, server: 104.21.90.226, port: 443, client-fingerprint: chrome, type: vless, uuid: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc, tls: true, servername: 444RRrt5.7777155.xYZ, network: ws, ws-opts: {path: /6OWLjRc26b0nHYr5hYXD}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_24, server: fearless-change.oneeat.co, port: 80, client-fingerprint: chrome, type: vless, uuid: b055036a-2d81-4d46-ab18-4e1898b58cec, tls: true, network: ws, ws-opts: {path: /, headers: {Host: fearless-change.oneeat.co}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_25, server: 190.93.247.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
@@ -3062,6 +3061,7 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 CN_speednode_0007
       - 🇨🇳 CN_speednode_0008
+      - 🇨🇳 上海市 电信IDC机房
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 104
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 105
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 111
@@ -3819,6 +3819,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - YOUTHIDC - 159
       - 🇭🇰 中国 - 香港 - ZYC Network LLC - 174
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -4433,7 +4434,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 072
       - 🇷🇺 俄罗斯 073
       - 🇷🇺 俄罗斯 074
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】17
       - 🇸🇦 沙特阿拉伯 001
       - 🇸🇪 瑞典 001
@@ -5473,7 +5473,6 @@ proxy-groups:
       - 🇺🇸 美国 863
       - 🇺🇸 美国 864
       - 🇺🇸 美国 865
-      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -5540,7 +5539,6 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_164
       - 🇺🇸 美国(yfuye.com免费节点)_165
       - 🇺🇸 美国(yfuye.com免费节点)_2
-      - 🇺🇸 美国(yfuye.com免费节点)_20
       - 🇺🇸 美国(yfuye.com免费节点)_23
       - 🇺🇸 美国(yfuye.com免费节点)_24
       - 🇺🇸 美国(yfuye.com免费节点)_25
@@ -5805,6 +5803,7 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 CN_speednode_0007
       - 🇨🇳 CN_speednode_0008
+      - 🇨🇳 上海市 电信IDC机房
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 104
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 105
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 111
@@ -6562,6 +6561,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - YOUTHIDC - 159
       - 🇭🇰 中国 - 香港 - ZYC Network LLC - 174
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -7176,7 +7176,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 072
       - 🇷🇺 俄罗斯 073
       - 🇷🇺 俄罗斯 074
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】17
       - 🇸🇦 沙特阿拉伯 001
       - 🇸🇪 瑞典 001
@@ -8216,7 +8215,6 @@ proxy-groups:
       - 🇺🇸 美国 863
       - 🇺🇸 美国 864
       - 🇺🇸 美国 865
-      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -8283,7 +8281,6 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_164
       - 🇺🇸 美国(yfuye.com免费节点)_165
       - 🇺🇸 美国(yfuye.com免费节点)_2
-      - 🇺🇸 美国(yfuye.com免费节点)_20
       - 🇺🇸 美国(yfuye.com免费节点)_23
       - 🇺🇸 美国(yfuye.com免费节点)_24
       - 🇺🇸 美国(yfuye.com免费节点)_25
@@ -8639,6 +8636,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - YOUTHIDC - 159
       - 🇭🇰 中国 - 香港 - ZYC Network LLC - 174
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -8678,6 +8676,7 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 CN_speednode_0007
       - 🇨🇳 CN_speednode_0008
+      - 🇨🇳 上海市 电信IDC机房
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 104
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 105
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 111
@@ -9033,6 +9032,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - YOUTHIDC - 159
       - 🇭🇰 中国 - 香港 - ZYC Network LLC - 174
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -10446,7 +10446,6 @@ proxy-groups:
       - 🇺🇸 美国 863
       - 🇺🇸 美国 864
       - 🇺🇸 美国 865
-      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -10513,7 +10512,6 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_164
       - 🇺🇸 美国(yfuye.com免费节点)_165
       - 🇺🇸 美国(yfuye.com免费节点)_2
-      - 🇺🇸 美国(yfuye.com免费节点)_20
       - 🇺🇸 美国(yfuye.com免费节点)_23
       - 🇺🇸 美国(yfuye.com免费节点)_24
       - 🇺🇸 美国(yfuye.com免费节点)_25
@@ -11377,7 +11375,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 072
       - 🇷🇺 俄罗斯 073
       - 🇷🇺 俄罗斯 074
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】17
       - 🇸🇦 沙特阿拉伯 001
       - 🇸🇪 瑞典 001
@@ -11662,6 +11659,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - YOUTHIDC - 159
       - 🇭🇰 中国 - 香港 - ZYC Network LLC - 174
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -11695,6 +11693,7 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 CN_speednode_0007
       - 🇨🇳 CN_speednode_0008
+      - 🇨🇳 上海市 电信IDC机房
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 104
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 105
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 111
@@ -12050,6 +12049,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - YOUTHIDC - 159
       - 🇭🇰 中国 - 香港 - ZYC Network LLC - 174
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -13454,7 +13454,6 @@ proxy-groups:
       - 🇺🇸 美国 863
       - 🇺🇸 美国 864
       - 🇺🇸 美国 865
-      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -13521,7 +13520,6 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_164
       - 🇺🇸 美国(yfuye.com免费节点)_165
       - 🇺🇸 美国(yfuye.com免费节点)_2
-      - 🇺🇸 美国(yfuye.com免费节点)_20
       - 🇺🇸 美国(yfuye.com免费节点)_23
       - 🇺🇸 美国(yfuye.com免费节点)_24
       - 🇺🇸 美国(yfuye.com免费节点)_25
@@ -14382,7 +14380,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 072
       - 🇷🇺 俄罗斯 073
       - 🇷🇺 俄罗斯 074
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】17
       - 🇸🇦 沙特阿拉伯 001
       - 🇸🇪 瑞典 001

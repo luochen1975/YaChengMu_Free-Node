@@ -545,6 +545,7 @@ proxies:
   - {name: 🇩🇪 德国 079, server: 185.135.9.50, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.sosocn.abrdns.com, network: ws, ws-opts: {path: /snippets, headers: {Host: saas.sosocn.abrdns.com}}, udp: true}
   - {name: 🇩🇪 德国 080, server: 185.135.9.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes+", headers: {Host: saas.git.cloudns.org}}, udp: true}
   - {name: 🇩🇪 德国 081, server: 84.201.4.247, port: 15349, client-fingerprint: chrome, type: vless, uuid: b797d2a9-37b7-47e2-a7d2-d5f4c41c28e9, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇩🇪 德国 GHOSTnet GmbH, server: 5.231.56.98, port: 43910, client-fingerprint: chrome, type: vmess, uuid: 39b4da5c-dd63-4bb0-abae-2cbc9d208d0d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇩🇪 德国(yfuye.com免费节点)_2, server: 5.182.34.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇩🇪 德国(yfuye.com免费节点)_3, server: 185.158.133.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇩🇪 德国(yfuye.com免费节点)_5, server: 31.185.108.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
@@ -1419,7 +1420,6 @@ proxies:
   - {name: 🇯🇵 日本 97-144, server: 104.254.140.32, port: 2096, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇯🇵 日本 98-119, server: 92.53.191.32, port: 2096, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇯🇵 日本 99-120, server: 91.124.127.32, port: 2096, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets}, udp: true}
-  - {name: 🇯🇵 日本 V2CROSS.COM, server: 150.40.181.155, port: 27183, client-fingerprint: chrome, type: vmess, uuid: 010cc3fe-0246-4adb-a4f2-adff67ad3730, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_1, server: 103.245.228.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_2, server: 103.245.229.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_3, server: 103.116.7.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
@@ -1703,7 +1703,6 @@ proxies:
   - {name: "🇹🇼 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 85", server: db6fc17a-t2hgg0-ta5nd4-e06r.tw3.p5pv.com, port: 443, client-fingerprint: chrome, type: http, username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902, password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902, tls: true, udp: true}
   - {name: "🇹🇼 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 89", server: 500faffc-t2hgg0-tei4of-1qxa1.tw3.p5pv.com, port: 443, client-fingerprint: chrome, type: http, username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d, password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d, tls: true, udp: true}
   - {name: "🇹🇼 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 94", server: afa76f99-t2jb40-tedirp-1fli7.tw3.p5pv.com, port: 443, client-fingerprint: chrome, type: http, username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, tls: true, udp: true}
-  - {name: 🇹🇼 台湾省台北市 AboveNet, server: 43.246.198.134, port: 11683, client-fingerprint: chrome, type: vmess, uuid: c040f159-377d-4b62-aaf6-994460d3ee4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇺🇦 乌克兰 001, server: 94.131.13.163, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 002, server: 94.131.13.207, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 003, server: 185.234.66.89, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -2707,8 +2706,9 @@ proxies:
   - {name: 🇺🇸 美国 863, server: 69.50.93.90, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 69.50.93.90}}, udp: true}
   - {name: 🇺🇸 美国 864, server: singapore.com, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}, udp: true}
   - {name: 🇺🇸 美国 865, server: www.baldengineer.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws/afrhms16v.bestxray.buzz, headers: {Host: yelan.thelastronin.cloudns.org}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: hk.bethebest.eu.org, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 32d3795c-7e38-425a-8a8c-9d195d1cb351, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us7.123417.xyz}}, udp: true}
   - {name: 🇺🇸 美国 V2CROSS.COM, server: 23.27.240.193, port: 26710, client-fingerprint: chrome, type: vmess, uuid: 7cc16cad-66e3-4efb-84ba-a8b3a390ce52, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /7cc16cad}, udp: true}
-  - {name: 🇺🇸 美国 阿里云, server: 47.239.141.74, port: 11886, client-fingerprint: chrome, type: vmess, uuid: 0d36b017-6d7c-493d-bb12-55c34faf6efc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 阿里云, server: 47.236.190.135, port: 5079, client-fingerprint: chrome, type: vmess, uuid: fa159e9a-75b0-469e-a195-57f0c22456f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 213.182.199.50, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.sosocn.abrdns.com, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: 198.12.144.50, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.sosocn.abrdns.com, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_100, server: 199.181.197.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
@@ -3415,6 +3415,7 @@ proxy-groups:
       - 🇩🇪 德国 079
       - 🇩🇪 德国 080
       - 🇩🇪 德国 081
+      - 🇩🇪 德国 GHOSTnet GmbH
       - 🇩🇪 德国(yfuye.com免费节点)_2
       - 🇩🇪 德国(yfuye.com免费节点)_3
       - 🇩🇪 德国(yfuye.com免费节点)_5
@@ -4259,7 +4260,6 @@ proxy-groups:
       - 🇯🇵 日本 97-144
       - 🇯🇵 日本 98-119
       - 🇯🇵 日本 99-120
-      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_3
@@ -4487,7 +4487,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 台湾省台北市 AboveNet
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -5479,6 +5478,7 @@ proxy-groups:
       - 🇺🇸 美国 863
       - 🇺🇸 美国 864
       - 🇺🇸 美国 865
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 阿里云
       - 🇺🇸 美国(yfuye.com免费节点)_1
@@ -6162,6 +6162,7 @@ proxy-groups:
       - 🇩🇪 德国 079
       - 🇩🇪 德国 080
       - 🇩🇪 德国 081
+      - 🇩🇪 德国 GHOSTnet GmbH
       - 🇩🇪 德国(yfuye.com免费节点)_2
       - 🇩🇪 德国(yfuye.com免费节点)_3
       - 🇩🇪 德国(yfuye.com免费节点)_5
@@ -7006,7 +7007,6 @@ proxy-groups:
       - 🇯🇵 日本 97-144
       - 🇯🇵 日本 98-119
       - 🇯🇵 日本 99-120
-      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_3
@@ -7234,7 +7234,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 台湾省台北市 AboveNet
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -8226,6 +8225,7 @@ proxy-groups:
       - 🇺🇸 美国 863
       - 🇺🇸 美国 864
       - 🇺🇸 美国 865
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 阿里云
       - 🇺🇸 美国(yfuye.com免费节点)_1
@@ -8681,7 +8681,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 台湾省台北市 AboveNet
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -9070,7 +9069,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 台湾省台北市 AboveNet
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -9494,7 +9492,6 @@ proxy-groups:
       - 🇯🇵 日本 97-144
       - 🇯🇵 日本 98-119
       - 🇯🇵 日本 99-120
-      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_3
@@ -10461,6 +10458,7 @@ proxy-groups:
       - 🇺🇸 美国 863
       - 🇺🇸 美国 864
       - 🇺🇸 美国 865
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 阿里云
       - 🇺🇸 美国(yfuye.com免费节点)_1
@@ -11002,6 +11000,7 @@ proxy-groups:
       - 🇩🇪 德国 079
       - 🇩🇪 德国 080
       - 🇩🇪 德国 081
+      - 🇩🇪 德国 GHOSTnet GmbH
       - 🇩🇪 德国(yfuye.com免费节点)_2
       - 🇩🇪 德国(yfuye.com免费节点)_3
       - 🇩🇪 德国(yfuye.com免费节点)_5
@@ -11706,7 +11705,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 台湾省台北市 AboveNet
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
@@ -12092,7 +12090,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 台湾省台北市 AboveNet
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
@@ -12510,7 +12507,6 @@ proxy-groups:
       - 🇯🇵 日本 97-144
       - 🇯🇵 日本 98-119
       - 🇯🇵 日本 99-120
-      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_3
@@ -13474,6 +13470,7 @@ proxy-groups:
       - 🇺🇸 美国 863
       - 🇺🇸 美国 864
       - 🇺🇸 美国 865
+      - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 阿里云
       - 🇺🇸 美国(yfuye.com免费节点)_1
@@ -14012,6 +14009,7 @@ proxy-groups:
       - 🇩🇪 德国 079
       - 🇩🇪 德国 080
       - 🇩🇪 德国 081
+      - 🇩🇪 德国 GHOSTnet GmbH
       - 🇩🇪 德国(yfuye.com免费节点)_2
       - 🇩🇪 德国(yfuye.com免费节点)_3
       - 🇩🇪 德国(yfuye.com免费节点)_5

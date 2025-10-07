@@ -1017,6 +1017,7 @@ proxies:
   - {name: 🇮🇷 伊朗 047, server: iranserver.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 2df56fd0-d1b7-4793-b877-acd356d960f7, tls: true, servername: download-93w.pages.dev, network: ws, ws-opts: {path: /Telegram, headers: {Host: download-93w.pages.dev}}, udp: true}
   - {name: 🇮🇷 伊朗 048, server: 37.27.185.191, port: 11564, reality-opts: {public-key: eM3u-GwZW19ayWL4LZAGFUFIc4OHf_k9tAlLgW8MsRE}, client-fingerprint: firefox, type: vless, uuid: cfa08526-b1df-43ce-e636-98c7cfbca6fe, tls: true, servername: microsoft.com, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇮🇷 伊朗 049, server: hetz-vm1.serjio.sbs, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 166b8dda-9126-4ecc-8d22-6b5ba2df9c1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 95.81.106.102, port: 8443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 7Lt2sqUu9wsA4lAgPcXdjB, udp: true}
   - {name: 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1, server: 37.235.49.168, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇮🇹 意大利 001, server: 151.101.242.172, port: 80, client-fingerprint: chrome, type: vless, uuid: 62915088-0f71-4592-bf82-3f02d4db1239, tls: true, servername: Germany.ss.ss, network: ws, ws-opts: {path: "WEDBAZ?ed=2048", headers: {Host: Germany.ss.ss}}, udp: true}
   - {name: 🇮🇹 意大利 002, server: 31.14.135.127, port: 7035, client-fingerprint: chrome, type: vless, uuid: 7d27c544-135d-41a2-bd84-713b8af4f3c2, tls: true, servername: filimo.com, network: ws, ws-opts: {path: /, headers: {Host: filimo.com}}, udp: true}
@@ -1299,6 +1300,7 @@ proxies:
   - {name: 🇯🇵 日本 079, server: 52.195.13.90, port: 46484, client-fingerprint: chrome, type: vmess, uuid: 22acc467-7440-386a-927a-d84be554b37e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 080, server: 638950280434435328.neyshabur-drc-tusacaf.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇯🇵 日本 081, server: bgroup.node1.v.nodelist-airport.com, port: 50005, client-fingerprint: chrome, type: vmess, uuid: a2e7d484-6e45-4ef6-81b7-e5bffce1e850, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 东京都Amazon数据中心, server: tls.07.node-for-bigairport.win, port: 22211, client-fingerprint: chrome, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_1, server: 103.245.228.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_2, server: 103.245.229.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_3, server: 103.116.7.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
@@ -3801,6 +3803,7 @@ proxy-groups:
       - 🇮🇷 伊朗 047
       - 🇮🇷 伊朗 048
       - 🇮🇷 伊朗 049
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
@@ -4059,6 +4062,7 @@ proxy-groups:
       - 🇯🇵 日本 079
       - 🇯🇵 日本 080
       - 🇯🇵 日本 081
+      - 🇯🇵 日本 东京都Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_3
@@ -6468,6 +6472,7 @@ proxy-groups:
       - 🇮🇷 伊朗 047
       - 🇮🇷 伊朗 048
       - 🇮🇷 伊朗 049
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
@@ -6726,6 +6731,7 @@ proxy-groups:
       - 🇯🇵 日本 079
       - 🇯🇵 日本 080
       - 🇯🇵 日本 081
+      - 🇯🇵 日本 东京都Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_3
@@ -9113,6 +9119,7 @@ proxy-groups:
       - 🇯🇵 日本 079
       - 🇯🇵 日本 080
       - 🇯🇵 日本 081
+      - 🇯🇵 日本 东京都Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_3
@@ -10892,6 +10899,7 @@ proxy-groups:
       - 🇮🇷 伊朗 047
       - 🇮🇷 伊朗 048
       - 🇮🇷 伊朗 049
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
@@ -12047,6 +12055,7 @@ proxy-groups:
       - 🇯🇵 日本 079
       - 🇯🇵 日本 080
       - 🇯🇵 日本 081
+      - 🇯🇵 日本 东京都Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_3
@@ -13820,6 +13829,7 @@ proxy-groups:
       - 🇮🇷 伊朗 047
       - 🇮🇷 伊朗 048
       - 🇮🇷 伊朗 049
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002

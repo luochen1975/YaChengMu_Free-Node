@@ -690,6 +690,7 @@ proxies:
   - {name: 🇨🇳 CN_speednode_0006, server: v6.heduian.link, port: 30806, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
   - {name: 🇨🇳 CN_speednode_0007, server: 36.156.102.88, port: 472, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 CN_speednode_0008, server: v33.heduian.link, port: 30833, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇨🇳 上海市 电信IDC机房, server: entrance04.qqa678.cc, port: 47081, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: e9b0fa0b-72fb-4993-a251-9f518512fec8, udp: true}
   - {name: 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 104, server: 212.192.12.234, port: 61532, client-fingerprint: chrome, type: tuic, password: 0494e68d-e085-4237-b274-5e65574ad7c2, uuid: 0494e68d-e085-4237-b274-5e65574ad7c2, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
   - {name: 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 105, server: 212.192.12.234, port: 44463, client-fingerprint: chrome, type: hysteria2, password: 0494e68d-e085-4237-b274-5e65574ad7c2, auth: 0494e68d-e085-4237-b274-5e65574ad7c2, sni: apple.com, skip-cert-verify: true, obfs: salamander, obfs-password: CDDQ1dntNm3j0K9i, udp: true}
   - {name: 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 111, server: 212.192.12.234, port: 51562, client-fingerprint: chrome, type: tuic, password: 0494e68d-e085-4237-b274-5e65574ad7c2, uuid: 0494e68d-e085-4237-b274-5e65574ad7c2, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
@@ -821,7 +822,6 @@ proxies:
   - {name: 🇨🇳 中国 103, server: 223.18.129.85, port: 11263, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: dd.ylks.xyz, network: ws, ws-opts: {path: /blue, headers: {Host: dd.ylks.xyz}}, udp: true}
   - {name: 🇨🇳 中国 104, server: 59.127.80.162, port: 12224, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lc.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: lc.ylks.us.kg}}, udp: true}
   - {name: 🇨🇳 中国 105, server: v10.heduian.link, port: 30807, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v10.heduian.link}}, udp: true}
-  - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】19, server: entrance04.qqa678.cc, port: 47081, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: e9b0fa0b-72fb-4993-a251-9f518512fec8, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】2, server: 43.247.134.213, port: 18366, client-fingerprint: chrome, type: vmess, uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】20, server: hkcolink-g.stand2pro.org, port: 566, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 7af26eae-63c7-43c8-b335-e3528f790459, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】21, server: dfes.bcymanuscript.top, port: 38318, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ba7bb62d-e5e2-42f6-ab7e-57baf5e95a4b, udp: true}
@@ -1897,7 +1897,6 @@ proxies:
   - {name: 🇯🇵 日本 22-151, server: planb.mojcn.com, port: 16617, client-fingerprint: chrome, type: vmess, uuid: 4d734227-b47d-4690-ae15-c3126ae5d940, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 0fd7bb41908af5aee15097d5f58e1c65.mobgslb.tbcache.com}}, udp: true}
   - {name: 🇯🇵 日本 23-103, server: m.cnmjin.net, port: 16617, client-fingerprint: chrome, type: vmess, uuid: 4d734227-b47d-4690-ae15-c3126ae5d940, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 0fd7bb41908af5aee15097d5f58e1c65.mobgslb.tbcache.com}}, udp: true}
   - {name: 🇯🇵 日本 东京-1203, server: 103.106.228.126, port: 2053, client-fingerprint: chrome, type: vless, uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06, tls: true, servername: 01.91md.fun, network: ws, ws-opts: {path: /%2F%3Fed%3D2048, headers: {Host: 01.91md.fun}}, udp: true}
-  - {name: 🇯🇵 日本 东京Amazon数据中心, server: tls.19.node-for-bigairport.win, port: 23211, client-fingerprint: chrome, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇯🇵 日本 大阪 2-1198, server: 140.83.57.114, port: 25965, client-fingerprint: chrome, type: vless, uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06, tls: true, servername: 01.91md.fun, network: ws, ws-opts: {path: /%2F%3Fed%3D2048, headers: {Host: 01.91md.fun}}, udp: true}
   - {name: 🇯🇵 日本 大阪 3-1249, server: 138.2.48.109, port: 26412, client-fingerprint: chrome, type: vless, uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06, tls: true, servername: 01.91md.fun, network: ws, ws-opts: {path: /%2F%3Fed%3D2048, headers: {Host: 01.91md.fun}}, udp: true}
   - {name: 🇯🇵 日本 大阪-1180, server: 140.83.57.20, port: 13118, client-fingerprint: chrome, type: vless, uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06, tls: true, servername: 01.91md.fun, network: ws, ws-opts: {path: /%2F%3Fed%3D2048, headers: {Host: 01.91md.fun}}, udp: true}
@@ -4305,6 +4304,7 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 CN_speednode_0007
       - 🇨🇳 CN_speednode_0008
+      - 🇨🇳 上海市 电信IDC机房
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 104
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 105
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 111
@@ -4436,7 +4436,6 @@ proxy-groups:
       - 🇨🇳 中国 103
       - 🇨🇳 中国 104
       - 🇨🇳 中国 105
-      - 🇨🇳 中国【机场推荐：https://a0a.xyz/】19
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】2
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】20
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】21
@@ -5474,7 +5473,6 @@ proxy-groups:
       - 🇯🇵 日本 22-151
       - 🇯🇵 日本 23-103
       - 🇯🇵 日本 东京-1203
-      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本 大阪 2-1198
       - 🇯🇵 日本 大阪 3-1249
       - 🇯🇵 日本 大阪-1180
@@ -7786,6 +7784,7 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 CN_speednode_0007
       - 🇨🇳 CN_speednode_0008
+      - 🇨🇳 上海市 电信IDC机房
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 104
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 105
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 111
@@ -7917,7 +7916,6 @@ proxy-groups:
       - 🇨🇳 中国 103
       - 🇨🇳 中国 104
       - 🇨🇳 中国 105
-      - 🇨🇳 中国【机场推荐：https://a0a.xyz/】19
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】2
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】20
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】21
@@ -8955,7 +8953,6 @@ proxy-groups:
       - 🇯🇵 日本 22-151
       - 🇯🇵 日本 23-103
       - 🇯🇵 日本 东京-1203
-      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本 大阪 2-1198
       - 🇯🇵 日本 大阪 3-1249
       - 🇯🇵 日本 大阪-1180
@@ -10939,6 +10936,7 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 CN_speednode_0007
       - 🇨🇳 CN_speednode_0008
+      - 🇨🇳 上海市 电信IDC机房
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 104
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 105
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 111
@@ -11070,7 +11068,6 @@ proxy-groups:
       - 🇨🇳 中国 103
       - 🇨🇳 中国 104
       - 🇨🇳 中国 105
-      - 🇨🇳 中国【机场推荐：https://a0a.xyz/】19
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】2
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】20
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】21
@@ -11674,7 +11671,6 @@ proxy-groups:
       - 🇯🇵 日本 22-151
       - 🇯🇵 日本 23-103
       - 🇯🇵 日本 东京-1203
-      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本 大阪 2-1198
       - 🇯🇵 日本 大阪 3-1249
       - 🇯🇵 日本 大阪-1180
@@ -14733,6 +14729,7 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 CN_speednode_0007
       - 🇨🇳 CN_speednode_0008
+      - 🇨🇳 上海市 电信IDC机房
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 104
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 105
       - 🇨🇳 中国 - 乌恰 - Baxet Group Inc. - 111
@@ -14864,7 +14861,6 @@ proxy-groups:
       - 🇨🇳 中国 103
       - 🇨🇳 中国 104
       - 🇨🇳 中国 105
-      - 🇨🇳 中国【机场推荐：https://a0a.xyz/】19
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】2
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】20
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】21
@@ -15462,7 +15458,6 @@ proxy-groups:
       - 🇯🇵 日本 22-151
       - 🇯🇵 日本 23-103
       - 🇯🇵 日本 东京-1203
-      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本 大阪 2-1198
       - 🇯🇵 日本 大阪 3-1249
       - 🇯🇵 日本 大阪-1180

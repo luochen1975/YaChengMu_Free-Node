@@ -806,6 +806,7 @@ proxies:
   - {name: 🇨🇳 中国 107, server: 106.14.75.114, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】19, server: entrance04.qqa678.cc, port: 47081, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: e9b0fa0b-72fb-4993-a251-9f518512fec8, udp: true}
   - {name: 🇨🇳 广州-1151, server: 81.71.84.31, port: 10008, client-fingerprint: chrome, type: vmess, uuid: dc9ea653-becc-44f1-95f9-16773a0519e9, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇳 江苏省盐城市 移动, server: 36.156.102.88, port: 1801, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 003, server: 190.93.246.246, port: 8443, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: true, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: bitget1.asdasd.click}}, udp: true}
@@ -1863,7 +1864,6 @@ proxies:
   - {name: 🇯🇵 日本01-Netflix/GPT-1107, server: jp04.gnzzrk001.buzz, port: 30031, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dc9ea653-becc-44f1-95f9-16773a0519e9, udp: true}
   - {name: 🇯🇵 日本01-TK/GPT/YouTube-1106, server: jp05.gnzzrk001.top, port: 30092, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dc9ea653-becc-44f1-95f9-16773a0519e9, udp: true}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.136.130, port: 4451, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 36.156.102.88, port: 1801, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本【机场推荐：https://a0a.xyz/】6, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
   - {name: 🇯🇵 日本家宽 03-94, server: ydhost.oboob.cn, port: 15853, client-fingerprint: chrome, type: trojan, password: d2b61d87-d3a2-4a33-8051-57dd9dae28d5, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
   - {name: 🇰🇭 柬埔寨 001, server: 111.92.240.243, port: 8080, client-fingerprint: chrome, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -4334,6 +4334,7 @@ proxy-groups:
       - 🇨🇳 中国 107
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】19
       - 🇨🇳 广州-1151
+      - 🇨🇳 江苏省盐城市 移动
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
@@ -5353,7 +5354,6 @@ proxy-groups:
       - 🇯🇵 日本01-Netflix/GPT-1107
       - 🇯🇵 日本01-TK/GPT/YouTube-1106
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】6
       - 🇯🇵 日本家宽 03-94
       - 🇰🇭 柬埔寨 001
@@ -7728,6 +7728,7 @@ proxy-groups:
       - 🇨🇳 中国 107
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】19
       - 🇨🇳 广州-1151
+      - 🇨🇳 江苏省盐城市 移动
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 4
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
@@ -8747,7 +8748,6 @@ proxy-groups:
       - 🇯🇵 日本01-Netflix/GPT-1107
       - 🇯🇵 日本01-TK/GPT/YouTube-1106
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】6
       - 🇯🇵 日本家宽 03-94
       - 🇰🇭 柬埔寨 001
@@ -10820,6 +10820,7 @@ proxy-groups:
       - 🇨🇳 中国 107
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】19
       - 🇨🇳 广州-1151
+      - 🇨🇳 江苏省盐城市 移动
       - 🇭🇰 HK Akari 10 t.me/txwl666-31
       - 🇭🇰 HK GNTC 02 t.me/txwl666-25
       - 🇭🇰 HK HKT 03 t.me/txwl666-26
@@ -11437,7 +11438,6 @@ proxy-groups:
       - 🇯🇵 日本01-Netflix/GPT-1107
       - 🇯🇵 日本01-TK/GPT/YouTube-1106
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】6
       - 🇯🇵 日本家宽 03-94
   - name: 🇺🇸 ‍美国
@@ -14537,6 +14537,7 @@ proxy-groups:
       - 🇨🇳 中国 107
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】19
       - 🇨🇳 广州-1151
+      - 🇨🇳 江苏省盐城市 移动
       - 🇭🇰 HK Akari 10 t.me/txwl666-31
       - 🇭🇰 HK GNTC 02 t.me/txwl666-25
       - 🇭🇰 HK HKT 03 t.me/txwl666-26
@@ -15148,7 +15149,6 @@ proxy-groups:
       - 🇯🇵 日本01-Netflix/GPT-1107
       - 🇯🇵 日本01-TK/GPT/YouTube-1106
       - 🇯🇵 日本2|@ripaojiedian
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本【机场推荐：https://a0a.xyz/】6
       - 🇯🇵 日本家宽 03-94
   - name: 👆🏻🇺🇸 ‍美国

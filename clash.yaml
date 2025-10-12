@@ -428,8 +428,9 @@ proxies:
   - {name: 🇨🇳 中国移动 Next generation AnyPath® Direct Internet Zero Trust Network Access (DIZTNA3.0) CloudBlades A5-188, server: zero05.fjk.wtf, port: 19743, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: 9hBa1m, udp: true}
   - {name: 🇨🇳 中国移动 Next generation AnyPath® Direct Internet Zero Trust Network Access (DIZTNA3.0) CloudBlades A6-189, server: zero06.fjk.wtf, port: 19743, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: 9hBa1m, udp: true}
   - {name: 🇨🇳 新疆西藏福建都能用, server: 219.94.248.177, port: 443, client-fingerprint: chrome, type: vless, uuid: 2e8a036a-f353-4de7-8889-32eadb936822, tls: true, flow: xtls-rprx-vision, servername: glc-jp3.windowsupdatea.com, network: tcp, udp: true}
-  - {name: 🇨🇳 江苏省盐城市 移动, server: 36.156.102.84, port: 5321, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 江苏省盐城市 移动 2, server: 36.156.102.84, port: 1806, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 江苏省盐城市 移动, server: 36.156.102.84, port: 1806, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 江苏省盐城市 移动 2, server: 36.156.102.84, port: 5321, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 江苏省盐城市 移动 3, server: 36.156.102.84, port: 3160, client-fingerprint: chrome, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 52, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 哥伦比亚 - 波哥大 - Latitude.sh - 1, server: 103.219.169.75, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee5baJuqjN3GuP4CMszM9u0GoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
@@ -447,7 +448,7 @@ proxies:
   - {name: 🇩🇪 DE_speednode_0007, server: de.monkeyisland.life, port: 8443, reality-opts: {public-key: NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE, short-id: "3be8ba17d00eb522" }, client-fingerprint: chrome, type: vless, uuid: fd71044e-127b-429c-9f4a-bd2432e473be, tls: true, flow: xtls-rprx-vision, servername: www.stackoverflow.com, network: tcp, udp: true}
   - {name: 🇩🇪 DE_speednode_0008, server: net2026.zanddynastyofpersia.org, port: 443, client-fingerprint: chrome, type: vless, uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c, tls: true, servername: net2026.zanddynastyofpersia.org, network: ws, ws-opts: {path: /eJsVXFVZ6iavNx1EFxOyH861WH, headers: {Host: net2026.zanddynastyofpersia.org}}, udp: true}
   - {name: 🇩🇪 DS德国法兰克福Hysteria2-442, server: d.eans.top, port: 7009, client-fingerprint: chrome, type: hysteria2, password: e18e5bef-ffe7-4444-ad39-d31cc7c83927, auth: e18e5bef-ffe7-4444-ad39-d31cc7c83927, sni: d.eans.top, up: 50, down: 50, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 DS德国法兰克福Reality-439, server: d.eans.top, port: 7008, reality-opts: {public-key: FPH81X-EMwzv4nXgkplSqBAaK81uLuPYqWaYyIWFsnQ, short-id: "efcbe824" }, client-fingerprint: qq, type: vless, uuid: e18e5bef-ffe7-4444-ad39-d31cc7c83927, tls: true, flow: xtls-rprx-vision, servername: addons.mozilla.org, network: tcp, udp: true}
+  - {name: 🇩🇪 DS德国法兰克福Reality-439, server: d.eans.top, port: 7008, reality-opts: {public-key: FPH81X-EMwzv4nXgkplSqBAaK81uLuPYqWaYyIWFsnQ, short-id: "efcbe824" }, client-fingerprint: firefox, type: vless, uuid: e18e5bef-ffe7-4444-ad39-d31cc7c83927, tls: true, flow: xtls-rprx-vision, servername: addons.mozilla.org, network: tcp, udp: true}
   - {name: 🇩🇪 V1-德国02-643, server: dy.xgboard2.top, port: 52002, client-fingerprint: chrome, type: trojan, password: 68f4b269-6635-451c-b864-40bf50ccbc20, sni: ger002.yijiasu.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 deluxhost法兰克福Hysteria2-444, server: de.eans.top, port: 7009, client-fingerprint: chrome, type: hysteria2, password: e18e5bef-ffe7-4444-ad39-d31cc7c83927, auth: e18e5bef-ffe7-4444-ad39-d31cc7c83927, sni: de.eans.top, up: 50, down: 50, skip-cert-verify: false, udp: true}
   - {name: 🇩🇪 德国 - Frankfurt - GTHost - 10, server: 193.108.118.133, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee721mS93KFl-mU8XR4_BEg3xsnp5o63PElOVpFduiCmYA==, password: 1, tls: false, udp: true}
@@ -913,9 +914,9 @@ proxies:
   - {name: 🇭🇰 V1-香港02-622, server: dy.xgboard2.top, port: 43002, client-fingerprint: chrome, type: trojan, password: 68f4b269-6635-451c-b864-40bf50ccbc20, sni: hk002.yijiasu.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 V1-香港03-623, server: dy.xgboard2.top, port: 43003, client-fingerprint: chrome, type: trojan, password: 68f4b269-6635-451c-b864-40bf50ccbc20, sni: hk003.yijiasu.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 V1-香港04-624, server: dy.xgboard2.top, port: 43004, client-fingerprint: chrome, type: trojan, password: 68f4b269-6635-451c-b864-40bf50ccbc20, sni: hk004.yijiasu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 VM香港Reality-440, server: h.eans.top, port: 7008, reality-opts: {public-key: Oj8-fhTWXtsuOkPJxRra_9gK3K_Jnxi-Ybek148Iixs, short-id: "806ba558" }, client-fingerprint: edge, type: vless, uuid: e18e5bef-ffe7-4444-ad39-d31cc7c83927, tls: true, flow: xtls-rprx-vision, servername: addons.mozilla.org, network: tcp, udp: true}
+  - {name: 🇭🇰 VM香港Reality-440, server: h.eans.top, port: 7008, reality-opts: {public-key: Oj8-fhTWXtsuOkPJxRra_9gK3K_Jnxi-Ybek148Iixs, short-id: "806ba558" }, client-fingerprint: ios, type: vless, uuid: e18e5bef-ffe7-4444-ad39-d31cc7c83927, tls: true, flow: xtls-rprx-vision, servername: addons.mozilla.org, network: tcp, udp: true}
   - {name: 🇭🇰 cnfaster香港Hysteria2-446, server: cn.eans.top, port: 7009, client-fingerprint: chrome, type: hysteria2, password: e18e5bef-ffe7-4444-ad39-d31cc7c83927, auth: e18e5bef-ffe7-4444-ad39-d31cc7c83927, sni: h.eans.top, up: 50, down: 50, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 cnfaster香港Reality-441, server: cn.eans.top, port: 7008, reality-opts: {public-key: Oj8-fhTWXtsuOkPJxRra_9gK3K_Jnxi-Ybek148Iixs, short-id: "806ba558" }, client-fingerprint: edge, type: vless, uuid: e18e5bef-ffe7-4444-ad39-d31cc7c83927, tls: true, flow: xtls-rprx-vision, servername: addons.mozilla.org, network: tcp, udp: true}
+  - {name: 🇭🇰 cnfaster香港Reality-441, server: cn.eans.top, port: 7008, reality-opts: {public-key: Oj8-fhTWXtsuOkPJxRra_9gK3K_Jnxi-Ybek148Iixs, short-id: "806ba558" }, client-fingerprint: safari, type: vless, uuid: e18e5bef-ffe7-4444-ad39-d31cc7c83927, tls: true, flow: xtls-rprx-vision, servername: addons.mozilla.org, network: tcp, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Communilink Internet LTD - 61, server: 43.252.166.214, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee66ZlS55yV1RUBZeT5tnev9oXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 63, server: 43.252.229.243, port: 3000, client-fingerprint: chrome, type: http, username: wanghui1, password: wanghui1, tls: false, udp: true}
   - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 64, server: home-hkt-4.strongpipe.cloud, port: 20443, client-fingerprint: chrome, type: http, username: dd247fc262, password: 80c9752a41, tls: true, skip-cert-verify: true, udp: true}
@@ -974,7 +975,6 @@ proxies:
   - {name: 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A11-284, server: sghk11.fjk.wtf, port: 19743, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: 9hBa1m, udp: true}
   - {name: 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A12-285, server: sghk12.fjk.wtf, port: 19743, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: 9hBa1m, udp: true}
   - {name: 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A15-288, server: sghk15.fjk.wtf, port: 19743, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: 9hBa1m, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 154.194.0.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_10, server: 154.218.15.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_11, server: 154.197.88.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
@@ -3572,6 +3572,7 @@ proxy-groups:
       - 🇨🇳 新疆西藏福建都能用
       - 🇨🇳 江苏省盐城市 移动
       - 🇨🇳 江苏省盐城市 移动 2
+      - 🇨🇳 江苏省盐城市 移动 3
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 52
       - 🇨🇴 哥伦比亚 - 波哥大 - Latitude.sh - 1
       - 🇨🇷 哥斯达黎加 002
@@ -4099,7 +4100,6 @@ proxy-groups:
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A11-284
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A12-285
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A15-288
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -6592,6 +6592,7 @@ proxy-groups:
       - 🇨🇳 新疆西藏福建都能用
       - 🇨🇳 江苏省盐城市 移动
       - 🇨🇳 江苏省盐城市 移动 2
+      - 🇨🇳 江苏省盐城市 移动 3
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 52
       - 🇨🇴 哥伦比亚 - 波哥大 - Latitude.sh - 1
       - 🇨🇷 哥斯达黎加 002
@@ -7119,7 +7120,6 @@ proxy-groups:
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A11-284
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A12-285
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A15-288
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -9361,7 +9361,6 @@ proxy-groups:
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A11-284
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A12-285
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A15-288
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -9583,6 +9582,7 @@ proxy-groups:
       - 🇨🇳 新疆西藏福建都能用
       - 🇨🇳 江苏省盐城市 移动
       - 🇨🇳 江苏省盐城市 移动 2
+      - 🇨🇳 江苏省盐城市 移动 3
       - 🇭🇰 HK Akari 10 t.me/txwl666-30
       - 🇭🇰 HK GNTC 02 t.me/txwl666-24
       - 🇭🇰 HK HKT 03 t.me/txwl666-25
@@ -9696,7 +9696,6 @@ proxy-groups:
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A11-284
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A12-285
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A15-288
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -12608,7 +12607,6 @@ proxy-groups:
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A11-284
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A12-285
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A15-288
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -12824,6 +12822,7 @@ proxy-groups:
       - 🇨🇳 新疆西藏福建都能用
       - 🇨🇳 江苏省盐城市 移动
       - 🇨🇳 江苏省盐城市 移动 2
+      - 🇨🇳 江苏省盐城市 移动 3
       - 🇭🇰 HK Akari 10 t.me/txwl666-30
       - 🇭🇰 HK GNTC 02 t.me/txwl666-24
       - 🇭🇰 HK HKT 03 t.me/txwl666-25
@@ -12937,7 +12936,6 @@ proxy-groups:
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A11-284
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A12-285
       - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 A15-288
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11

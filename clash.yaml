@@ -727,6 +727,7 @@ proxies:
   - {name: 🇭🇰 香港5|@ripaojiedian, server: 103.224.80.42, port: 38901, client-fingerprint: chrome, type: vmess, uuid: 230938d9-ae9d-49e7-b3cb-9f44168f89e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港7|@ripaojiedian, server: 103.149.183.154, port: 8388, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇺 HU_speednode_0011, server: 5.182.38.91, port: 17267, reality-opts: {public-key: SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk, short-id: "4ae260" }, client-fingerprint: chrome, type: vless, uuid: 1c7fcc38-e6be-43c5-875f-b8de2516b9f2, tls: true, servername: yahoo.com, network: tcp, udp: true}
+  - {name: 🇭🇺 匈牙利 V2CROSS.COM, server: 109.61.39.28, port: 990, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
   - {name: 🇮🇪 爱尔兰 001, server: 52.215.68.89, port: 22222, client-fingerprint: chrome, type: vless, uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e, tls: true, servername: telegram-channel-vlessconfig.sohala.uk, network: ws, ws-opts: {path: /telegram-channel-vlessconfig-ws, headers: {Host: telegram-channel-vlessconfig.sohala.uk}}, udp: true}
   - {name: 🇮🇱 IL_speednode_0012, server: 77.91.74.189, port: 28495, reality-opts: {public-key: KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ, short-id: "0ecc2c1392" }, client-fingerprint: random, type: vless, uuid: 7e296434-2d17-48d3-928d-19eaa34aecb1, tls: true, servername: dl.google.com, network: tcp, udp: true}
   - {name: 🇮🇱 以色列 001, server: 185.47.172.105, port: 2083, client-fingerprint: chrome, type: vless, uuid: 354712c4-dab3-452c-89fd-0a2edd6999f9, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -1181,8 +1182,8 @@ proxies:
   - {name: 🇹🇼 TW_speednode_0044, server: 1.165.114.124, port: 10054, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d69d0fae-160d-4c97-9c73-d64ffc222efe, udp: true}
   - {name: 🇹🇼 TW_speednode_0045, server: 125.230.11.163, port: 10022, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c6e2a9f1-70e1-4dda-a58c-8331c8f06ef6, udp: true}
   - {name: 🇹🇼 TW_speednode_0046, server: 114.46.121.31, port: 10072, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 5def005d-9d7e-4b22-8046-ae9b9b2e21a4, udp: true}
-  - {name: 🇹🇼 台湾省 中华电信(HiNet)数据中心, server: 125.228.180.215, port: 10089, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d69d0fae-160d-4c97-9c73-d64ffc222efe, udp: true}
-  - {name: 🇹🇼 台湾省台中市 中华电信, server: 36.232.115.87, port: 10150, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 62127897-04cc-4204-9c49-f789a9f24950, udp: true}
+  - {name: 🇹🇼 台湾省台中市 中华电信, server: 36.235.11.59, port: 10117, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 759de4f3-ac4b-4d02-a25f-7fd753ad3222, udp: true}
+  - {name: 🇹🇼 台湾省台北市 V2CROSS.COM, server: 46.3.26.12, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}, udp: true}
   - {name: 🇺🇦 乌克兰 001, server: 185.234.64.94, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 002, server: 638932111805004627.rasht-drc-dcrabj.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 003, server: 638930359207602168.dublin-drc-dcrabj.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -2168,7 +2169,6 @@ proxies:
   - {name: 🇺🇸 美国 829, server: 64.69.40.135, port: 41185, client-fingerprint: chrome, type: vmess, uuid: 9ba1c290-2f90-4fe7-efab-390af3dfd498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 830, server: 47.83.10.70, port: 53544, client-fingerprint: chrome, type: vmess, uuid: e7b88e16-7480-4ec1-e1f2-523b45462467, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 831, server: 172.82.65.77, port: 443, client-fingerprint: chrome, type: vmess, uuid: 1ecc7e61-d639-4e18-8cae-2cff9e787261, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ZVrc7MGZcKzYE40sF9Z5, headers: {Host: m16-9d86dc15-7d51-7138-bee5-645e0ef7936c.huangshang.pp.ua}}, udp: true}
-  - {name: 🇺🇸 美国 832, server: 46.3.26.12, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}, udp: true}
   - {name: 🇺🇸 美国 833, server: 166.62.111.54, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: sni.aizrf.com, network: ws, ws-opts: {path: "/snippets&freecodes", headers: {Host: sni.aizrf.com}}, udp: true}
   - {name: 🇺🇸 美国 834, server: 104.129.166.54, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: sni.aizrf.com, network: ws, ws-opts: {path: /snippets, headers: {Host: sni.aizrf.com}}, udp: true}
   - {name: 🇺🇸 美国 835, server: 135.84.76.54, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: sni.aizrf.com, network: ws, ws-opts: {path: /snippets, headers: {Host: sni.aizrf.com}}, udp: true}
@@ -3302,6 +3302,7 @@ proxy-groups:
       - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港7|@ripaojiedian
       - 🇭🇺 HU_speednode_0011
+      - 🇭🇺 匈牙利 V2CROSS.COM
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 IL_speednode_0012
       - 🇮🇱 以色列 001
@@ -3749,8 +3750,8 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
       - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台北市 V2CROSS.COM
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -4730,7 +4731,6 @@ proxy-groups:
       - 🇺🇸 美国 829
       - 🇺🇸 美国 830
       - 🇺🇸 美国 831
-      - 🇺🇸 美国 832
       - 🇺🇸 美国 833
       - 🇺🇸 美国 834
       - 🇺🇸 美国 835
@@ -5839,6 +5839,7 @@ proxy-groups:
       - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港7|@ripaojiedian
       - 🇭🇺 HU_speednode_0011
+      - 🇭🇺 匈牙利 V2CROSS.COM
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 IL_speednode_0012
       - 🇮🇱 以色列 001
@@ -6286,8 +6287,8 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
       - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台北市 V2CROSS.COM
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -7267,7 +7268,6 @@ proxy-groups:
       - 🇺🇸 美国 829
       - 🇺🇸 美国 830
       - 🇺🇸 美国 831
-      - 🇺🇸 美国 832
       - 🇺🇸 美国 833
       - 🇺🇸 美国 834
       - 🇺🇸 美国 835
@@ -7799,8 +7799,8 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
       - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -8028,8 +8028,8 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
       - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -9113,7 +9113,6 @@ proxy-groups:
       - 🇺🇸 美国 829
       - 🇺🇸 美国 830
       - 🇺🇸 美国 831
-      - 🇺🇸 美国 832
       - 🇺🇸 美国 833
       - 🇺🇸 美国 834
       - 🇺🇸 美国 835
@@ -9929,6 +9928,7 @@ proxy-groups:
       - 🇬🇷 GR_speednode_0010
       - 🇬🇷 希腊 - 塞萨洛尼基 - SYNAPSECOM S.A. Provider of Telecommunications and Internet Services - 1
       - 🇭🇺 HU_speednode_0011
+      - 🇭🇺 匈牙利 V2CROSS.COM
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 IL_speednode_0012
       - 🇮🇱 以色列 001
@@ -10443,8 +10443,8 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
       - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
@@ -10669,8 +10669,8 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
       - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
@@ -11745,7 +11745,6 @@ proxy-groups:
       - 🇺🇸 美国 829
       - 🇺🇸 美国 830
       - 🇺🇸 美国 831
-      - 🇺🇸 美国 832
       - 🇺🇸 美国 833
       - 🇺🇸 美国 834
       - 🇺🇸 美国 835
@@ -12558,6 +12557,7 @@ proxy-groups:
       - 🇬🇷 GR_speednode_0010
       - 🇬🇷 希腊 - 塞萨洛尼基 - SYNAPSECOM S.A. Provider of Telecommunications and Internet Services - 1
       - 🇭🇺 HU_speednode_0011
+      - 🇭🇺 匈牙利 V2CROSS.COM
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 IL_speednode_0012
       - 🇮🇱 以色列 001

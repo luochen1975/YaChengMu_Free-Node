@@ -465,6 +465,7 @@ proxies:
   - {name: 🇪🇺 欧洲 002, server: 138.199.175.204, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012ijnqibqygqo98710, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇪🇺 欧洲 003, server: 138.199.219.74, port: 443, client-fingerprint: chrome, type: vless, uuid: 9a04ee08-59f3-4de9-8424-6b32f06fbc68, tls: true, servername: 138.199.219.74, network: ws, ws-opts: {path: "/linkws?ed", headers: {Host: 138.199.219.74}}, udp: true}
   - {name: 🇪🇺 欧洲 004, server: direct-jde6zos4zet26b15zzd1.appcity-download.ir, port: 64286, client-fingerprint: chrome, type: vless, uuid: ca2bbc0a-3139-4a1c-bc93-049ad63c1d95, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇪🇺 欧盟 V2CROSS.COM, server: beesyar.org, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1, server: 157.180.123.212, port: 10100, client-fingerprint: chrome, type: vmess, uuid: 14fd5c56-2d55-44a5-9876-6ce27d3aec44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇫🇮 芬兰 001, server: 95.216.186.191, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /telegram-id-, headers: {Host: google.com}}, udp: true}
   - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -730,6 +731,7 @@ proxies:
   - {name: 🇮🇪 爱尔兰 001, server: 52.215.68.89, port: 22222, client-fingerprint: chrome, type: vless, uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e, tls: true, servername: telegram-channel-vlessconfig.sohala.uk, network: ws, ws-opts: {path: /telegram-channel-vlessconfig-ws, headers: {Host: telegram-channel-vlessconfig.sohala.uk}}, udp: true}
   - {name: 🇮🇱 IL_speednode_0012, server: 77.91.74.189, port: 28495, reality-opts: {public-key: KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ, short-id: "0ecc2c1392" }, client-fingerprint: random, type: vless, uuid: 7e296434-2d17-48d3-928d-19eaa34aecb1, tls: true, servername: dl.google.com, network: tcp, udp: true}
   - {name: 🇮🇱 以色列 001, server: 185.47.172.105, port: 2083, client-fingerprint: chrome, type: vless, uuid: 354712c4-dab3-452c-89fd-0a2edd6999f9, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇮🇳 印度 V2CROSS.COM, server: id.vpnsparta.pro, port: 57456, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 🇮🇳 英属印度洋领地 001, server: vc.fly.dev, port: 443, client-fingerprint: chrome, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vc, headers: {Host: vc.fly.dev}}, udp: true}
   - {name: 🇮🇷 伊朗 001, server: 91.99.217.71, port: 6003, client-fingerprint: chrome, type: vless, uuid: b3138f88-8845-41f7-8250-6eaa30be0110, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.stackoverflow.com]}}, udp: true}
   - {name: 🇮🇷 伊朗 002, server: 91.98.47.45, port: 443, client-fingerprint: chrome, type: vless, uuid: d4803c0d-c9f3-4c9c-a034-342a71ef03a0, tls: false, network: ws, ws-opts: {path: "/linkws?ed", headers: {Host: 91.98.47.45}}, udp: true}
@@ -918,7 +920,6 @@ proxies:
   - {name: 🇱🇺 卢森堡 001, server: 188.42.89.44, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, packet-encoding: xudp, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: /snippets, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇱🇺 卢森堡 002, server: 94.242.231.244, port: 2053, client-fingerprint: chrome, type: vless, uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f, tls: true, servername: juzibaipiao.5112233.xyz, network: ws, ws-opts: {path: "/?ed=2048security=tls", headers: {Host: juzibaipiao.5112233.xyz}}, udp: true}
   - {name: 🇱🇺 卢森堡 003, server: 188.42.88.62, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: ss.nzvrn.com, network: ws, ws-opts: {path: "/snippets&freecodes+", headers: {Host: ss.nzvrn.com}}, udp: true}
-  - {name: 🇱🇻 拉脱维亚 V2CROSS.COM, server: 46.183.217.204, port: 990, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
   - {name: "🇲🇦 摩洛哥 - Fes - BrainStorm Network, Inc - 1", server: 188.214.157.30, port: 990, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
   - {name: 🇲🇩 MD_speednode_0029, server: 94.232.247.168, port: 41360, reality-opts: {public-key: TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU, short-id: "1aab45" }, client-fingerprint: chrome, type: vless, uuid: e16a35ea-6715-4e75-9845-d20358bd0876, tls: true, servername: yahoo.com, network: tcp, udp: true}
   - {name: 🇲🇩 _MD_摩尔多瓦, server: 91.132.94.200, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1124,6 +1125,7 @@ proxies:
   - {name: 🇷🇺 俄罗斯 091, server: che-0001-xr.packet-drop-society.net, port: 443, client-fingerprint: chrome, type: vless, uuid: 562c71d0-f18b-402c-b1ad-5c2bbfcd6e02, tls: true, network: tcp, udp: true}
   - {name: 🇷🇺 俄罗斯 092, server: 638947655065548930.bandar-prx-dnraacq.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 093, server: 80.92.206.172, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 212.192.15.176, port: 25169, client-fingerprint: chrome, type: vmess, uuid: 0b4d2a2c-7ac1-4cf5-bac8-c6b8fa9afd77, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇸🇦 沙特阿拉伯 002, server: 91.209.253.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes+", headers: {Host: saas.git.cloudns.org}}, udp: true}
   - {name: "🇸🇪 瑞典 - 斯德哥尔摩 - Amazon.com, Inc. - 1", server: 13.60.209.163, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇸🇪 瑞典 001, server: 148.135.184.84, port: 35500, client-fingerprint: chrome, type: vmess, uuid: 744847f4-8549-4bab-a8e4-6b410d271c16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1182,7 +1184,7 @@ proxies:
   - {name: 🇹🇼 TW_speednode_0044, server: 1.165.114.124, port: 10054, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d69d0fae-160d-4c97-9c73-d64ffc222efe, udp: true}
   - {name: 🇹🇼 TW_speednode_0045, server: 125.230.11.163, port: 10022, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c6e2a9f1-70e1-4dda-a58c-8331c8f06ef6, udp: true}
   - {name: 🇹🇼 TW_speednode_0046, server: 114.46.121.31, port: 10072, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 5def005d-9d7e-4b22-8046-ae9b9b2e21a4, udp: true}
-  - {name: 🇹🇼 台湾省台中市 中华电信, server: 1.165.68.244, port: 10027, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 35ee1ac4-e3b2-43f0-b6d6-46e154b6d98d, udp: true}
+  - {name: 🇹🇼 台湾省台北市 V2CROSS.COM, server: 46.3.26.12, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}, udp: true}
   - {name: 🇺🇦 乌克兰 001, server: 185.234.64.94, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 002, server: 638932111805004627.rasht-drc-dcrabj.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 003, server: 638930359207602168.dublin-drc-dcrabj.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -2168,7 +2170,6 @@ proxies:
   - {name: 🇺🇸 美国 829, server: 64.69.40.135, port: 41185, client-fingerprint: chrome, type: vmess, uuid: 9ba1c290-2f90-4fe7-efab-390af3dfd498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 830, server: 47.83.10.70, port: 53544, client-fingerprint: chrome, type: vmess, uuid: e7b88e16-7480-4ec1-e1f2-523b45462467, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 831, server: 172.82.65.77, port: 443, client-fingerprint: chrome, type: vmess, uuid: 1ecc7e61-d639-4e18-8cae-2cff9e787261, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ZVrc7MGZcKzYE40sF9Z5, headers: {Host: m16-9d86dc15-7d51-7138-bee5-645e0ef7936c.huangshang.pp.ua}}, udp: true}
-  - {name: 🇺🇸 美国 832, server: 46.3.26.12, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}, udp: true}
   - {name: 🇺🇸 美国 833, server: 166.62.111.54, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: sni.aizrf.com, network: ws, ws-opts: {path: "/snippets&freecodes", headers: {Host: sni.aizrf.com}}, udp: true}
   - {name: 🇺🇸 美国 834, server: 104.129.166.54, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: sni.aizrf.com, network: ws, ws-opts: {path: /snippets, headers: {Host: sni.aizrf.com}}, udp: true}
   - {name: 🇺🇸 美国 835, server: 135.84.76.54, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: sni.aizrf.com, network: ws, ws-opts: {path: /snippets, headers: {Host: sni.aizrf.com}}, udp: true}
@@ -2323,7 +2324,6 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, client-fingerprint: chrome, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, client-fingerprint: chrome, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 204.136.10.115, port: 1866, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 213.182.199.50, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.sosocn.abrdns.com, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: 198.12.144.50, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.sosocn.abrdns.com, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_100, server: 199.181.197.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
@@ -3045,6 +3045,7 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
+      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国
@@ -3306,6 +3307,7 @@ proxy-groups:
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 IL_speednode_0012
       - 🇮🇱 以色列 001
+      - 🇮🇳 印度 V2CROSS.COM
       - 🇮🇳 英属印度洋领地 001
       - 🇮🇷 伊朗 001
       - 🇮🇷 伊朗 002
@@ -3493,7 +3495,6 @@ proxy-groups:
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
       - 🇱🇺 卢森堡 003
-      - 🇱🇻 拉脱维亚 V2CROSS.COM
       - 🇲🇩 MD_speednode_0029
       - 🇲🇩 _MD_摩尔多瓦
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
@@ -3697,6 +3698,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 001
       - 🇸🇪 瑞典 002
@@ -3751,7 +3753,7 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台北市 V2CROSS.COM
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -4731,7 +4733,6 @@ proxy-groups:
       - 🇺🇸 美国 829
       - 🇺🇸 美国 830
       - 🇺🇸 美国 831
-      - 🇺🇸 美国 832
       - 🇺🇸 美国 833
       - 🇺🇸 美国 834
       - 🇺🇸 美国 835
@@ -4886,7 +4887,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -5583,6 +5583,7 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
+      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国
@@ -5844,6 +5845,7 @@ proxy-groups:
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 IL_speednode_0012
       - 🇮🇱 以色列 001
+      - 🇮🇳 印度 V2CROSS.COM
       - 🇮🇳 英属印度洋领地 001
       - 🇮🇷 伊朗 001
       - 🇮🇷 伊朗 002
@@ -6031,7 +6033,6 @@ proxy-groups:
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
       - 🇱🇺 卢森堡 003
-      - 🇱🇻 拉脱维亚 V2CROSS.COM
       - 🇲🇩 MD_speednode_0029
       - 🇲🇩 _MD_摩尔多瓦
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
@@ -6235,6 +6236,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 001
       - 🇸🇪 瑞典 002
@@ -6289,7 +6291,7 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台北市 V2CROSS.COM
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -7269,7 +7271,6 @@ proxy-groups:
       - 🇺🇸 美国 829
       - 🇺🇸 美国 830
       - 🇺🇸 美国 831
-      - 🇺🇸 美国 832
       - 🇺🇸 美国 833
       - 🇺🇸 美国 834
       - 🇺🇸 美国 835
@@ -7424,7 +7425,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -7802,7 +7802,7 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -8030,7 +8030,7 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -9114,7 +9114,6 @@ proxy-groups:
       - 🇺🇸 美国 829
       - 🇺🇸 美国 830
       - 🇺🇸 美国 831
-      - 🇺🇸 美国 832
       - 🇺🇸 美国 833
       - 🇺🇸 美国 834
       - 🇺🇸 美国 835
@@ -9269,7 +9268,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -9730,6 +9728,7 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
+      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国
@@ -9934,6 +9933,7 @@ proxy-groups:
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 IL_speednode_0012
       - 🇮🇱 以色列 001
+      - 🇮🇳 印度 V2CROSS.COM
       - 🇮🇳 英属印度洋领地 001
       - 🇮🇷 伊朗 001
       - 🇮🇷 伊朗 002
@@ -9992,7 +9992,6 @@ proxy-groups:
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
       - 🇱🇺 卢森堡 003
-      - 🇱🇻 拉脱维亚 V2CROSS.COM
       - 🇲🇩 MD_speednode_0029
       - 🇲🇩 _MD_摩尔多瓦
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
@@ -10196,6 +10195,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 001
       - 🇸🇪 瑞典 002
@@ -10446,7 +10446,7 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
@@ -10671,7 +10671,7 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
@@ -11746,7 +11746,6 @@ proxy-groups:
       - 🇺🇸 美国 829
       - 🇺🇸 美国 830
       - 🇺🇸 美国 831
-      - 🇺🇸 美国 832
       - 🇺🇸 美国 833
       - 🇺🇸 美国 834
       - 🇺🇸 美国 835
@@ -11901,7 +11900,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -12359,6 +12357,7 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
+      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国
@@ -12563,6 +12562,7 @@ proxy-groups:
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 IL_speednode_0012
       - 🇮🇱 以色列 001
+      - 🇮🇳 印度 V2CROSS.COM
       - 🇮🇳 英属印度洋领地 001
       - 🇮🇷 伊朗 001
       - 🇮🇷 伊朗 002
@@ -12621,7 +12621,6 @@ proxy-groups:
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
       - 🇱🇺 卢森堡 003
-      - 🇱🇻 拉脱维亚 V2CROSS.COM
       - 🇲🇩 MD_speednode_0029
       - 🇲🇩 _MD_摩尔多瓦
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
@@ -12825,6 +12824,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 001
       - 🇸🇪 瑞典 002

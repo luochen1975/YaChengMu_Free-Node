@@ -329,7 +329,7 @@ proxies:
   - {name: 🇨🇳 中国 139, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 140, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 新疆可以用, server: 104.19.50.238, port: 2096, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/telegram🇨🇳@wangcai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
-  - {name: 🇨🇳 江苏省 移动, server: 36.151.195.112, port: 4556, client-fingerprint: chrome, type: trojan, password: BxceQaOe, udp: true}
+  - {name: 🇨🇳 江苏省 移动, server: 36.151.195.112, port: 4556, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 福建可以用, server: 212.18.104.19, port: 443, reality-opts: {public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI, short-id: "f8c64c7a" }, client-fingerprint: chrome, type: vless, uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7, tls: true, flow: xtls-rprx-vision, servername: nspk.ru, network: tcp, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 12, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 9", server: 120.26.137.112, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -708,6 +708,8 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13, server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com}}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14, server: 09f05870-t35j40-tdnzz0-1qtp7.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: 09f05870-t35j40-tdnzz0-1qtp7.hk3.p5pv.com}}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 54d2d7fc-t3kcg0-tdnzz0-1qtp7.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 154.194.0.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_10, server: 154.218.15.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_11, server: 154.197.88.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
@@ -1173,7 +1175,6 @@ proxies:
   - {name: 🇹🇼 TW_speednode_0044, server: 1.165.114.124, port: 10054, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d69d0fae-160d-4c97-9c73-d64ffc222efe, udp: true}
   - {name: 🇹🇼 TW_speednode_0045, server: 125.230.11.163, port: 10022, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c6e2a9f1-70e1-4dda-a58c-8331c8f06ef6, udp: true}
   - {name: 🇹🇼 TW_speednode_0046, server: 114.46.121.31, port: 10072, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 5def005d-9d7e-4b22-8046-ae9b9b2e21a4, udp: true}
-  - {name: 🇹🇼 台湾省 中华电信(HiNet)数据中心, server: 118.170.203.35, port: 10017, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 8d5c4680-9dd0-43d4-9ea1-2b0e3dbb4684, udp: true}
   - {name: 🇺🇦 乌克兰 001, server: 185.234.64.94, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 002, server: 638932111805004627.rasht-drc-dcrabj.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 003, server: 638930359207602168.dublin-drc-dcrabj.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -2313,7 +2314,6 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, client-fingerprint: chrome, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, client-fingerprint: chrome, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: s1.db-link03.top, port: 80, client-fingerprint: chrome, type: vmess, uuid: 25fbcec6-e45a-3a86-977a-12c40bf649ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/dabai.in?=f7f48a0f7685b208efdf4956ae5eb0a0", headers: {Host: f7f48a0f7685b208efdf4956ae5eb0a0.s1.db-link03.top}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 213.182.199.50, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.sosocn.abrdns.com, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: 198.12.144.50, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.sosocn.abrdns.com, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_100, server: 199.181.197.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
@@ -3274,6 +3274,8 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -3732,7 +3734,6 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -4866,7 +4867,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -5802,6 +5802,8 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -6260,7 +6262,6 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -7394,7 +7395,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -7736,6 +7736,8 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -7772,7 +7774,6 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -7971,6 +7972,8 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -8001,7 +8004,6 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -9237,7 +9239,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -10373,6 +10374,8 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -10406,7 +10409,6 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
@@ -10602,6 +10604,8 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -10632,7 +10636,6 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0044
       - 🇹🇼 TW_speednode_0045
       - 🇹🇼 TW_speednode_0046
-      - 🇹🇼 台湾省 中华电信(HiNet)数据中心
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
@@ -11859,7 +11862,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100

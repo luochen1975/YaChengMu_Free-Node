@@ -730,7 +730,7 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|18, server: bs2.jymzffbquawl.com, port: 3607, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|19, server: bs2.jymzffbquawl.com, port: 3608, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 203.198.122.28, port: 443, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: fe2.update.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科, server: 38721ce7-t3rr40-tdnzz0-1qtp7.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 154.194.0.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_10, server: 154.218.15.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_11, server: 154.197.88.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
@@ -775,7 +775,6 @@ proxies:
   - {name: 🇮🇷 伊朗 052, server: hetz-vm1.serjio.sbs, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 166b8dda-9126-4ecc-8d22-6b5ba2df9c1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 054, server: 46.62.199.20, port: 1414, client-fingerprint: chrome, type: vmess, uuid: 3550a751-0da4-49b2-8c7c-8ed00e616ff7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 055, server: 91.98.193.193, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 3ead03ea-0bc8-4a91-bb55-b2a8751f4a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: pl.vpnsparta.pro, port: 57456, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1, server: 37.235.49.103, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KaQqch-Fxtk2CjsIDx36IdJoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 2, server: 37.235.49.61, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KbJxHHKy0azLKCigGtb6493oXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: "🇮🇹 意大利 - Milan - BrainStorm Network, Inc - 2", server: 185.213.21.111, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KbYtKU7FYnJO7SAvOIlWG-moXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
@@ -918,7 +917,8 @@ proxies:
   - {name: 🇯🇵 日本 120, server: tls.07.node-for-bigairport.win, port: 22211, client-fingerprint: chrome, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}, udp: true}
   - {name: 🇯🇵 日本 121, server: 103.231.75.129, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇯🇵 日本 122, server: 85.208.110.41, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇯🇵 日本 东京Sakura樱花云数据中心, server: 160.16.132.158, port: 2283, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, udp: true}
+  - {name: 🇯🇵 日本 东京Sakura樱花云数据中心, server: 160.16.132.158, port: 2467, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, udp: true}
+  - {name: 🇯🇵 日本 东京Sakura樱花云数据中心 2, server: 160.16.132.158, port: 2283, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_1, server: 103.245.228.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_2, server: 103.245.229.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_3, server: 103.116.7.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
@@ -1056,6 +1056,7 @@ proxies:
   - {name: 🇳🇱 荷兰(yfuye.com免费节点)_5, server: 45.131.7.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇳🇱 荷兰(yfuye.com免费节点)_6, server: 37.153.171.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇳🇱 荷兰(yfuye.com免费节点)_7, server: 45.131.5.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
+  - {name: 🇳🇱 荷兰【机场推荐：https://a0a.xyz/】13, server: pl.vpnsparta.pro, port: 57456, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 🇵🇱 波兰 001, server: 31.133.0.55, port: 2053, client-fingerprint: chrome, type: vless, uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06, tls: true, servername: 01.91md.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 01.91md.fun}}, udp: true}
   - {name: 🇵🇱 波兰 002, server: 128.204.223.42, port: 27377, client-fingerprint: chrome, type: vmess, uuid: bd996dac-3b1c-42a9-b8a1-66b87d0b72ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇵🇱 波兰 003, server: 185.254.220.229, port: 1002, client-fingerprint: chrome, type: vless, uuid: 489d84ab-2895-4dea-adf2-8915349742b4, tls: true, network: tcp, udp: true}
@@ -1230,7 +1231,6 @@ proxies:
   - {name: "🇹🇼 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 9", server: 1.170.25.61, port: 10112, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9a9dc807-d040-4bec-9e00-c7ebe712717e, udp: true}
   - {name: 🇹🇼 中国 - 台湾 - Data Center Network Limited - 27, server: 185.189.161.137, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KbsN1_NKUZbojvgX4nYwT5ToXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇹🇼 中国 - 台湾 - Kaopu Cloud HK Limited - 13, server: 154.223.20.79, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 🇹🇼 台湾省台北市 V2CROSS.COM, server: 46.3.26.12, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}, udp: true}
   - {name: 🇺🇦 乌克兰 001, server: 185.234.64.94, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 002, server: 638932111805004627.rasht-drc-dcrabj.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 003, server: 638930359207602168.dublin-drc-dcrabj.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -2221,6 +2221,7 @@ proxies:
   - {name: 🇺🇸 美国 829, server: 64.69.40.135, port: 41185, client-fingerprint: chrome, type: vmess, uuid: 9ba1c290-2f90-4fe7-efab-390af3dfd498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 830, server: 47.83.10.70, port: 53544, client-fingerprint: chrome, type: vmess, uuid: e7b88e16-7480-4ec1-e1f2-523b45462467, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 831, server: 172.82.65.77, port: 443, client-fingerprint: chrome, type: vmess, uuid: 1ecc7e61-d639-4e18-8cae-2cff9e787261, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ZVrc7MGZcKzYE40sF9Z5, headers: {Host: m16-9d86dc15-7d51-7138-bee5-645e0ef7936c.huangshang.pp.ua}}, udp: true}
+  - {name: 🇺🇸 美国 832, server: 46.3.26.12, port: 443, client-fingerprint: chrome, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.nbee.pp.ua}}, udp: true}
   - {name: 🇺🇸 美国 833, server: 166.62.111.54, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: sni.aizrf.com, network: ws, ws-opts: {path: "/snippets&freecodes", headers: {Host: sni.aizrf.com}}, udp: true}
   - {name: 🇺🇸 美国 834, server: 104.129.166.54, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: sni.aizrf.com, network: ws, ws-opts: {path: /snippets, headers: {Host: sni.aizrf.com}}, udp: true}
   - {name: 🇺🇸 美国 835, server: 135.84.76.54, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: sni.aizrf.com, network: ws, ws-opts: {path: /snippets, headers: {Host: sni.aizrf.com}}, udp: true}
@@ -2375,7 +2376,7 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, client-fingerprint: chrome, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, client-fingerprint: chrome, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 204.136.10.115, port: 1866, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.67.204.19, port: 443, client-fingerprint: chrome, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 213.182.199.50, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.sosocn.abrdns.com, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: 198.12.144.50, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.sosocn.abrdns.com, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_100, server: 199.181.197.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
@@ -3280,7 +3281,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -3325,7 +3326,6 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
-      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 2
       - "🇮🇹 意大利 - Milan - Seflow S.N.C. Di Marco Brame' & C. - 1"
@@ -3467,6 +3467,7 @@ proxy-groups:
       - 🇯🇵 日本 121
       - 🇯🇵 日本 122
       - 🇯🇵 日本 东京Sakura樱花云数据中心
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 2
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_3
@@ -3600,6 +3601,7 @@ proxy-groups:
       - 🇳🇱 荷兰(yfuye.com免费节点)_5
       - 🇳🇱 荷兰(yfuye.com免费节点)_6
       - 🇳🇱 荷兰(yfuye.com免费节点)_7
+      - 🇳🇱 荷兰【机场推荐：https://a0a.xyz/】13
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
@@ -3762,7 +3764,6 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0035
       - 🇹🇼 中国 - 台湾 - Data Center Network Limited - 27
       - 🇹🇼 中国 - 台湾 - Kaopu Cloud HK Limited - 13
-      - 🇹🇼 台湾省台北市 V2CROSS.COM
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -4747,6 +4748,7 @@ proxy-groups:
       - 🇺🇸 美国 829
       - 🇺🇸 美国 830
       - 🇺🇸 美国 831
+      - 🇺🇸 美国 832
       - 🇺🇸 美国 833
       - 🇺🇸 美国 834
       - 🇺🇸 美国 835
@@ -4901,7 +4903,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -5781,7 +5783,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -5826,7 +5828,6 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
-      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 2
       - "🇮🇹 意大利 - Milan - Seflow S.N.C. Di Marco Brame' & C. - 1"
@@ -5968,6 +5969,7 @@ proxy-groups:
       - 🇯🇵 日本 121
       - 🇯🇵 日本 122
       - 🇯🇵 日本 东京Sakura樱花云数据中心
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 2
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_3
@@ -6101,6 +6103,7 @@ proxy-groups:
       - 🇳🇱 荷兰(yfuye.com免费节点)_5
       - 🇳🇱 荷兰(yfuye.com免费节点)_6
       - 🇳🇱 荷兰(yfuye.com免费节点)_7
+      - 🇳🇱 荷兰【机场推荐：https://a0a.xyz/】13
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
@@ -6263,7 +6266,6 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0035
       - 🇹🇼 中国 - 台湾 - Data Center Network Limited - 27
       - 🇹🇼 中国 - 台湾 - Kaopu Cloud HK Limited - 13
-      - 🇹🇼 台湾省台北市 V2CROSS.COM
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -7248,6 +7250,7 @@ proxy-groups:
       - 🇺🇸 美国 829
       - 🇺🇸 美国 830
       - 🇺🇸 美国 831
+      - 🇺🇸 美国 832
       - 🇺🇸 美国 833
       - 🇺🇸 美国 834
       - 🇺🇸 美国 835
@@ -7402,7 +7405,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -7665,7 +7668,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -7703,7 +7706,6 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0035
       - 🇹🇼 中国 - 台湾 - Data Center Network Limited - 27
       - 🇹🇼 中国 - 台湾 - Kaopu Cloud HK Limited - 13
-      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -7900,7 +7902,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -7932,7 +7934,6 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0035
       - 🇹🇼 中国 - 台湾 - Data Center Network Limited - 27
       - 🇹🇼 中国 - 台湾 - Kaopu Cloud HK Limited - 13
-      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -8100,6 +8101,7 @@ proxy-groups:
       - 🇯🇵 日本 121
       - 🇯🇵 日本 122
       - 🇯🇵 日本 东京Sakura樱花云数据中心
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 2
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_3
@@ -9028,6 +9030,7 @@ proxy-groups:
       - 🇺🇸 美国 829
       - 🇺🇸 美国 830
       - 🇺🇸 美国 831
+      - 🇺🇸 美国 832
       - 🇺🇸 美国 833
       - 🇺🇸 美国 834
       - 🇺🇸 美国 835
@@ -9182,7 +9185,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -9894,7 +9897,6 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
-      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 2
       - "🇮🇹 意大利 - Milan - Seflow S.N.C. Di Marco Brame' & C. - 1"
@@ -10031,6 +10033,7 @@ proxy-groups:
       - 🇳🇱 荷兰(yfuye.com免费节点)_5
       - 🇳🇱 荷兰(yfuye.com免费节点)_6
       - 🇳🇱 荷兰(yfuye.com免费节点)_7
+      - 🇳🇱 荷兰【机场推荐：https://a0a.xyz/】13
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
@@ -10275,7 +10278,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -10310,7 +10313,6 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0035
       - 🇹🇼 中国 - 台湾 - Data Center Network Limited - 27
       - 🇹🇼 中国 - 台湾 - Kaopu Cloud HK Limited - 13
-      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
@@ -10504,7 +10506,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -10536,7 +10538,6 @@ proxy-groups:
       - 🇹🇼 TW_speednode_0035
       - 🇹🇼 中国 - 台湾 - Data Center Network Limited - 27
       - 🇹🇼 中国 - 台湾 - Kaopu Cloud HK Limited - 13
-      - 🇹🇼 台湾省台北市 V2CROSS.COM
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
@@ -10698,6 +10699,7 @@ proxy-groups:
       - 🇯🇵 日本 121
       - 🇯🇵 日本 122
       - 🇯🇵 日本 东京Sakura樱花云数据中心
+      - 🇯🇵 日本 东京Sakura樱花云数据中心 2
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_2
       - 🇯🇵 日本(yfuye.com免费节点)_3
@@ -11623,6 +11625,7 @@ proxy-groups:
       - 🇺🇸 美国 829
       - 🇺🇸 美国 830
       - 🇺🇸 美国 831
+      - 🇺🇸 美国 832
       - 🇺🇸 美国 833
       - 🇺🇸 美国 834
       - 🇺🇸 美国 835
@@ -11777,7 +11780,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -12486,7 +12489,6 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
-      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 2
       - "🇮🇹 意大利 - Milan - Seflow S.N.C. Di Marco Brame' & C. - 1"
@@ -12623,6 +12625,7 @@ proxy-groups:
       - 🇳🇱 荷兰(yfuye.com免费节点)_5
       - 🇳🇱 荷兰(yfuye.com免费节点)_6
       - 🇳🇱 荷兰(yfuye.com免费节点)_7
+      - 🇳🇱 荷兰【机场推荐：https://a0a.xyz/】13
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003

@@ -33,7 +33,7 @@ proxies:
   - {name: ℹ️ 不要用谷歌浏览器访问官网, server: freeyx.cloudflare88.eu.org, port: 443, client-fingerprint: random, type: vless, uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50, tls: true, servername: do-syd1.008883.xyz, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: do-syd1.008883.xyz}}, udp: true}
   - {name: ℹ️ 官网❶https://kelayun.notepin.co, server: ct.877774.xyz, port: 443, client-fingerprint: random, type: vless, uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50, tls: true, servername: do-blr1.008883.xyz, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: do-blr1.008883.xyz}}, udp: true}
   - {name: ℹ️ 官网❷https://99z.top/kelayun.github.io, server: freev2.cloudflare.182682.xyz, port: 443, client-fingerprint: random, type: vless, uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50, tls: true, servername: do-tor1.008883.xyz, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: do-tor1.008883.xyz}}, udp: true}
-  - {name: ℹ️ 节点日期：10-18, server: 212.192.15.176, port: 27123, client-fingerprint: chrome, type: vmess, uuid: 9d93dfcd-50a9-4722-a8e3-eb0ef276cdb1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 212.192.15.176}}, udp: true}
+  - {name: ℹ️ 节点日期：10-20, server: 212.192.15.176, port: 22125, client-fingerprint: chrome, type: vmess, uuid: 036ce562-9717-4176-9435-9cd0d2ab9973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 亚太地区 001, server: naiu-hk.05vr9nyqg5.download, port: 13007, client-fingerprint: chrome, type: trojan, password: dce3c42b-f259-4b18-b5c1-a42ebef4e732, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
   - {name: 亚太地区 002, server: 103.160.204.50, port: 443, client-fingerprint: chrome, type: vless, uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123, tls: true, servername: vless8-ekh.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vless8-ekh.pages.dev}}, udp: true}
   - {name: 亚太地区 003, server: 103.115.109.250, port: 40762, client-fingerprint: chrome, type: vmess, uuid: 35ce6e3a-4ddc-472c-9e9f-a34362c194e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -347,9 +347,11 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】8, server: 36.141.40.42, port: 13007, client-fingerprint: chrome, type: trojan, password: 3c77ad6b-9c9c-4aff-beff-0a16e2cdea15, sni: cloudflare.node-ssl.cdn-alibaba.com, udp: true}
+  - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】3, server: 36.141.40.42, port: 13007, client-fingerprint: chrome, type: trojan, password: 3c77ad6b-9c9c-4aff-beff-0a16e2cdea15, sni: cloudflare.node-ssl.cdn-alibaba.com, udp: true}
+  - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】8, server: 43.247.134.213, port: 58509, client-fingerprint: chrome, type: vmess, uuid: 7f75e117-5cfe-40b9-b18f-d46fa6add969, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇨🇳 新疆可以用, server: www.visa.com.hk, port: 443, client-fingerprint: random, type: vless, uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50, tls: true, servername: oracle-id-batam.008883.xyz, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: oracle-id-batam.008883.xyz}}, udp: true}
   - {name: 🇨🇳 江苏省 移动, server: 36.151.251.18, port: 811, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 江苏省盐城市 移动, server: 36.156.102.115, port: 44095, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 24, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 21", server: 120.26.137.112, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 哥伦比亚 - 波哥大 - Latitude.sh - 1, server: 103.219.169.75, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KaNJZrQK8J55bW8DX08SJt_oXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
@@ -738,8 +740,8 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|18, server: bs2.jymzffbquawl.com, port: 3607, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|19, server: bs2.jymzffbquawl.com, port: 3608, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: c9dc37fe-szi1s0-t0y0nd-1mmbp.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: c92d9037-sunz40-suqjqq-1pr35.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: c92d9037-sunz40-suqjqq-1pr35.hk3.p5pv.com}}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 6de4b9d4-suk9s0-t8ro7t-1ey07.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 203d1d64-3313-11ed-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 154.194.0.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_10, server: 154.218.15.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_11, server: 154.197.88.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
@@ -753,11 +755,9 @@ proxies:
   - {name: 🇭🇰 香港(yfuye.com免费节点)_9, server: 45.192.224.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港3, server: 103.224.80.118, port: 45939, client-fingerprint: chrome, type: vmess, uuid: 0ab56c46-8bee-42fe-9ec1-a2da8b264bb8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 43.247.134.213, port: 58509, client-fingerprint: chrome, type: vmess, uuid: 7f75e117-5cfe-40b9-b18f-d46fa6add969, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港4|@ripaojiedian, server: 202.181.103.235, port: 2381, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇭🇷 克罗地亚 - 普拉 - Plus Hosting Grupa d.o.o. - 1, server: 178.218.162.117, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6Kaveq9hVw_wneu26BmV63h7oXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇭🇷 克罗地亚 - 普拉 - Plus Hosting Grupa d.o.o. - 2, server: 178.218.162.114, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KaLBltkgfZUep0oifnGA4aVoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
-  - {name: 🇭🇺 匈牙利【机场推荐：https://a0a.xyz/】4, server: 109.61.39.28, port: 990, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
   - {name: 🇮🇪 爱尔兰 - 都柏林 - M247 Europe SRL - 1, server: 188.241.178.86, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KYRqmh4HmddsgpTFQMaZf-9oXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇮🇪 爱尔兰 001, server: 52.215.68.89, port: 22222, client-fingerprint: chrome, type: vless, uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e, tls: true, servername: telegram-channel-vlessconfig.sohala.uk, network: ws, ws-opts: {path: /telegram-channel-vlessconfig-ws, headers: {Host: telegram-channel-vlessconfig.sohala.uk}}, udp: true}
   - {name: 🇮🇱 以色列 - 特拉维夫 - Yehoshua Vaknin Nahal Tzia 9/2 - 1, server: 182.54.236.194, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KbaInnySXDX3-7yqiYFiLH8oXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
@@ -940,7 +940,8 @@ proxies:
   - {name: 🇯🇵 日本(yfuye.com免费节点)_3, server: 103.116.7.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.57.238, port: 1331, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.57.238, port: 3161, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本【机场推荐：https://a0a.xyz/】7, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
+  - {name: 🇯🇵 日本【机场推荐：https://a0a.xyz/】10, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
+  - {name: 🇯🇵 日本【机场推荐：https://a0a.xyz/】15, server: 163.223.52.61, port: 44829, client-fingerprint: chrome, type: vmess, uuid: 05452c63-4e27-4af6-e0e6-92ceff88cba7, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇰🇪 肯尼亚 - 奈洛比 - Host Africa (Pty) Ltd - 1, server: 102.68.86.97, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KYnVl3VrKmuFB-16vJw8-uYoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇰🇭 柬埔寨 001, server: 111.92.240.243, port: 8080, client-fingerprint: chrome, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇰🇷 KR_speednode_0010, server: 175.208.202.41, port: 20583, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /telegram @freecodes, headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
@@ -961,6 +962,8 @@ proxies:
   - {name: 🇰🇷 韩国 005, server: 125.134.123.178, port: 50001, client-fingerprint: chrome, type: vmess, uuid: ffde381b-4a30-41d4-90eb-151f228b06ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qq, headers: {Host: aa.nbee.pp.ua}}, udp: true}
   - {name: 🇰🇷 韩国 006, server: 154.223.19.117, port: 46418, client-fingerprint: chrome, type: vmess, uuid: d1de8433-692d-47fd-9a8d-6ccb02ea39bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 韩国 007, server: 221.140.109.7, port: 30012, client-fingerprint: chrome, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: true, servername: aa.ylks.xyz, network: ws, ws-opts: {path: /blue, headers: {Host: aa.ylks.xyz}}, udp: true}
+  - {name: 🇰🇷 韩国 KT电信, server: 112.173.185.16, port: 30010, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /X@节点狂魔fp=chrome, headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
+  - {name: 🇰🇷 韩国 KT电信 2, server: 118.45.152.231, port: 50001, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /X@节点狂魔fp=chrome, headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
   - {name: 🇱🇹 立陶宛 001, server: 185.148.107.41, port: 2096, client-fingerprint: chrome, type: vless, uuid: 563608cd-f135-4e64-938d-d9eb3be1ba77, tls: true, servername: vless.keepfuck.me, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.keepfuck.me}}, udp: true}
   - {name: 🇱🇹 立陶宛 002, server: 185.8.105.254, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇱🇹 立陶宛 003, server: 84.32.131.108, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -1073,7 +1076,6 @@ proxies:
   - {name: 🇳🇱 荷兰(yfuye.com免费节点)_5, server: 45.131.7.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇳🇱 荷兰(yfuye.com免费节点)_6, server: 37.153.171.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇳🇱 荷兰(yfuye.com免费节点)_7, server: 45.131.5.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
-  - {name: 🇳🇱 荷兰【机场推荐：https://a0a.xyz/】13, server: pl.vpnsparta.pro, port: 57456, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 🇵🇱 波兰 001, server: 31.133.0.55, port: 2053, client-fingerprint: chrome, type: vless, uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06, tls: true, servername: 01.91md.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 01.91md.fun}}, udp: true}
   - {name: 🇵🇱 波兰 002, server: 128.204.223.42, port: 27377, client-fingerprint: chrome, type: vmess, uuid: bd996dac-3b1c-42a9-b8a1-66b87d0b72ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇵🇱 波兰 003, server: 185.254.220.229, port: 1002, client-fingerprint: chrome, type: vless, uuid: 489d84ab-2895-4dea-adf2-8915349742b4, tls: true, network: tcp, udp: true}
@@ -1172,6 +1174,7 @@ proxies:
   - {name: 🇷🇺 俄罗斯 091, server: che-0001-xr.packet-drop-society.net, port: 443, client-fingerprint: chrome, type: vless, uuid: 562c71d0-f18b-402c-b1ad-5c2bbfcd6e02, tls: true, network: tcp, udp: true}
   - {name: 🇷🇺 俄罗斯 092, server: 638947655065548930.bandar-prx-dnraacq.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 093, server: 80.92.206.172, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】11, server: tr.vpnsparta.pro, port: 57456, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true}
   - {name: 🇸🇦 沙特阿拉伯 - 利雅德 - M247 Europe SRL - 1, server: 146.70.167.70, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KbYN2gOvZv32CY-6W3F_yFvoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇸🇦 沙特阿拉伯 002, server: 91.209.253.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes+", headers: {Host: saas.git.cloudns.org}}, udp: true}
   - {name: 🇸🇪 瑞典 - Sköndal - M247 Europe SRL - 1, server: 146.70.122.66, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KZXmzPZdDvSrPSdKM8p5OSVoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
@@ -1209,7 +1212,6 @@ proxies:
   - {name: 🇸🇬 新加坡(yfuye.com免费节点), server: 114.129.43.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 202.181.103.246, port: 2283, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡3, server: 5.44.249.42, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 4a81070:6193}, udp: true}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 36.156.102.115, port: 44095, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡4|@ripaojiedian, server: 103.36.91.32, port: 8388, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇸🇬 新加坡|@ripaojiedian, server: 202.181.103.246, port: 5041, client-fingerprint: chrome, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇸🇮 斯洛文尼亚 001, server: 92.53.188.36, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v4.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -1314,7 +1316,7 @@ proxies:
   - {name: 🇺🇦 乌克兰 063, server: 638949521660379297.copenhagen-prx-dnraacr.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 064, server: 638955432252149982.shiraz-prx-dnraact.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 065, server: 94.131.14.200, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】11, server: switcher-nick-croquet.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】12, server: switcher-nick-croquet.freesocks.work, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|01, server: bs3.jymzffbquawl.com, port: 5600, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|02, server: bs3.jymzffbquawl.com, port: 5601, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|03, server: bs3.jymzffbquawl.com, port: 5602, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -2555,6 +2557,8 @@ proxies:
   - {name: 🇺🇸 美国_41, server: 135.125.232.253, port: 2053, client-fingerprint: chrome, type: trojan, password: iwangjie, sni: nodes.830901.xyz, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: nodes.830901.xyz}}, udp: true}
   - {name: 🇺🇸 美国_42, server: 83.147.254.185, port: 443, client-fingerprint: chrome, type: trojan, password: iwangjie, sni: nodes.830901.xyz, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: nodes.830901.xyz}}, udp: true}
   - {name: 🇺🇸 美国_5, server: entrance01.qqa678.cc, port: 47084, client-fingerprint: chrome, type: vmess, uuid: 8e94ed0e-3717-4c46-aa13-6757a89b392e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国【机场推荐：https://a0a.xyz/】13, server: bestcdn1.868863.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: 07fe5ad4-6157-4857-91fe-8270ebd648d9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aejynik, headers: {Host: vv-a2-cdn.the-best-airport.top}}, udp: true}
+  - {name: 🇺🇸 美国【机场推荐：https://a0a.xyz/】14, server: bestcdn3.868863.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: 07fe5ad4-6157-4857-91fe-8270ebd648d9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aejynik, headers: {Host: vv-c3-cdn.the-best-airport.top}}, udp: true}
   - {name: 🇺🇾 乌拉圭 - 蒙得维的亚 - Administracion Nacional de Telecomunicaciones - 1, server: 179.27.200.30, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KY9RjaOQIiyit8k5DPjpTtsoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇻🇳 越南, server: 103.186.154.217, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 1, server: 103.186.154.154, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -2614,7 +2618,7 @@ proxy-groups:
       - ℹ️ 不要用谷歌浏览器访问官网
       - ℹ️ 官网❶https://kelayun.notepin.co
       - ℹ️ 官网❷https://99z.top/kelayun.github.io
-      - ℹ️ 节点日期：10-18
+      - ℹ️ 节点日期：10-20
       - 亚太地区 001
       - 亚太地区 002
       - 亚太地区 003
@@ -2927,9 +2931,11 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
       - 🇨🇳 新疆可以用
       - 🇨🇳 江苏省 移动
+      - 🇨🇳 江苏省盐城市 移动
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 24
       - 🇨🇴 哥伦比亚 - 波哥大 - Latitude.sh - 1
       - 🇨🇷 哥斯达黎加 002
@@ -3325,11 +3331,9 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇷 克罗地亚 - 普拉 - Plus Hosting Grupa d.o.o. - 1
       - 🇭🇷 克罗地亚 - 普拉 - Plus Hosting Grupa d.o.o. - 2
-      - 🇭🇺 匈牙利【机场推荐：https://a0a.xyz/】4
       - 🇮🇪 爱尔兰 - 都柏林 - M247 Europe SRL - 1
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 - 特拉维夫 - Yehoshua Vaknin Nahal Tzia 9/2 - 1
@@ -3510,7 +3514,8 @@ proxy-groups:
       - 🇯🇵 日本(yfuye.com免费节点)_3
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本【机场推荐：https://a0a.xyz/】7
+      - 🇯🇵 日本【机场推荐：https://a0a.xyz/】10
+      - 🇯🇵 日本【机场推荐：https://a0a.xyz/】15
       - 🇰🇪 肯尼亚 - 奈洛比 - Host Africa (Pty) Ltd - 1
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 KR_speednode_0010
@@ -3531,6 +3536,8 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇰🇷 韩国 007
+      - 🇰🇷 韩国 KT电信
+      - 🇰🇷 韩国 KT电信 2
       - 🇱🇹 立陶宛 001
       - 🇱🇹 立陶宛 002
       - 🇱🇹 立陶宛 003
@@ -3640,7 +3647,6 @@ proxy-groups:
       - 🇳🇱 荷兰(yfuye.com免费节点)_5
       - 🇳🇱 荷兰(yfuye.com免费节点)_6
       - 🇳🇱 荷兰(yfuye.com免费节点)_7
-      - 🇳🇱 荷兰【机场推荐：https://a0a.xyz/】13
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
@@ -3739,6 +3745,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】11
       - 🇸🇦 沙特阿拉伯 - 利雅德 - M247 Europe SRL - 1
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 - Sköndal - M247 Europe SRL - 1
@@ -3774,7 +3781,6 @@ proxy-groups:
       - 🇸🇬 新加坡(yfuye.com免费节点)
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡4|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇮 斯洛文尼亚 001
@@ -3866,7 +3872,7 @@ proxy-groups:
       - 🇺🇦 乌克兰 063
       - 🇺🇦 乌克兰 064
       - 🇺🇦 乌克兰 065
-      - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】11
+      - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】12
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
       - 🇺🇸 Standard|广美|IEPL|03
@@ -5103,6 +5109,8 @@ proxy-groups:
       - 🇺🇸 美国_41
       - 🇺🇸 美国_42
       - 🇺🇸 美国_5
+      - 🇺🇸 美国【机场推荐：https://a0a.xyz/】13
+      - 🇺🇸 美国【机场推荐：https://a0a.xyz/】14
       - 🇺🇾 乌拉圭 - 蒙得维的亚 - Administracion Nacional de Telecomunicaciones - 1
       - 🇻🇳 越南
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
@@ -5137,7 +5145,7 @@ proxy-groups:
       - ℹ️ 不要用谷歌浏览器访问官网
       - ℹ️ 官网❶https://kelayun.notepin.co
       - ℹ️ 官网❷https://99z.top/kelayun.github.io
-      - ℹ️ 节点日期：10-18
+      - ℹ️ 节点日期：10-20
       - 亚太地区 001
       - 亚太地区 002
       - 亚太地区 003
@@ -5450,9 +5458,11 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
       - 🇨🇳 新疆可以用
       - 🇨🇳 江苏省 移动
+      - 🇨🇳 江苏省盐城市 移动
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 24
       - 🇨🇴 哥伦比亚 - 波哥大 - Latitude.sh - 1
       - 🇨🇷 哥斯达黎加 002
@@ -5848,11 +5858,9 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇷 克罗地亚 - 普拉 - Plus Hosting Grupa d.o.o. - 1
       - 🇭🇷 克罗地亚 - 普拉 - Plus Hosting Grupa d.o.o. - 2
-      - 🇭🇺 匈牙利【机场推荐：https://a0a.xyz/】4
       - 🇮🇪 爱尔兰 - 都柏林 - M247 Europe SRL - 1
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 - 特拉维夫 - Yehoshua Vaknin Nahal Tzia 9/2 - 1
@@ -6033,7 +6041,8 @@ proxy-groups:
       - 🇯🇵 日本(yfuye.com免费节点)_3
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本【机场推荐：https://a0a.xyz/】7
+      - 🇯🇵 日本【机场推荐：https://a0a.xyz/】10
+      - 🇯🇵 日本【机场推荐：https://a0a.xyz/】15
       - 🇰🇪 肯尼亚 - 奈洛比 - Host Africa (Pty) Ltd - 1
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 KR_speednode_0010
@@ -6054,6 +6063,8 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇰🇷 韩国 007
+      - 🇰🇷 韩国 KT电信
+      - 🇰🇷 韩国 KT电信 2
       - 🇱🇹 立陶宛 001
       - 🇱🇹 立陶宛 002
       - 🇱🇹 立陶宛 003
@@ -6163,7 +6174,6 @@ proxy-groups:
       - 🇳🇱 荷兰(yfuye.com免费节点)_5
       - 🇳🇱 荷兰(yfuye.com免费节点)_6
       - 🇳🇱 荷兰(yfuye.com免费节点)_7
-      - 🇳🇱 荷兰【机场推荐：https://a0a.xyz/】13
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
@@ -6262,6 +6272,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】11
       - 🇸🇦 沙特阿拉伯 - 利雅德 - M247 Europe SRL - 1
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 - Sköndal - M247 Europe SRL - 1
@@ -6297,7 +6308,6 @@ proxy-groups:
       - 🇸🇬 新加坡(yfuye.com免费节点)
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡4|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇮 斯洛文尼亚 001
@@ -6389,7 +6399,7 @@ proxy-groups:
       - 🇺🇦 乌克兰 063
       - 🇺🇦 乌克兰 064
       - 🇺🇦 乌克兰 065
-      - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】11
+      - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】12
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
       - 🇺🇸 Standard|广美|IEPL|03
@@ -7626,6 +7636,8 @@ proxy-groups:
       - 🇺🇸 美国_41
       - 🇺🇸 美国_42
       - 🇺🇸 美国_5
+      - 🇺🇸 美国【机场推荐：https://a0a.xyz/】13
+      - 🇺🇸 美国【机场推荐：https://a0a.xyz/】14
       - 🇺🇾 乌拉圭 - 蒙得维的亚 - Administracion Nacional de Telecomunicaciones - 1
       - 🇻🇳 越南
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
@@ -7748,7 +7760,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
   - name: 🇹🇼 ‍台湾
     type: url-test
@@ -7924,9 +7935,11 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
       - 🇨🇳 新疆可以用
       - 🇨🇳 江苏省 移动
+      - 🇨🇳 江苏省盐城市 移动
       - 🇭🇰 HK_speednode_0007
       - 🇭🇰 HK_speednode_0009
       - 🇭🇰 Premium|广港|IEPL|01
@@ -7984,7 +7997,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -8027,7 +8039,6 @@ proxy-groups:
       - 🇸🇬 新加坡(yfuye.com免费节点)
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡4|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
   - name: 🇯🇵 ‍日本
@@ -8180,7 +8191,8 @@ proxy-groups:
       - 🇯🇵 日本(yfuye.com免费节点)_3
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本【机场推荐：https://a0a.xyz/】7
+      - 🇯🇵 日本【机场推荐：https://a0a.xyz/】10
+      - 🇯🇵 日本【机场推荐：https://a0a.xyz/】15
   - name: 🇺🇸 ‍美国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -9423,6 +9435,8 @@ proxy-groups:
       - 🇺🇸 美国_41
       - 🇺🇸 美国_42
       - 🇺🇸 美国_5
+      - 🇺🇸 美国【机场推荐：https://a0a.xyz/】13
+      - 🇺🇸 美国【机场推荐：https://a0a.xyz/】14
   - name: 🎏 ‍其他
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -9447,7 +9461,7 @@ proxy-groups:
       - ℹ️ 不要用谷歌浏览器访问官网
       - ℹ️ 官网❶https://kelayun.notepin.co
       - ℹ️ 官网❷https://99z.top/kelayun.github.io
-      - ℹ️ 节点日期：10-18
+      - ℹ️ 节点日期：10-20
       - 亚太地区 001
       - 亚太地区 002
       - 亚太地区 003
@@ -9951,7 +9965,6 @@ proxy-groups:
       - 🇬🇹 危地马拉 - Guatemala City - SONDATECH - 1
       - 🇭🇷 克罗地亚 - 普拉 - Plus Hosting Grupa d.o.o. - 1
       - 🇭🇷 克罗地亚 - 普拉 - Plus Hosting Grupa d.o.o. - 2
-      - 🇭🇺 匈牙利【机场推荐：https://a0a.xyz/】4
       - 🇮🇪 爱尔兰 - 都柏林 - M247 Europe SRL - 1
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 - 特拉维夫 - Yehoshua Vaknin Nahal Tzia 9/2 - 1
@@ -10008,6 +10021,8 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇰🇷 韩国 007
+      - 🇰🇷 韩国 KT电信
+      - 🇰🇷 韩国 KT电信 2
       - 🇱🇹 立陶宛 001
       - 🇱🇹 立陶宛 002
       - 🇱🇹 立陶宛 003
@@ -10117,7 +10132,6 @@ proxy-groups:
       - 🇳🇱 荷兰(yfuye.com免费节点)_5
       - 🇳🇱 荷兰(yfuye.com免费节点)_6
       - 🇳🇱 荷兰(yfuye.com免费节点)_7
-      - 🇳🇱 荷兰【机场推荐：https://a0a.xyz/】13
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
@@ -10216,6 +10230,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】11
       - 🇸🇦 沙特阿拉伯 - 利雅德 - M247 Europe SRL - 1
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 - Sköndal - M247 Europe SRL - 1
@@ -10305,7 +10320,7 @@ proxy-groups:
       - 🇺🇦 乌克兰 063
       - 🇺🇦 乌克兰 064
       - 🇺🇦 乌克兰 065
-      - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】11
+      - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】12
       - 🇺🇾 乌拉圭 - 蒙得维的亚 - Administracion Nacional de Telecomunicaciones - 1
       - 🇻🇳 越南
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
@@ -10379,7 +10394,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
@@ -10549,9 +10563,11 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
       - 🇨🇳 新疆可以用
       - 🇨🇳 江苏省 移动
+      - 🇨🇳 江苏省盐城市 移动
       - 🇭🇰 HK_speednode_0007
       - 🇭🇰 HK_speednode_0009
       - 🇭🇰 Premium|广港|IEPL|01
@@ -10609,7 +10625,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4|@ripaojiedian
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -10649,7 +10664,6 @@ proxy-groups:
       - 🇸🇬 新加坡(yfuye.com免费节点)
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡4|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
   - name: 👆🏻🇯🇵 ‍日本
@@ -10799,7 +10813,8 @@ proxy-groups:
       - 🇯🇵 日本(yfuye.com免费节点)_3
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本【机场推荐：https://a0a.xyz/】7
+      - 🇯🇵 日本【机场推荐：https://a0a.xyz/】10
+      - 🇯🇵 日本【机场推荐：https://a0a.xyz/】15
   - name: 👆🏻🇺🇸 ‍美国
     type: select
     proxies:
@@ -12039,6 +12054,8 @@ proxy-groups:
       - 🇺🇸 美国_41
       - 🇺🇸 美国_42
       - 🇺🇸 美国_5
+      - 🇺🇸 美国【机场推荐：https://a0a.xyz/】13
+      - 🇺🇸 美国【机场推荐：https://a0a.xyz/】14
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:
@@ -12060,7 +12077,7 @@ proxy-groups:
       - ℹ️ 不要用谷歌浏览器访问官网
       - ℹ️ 官网❶https://kelayun.notepin.co
       - ℹ️ 官网❷https://99z.top/kelayun.github.io
-      - ℹ️ 节点日期：10-18
+      - ℹ️ 节点日期：10-20
       - 亚太地区 001
       - 亚太地区 002
       - 亚太地区 003
@@ -12564,7 +12581,6 @@ proxy-groups:
       - 🇬🇹 危地马拉 - Guatemala City - SONDATECH - 1
       - 🇭🇷 克罗地亚 - 普拉 - Plus Hosting Grupa d.o.o. - 1
       - 🇭🇷 克罗地亚 - 普拉 - Plus Hosting Grupa d.o.o. - 2
-      - 🇭🇺 匈牙利【机场推荐：https://a0a.xyz/】4
       - 🇮🇪 爱尔兰 - 都柏林 - M247 Europe SRL - 1
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 - 特拉维夫 - Yehoshua Vaknin Nahal Tzia 9/2 - 1
@@ -12621,6 +12637,8 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇰🇷 韩国 007
+      - 🇰🇷 韩国 KT电信
+      - 🇰🇷 韩国 KT电信 2
       - 🇱🇹 立陶宛 001
       - 🇱🇹 立陶宛 002
       - 🇱🇹 立陶宛 003
@@ -12730,7 +12748,6 @@ proxy-groups:
       - 🇳🇱 荷兰(yfuye.com免费节点)_5
       - 🇳🇱 荷兰(yfuye.com免费节点)_6
       - 🇳🇱 荷兰(yfuye.com免费节点)_7
-      - 🇳🇱 荷兰【机场推荐：https://a0a.xyz/】13
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
@@ -12829,6 +12846,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】11
       - 🇸🇦 沙特阿拉伯 - 利雅德 - M247 Europe SRL - 1
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 - Sköndal - M247 Europe SRL - 1
@@ -12918,7 +12936,7 @@ proxy-groups:
       - 🇺🇦 乌克兰 063
       - 🇺🇦 乌克兰 064
       - 🇺🇦 乌克兰 065
-      - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】11
+      - 🇺🇦 乌克兰【机场推荐：https://a0a.xyz/】12
       - 🇺🇾 乌拉圭 - 蒙得维的亚 - Administracion Nacional de Telecomunicaciones - 1
       - 🇻🇳 越南
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1

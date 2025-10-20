@@ -684,7 +684,6 @@ proxies:
   - {name: 🇬🇧 英国 032, server: 164.38.155.61, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
   - {name: 🇬🇧 英国 033, server: 77.75.199.61, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
   - {name: 🇬🇧 英国 035, server: 185.221.219.229, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: 185.221.219.229}}, udp: true}
-  - {name: 🇬🇧 英国 社会保险安全部, server: 51.161.130.101, port: 550, client-fingerprint: chrome, type: vmess, uuid: b592cf1a-d92f-4dbd-9c1d-b76936a1609e, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点)_1, server: 185.156.19.50, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.sosocn.abrdns.com, network: ws, ws-opts: {path: /snippets}, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点)_10, server: 80.93.202.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点)_11, server: 194.36.55.50, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.sosocn.abrdns.com, network: ws, ws-opts: {path: /snippets}, udp: true}
@@ -791,6 +790,7 @@ proxies:
   - {name: 🇮🇷 伊朗 052, server: hetz-vm1.serjio.sbs, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 166b8dda-9126-4ecc-8d22-6b5ba2df9c1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 054, server: 46.62.199.20, port: 1414, client-fingerprint: chrome, type: vmess, uuid: 3550a751-0da4-49b2-8c7c-8ed00e616ff7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 055, server: 91.98.193.193, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 3ead03ea-0bc8-4a91-bb55-b2a8751f4a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: tr.vpnsparta.pro, port: 57456, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true}
   - {name: 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1, server: 37.235.49.103, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KaQqch-Fxtk2CjsIDx36IdJoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 2, server: 37.235.49.61, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KbJxHHKy0azLKCigGtb6493oXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: "🇮🇹 意大利 - Milan - BrainStorm Network, Inc - 2", server: 185.213.21.111, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KbYtKU7FYnJO7SAvOIlWG-moXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
@@ -1182,7 +1182,8 @@ proxies:
   - {name: 🇷🇺 俄罗斯 091, server: che-0001-xr.packet-drop-society.net, port: 443, client-fingerprint: chrome, type: vless, uuid: 562c71d0-f18b-402c-b1ad-5c2bbfcd6e02, tls: true, network: tcp, udp: true}
   - {name: 🇷🇺 俄罗斯 092, server: 638947655065548930.bandar-prx-dnraacq.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 093, server: 80.92.206.172, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】11, server: tr.vpnsparta.pro, port: 57456, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 212.192.15.176, port: 23185, client-fingerprint: chrome, type: vmess, uuid: 136368f2-3643-4a59-a7e9-f64a7670e293, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 2, server: 212.192.15.176, port: 25169, client-fingerprint: chrome, type: vmess, uuid: 566bf452-a086-41f0-a474-d7ae067956ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 212.192.15.176}}, udp: true}
   - {name: 🇸🇦 沙特阿拉伯 - 利雅德 - M247 Europe SRL - 1, server: 146.70.167.70, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KbYN2gOvZv32CY-6W3F_yFvoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇸🇦 沙特阿拉伯 002, server: 91.209.253.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes+", headers: {Host: saas.git.cloudns.org}}, udp: true}
   - {name: 🇸🇪 瑞典 - Sköndal - M247 Europe SRL - 1, server: 146.70.122.66, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KZXmzPZdDvSrPSdKM8p5OSVoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
@@ -1387,6 +1388,7 @@ proxies:
   - {name: 🇺🇸 美国 033, server: 45.12.133.235, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇸 美国 034, server: 85.209.153.82, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇸 美国 035, server: cf.fovi.tk, port: 443, client-fingerprint: chrome, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol.fovi.tk}}, udp: true}
+  - {name: 🇺🇸 美国 036, server: 51.161.130.101, port: 550, client-fingerprint: chrome, type: vmess, uuid: b592cf1a-d92f-4dbd-9c1d-b76936a1609e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 037, server: 198.62.62.229, port: 443, client-fingerprint: chrome, type: vless, uuid: 6c11247b-6078-461a-93d5-22e4df284e6d, tls: true, servername: mirror.fullmargintraders.com, network: ws, ws-opts: {path: /wsv/6c11247b-6078-461a-93d5-22e4df284e6d, headers: {Host: mirror.fullmargintraders.com}}, udp: true}
   - {name: 🇺🇸 美国 038, server: 86.104.74.155, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇸 美国 039, server: 104.21.36.57, port: 443, client-fingerprint: chrome, type: vless, uuid: 0cc731b9-0375-4590-aeaa-7e2611a149fe, tls: true, servername: black.fullmargintraders.com, network: ws, ws-opts: {path: /wsv/0cc731b9-0375-4590-aeaa-7e2611a149fe, headers: {Host: black.fullmargintraders.com}}, udp: true}
@@ -3273,7 +3275,6 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
-      - 🇬🇧 英国 社会保险安全部
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_10
       - 🇬🇧 英国(yfuye.com免费节点)_11
@@ -3376,6 +3377,7 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 2
       - "🇮🇹 意大利 - Milan - Seflow S.N.C. Di Marco Brame' & C. - 1"
@@ -3761,7 +3763,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】11
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇸🇦 沙特阿拉伯 - 利雅德 - M247 Europe SRL - 1
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 - Sköndal - M247 Europe SRL - 1
@@ -3945,6 +3948,7 @@ proxy-groups:
       - 🇺🇸 美国 033
       - 🇺🇸 美国 034
       - 🇺🇸 美国 035
+      - 🇺🇸 美国 036
       - 🇺🇸 美国 037
       - 🇺🇸 美国 038
       - 🇺🇸 美国 039
@@ -5806,7 +5810,6 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
-      - 🇬🇧 英国 社会保险安全部
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_10
       - 🇬🇧 英国(yfuye.com免费节点)_11
@@ -5909,6 +5912,7 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 2
       - "🇮🇹 意大利 - Milan - Seflow S.N.C. Di Marco Brame' & C. - 1"
@@ -6294,7 +6298,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】11
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇸🇦 沙特阿拉伯 - 利雅德 - M247 Europe SRL - 1
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 - Sköndal - M247 Europe SRL - 1
@@ -6478,6 +6483,7 @@ proxy-groups:
       - 🇺🇸 美国 033
       - 🇺🇸 美国 034
       - 🇺🇸 美国 035
+      - 🇺🇸 美国 036
       - 🇺🇸 美国 037
       - 🇺🇸 美国 038
       - 🇺🇸 美国 039
@@ -8273,6 +8279,7 @@ proxy-groups:
       - 🇺🇸 美国 033
       - 🇺🇸 美国 034
       - 🇺🇸 美国 035
+      - 🇺🇸 美国 036
       - 🇺🇸 美国 037
       - 🇺🇸 美国 038
       - 🇺🇸 美国 039
@@ -9966,7 +9973,6 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
-      - 🇬🇧 英国 社会保险安全部
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_10
       - 🇬🇧 英国(yfuye.com免费节点)_11
@@ -10014,6 +10020,7 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 2
       - "🇮🇹 意大利 - Milan - Seflow S.N.C. Di Marco Brame' & C. - 1"
@@ -10253,7 +10260,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】11
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇸🇦 沙特阿拉伯 - 利雅德 - M247 Europe SRL - 1
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 - Sköndal - M247 Europe SRL - 1
@@ -10895,6 +10903,7 @@ proxy-groups:
       - 🇺🇸 美国 033
       - 🇺🇸 美国 034
       - 🇺🇸 美国 035
+      - 🇺🇸 美国 036
       - 🇺🇸 美国 037
       - 🇺🇸 美国 038
       - 🇺🇸 美国 039
@@ -12585,7 +12594,6 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
-      - 🇬🇧 英国 社会保险安全部
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_10
       - 🇬🇧 英国(yfuye.com免费节点)_11
@@ -12633,6 +12641,7 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 1
       - 🇮🇸 冰岛 - 哈夫纳夫约杜尔 - Advania Island ehf - 2
       - "🇮🇹 意大利 - Milan - Seflow S.N.C. Di Marco Brame' & C. - 1"
@@ -12872,7 +12881,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】11
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇸🇦 沙特阿拉伯 - 利雅德 - M247 Europe SRL - 1
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 - Sköndal - M247 Europe SRL - 1

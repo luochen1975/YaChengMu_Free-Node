@@ -319,10 +319,8 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 中国 阿里云, server: 8.218.26.234, port: 55566, client-fingerprint: chrome, type: vmess, uuid: 520a5072-76ec-4c37-8e25-02cf61b04889, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】3, server: 36.141.40.42, port: 13007, client-fingerprint: chrome, type: trojan, password: 3c77ad6b-9c9c-4aff-beff-0a16e2cdea15, sni: cloudflare.node-ssl.cdn-alibaba.com, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】8, server: 43.247.134.213, port: 58509, client-fingerprint: chrome, type: vmess, uuid: 7f75e117-5cfe-40b9-b18f-d46fa6add969, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇳 江苏省 移动, server: 36.151.251.18, port: 2145, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 福建可用, server: ct.877774.xyz, port: 443, client-fingerprint: random, type: vless, uuid: 81933241-8240-4826-8e93-734500a2d1ad, tls: true, servername: do-syd1.862400.xyz, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: do-syd1.862400.xyz}}, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 5", server: 120.26.137.112, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -445,7 +443,6 @@ proxies:
   - {name: 🇪🇺 欧洲 002, server: 138.199.175.204, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012ijnqibqygqo98710, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇪🇺 欧洲 003, server: 138.199.219.74, port: 443, client-fingerprint: chrome, type: vless, uuid: 9a04ee08-59f3-4de9-8424-6b32f06fbc68, tls: true, servername: 138.199.219.74, network: ws, ws-opts: {path: "/linkws?ed", headers: {Host: 138.199.219.74}}, udp: true}
   - {name: 🇪🇺 欧洲 004, server: direct-jde6zos4zet26b15zzd1.appcity-download.ir, port: 64286, client-fingerprint: chrome, type: vless, uuid: ca2bbc0a-3139-4a1c-bc93-049ad63c1d95, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇪🇺 欧盟 V2CROSS.COM, server: 45.87.175.174, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
   - {name: 🇫🇮 芬兰 001, server: 95.216.186.191, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /telegram-id-, headers: {Host: google.com}}, udp: true}
   - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: "🇫🇷 法国 - 巴黎 - Amazon.com, Inc. - 1", server: 51.45.18.222, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
@@ -718,6 +715,7 @@ proxies:
   - {name: 🇮🇷 伊朗 052, server: hetz-vm1.serjio.sbs, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 166b8dda-9126-4ecc-8d22-6b5ba2df9c1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 054, server: 46.62.199.20, port: 1414, client-fingerprint: chrome, type: vmess, uuid: 3550a751-0da4-49b2-8c7c-8ed00e616ff7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 055, server: 91.98.193.193, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 3ead03ea-0bc8-4a91-bb55-b2a8751f4a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 151.242.251.142, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
   - {name: 🇮🇹 意大利 001, server: 151.101.242.172, port: 80, client-fingerprint: chrome, type: vless, uuid: 62915088-0f71-4592-bf82-3f02d4db1239, tls: true, servername: Germany.ss.ss, network: ws, ws-opts: {path: "WEDBAZ?ed=2048", headers: {Host: Germany.ss.ss}}, udp: true}
   - {name: 🇮🇹 意大利 002, server: 31.14.135.127, port: 7035, client-fingerprint: chrome, type: vless, uuid: 7d27c544-135d-41a2-bd84-713b8af4f3c2, tls: true, servername: filimo.com, network: ws, ws-opts: {path: /, headers: {Host: filimo.com}}, udp: true}
   - {name: 🇮🇹 意大利 003, server: pizaitaliano.gojustore.site, port: 7035, client-fingerprint: chrome, type: vless, uuid: e265fc78-e269-46b2-9b6a-85f573dab3d5, tls: true, servername: filimo.com, network: ws, ws-opts: {path: /, headers: {Host: filimo.com}}, udp: true}
@@ -734,6 +732,7 @@ proxies:
   - {name: 🇯🇵 Standard|广日|IEPL|06, server: bs4.jymzffbquawl.com, port: 4601, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Standard|广日|IEPL|07, server: bs4.jymzffbquawl.com, port: 4602, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Standard|广日|IEPL|08, server: bs4.jymzffbquawl.com, port: 4603, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本, server: 36.151.251.18, port: 2145, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 - Shibuya City - M247 Europe SRL - 1, server: 194.68.27.76, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: "🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 2", server: 172.238.21.121, port: 64919, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0ghZkORvV4grvekDJ9Wcge, udp: true}
   - {name: "🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 3", server: 172.238.21.207, port: 38666, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 94rUxNcHIct9OGdF0DTAPX, udp: true}
@@ -2721,10 +2720,8 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 中国 阿里云
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
-      - 🇨🇳 江苏省 移动
       - 🇨🇳 福建可用
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
       - 🇨🇷 哥斯达黎加 002
@@ -2846,7 +2843,6 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - 巴黎 - G-Core Labs S.A. - 3
@@ -3113,6 +3109,7 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003
@@ -3128,6 +3125,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
+      - 🇯🇵 日本
       - 🇯🇵 日本 - Shibuya City - M247 Europe SRL - 1
       - 🇯🇵 日本 - 东京 - G-Core Labs S.A. - 4
       - 🇯🇵 日本 001
@@ -5081,10 +5079,8 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 中国 阿里云
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
-      - 🇨🇳 江苏省 移动
       - 🇨🇳 福建可用
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
       - 🇨🇷 哥斯达黎加 002
@@ -5206,7 +5202,6 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - 巴黎 - G-Core Labs S.A. - 3
@@ -5473,6 +5468,7 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003
@@ -5488,6 +5484,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
+      - 🇯🇵 日本
       - 🇯🇵 日本 - Shibuya City - M247 Europe SRL - 1
       - 🇯🇵 日本 - 东京 - G-Core Labs S.A. - 4
       - 🇯🇵 日本 001
@@ -7404,10 +7401,8 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 中国 阿里云
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
-      - 🇨🇳 江苏省 移动
       - 🇨🇳 福建可用
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -7520,6 +7515,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
+      - 🇯🇵 日本
       - 🇯🇵 日本 - Shibuya City - M247 Europe SRL - 1
       - 🇯🇵 日本 - 东京 - G-Core Labs S.A. - 4
       - 🇯🇵 日本 001
@@ -9115,7 +9111,6 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - 巴黎 - G-Core Labs S.A. - 3
@@ -9334,6 +9329,7 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003
@@ -9855,10 +9851,8 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 中国 阿里云
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
-      - 🇨🇳 江苏省 移动
       - 🇨🇳 福建可用
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -9965,6 +9959,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
+      - 🇯🇵 日本
       - 🇯🇵 日本 - Shibuya City - M247 Europe SRL - 1
       - 🇯🇵 日本 - 东京 - G-Core Labs S.A. - 4
       - 🇯🇵 日本 001
@@ -11554,7 +11549,6 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - 巴黎 - G-Core Labs S.A. - 3
@@ -11773,6 +11767,7 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003

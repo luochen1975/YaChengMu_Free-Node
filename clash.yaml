@@ -321,6 +321,7 @@ proxies:
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】3, server: 36.141.40.42, port: 13007, client-fingerprint: chrome, type: trojan, password: 3c77ad6b-9c9c-4aff-beff-0a16e2cdea15, sni: cloudflare.node-ssl.cdn-alibaba.com, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】8, server: 43.247.134.213, port: 58509, client-fingerprint: chrome, type: vmess, uuid: 7f75e117-5cfe-40b9-b18f-d46fa6add969, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇳 江苏省 移动 3, server: 36.151.251.18, port: 2145, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 福建可用, server: ct.877774.xyz, port: 443, client-fingerprint: random, type: vless, uuid: 81933241-8240-4826-8e93-734500a2d1ad, tls: true, servername: do-syd1.862400.xyz, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: do-syd1.862400.xyz}}, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 5", server: 120.26.137.112, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -674,6 +675,8 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|18, server: bs2.jymzffbquawl.com, port: 3607, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|19, server: bs2.jymzffbquawl.com, port: 3608, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: c85c9054-t13gg0-t4ixjm-1hhyy.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 210.6.207.42, port: 18622, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/X@freecodes/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_2, server: 202.85.53.74, port: 443, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/Telegram@freecodes/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_3, server: 223.16.138.113, port: 10201, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "X@freecodes/?ed=2560"}, udp: true}
@@ -732,7 +735,6 @@ proxies:
   - {name: 🇯🇵 Standard|广日|IEPL|06, server: bs4.jymzffbquawl.com, port: 4601, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Standard|广日|IEPL|07, server: bs4.jymzffbquawl.com, port: 4602, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Standard|广日|IEPL|08, server: bs4.jymzffbquawl.com, port: 4603, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
-  - {name: 🇯🇵 日本, server: 36.151.251.18, port: 2145, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 - Shibuya City - M247 Europe SRL - 1, server: 194.68.27.76, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: "🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 2", server: 172.238.21.121, port: 64919, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0ghZkORvV4grvekDJ9Wcge, udp: true}
   - {name: "🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 3", server: 172.238.21.207, port: 38666, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 94rUxNcHIct9OGdF0DTAPX, udp: true}
@@ -2722,6 +2724,7 @@ proxy-groups:
       - 🇨🇳 中国 143
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
+      - 🇨🇳 江苏省 移动 3
       - 🇨🇳 福建可用
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
       - 🇨🇷 哥斯达黎加 002
@@ -3068,6 +3071,8 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -3125,7 +3130,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
-      - 🇯🇵 日本
       - 🇯🇵 日本 - Shibuya City - M247 Europe SRL - 1
       - 🇯🇵 日本 - 东京 - G-Core Labs S.A. - 4
       - 🇯🇵 日本 001
@@ -5081,6 +5085,7 @@ proxy-groups:
       - 🇨🇳 中国 143
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
+      - 🇨🇳 江苏省 移动 3
       - 🇨🇳 福建可用
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
       - 🇨🇷 哥斯达黎加 002
@@ -5427,6 +5432,8 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -5484,7 +5491,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
-      - 🇯🇵 日本
       - 🇯🇵 日本 - Shibuya City - M247 Europe SRL - 1
       - 🇯🇵 日本 - 东京 - G-Core Labs S.A. - 4
       - 🇯🇵 日本 001
@@ -7223,6 +7229,8 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -7403,6 +7411,7 @@ proxy-groups:
       - 🇨🇳 中国 143
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
+      - 🇨🇳 江苏省 移动 3
       - 🇨🇳 福建可用
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -7444,6 +7453,8 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -7515,7 +7526,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
-      - 🇯🇵 日本
       - 🇯🇵 日本 - Shibuya City - M247 Europe SRL - 1
       - 🇯🇵 日本 - 东京 - G-Core Labs S.A. - 4
       - 🇯🇵 日本 001
@@ -9679,6 +9689,8 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -9853,6 +9865,7 @@ proxy-groups:
       - 🇨🇳 中国 143
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
+      - 🇨🇳 江苏省 移动 3
       - 🇨🇳 福建可用
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -9894,6 +9907,8 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -9959,7 +9974,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
-      - 🇯🇵 日本
       - 🇯🇵 日本 - Shibuya City - M247 Europe SRL - 1
       - 🇯🇵 日本 - 东京 - G-Core Labs S.A. - 4
       - 🇯🇵 日本 001

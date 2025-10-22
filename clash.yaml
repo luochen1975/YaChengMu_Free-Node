@@ -321,7 +321,6 @@ proxies:
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】3, server: 36.141.40.42, port: 13007, client-fingerprint: chrome, type: trojan, password: 3c77ad6b-9c9c-4aff-beff-0a16e2cdea15, sni: cloudflare.node-ssl.cdn-alibaba.com, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】8, server: 43.247.134.213, port: 58509, client-fingerprint: chrome, type: vmess, uuid: 7f75e117-5cfe-40b9-b18f-d46fa6add969, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇳 江苏省 移动 3, server: 36.151.251.18, port: 2145, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 福建可用, server: ct.877774.xyz, port: 443, client-fingerprint: random, type: vless, uuid: 81933241-8240-4826-8e93-734500a2d1ad, tls: true, servername: do-syd1.862400.xyz, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: do-syd1.862400.xyz}}, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 5", server: 120.26.137.112, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -732,6 +731,7 @@ proxies:
   - {name: 🇯🇵 Standard|广日|IEPL|06, server: bs4.jymzffbquawl.com, port: 4601, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Standard|广日|IEPL|07, server: bs4.jymzffbquawl.com, port: 4602, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Standard|广日|IEPL|08, server: bs4.jymzffbquawl.com, port: 4603, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本, server: 36.151.251.18, port: 2145, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 - Shibuya City - M247 Europe SRL - 1, server: 194.68.27.76, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: "🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 2", server: 172.238.21.121, port: 64919, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 0ghZkORvV4grvekDJ9Wcge, udp: true}
   - {name: "🇯🇵 日本 - 东京 - Akamai Technologies, Inc. - 3", server: 172.238.21.207, port: 38666, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 94rUxNcHIct9OGdF0DTAPX, udp: true}
@@ -1086,6 +1086,8 @@ proxies:
   - {name: 🇷🇺 俄罗斯 091, server: che-0001-xr.packet-drop-society.net, port: 443, client-fingerprint: chrome, type: vless, uuid: 562c71d0-f18b-402c-b1ad-5c2bbfcd6e02, tls: true, network: tcp, udp: true}
   - {name: 🇷🇺 俄罗斯 092, server: 638947655065548930.bandar-prx-dnraacq.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 093, server: 80.92.206.172, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 62.133.63.222, port: 48981, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: CDAGEYAB1gvcIrFZYhUbEM, udp: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 2, server: 212.192.15.176, port: 23185, client-fingerprint: chrome, type: vmess, uuid: 136368f2-3643-4a59-a7e9-f64a7670e293, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】11, server: tr.vpnsparta.pro, port: 57456, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true}
   - {name: 🇸🇦 沙特阿拉伯 002, server: 91.209.253.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes+", headers: {Host: saas.git.cloudns.org}}, udp: true}
   - {name: 🇸🇪 瑞典 - 泰爾貝里 - Alexhost SRL - 1, server: 46.253.4.25, port: 35916, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: K0McnRF6v64k7o3teZ6F49, udp: true}
@@ -1129,7 +1131,6 @@ proxies:
   - {name: 🇸🇮 斯洛文尼亚 001, server: 92.53.188.36, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v4.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇸🇮 斯洛文尼亚 002, server: 92.53.191.209, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 6f96494c-bdaf-3091-bf7b-29cfe92882b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai, headers: {Host: TG.WangCai2.s4.db-link02.top}}, udp: true}
   - {name: 🇹🇷 土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 2, server: tr-1.stunnel.cc, port: 8444, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: tunnel-fbrof, udp: true}
-  - {name: 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1, server: 62.133.63.222, port: 48981, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: CDAGEYAB1gvcIrFZYhUbEM, udp: true}
   - {name: 🇹🇷 土耳其 001, server: 188.132.141.58, port: 7035, client-fingerprint: chrome, type: vless, uuid: acdf1a94-393f-4b5a-86c2-65558b18e7b5, tls: false, network: ws, ws-opts: {path: /, headers: {Host: filimo.com}}, udp: true}
   - {name: 🇹🇷 土耳其 002, server: 185.113.10.43, port: 8880, client-fingerprint: chrome, type: vless, uuid: 706a6170-e492-46b0-80c9-9ffc3ff9f828, tls: true, servername: websocket.network.www.speedtest.net.kkoccashor.vegaskala.com., network: ws, ws-opts: {path: /, headers: {Host: websocket.network.www.speedtest.net.kkoccashor.vegaskala.com.}}, udp: true}
   - {name: 🇹🇷 土耳其 006, server: ardagulerturk.vtuix.online, port: 7035, client-fingerprint: chrome, type: vless, uuid: babf3d3e-dc83-40ef-8a7e-a08550fdeed4, tls: true, servername: filimo.com, network: ws, ws-opts: {path: /, headers: {Host: filimo.com}}, udp: true}
@@ -2290,7 +2291,7 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, client-fingerprint: chrome, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, client-fingerprint: chrome, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心, server: 3.85.144.122, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: dada0801, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 143.244.137.253, port: 2494, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: NZobzU7Wxu24kDcbOeHBEY, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 123.143.9.5, port: 14041, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "X@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: 27.117.52.110, port: 50001, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_100, server: 49.142.150.222, port: 50001, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/Telegram@freecodes/?ed=2560"}, udp: true}
@@ -2722,7 +2723,6 @@ proxy-groups:
       - 🇨🇳 中国 143
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
-      - 🇨🇳 江苏省 移动 3
       - 🇨🇳 福建可用
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
       - 🇨🇷 哥斯达黎加 002
@@ -3125,6 +3125,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
+      - 🇯🇵 日本
       - 🇯🇵 日本 - Shibuya City - M247 Europe SRL - 1
       - 🇯🇵 日本 - 东京 - G-Core Labs S.A. - 4
       - 🇯🇵 日本 001
@@ -3475,6 +3476,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】11
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 - 泰爾貝里 - Alexhost SRL - 1
@@ -3517,7 +3520,6 @@ proxy-groups:
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇹🇷 土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 2
-      - 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1
       - 🇹🇷 土耳其 001
       - 🇹🇷 土耳其 002
       - 🇹🇷 土耳其 006
@@ -4674,7 +4676,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -5081,7 +5083,6 @@ proxy-groups:
       - 🇨🇳 中国 143
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
-      - 🇨🇳 江苏省 移动 3
       - 🇨🇳 福建可用
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 6
       - 🇨🇷 哥斯达黎加 002
@@ -5484,6 +5485,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
+      - 🇯🇵 日本
       - 🇯🇵 日本 - Shibuya City - M247 Europe SRL - 1
       - 🇯🇵 日本 - 东京 - G-Core Labs S.A. - 4
       - 🇯🇵 日本 001
@@ -5834,6 +5836,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】11
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 - 泰爾貝里 - Alexhost SRL - 1
@@ -5876,7 +5880,6 @@ proxy-groups:
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇹🇷 土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 2
-      - 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1
       - 🇹🇷 土耳其 001
       - 🇹🇷 土耳其 002
       - 🇹🇷 土耳其 006
@@ -7033,7 +7036,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -7403,7 +7406,6 @@ proxy-groups:
       - 🇨🇳 中国 143
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
-      - 🇨🇳 江苏省 移动 3
       - 🇨🇳 福建可用
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -7516,6 +7518,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
+      - 🇯🇵 日本
       - 🇯🇵 日本 - Shibuya City - M247 Europe SRL - 1
       - 🇯🇵 日本 - 东京 - G-Core Labs S.A. - 4
       - 🇯🇵 日本 001
@@ -8736,7 +8739,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -9543,6 +9546,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】11
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 - 泰爾貝里 - Alexhost SRL - 1
@@ -9559,7 +9564,6 @@ proxy-groups:
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇹🇷 土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 2
-      - 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1
       - 🇹🇷 土耳其 001
       - 🇹🇷 土耳其 002
       - 🇹🇷 土耳其 006
@@ -9853,7 +9857,6 @@ proxy-groups:
       - 🇨🇳 中国 143
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
-      - 🇨🇳 江苏省 移动 3
       - 🇨🇳 福建可用
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -9960,6 +9963,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
+      - 🇯🇵 日本
       - 🇯🇵 日本 - Shibuya City - M247 Europe SRL - 1
       - 🇯🇵 日本 - 东京 - G-Core Labs S.A. - 4
       - 🇯🇵 日本 001
@@ -11177,7 +11181,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 弗吉尼亚州阿什本Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -11981,6 +11985,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇷🇺 俄罗斯【机场推荐：https://a0a.xyz/】11
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 - 泰爾貝里 - Alexhost SRL - 1
@@ -11997,7 +12003,6 @@ proxy-groups:
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇹🇷 土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 2
-      - 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 1
       - 🇹🇷 土耳其 001
       - 🇹🇷 土耳其 002
       - 🇹🇷 土耳其 006

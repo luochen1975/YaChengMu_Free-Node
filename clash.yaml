@@ -46,6 +46,7 @@ proxies:
   - {name: 亚太地区 003, server: 103.115.109.250, port: 40762, client-fingerprint: chrome, type: vmess, uuid: 35ce6e3a-4ddc-472c-9e9f-a34362c194e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 亚太地区 004, server: 103.159.207.84, port: 50832, client-fingerprint: chrome, type: vmess, uuid: c31c40eb-95fc-4937-ba45-7a21e8f5da32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 亚太地区 005, server: 103.169.142.53, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: abcd.freewarp.eu.org, network: ws, ws-opts: {path: /snippets, headers: {Host: abcd.freewarp.eu.org}}, udp: true}
+  - {name: 亚太地区 V2CROSS.COM, server: naiu-hk.05vr9nyqg5.download, port: 13008, client-fingerprint: chrome, type: trojan, password: 3c77ad6b-9c9c-4aff-beff-0a16e2cdea15, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 安圭拉 001, server: 209.94.90.87, port: 2087, client-fingerprint: chrome, type: vless, uuid: 8d5911d9-f9f9-484f-8f67-5729ab5fd1af, tls: true, servername: saas.cfliu.filegear-sg.me, network: ws, ws-opts: {path: "/snippets?ip=tw.tp81.netlib.re:81&nat64=6to4", headers: {Host: saas.cfliu.filegear-sg.me}}, udp: true}
   - {name: 最低2元1000G流量, server: 13.36.166.230, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 最高200元终身无限流量, server: 35.180.193.77, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -718,7 +719,6 @@ proxies:
   - {name: 🇮🇹 意大利 001, server: 151.101.242.172, port: 80, client-fingerprint: chrome, type: vless, uuid: 62915088-0f71-4592-bf82-3f02d4db1239, tls: true, servername: Germany.ss.ss, network: ws, ws-opts: {path: "WEDBAZ?ed=2048", headers: {Host: Germany.ss.ss}}, udp: true}
   - {name: 🇮🇹 意大利 002, server: 31.14.135.127, port: 7035, client-fingerprint: chrome, type: vless, uuid: 7d27c544-135d-41a2-bd84-713b8af4f3c2, tls: true, servername: filimo.com, network: ws, ws-opts: {path: /, headers: {Host: filimo.com}}, udp: true}
   - {name: 🇮🇹 意大利 003, server: pizaitaliano.gojustore.site, port: 7035, client-fingerprint: chrome, type: vless, uuid: e265fc78-e269-46b2-9b6a-85f573dab3d5, tls: true, servername: filimo.com, network: ws, ws-opts: {path: /, headers: {Host: filimo.com}}, udp: true}
-  - {name: 🇮🇹 意大利 V2CROSS.COM, server: aflzzul.meiquankongjian.com, port: 51515, client-fingerprint: chrome, type: vmess, uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflzzul.meiquankongjian.com}}, udp: true}
   - {name: "🇯🇵 JP #1", server: shdata1.233netpro.com, port: 10121, client-fingerprint: chrome, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 Premium|广日|IEPL|01, server: pr3.jymzffbquawl.com, port: 4600, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Premium|广日|IEPL|02, server: pr3.jymzffbquawl.com, port: 4601, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -2450,6 +2450,7 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
+      - 亚太地区 V2CROSS.COM
       - 安圭拉 001
       - 最低2元1000G流量
       - 最高200元终身无限流量
@@ -3117,7 +3118,6 @@ proxy-groups:
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003
-      - 🇮🇹 意大利 V2CROSS.COM
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
       - 🇯🇵 Premium|广日|IEPL|03
@@ -4816,6 +4816,7 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
+      - 亚太地区 V2CROSS.COM
       - 安圭拉 001
       - 最低2元1000G流量
       - 最高200元终身无限流量
@@ -5483,7 +5484,6 @@ proxy-groups:
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003
-      - 🇮🇹 意大利 V2CROSS.COM
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
       - 🇯🇵 Premium|广日|IEPL|03
@@ -8901,6 +8901,7 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
+      - 亚太地区 V2CROSS.COM
       - 安圭拉 001
       - 最低2元1000G流量
       - 最高200元终身无限流量
@@ -9367,7 +9368,6 @@ proxy-groups:
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003
-      - 🇮🇹 意大利 V2CROSS.COM
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 KR_speednode_0017
       - 🇰🇷 KR_speednode_0019
@@ -11352,6 +11352,7 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
+      - 亚太地区 V2CROSS.COM
       - 安圭拉 001
       - 最低2元1000G流量
       - 最高200元终身无限流量
@@ -11818,7 +11819,6 @@ proxy-groups:
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003
-      - 🇮🇹 意大利 V2CROSS.COM
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 KR_speednode_0017
       - 🇰🇷 KR_speednode_0019

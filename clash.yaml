@@ -327,6 +327,7 @@ proxies:
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】3, server: 36.141.40.42, port: 13007, client-fingerprint: chrome, type: trojan, password: 3c77ad6b-9c9c-4aff-beff-0a16e2cdea15, sni: cloudflare.node-ssl.cdn-alibaba.com, udp: true}
   - {name: 🇨🇳 中国【机场推荐：https://a0a.xyz/】8, server: 43.247.134.213, port: 58509, client-fingerprint: chrome, type: vmess, uuid: 7f75e117-5cfe-40b9-b18f-d46fa6add969, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇳 甘肃省兰州市 移动, server: aflzzul.meiquankongjian.com, port: 51515, client-fingerprint: chrome, type: vmess, uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflzzul.meiquankongjian.com}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 003, server: 190.93.246.246, port: 8443, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: true, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: bitget1.asdasd.click}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 004, server: 190.93.246.220, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lg.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lg.kpcloud.eu.org}}, udp: true}
@@ -680,7 +681,6 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 10, server: baigou1.kkieo555.cn, port: 21862, client-fingerprint: chrome, type: trojan, password: 5978419a-a183-419e-a88e-9185f1e974f1, sni: douyin.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 12, server: baigou1.kkieo555.cn, port: 21891, client-fingerprint: chrome, type: trojan, password: 86ef06e2-b675-4623-b5eb-cc06dbc39580, sni: douyin.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 8, server: baigou1.kkieo555.cn, port: 21866, client-fingerprint: chrome, type: trojan, password: 7ae21af3-5c58-4656-872a-ca9c7607af07, sni: douyin.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: a5a81a34-f257-11ef-ba82-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 210.6.207.42, port: 18622, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/X@freecodes/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_3, server: 223.16.138.113, port: 10201, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "X@freecodes/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_6, server: 223.16.138.113, port: 12457, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "freecodes/?ed=2560"}, udp: true}
@@ -2730,6 +2730,7 @@ proxy-groups:
       - 🇨🇳 中国 143
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
+      - 🇨🇳 甘肃省兰州市 移动
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -3079,7 +3080,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 10
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 12
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 8
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
@@ -5096,6 +5096,7 @@ proxy-groups:
       - 🇨🇳 中国 143
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
+      - 🇨🇳 甘肃省兰州市 移动
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -5445,7 +5446,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 10
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 12
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 8
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
@@ -7248,7 +7248,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 10
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 12
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 8
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
@@ -7426,6 +7425,7 @@ proxy-groups:
       - 🇨🇳 中国 143
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
+      - 🇨🇳 甘肃省兰州市 移动
       - 🇭🇰 HK_speednode_0007
       - 🇭🇰 HK_speednode_0010
       - 🇭🇰 HK_speednode_0012
@@ -7474,7 +7474,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 10
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 12
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 8
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
@@ -9718,7 +9717,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 10
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 12
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 8
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
@@ -9890,6 +9888,7 @@ proxy-groups:
       - 🇨🇳 中国 143
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】3
       - 🇨🇳 中国【机场推荐：https://a0a.xyz/】8
+      - 🇨🇳 甘肃省兰州市 移动
       - 🇭🇰 HK_speednode_0007
       - 🇭🇰 HK_speednode_0010
       - 🇭🇰 HK_speednode_0012
@@ -9938,7 +9937,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 10
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 12
       - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 8
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6

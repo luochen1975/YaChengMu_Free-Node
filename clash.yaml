@@ -366,7 +366,7 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 甘肃省兰州市 移动, server: aflzzul.meiquankongjian.com, port: 52512, client-fingerprint: chrome, type: vmess, uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflzzul.meiquankongjian.com}}, udp: true}
+  - {name: 🇨🇳 江苏省 移动 2, server: 36.150.215.241, port: 26373, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 9, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 8", server: 120.26.137.112, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
@@ -740,7 +740,6 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Akari Networks Limited - 16, server: oss-cn-shanghai.letssepub.com, port: 20021, client-fingerprint: chrome, type: trojan, password: adbac894-90b9-4913-b77e-a715a8d4ebc8, sni: dingding-doc.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - DataCamp Limited - 12, server: 169.150.222.197, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kWJIm83Df76QWVdaew1w0yzxvwPApA9JodUtqBVV-BYBoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 14, server: n002.xunxunmimisbs.sbs, port: 21201, client-fingerprint: chrome, type: trojan, password: 90557ecb-8107-4067-99dc-981b893f3c0e, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 Amazon数据中心, server: ss.011.node-for-bigairport.win, port: 11688, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 210.6.207.42, port: 18622, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/X@freecodes/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_3, server: 223.16.138.113, port: 10201, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "X@freecodes/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_6, server: 223.16.138.113, port: 12457, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "freecodes/?ed=2560"}, udp: true}
@@ -1077,6 +1076,7 @@ proxies:
   - {name: 🇵🇱 波兰 002, server: 128.204.223.42, port: 27377, client-fingerprint: chrome, type: vmess, uuid: bd996dac-3b1c-42a9-b8a1-66b87d0b72ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇵🇱 波兰 003, server: 185.254.220.229, port: 1002, client-fingerprint: chrome, type: vless, uuid: 489d84ab-2895-4dea-adf2-8915349742b4, tls: true, network: tcp, udp: true}
   - {name: 🇵🇱 波兰 004, server: 128.204.223.42, port: 29532, client-fingerprint: chrome, type: vmess, uuid: 70073f5e-9182-4f17-8758-5f7b16b241b4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇵🇱 波兰 V2CROSS.COM, server: ss.011.node-for-bigairport.win, port: 11688, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53, udp: true}
   - {name: 🇵🇷 波多黎各 - Guaynabo - FiberX - 1, server: 38.158.220.26, port: 8081, client-fingerprint: chrome, type: http, username: afY491o7YfK00koaXQD9kWJIm83Df76QWVdaew1w0yyZxwAbCWb5Ngo8eW4OTEo1oXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇷🇴 罗马尼亚 001, server: 89.46.235.246, port: 443, client-fingerprint: chrome, type: vmess, uuid: cfa8c2a5-5196-43cb-b54b-e391b2838835, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 俄罗斯 001, server: 92.243.75.49, port: 2087, client-fingerprint: chrome, type: trojan, password: wb6368, sni: hsdgbuys.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hsdgbuys.pages.dev}}, udp: true}
@@ -2381,7 +2381,6 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, client-fingerprint: chrome, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, client-fingerprint: chrome, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.67.204.19, port: 443, client-fingerprint: chrome, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 123.143.9.5, port: 14041, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "X@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: 27.117.52.110, port: 50001, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_100, server: 49.142.150.222, port: 50001, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/Telegram@freecodes/?ed=2560"}, udp: true}
@@ -2464,7 +2463,6 @@ proxies:
   - {name: 🇺🇸 美国(yfuye.com免费节点)_94, server: 183.104.0.181, port: 16923, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇺🇸 美国2, server: 160.16.89.176, port: 2381, client-fingerprint: chrome, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国3, server: 36.151.251.23, port: 26876, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.150.215.241, port: 26373, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国4|@ripaojiedian, server: 36.103.168.7, port: 21864, client-fingerprint: chrome, type: trojan, password: 596de3c8-c1c4-4fe1-a7aa-7046b0f2af8a, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 1, server: 103.186.154.144, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 2, server: 103.186.154.47, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -2855,7 +2853,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 甘肃省兰州市 移动
+      - 🇨🇳 江苏省 移动 2
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 9
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
@@ -3222,7 +3220,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Akari Networks Limited - 16
       - 🇭🇰 中国 - 香港 - DataCamp Limited - 12
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 14
-      - 🇭🇰 香港 Amazon数据中心
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
@@ -3554,6 +3551,7 @@ proxy-groups:
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
       - 🇵🇱 波兰 004
+      - 🇵🇱 波兰 V2CROSS.COM
       - 🇵🇷 波多黎各 - Guaynabo - FiberX - 1
       - 🇷🇴 罗马尼亚 001
       - 🇷🇺 俄罗斯 001
@@ -4850,7 +4848,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -4933,7 +4930,6 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_94
       - 🇺🇸 美国2
       - 🇺🇸 美国3
-      - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
       - 🇻🇳 越南 - Hải Dương - FASTLY - 2
@@ -5299,7 +5295,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 甘肃省兰州市 移动
+      - 🇨🇳 江苏省 移动 2
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 9
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
@@ -5666,7 +5662,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Akari Networks Limited - 16
       - 🇭🇰 中国 - 香港 - DataCamp Limited - 12
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 14
-      - 🇭🇰 香港 Amazon数据中心
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
@@ -5998,6 +5993,7 @@ proxy-groups:
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
       - 🇵🇱 波兰 004
+      - 🇵🇱 波兰 V2CROSS.COM
       - 🇵🇷 波多黎各 - Guaynabo - FiberX - 1
       - 🇷🇴 罗马尼亚 001
       - 🇷🇺 俄罗斯 001
@@ -7294,7 +7290,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -7377,7 +7372,6 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_94
       - 🇺🇸 美国2
       - 🇺🇸 美国3
-      - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
       - 🇻🇳 越南 - Hải Dương - FASTLY - 2
@@ -7487,7 +7481,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Akari Networks Limited - 16
       - 🇭🇰 中国 - 香港 - DataCamp Limited - 12
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 14
-      - 🇭🇰 香港 Amazon数据中心
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
@@ -7665,7 +7658,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 甘肃省兰州市 移动
+      - 🇨🇳 江苏省 移动 2
       - 🇭🇰 HK_speednode_0010
       - 🇭🇰 HK_speednode_0012
       - 🇭🇰 Premium|广港|IEPL|01
@@ -7711,7 +7704,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Akari Networks Limited - 16
       - 🇭🇰 中国 - 香港 - DataCamp Limited - 12
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 14
-      - 🇭🇰 香港 Amazon数据中心
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
@@ -9011,7 +9003,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -9094,7 +9085,6 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_94
       - 🇺🇸 美国2
       - 🇺🇸 美国3
-      - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
   - name: 🎏 ‍其他
     type: url-test
@@ -9796,6 +9786,7 @@ proxy-groups:
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
       - 🇵🇱 波兰 004
+      - 🇵🇱 波兰 V2CROSS.COM
       - 🇵🇷 波多黎各 - Guaynabo - FiberX - 1
       - 🇷🇴 罗马尼亚 001
       - 🇷🇺 俄罗斯 001
@@ -10032,7 +10023,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Akari Networks Limited - 16
       - 🇭🇰 中国 - 香港 - DataCamp Limited - 12
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 14
-      - 🇭🇰 香港 Amazon数据中心
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
@@ -10204,7 +10194,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 甘肃省兰州市 移动
+      - 🇨🇳 江苏省 移动 2
       - 🇭🇰 HK_speednode_0010
       - 🇭🇰 HK_speednode_0012
       - 🇭🇰 Premium|广港|IEPL|01
@@ -10250,7 +10240,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Akari Networks Limited - 16
       - 🇭🇰 中国 - 香港 - DataCamp Limited - 12
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 14
-      - 🇭🇰 香港 Amazon数据中心
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
@@ -11541,7 +11530,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -11624,7 +11612,6 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_94
       - 🇺🇸 美国2
       - 🇺🇸 美国3
-      - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国4|@ripaojiedian
   - name: 👆🏻🎏 ‍其他
     type: select
@@ -12323,6 +12310,7 @@ proxy-groups:
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
       - 🇵🇱 波兰 004
+      - 🇵🇱 波兰 V2CROSS.COM
       - 🇵🇷 波多黎各 - Guaynabo - FiberX - 1
       - 🇷🇴 罗马尼亚 001
       - 🇷🇺 俄罗斯 001

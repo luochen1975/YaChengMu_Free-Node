@@ -345,7 +345,7 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 江苏省 移动 2, server: 36.150.215.237, port: 1821, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 江苏省 移动, server: 36.150.215.237, port: 1821, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 003, server: 190.93.246.246, port: 8443, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: true, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: bitget1.asdasd.click}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 004, server: 190.93.246.220, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lg.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lg.kpcloud.eu.org}}, udp: true}
@@ -449,7 +449,6 @@ proxies:
   - {name: 🇩🇪 德国 096, server: 50.7.85.221, port: 443, client-fingerprint: chrome, type: vless, uuid: 3af3a0f3-28ea-407c-a3df-2ae3b33fc174, tls: true, servername: salampesarm.sesewov745.workers.dev, network: ws, ws-opts: {path: path/telegram, headers: {Host: salampesarm.sesewov745.workers.dev}}, udp: true}
   - {name: 🇩🇪 德国 098, server: 84.201.4.247, port: 1598, client-fingerprint: chrome, type: vless, uuid: 494e4d9d-e1e6-42be-a9df-8a6fbd46b650, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇩🇪 德国 099, server: 91.107.157.89, port: 8880, client-fingerprint: chrome, type: vmess, uuid: de336351-9bd5-4614-fdd6-38ab0d16d556, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信, server: aflzzul.meiquankongjian.com, port: 52511, client-fingerprint: chrome, type: vmess, uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflzzul.meiquankongjian.com}}, udp: true}
   - {name: 🇩🇰 丹麦 001, server: www.csgo.com, port: 443, client-fingerprint: chrome, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}, udp: true}
   - {name: 🇩🇰 丹麦 002, server: www.csgo.com, port: 80, client-fingerprint: randomized, type: vless, uuid: ca2d8658-9ed6-4e0d-8f58-eaaa021f3baa, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: warp.irss.eu.org}}, udp: true}
   - {name: 🇩🇰 丹麦 003, server: csgo.com, port: 2053, client-fingerprint: chrome, type: vmess, uuid: 8b0a592f-1fee-4da0-add6-f8e108611164, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram, headers: {Host: cdn-node-oss-94.paofu.de}}, udp: true}
@@ -693,11 +692,11 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 1, server: 103.243.26.209, port: 8080, client-fingerprint: chrome, type: vmess, uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 5, server: 103.243.26.209, port: 10086, client-fingerprint: chrome, type: vmess, uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Ipxo LLC - 4, server: cdnfire.xiaomispeed.com, port: 21102, client-fingerprint: chrome, type: trojan, password: 70400248-8aed-49c1-8ddf-2f6a722a2942, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.46.98, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 210.6.207.42, port: 18622, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/X@freecodes/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_3, server: 223.16.138.113, port: 10201, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "X@freecodes/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_6, server: 223.16.138.113, port: 12457, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "freecodes/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
-  - {name: 🇭🇰 香港5, server: 58.152.46.98, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港6, server: 36.103.168.7, port: 21862, client-fingerprint: chrome, type: trojan, password: 596de3c8-c1c4-4fe1-a7aa-7046b0f2af8a, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港6|@ripaojiedian, server: oss-cn-shanghai.letssepub.com, port: 20021, client-fingerprint: chrome, type: trojan, password: adbac894-90b9-4913-b77e-a715a8d4ebc8, sni: dingding-doc.com, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港7|@ripaojiedian, server: node2.mangging.com, port: 10055, client-fingerprint: chrome, type: vmess, uuid: 353d4c13-a756-46dd-ba6f-3dfecfeb37fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
@@ -872,7 +871,6 @@ proxies:
   - {name: 🇯🇵 日本 126, server: tls.07.node-for-bigairport.win, port: 22211, client-fingerprint: chrome, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}, udp: true}
   - {name: 🇯🇵 日本 127, server: 103.231.75.129, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇯🇵 日本 128, server: 85.208.110.41, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇯🇵 日本 东京Amazon数据中心, server: cgroup.node1.v.nodelist-airport.com, port: 53231, client-fingerprint: chrome, type: vmess, uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_1, server: 158.101.77.33, port: 443, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /X@节点狂魔/}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_10, server: 121.85.55.59, port: 19842, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /X@节点狂魔/}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_11, server: 113.37.149.36, port: 12553, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /X@freecodes/}, udp: true}
@@ -2749,7 +2747,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 江苏省 移动 2
+      - 🇨🇳 江苏省 移动
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -2853,7 +2851,6 @@ proxy-groups:
       - 🇩🇪 德国 096
       - 🇩🇪 德国 098
       - 🇩🇪 德国 099
-      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
       - 🇩🇰 丹麦 003
@@ -3092,11 +3089,11 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 1
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 5
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 4
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
       - 🇭🇰 香港2
-      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7|@ripaojiedian
@@ -3269,7 +3266,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11
@@ -5104,7 +5100,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 江苏省 移动 2
+      - 🇨🇳 江苏省 移动
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -5208,7 +5204,6 @@ proxy-groups:
       - 🇩🇪 德国 096
       - 🇩🇪 德国 098
       - 🇩🇪 德国 099
-      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
       - 🇩🇰 丹麦 003
@@ -5447,11 +5442,11 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 1
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 5
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 4
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
       - 🇭🇰 香港2
-      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7|@ripaojiedian
@@ -5624,7 +5619,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11
@@ -7222,11 +7216,11 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 1
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 5
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 4
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
       - 🇭🇰 香港2
-      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7|@ripaojiedian
@@ -7396,7 +7390,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 江苏省 移动 2
+      - 🇨🇳 江苏省 移动
       - 🇭🇰 HK_speednode_0006
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -7441,11 +7435,11 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 1
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 5
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 4
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
       - 🇭🇰 香港2
-      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7|@ripaojiedian
@@ -7636,7 +7630,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11
@@ -9098,7 +9091,6 @@ proxy-groups:
       - 🇩🇪 德国 096
       - 🇩🇪 德国 098
       - 🇩🇪 德国 099
-      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
       - 🇩🇰 丹麦 003
@@ -9676,11 +9668,11 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 1
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 5
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 4
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
       - 🇭🇰 香港2
-      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7|@ripaojiedian
@@ -9844,7 +9836,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 江苏省 移动 2
+      - 🇨🇳 江苏省 移动
       - 🇭🇰 HK_speednode_0006
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -9889,11 +9881,11 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 1
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 5
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 4
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_6
       - 🇭🇰 香港2
-      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7|@ripaojiedian
@@ -10078,7 +10070,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11
@@ -11534,7 +11525,6 @@ proxy-groups:
       - 🇩🇪 德国 096
       - 🇩🇪 德国 098
       - 🇩🇪 德国 099
-      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
       - 🇩🇰 丹麦 003

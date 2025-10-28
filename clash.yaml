@@ -339,6 +339,8 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省广州市 电信, server: oss-cn-shanghai.letssepub.com, port: 20021, client-fingerprint: chrome, type: trojan, password: adbac894-90b9-4913-b77e-a715a8d4ebc8, sni: dingding-doc.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 广东省广州市 腾讯云, server: 113.99.143.139, port: 26470, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 003, server: 190.93.246.246, port: 8443, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: true, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: bitget1.asdasd.click}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 004, server: 190.93.246.220, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lg.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lg.kpcloud.eu.org}}, udp: true}
@@ -691,7 +693,6 @@ proxies:
   - {name: 🇭🇰 香港(yfuye.com免费节点)_6, server: 223.16.138.113, port: 12457, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "freecodes/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港4, server: 36.150.215.237, port: 1821, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港6, server: oss-cn-shanghai.letssepub.com, port: 20021, client-fingerprint: chrome, type: trojan, password: adbac894-90b9-4913-b77e-a715a8d4ebc8, sni: dingding-doc.com, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港7, server: node2.mangging.com, port: 10055, client-fingerprint: chrome, type: vmess, uuid: 353d4c13-a756-46dd-ba6f-3dfecfeb37fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: 🇮🇪 爱尔兰 001, server: 52.215.68.89, port: 22222, client-fingerprint: chrome, type: vless, uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e, tls: true, servername: telegram-channel-vlessconfig.sohala.uk, network: ws, ws-opts: {path: /telegram-channel-vlessconfig-ws, headers: {Host: telegram-channel-vlessconfig.sohala.uk}}, udp: true}
   - {name: 🇮🇱 以色列 001, server: 185.47.172.105, port: 2083, client-fingerprint: chrome, type: vless, uuid: 354712c4-dab3-452c-89fd-0a2edd6999f9, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -863,7 +864,6 @@ proxies:
   - {name: 🇯🇵 日本 126, server: tls.07.node-for-bigairport.win, port: 22211, client-fingerprint: chrome, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}, udp: true}
   - {name: 🇯🇵 日本 127, server: 103.231.75.129, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇯🇵 日本 128, server: 85.208.110.41, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇯🇵 日本 东京Sakura樱花云数据中心, server: 160.16.240.91, port: 3161, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.baidu.com, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_1, server: 158.101.77.33, port: 443, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /X@节点狂魔/}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_10, server: 121.85.55.59, port: 19842, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /X@节点狂魔/}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_11, server: 113.37.149.36, port: 12553, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /X@freecodes/}, udp: true}
@@ -1106,7 +1106,6 @@ proxies:
   - {name: 🇸🇬 Standard|广新|IEPL|08, server: bs4.jymzffbquawl.com, port: 6603, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇸🇬 新加坡 - 新加坡 - Akile LTD - 4, server: cdnfire.xiaomispeed.com, port: 23301, client-fingerprint: chrome, type: trojan, password: 3723668d-7d91-4b0f-9d08-c57ee49da92f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. - 1, server: node1.mangging.com, port: 10060, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 532527e2-e185-4ec3-9c51-715bc3a89815, udp: true}
-  - {name: 🇸🇬 新加坡 - 新加坡 - Shenzhen Tencent Computer Systems Company Limited - 6, server: 113.99.143.139, port: 26470, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, udp: true}
   - {name: 🇸🇬 新加坡 - 新加坡 - The Constant Company - 3, server: 149.28.151.140, port: 443, client-fingerprint: chrome, type: trojan, password: 332c99d2ebae435b9b3970a75ae902d2, sni: www.gpt123.one, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡 001, server: node4.rtxconfigz.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 44e57485-eccc-46ef-808f-cd17ac810018, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: node4.rtxconfigz.com, network: ws, ws-opts: {path: /, headers: {Host: node4.rtxconfigz.com}}, udp: true}
   - {name: 🇸🇬 新加坡 002, server: sg006.421421.xyz, port: 20230, client-fingerprint: chrome, type: trojan, password: 1b26d982-fd68-44f4-bf6d-22fe17a9249a, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.alibaba.com}}, udp: true}
@@ -2738,6 +2737,8 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省广州市 腾讯云
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -3085,7 +3086,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_6
       - 🇭🇰 香港2
       - 🇭🇰 香港4
-      - 🇭🇰 香港6
       - 🇭🇰 香港7
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 001
@@ -3255,7 +3255,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京Sakura樱花云数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11
@@ -3497,7 +3496,6 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡 - 新加坡 - Akile LTD - 4
       - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. - 1
-      - 🇸🇬 新加坡 - 新加坡 - Shenzhen Tencent Computer Systems Company Limited - 6
       - 🇸🇬 新加坡 - 新加坡 - The Constant Company - 3
       - 🇸🇬 新加坡 001
       - 🇸🇬 新加坡 002
@@ -5088,6 +5086,8 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省广州市 腾讯云
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -5435,7 +5435,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_6
       - 🇭🇰 香港2
       - 🇭🇰 香港4
-      - 🇭🇰 香港6
       - 🇭🇰 香港7
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 001
@@ -5605,7 +5604,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京Sakura樱花云数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11
@@ -5847,7 +5845,6 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡 - 新加坡 - Akile LTD - 4
       - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. - 1
-      - 🇸🇬 新加坡 - 新加坡 - Shenzhen Tencent Computer Systems Company Limited - 6
       - 🇸🇬 新加坡 - 新加坡 - The Constant Company - 3
       - 🇸🇬 新加坡 001
       - 🇸🇬 新加坡 002
@@ -7213,7 +7210,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_6
       - 🇭🇰 香港2
       - 🇭🇰 香港4
-      - 🇭🇰 香港6
       - 🇭🇰 香港7
   - name: 🇹🇼 ‍台湾
     type: url-test
@@ -7382,6 +7378,8 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省广州市 腾讯云
       - 🇭🇰 HK_speednode_0006
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -7432,7 +7430,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_6
       - 🇭🇰 香港2
       - 🇭🇰 香港4
-      - 🇭🇰 香港6
       - 🇭🇰 香港7
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -7463,7 +7460,6 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡 - 新加坡 - Akile LTD - 4
       - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. - 1
-      - 🇸🇬 新加坡 - 新加坡 - Shenzhen Tencent Computer Systems Company Limited - 6
       - 🇸🇬 新加坡 - 新加坡 - The Constant Company - 3
       - 🇸🇬 新加坡 001
       - 🇸🇬 新加坡 002
@@ -7620,7 +7616,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京Sakura樱花云数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11
@@ -9663,7 +9658,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_6
       - 🇭🇰 香港2
       - 🇭🇰 香港4
-      - 🇭🇰 香港6
       - 🇭🇰 香港7
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
@@ -9826,6 +9820,8 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省广州市 腾讯云
       - 🇭🇰 HK_speednode_0006
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -9876,7 +9872,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_6
       - 🇭🇰 香港2
       - 🇭🇰 香港4
-      - 🇭🇰 香港6
       - 🇭🇰 香港7
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -9904,7 +9899,6 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡 - 新加坡 - Akile LTD - 4
       - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc. - 1
-      - 🇸🇬 新加坡 - 新加坡 - Shenzhen Tencent Computer Systems Company Limited - 6
       - 🇸🇬 新加坡 - 新加坡 - The Constant Company - 3
       - 🇸🇬 新加坡 001
       - 🇸🇬 新加坡 002
@@ -10058,7 +10052,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京Sakura樱花云数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11

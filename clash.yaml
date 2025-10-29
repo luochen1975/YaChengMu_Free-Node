@@ -345,7 +345,7 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 腾讯云, server: 113.99.143.139, port: 26470, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, udp: true}
+  - {name: 🇨🇳 江苏省 移动, server: 36.150.215.236, port: 401, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 4", server: 120.26.137.112, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
@@ -694,7 +694,7 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 13", server: 8.218.152.97, port: 46433, client-fingerprint: chrome, type: vmess, uuid: 4648e017-a18f-48b6-a570-1bfe61fc3825, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Amazon Technologies Inc. - 12, server: ss.009.node-for-bigairport.win, port: 11688, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.53.3, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: hkt.gotochinatown.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 210.6.207.42, port: 18622, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/X@freecodes/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_3, server: 223.16.138.113, port: 10201, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "X@freecodes/?ed=2560"}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_6, server: 223.16.138.113, port: 12457, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "freecodes/?ed=2560"}, udp: true}
@@ -702,6 +702,7 @@ proxies:
   - {name: 🇭🇰 香港4, server: 36.150.215.237, port: 1821, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4|@ripaojiedian, server: 36.156.102.72, port: 194, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5, server: 58.152.46.98, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 58.152.53.3, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港6, server: oss-cn-shanghai.letssepub.com, port: 20021, client-fingerprint: chrome, type: trojan, password: adbac894-90b9-4913-b77e-a715a8d4ebc8, sni: dingding-doc.com, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港6|@ripaojiedian, server: 43.247.135.64, port: 54804, client-fingerprint: chrome, type: vmess, uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港7, server: 9438890c-t4whs0-t6blpv-1ldl3.hk.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
@@ -888,7 +889,6 @@ proxies:
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.144.208, port: 1332, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本3, server: 160.16.240.91, port: 3161, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.144.208, port: 3161, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 36.150.215.236, port: 401, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇰🇭 柬埔寨 001, server: 111.92.240.243, port: 8080, client-fingerprint: chrome, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇰🇷 KR_speednode_0014, server: 175.211.35.161, port: 50003, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/X@节点狂魔/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
   - {name: 🇰🇷 KR_speednode_0015, server: 211.48.77.114, port: 12312, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /x @节点狂魔, headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
@@ -1117,6 +1117,7 @@ proxies:
   - {name: 🇸🇬 Standard|广新|IEPL|08, server: bs4.jymzffbquawl.com, port: 6603, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇸🇬 新加坡, server: 160.16.204.136, port: 2283, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: "🇸🇬 新加坡 - 新加坡 - Alibaba (US) Technology Co., Ltd. - 1", server: 47.245.106.193, port: 22525, client-fingerprint: chrome, type: vmess, uuid: cabe905a-28ea-4e7e-c34d-2fa38604001f, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: 🇸🇬 新加坡 - 新加坡 - Shenzhen Tencent Computer Systems Company Limited - 9, server: 113.99.143.139, port: 26470, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, udp: true}
   - {name: 🇸🇬 新加坡 001, server: node4.rtxconfigz.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 44e57485-eccc-46ef-808f-cd17ac810018, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: node4.rtxconfigz.com, network: ws, ws-opts: {path: /, headers: {Host: node4.rtxconfigz.com}}, udp: true}
   - {name: 🇸🇬 新加坡 002, server: sg006.421421.xyz, port: 20230, client-fingerprint: chrome, type: trojan, password: 1b26d982-fd68-44f4-bf6d-22fe17a9249a, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.alibaba.com}}, udp: true}
   - {name: 🇸🇬 新加坡 003, server: 188.166.227.1, port: 81, client-fingerprint: chrome, type: vless, uuid: 4aab091f-70c6-41d2-a9cf-a002be414821, tls: false, network: ws, ws-opts: {path: /FREE By Tharuwa (0767597317), headers: {Host: m.zoom.us}}, udp: true}
@@ -2296,7 +2297,6 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, client-fingerprint: chrome, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, client-fingerprint: chrome, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: c7.620720.xyz, port: 8443, client-fingerprint: chrome, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: c7.620720.xyz}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 123.143.9.5, port: 14041, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "X@节点狂魔/?ed=2560"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: 27.117.52.110, port: 50001, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_100, server: 49.142.150.222, port: 50001, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/Telegram@freecodes/?ed=2560"}, udp: true}
@@ -2751,7 +2751,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 广东省广州市 腾讯云
+      - 🇨🇳 江苏省 移动
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
@@ -3101,6 +3101,7 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7
@@ -3286,7 +3287,6 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 KR_speednode_0014
       - 🇰🇷 KR_speednode_0015
@@ -3513,6 +3513,7 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|07
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 - 新加坡 - Shenzhen Tencent Computer Systems Company Limited - 9
       - 🇸🇬 新加坡 001
       - 🇸🇬 新加坡 002
       - 🇸🇬 新加坡 003
@@ -4679,7 +4680,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -5109,7 +5109,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 广东省广州市 腾讯云
+      - 🇨🇳 江苏省 移动
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
@@ -5459,6 +5459,7 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7
@@ -5644,7 +5645,6 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 KR_speednode_0014
       - 🇰🇷 KR_speednode_0015
@@ -5871,6 +5871,7 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|07
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 - 新加坡 - Shenzhen Tencent Computer Systems Company Limited - 9
       - 🇸🇬 新加坡 001
       - 🇸🇬 新加坡 002
       - 🇸🇬 新加坡 003
@@ -7037,7 +7038,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -7236,6 +7236,7 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7
@@ -7408,7 +7409,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 广东省广州市 腾讯云
+      - 🇨🇳 江苏省 移动
       - 🇭🇰 HK_speednode_0006
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -7459,6 +7460,7 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7
@@ -7490,6 +7492,7 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|07
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 - 新加坡 - Shenzhen Tencent Computer Systems Company Limited - 9
       - 🇸🇬 新加坡 001
       - 🇸🇬 新加坡 002
       - 🇸🇬 新加坡 003
@@ -7660,7 +7663,6 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
   - name: 🇺🇸 ‍美国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -8738,7 +8740,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -9695,6 +9696,7 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7
@@ -9861,7 +9863,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 广东省广州市 腾讯云
+      - 🇨🇳 江苏省 移动
       - 🇭🇰 HK_speednode_0006
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -9912,6 +9914,7 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7
@@ -9940,6 +9943,7 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|07
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 - 新加坡 - Shenzhen Tencent Computer Systems Company Limited - 9
       - 🇸🇬 新加坡 001
       - 🇸🇬 新加坡 002
       - 🇸🇬 新加坡 003
@@ -10107,7 +10111,6 @@ proxy-groups:
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
       - 🇯🇵 日本3|@ripaojiedian
-      - 🇯🇵 日本|@ripaojiedian
   - name: 👆🏻🇺🇸 ‍美国
     type: select
     proxies:
@@ -11182,7 +11185,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100

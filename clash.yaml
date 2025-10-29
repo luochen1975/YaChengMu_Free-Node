@@ -96,6 +96,7 @@ proxies:
   - {name: 🇦🇺 澳大利亚 017, server: 192.65.217.3, port: 8880, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: true, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: /, headers: {Host: bitget1.asdasd.click}}, udp: true}
   - {name: 🇦🇺 澳大利亚 018, server: 43.199.24.247, port: 3000, client-fingerprint: chrome, type: vmess, uuid: cc101ff1-3452-41c3-89fe-c2a5a20dc6dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 澳大利亚 019, server: 43.153.103.203, port: 443, client-fingerprint: chrome, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
+  - {name: 🇦🇺 澳大利亚 新南威尔士州悉尼Amazon数据中心, server: 3.107.178.116, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: dada0801, udp: true}
   - {name: 🇦🇿 阿塞拜疆 001, server: 88.151.194.96, port: 16730, client-fingerprint: chrome, type: vmess, uuid: 72de9632-04ca-46c7-be62-41b876c7bc8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇧🇦 波黑 001, server: 77.74.228.53, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: abcd.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets&freecodes+", headers: {Host: abcd.freewarp.eu.org}}, udp: true}
   - {name: 🇧🇪 比利时 001, server: pelang.org, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: pelang.org}}, udp: true}
@@ -346,7 +347,6 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省广州市 电信, server: oss-cn-shanghai.letssepub.com, port: 20021, client-fingerprint: chrome, type: trojan, password: adbac894-90b9-4913-b77e-a715a8d4ebc8, sni: dingding-doc.com, skip-cert-verify: false, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 4", server: 120.26.137.112, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
@@ -710,6 +710,7 @@ proxies:
   - {name: 🇭🇰 香港4, server: 36.150.215.237, port: 1821, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4|@ripaojiedian, server: 36.156.102.72, port: 194, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5, server: 58.152.46.98, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港6, server: oss-cn-shanghai.letssepub.com, port: 20021, client-fingerprint: chrome, type: trojan, password: adbac894-90b9-4913-b77e-a715a8d4ebc8, sni: dingding-doc.com, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港6|@ripaojiedian, server: 43.247.135.64, port: 54804, client-fingerprint: chrome, type: vmess, uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港7, server: 9438890c-t4whs0-t6blpv-1ldl3.hk.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
   - {name: 🇮🇩 印度尼西亚 - 雅加达 - PT Herza Digital Indonesia - 1, server: 103.219.103.33, port: 45590, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: b8dd96a81eac14b376c3, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
@@ -890,7 +891,6 @@ proxies:
   - {name: 🇯🇵 日本 126, server: tls.07.node-for-bigairport.win, port: 22211, client-fingerprint: chrome, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}, udp: true}
   - {name: 🇯🇵 日本 127, server: 103.231.75.129, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇯🇵 日本 128, server: 85.208.110.41, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇯🇵 日本 东京Amazon数据中心, server: tls.10.node-for-bigairport.win, port: 22211, client-fingerprint: chrome, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_1, server: 158.101.77.33, port: 443, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /X@节点狂魔/}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_10, server: 121.85.55.59, port: 19842, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /X@节点狂魔/}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_11, server: 113.37.149.36, port: 12553, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /X@freecodes/}, udp: true}
@@ -2523,6 +2523,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚 017
       - 🇦🇺 澳大利亚 018
       - 🇦🇺 澳大利亚 019
+      - 🇦🇺 澳大利亚 新南威尔士州悉尼Amazon数据中心
       - 🇦🇿 阿塞拜疆 001
       - 🇧🇦 波黑 001
       - 🇧🇪 比利时 001
@@ -2773,7 +2774,6 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 广东省广州市 电信
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
@@ -3130,6 +3130,7 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7
       - 🇮🇩 印度尼西亚 - 雅加达 - PT Herza Digital Indonesia - 1
@@ -3308,7 +3309,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11
@@ -4905,6 +4905,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚 017
       - 🇦🇺 澳大利亚 018
       - 🇦🇺 澳大利亚 019
+      - 🇦🇺 澳大利亚 新南威尔士州悉尼Amazon数据中心
       - 🇦🇿 阿塞拜疆 001
       - 🇧🇦 波黑 001
       - 🇧🇪 比利时 001
@@ -5155,7 +5156,6 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 广东省广州市 电信
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 3
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
@@ -5512,6 +5512,7 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7
       - 🇮🇩 印度尼西亚 - 雅加达 - PT Herza Digital Indonesia - 1
@@ -5690,7 +5691,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11
@@ -7310,6 +7310,7 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7
   - name: 🇹🇼 ‍台湾
@@ -7482,7 +7483,6 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 广东省广州市 电信
       - 🇭🇰 HK_speednode_0006
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -7538,6 +7538,7 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7
       - 🇹🇼 Premium|广台|IEPL|01
@@ -7735,7 +7736,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11
@@ -9000,6 +9000,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚 017
       - 🇦🇺 澳大利亚 018
       - 🇦🇺 澳大利亚 019
+      - 🇦🇺 澳大利亚 新南威尔士州悉尼Amazon数据中心
       - 🇦🇿 阿塞拜疆 001
       - 🇧🇦 波黑 001
       - 🇧🇪 比利时 001
@@ -9798,6 +9799,7 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7
   - name: 👆🏻🇹🇼 ‍台湾
@@ -9964,7 +9966,6 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 广东省广州市 电信
       - 🇭🇰 HK_speednode_0006
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -10020,6 +10021,7 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
       - 🇭🇰 香港7
       - 🇹🇼 Premium|广台|IEPL|01
@@ -10211,7 +10213,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11
@@ -11470,6 +11471,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚 017
       - 🇦🇺 澳大利亚 018
       - 🇦🇺 澳大利亚 019
+      - 🇦🇺 澳大利亚 新南威尔士州悉尼Amazon数据中心
       - 🇦🇿 阿塞拜疆 001
       - 🇧🇦 波黑 001
       - 🇧🇪 比利时 001

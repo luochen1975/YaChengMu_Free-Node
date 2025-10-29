@@ -874,6 +874,7 @@ proxies:
   - {name: 🇯🇵 日本 126, server: tls.07.node-for-bigairport.win, port: 22211, client-fingerprint: chrome, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}, udp: true}
   - {name: 🇯🇵 日本 127, server: 103.231.75.129, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇯🇵 日本 128, server: 85.208.110.41, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇯🇵 日本 东京Amazon数据中心, server: tls.19.node-for-bigairport.win, port: 23211, client-fingerprint: chrome, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_1, server: 158.101.77.33, port: 443, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /X@节点狂魔/}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_10, server: 121.85.55.59, port: 19842, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /X@节点狂魔/}, udp: true}
   - {name: 🇯🇵 日本(yfuye.com免费节点)_11, server: 113.37.149.36, port: 12553, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /X@freecodes/}, udp: true}
@@ -1141,7 +1142,6 @@ proxies:
   - {name: 🇹🇼 TW_speednode_0032, server: 167.179.27.92, port: 443, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
   - {name: "🇹🇼 中国 - 台湾 - Pittqiao Network Information Co., Ltd. - 14", server: 183.240.252.82, port: 3443, client-fingerprint: chrome, type: vless, uuid: 3c7a1d84-2f9e-4c13-a5b2-8d9e7f4c2a66, tls: false, network: tcp, udp: true}
   - {name: 🇹🇼 台湾(yfuye.com免费节点)_4, server: 114.34.202.224, port: 10004, client-fingerprint: chrome, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/X@节点狂魔/?ed=2560"}, udp: true}
-  - {name: 🇹🇼 台湾省 道法法律事务所, server: 103.127.218.91, port: 54693, client-fingerprint: chrome, type: vmess, uuid: 1cef03ad-6343-408c-8121-cbd1fda2ee9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /1cef03ad}, udp: true}
   - {name: 🇺🇦 乌克兰 001, server: 185.234.64.94, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 002, server: 638932111805004627.rasht-drc-dcrabj.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇦 乌克兰 003, server: 638930359207602168.dublin-drc-dcrabj.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -3265,6 +3265,7 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
+      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11
@@ -3529,7 +3530,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0032
       - 🇹🇼 台湾(yfuye.com免费节点)_4
-      - 🇹🇼 台湾省 道法法律事务所
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -5616,6 +5616,7 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
+      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11
@@ -5880,7 +5881,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0032
       - 🇹🇼 台湾(yfuye.com免费节点)_4
-      - 🇹🇼 台湾省 道法法律事务所
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -7234,7 +7234,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0032
       - 🇹🇼 台湾(yfuye.com免费节点)_4
-      - 🇹🇼 台湾省 道法法律事务所
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -7449,7 +7448,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0032
       - 🇹🇼 台湾(yfuye.com免费节点)_4
-      - 🇹🇼 台湾省 道法法律事务所
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -7624,6 +7622,7 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
+      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11
@@ -9682,7 +9681,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0032
       - 🇹🇼 台湾(yfuye.com免费节点)_4
-      - 🇹🇼 台湾省 道法法律事务所
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
@@ -9894,7 +9892,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0032
       - 🇹🇼 台湾(yfuye.com免费节点)_4
-      - 🇹🇼 台湾省 道法法律事务所
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
@@ -10063,6 +10060,7 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
+      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本(yfuye.com免费节点)_1
       - 🇯🇵 日本(yfuye.com免费节点)_10
       - 🇯🇵 日本(yfuye.com免费节点)_11

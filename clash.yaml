@@ -417,6 +417,7 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国 阿里云, server: 8.222.232.118, port: 31555, client-fingerprint: chrome, type: vmess, uuid: 29f7b896-61f9-4044-a757-2311000a5433, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇨🇳 新疆西藏福建都可用, server: 52.12.203.177, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: dada0801, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
@@ -547,7 +548,6 @@ proxies:
   - {name: 🇩🇪 德国 096, server: 50.7.85.221, port: 443, client-fingerprint: chrome, type: vless, uuid: 3af3a0f3-28ea-407c-a3df-2ae3b33fc174, tls: true, servername: salampesarm.sesewov745.workers.dev, network: ws, ws-opts: {path: path/telegram, headers: {Host: salampesarm.sesewov745.workers.dev}}, udp: true}
   - {name: 🇩🇪 德国 098, server: 84.201.4.247, port: 1598, client-fingerprint: chrome, type: vless, uuid: 494e4d9d-e1e6-42be-a9df-8a6fbd46b650, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇩🇪 德国 099, server: 91.107.157.89, port: 8880, client-fingerprint: chrome, type: vmess, uuid: de336351-9bd5-4614-fdd6-38ab0d16d556, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 V2CROSS.COM, server: 77.37.33.25, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, udp: true}
   - {name: 🇩🇪 德国法兰克福商宽, server: 18.158.60.169, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇩🇰 丹麦 001, server: www.csgo.com, port: 443, client-fingerprint: chrome, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}, udp: true}
   - {name: 🇩🇰 丹麦 002, server: www.csgo.com, port: 80, client-fingerprint: randomized, type: vless, uuid: ca2d8658-9ed6-4e0d-8f58-eaaa021f3baa, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: warp.irss.eu.org}}, udp: true}
@@ -777,6 +777,7 @@ proxies:
   - {name: 🇬🇧 英国 032, server: 164.38.155.61, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
   - {name: 🇬🇧 英国 033, server: 77.75.199.61, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
   - {name: 🇬🇧 英国 035, server: 185.221.219.229, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: 185.221.219.229}}, udp: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 78.40.116.11, port: 50589, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: e0AuSSE9kqrZnpK1RgcuPt, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, client-fingerprint: chrome, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 113.108.0.62 #1", server: 113.108.0.62, port: 10111, client-fingerprint: chrome, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 117.78.52.97 #1", server: 117.78.52.97, port: 10111, client-fingerprint: chrome, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -861,17 +862,18 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Nearoute Limited - 15, server: wa.xunyunnode.sbs, port: 35301, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32911461-6aaf-4d93-8dc4-39be8efb1052, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Nearoute Limited - 16, server: xc.xunyunnode.sbs, port: 26200, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32911461-6aaf-4d93-8dc4-39be8efb1052, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Nearoute Limited - 21, server: 01.xunyunnode.sbs, port: 13058, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32911461-6aaf-4d93-8dc4-39be8efb1052, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 865c5c01-sv4n40-t65a3e-tqgz.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 88da0d21-b25d-11ec-b9f7-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: cb884b8d-suvds0-tb6yrr-1tfcw.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 1282cc1a-f426-11ef-9495-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cb884b8d-suvds0-tb6yrr-1tfcw.hk3.p5pv.com}}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 4, server: 77e1818c-t13gg0-t5fh9u-1uni.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 5, server: 5e392f9d-sv0xs0-svewl8-xu74.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 77e1818c-t13gg0-t5fh9u-1uni.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 34013157-sunz40-taz53d-1j0y6.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 1cce7df2-251c-11ee-9409-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 34013157-sunz40-taz53d-1j0y6.hk3.p5pv.com}}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: 865c5c01-sv4n40-t65a3e-tqgz.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 88da0d21-b25d-11ec-b9f7-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 4, server: 360de725-sv4n40-t2y63q-1jk6u.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 5, server: d9864c5f-sv6hs0-sv75lj-1swf9.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2bb1edc8-fa5d-11ef-9dd9-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
   - {name: 🇭🇰 香港 电讯盈科有限公司 6, server: 64309899-t15b40-t2c3sq-1spnr.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 7, server: 4020d7a1-sv0xs0-swkmdk-1imi4.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 8, server: 9984b70d-sv4n40-sx16xo-1j3zm.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港 阿里云, server: 47.242.127.208, port: 17508, client-fingerprint: chrome, type: vmess, uuid: 809aa226-280a-49b9-a44e-ec3490680fa1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2025ppt}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 2, server: 47.84.76.46, port: 60191, client-fingerprint: chrome, type: vmess, uuid: 3c078e73-19ba-491e-a52b-9fd6bff1bc45, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
-  - {name: 🇭🇰 香港 阿里云 3, server: 47.84.90.189, port: 36396, client-fingerprint: chrome, type: vmess, uuid: eb32c3fb-dfae-4f74-9d5a-9db6838ba873, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 7, server: 6de4b9d4-suk9s0-t8ro7t-1ey07.hk3.p5pv.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 203d1d64-3313-11ed-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇭🇰 香港 阿里云, server: 47.242.127.208, port: 17512, client-fingerprint: chrome, type: vmess, uuid: 7a3b1791-660c-4fa6-ab56-4df8ecef8518, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tudou}, udp: true}
+  - {name: 🇭🇰 香港 阿里云 2, server: 47.242.127.208, port: 17508, client-fingerprint: chrome, type: vmess, uuid: 809aa226-280a-49b9-a44e-ec3490680fa1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2025ppt}, udp: true}
+  - {name: 🇭🇰 香港 阿里云 3, server: 47.84.89.151, port: 49994, client-fingerprint: chrome, type: vmess, uuid: 04d0fd20-ac6c-491b-ba8e-795947e63b9f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇭🇰 香港 阿里云 4, server: 47.84.76.46, port: 27075, client-fingerprint: chrome, type: vmess, uuid: 14361d72-6942-4445-af34-7d3a8856a5b7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
+  - {name: 🇭🇰 香港 阿里云 5, server: 47.84.76.46, port: 41676, client-fingerprint: chrome, type: vmess, uuid: 925efc1b-42f6-4b80-83a6-07a16c738765, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港4, server: 36.151.192.242, port: 4556, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港原生家宽ip, server: 18.132.1.44, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -1301,7 +1303,6 @@ proxies:
   - {name: 🇷🇺 俄罗斯 091, server: che-0001-xr.packet-drop-society.net, port: 443, client-fingerprint: chrome, type: vless, uuid: 562c71d0-f18b-402c-b1ad-5c2bbfcd6e02, tls: true, network: tcp, udp: true}
   - {name: 🇷🇺 俄罗斯 092, server: 638947655065548930.bandar-prx-dnraacq.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 093, server: 80.92.206.172, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 80.66.72.11, port: 35291, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: pPMNzFdvbgWRPXaFKZmsFW, udp: true}
   - {name: 🇸🇦 沙特阿拉伯 002, server: 91.209.253.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes+", headers: {Host: saas.git.cloudns.org}}, udp: true}
   - {name: 🇸🇪 |SE|@clashjd|124, server: 185.146.173.24, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)"}, udp: true}
   - {name: 🇸🇪 |SE|@clashjd|135, server: 185.146.173.82, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)"}, udp: true}
@@ -2569,10 +2570,8 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, client-fingerprint: chrome, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, client-fingerprint: chrome, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.18.240.238, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: xsj043-0.facai2024.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 996944e2-4223-4d28-8eca-8e4cad7fc3c2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /996944e2, headers: {Host: xsj043-0.facai2024.com}}, udp: true}
-  - {name: 🇺🇸 美国 阿里云, server: 47.236.25.226, port: 55925, client-fingerprint: chrome, type: vmess, uuid: a5121dbb-a1a6-4a92-a65e-19d709eedefb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
-  - {name: 🇺🇸 美国 阿里云 2, server: 47.239.20.252, port: 34553, client-fingerprint: chrome, type: vmess, uuid: 5191fb3e-3e98-46b9-bf13-b76cd9f24ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
+  - {name: 🇺🇸 美国 阿里云, server: 47.239.20.252, port: 34553, client-fingerprint: chrome, type: vmess, uuid: 5191fb3e-3e98-46b9-bf13-b76cd9f24ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
+  - {name: 🇺🇸 美国 阿里云 2, server: 47.239.124.146, port: 48204, client-fingerprint: chrome, type: vmess, uuid: 87ca780f-f6e3-433e-8d5b-4477966d5a19, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 🇺🇸 美国2, server: 117.172.176.24, port: 2381, client-fingerprint: chrome, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国盐湖城家宽, server: 18.188.211.45, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇻🇳 越南 - Cầu Giấy - Vietnam Posts and Telecommunications Group - 48, server: xc.xunyunnode.sbs, port: 42767, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32911461-6aaf-4d93-8dc4-39be8efb1052, udp: true}
@@ -3061,6 +3060,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国 阿里云
       - 🇨🇳 新疆西藏福建都可用
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
       - 🇨🇷 哥斯达黎加 002
@@ -3190,7 +3190,6 @@ proxy-groups:
       - 🇩🇪 德国 096
       - 🇩🇪 德国 098
       - 🇩🇪 德国 099
-      - 🇩🇪 德国 V2CROSS.COM
       - 🇩🇪 德国法兰克福商宽
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
@@ -3416,6 +3415,7 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 HK_speednode_0004
       - 🇭🇰 IEPL深港专线
       - 🇭🇰 IPLC深港专线
@@ -3496,16 +3496,17 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港 电讯盈科有限公司 4
       - 🇭🇰 香港 电讯盈科有限公司 5
       - 🇭🇰 香港 电讯盈科有限公司 6
       - 🇭🇰 香港 电讯盈科有限公司 7
-      - 🇭🇰 香港 电讯盈科有限公司 8
       - 🇭🇰 香港 阿里云
       - 🇭🇰 香港 阿里云 2
       - 🇭🇰 香港 阿里云 3
       - 🇭🇰 香港 阿里云 4
+      - 🇭🇰 香港 阿里云 5
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港原生家宽ip
@@ -3931,7 +3932,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 |SE|@clashjd|124
       - 🇸🇪 |SE|@clashjd|135
@@ -5190,8 +5190,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 阿里云
       - 🇺🇸 美国 阿里云 2
       - 🇺🇸 美国2
@@ -5657,6 +5655,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国 阿里云
       - 🇨🇳 新疆西藏福建都可用
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5
       - 🇨🇷 哥斯达黎加 002
@@ -5786,7 +5785,6 @@ proxy-groups:
       - 🇩🇪 德国 096
       - 🇩🇪 德国 098
       - 🇩🇪 德国 099
-      - 🇩🇪 德国 V2CROSS.COM
       - 🇩🇪 德国法兰克福商宽
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
@@ -6012,6 +6010,7 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 HK_speednode_0004
       - 🇭🇰 IEPL深港专线
       - 🇭🇰 IPLC深港专线
@@ -6092,16 +6091,17 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港 电讯盈科有限公司 4
       - 🇭🇰 香港 电讯盈科有限公司 5
       - 🇭🇰 香港 电讯盈科有限公司 6
       - 🇭🇰 香港 电讯盈科有限公司 7
-      - 🇭🇰 香港 电讯盈科有限公司 8
       - 🇭🇰 香港 阿里云
       - 🇭🇰 香港 阿里云 2
       - 🇭🇰 香港 阿里云 3
       - 🇭🇰 香港 阿里云 4
+      - 🇭🇰 香港 阿里云 5
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港原生家宽ip
@@ -6527,7 +6527,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 |SE|@clashjd|124
       - 🇸🇪 |SE|@clashjd|135
@@ -7786,8 +7785,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 阿里云
       - 🇺🇸 美国 阿里云 2
       - 🇺🇸 美国2
@@ -7980,16 +7977,17 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港 电讯盈科有限公司 4
       - 🇭🇰 香港 电讯盈科有限公司 5
       - 🇭🇰 香港 电讯盈科有限公司 6
       - 🇭🇰 香港 电讯盈科有限公司 7
-      - 🇭🇰 香港 电讯盈科有限公司 8
       - 🇭🇰 香港 阿里云
       - 🇭🇰 香港 阿里云 2
       - 🇭🇰 香港 阿里云 3
       - 🇭🇰 香港 阿里云 4
+      - 🇭🇰 香港 阿里云 5
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港原生家宽ip
@@ -8172,6 +8170,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国 阿里云
       - 🇨🇳 新疆西藏福建都可用
       - 🇭🇰 HK_speednode_0004
       - 🇭🇰 IEPL深港专线
@@ -8253,16 +8252,17 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港 电讯盈科有限公司 4
       - 🇭🇰 香港 电讯盈科有限公司 5
       - 🇭🇰 香港 电讯盈科有限公司 6
       - 🇭🇰 香港 电讯盈科有限公司 7
-      - 🇭🇰 香港 电讯盈科有限公司 8
       - 🇭🇰 香港 阿里云
       - 🇭🇰 香港 阿里云 2
       - 🇭🇰 香港 阿里云 3
       - 🇭🇰 香港 阿里云 4
+      - 🇭🇰 香港 阿里云 5
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港原生家宽ip
@@ -9623,8 +9623,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 阿里云
       - 🇺🇸 美国 阿里云 2
       - 🇺🇸 美国2
@@ -10012,7 +10010,6 @@ proxy-groups:
       - 🇩🇪 德国 096
       - 🇩🇪 德国 098
       - 🇩🇪 德国 099
-      - 🇩🇪 德国 V2CROSS.COM
       - 🇩🇪 德国法兰克福商宽
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
@@ -10238,6 +10235,7 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇮🇩 印度尼西亚 - 棉蘭 - PT. Media Antar Nusa - 1
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 - Rosh Haayin - CLOUDWEBMANAGE - 3
@@ -10489,7 +10487,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 |SE|@clashjd|124
       - 🇸🇪 |SE|@clashjd|135
@@ -10719,16 +10716,17 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港 电讯盈科有限公司 4
       - 🇭🇰 香港 电讯盈科有限公司 5
       - 🇭🇰 香港 电讯盈科有限公司 6
       - 🇭🇰 香港 电讯盈科有限公司 7
-      - 🇭🇰 香港 电讯盈科有限公司 8
       - 🇭🇰 香港 阿里云
       - 🇭🇰 香港 阿里云 2
       - 🇭🇰 香港 阿里云 3
       - 🇭🇰 香港 阿里云 4
+      - 🇭🇰 香港 阿里云 5
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港原生家宽ip
@@ -10905,6 +10903,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国 阿里云
       - 🇨🇳 新疆西藏福建都可用
       - 🇭🇰 HK_speednode_0004
       - 🇭🇰 IEPL深港专线
@@ -10986,16 +10985,17 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港 电讯盈科有限公司 4
       - 🇭🇰 香港 电讯盈科有限公司 5
       - 🇭🇰 香港 电讯盈科有限公司 6
       - 🇭🇰 香港 电讯盈科有限公司 7
-      - 🇭🇰 香港 电讯盈科有限公司 8
       - 🇭🇰 香港 阿里云
       - 🇭🇰 香港 阿里云 2
       - 🇭🇰 香港 阿里云 3
       - 🇭🇰 香港 阿里云 4
+      - 🇭🇰 香港 阿里云 5
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港原生家宽ip
@@ -12347,8 +12347,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国 阿里云
       - 🇺🇸 美国 阿里云 2
       - 🇺🇸 美国2
@@ -12733,7 +12731,6 @@ proxy-groups:
       - 🇩🇪 德国 096
       - 🇩🇪 德国 098
       - 🇩🇪 德国 099
-      - 🇩🇪 德国 V2CROSS.COM
       - 🇩🇪 德国法兰克福商宽
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
@@ -12959,6 +12956,7 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇮🇩 印度尼西亚 - 棉蘭 - PT. Media Antar Nusa - 1
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 - Rosh Haayin - CLOUDWEBMANAGE - 3
@@ -13210,7 +13208,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 |SE|@clashjd|124
       - 🇸🇪 |SE|@clashjd|135

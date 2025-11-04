@@ -864,6 +864,7 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Nearoute Limited - 15, server: wa.xunyunnode.sbs, port: 35301, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32911461-6aaf-4d93-8dc4-39be8efb1052, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Nearoute Limited - 16, server: xc.xunyunnode.sbs, port: 26200, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32911461-6aaf-4d93-8dc4-39be8efb1052, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Nearoute Limited - 21, server: 01.xunyunnode.sbs, port: 13058, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32911461-6aaf-4d93-8dc4-39be8efb1052, udp: true}
+  - {name: 🇭🇰 香港 Cloudie数据中心, server: 103.243.26.209, port: 10086, client-fingerprint: chrome, type: vmess, uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
   - {name: 🇮🇩 印度尼西亚 - 棉蘭 - PT. Media Antar Nusa - 1, server: cn17.closeai.one, port: 8627, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31832-qOf3ahM8.download.microsoft.com}, udp: true}
   - {name: 🇮🇪 爱尔兰 001, server: 52.215.68.89, port: 22222, client-fingerprint: chrome, type: vless, uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e, tls: true, servername: telegram-channel-vlessconfig.sohala.uk, network: ws, ws-opts: {path: /telegram-channel-vlessconfig-ws, headers: {Host: telegram-channel-vlessconfig.sohala.uk}}, udp: true}
@@ -1308,7 +1309,6 @@ proxies:
   - {name: 🇸🇪 瑞典 010, server: 185.146.173.25, port: 80, client-fingerprint: chrome, type: vmess, uuid: e3cb5c38-1168-46ad-aec4-62ffd3614690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.safari-df.ir.}}, udp: true}
   - {name: 🇸🇪 瑞典 011, server: 185.146.173.158, port: 443, client-fingerprint: chrome, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 🇸🇪 瑞典 012, server: dir.lightnright.com, port: 8883, client-fingerprint: firefox, type: vless, uuid: 88e35bbb-8cd2-c309-a1e9-551fb1c17a7f, tls: true, servername: jnir-x.pichondan.com, network: tcp, udp: true}
-  - {name: 🇸🇪 瑞典 V2CROSS.COM, server: 185.146.173.126, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, udp: true}
   - {name: "🇸🇬 SG #1", server: gzdata1.233netpro.com, port: 10131, client-fingerprint: chrome, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG_speednode_0030, server: aac01b5.s3.glados-config.net, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: aac01b5.dl.nintendo.jp:170735}, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|01, server: bs3.jymzffbquawl.com, port: 6600, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -3495,6 +3495,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 15
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
+      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港2
       - 🇮🇩 印度尼西亚 - 棉蘭 - PT. Media Antar Nusa - 1
       - 🇮🇪 爱尔兰 001
@@ -3935,7 +3936,6 @@ proxy-groups:
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
       - 🇸🇪 瑞典 012
-      - 🇸🇪 瑞典 V2CROSS.COM
       - 🇸🇬 SG_speednode_0030
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
@@ -6088,6 +6088,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 15
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
+      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港2
       - 🇮🇩 印度尼西亚 - 棉蘭 - PT. Media Antar Nusa - 1
       - 🇮🇪 爱尔兰 001
@@ -6528,7 +6529,6 @@ proxy-groups:
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
       - 🇸🇪 瑞典 012
-      - 🇸🇪 瑞典 V2CROSS.COM
       - 🇸🇬 SG_speednode_0030
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
@@ -7971,6 +7971,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 15
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
+      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港2
   - name: 🇹🇼 ‍台湾
     type: url-test
@@ -8234,6 +8235,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 15
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
+      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港2
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -10475,7 +10477,6 @@ proxy-groups:
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
       - 🇸🇪 瑞典 012
-      - 🇸🇪 瑞典 V2CROSS.COM
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇹🇭 泰国 - Phu Luang - Readyidc Company Limited - 7
@@ -10695,6 +10696,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 15
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
+      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港2
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
@@ -10952,6 +10954,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 15
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
+      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港2
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -13181,7 +13184,6 @@ proxy-groups:
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
       - 🇸🇪 瑞典 012
-      - 🇸🇪 瑞典 V2CROSS.COM
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇹🇭 泰国 - Phu Luang - Readyidc Company Limited - 7

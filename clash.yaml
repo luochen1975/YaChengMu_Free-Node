@@ -415,7 +415,7 @@ proxies:
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 江苏省 移动, server: 36.150.215.239, port: 53743, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 江苏省 移动 2, server: 36.150.215.239, port: 1924, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 江苏省 移动 2, server: 36.150.215.239, port: 24392, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 003, server: 190.93.246.246, port: 8443, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: true, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: bitget1.asdasd.click}}, udp: true}
@@ -1077,7 +1077,10 @@ proxies:
   - {name: 🇯🇵 日本 127, server: 103.231.75.129, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇯🇵 日本 128, server: 85.208.110.41, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇯🇵 日本2, server: 117.172.176.24, port: 1332, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.151.196, port: 316, client-fingerprint: chrome, type: trojan, password: e4e262d453466988575c397a30562337, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本3, server: 117.172.176.24, port: 316, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 117.172.176.24, port: 4452, client-fingerprint: chrome, type: trojan, password: e4e262d453466988575c397a30562337, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 36.150.215.239, port: 1924, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇰🇭 柬埔寨 001, server: 111.92.240.243, port: 8080, client-fingerprint: chrome, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇰🇷 KR_speednode_0024, server: testkr3.ssv.vc, port: 30446, client-fingerprint: chrome, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 KR_speednode_0025, server: 152.70.92.69, port: 80, client-fingerprint: chrome, type: vmess, uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
@@ -1092,6 +1095,7 @@ proxies:
   - {name: 🇰🇷 韩国 005, server: 125.134.123.178, port: 50001, client-fingerprint: chrome, type: vmess, uuid: ffde381b-4a30-41d4-90eb-151f228b06ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qq, headers: {Host: aa.nbee.pp.ua}}, udp: true}
   - {name: 🇰🇷 韩国 006, server: 154.223.19.117, port: 46418, client-fingerprint: chrome, type: vmess, uuid: d1de8433-692d-47fd-9a8d-6ccb02ea39bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 韩国 007, server: 221.140.109.7, port: 30012, client-fingerprint: chrome, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: true, servername: aa.ylks.xyz, network: ws, ws-opts: {path: /blue, headers: {Host: aa.ylks.xyz}}, udp: true}
+  - {name: 🇰🇷 韩国|@ripaojiedian, server: 45.94.68.117, port: 53115, client-fingerprint: chrome, type: vmess, uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇰🇿 |KZ|@clashjd|83, server: kazakhstan22.clearorbitllc.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 6206bf1d-068d-4186-9eee-d534a01cb98e, tls: false, flow: xtls-rprx-vision, servername: kazakhstan22.clearorbitllc.com, network: tcp, udp: true}
   - {name: 🇱🇹 立陶宛 001, server: 185.148.107.41, port: 2096, client-fingerprint: chrome, type: vless, uuid: 563608cd-f135-4e64-938d-d9eb3be1ba77, tls: true, servername: vless.keepfuck.me, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.keepfuck.me}}, udp: true}
   - {name: 🇱🇹 立陶宛 002, server: 185.8.105.254, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -1309,7 +1313,6 @@ proxies:
   - {name: 🇸🇪 瑞典 010, server: 185.146.173.25, port: 80, client-fingerprint: chrome, type: vmess, uuid: e3cb5c38-1168-46ad-aec4-62ffd3614690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.safari-df.ir.}}, udp: true}
   - {name: 🇸🇪 瑞典 011, server: 185.146.173.158, port: 443, client-fingerprint: chrome, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 🇸🇪 瑞典 012, server: dir.lightnright.com, port: 8883, client-fingerprint: firefox, type: vless, uuid: 88e35bbb-8cd2-c309-a1e9-551fb1c17a7f, tls: true, servername: jnir-x.pichondan.com, network: tcp, udp: true}
-  - {name: 🇸🇪 瑞典 V2CROSS.COM, server: 185.146.173.126, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, udp: true}
   - {name: "🇸🇬 SG #1", server: gzdata1.233netpro.com, port: 10131, client-fingerprint: chrome, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG_speednode_0030, server: aac01b5.s3.glados-config.net, port: 2377, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: aac01b5.dl.nintendo.jp:170735}, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|01, server: bs3.jymzffbquawl.com, port: 6600, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -2567,8 +2570,9 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, client-fingerprint: chrome, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, client-fingerprint: chrome, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.18.240.238, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, udp: true}
   - {name: 🇺🇸 美国2, server: 117.172.176.24, port: 2381, client-fingerprint: chrome, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 117.172.176.24, port: 3777, client-fingerprint: chrome, type: trojan, password: e4e262d453466988575c397a30562337, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 117.172.176.24, port: 4553, client-fingerprint: chrome, type: trojan, password: e4e262d453466988575c397a30562337, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇻🇳 VN_speednode_0103, server: 103.186.154.203, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 VN_speednode_0104, server: 103.186.155.125, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 VN_speednode_0105, server: 103.186.155.136, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -3707,7 +3711,10 @@ proxy-groups:
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
       - 🇯🇵 日本2
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 KR_speednode_0024
       - 🇰🇷 KR_speednode_0025
@@ -3722,6 +3729,7 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇰🇷 韩国 007
+      - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇿 |KZ|@clashjd|83
       - 🇱🇹 立陶宛 001
       - 🇱🇹 立陶宛 002
@@ -3938,7 +3946,6 @@ proxy-groups:
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
       - 🇸🇪 瑞典 012
-      - 🇸🇪 瑞典 V2CROSS.COM
       - 🇸🇬 SG_speednode_0030
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
@@ -5187,8 +5194,9 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国2
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
       - 🇻🇳 VN_speednode_0103
       - 🇻🇳 VN_speednode_0104
       - 🇻🇳 VN_speednode_0105
@@ -6302,7 +6310,10 @@ proxy-groups:
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
       - 🇯🇵 日本2
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 KR_speednode_0024
       - 🇰🇷 KR_speednode_0025
@@ -6317,6 +6328,7 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇰🇷 韩国 007
+      - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇿 |KZ|@clashjd|83
       - 🇱🇹 立陶宛 001
       - 🇱🇹 立陶宛 002
@@ -6533,7 +6545,6 @@ proxy-groups:
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
       - 🇸🇪 瑞典 012
-      - 🇸🇪 瑞典 V2CROSS.COM
       - 🇸🇬 SG_speednode_0030
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
@@ -7782,8 +7793,9 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国2
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
       - 🇻🇳 VN_speednode_0103
       - 🇻🇳 VN_speednode_0104
       - 🇻🇳 VN_speednode_0105
@@ -8485,7 +8497,10 @@ proxy-groups:
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
       - 🇯🇵 日本2
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
   - name: 🇺🇸 ‍美国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -9602,8 +9617,9 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国2
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🎏 ‍其他
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -10268,6 +10284,7 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇰🇷 韩国 007
+      - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇿 |KZ|@clashjd|83
       - 🇱🇹 立陶宛 001
       - 🇱🇹 立陶宛 002
@@ -10484,7 +10501,6 @@ proxy-groups:
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
       - 🇸🇪 瑞典 012
-      - 🇸🇪 瑞典 V2CROSS.COM
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇹🇭 泰国 - Phu Luang - Readyidc Company Limited - 7
@@ -11200,7 +11216,10 @@ proxy-groups:
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
       - 🇯🇵 日本2
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
   - name: 👆🏻🇺🇸 ‍美国
     type: select
     proxies:
@@ -12314,8 +12333,9 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国2
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:
@@ -12977,6 +12997,7 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇰🇷 韩国 007
+      - 🇰🇷 韩国|@ripaojiedian
       - 🇰🇿 |KZ|@clashjd|83
       - 🇱🇹 立陶宛 001
       - 🇱🇹 立陶宛 002
@@ -13193,7 +13214,6 @@ proxy-groups:
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
       - 🇸🇪 瑞典 012
-      - 🇸🇪 瑞典 V2CROSS.COM
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇹🇭 泰国 - Phu Luang - Readyidc Company Limited - 7

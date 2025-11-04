@@ -414,7 +414,7 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 江苏省 移动, server: 36.150.215.239, port: 24392, client-fingerprint: chrome, type: trojan, password: BxceQaOe, udp: true}
+  - {name: 🇨🇳 江苏省 移动, server: 36.150.215.239, port: 53743, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 5, server: 39.100.81.215, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 003, server: 190.93.246.246, port: 8443, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: true, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: bitget1.asdasd.click}}, udp: true}
@@ -547,7 +547,6 @@ proxies:
   - {name: 🇩🇪 德国 096, server: 50.7.85.221, port: 443, client-fingerprint: chrome, type: vless, uuid: 3af3a0f3-28ea-407c-a3df-2ae3b33fc174, tls: true, servername: salampesarm.sesewov745.workers.dev, network: ws, ws-opts: {path: path/telegram, headers: {Host: salampesarm.sesewov745.workers.dev}}, udp: true}
   - {name: 🇩🇪 德国 098, server: 84.201.4.247, port: 1598, client-fingerprint: chrome, type: vless, uuid: 494e4d9d-e1e6-42be-a9df-8a6fbd46b650, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇩🇪 德国 099, server: 91.107.157.89, port: 8880, client-fingerprint: chrome, type: vmess, uuid: de336351-9bd5-4614-fdd6-38ab0d16d556, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 V2CROSS.COM, server: 77.37.33.25, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, udp: true}
   - {name: 🇩🇰 丹麦 001, server: www.csgo.com, port: 443, client-fingerprint: chrome, type: trojan, password: vip, sni: heihu880.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: heihu880.pages.dev}}, udp: true}
   - {name: 🇩🇰 丹麦 002, server: www.csgo.com, port: 80, client-fingerprint: randomized, type: vless, uuid: ca2d8658-9ed6-4e0d-8f58-eaaa021f3baa, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: warp.irss.eu.org}}, udp: true}
   - {name: 🇩🇰 丹麦 003, server: csgo.com, port: 2053, client-fingerprint: chrome, type: vmess, uuid: 8b0a592f-1fee-4da0-add6-f8e108611164, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram, headers: {Host: cdn-node-oss-94.paofu.de}}, udp: true}
@@ -865,6 +864,7 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Nearoute Limited - 15, server: wa.xunyunnode.sbs, port: 35301, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32911461-6aaf-4d93-8dc4-39be8efb1052, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Nearoute Limited - 16, server: xc.xunyunnode.sbs, port: 26200, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32911461-6aaf-4d93-8dc4-39be8efb1052, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Nearoute Limited - 21, server: 01.xunyunnode.sbs, port: 13058, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32911461-6aaf-4d93-8dc4-39be8efb1052, udp: true}
+  - {name: 🇭🇰 香港 Cloudie数据中心, server: 103.243.26.209, port: 10086, client-fingerprint: chrome, type: vmess, uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港4, server: 36.151.192.242, port: 4556, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇮🇩 印度尼西亚 - 棉蘭 - PT. Media Antar Nusa - 1, server: cn17.closeai.one, port: 8627, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31832-qOf3ahM8.download.microsoft.com}, udp: true}
@@ -1077,7 +1077,6 @@ proxies:
   - {name: 🇯🇵 日本 126, server: tls.07.node-for-bigairport.win, port: 22211, client-fingerprint: chrome, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}, udp: true}
   - {name: 🇯🇵 日本 127, server: 103.231.75.129, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇯🇵 日本 128, server: 85.208.110.41, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇯🇵 日本 东京都亚马逊(Amazon)公司数据中心, server: ss.021.node-for-bigairport.win, port: 15199, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53, udp: true}
   - {name: 🇯🇵 日本2, server: 117.172.176.24, port: 1332, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本3, server: 117.172.176.24, port: 316, client-fingerprint: chrome, type: trojan, password: bca467b8c15211d189008a93c7519d3b, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇰🇭 柬埔寨 001, server: 111.92.240.243, port: 8080, client-fingerprint: chrome, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -3188,7 +3187,6 @@ proxy-groups:
       - 🇩🇪 德国 096
       - 🇩🇪 德国 098
       - 🇩🇪 德国 099
-      - 🇩🇪 德国 V2CROSS.COM
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
       - 🇩🇰 丹麦 003
@@ -3497,6 +3495,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 15
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
+      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇮🇩 印度尼西亚 - 棉蘭 - PT. Media Antar Nusa - 1
@@ -3706,7 +3705,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京都亚马逊(Amazon)公司数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇰🇭 柬埔寨 001
@@ -5782,7 +5780,6 @@ proxy-groups:
       - 🇩🇪 德国 096
       - 🇩🇪 德国 098
       - 🇩🇪 德国 099
-      - 🇩🇪 德国 V2CROSS.COM
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
       - 🇩🇰 丹麦 003
@@ -6091,6 +6088,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 15
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
+      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇮🇩 印度尼西亚 - 棉蘭 - PT. Media Antar Nusa - 1
@@ -6300,7 +6298,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京都亚马逊(Amazon)公司数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇰🇭 柬埔寨 001
@@ -7974,6 +7971,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 15
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
+      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港2
       - 🇭🇰 香港4
   - name: 🇹🇼 ‍台湾
@@ -8237,6 +8235,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 15
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
+      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇹🇼 Premium|广台|IEPL|01
@@ -8480,7 +8479,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京都亚马逊(Amazon)公司数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本3
   - name: 🇺🇸 ‍美国
@@ -9982,7 +9980,6 @@ proxy-groups:
       - 🇩🇪 德国 096
       - 🇩🇪 德国 098
       - 🇩🇪 德国 099
-      - 🇩🇪 德国 V2CROSS.COM
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
       - 🇩🇰 丹麦 003
@@ -10700,6 +10697,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 15
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
+      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港2
       - 🇭🇰 香港4
   - name: 👆🏻🇹🇼 ‍台湾
@@ -10957,6 +10955,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 15
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 16
       - 🇭🇰 中国 - 香港 - Nearoute Limited - 21
+      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇹🇼 Premium|广台|IEPL|01
@@ -11194,7 +11193,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京都亚马逊(Amazon)公司数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本3
   - name: 👆🏻🇺🇸 ‍美国
@@ -12690,7 +12688,6 @@ proxy-groups:
       - 🇩🇪 德国 096
       - 🇩🇪 德国 098
       - 🇩🇪 德国 099
-      - 🇩🇪 德国 V2CROSS.COM
       - 🇩🇰 丹麦 001
       - 🇩🇰 丹麦 002
       - 🇩🇰 丹麦 003

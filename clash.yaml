@@ -742,9 +742,9 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 5, server: n002.xunxunmimisbs.sbs, port: 21201, client-fingerprint: chrome, type: trojan, password: e1ebca70-1761-4496-a0b7-75ff99a6cd75, sni: hk02.xxxxyyyysbs.sbs, udp: true}
   - {name: 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 6, server: n002.xunxunmimisbs.sbs, port: 21200, client-fingerprint: chrome, type: trojan, password: ada65271-e83d-401e-8508-fae0280ff447, sni: hk01.xxxxyyyysbs.sbs, udp: true}
   - {name: 🇭🇰 香港 Cloudie数据中心, server: 103.243.26.209, port: 8080, client-fingerprint: chrome, type: vmess, uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 203.198.122.194, port: 443, client-fingerprint: chrome, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港3, server: 58.152.53.42, port: 443, client-fingerprint: chrome, type: trojan, password: e4e262d453466988575c397a30562337, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 203.198.122.194, port: 443, client-fingerprint: chrome, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港4, server: 36.150.215.231, port: 1655, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5, server: 203.198.122.129, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇮🇪 爱尔兰 001, server: 52.215.68.89, port: 22222, client-fingerprint: chrome, type: vless, uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e, tls: true, servername: telegram-channel-vlessconfig.sohala.uk, network: ws, ws-opts: {path: /telegram-channel-vlessconfig-ws, headers: {Host: telegram-channel-vlessconfig.sohala.uk}}, udp: true}
@@ -957,6 +957,7 @@ proxies:
   - {name: 🇱🇺 卢森堡 003, server: 188.42.88.62, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: ss.nzvrn.com, network: ws, ws-opts: {path: "/snippets&freecodes+", headers: {Host: ss.nzvrn.com}}, udp: true}
   - {name: 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1, server: 185.153.197.5, port: 989, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇲🇩 摩尔多瓦 001, server: 5.182.39.44, port: 444, client-fingerprint: chrome, type: vmess, uuid: 7d52a409-aa5a-471f-aca5-e7621bf1b813, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇱 美国 马里兰州罗耀拉大学, server: xg1b6.waimaohots.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: f95da449-747a-4ecc-b4ba-9f0f715a25df, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: xg1b6.waimaohots.com}}, udp: true}
   - {name: 🇲🇽 墨西哥 - La Cañada - Oracle Corporation - 1, server: slur.izenny.com, port: 48907, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f3903d73-03e6-4c43-b375-3a009a09b50c, udp: true}
   - {name: 🇳🇱 荷兰 - 哈勒姆 - Online S.A.S. - 2, server: 51.159.226.1, port: 49003, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
   - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - Wojciech Czapkowicz - 1, server: sub.633399.xyz, port: 2083, client-fingerprint: chrome, type: vmess, uuid: 18ba872c-533a-4121-b220-257ed7f358bf, alterId: 0, cipher: auto, tls: true, alpn: [h2, http/1.1], servername: sub.633399.xyz, network: ws, ws-opts: {path: /, headers: {Host: sub.633399.xyz}}, udp: true}
@@ -1172,6 +1173,7 @@ proxies:
   - {name: 🇸🇬 新加坡 008, server: 124.156.207.12, port: 8080, client-fingerprint: chrome, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇸🇬 新加坡 009, server: waifu.kurumi.biz.id, port: 443, client-fingerprint: chrome, type: vmess, uuid: 3393cc9e-7498-4942-9bc4-c6da73080fd9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: discord.com}}, udp: true}
   - {name: 🇸🇬 新加坡 010, server: waifu.kurumi.biz.id, port: 80, client-fingerprint: chrome, type: vmess, uuid: 3393cc9e-7498-4942-9bc4-c6da73080fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: discord.com}}, udp: true}
+  - {name: 🇸🇬 新加坡 DigitalOcean数据中心, server: xg1c4.waimaohots.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: f95da449-747a-4ecc-b4ba-9f0f715a25df, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: xg1c4.waimaohots.com}}, udp: true}
   - {name: 🇸🇬 新加坡2, server: 117.172.176.23, port: 2173, client-fingerprint: chrome, type: trojan, password: e4e262d453466988575c397a30562337, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡3, server: 36.150.215.137, port: 9713, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇸🇮 斯洛文尼亚 001, server: 92.53.188.36, port: 443, client-fingerprint: chrome, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v4.hiddendom.shop, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -2344,7 +2346,11 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, client-fingerprint: chrome, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, client-fingerprint: chrome, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.18.240.238, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir., network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: cg1c02.waimaojd.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: d8bb518e-9e03-44bb-8a60-2b50190079ba, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c02.waimaojd.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: cg1c04.waimaojd.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: d8bb518e-9e03-44bb-8a60-2b50190079ba, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c04.waimaojd.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 104.18.240.238, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir., network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, udp: true}
+  - {name: 🇺🇸 美国 加利福尼亚州旧金山DigitalOcean数据中心, server: xg1a8.waimaohots.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: f95da449-747a-4ecc-b4ba-9f0f715a25df, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: xg1a8.waimaohots.com}}, udp: true}
+  - {name: 🇺🇸 美国 戴维逊大学, server: xg1b7.waimaohots.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: f95da449-747a-4ecc-b4ba-9f0f715a25df, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: xg1b7.waimaohots.com}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 45.140.167.173, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: 2001:bc8:1203:209::50, port: 23008, client-fingerprint: chrome, type: vmess, uuid: e994b804-345c-4e8b-a827-7e005694d146, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_12, server: 141.101.121.120, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)"}, udp: true}
@@ -3152,9 +3158,9 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 5
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 6
       - 🇭🇰 香港 Cloudie数据中心
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇮🇪 爱尔兰 001
@@ -3366,6 +3372,7 @@ proxy-groups:
       - 🇱🇺 卢森堡 003
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
       - 🇲🇩 摩尔多瓦 001
+      - 🇲🇱 美国 马里兰州罗耀拉大学
       - 🇲🇽 墨西哥 - La Cañada - Oracle Corporation - 1
       - 🇳🇱 荷兰 - 哈勒姆 - Online S.A.S. - 2
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Wojciech Czapkowicz - 1
@@ -3580,6 +3587,7 @@ proxy-groups:
       - 🇸🇬 新加坡 008
       - 🇸🇬 新加坡 009
       - 🇸🇬 新加坡 010
+      - 🇸🇬 新加坡 DigitalOcean数据中心
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
       - 🇸🇮 斯洛文尼亚 001
@@ -4745,7 +4753,11 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 加利福尼亚州旧金山DigitalOcean数据中心
+      - 🇺🇸 美国 戴维逊大学
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_12
@@ -5528,9 +5540,9 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 5
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 6
       - 🇭🇰 香港 Cloudie数据中心
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇮🇪 爱尔兰 001
@@ -5742,6 +5754,7 @@ proxy-groups:
       - 🇱🇺 卢森堡 003
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
       - 🇲🇩 摩尔多瓦 001
+      - 🇲🇱 美国 马里兰州罗耀拉大学
       - 🇲🇽 墨西哥 - La Cañada - Oracle Corporation - 1
       - 🇳🇱 荷兰 - 哈勒姆 - Online S.A.S. - 2
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Wojciech Czapkowicz - 1
@@ -5956,6 +5969,7 @@ proxy-groups:
       - 🇸🇬 新加坡 008
       - 🇸🇬 新加坡 009
       - 🇸🇬 新加坡 010
+      - 🇸🇬 新加坡 DigitalOcean数据中心
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
       - 🇸🇮 斯洛文尼亚 001
@@ -7121,7 +7135,11 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 加利福尼亚州旧金山DigitalOcean数据中心
+      - 🇺🇸 美国 戴维逊大学
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_12
@@ -7278,9 +7296,9 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 5
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 6
       - 🇭🇰 香港 Cloudie数据中心
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港5
   - name: 🇹🇼 ‍台湾
@@ -7507,9 +7525,9 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 5
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 6
       - 🇭🇰 香港 Cloudie数据中心
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
@@ -7555,6 +7573,7 @@ proxy-groups:
       - 🇸🇬 新加坡 008
       - 🇸🇬 新加坡 009
       - 🇸🇬 新加坡 010
+      - 🇸🇬 新加坡 DigitalOcean数据中心
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
   - name: 🇯🇵 ‍日本
@@ -8798,7 +8817,11 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 加利福尼亚州旧金山DigitalOcean数据中心
+      - 🇺🇸 美国 戴维逊大学
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_12
@@ -9429,6 +9452,7 @@ proxy-groups:
       - 🇱🇺 卢森堡 003
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
       - 🇲🇩 摩尔多瓦 001
+      - 🇲🇱 美国 马里兰州罗耀拉大学
       - 🇲🇽 墨西哥 - La Cañada - Oracle Corporation - 1
       - 🇳🇱 荷兰 - 哈勒姆 - Online S.A.S. - 2
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Wojciech Czapkowicz - 1
@@ -9753,9 +9777,9 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 5
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 6
       - 🇭🇰 香港 Cloudie数据中心
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港5
   - name: 👆🏻🇹🇼 ‍台湾
@@ -9976,9 +10000,9 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 5
       - 🇭🇰 中国 - 香港 - G-Core Labs S.A. - 6
       - 🇭🇰 香港 Cloudie数据中心
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
@@ -10021,6 +10045,7 @@ proxy-groups:
       - 🇸🇬 新加坡 008
       - 🇸🇬 新加坡 009
       - 🇸🇬 新加坡 010
+      - 🇸🇬 新加坡 DigitalOcean数据中心
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
   - name: 👆🏻🇯🇵 ‍日本
@@ -11258,7 +11283,11 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 加利福尼亚州旧金山DigitalOcean数据中心
+      - 🇺🇸 美国 戴维逊大学
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_12
@@ -11886,6 +11915,7 @@ proxy-groups:
       - 🇱🇺 卢森堡 003
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
       - 🇲🇩 摩尔多瓦 001
+      - 🇲🇱 美国 马里兰州罗耀拉大学
       - 🇲🇽 墨西哥 - La Cañada - Oracle Corporation - 1
       - 🇳🇱 荷兰 - 哈勒姆 - Online S.A.S. - 2
       - 🇳🇱 荷兰 - 阿姆斯特丹 - Wojciech Czapkowicz - 1

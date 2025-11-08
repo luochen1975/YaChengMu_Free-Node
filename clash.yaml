@@ -219,11 +219,6 @@ proxies:
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇭 瑞士 001, server: 83.173.198.77, port: 8443, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, packet-encoding: xudp, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇨🇭 瑞士 002, server: 64.110.66.235, port: 8080, client-fingerprint: chrome, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
-  - {name: 🇨🇳 _CN_中国_1, server: 36.151.192.242, port: 194, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 _CN_中国_2, server: 36.151.192.242, port: 4556, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 _CN_中国_3, server: 36.150.215.239, port: 24392, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 _CN_中国_4, server: 36.150.215.239, port: 53743, client-fingerprint: chrome, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 _CN_中国_7, server: 103.36.91.32, port: 8388, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇨🇳 中国 - 佛山市 - China Mobile - 2, server: 183.236.51.36, port: 59003, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 - 广州市 - CHINANET Guangdong province network - 3, server: 14.18.106.88, port: 6100, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 123, udp: true}
   - {name: 🇨🇳 中国 001, server: v9.heduian.link, port: 30809, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
@@ -368,8 +363,7 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 江苏省 移动, server: 36.151.251.38, port: 25891, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, udp: true}
-  - {name: 🇨🇳 江苏省 移动 2, server: 36.150.215.248, port: 4492, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, udp: true}
+  - {name: 🇨🇳 江苏省 移动, server: 36.150.215.248, port: 4492, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 003, server: 190.93.246.246, port: 8443, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: true, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: bitget1.asdasd.click}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 004, server: 190.93.246.220, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lg.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lg.kpcloud.eu.org}}, udp: true}
@@ -490,7 +484,6 @@ proxies:
   - {name: 🇪🇺 欧洲 002, server: 138.199.175.204, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012ijnqibqygqo98710, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇪🇺 欧洲 003, server: 138.199.219.74, port: 443, client-fingerprint: chrome, type: vless, uuid: 9a04ee08-59f3-4de9-8424-6b32f06fbc68, tls: true, servername: 138.199.219.74, network: ws, ws-opts: {path: "/linkws?ed", headers: {Host: 138.199.219.74}}, udp: true}
   - {name: 🇪🇺 欧洲 004, server: direct-jde6zos4zet26b15zzd1.appcity-download.ir, port: 64286, client-fingerprint: chrome, type: vless, uuid: ca2bbc0a-3139-4a1c-bc93-049ad63c1d95, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇪🇺 欧盟 V2CROSS.COM, server: 45.87.175.166, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 🇫🇮 FI_speednode_0003, server: solar-3xui-hel-40-002.devastation.ru, port: 31043, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: passxzHDLxkZoSAzqgKyq24Z, udp: true}
   - {name: 🇫🇮 芬兰 001, server: 95.216.186.191, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /telegram-id-, headers: {Host: google.com}}, udp: true}
   - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -723,10 +716,11 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|18, server: bs2.jymzffbquawl.com, port: 3607, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|19, server: bs2.jymzffbquawl.com, port: 3608, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.30.26, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 203.198.122.129, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: 58.152.46.98, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港4, server: 36.150.215.231, port: 1655, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 58.152.30.26, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港5, server: 203.198.122.129, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5|@ripaojiedian, server: 58.152.53.186, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港6, server: 36.133.73.36, port: 11819, client-fingerprint: chrome, type: vmess, uuid: de32752c-0661-467e-82d3-35bc740a787f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港6|@ripaojiedian, server: 36.150.27.76, port: 49509, client-fingerprint: chrome, type: vmess, uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
@@ -1228,9 +1222,7 @@ proxies:
   - {name: "🇺🇸 US #1", server: shdata1.233netpro.com, port: 10151, client-fingerprint: chrome, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US_speednode_0020, server: 3.147.64.175, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇺🇸 _US_美国_1, server: 206.168.190.219, port: 2082, client-fingerprint: chrome, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
-  - {name: 🇺🇸 _US_美国_13, server: ip.sb, port: 443, client-fingerprint: chrome, type: trojan, password: trojan, sni: nixian.pages.dev, network: ws, ws-opts: {path: "/?ed=2560/?Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-", headers: {Host: nixian.pages.dev}}, udp: true}
-  - {name: 🇺🇸 _US_美国_2, server: www.digitalocean.com, port: 443, client-fingerprint: chrome, type: trojan, password: trojan, sni: azadnet-9ya.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: azadnet-9ya.pages.dev}}, udp: true}
-  - {name: 🇺🇸 _US_美国_2 2, server: wnd2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
+  - {name: 🇺🇸 _US_美国_2, server: wnd2.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_3, server: 45.199.138.186, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696682720138}, udp: true}
   - {name: 🇺🇸 _US_美国_4, server: wnd3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -2071,6 +2063,7 @@ proxies:
   - {name: 🇺🇸 美国 742, server: 104.19.21.71, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}, udp: true}
   - {name: 🇺🇸 美国 743, server: time.is, port: 443, client-fingerprint: chrome, type: vmess, uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 20250930kubaxixi.goubi.ggff.net}}, udp: true}
   - {name: 🇺🇸 美国 744, server: icook.tw, port: 443, client-fingerprint: chrome, type: vmess, uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 20250930kubaxixi.goubi.ggff.net}}, udp: true}
+  - {name: 🇺🇸 美国 746, server: www.digitalocean.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 20250930kubaxixi.goubi.ggff.net}}, udp: true}
   - {name: 🇺🇸 美国 747, server: www.visa.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 20250930kubaxixi.goubi.ggff.net}}, udp: true}
   - {name: 🇺🇸 美国 748, server: www.okcupid.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 20250930kubaxixi.goubi.ggff.net}}, udp: true}
   - {name: 🇺🇸 美国 751, server: www.glassdoor.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: ce6e649d-c4c1-4bd4-b708-090e5e2766c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 20250930kubaxixi.goubi.ggff.net}}, udp: true}
@@ -2361,6 +2354,7 @@ proxies:
   - {name: 🇺🇸 美国2, server: 160.16.231.103, port: 3777, client-fingerprint: chrome, type: trojan, password: e4e262d453466988575c397a30562337, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 160.16.150.76, port: 50974, client-fingerprint: chrome, type: trojan, password: e4e262d453466988575c397a30562337, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国3, server: 36.150.215.245, port: 9269, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 36.151.251.38, port: 25891, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇻🇳 VN_speednode_0021, server: 103.186.154.248, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 VN_speednode_0022, server: 103.186.154.53, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 VN_speednode_0023, server: 103.186.154.191, port: 38388, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -2641,11 +2635,6 @@ proxy-groups:
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
-      - 🇨🇳 _CN_中国_1
-      - 🇨🇳 _CN_中国_2
-      - 🇨🇳 _CN_中国_3
-      - 🇨🇳 _CN_中国_4
-      - 🇨🇳 _CN_中国_7
       - 🇨🇳 中国 - 佛山市 - China Mobile - 2
       - 🇨🇳 中国 - 广州市 - CHINANET Guangdong province network - 3
       - 🇨🇳 中国 001
@@ -2791,7 +2780,6 @@ proxy-groups:
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 江苏省 移动 2
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -2912,7 +2900,6 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 FI_speednode_0003
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国
@@ -3140,10 +3127,11 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港2
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港5
       - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
@@ -3641,9 +3629,7 @@ proxy-groups:
       - 🇺🇸 Standard|广美|IEPL|08
       - 🇺🇸 US_speednode_0020
       - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_13
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_2 2
       - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
@@ -4476,6 +4462,7 @@ proxy-groups:
       - 🇺🇸 美国 742
       - 🇺🇸 美国 743
       - 🇺🇸 美国 744
+      - 🇺🇸 美国 746
       - 🇺🇸 美国 747
       - 🇺🇸 美国 748
       - 🇺🇸 美国 751
@@ -4766,6 +4753,7 @@ proxy-groups:
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
+      - 🇺🇸 美国3|@ripaojiedian
       - 🇻🇳 VN_speednode_0021
       - 🇻🇳 VN_speednode_0022
       - 🇻🇳 VN_speednode_0023
@@ -5021,11 +5009,6 @@ proxy-groups:
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
-      - 🇨🇳 _CN_中国_1
-      - 🇨🇳 _CN_中国_2
-      - 🇨🇳 _CN_中国_3
-      - 🇨🇳 _CN_中国_4
-      - 🇨🇳 _CN_中国_7
       - 🇨🇳 中国 - 佛山市 - China Mobile - 2
       - 🇨🇳 中国 - 广州市 - CHINANET Guangdong province network - 3
       - 🇨🇳 中国 001
@@ -5171,7 +5154,6 @@ proxy-groups:
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 江苏省 移动 2
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -5292,7 +5274,6 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 FI_speednode_0003
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国
@@ -5520,10 +5501,11 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港2
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港5
       - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
@@ -6021,9 +6003,7 @@ proxy-groups:
       - 🇺🇸 Standard|广美|IEPL|08
       - 🇺🇸 US_speednode_0020
       - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_13
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_2 2
       - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
@@ -6856,6 +6836,7 @@ proxy-groups:
       - 🇺🇸 美国 742
       - 🇺🇸 美国 743
       - 🇺🇸 美国 744
+      - 🇺🇸 美国 746
       - 🇺🇸 美国 747
       - 🇺🇸 美国 748
       - 🇺🇸 美国 751
@@ -7146,6 +7127,7 @@ proxy-groups:
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
+      - 🇺🇸 美国3|@ripaojiedian
       - 🇻🇳 VN_speednode_0021
       - 🇻🇳 VN_speednode_0022
       - 🇻🇳 VN_speednode_0023
@@ -7287,10 +7269,11 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港2
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港5
       - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
@@ -7316,11 +7299,6 @@ proxy-groups:
     interval: 15
     tolerance: 100
     proxies:
-      - 🇨🇳 _CN_中国_1
-      - 🇨🇳 _CN_中国_2
-      - 🇨🇳 _CN_中国_3
-      - 🇨🇳 _CN_中国_4
-      - 🇨🇳 _CN_中国_7
       - 🇨🇳 中国 - 佛山市 - China Mobile - 2
       - 🇨🇳 中国 - 广州市 - CHINANET Guangdong province network - 3
       - 🇨🇳 中国 001
@@ -7466,7 +7444,6 @@ proxy-groups:
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 江苏省 移动 2
       - 🇭🇰 HK_speednode_0014
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -7508,10 +7485,11 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港2
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港5
       - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
@@ -7719,9 +7697,7 @@ proxy-groups:
       - 🇺🇸 Standard|广美|IEPL|08
       - 🇺🇸 US_speednode_0020
       - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_13
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_2 2
       - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
@@ -8554,6 +8530,7 @@ proxy-groups:
       - 🇺🇸 美国 742
       - 🇺🇸 美国 743
       - 🇺🇸 美国 744
+      - 🇺🇸 美国 746
       - 🇺🇸 美国 747
       - 🇺🇸 美国 748
       - 🇺🇸 美国 751
@@ -8844,6 +8821,7 @@ proxy-groups:
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🎏 ‍其他
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -9174,7 +9152,6 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 FI_speednode_0003
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国
@@ -9761,10 +9738,11 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港2
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港5
       - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
@@ -9784,11 +9762,6 @@ proxy-groups:
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
-      - 🇨🇳 _CN_中国_1
-      - 🇨🇳 _CN_中国_2
-      - 🇨🇳 _CN_中国_3
-      - 🇨🇳 _CN_中国_4
-      - 🇨🇳 _CN_中国_7
       - 🇨🇳 中国 - 佛山市 - China Mobile - 2
       - 🇨🇳 中国 - 广州市 - CHINANET Guangdong province network - 3
       - 🇨🇳 中国 001
@@ -9934,7 +9907,6 @@ proxy-groups:
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
       - 🇨🇳 江苏省 移动
-      - 🇨🇳 江苏省 移动 2
       - 🇭🇰 HK_speednode_0014
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -9976,10 +9948,11 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港2
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港5
       - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇰 香港6
       - 🇭🇰 香港6|@ripaojiedian
@@ -10178,9 +10151,7 @@ proxy-groups:
       - 🇺🇸 Standard|广美|IEPL|08
       - 🇺🇸 US_speednode_0020
       - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_13
       - 🇺🇸 _US_美国_2
-      - 🇺🇸 _US_美国_2 2
       - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
@@ -11013,6 +10984,7 @@ proxy-groups:
       - 🇺🇸 美国 742
       - 🇺🇸 美国 743
       - 🇺🇸 美国 744
+      - 🇺🇸 美国 746
       - 🇺🇸 美国 747
       - 🇺🇸 美国 748
       - 🇺🇸 美国 751
@@ -11303,6 +11275,7 @@ proxy-groups:
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:
@@ -11630,7 +11603,6 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 FI_speednode_0003
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国

@@ -15,21 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 1, server: 3.141.46.88, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 10, server: 3.9.16.64, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 11, server: 35.178.40.2, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 12, server: 18.170.33.219, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 13, server: 3.8.49.30, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 14, server: 18.175.224.25, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 15, server: 18.218.15.201, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 2, server: 3.137.215.129, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 3, server: 3.147.64.175, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 4, server: 15.223.194.229, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 5, server: 18.224.33.22, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 6, server: 3.22.249.200, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 7, server: 13.40.87.204, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 8, server: 3.148.145.1, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 9, server: 54.93.193.217, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 1, server: 1762596741.bilibiliapp.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0, alterId: 0, cipher: auto, tls: true, servername: vkwhjvjry8.speed.jpsacibnc.cccp.useraaca.pp.ua, network: ws, ws-opts: {path: /, headers: {Host: vkwhjvjry8.speed.jpsacibnc.cccp.useraaca.pp.ua}}, udp: true}
   - {name: IPV6 001, server: "2001:41d0:70e:c100::", port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: serkat.org}}, udp: true}
   - {name: IPV6 002, server: 2606:4700:3030::6815:4001, port: 80, client-fingerprint: chrome, type: vmess, uuid: 681eda16-e94d-439c-9067-b55db0c0543f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2uRsM4Z4Y8O5OsbJkA, headers: {Host: 4496a55e-a4bc-c238-2c1e-5e66f7b0829c.8900604.xyz}}, udp: true}
   - {name: IPV6 003, server: 2607:5300:60:38c3:2630:a001:b001:1, port: 8080, client-fingerprint: chrome, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -94,8 +80,6 @@ proxies:
   - {name: ℹ️ 【机场推荐：https://a0a.xyz/】7, server: hk4.nodea6a6.skynode.me, port: 8443, client-fingerprint: chrome, type: vmess, uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/download?ed=2560", headers: {Host: node-59-175-206-86.speedtest.cn}}, udp: true}
   - {name: ℹ️ 【机场推荐：https://a0a.xyz/】8, server: 212.192.14.234, port: 24441, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: eaTzMJaYNiUu8GKuTOefke, udp: true}
   - {name: ℹ️ 【机场推荐：https://a0a.xyz/】9, server: us1.web3sp.com, port: 50529, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
-  - {name: ℹ️ 官网https://down.nigx.cn/kelayun.github.io, server: 18.171.250.2, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: ℹ️ 官网https://kelayun.notepin.co, server: 16.52.152.103, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: ℹ️ 节点日期：11-08, server: paloma.hidencloud.com, port: 24714, client-fingerprint: chrome, type: vless, uuid: 82f86700-f8cc-4cd7-8d3f-dbc27301bc58, tls: false, network: ws, ws-opts: {path: /@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------@armanstore2-Telegram------, headers: {Host: paloma.hidencloud.com}}, udp: true}
   - {name: 亚太地区 001, server: naiu-hk.05vr9nyqg5.download, port: 13007, client-fingerprint: chrome, type: trojan, password: dce3c42b-f259-4b18-b5c1-a42ebef4e732, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
   - {name: 亚太地区 002, server: 103.160.204.50, port: 443, client-fingerprint: chrome, type: vless, uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123, tls: true, servername: vless8-ekh.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vless8-ekh.pages.dev}}, udp: true}
@@ -103,8 +87,6 @@ proxies:
   - {name: 亚太地区 004, server: 103.159.207.84, port: 50832, client-fingerprint: chrome, type: vmess, uuid: c31c40eb-95fc-4937-ba45-7a21e8f5da32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 亚太地区 005, server: 103.169.142.53, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: abcd.freewarp.eu.org, network: ws, ws-opts: {path: /snippets, headers: {Host: abcd.freewarp.eu.org}}, udp: true}
   - {name: 安圭拉 001, server: 209.94.90.87, port: 2087, client-fingerprint: chrome, type: vless, uuid: 8d5911d9-f9f9-484f-8f67-5729ab5fd1af, tls: true, servername: saas.cfliu.filegear-sg.me, network: ws, ws-opts: {path: "/snippets?ip=tw.tp81.netlib.re:81&nat64=6to4", headers: {Host: saas.cfliu.filegear-sg.me}}, udp: true}
-  - {name: 最低2元1000G, server: 15.223.195.244, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 最高200元永久无限流量, server: 3.8.172.214, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇦🇪 阿联酋 001, server: 193.123.81.235, port: 8080, client-fingerprint: chrome, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: cn-tw-eq-01-03.bilivideo.com}}, udp: true}
   - {name: 🇦🇪 阿联酋 002, server: 185.225.195.41, port: 2096, client-fingerprint: chrome, type: vless, uuid: 563608cd-f135-4e64-938d-d9eb3be1ba77, tls: true, servername: vless.keepfuck.me, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.keepfuck.me}}, udp: true}
   - {name: 🇦🇲 亚美尼亚 001, server: 188.164.159.52, port: 2096, client-fingerprint: chrome, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes", headers: {Host: saas.git.cloudns.org}}, udp: true}
@@ -115,6 +97,7 @@ proxies:
   - {name: 🇦🇹 奥地利 003, server: 212.183.88.154, port: 80, client-fingerprint: chrome, type: vless, uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1, tls: true, servername: late-tooth.granzinhannah.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: late-tooth.granzinhannah.workers.dev}}, udp: true}
   - {name: 🇦🇹 奥地利 004, server: 212.183.88.134, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: dd.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.oracle.fxxk.dedyn.io", headers: {Host: dd.ylks.xyz}}, udp: true}
   - {name: 🇦🇹 奥地利 005, server: 212.183.88.77, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: ly.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ly.ylka.us.kg}}, udp: true}
+  - {name: 🇦🇹 奥地利 V2CROSS.COM, server: 46.29.34.205, port: 41346, client-fingerprint: chrome, type: vmess, uuid: 6063ad0d-26fe-46a7-bf78-dfea71afde9b, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇦🇺 澳大利亚 001, server: zhuli.jineng.buzz, port: 80, client-fingerprint: chrome, type: vmess, uuid: 77cf0cde-fd6c-4336-86de-4c60b797e712, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.jineng.buzz}}, udp: true}
   - {name: 🇦🇺 澳大利亚 002, server: 115155.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 01.91md.fun}}, udp: true}
   - {name: 🇦🇺 澳大利亚 003, server: 43.159.99.26, port: 443, client-fingerprint: chrome, type: vless, uuid: d8665d45-8103-46e9-9cb7-8902bb7559b4, tls: true, servername: hk3.kaipi.link, network: ws, ws-opts: {path: /texaws, headers: {Host: hk3.kaipi.link}}, udp: true}
@@ -219,7 +202,9 @@ proxies:
   - {name: 🇧🇷 巴西 031, server: 188.114.97.21, port: 443, client-fingerprint: chrome, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: afrhms16v.bestxray.buzz}}, udp: true}
   - {name: 🇧🇷 巴西 032, server: 188.114.97.6, port: 443, client-fingerprint: chrome, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 🇧🇷 巴西 033, server: 188.114.97.2, port: 443, client-fingerprint: chrome, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
+  - {name: 🇨🇦 CA_speednode_0001, server: 15.223.194.229, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, client-fingerprint: chrome, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇨🇦 加拿大 - 多伦多 - Amazon.com - 1, server: 16.52.152.103, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇨🇦 加拿大 001, server: 142.171.192.140, port: 10001, client-fingerprint: chrome, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, packet-encoding: xudp, servername: kejiland.freewarp.eu.org, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇨🇦 加拿大 002, server: 51.79.29.172, port: 33801, client-fingerprint: chrome, type: vless, uuid: 13c10b21-6211-4d43-856f-2e54ef2ac2e2, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [varzesh3.ir]}}, udp: true}
   - {name: 🇨🇦 加拿大 003, server: 51.79.102.253, port: 80, client-fingerprint: chrome, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc}}, udp: true}
@@ -384,7 +369,7 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 江苏省 移动, server: 36.150.215.244, port: 2753, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, udp: true}
+  - {name: 🇨🇳 江苏省 移动, server: 36.150.215.244, port: 2753, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 003, server: 190.93.246.246, port: 8443, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: true, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: bitget1.asdasd.click}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 004, server: 190.93.246.220, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lg.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lg.kpcloud.eu.org}}, udp: true}
@@ -392,6 +377,7 @@ proxies:
   - {name: 🇨🇷 哥斯达黎加 006, server: 190.93.247.149, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lc.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lc.kpcloud.eu.org}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 007, server: 190.93.247.181, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lc.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lc.kpcloud.eu.org}}, udp: true}
   - {name: 🇨🇿 捷克 001, server: 109.123.235.244, port: 550, client-fingerprint: chrome, type: vmess, uuid: a72dc642-56ec-456f-aa18-930a274228f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 - Frankfurt am Main - Amazon Technologies Inc. - 1, server: 54.93.193.217, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇩🇪 德国 001, server: 141.95.126.134, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: jamekk.org}}, udp: true}
   - {name: 🇩🇪 德国 002, server: 141.94.168.171, port: 32647, client-fingerprint: chrome, type: vless, uuid: edd716ae-7d5a-44f7-a0ed-a615eab0c766, tls: true, network: grpc, grpc-opts: {grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON}, udp: true}
   - {name: 🇩🇪 德国 003, server: 638938161486112816.warsaw-prx-dnraacl.info, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -650,7 +636,15 @@ proxies:
   - {name: 🇫🇷 法国 141, server: 146.59.85.226, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: pelang.org}}, udp: true}
   - {name: 🇫🇷 法国 142, server: 141.227.180.39, port: 22295, client-fingerprint: chrome, type: vless, uuid: 0e0d5989-f5aa-451c-af59-1845bb005d1a, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇫🇷 法国 143, server: 141.227.180.39, port: 22294, client-fingerprint: chrome, type: vless, uuid: 296b5322-3f50-4ad3-b504-6e1e370dc544, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇬🇧 GB_speednode_0007, server: 3.8.172.214, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇬🇧 GB_speednode_0008, server: 18.171.250.2, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇬🇧 GB_speednode_0009, server: 3.9.16.64, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇬🇧 GB_speednode_0010, server: 35.178.40.2, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇬🇧 GB_speednode_0011, server: 18.175.224.25, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇬🇧 GB_speednode_0012, server: 3.8.49.30, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "🇬🇧 英国 - Slough - DigitalOcean, LLC - 1", server: xg1b6.waimaohots.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: f95da449-747a-4ecc-b4ba-9f0f715a25df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: xg1b6.waimaohots.com, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: xg1b6.waimaohots.com}}, udp: true}
+  - {name: 🇬🇧 英国 - 伦敦 - Amazon Technologies Inc. - 6, server: 18.170.33.219, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇬🇧 英国 - 伦敦 - Amazon Technologies Inc. - 7, server: 13.40.87.204, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇬🇧 英国 001, server: 82.197.69.131, port: 39674, client-fingerprint: chrome, type: vmess, uuid: 5a89386a-827b-4f54-8778-2f1b5122c6ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 002, server: 46.250.243.56, port: 50394, client-fingerprint: chrome, type: vmess, uuid: a75f3f95-ad4e-4498-fc72-dd740dd02bfc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 003, server: 51.68.189.39, port: 80, client-fingerprint: chrome, type: vless, uuid: 20ed210a-c5e7-4378-bd93-bae4d8580543, tls: false, network: ws, ws-opts: {path: /vless/, headers: {Host: google.com}}, udp: true}
@@ -728,7 +722,6 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|18, server: bs2.jymzffbquawl.com, port: 3607, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|19, server: bs2.jymzffbquawl.com, port: 3608, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港 Cloudie数据中心, server: 103.243.26.209, port: 10086, client-fingerprint: chrome, type: vmess, uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.30.26, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 58.152.46.98, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
@@ -765,7 +758,7 @@ proxies:
   - {name: 🇮🇷 伊朗 052, server: hetz-vm1.serjio.sbs, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 166b8dda-9126-4ecc-8d22-6b5ba2df9c1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 054, server: 46.62.199.20, port: 1414, client-fingerprint: chrome, type: vmess, uuid: 3550a751-0da4-49b2-8c7c-8ed00e616ff7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 055, server: 91.98.193.193, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 3ead03ea-0bc8-4a91-bb55-b2a8751f4a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 151.242.251.144, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: beesyar.org, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 🇮🇹 意大利 001, server: 151.101.242.172, port: 80, client-fingerprint: chrome, type: vless, uuid: 62915088-0f71-4592-bf82-3f02d4db1239, tls: true, servername: Germany.ss.ss, network: ws, ws-opts: {path: "WEDBAZ?ed=2048", headers: {Host: Germany.ss.ss}}, udp: true}
   - {name: 🇮🇹 意大利 002, server: 31.14.135.127, port: 7035, client-fingerprint: chrome, type: vless, uuid: 7d27c544-135d-41a2-bd84-713b8af4f3c2, tls: true, servername: filimo.com, network: ws, ws-opts: {path: /, headers: {Host: filimo.com}}, udp: true}
   - {name: 🇮🇹 意大利 003, server: pizaitaliano.gojustore.site, port: 7035, client-fingerprint: chrome, type: vless, uuid: e265fc78-e269-46b2-9b6a-85f573dab3d5, tls: true, servername: filimo.com, network: ws, ws-opts: {path: /, headers: {Host: filimo.com}}, udp: true}
@@ -1228,6 +1221,7 @@ proxies:
   - {name: 🇺🇸 Standard|广美|IEPL|07, server: bs4.jymzffbquawl.com, port: 5602, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|08, server: bs4.jymzffbquawl.com, port: 5603, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: "🇺🇸 US #1", server: shdata1.233netpro.com, port: 10151, client-fingerprint: chrome, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US_speednode_0020, server: 3.147.64.175, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇺🇸 _US_美国_1, server: 206.168.190.219, port: 2082, client-fingerprint: chrome, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
   - {name: 🇺🇸 _US_美国_13, server: ip.sb, port: 443, client-fingerprint: chrome, type: trojan, password: trojan, sni: nixian.pages.dev, network: ws, ws-opts: {path: "/?ed=2560/?Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-", headers: {Host: nixian.pages.dev}}, udp: true}
   - {name: 🇺🇸 _US_美国_2, server: www.digitalocean.com, port: 443, client-fingerprint: chrome, type: trojan, password: trojan, sni: azadnet-9ya.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: azadnet-9ya.pages.dev}}, udp: true}
@@ -1236,6 +1230,10 @@ proxies:
   - {name: 🇺🇸 _US_美国_4, server: wnd3.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, client-fingerprint: chrome, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国, server: 117.172.176.23, port: 4553, client-fingerprint: chrome, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: "🇺🇸 美国 - Dublin - Amazon.com, Inc. - 10", server: 3.141.46.88, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "🇺🇸 美国 - Dublin - Amazon.com, Inc. - 11", server: 18.224.33.22, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "🇺🇸 美国 - Dublin - Amazon.com, Inc. - 8", server: 18.218.15.201, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "🇺🇸 美国 - Dublin - Amazon.com, Inc. - 9", server: 3.137.215.129, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "🇺🇸 美国 - 圣克拉拉 - DigitalOcean, LLC - 1", server: xg1a8.waimaohots.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: f95da449-747a-4ecc-b4ba-9f0f715a25df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: xg1a8.waimaohots.com, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: xg1a8.waimaohots.com}}, udp: true}
   - {name: "🇺🇸 美国 - 圣克拉拉 - DigitalOcean, LLC - 5", server: xg1c1.waimaohots.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: f95da449-747a-4ecc-b4ba-9f0f715a25df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: xg1c1.waimaohots.com, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: xg1c1.waimaohots.com}}, udp: true}
   - {name: "🇺🇸 美国 - 圣克拉拉 - DigitalOcean, LLC - 6", server: xg1b3.waimaohots.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: f95da449-747a-4ecc-b4ba-9f0f715a25df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: xg1b3.waimaohots.com, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: xg1b3.waimaohots.com}}, udp: true}
@@ -2296,6 +2294,7 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, client-fingerprint: chrome, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, client-fingerprint: chrome, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
+  - {name: 🇺🇸 美国 惠普HP, server: 15.204.9.102.yixianled.com, port: 36689, client-fingerprint: chrome, type: vmess, uuid: 6578c489-28d2-4f12-8c2f-9f2d8789626d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 15.204.9.102.yixianled.com}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 45.140.167.173, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_12, server: 141.101.121.120, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_14, server: 141.101.120.130, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1/?ed=2560"}, udp: true}
@@ -2341,6 +2340,7 @@ proxies:
   - {name: 🇺🇸 美国(yfuye.com免费节点)_64, server: 95.164.45.27, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_66, server: 45.12.150.134, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_68, server: 95.164.6.183, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇺🇸 美国(yfuye.com免费节点)_69, server: 103.243.26.209, port: 10086, client-fingerprint: chrome, type: vmess, uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [103.243.26.209]}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_7, server: 89.221.224.207, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_71, server: 103.243.26.209, port: 8080, client-fingerprint: chrome, type: vmess, uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_73, server: 45.12.150.186, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -2433,20 +2433,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 1
-      - 10
-      - 11
-      - 12
-      - 13
-      - 14
-      - 15
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
       - IPV6 001
       - IPV6 002
       - IPV6 003
@@ -2511,8 +2497,6 @@ proxy-groups:
       - ℹ️ 【机场推荐：https://a0a.xyz/】7
       - ℹ️ 【机场推荐：https://a0a.xyz/】8
       - ℹ️ 【机场推荐：https://a0a.xyz/】9
-      - ℹ️ 官网https://down.nigx.cn/kelayun.github.io
-      - ℹ️ 官网https://kelayun.notepin.co
       - ℹ️ 节点日期：11-08
       - 亚太地区 001
       - 亚太地区 002
@@ -2520,8 +2504,6 @@ proxy-groups:
       - 亚太地区 004
       - 亚太地区 005
       - 安圭拉 001
-      - 最低2元1000G
-      - 最高200元永久无限流量
       - 🇦🇪 阿联酋 001
       - 🇦🇪 阿联酋 002
       - 🇦🇲 亚美尼亚 001
@@ -2532,6 +2514,7 @@ proxy-groups:
       - 🇦🇹 奥地利 003
       - 🇦🇹 奥地利 004
       - 🇦🇹 奥地利 005
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚 002
       - 🇦🇺 澳大利亚 003
@@ -2636,7 +2619,9 @@ proxy-groups:
       - 🇧🇷 巴西 031
       - 🇧🇷 巴西 032
       - 🇧🇷 巴西 033
+      - 🇨🇦 CA_speednode_0001
       - 🇨🇦 _CA_加拿大
+      - 🇨🇦 加拿大 - 多伦多 - Amazon.com - 1
       - 🇨🇦 加拿大 001
       - 🇨🇦 加拿大 002
       - 🇨🇦 加拿大 003
@@ -2809,6 +2794,7 @@ proxy-groups:
       - 🇨🇷 哥斯达黎加 006
       - 🇨🇷 哥斯达黎加 007
       - 🇨🇿 捷克 001
+      - 🇩🇪 德国 - Frankfurt am Main - Amazon Technologies Inc. - 1
       - 🇩🇪 德国 001
       - 🇩🇪 德国 002
       - 🇩🇪 德国 003
@@ -3067,6 +3053,14 @@ proxy-groups:
       - 🇫🇷 法国 141
       - 🇫🇷 法国 142
       - 🇫🇷 法国 143
+      - 🇬🇧 GB_speednode_0007
+      - 🇬🇧 GB_speednode_0008
+      - 🇬🇧 GB_speednode_0009
+      - 🇬🇧 GB_speednode_0010
+      - 🇬🇧 GB_speednode_0011
+      - 🇬🇧 GB_speednode_0012
+      - 🇬🇧 英国 - 伦敦 - Amazon Technologies Inc. - 6
+      - 🇬🇧 英国 - 伦敦 - Amazon Technologies Inc. - 7
       - 🇬🇧 英国 001
       - 🇬🇧 英国 002
       - 🇬🇧 英国 003
@@ -3140,7 +3134,6 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
@@ -3636,6 +3629,7 @@ proxy-groups:
       - 🇺🇸 Standard|广美|IEPL|06
       - 🇺🇸 Standard|广美|IEPL|07
       - 🇺🇸 Standard|广美|IEPL|08
+      - 🇺🇸 US_speednode_0020
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_13
       - 🇺🇸 _US_美国_2
@@ -4700,6 +4694,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 惠普HP
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_12
       - 🇺🇸 美国(yfuye.com免费节点)_14
@@ -4745,6 +4740,7 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_64
       - 🇺🇸 美国(yfuye.com免费节点)_66
       - 🇺🇸 美国(yfuye.com免费节点)_68
+      - 🇺🇸 美国(yfuye.com免费节点)_69
       - 🇺🇸 美国(yfuye.com免费节点)_7
       - 🇺🇸 美国(yfuye.com免费节点)_71
       - 🇺🇸 美国(yfuye.com免费节点)_73
@@ -4812,20 +4808,6 @@ proxy-groups:
     type: select
     proxies:
       - 1
-      - 10
-      - 11
-      - 12
-      - 13
-      - 14
-      - 15
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
       - IPV6 001
       - IPV6 002
       - IPV6 003
@@ -4890,8 +4872,6 @@ proxy-groups:
       - ℹ️ 【机场推荐：https://a0a.xyz/】7
       - ℹ️ 【机场推荐：https://a0a.xyz/】8
       - ℹ️ 【机场推荐：https://a0a.xyz/】9
-      - ℹ️ 官网https://down.nigx.cn/kelayun.github.io
-      - ℹ️ 官网https://kelayun.notepin.co
       - ℹ️ 节点日期：11-08
       - 亚太地区 001
       - 亚太地区 002
@@ -4899,8 +4879,6 @@ proxy-groups:
       - 亚太地区 004
       - 亚太地区 005
       - 安圭拉 001
-      - 最低2元1000G
-      - 最高200元永久无限流量
       - 🇦🇪 阿联酋 001
       - 🇦🇪 阿联酋 002
       - 🇦🇲 亚美尼亚 001
@@ -4911,6 +4889,7 @@ proxy-groups:
       - 🇦🇹 奥地利 003
       - 🇦🇹 奥地利 004
       - 🇦🇹 奥地利 005
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚 002
       - 🇦🇺 澳大利亚 003
@@ -5015,7 +4994,9 @@ proxy-groups:
       - 🇧🇷 巴西 031
       - 🇧🇷 巴西 032
       - 🇧🇷 巴西 033
+      - 🇨🇦 CA_speednode_0001
       - 🇨🇦 _CA_加拿大
+      - 🇨🇦 加拿大 - 多伦多 - Amazon.com - 1
       - 🇨🇦 加拿大 001
       - 🇨🇦 加拿大 002
       - 🇨🇦 加拿大 003
@@ -5188,6 +5169,7 @@ proxy-groups:
       - 🇨🇷 哥斯达黎加 006
       - 🇨🇷 哥斯达黎加 007
       - 🇨🇿 捷克 001
+      - 🇩🇪 德国 - Frankfurt am Main - Amazon Technologies Inc. - 1
       - 🇩🇪 德国 001
       - 🇩🇪 德国 002
       - 🇩🇪 德国 003
@@ -5446,6 +5428,14 @@ proxy-groups:
       - 🇫🇷 法国 141
       - 🇫🇷 法国 142
       - 🇫🇷 法国 143
+      - 🇬🇧 GB_speednode_0007
+      - 🇬🇧 GB_speednode_0008
+      - 🇬🇧 GB_speednode_0009
+      - 🇬🇧 GB_speednode_0010
+      - 🇬🇧 GB_speednode_0011
+      - 🇬🇧 GB_speednode_0012
+      - 🇬🇧 英国 - 伦敦 - Amazon Technologies Inc. - 6
+      - 🇬🇧 英国 - 伦敦 - Amazon Technologies Inc. - 7
       - 🇬🇧 英国 001
       - 🇬🇧 英国 002
       - 🇬🇧 英国 003
@@ -5519,7 +5509,6 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
@@ -6015,6 +6004,7 @@ proxy-groups:
       - 🇺🇸 Standard|广美|IEPL|06
       - 🇺🇸 Standard|广美|IEPL|07
       - 🇺🇸 Standard|广美|IEPL|08
+      - 🇺🇸 US_speednode_0020
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_13
       - 🇺🇸 _US_美国_2
@@ -7079,6 +7069,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 惠普HP
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_12
       - 🇺🇸 美国(yfuye.com免费节点)_14
@@ -7124,6 +7115,7 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_64
       - 🇺🇸 美国(yfuye.com免费节点)_66
       - 🇺🇸 美国(yfuye.com免费节点)_68
+      - 🇺🇸 美国(yfuye.com免费节点)_69
       - 🇺🇸 美国(yfuye.com免费节点)_7
       - 🇺🇸 美国(yfuye.com免费节点)_71
       - 🇺🇸 美国(yfuye.com免费节点)_73
@@ -7280,7 +7272,6 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
@@ -7501,7 +7492,6 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
@@ -7706,6 +7696,7 @@ proxy-groups:
       - 🇺🇸 Standard|广美|IEPL|06
       - 🇺🇸 Standard|广美|IEPL|07
       - 🇺🇸 Standard|广美|IEPL|08
+      - 🇺🇸 US_speednode_0020
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_13
       - 🇺🇸 _US_美国_2
@@ -8770,6 +8761,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 惠普HP
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_12
       - 🇺🇸 美国(yfuye.com免费节点)_14
@@ -8815,6 +8807,7 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_64
       - 🇺🇸 美国(yfuye.com免费节点)_66
       - 🇺🇸 美国(yfuye.com免费节点)_68
+      - 🇺🇸 美国(yfuye.com免费节点)_69
       - 🇺🇸 美国(yfuye.com免费节点)_7
       - 🇺🇸 美国(yfuye.com免费节点)_71
       - 🇺🇸 美国(yfuye.com免费节点)_73
@@ -8837,20 +8830,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 1
-      - 10
-      - 11
-      - 12
-      - 13
-      - 14
-      - 15
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
       - IPV6 001
       - IPV6 002
       - IPV6 003
@@ -8915,8 +8894,6 @@ proxy-groups:
       - ℹ️ 【机场推荐：https://a0a.xyz/】7
       - ℹ️ 【机场推荐：https://a0a.xyz/】8
       - ℹ️ 【机场推荐：https://a0a.xyz/】9
-      - ℹ️ 官网https://down.nigx.cn/kelayun.github.io
-      - ℹ️ 官网https://kelayun.notepin.co
       - ℹ️ 节点日期：11-08
       - 亚太地区 001
       - 亚太地区 002
@@ -8924,8 +8901,6 @@ proxy-groups:
       - 亚太地区 004
       - 亚太地区 005
       - 安圭拉 001
-      - 最低2元1000G
-      - 最高200元永久无限流量
       - 🇦🇪 阿联酋 001
       - 🇦🇪 阿联酋 002
       - 🇦🇲 亚美尼亚 001
@@ -8936,6 +8911,7 @@ proxy-groups:
       - 🇦🇹 奥地利 003
       - 🇦🇹 奥地利 004
       - 🇦🇹 奥地利 005
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚 002
       - 🇦🇺 澳大利亚 003
@@ -9040,7 +9016,9 @@ proxy-groups:
       - 🇧🇷 巴西 031
       - 🇧🇷 巴西 032
       - 🇧🇷 巴西 033
+      - 🇨🇦 CA_speednode_0001
       - 🇨🇦 _CA_加拿大
+      - 🇨🇦 加拿大 - 多伦多 - Amazon.com - 1
       - 🇨🇦 加拿大 001
       - 🇨🇦 加拿大 002
       - 🇨🇦 加拿大 003
@@ -9063,6 +9041,7 @@ proxy-groups:
       - 🇨🇷 哥斯达黎加 006
       - 🇨🇷 哥斯达黎加 007
       - 🇨🇿 捷克 001
+      - 🇩🇪 德国 - Frankfurt am Main - Amazon Technologies Inc. - 1
       - 🇩🇪 德国 001
       - 🇩🇪 德国 002
       - 🇩🇪 德国 003
@@ -9321,6 +9300,14 @@ proxy-groups:
       - 🇫🇷 法国 141
       - 🇫🇷 法国 142
       - 🇫🇷 法国 143
+      - 🇬🇧 GB_speednode_0007
+      - 🇬🇧 GB_speednode_0008
+      - 🇬🇧 GB_speednode_0009
+      - 🇬🇧 GB_speednode_0010
+      - 🇬🇧 GB_speednode_0011
+      - 🇬🇧 GB_speednode_0012
+      - 🇬🇧 英国 - 伦敦 - Amazon Technologies Inc. - 6
+      - 🇬🇧 英国 - 伦敦 - Amazon Technologies Inc. - 7
       - 🇬🇧 英国 001
       - 🇬🇧 英国 002
       - 🇬🇧 英国 003
@@ -9754,7 +9741,6 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
@@ -9969,7 +9955,6 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 香港 Cloudie数据中心
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
@@ -10165,6 +10150,7 @@ proxy-groups:
       - 🇺🇸 Standard|广美|IEPL|06
       - 🇺🇸 Standard|广美|IEPL|07
       - 🇺🇸 Standard|广美|IEPL|08
+      - 🇺🇸 US_speednode_0020
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_13
       - 🇺🇸 _US_美国_2
@@ -11229,6 +11215,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 惠普HP
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_12
       - 🇺🇸 美国(yfuye.com免费节点)_14
@@ -11274,6 +11261,7 @@ proxy-groups:
       - 🇺🇸 美国(yfuye.com免费节点)_64
       - 🇺🇸 美国(yfuye.com免费节点)_66
       - 🇺🇸 美国(yfuye.com免费节点)_68
+      - 🇺🇸 美国(yfuye.com免费节点)_69
       - 🇺🇸 美国(yfuye.com免费节点)_7
       - 🇺🇸 美国(yfuye.com免费节点)_71
       - 🇺🇸 美国(yfuye.com免费节点)_73
@@ -11293,20 +11281,6 @@ proxy-groups:
     type: select
     proxies:
       - 1
-      - 10
-      - 11
-      - 12
-      - 13
-      - 14
-      - 15
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
       - IPV6 001
       - IPV6 002
       - IPV6 003
@@ -11371,8 +11345,6 @@ proxy-groups:
       - ℹ️ 【机场推荐：https://a0a.xyz/】7
       - ℹ️ 【机场推荐：https://a0a.xyz/】8
       - ℹ️ 【机场推荐：https://a0a.xyz/】9
-      - ℹ️ 官网https://down.nigx.cn/kelayun.github.io
-      - ℹ️ 官网https://kelayun.notepin.co
       - ℹ️ 节点日期：11-08
       - 亚太地区 001
       - 亚太地区 002
@@ -11380,8 +11352,6 @@ proxy-groups:
       - 亚太地区 004
       - 亚太地区 005
       - 安圭拉 001
-      - 最低2元1000G
-      - 最高200元永久无限流量
       - 🇦🇪 阿联酋 001
       - 🇦🇪 阿联酋 002
       - 🇦🇲 亚美尼亚 001
@@ -11392,6 +11362,7 @@ proxy-groups:
       - 🇦🇹 奥地利 003
       - 🇦🇹 奥地利 004
       - 🇦🇹 奥地利 005
+      - 🇦🇹 奥地利 V2CROSS.COM
       - 🇦🇺 澳大利亚 001
       - 🇦🇺 澳大利亚 002
       - 🇦🇺 澳大利亚 003
@@ -11496,7 +11467,9 @@ proxy-groups:
       - 🇧🇷 巴西 031
       - 🇧🇷 巴西 032
       - 🇧🇷 巴西 033
+      - 🇨🇦 CA_speednode_0001
       - 🇨🇦 _CA_加拿大
+      - 🇨🇦 加拿大 - 多伦多 - Amazon.com - 1
       - 🇨🇦 加拿大 001
       - 🇨🇦 加拿大 002
       - 🇨🇦 加拿大 003
@@ -11519,6 +11492,7 @@ proxy-groups:
       - 🇨🇷 哥斯达黎加 006
       - 🇨🇷 哥斯达黎加 007
       - 🇨🇿 捷克 001
+      - 🇩🇪 德国 - Frankfurt am Main - Amazon Technologies Inc. - 1
       - 🇩🇪 德国 001
       - 🇩🇪 德国 002
       - 🇩🇪 德国 003
@@ -11777,6 +11751,14 @@ proxy-groups:
       - 🇫🇷 法国 141
       - 🇫🇷 法国 142
       - 🇫🇷 法国 143
+      - 🇬🇧 GB_speednode_0007
+      - 🇬🇧 GB_speednode_0008
+      - 🇬🇧 GB_speednode_0009
+      - 🇬🇧 GB_speednode_0010
+      - 🇬🇧 GB_speednode_0011
+      - 🇬🇧 GB_speednode_0012
+      - 🇬🇧 英国 - 伦敦 - Amazon Technologies Inc. - 6
+      - 🇬🇧 英国 - 伦敦 - Amazon Technologies Inc. - 7
       - 🇬🇧 英国 001
       - 🇬🇧 英国 002
       - 🇬🇧 英国 003

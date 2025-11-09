@@ -352,9 +352,9 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, client-fingerprint: chrome, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 四川省 移动数据上网公共出口, server: 117.172.176.22, port: 1334, client-fingerprint: chrome, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 广东省广州市 电信, server: hk4.web3sp.com, port: 50049, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
-  - {name: 🇨🇳 江苏省 移动, server: 36.151.251.38, port: 38799, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 四川省 移动数据上网公共出口, server: 117.172.176.22, port: 4095, client-fingerprint: chrome, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 四川省 移动数据上网公共出口 2, server: 117.172.176.22, port: 2173, client-fingerprint: chrome, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 广东省广州市 电信 3, server: hk4.web3sp.com, port: 50049, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 003, server: 190.93.246.246, port: 8443, client-fingerprint: chrome, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: true, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: bitget1.asdasd.click}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 004, server: 190.93.246.220, port: 443, client-fingerprint: chrome, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lg.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lg.kpcloud.eu.org}}, udp: true}
@@ -708,13 +708,12 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|18, server: bs2.jymzffbquawl.com, port: 3607, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|19, server: bs2.jymzffbquawl.com, port: 3608, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港 特别行政区, server: v12.heduian.link, port: 30812, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-  - {name: 🇭🇰 香港 特别行政区 2, server: v4.heduian.link, port: 30804, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-  - {name: 🇭🇰 香港 特别行政区 3, server: v5.heduian.link, port: 30805, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.53.186, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 特别行政区, server: v5.heduian.link, port: 30805, client-fingerprint: chrome, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 203.198.122.129, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港3, server: 203.198.122.194, port: 443, client-fingerprint: chrome, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港4, server: 58.152.30.26, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港5, server: 58.152.53.186, port: 443, client-fingerprint: chrome, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港6, server: 36.150.27.76, port: 49509, client-fingerprint: chrome, type: vmess, uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇮🇪 爱尔兰 001, server: 52.215.68.89, port: 22222, client-fingerprint: chrome, type: vless, uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e, tls: true, servername: telegram-channel-vlessconfig.sohala.uk, network: ws, ws-opts: {path: /telegram-channel-vlessconfig-ws, headers: {Host: telegram-channel-vlessconfig.sohala.uk}}, udp: true}
   - {name: 🇮🇱 以色列 001, server: 185.47.172.105, port: 2083, client-fingerprint: chrome, type: vless, uuid: 354712c4-dab3-452c-89fd-0a2edd6999f9, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -2290,12 +2289,11 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, client-fingerprint: chrome, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, client-fingerprint: chrome, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 141.101.120.130, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1/?ed=2560", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, udp: true}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.180.105.12, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: tJlEWh2PzDMew8qo9YkPEA, udp: true}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 2, server: promo16v.bystrivpn.ru, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: tJlEWh2PzDMew8qo9YkPEA, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 141.101.121.120, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, udp: true}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: promo16v.bystrivpn.ru, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: tJlEWh2PzDMew8qo9YkPEA, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 45.140.167.173, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇺🇸 美国(yfuye.com免费节点)_12, server: 141.101.121.120, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_13, server: 36.133.73.36, port: 11819, client-fingerprint: chrome, type: vmess, uuid: de32752c-0661-467e-82d3-35bc740a787f, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国(yfuye.com免费节点)_14, server: 141.101.120.130, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1/?ed=2560"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_15, server: 141.101.121.251, port: 80, client-fingerprint: chrome, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)"}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_17, server: 89.221.224.149, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_18, server: 89.221.224.225, port: 8880, client-fingerprint: chrome, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
@@ -2767,8 +2765,8 @@ proxy-groups:
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
       - 🇨🇳 四川省 移动数据上网公共出口
-      - 🇨🇳 广东省广州市 电信
-      - 🇨🇳 江苏省 移动
+      - 🇨🇳 四川省 移动数据上网公共出口 2
+      - 🇨🇳 广东省广州市 电信 3
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -3118,12 +3116,11 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 香港 特别行政区
-      - 🇭🇰 香港 特别行政区 2
-      - 🇭🇰 香港 特别行政区 3
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 001
@@ -4688,10 +4685,9 @@ proxy-groups:
       - 🇺🇸 美国 999
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
       - 🇺🇸 美国(yfuye.com免费节点)_1
-      - 🇺🇸 美国(yfuye.com免费节点)_12
       - 🇺🇸 美国(yfuye.com免费节点)_13
+      - 🇺🇸 美国(yfuye.com免费节点)_14
       - 🇺🇸 美国(yfuye.com免费节点)_15
       - 🇺🇸 美国(yfuye.com免费节点)_17
       - 🇺🇸 美国(yfuye.com免费节点)_18
@@ -5138,8 +5134,8 @@ proxy-groups:
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
       - 🇨🇳 四川省 移动数据上网公共出口
-      - 🇨🇳 广东省广州市 电信
-      - 🇨🇳 江苏省 移动
+      - 🇨🇳 四川省 移动数据上网公共出口 2
+      - 🇨🇳 广东省广州市 电信 3
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -5489,12 +5485,11 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 香港 特别行政区
-      - 🇭🇰 香港 特别行政区 2
-      - 🇭🇰 香港 特别行政区 3
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 001
@@ -7059,10 +7054,9 @@ proxy-groups:
       - 🇺🇸 美国 999
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
       - 🇺🇸 美国(yfuye.com免费节点)_1
-      - 🇺🇸 美国(yfuye.com免费节点)_12
       - 🇺🇸 美国(yfuye.com免费节点)_13
+      - 🇺🇸 美国(yfuye.com免费节点)_14
       - 🇺🇸 美国(yfuye.com免费节点)_15
       - 🇺🇸 美国(yfuye.com免费节点)_17
       - 🇺🇸 美国(yfuye.com免费节点)_18
@@ -7263,12 +7257,11 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 香港 特别行政区
-      - 🇭🇰 香港 特别行政区 2
-      - 🇭🇰 香港 特别行政区 3
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
   - name: 🇹🇼 ‍台湾
     type: url-test
@@ -7444,8 +7437,8 @@ proxy-groups:
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
       - 🇨🇳 四川省 移动数据上网公共出口
-      - 🇨🇳 广东省广州市 电信
-      - 🇨🇳 江苏省 移动
+      - 🇨🇳 四川省 移动数据上网公共出口 2
+      - 🇨🇳 广东省广州市 电信 3
       - 🇭🇰 HK_speednode_0012
       - 🇭🇰 HK_speednode_0013
       - 🇭🇰 Premium|广港|IEPL|01
@@ -7489,12 +7482,11 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 香港 特别行政区
-      - 🇭🇰 香港 特别行政区 2
-      - 🇭🇰 香港 特别行政区 3
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -8766,10 +8758,9 @@ proxy-groups:
       - 🇺🇸 美国 999
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
       - 🇺🇸 美国(yfuye.com免费节点)_1
-      - 🇺🇸 美国(yfuye.com免费节点)_12
       - 🇺🇸 美国(yfuye.com免费节点)_13
+      - 🇺🇸 美国(yfuye.com免费节点)_14
       - 🇺🇸 美国(yfuye.com免费节点)_15
       - 🇺🇸 美国(yfuye.com免费节点)_17
       - 🇺🇸 美国(yfuye.com免费节点)_18
@@ -9730,12 +9721,11 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 香港 特别行政区
-      - 🇭🇰 香港 特别行政区 2
-      - 🇭🇰 香港 特别行政区 3
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
@@ -9905,8 +9895,8 @@ proxy-groups:
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
       - 🇨🇳 四川省 移动数据上网公共出口
-      - 🇨🇳 广东省广州市 电信
-      - 🇨🇳 江苏省 移动
+      - 🇨🇳 四川省 移动数据上网公共出口 2
+      - 🇨🇳 广东省广州市 电信 3
       - 🇭🇰 HK_speednode_0012
       - 🇭🇰 HK_speednode_0013
       - 🇭🇰 Premium|广港|IEPL|01
@@ -9950,12 +9940,11 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 香港 特别行政区
-      - 🇭🇰 香港 特别行政区 2
-      - 🇭🇰 香港 特别行政区 3
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -11218,10 +11207,9 @@ proxy-groups:
       - 🇺🇸 美国 999
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 华盛顿Cogent通信公司 2
       - 🇺🇸 美国(yfuye.com免费节点)_1
-      - 🇺🇸 美国(yfuye.com免费节点)_12
       - 🇺🇸 美国(yfuye.com免费节点)_13
+      - 🇺🇸 美国(yfuye.com免费节点)_14
       - 🇺🇸 美国(yfuye.com免费节点)_15
       - 🇺🇸 美国(yfuye.com免费节点)_17
       - 🇺🇸 美国(yfuye.com免费节点)_18

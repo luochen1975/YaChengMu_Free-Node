@@ -15,20 +15,6 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 1, server: pq.us1.globals-download.com, port: 35000, type: hysteria2, password: de81cf6b-0d2f-42be-ac60-a3b734216739, auth: de81cf6b-0d2f-42be-ac60-a3b734216739, sni: www.apple.com, skip-cert-verify: true, ports: 35000-39000, udp: true}
-  - {name: 10, server: pq.us10.globals-download.com, port: 35000, type: hysteria2, password: de81cf6b-0d2f-42be-ac60-a3b734216739, auth: de81cf6b-0d2f-42be-ac60-a3b734216739, sni: api.push.apple.com, skip-cert-verify: true, ports: 35000-39000, udp: true}
-  - {name: 13, server: 85.159.92.99, port: 35000, type: hysteria2, password: de81cf6b-0d2f-42be-ac60-a3b734216739, auth: de81cf6b-0d2f-42be-ac60-a3b734216739, sni: www.apple.com, skip-cert-verify: true, ports: 35000-39000, udp: true}
-  - {name: 14, server: 69.84.182.108, port: 443, type: vless, uuid: de81cf6b-0d2f-42be-ac60-a3b734216739, tls: true, servername: pq-us4.globals-download.com, client-fingerprint: chrome, network: ws, ws-opts: {path: /pq/us4, headers: {Host: pq-us4.globals-download.com}}, udp: true}
-  - {name: 17, server: 69.84.182.18, port: 443, type: vless, uuid: de81cf6b-0d2f-42be-ac60-a3b734216739, tls: true, servername: jpa1.xn--ghqu5fm27b67w.com, client-fingerprint: ios, network: ws, ws-opts: {path: /pq/jp1, headers: {Host: jpa1.xn--ghqu5fm27b67w.com}}, udp: true}
-  - {name: 18, server: 104.18.20.69, port: 443, type: vless, uuid: de81cf6b-0d2f-42be-ac60-a3b734216739, tls: true, servername: in1s-s.pqvip.top, client-fingerprint: chrome, network: ws, ws-opts: {path: /pq/in1, headers: {Host: in1s-s.pqvip.top}}, udp: true}
-  - {name: 2, server: pq.us2.globals-download.com, port: 35000, type: hysteria2, password: de81cf6b-0d2f-42be-ac60-a3b734216739, auth: de81cf6b-0d2f-42be-ac60-a3b734216739, sni: www.apple.com, skip-cert-verify: true, ports: 35000-39000, udp: true}
-  - {name: 3, server: pq.us3.globals-download.com, port: 35000, type: hysteria2, password: de81cf6b-0d2f-42be-ac60-a3b734216739, auth: de81cf6b-0d2f-42be-ac60-a3b734216739, sni: tv.apple.com, skip-cert-verify: true, ports: 35000-39000, udp: true}
-  - {name: 4, server: pq.us4.globals-download.com, port: 35000, type: hysteria2, password: de81cf6b-0d2f-42be-ac60-a3b734216739, auth: de81cf6b-0d2f-42be-ac60-a3b734216739, sni: www.apple.com, skip-cert-verify: true, ports: 35000-39000, udp: true}
-  - {name: 5, server: pq.us5.globals-download.com, port: 35000, type: hysteria2, password: de81cf6b-0d2f-42be-ac60-a3b734216739, auth: de81cf6b-0d2f-42be-ac60-a3b734216739, sni: www.apple.com, skip-cert-verify: true, ports: 35000-39000, udp: true}
-  - {name: 6, server: pq.us6.globals-download.com, port: 35000, type: hysteria2, password: de81cf6b-0d2f-42be-ac60-a3b734216739, auth: de81cf6b-0d2f-42be-ac60-a3b734216739, sni: www.apple.com, skip-cert-verify: true, ports: 35000-39000, udp: true}
-  - {name: 7, server: pq.us7.globals-download.com, port: 35000, type: hysteria2, password: de81cf6b-0d2f-42be-ac60-a3b734216739, auth: de81cf6b-0d2f-42be-ac60-a3b734216739, sni: www.apple.com, skip-cert-verify: true, ports: 35000-39000, udp: true}
-  - {name: 8, server: pq.us8.globals-download.com, port: 35000, type: hysteria2, password: de81cf6b-0d2f-42be-ac60-a3b734216739, auth: de81cf6b-0d2f-42be-ac60-a3b734216739, sni: www.apple.com, skip-cert-verify: true, ports: 35000-39000, udp: true}
-  - {name: 9, server: pq.us9.globals-download.com, port: 35000, type: hysteria2, password: de81cf6b-0d2f-42be-ac60-a3b734216739, auth: de81cf6b-0d2f-42be-ac60-a3b734216739, sni: www.apple.com, skip-cert-verify: true, ports: 35000-39000, udp: true}
   - {name: IPV6 001, server: "2001:41d0:70e:c100::", port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: serkat.org}}, udp: true}
   - {name: IPV6 002, server: 2606:4700:3030::6815:4001, port: 80, type: vmess, uuid: 681eda16-e94d-439c-9067-b55db0c0543f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2uRsM4Z4Y8O5OsbJkA, headers: {Host: 4496a55e-a4bc-c238-2c1e-5e66f7b0829c.8900604.xyz}}, udp: true}
   - {name: IPV6 003, server: 2607:5300:60:38c3:2630:a001:b001:1, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -59,8 +45,8 @@ proxies:
   - {name: ℹ️ 【机场推荐：https://a0a.xyz/】49, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
   - {name: ℹ️ 【机场推荐：https://a0a.xyz/】51, server: oss-cn-shanghai.letssepub.com, port: 20021, type: trojan, password: adbac894-90b9-4913-b77e-a715a8d4ebc8, sni: dingding-doc.com, skip-cert-verify: false, udp: true}
   - {name: ℹ️ 【机场推荐：https://a0a.xyz/】53, server: 104.18.240.238, port: 80, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, udp: true}
-  - {name: ℹ️ 发布页https://down.nigx.cn/kelayun.github.io, server: pq.vmjp3.yydjc.top, port: 443, type: vless, uuid: de81cf6b-0d2f-42be-ac60-a3b734216739, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: pR8CV43xvSgvzSXPVLCVomjw-yZvNyqU32kietO2pEc, short-id: "a6115a2c" }, servername: iosapps.itunes.apple.com, client-fingerprint: ios, network: tcp, udp: true}
-  - {name: ℹ️ 官网https://kelayun.notepin.co, server: pq.vmjp4.yydjc.top, port: 443, type: vless, uuid: de81cf6b-0d2f-42be-ac60-a3b734216739, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: FrLhPuCVfzdM5rppzxHXQ5BZSGf1YHrXgo-cCtecGSo, short-id: "f3b38af2" }, servername: cdn-dynmedia-1.microsoft.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: ℹ️ 不要用谷歌浏览器访问, server: freeyx.cloudflare88.eu.org, port: 443, type: vless, uuid: 4bc1e148-89bb-43b1-9621-497f8efa8e8d, tls: true, servername: do-sfo3.064288.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/announcement?ed=2048", headers: {Host: do-sfo3.064288.xyz}}, udp: true}
+  - {name: ℹ️ 地址https://kelayun.notepin.co, server: freev2.cloudflare.182682.xyz, port: 443, type: vless, uuid: 4bc1e148-89bb-43b1-9621-497f8efa8e8d, tls: true, servername: do-syd1.064288.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/announcement?ed=2048", headers: {Host: do-syd1.064288.xyz}}, udp: true}
   - {name: ℹ️ 节点日期：11-12, server: 185.146.173.126, port: 80, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, udp: true}
   - {name: 亚太地区 001, server: naiu-hk.05vr9nyqg5.download, port: 13007, type: trojan, password: dce3c42b-f259-4b18-b5c1-a42ebef4e732, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false, udp: true}
   - {name: 亚太地区 002, server: 103.160.204.50, port: 443, type: vless, uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123, tls: true, servername: vless8-ekh.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vless8-ekh.pages.dev}}, udp: true}
@@ -70,6 +56,7 @@ proxies:
   - {name: 吉尔吉斯坦 - 比什凯克 - Optima Telecom Ltd. - 1, server: 91.213.233.176, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTq0PlpXebnr9iyqBZYPdP4eoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 安圭拉 001, server: 209.94.90.87, port: 2087, type: vless, uuid: 8d5911d9-f9f9-484f-8f67-5729ab5fd1af, tls: true, servername: saas.cfliu.filegear-sg.me, client-fingerprint: chrome, network: ws, ws-opts: {path: "/snippets?ip=tw.tp81.netlib.re:81&nat64=6to4", headers: {Host: saas.cfliu.filegear-sg.me}}, udp: true}
   - {name: 尼加拉瓜 - 馬納瓜 - Navegalo S.A. - 1, server: 131.196.35.40, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTqX1MzjJnk4iKmLYjE47SB1oXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
+  - {name: 最低2元1000G流量, server: ct.877774.xyz, port: 443, type: vless, uuid: 4bc1e148-89bb-43b1-9621-497f8efa8e8d, tls: true, servername: do-blr1.064288.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/announcement?ed=2048", headers: {Host: do-blr1.064288.xyz}}, udp: true}
   - {name: 科特迪瓦 - 亚穆苏克罗 - ST DIGITAL Datacenter services - 1, server: 102.220.17.118, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTqyw_9lU0GDdIbPR87HdsUYoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇦🇪 阿拉伯联合酋长国 - 迪拜 - M247 Europe SRL - 1, server: 146.70.241.122, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTri0zMi2-h9OSU5xwA3e8GeoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇦🇪 阿联酋 001, server: 193.123.81.235, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: cn-tw-eq-01-03.bilivideo.com}}, udp: true}
@@ -393,6 +380,7 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 江苏省 移动, server: 36.150.215.246, port: 5156, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7, server: 39.100.81.215, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 4", server: 120.26.137.112, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
   - {name: 🇨🇴 哥伦比亚 - 波哥大 - Latitude.sh - 1, server: 103.219.169.75, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTqpT-FPCaPyP7cqIkwF1PDToXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
@@ -791,7 +779,7 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - CommuniLink - 9, server: 43.252.167.96, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTqz5Z8OXmA2lsEB7N7d-5BToXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Communilink Internet LTD - 10, server: 43.252.166.214, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTrdjVOD7jYyCbR0r32OFLjuoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 8, server: xctransfer1st.cokecloud.top, port: 21552, type: vmess, uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 116.49.237.130, port: 518, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.46.98, port: 443, type: trojan, password: BxceQaOe, udp: true}
   - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 116.49.237.130, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, udp: true}
   - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: 219.77.239.35, port: 443, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 103.243.26.209, port: 8080, type: vmess, uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [103.243.26.209]}}, udp: true}
@@ -805,6 +793,7 @@ proxies:
   - {name: 🇭🇰 香港(yfuye.com免费节点)_9, server: 210.16.183.120, port: 41047, type: ss, cipher: chacha20-ietf-poly1305, password: 014e90df-a3ee-4654-a9f6-d118e02dd02a, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港3, server: 221.128.195.13, port: 3841, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 219.76.135.188, port: 443, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港4, server: 203.198.122.97, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5, server: 58.152.53.186, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇷 克罗地亚 - 普拉 - Plus Hosting Grupa d.o.o. - 1, server: 178.218.162.114, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTp8ktpedD8_Dxqq0ZcaKTjSoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
@@ -868,7 +857,6 @@ proxies:
   - {name: 🇯🇵 Standard|广日|IEPL|06, server: bs4.jymzffbquawl.com, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Standard|广日|IEPL|07, server: bs4.jymzffbquawl.com, port: 4602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Standard|广日|IEPL|08, server: bs4.jymzffbquawl.com, port: 4603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
-  - {name: 🇯🇵 日本, server: 36.150.215.246, port: 5156, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 - 东京 - Artruby Pte. Ltd. - 4, server: 56ef355f-t5kkg0-tdhz1n-1m952.cm5.oshuawei.com, port: 27233, type: http, username: ae992e0c-b9ea-11f0-bf55-f23c913c8d2b, password: ae992e0c-b9ea-11f0-bf55-f23c913c8d2b, tls: true, udp: true}
   - {name: 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 1, server: 180.149.230.197, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTq4YTuDEfGQEWqTezooYilGxsnp5o63PElOVpFduiCmYA==, password: 1, tls: false, udp: true}
   - {name: 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 2, server: 103.108.230.50, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTrqr9iLPdcfEtZMtdnoiKy_oXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
@@ -999,7 +987,10 @@ proxies:
   - {name: 🇯🇵 日本 127, server: 103.231.75.129, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇯🇵 日本 128, server: 85.208.110.41, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇯🇵 日本2, server: 160.16.136.130, port: 1334, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 153.121.39.240, port: 1334, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本3, server: 160.16.136.130, port: 3169, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本3|@ripaojiedian, server: 160.16.89.176, port: 4095, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 36.150.215.246, port: 4011, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇰🇪 肯尼亚 - 奈洛比 - Host Africa (Pty) Ltd - 1, server: 102.68.86.97, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTqhSN8flFsVcf1yKCLuua-coXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇰🇭 柬埔寨 001, server: 111.92.240.243, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇰🇷 KR_speednode_0024, server: 152.70.92.69, port: 80, type: vmess, uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
@@ -1260,7 +1251,10 @@ proxies:
   - {name: 🇸🇬 新加坡 010, server: waifu.kurumi.biz.id, port: 80, type: vmess, uuid: 3393cc9e-7498-4942-9bc4-c6da73080fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: discord.com}}, udp: true}
   - {name: 🇸🇬 新加坡(yfuye.com免费节点), server: fl-3-direct.djarbnet.ru, port: 443, type: vless, uuid: cc67ca7f-064e-4117-ac31-a66d5728a11c, tls: true, servername: fl-3-direct.djarbnet.ru, network: ws, ws-opts: {path: /getupdates, headers: {Host: fl-3-direct.djarbnet.ru}}, udp: true}
   - {name: 🇸🇬 新加坡2, server: 160.16.138.24, port: 2173, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 160.16.106.144, port: 127, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡3, server: 36.150.215.147, port: 4666, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 116.49.237.130, port: 518, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 160.16.106.144, port: 2760, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇸🇮 斯洛文尼亚 001, server: 92.53.188.36, port: 443, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v4.hiddendom.shop, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇸🇮 斯洛文尼亚 002, server: 92.53.191.209, port: 8880, type: vmess, uuid: 6f96494c-bdaf-3091-bf7b-29cfe92882b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai, headers: {Host: TG.WangCai2.s4.db-link02.top}}, udp: true}
   - {name: 🇸🇰 斯洛伐克 - 布拉迪斯拉发 - FIBERGRID - 1, server: 165.231.211.122, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTpO5CdjFIdcTNyHI-aQ9ffVoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
@@ -1562,7 +1556,6 @@ proxies:
   - {name: 🇺🇸 美国 1076, server: 64.225.102.112, port: 443, type: vless, uuid: 650b32f1-95cb-454b-c94b-a50716684721, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇺🇸 美国 1077, server: 104.21.54.192, port: 8080, type: vless, uuid: 7b812fc6-3ce6-4af4-9140-2ec4f0bc7b2e, tls: true, servername: lc71.lebasnoo.ir., network: ws, ws-opts: {path: /servernett, headers: {Host: lc71.lebasnoo.ir.}}, udp: true}
   - {name: 🇺🇸 美国 1078, server: 172.67.204.84, port: 2096, type: vless, uuid: 98f0c223-cb75-4faa-859e-47110b1f052b, tls: true, servername: internet4everieone7.pages.dev, network: ws, ws-opts: {path: /Telegram, headers: {Host: internet4everieone7.pages.dev}}, udp: true}
-  - {name: 🇺🇸 美国 108, server: freeyx.cloudflare88.eu.org, port: 443, type: vless, uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06, tls: true, servername: 01.91md.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 01.91md.fun}}, udp: true}
   - {name: 🇺🇸 美国 1080, server: 192.200.160.193, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: ly.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ly.ylka.us.kg}}, udp: true}
   - {name: 🇺🇸 美国 1081, server: 198.62.62.227, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: da.ylks.xyz, network: ws, ws-opts: {path: /proxyip=proxyip.us.fxxk.dedyn.io, headers: {Host: da.ylks.xyz}}, udp: true}
   - {name: 🇺🇸 美国 1082, server: 198.62.62.81, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: cd.ylks.xyz, network: ws, ws-opts: {path: /blue, headers: {Host: cd.ylks.xyz}}, udp: true}
@@ -1958,6 +1951,9 @@ proxies:
   - {name: 🇺🇸 美国 466, server: 172.67.135.128, port: 443, type: vless, uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9, tls: true, servername: pPAl03.TirIKEk541.wOrKers.DEV, client-fingerprint: randomized, network: ws, ws-opts: {path: "/uB7NdItW3TTGn8xk?ed=2560", headers: {Host: pPAl03.TirIKEk541.wOrKers.DEV}}, udp: true}
   - {name: 🇺🇸 美国 467, server: 23.227.38.208, port: 2053, type: vless, uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9, tls: true, servername: Bpb-v.PAges.deV, network: ws, ws-opts: {path: /Telegram, headers: {Host: Bpb-v.PAges.deV}}, udp: true}
   - {name: 🇺🇸 美国 468, server: www.speedtest.net, port: 2083, type: vless, uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9, tls: true, servername: HaSTI.fReeAIrLAINes.COm, client-fingerprint: randomized, network: ws, ws-opts: {path: /telegram, headers: {Host: HaSTI.fReeAIrLAINes.COm}}, udp: true}
+  - {name: 🇺🇸 美国 469, server: 104.18.20.69, port: 443, type: vless, uuid: 8b0a592f-1fee-4da0-add6-f8e108611164, tls: true, servername: cdn-node-oss-93.paofu.de, client-fingerprint: chrome, network: ws, ws-opts: {path: /profile/telegram, headers: {Host: cdn-node-oss-93.paofu.de}}, udp: true}
+  - {name: 🇺🇸 美国 470, server: 69.84.182.108, port: 443, type: vless, uuid: 8b0a592f-1fee-4da0-add6-f8e108611164, tls: true, servername: cdn-node-oss-93.paofu.de, client-fingerprint: chrome, network: ws, ws-opts: {path: /profile/telegram, headers: {Host: cdn-node-oss-93.paofu.de}}, udp: true}
+  - {name: 🇺🇸 美国 471, server: 69.84.182.18, port: 443, type: vless, uuid: 8b0a592f-1fee-4da0-add6-f8e108611164, tls: true, servername: cdn-node-oss-93.paofu.de, client-fingerprint: chrome, network: ws, ws-opts: {path: /profile/telegram, headers: {Host: cdn-node-oss-93.paofu.de}}, udp: true}
   - {name: 🇺🇸 美国 472, server: 172.67.74.104, port: 443, type: vless, uuid: 8b63cf90-830c-4fd8-a911-9e84fd7a5898, tls: true, servername: s.s.google.com.b5r.ir., client-fingerprint: chrome, network: ws, ws-opts: {path: "/vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560", headers: {Host: s.s.google.com.b5r.ir.}}, udp: true}
   - {name: 🇺🇸 美国 474, server: 108.165.152.29, port: 2096, type: vless, uuid: 8d5911d9-f9f9-484f-8f67-5729ab5fd1af, tls: true, servername: saas.cfliu.filegear-sg.me, network: ws, ws-opts: {path: "/snippets?ip=tw.tp81.netlib.re:81", headers: {Host: saas.cfliu.filegear-sg.me}}, udp: true}
   - {name: 🇺🇸 美国 475, server: 54.36.112.160, port: 44283, type: vless, uuid: 8ffab54a-d2d4-4c8a-a745-d725103fbb57, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
@@ -2445,6 +2441,9 @@ proxies:
   - {name: 🇺🇸 美国(yudou123.top玉豆免费节点)_1, server: 185.81.28.95, port: 30503, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
   - {name: 🇺🇸 美国(yudou678.top玉豆免费节点)_1, server: 210.16.183.122, port: 41047, type: ss, cipher: chacha20-ietf-poly1305, password: 014e90df-a3ee-4654-a9f6-d118e02dd02a, udp: true}
   - {name: 🇺🇸 美国(yudou678.top玉豆免费节点)_2, server: 104.21.31.4, port: 8880, type: vless, uuid: 0a5ab719-2407-4398-b507-8437ef365023, tls: true, servername: underthegun.cfd., network: ws, ws-opts: {path: /FCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY, headers: {Host: underthegun.cfd.}}, udp: true}
+  - {name: 🇺🇸 美国2|@ripaojiedian, server: 117.172.176.25, port: 4054, type: trojan, password: e4e262d453466988575c397a30562337, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 116.49.237.130, port: 2173, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 160.16.223.205, port: 31409, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇺🇾 乌拉圭 - 蒙得维的亚 - Administracion Nacional de Telecomunicaciones - 1, server: 179.27.200.30, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTp1jQfF6xKAfd_7bi9I2sSAoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇻🇳 越南, server: 103.186.154.59, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 1, server: 103.186.155.115, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -2531,20 +2530,6 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
-      - 1
-      - 10
-      - 13
-      - 14
-      - 17
-      - 18
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
       - IPV6 001
       - IPV6 002
       - IPV6 003
@@ -2575,8 +2560,8 @@ proxy-groups:
       - ℹ️ 【机场推荐：https://a0a.xyz/】49
       - ℹ️ 【机场推荐：https://a0a.xyz/】51
       - ℹ️ 【机场推荐：https://a0a.xyz/】53
-      - ℹ️ 发布页https://down.nigx.cn/kelayun.github.io
-      - ℹ️ 官网https://kelayun.notepin.co
+      - ℹ️ 不要用谷歌浏览器访问
+      - ℹ️ 地址https://kelayun.notepin.co
       - ℹ️ 节点日期：11-12
       - 亚太地区 001
       - 亚太地区 002
@@ -2586,6 +2571,7 @@ proxy-groups:
       - 吉尔吉斯坦 - 比什凯克 - Optima Telecom Ltd. - 1
       - 安圭拉 001
       - 尼加拉瓜 - 馬納瓜 - Navegalo S.A. - 1
+      - 最低2元1000G流量
       - 科特迪瓦 - 亚穆苏克罗 - ST DIGITAL Datacenter services - 1
       - 🇦🇪 阿拉伯联合酋长国 - 迪拜 - M247 Europe SRL - 1
       - 🇦🇪 阿联酋 001
@@ -2908,6 +2894,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 江苏省 移动
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
       - 🇨🇴 哥伦比亚 - 波哥大 - Latitude.sh - 1
       - 🇨🇷 哥斯达黎加 002
@@ -3315,6 +3302,7 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇭🇷 克罗地亚 - 普拉 - Plus Hosting Grupa d.o.o. - 1
@@ -3376,7 +3364,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
-      - 🇯🇵 日本
       - 🇯🇵 日本 - 东京 - Artruby Pte. Ltd. - 4
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 1
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 2
@@ -3507,7 +3494,10 @@ proxy-groups:
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
       - 🇯🇵 日本2
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
       - 🇰🇪 肯尼亚 - 奈洛比 - Host Africa (Pty) Ltd - 1
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 KR_speednode_0024
@@ -3763,7 +3753,10 @@ proxy-groups:
       - 🇸🇬 新加坡 010
       - 🇸🇬 新加坡(yfuye.com免费节点)
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇸🇰 斯洛伐克 - 布拉迪斯拉发 - FIBERGRID - 1
@@ -4064,7 +4057,6 @@ proxy-groups:
       - 🇺🇸 美国 1076
       - 🇺🇸 美国 1077
       - 🇺🇸 美国 1078
-      - 🇺🇸 美国 108
       - 🇺🇸 美国 1080
       - 🇺🇸 美国 1081
       - 🇺🇸 美国 1082
@@ -4460,6 +4452,9 @@ proxy-groups:
       - 🇺🇸 美国 466
       - 🇺🇸 美国 467
       - 🇺🇸 美国 468
+      - 🇺🇸 美国 469
+      - 🇺🇸 美国 470
+      - 🇺🇸 美国 471
       - 🇺🇸 美国 472
       - 🇺🇸 美国 474
       - 🇺🇸 美国 475
@@ -4947,6 +4942,9 @@ proxy-groups:
       - 🇺🇸 美国(yudou123.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_2
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
       - 🇺🇾 乌拉圭 - 蒙得维的亚 - Administracion Nacional de Telecomunicaciones - 1
       - 🇻🇳 越南
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
@@ -5008,20 +5006,6 @@ proxy-groups:
   - name: 👆🏻 ‍指定
     type: select
     proxies:
-      - 1
-      - 10
-      - 13
-      - 14
-      - 17
-      - 18
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
       - IPV6 001
       - IPV6 002
       - IPV6 003
@@ -5052,8 +5036,8 @@ proxy-groups:
       - ℹ️ 【机场推荐：https://a0a.xyz/】49
       - ℹ️ 【机场推荐：https://a0a.xyz/】51
       - ℹ️ 【机场推荐：https://a0a.xyz/】53
-      - ℹ️ 发布页https://down.nigx.cn/kelayun.github.io
-      - ℹ️ 官网https://kelayun.notepin.co
+      - ℹ️ 不要用谷歌浏览器访问
+      - ℹ️ 地址https://kelayun.notepin.co
       - ℹ️ 节点日期：11-12
       - 亚太地区 001
       - 亚太地区 002
@@ -5063,6 +5047,7 @@ proxy-groups:
       - 吉尔吉斯坦 - 比什凯克 - Optima Telecom Ltd. - 1
       - 安圭拉 001
       - 尼加拉瓜 - 馬納瓜 - Navegalo S.A. - 1
+      - 最低2元1000G流量
       - 科特迪瓦 - 亚穆苏克罗 - ST DIGITAL Datacenter services - 1
       - 🇦🇪 阿拉伯联合酋长国 - 迪拜 - M247 Europe SRL - 1
       - 🇦🇪 阿联酋 001
@@ -5385,6 +5370,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 江苏省 移动
       - 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7
       - 🇨🇴 哥伦比亚 - 波哥大 - Latitude.sh - 1
       - 🇨🇷 哥斯达黎加 002
@@ -5792,6 +5778,7 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇭🇷 克罗地亚 - 普拉 - Plus Hosting Grupa d.o.o. - 1
@@ -5853,7 +5840,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
-      - 🇯🇵 日本
       - 🇯🇵 日本 - 东京 - Artruby Pte. Ltd. - 4
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 1
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 2
@@ -5984,7 +5970,10 @@ proxy-groups:
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
       - 🇯🇵 日本2
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
       - 🇰🇪 肯尼亚 - 奈洛比 - Host Africa (Pty) Ltd - 1
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 KR_speednode_0024
@@ -6240,7 +6229,10 @@ proxy-groups:
       - 🇸🇬 新加坡 010
       - 🇸🇬 新加坡(yfuye.com免费节点)
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇸🇰 斯洛伐克 - 布拉迪斯拉发 - FIBERGRID - 1
@@ -6541,7 +6533,6 @@ proxy-groups:
       - 🇺🇸 美国 1076
       - 🇺🇸 美国 1077
       - 🇺🇸 美国 1078
-      - 🇺🇸 美国 108
       - 🇺🇸 美国 1080
       - 🇺🇸 美国 1081
       - 🇺🇸 美国 1082
@@ -6937,6 +6928,9 @@ proxy-groups:
       - 🇺🇸 美国 466
       - 🇺🇸 美国 467
       - 🇺🇸 美国 468
+      - 🇺🇸 美国 469
+      - 🇺🇸 美国 470
+      - 🇺🇸 美国 471
       - 🇺🇸 美国 472
       - 🇺🇸 美国 474
       - 🇺🇸 美国 475
@@ -7424,6 +7418,9 @@ proxy-groups:
       - 🇺🇸 美国(yudou123.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_2
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
       - 🇺🇾 乌拉圭 - 蒙得维的亚 - Administracion Nacional de Telecomunicaciones - 1
       - 🇻🇳 越南
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
@@ -7594,6 +7591,7 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港5
   - name: 🇹🇼 ‍台湾
@@ -7772,6 +7770,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 江苏省 移动
       - 🇭🇰 HK_speednode_0023
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -7832,6 +7831,7 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
@@ -7871,7 +7871,10 @@ proxy-groups:
       - 🇸🇬 新加坡 010
       - 🇸🇬 新加坡(yfuye.com免费节点)
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: 🇯🇵 ‍日本
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -7890,7 +7893,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
-      - 🇯🇵 日本
       - 🇯🇵 日本 - 东京 - Artruby Pte. Ltd. - 4
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 1
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 2
@@ -8021,7 +8023,10 @@ proxy-groups:
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
       - 🇯🇵 日本2
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
   - name: 🇺🇸 ‍美国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -8243,7 +8248,6 @@ proxy-groups:
       - 🇺🇸 美国 1076
       - 🇺🇸 美国 1077
       - 🇺🇸 美国 1078
-      - 🇺🇸 美国 108
       - 🇺🇸 美国 1080
       - 🇺🇸 美国 1081
       - 🇺🇸 美国 1082
@@ -8639,6 +8643,9 @@ proxy-groups:
       - 🇺🇸 美国 466
       - 🇺🇸 美国 467
       - 🇺🇸 美国 468
+      - 🇺🇸 美国 469
+      - 🇺🇸 美国 470
+      - 🇺🇸 美国 471
       - 🇺🇸 美国 472
       - 🇺🇸 美国 474
       - 🇺🇸 美国 475
@@ -9126,26 +9133,15 @@ proxy-groups:
       - 🇺🇸 美国(yudou123.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_2
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: 🎏 ‍其他
     type: url-test
     url: https://i.ytimg.com/generate_204
     interval: 30
     tolerance: 100
     proxies:
-      - 1
-      - 10
-      - 13
-      - 14
-      - 17
-      - 18
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
       - IPV6 001
       - IPV6 002
       - IPV6 003
@@ -9176,8 +9172,8 @@ proxy-groups:
       - ℹ️ 【机场推荐：https://a0a.xyz/】49
       - ℹ️ 【机场推荐：https://a0a.xyz/】51
       - ℹ️ 【机场推荐：https://a0a.xyz/】53
-      - ℹ️ 发布页https://down.nigx.cn/kelayun.github.io
-      - ℹ️ 官网https://kelayun.notepin.co
+      - ℹ️ 不要用谷歌浏览器访问
+      - ℹ️ 地址https://kelayun.notepin.co
       - ℹ️ 节点日期：11-12
       - 亚太地区 001
       - 亚太地区 002
@@ -9187,6 +9183,7 @@ proxy-groups:
       - 吉尔吉斯坦 - 比什凯克 - Optima Telecom Ltd. - 1
       - 安圭拉 001
       - 尼加拉瓜 - 馬納瓜 - Navegalo S.A. - 1
+      - 最低2元1000G流量
       - 科特迪瓦 - 亚穆苏克罗 - ST DIGITAL Datacenter services - 1
       - 🇦🇪 阿拉伯联合酋长国 - 迪拜 - M247 Europe SRL - 1
       - 🇦🇪 阿联酋 001
@@ -10179,6 +10176,7 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港5
   - name: 👆🏻🇹🇼 ‍台湾
@@ -10351,6 +10349,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 江苏省 移动
       - 🇭🇰 HK_speednode_0023
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -10411,6 +10410,7 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
@@ -10447,7 +10447,10 @@ proxy-groups:
       - 🇸🇬 新加坡 010
       - 🇸🇬 新加坡(yfuye.com免费节点)
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
   - name: 👆🏻🇯🇵 ‍日本
     type: select
     proxies:
@@ -10463,7 +10466,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
-      - 🇯🇵 日本
       - 🇯🇵 日本 - 东京 - Artruby Pte. Ltd. - 4
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 1
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 2
@@ -10594,7 +10596,10 @@ proxy-groups:
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
       - 🇯🇵 日本2
+      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
+      - 🇯🇵 日本3|@ripaojiedian
+      - 🇯🇵 日本|@ripaojiedian
   - name: 👆🏻🇺🇸 ‍美国
     type: select
     proxies:
@@ -10813,7 +10818,6 @@ proxy-groups:
       - 🇺🇸 美国 1076
       - 🇺🇸 美国 1077
       - 🇺🇸 美国 1078
-      - 🇺🇸 美国 108
       - 🇺🇸 美国 1080
       - 🇺🇸 美国 1081
       - 🇺🇸 美国 1082
@@ -11209,6 +11213,9 @@ proxy-groups:
       - 🇺🇸 美国 466
       - 🇺🇸 美国 467
       - 🇺🇸 美国 468
+      - 🇺🇸 美国 469
+      - 🇺🇸 美国 470
+      - 🇺🇸 美国 471
       - 🇺🇸 美国 472
       - 🇺🇸 美国 474
       - 🇺🇸 美国 475
@@ -11696,23 +11703,12 @@ proxy-groups:
       - 🇺🇸 美国(yudou123.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_2
+      - 🇺🇸 美国2|@ripaojiedian
+      - 🇺🇸 美国3|@ripaojiedian
+      - 🇺🇸 美国|@ripaojiedian
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:
-      - 1
-      - 10
-      - 13
-      - 14
-      - 17
-      - 18
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
       - IPV6 001
       - IPV6 002
       - IPV6 003
@@ -11743,8 +11739,8 @@ proxy-groups:
       - ℹ️ 【机场推荐：https://a0a.xyz/】49
       - ℹ️ 【机场推荐：https://a0a.xyz/】51
       - ℹ️ 【机场推荐：https://a0a.xyz/】53
-      - ℹ️ 发布页https://down.nigx.cn/kelayun.github.io
-      - ℹ️ 官网https://kelayun.notepin.co
+      - ℹ️ 不要用谷歌浏览器访问
+      - ℹ️ 地址https://kelayun.notepin.co
       - ℹ️ 节点日期：11-12
       - 亚太地区 001
       - 亚太地区 002
@@ -11754,6 +11750,7 @@ proxy-groups:
       - 吉尔吉斯坦 - 比什凯克 - Optima Telecom Ltd. - 1
       - 安圭拉 001
       - 尼加拉瓜 - 馬納瓜 - Navegalo S.A. - 1
+      - 最低2元1000G流量
       - 科特迪瓦 - 亚穆苏克罗 - ST DIGITAL Datacenter services - 1
       - 🇦🇪 阿拉伯联合酋长国 - 迪拜 - M247 Europe SRL - 1
       - 🇦🇪 阿联酋 001

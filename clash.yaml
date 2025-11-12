@@ -393,7 +393,7 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 江苏省 移动, server: 36.150.215.246, port: 5156, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 江苏省 移动, server: 36.150.215.147, port: 4666, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇨🇴 中国 - 北京 - Hangzhou Alibaba Advertising Co - 7, server: 39.100.81.215, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇨🇴 中国 - 杭州 - Hangzhou Alibaba Advertising Co., Ltd. - 4", server: 120.26.137.112, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
   - {name: 🇨🇴 哥伦比亚 - 波哥大 - Latitude.sh - 1, server: 103.219.169.75, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTqpT-FPCaPyP7cqIkwF1PDToXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
@@ -792,8 +792,7 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - CommuniLink - 9, server: 43.252.167.96, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTqz5Z8OXmA2lsEB7N7d-5BToXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Communilink Internet LTD - 10, server: 43.252.166.214, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTrdjVOD7jYyCbR0r32OFLjuoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 8, server: xctransfer1st.cokecloud.top, port: 21552, type: vmess, uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 116.49.237.130, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: 116.49.237.130, port: 2173, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 219.77.239.35, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 103.243.26.209, port: 8080, type: vmess, uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [103.243.26.209]}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_10, server: 94.232.247.117, port: 8880, type: vless, uuid: 15d114ee-c814-47c7-bd12-fab0c7a0128e, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_2, server: store.ubi.com, port: 2096, type: vless, uuid: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91, tls: true, servername: cm2-bpg.ggff.net, network: ws, ws-opts: {path: /proxyip=tw.ttzxw.cf:443, headers: {Host: cm2-bpg.ggff.net}}, udp: true}
@@ -868,6 +867,7 @@ proxies:
   - {name: 🇯🇵 Standard|广日|IEPL|06, server: bs4.jymzffbquawl.com, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Standard|广日|IEPL|07, server: bs4.jymzffbquawl.com, port: 4602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Standard|广日|IEPL|08, server: bs4.jymzffbquawl.com, port: 4603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本, server: 36.150.215.246, port: 5156, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 - 东京 - Artruby Pte. Ltd. - 4, server: 56ef355f-t5kkg0-tdhz1n-1m952.cm5.oshuawei.com, port: 27233, type: http, username: ae992e0c-b9ea-11f0-bf55-f23c913c8d2b, password: ae992e0c-b9ea-11f0-bf55-f23c913c8d2b, tls: true, udp: true}
   - {name: 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 1, server: 180.149.230.197, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTq4YTuDEfGQEWqTezooYilGxsnp5o63PElOVpFduiCmYA==, password: 1, tls: false, udp: true}
   - {name: 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 2, server: 103.108.230.50, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTrqr9iLPdcfEtZMtdnoiKy_oXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
@@ -1259,7 +1259,6 @@ proxies:
   - {name: 🇸🇬 新加坡 010, server: waifu.kurumi.biz.id, port: 80, type: vmess, uuid: 3393cc9e-7498-4942-9bc4-c6da73080fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: discord.com}}, udp: true}
   - {name: 🇸🇬 新加坡(yfuye.com免费节点), server: fl-3-direct.djarbnet.ru, port: 443, type: vless, uuid: cc67ca7f-064e-4117-ac31-a66d5728a11c, tls: true, servername: fl-3-direct.djarbnet.ru, network: ws, ws-opts: {path: /getupdates, headers: {Host: fl-3-direct.djarbnet.ru}}, udp: true}
   - {name: 🇸🇬 新加坡2, server: 160.16.138.24, port: 2173, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡3, server: 36.150.215.147, port: 4666, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇸🇮 斯洛文尼亚 001, server: 92.53.188.36, port: 443, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, servername: pqh23v4.hiddendom.shop, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇸🇮 斯洛文尼亚 002, server: 92.53.191.209, port: 8880, type: vmess, uuid: 6f96494c-bdaf-3091-bf7b-29cfe92882b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai, headers: {Host: TG.WangCai2.s4.db-link02.top}}, udp: true}
   - {name: 🇸🇰 斯洛伐克 - 布拉迪斯拉发 - FIBERGRID - 1, server: 165.231.211.122, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTpO5CdjFIdcTNyHI-aQ9ffVoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
@@ -2444,6 +2443,7 @@ proxies:
   - {name: 🇺🇸 美国(yudou123.top玉豆免费节点)_1, server: 185.81.28.95, port: 30503, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
   - {name: 🇺🇸 美国(yudou678.top玉豆免费节点)_1, server: 210.16.183.122, port: 41047, type: ss, cipher: chacha20-ietf-poly1305, password: 014e90df-a3ee-4654-a9f6-d118e02dd02a, udp: true}
   - {name: 🇺🇸 美国(yudou678.top玉豆免费节点)_2, server: 104.21.31.4, port: 8880, type: vless, uuid: 0a5ab719-2407-4398-b507-8437ef365023, tls: true, servername: underthegun.cfd., network: ws, ws-opts: {path: /FCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY, headers: {Host: underthegun.cfd.}}, udp: true}
+  - {name: 🇺🇸 美国3, server: 116.49.237.130, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇾 乌拉圭 - 蒙得维的亚 - Administracion Nacional de Telecomunicaciones - 1, server: 179.27.200.30, port: 8081, type: http, username: afY491o7YfK00koaXQD9kReFoHqAPTeCpebFFWf-TTp1jQfF6xKAfd_7bi9I2sSAoXw609MC0WdYefYZbCn32A==, password: 1, tls: false, udp: true}
   - {name: 🇻🇳 越南, server: 103.186.154.59, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 1, server: 103.186.155.115, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -3302,7 +3302,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Communilink Internet LTD - 10
       - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 8
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
@@ -3375,6 +3374,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
+      - 🇯🇵 日本
       - 🇯🇵 日本 - 东京 - Artruby Pte. Ltd. - 4
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 1
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 2
@@ -3761,7 +3761,6 @@ proxy-groups:
       - 🇸🇬 新加坡 010
       - 🇸🇬 新加坡(yfuye.com免费节点)
       - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇸🇰 斯洛伐克 - 布拉迪斯拉发 - FIBERGRID - 1
@@ -4945,6 +4944,7 @@ proxy-groups:
       - 🇺🇸 美国(yudou123.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_2
+      - 🇺🇸 美国3
       - 🇺🇾 乌拉圭 - 蒙得维的亚 - Administracion Nacional de Telecomunicaciones - 1
       - 🇻🇳 越南
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
@@ -5778,7 +5778,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Communilink Internet LTD - 10
       - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 8
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
@@ -5851,6 +5850,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
+      - 🇯🇵 日本
       - 🇯🇵 日本 - 东京 - Artruby Pte. Ltd. - 4
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 1
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 2
@@ -6237,7 +6237,6 @@ proxy-groups:
       - 🇸🇬 新加坡 010
       - 🇸🇬 新加坡(yfuye.com免费节点)
       - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇸🇰 斯洛伐克 - 布拉迪斯拉发 - FIBERGRID - 1
@@ -7421,6 +7420,7 @@ proxy-groups:
       - 🇺🇸 美国(yudou123.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_2
+      - 🇺🇸 美国3
       - 🇺🇾 乌拉圭 - 蒙得维的亚 - Administracion Nacional de Telecomunicaciones - 1
       - 🇻🇳 越南
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
@@ -7578,7 +7578,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Communilink Internet LTD - 10
       - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 8
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
@@ -7816,7 +7815,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Communilink Internet LTD - 10
       - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 8
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
@@ -7867,7 +7865,6 @@ proxy-groups:
       - 🇸🇬 新加坡 010
       - 🇸🇬 新加坡(yfuye.com免费节点)
       - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
   - name: 🇯🇵 ‍日本
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -7886,6 +7883,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
+      - 🇯🇵 日本
       - 🇯🇵 日本 - 东京 - Artruby Pte. Ltd. - 4
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 1
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 2
@@ -9121,6 +9119,7 @@ proxy-groups:
       - 🇺🇸 美国(yudou123.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_2
+      - 🇺🇸 美国3
   - name: 🎏 ‍其他
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -10161,7 +10160,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Communilink Internet LTD - 10
       - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 8
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
@@ -10393,7 +10391,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Communilink Internet LTD - 10
       - 🇭🇰 中国 - 香港 - Eons Data Communications Limited - 8
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
@@ -10441,7 +10438,6 @@ proxy-groups:
       - 🇸🇬 新加坡 010
       - 🇸🇬 新加坡(yfuye.com免费节点)
       - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
   - name: 👆🏻🇯🇵 ‍日本
     type: select
     proxies:
@@ -10457,6 +10453,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|06
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
+      - 🇯🇵 日本
       - 🇯🇵 日本 - 东京 - Artruby Pte. Ltd. - 4
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 1
       - 🇯🇵 日本 - 东京 - Host Universal Pty Ltd - 2
@@ -11689,6 +11686,7 @@ proxy-groups:
       - 🇺🇸 美国(yudou123.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_1
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_2
+      - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:

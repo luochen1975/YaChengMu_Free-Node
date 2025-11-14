@@ -743,7 +743,6 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - GTT Americas - 12, server: onecat-us.03ezhg0qsa.download, port: 25024, type: vmess, uuid: 69749298-6821-3358-b6d3-1d18d8642cba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - High Family Technology Co - 11, server: onecat-jp.03ezhg0qsa.download, port: 25007, type: vmess, uuid: 69749298-6821-3358-b6d3-1d18d8642cba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 13, server: 43.252.229.243, port: 3000, type: http, username: wanghui1, password: wanghui1, tls: false, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.46.98, port: 443, type: trojan, password: BxceQaOe, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_10, server: 94.232.247.117, port: 8880, type: vless, uuid: 15d114ee-c814-47c7-bd12-fab0c7a0128e, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_2, server: store.ubi.com, port: 2096, type: vless, uuid: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91, tls: true, servername: cm2-bpg.ggff.net, network: ws, ws-opts: {path: /proxyip=tw.ttzxw.cf:443, headers: {Host: cm2-bpg.ggff.net}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_3, server: 62.113.200.175, port: 44749, type: vmess, uuid: ba1d9a12-7fb5-495e-a547-c87264db41ea, alterId: 0, cipher: auto, tls: false, udp: true}
@@ -783,6 +782,7 @@ proxies:
   - {name: 🇮🇷 伊朗 052, server: hetz-vm1.serjio.sbs, port: 8080, type: vmess, uuid: 166b8dda-9126-4ecc-8d22-6b5ba2df9c1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 054, server: 46.62.199.20, port: 1414, type: vmess, uuid: 3550a751-0da4-49b2-8c7c-8ed00e616ff7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 055, server: 91.98.193.193, port: 8080, type: vmess, uuid: 3ead03ea-0bc8-4a91-bb55-b2a8751f4a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 151.242.165.233, port: 3443, type: trojan, password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f, sni: origin-a.akamaihd.net, udp: true}
   - {name: 🇮🇹 IT_speednode_0031, server: 94.177.199.119, port: 8443, type: trojan, password: d5a49621-b25c-4684-aea8-8389f3a8afaf, sni: joss.dus.biz.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/94.177.199.119=8443, headers: {Host: joss.dus.biz.id}}, udp: true}
   - {name: 🇮🇹 意大利 - 罗马市 - WorkTitans B.V. - 1, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇹 意大利 001, server: 151.101.242.172, port: 80, type: vless, uuid: 62915088-0f71-4592-bf82-3f02d4db1239, tls: true, servername: Germany.ss.ss, network: ws, ws-opts: {path: "WEDBAZ?ed=2048", headers: {Host: Germany.ss.ss}}, udp: true}
@@ -1149,6 +1149,7 @@ proxies:
   - {name: 🇸🇪 瑞典 009, server: 185.146.173.39, port: 2052, type: vless, uuid: b61ad0a9-dfe2-4cb1-85a1-b58003010d17, tls: true, servername: SMTP.lemoex.ir, network: ws, ws-opts: {path: /google, headers: {Host: SMTP.lemoex.ir}}, udp: true}
   - {name: 🇸🇪 瑞典 010, server: 185.146.173.25, port: 80, type: vmess, uuid: e3cb5c38-1168-46ad-aec4-62ffd3614690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.safari-df.ir.}}, udp: true}
   - {name: 🇸🇪 瑞典 011, server: 185.146.173.158, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
+  - {name: 🇸🇪 瑞典 V2CROSS.COM, server: 185.146.173.126, port: 80, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)", headers: {Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.}}, udp: true}
   - {name: "🇸🇬 SG #1", server: gzdata1.233netpro.com, port: 10131, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|01, server: bs3.jymzffbquawl.com, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|02, server: bs3.jymzffbquawl.com, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -3095,7 +3096,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - GTT Americas - 12
       - 🇭🇰 中国 - 香港 - High Family Technology Co - 11
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 13
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -3135,6 +3135,7 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇹 IT_speednode_0031
       - 🇮🇹 意大利 - 罗马市 - WorkTitans B.V. - 1
       - 🇮🇹 意大利 001
@@ -3499,6 +3500,7 @@ proxy-groups:
       - 🇸🇪 瑞典 009
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
+      - 🇸🇪 瑞典 V2CROSS.COM
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
       - 🇸🇬 Standard|广新|IEPL|03
@@ -5418,7 +5420,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - GTT Americas - 12
       - 🇭🇰 中国 - 香港 - High Family Technology Co - 11
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 13
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -5458,6 +5459,7 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇹 IT_speednode_0031
       - 🇮🇹 意大利 - 罗马市 - WorkTitans B.V. - 1
       - 🇮🇹 意大利 001
@@ -5822,6 +5824,7 @@ proxy-groups:
       - 🇸🇪 瑞典 009
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
+      - 🇸🇪 瑞典 V2CROSS.COM
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
       - 🇸🇬 Standard|广新|IEPL|03
@@ -7118,7 +7121,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - GTT Americas - 12
       - 🇭🇰 中国 - 香港 - High Family Technology Co - 11
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 13
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -7351,7 +7353,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - GTT Americas - 12
       - 🇭🇰 中国 - 香港 - High Family Technology Co - 11
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 13
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -9204,6 +9205,7 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇹 IT_speednode_0031
       - 🇮🇹 意大利 - 罗马市 - WorkTitans B.V. - 1
       - 🇮🇹 意大利 001
@@ -9422,6 +9424,7 @@ proxy-groups:
       - 🇸🇪 瑞典 009
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
+      - 🇸🇪 瑞典 V2CROSS.COM
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇹🇷 土耳其 001
@@ -9548,7 +9551,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - GTT Americas - 12
       - 🇭🇰 中国 - 香港 - High Family Technology Co - 11
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 13
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -9775,7 +9777,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - GTT Americas - 12
       - 🇭🇰 中国 - 香港 - High Family Technology Co - 11
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 13
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -11616,6 +11617,7 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇹 IT_speednode_0031
       - 🇮🇹 意大利 - 罗马市 - WorkTitans B.V. - 1
       - 🇮🇹 意大利 001
@@ -11834,6 +11836,7 @@ proxy-groups:
       - 🇸🇪 瑞典 009
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
+      - 🇸🇪 瑞典 V2CROSS.COM
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇹🇷 土耳其 001

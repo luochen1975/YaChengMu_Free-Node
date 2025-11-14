@@ -69,6 +69,7 @@ proxies:
   - {name: 亚太地区 003, server: 103.115.109.250, port: 40762, type: vmess, uuid: 35ce6e3a-4ddc-472c-9e9f-a34362c194e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 亚太地区 004, server: 103.159.207.84, port: 50832, type: vmess, uuid: c31c40eb-95fc-4937-ba45-7a21e8f5da32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 亚太地区 005, server: 103.169.142.53, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: abcd.freewarp.eu.org, network: ws, ws-opts: {path: /snippets, headers: {Host: abcd.freewarp.eu.org}}, udp: true}
+  - {name: 亚太地区 V2CROSS.COM, server: onecat-jp.03ezhg0qsa.download, port: 25007, type: vmess, uuid: 69749298-6821-3358-b6d3-1d18d8642cba, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 安圭拉 001, server: 209.94.90.87, port: 2087, type: vless, uuid: 8d5911d9-f9f9-484f-8f67-5729ab5fd1af, tls: true, servername: saas.cfliu.filegear-sg.me, client-fingerprint: chrome, network: ws, ws-opts: {path: "/snippets?ip=tw.tp81.netlib.re:81&nat64=6to4", headers: {Host: saas.cfliu.filegear-sg.me}}, udp: true}
   - {name: 提供ios小火箭共享账号, server: ct.877774.xyz, port: 443, type: vless, uuid: 3a77584f-1e3b-4c3e-ad27-c17e2f603eb3, tls: true, servername: do-tor1.064288.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/announcement?ed=2048", headers: {Host: do-tor1.064288.xyz}}, udp: true}
   - {name: 最低2元1000G流量, server: www.visa.com.hk, port: 443, type: vless, uuid: 3a77584f-1e3b-4c3e-ad27-c17e2f603eb3, tls: true, servername: do-sfo3.064288.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/announcement?ed=2048", headers: {Host: do-sfo3.064288.xyz}}, udp: true}
@@ -716,9 +717,7 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 8, server: 103.149.182.86, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 9, server: 103.149.183.80, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 中国 - 香港 - GTT Americas - 12, server: onecat-us.03ezhg0qsa.download, port: 25024, type: vmess, uuid: 69749298-6821-3358-b6d3-1d18d8642cba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 中国 - 香港 - High Family Technology Co - 11, server: onecat-jp.03ezhg0qsa.download, port: 25007, type: vmess, uuid: 69749298-6821-3358-b6d3-1d18d8642cba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 13, server: 43.252.229.243, port: 3000, type: http, username: wanghui1, password: wanghui1, tls: false, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.46.98, port: 443, type: trojan, password: BxceQaOe, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 103.243.26.209, port: 8080, type: vmess, uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [103.243.26.209]}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_10, server: 94.232.247.117, port: 8880, type: vless, uuid: 15d114ee-c814-47c7-bd12-fab0c7a0128e, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_2, server: store.ubi.com, port: 2096, type: vless, uuid: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91, tls: true, servername: cm2-bpg.ggff.net, network: ws, ws-opts: {path: /proxyip=tw.ttzxw.cf:443, headers: {Host: cm2-bpg.ggff.net}}, udp: true}
@@ -2414,6 +2413,7 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
+      - 亚太地区 V2CROSS.COM
       - 安圭拉 001
       - 提供ios小火箭共享账号
       - 最低2元1000G流量
@@ -3054,9 +3054,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 8
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 9
       - 🇭🇰 中国 - 香港 - GTT Americas - 12
-      - 🇭🇰 中国 - 香港 - High Family Technology Co - 11
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 13
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
@@ -4722,6 +4720,7 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
+      - 亚太地区 V2CROSS.COM
       - 安圭拉 001
       - 提供ios小火箭共享账号
       - 最低2元1000G流量
@@ -5362,9 +5361,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 8
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 9
       - 🇭🇰 中国 - 香港 - GTT Americas - 12
-      - 🇭🇰 中国 - 香港 - High Family Technology Co - 11
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 13
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
@@ -7073,9 +7070,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 8
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 9
       - 🇭🇰 中国 - 香港 - GTT Americas - 12
-      - 🇭🇰 中国 - 香港 - High Family Technology Co - 11
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 13
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
@@ -7311,9 +7306,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 8
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 9
       - 🇭🇰 中国 - 香港 - GTT Americas - 12
-      - 🇭🇰 中国 - 香港 - High Family Technology Co - 11
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 13
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
@@ -8676,6 +8669,7 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
+      - 亚太地区 V2CROSS.COM
       - 安圭拉 001
       - 提供ios小火箭共享账号
       - 最低2元1000G流量
@@ -9492,9 +9486,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 8
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 9
       - 🇭🇰 中国 - 香港 - GTT Americas - 12
-      - 🇭🇰 中国 - 香港 - High Family Technology Co - 11
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 13
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
@@ -9724,9 +9716,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 8
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 9
       - 🇭🇰 中国 - 香港 - GTT Americas - 12
-      - 🇭🇰 中国 - 香港 - High Family Technology Co - 11
       - 🇭🇰 中国 - 香港 - HongKong Virtual Internal Server Company Limited - 13
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_2
@@ -11077,6 +11067,7 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
+      - 亚太地区 V2CROSS.COM
       - 安圭拉 001
       - 提供ios小火箭共享账号
       - 最低2元1000G流量

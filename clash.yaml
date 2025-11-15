@@ -655,6 +655,7 @@ proxies:
   - {name: 🇬🇧 英国 032, server: 164.38.155.61, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, client-fingerprint: chrome, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
   - {name: 🇬🇧 英国 033, server: 77.75.199.61, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, client-fingerprint: chrome, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
   - {name: 🇬🇧 英国 035, server: 185.221.219.229, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: 185.221.219.229}}, udp: true}
+  - {name: 🇬🇧 英国 社会保险安全部, server: 51.45.34.73, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点)_1, server: 47.245.106.193, port: 22433, type: vmess, uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点)_2, server: 85.211.183.143, port: 16645, type: vmess, uuid: f403a60d-6d30-4aab-a434-d75d57d8dfee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: edc8fe4abf94092fe66cfcb00f8c45a1.mobgslb.tbcache.com}}, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点)_4, server: 85.211.183.143, port: 16616, type: vmess, uuid: f403a60d-6d30-4aab-a434-d75d57d8dfee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: edc8fe4abf94092fe66cfcb00f8c45a1.mobgslb.tbcache.com}}, udp: true}
@@ -705,15 +706,12 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|19, server: bs2.jymzffbquawl.com, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Strong Worth Holdings Limited - 2, server: 103.141.221.88, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.110.20, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 112.120.34.55, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: 219.77.239.35, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 4, server: 203.198.122.129, port: 443, type: trojan, password: BxceQaOe, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 103.243.26.209, port: 8080, type: vmess, uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [103.243.26.209]}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_2, server: 43.247.134.213, port: 59516, type: vmess, uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.247.134.213]}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_4, server: onecat-jp.03ezhg0qsa.download, port: 25008, type: vmess, uuid: 69749298-6821-3358-b6d3-1d18d8642cba, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_5, server: onecat-us.03ezhg0qsa.download, port: 25024, type: vmess, uuid: 69749298-6821-3358-b6d3-1d18d8642cba, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
+  - {name: 🇭🇰 香港5, server: 219.77.239.35, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港6, server: 103.149.182.158, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇮🇪 爱尔兰 001, server: 52.215.68.89, port: 22222, type: vless, uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e, tls: true, servername: telegram-channel-vlessconfig.sohala.uk, network: ws, ws-opts: {path: /telegram-channel-vlessconfig-ws, headers: {Host: telegram-channel-vlessconfig.sohala.uk}}, udp: true}
   - {name: 🇮🇱 IL_speednode_0020, server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz, port: 443, type: vless, uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE, short-id: "55e6af1a35e64a98" }, servername: i2pd.website, client-fingerprint: chrome, network: tcp, udp: true}
@@ -2291,6 +2289,7 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
+  - {name: 🇺🇸 美国 Amazon数据中心, server: 13.36.161.224, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 209.46.30.61, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: 47.245.106.193, port: 22286, type: vmess, uuid: 8646218f-a600-4b73-8721-aa5d4567819e, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.245.106.193]}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_13, server: 111.47.247.156, port: 16616, type: vmess, uuid: ea78b45f-1035-40f8-9ae8-16969104909b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 553821dd541a976f361d788981194ffe.mobgslb.tbcache.com}}, udp: true}
@@ -3018,6 +3017,7 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
+      - 🇬🇧 英国 社会保险安全部
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_2
       - 🇬🇧 英国(yfuye.com免费节点)_4
@@ -3064,15 +3064,12 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Strong Worth Holdings Limited - 2
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - 🇭🇰 香港 电讯盈科有限公司 4
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_4
       - 🇭🇰 香港(yfuye.com免费节点)_5
       - 🇭🇰 香港2
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 IL_speednode_0020
@@ -4646,6 +4643,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 Amazon数据中心
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_13
@@ -5348,6 +5346,7 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
+      - 🇬🇧 英国 社会保险安全部
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_2
       - 🇬🇧 英国(yfuye.com免费节点)_4
@@ -5394,15 +5393,12 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Strong Worth Holdings Limited - 2
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - 🇭🇰 香港 电讯盈科有限公司 4
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_4
       - 🇭🇰 香港(yfuye.com免费节点)_5
       - 🇭🇰 香港2
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 IL_speednode_0020
@@ -6976,6 +6972,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 Amazon数据中心
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_13
@@ -7132,15 +7129,12 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Strong Worth Holdings Limited - 2
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - 🇭🇰 香港 电讯盈科有限公司 4
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_4
       - 🇭🇰 香港(yfuye.com免费节点)_5
       - 🇭🇰 香港2
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
   - name: 🇹🇼 ‍台湾
     type: url-test
@@ -7354,15 +7348,12 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Strong Worth Holdings Limited - 2
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - 🇭🇰 香港 电讯盈科有限公司 4
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_4
       - 🇭🇰 香港(yfuye.com免费节点)_5
       - 🇭🇰 香港2
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -8628,6 +8619,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 Amazon数据中心
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_13
@@ -9145,6 +9137,7 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
+      - 🇬🇧 英国 社会保险安全部
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_2
       - 🇬🇧 英国(yfuye.com免费节点)_4
@@ -9560,15 +9553,12 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Strong Worth Holdings Limited - 2
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - 🇭🇰 香港 电讯盈科有限公司 4
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_4
       - 🇭🇰 香港(yfuye.com免费节点)_5
       - 🇭🇰 香港2
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
@@ -9776,15 +9766,12 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Strong Worth Holdings Limited - 2
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇭🇰 香港 电讯盈科有限公司 3
-      - 🇭🇰 香港 电讯盈科有限公司 4
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_4
       - 🇭🇰 香港(yfuye.com免费节点)_5
       - 🇭🇰 香港2
+      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -11041,6 +11028,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 Amazon数据中心
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_13
@@ -11555,6 +11543,7 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
+      - 🇬🇧 英国 社会保险安全部
       - 🇬🇧 英国(yfuye.com免费节点)_1
       - 🇬🇧 英国(yfuye.com免费节点)_2
       - 🇬🇧 英国(yfuye.com免费节点)_4

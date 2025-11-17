@@ -354,6 +354,7 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 安徽省芜湖市 电信, server: 114.98.183.61, port: 47083, type: vmess, uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 003, server: 190.93.246.246, port: 8443, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: true, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: bitget1.asdasd.click}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 004, server: 190.93.246.220, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lg.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lg.kpcloud.eu.org}}, udp: true}
@@ -704,13 +705,13 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|19, server: bs2.jymzffbquawl.com, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 2, server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 219.79.165.55, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_2, server: 43.247.134.213, port: 59516, type: vmess, uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.247.134.213]}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_3, server: onecat-jp.03ezhg0qsa.download, port: 25007, type: vmess, uuid: 69749298-6821-3358-b6d3-1d18d8642cba, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_4, server: onecat-jp.03ezhg0qsa.download, port: 25008, type: vmess, uuid: 69749298-6821-3358-b6d3-1d18d8642cba, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_5, server: onecat-us.03ezhg0qsa.download, port: 25024, type: vmess, uuid: 69749298-6821-3358-b6d3-1d18d8642cba, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港3, server: 58.152.110.216, port: 443, type: trojan, password: 2274c52572e721086f8bd8f88984643c, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港5, server: 219.79.165.55, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇮🇪 爱尔兰 001, server: 52.215.68.89, port: 22222, type: vless, uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e, tls: true, servername: telegram-channel-vlessconfig.sohala.uk, network: ws, ws-opts: {path: /telegram-channel-vlessconfig-ws, headers: {Host: telegram-channel-vlessconfig.sohala.uk}}, udp: true}
   - {name: 🇮🇱 以色列 001, server: 185.47.172.105, port: 2083, type: vless, uuid: 354712c4-dab3-452c-89fd-0a2edd6999f9, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇮🇳 印度(yfuye.com免费节点), server: 103.53.81.119, port: 59951, type: vless, uuid: aa7f42cc-616f-4550-9a87-4b85bb409121, tls: true, servername: vless3.datatestvless.click, network: ws, ws-opts: {path: "/?ed=2560&Telegram@freecodes", headers: {Host: vless3.datatestvless.click}}, udp: true}
@@ -739,6 +740,8 @@ proxies:
   - {name: 🇮🇷 伊朗 052, server: hetz-vm1.serjio.sbs, port: 8080, type: vmess, uuid: 166b8dda-9126-4ecc-8d22-6b5ba2df9c1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 054, server: 46.62.199.20, port: 1414, type: vmess, uuid: 3550a751-0da4-49b2-8c7c-8ed00e616ff7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 055, server: 91.98.193.193, port: 8080, type: vmess, uuid: 3ead03ea-0bc8-4a91-bb55-b2a8751f4a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 151.242.165.233, port: 3443, type: trojan, password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f, sni: origin-a.akamaihd.net, udp: true}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM 2, server: 151.242.164.127, port: 3443, type: trojan, password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f, udp: true}
   - {name: 🇮🇹 意大利 001, server: 151.101.242.172, port: 80, type: vless, uuid: 62915088-0f71-4592-bf82-3f02d4db1239, tls: true, servername: Germany.ss.ss, network: ws, ws-opts: {path: "WEDBAZ?ed=2048", headers: {Host: Germany.ss.ss}}, udp: true}
   - {name: 🇮🇹 意大利 002, server: 31.14.135.127, port: 7035, type: vless, uuid: 7d27c544-135d-41a2-bd84-713b8af4f3c2, tls: true, servername: filimo.com, network: ws, ws-opts: {path: /, headers: {Host: filimo.com}}, udp: true}
   - {name: 🇮🇹 意大利 003, server: pizaitaliano.gojustore.site, port: 7035, type: vless, uuid: e265fc78-e269-46b2-9b6a-85f573dab3d5, tls: true, servername: filimo.com, network: ws, ws-opts: {path: /, headers: {Host: filimo.com}}, udp: true}
@@ -881,10 +884,10 @@ proxies:
   - {name: 🇯🇵 日本 126, server: tls.07.node-for-bigairport.win, port: 22211, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}, udp: true}
   - {name: 🇯🇵 日本 127, server: 103.231.75.129, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇯🇵 日本 128, server: 85.208.110.41, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
+  - {name: 🇯🇵 日本 东京SAKURA数据中心, server: 153.121.53.187, port: 2145, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, udp: true}
   - {name: 🇯🇵 日本2, server: 153.121.65.107, port: 3169, type: trojan, password: 2274c52572e721086f8bd8f88984643c, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本3, server: 160.16.63.16, port: 3169, type: trojan, password: 2274c52572e721086f8bd8f88984643c, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本4, server: 3.112.229.1, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)9d3f6ec:160648}, udp: true}
-  - {name: 🇯🇵 日本4|@ripaojiedian 2, server: 114.98.183.61, port: 47083, type: vmess, uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇰🇭 柬埔寨 001, server: 111.92.240.243, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇰🇷 _KR_韩国, server: 221.139.79.57, port: 37008, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 🇰🇷 韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 1, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1106,8 +1109,6 @@ proxies:
   - {name: 🇸🇪 瑞典 010, server: 185.146.173.25, port: 80, type: vmess, uuid: e3cb5c38-1168-46ad-aec4-62ffd3614690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.safari-df.ir.}}, udp: true}
   - {name: 🇸🇪 瑞典 011, server: 185.146.173.158, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 🇸🇪 瑞典 012, server: dir.lightnright.com, port: 8883, type: vless, uuid: 88e35bbb-8cd2-c309-a1e9-551fb1c17a7f, tls: true, servername: jnir-x.pichondan.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇸🇪 瑞典 V2CROSS.COM 2, server: dir.lightnright.com, port: 5228, type: vmess, uuid: 6202ab997f570a6a180ae980b41f5789, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇪 瑞典 V2CROSS.COM 3, server: dd.openaccessnode.com, port: 5228, type: vmess, uuid: 6202ab99-7f57-0a6a-180a-e980b41f5789, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: "🇸🇬 SG #1", server: gzdata1.233netpro.com, port: 10131, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|01, server: bs3.jymzffbquawl.com, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|02, server: bs3.jymzffbquawl.com, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -2708,6 +2709,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 安徽省芜湖市 电信
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -3051,13 +3053,13 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 2
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_4
       - 🇭🇰 香港(yfuye.com免费节点)_5
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港5
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 001
       - 🇮🇳 印度(yfuye.com免费节点)
@@ -3086,6 +3088,8 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇮🇷 伊朗 V2CROSS.COM 2
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003
@@ -3227,10 +3231,10 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
+      - 🇯🇵 日本 东京SAKURA数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇯🇵 日本4
-      - 🇯🇵 日本4|@ripaojiedian 2
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 _KR_韩国
       - 🇰🇷 韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 1
@@ -3451,8 +3455,6 @@ proxy-groups:
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
       - 🇸🇪 瑞典 012
-      - 🇸🇪 瑞典 V2CROSS.COM 2
-      - 🇸🇪 瑞典 V2CROSS.COM 3
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
       - 🇸🇬 Standard|广新|IEPL|03
@@ -5025,6 +5027,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 安徽省芜湖市 电信
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -5368,13 +5371,13 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 2
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_4
       - 🇭🇰 香港(yfuye.com免费节点)_5
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港5
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 001
       - 🇮🇳 印度(yfuye.com免费节点)
@@ -5403,6 +5406,8 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇮🇷 伊朗 V2CROSS.COM 2
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003
@@ -5544,10 +5549,10 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
+      - 🇯🇵 日本 东京SAKURA数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇯🇵 日本4
-      - 🇯🇵 日本4|@ripaojiedian 2
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 _KR_韩国
       - 🇰🇷 韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 1
@@ -5768,8 +5773,6 @@ proxy-groups:
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
       - 🇸🇪 瑞典 012
-      - 🇸🇪 瑞典 V2CROSS.COM 2
-      - 🇸🇪 瑞典 V2CROSS.COM 3
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
       - 🇸🇬 Standard|广新|IEPL|03
@@ -7094,13 +7097,13 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 2
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_4
       - 🇭🇰 香港(yfuye.com免费节点)_5
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港5
   - name: 🇹🇼 ‍台湾
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -7271,6 +7274,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 安徽省芜湖市 电信
       - 🇭🇰 HK_speednode_0003
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -7313,13 +7317,13 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 2
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_4
       - 🇭🇰 香港(yfuye.com免费节点)_5
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -7502,10 +7506,10 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
+      - 🇯🇵 日本 东京SAKURA数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇯🇵 日本4
-      - 🇯🇵 日本4|@ripaojiedian 2
   - name: 🇺🇸 ‍美国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -9136,6 +9140,8 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇮🇷 伊朗 V2CROSS.COM 2
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003
@@ -9359,8 +9365,6 @@ proxy-groups:
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
       - 🇸🇪 瑞典 012
-      - 🇸🇪 瑞典 V2CROSS.COM 2
-      - 🇸🇪 瑞典 V2CROSS.COM 3
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇹🇷 土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1
@@ -9507,13 +9511,13 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 2
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_4
       - 🇭🇰 香港(yfuye.com免费节点)_5
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港5
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
     proxies:
@@ -9678,6 +9682,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 安徽省芜湖市 电信
       - 🇭🇰 HK_speednode_0003
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -9720,13 +9725,13 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 2
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
       - 🇭🇰 香港(yfuye.com免费节点)_4
       - 🇭🇰 香港(yfuye.com免费节点)_5
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -9903,10 +9908,10 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
+      - 🇯🇵 日本 东京SAKURA数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇯🇵 日本4
-      - 🇯🇵 日本4|@ripaojiedian 2
   - name: 👆🏻🇺🇸 ‍美国
     type: select
     proxies:
@@ -11531,6 +11536,8 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇮🇷 伊朗 V2CROSS.COM 2
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003
@@ -11754,8 +11761,6 @@ proxy-groups:
       - 🇸🇪 瑞典 010
       - 🇸🇪 瑞典 011
       - 🇸🇪 瑞典 012
-      - 🇸🇪 瑞典 V2CROSS.COM 2
-      - 🇸🇪 瑞典 V2CROSS.COM 3
       - 🇸🇮 斯洛文尼亚 001
       - 🇸🇮 斯洛文尼亚 002
       - 🇹🇷 土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1

@@ -704,8 +704,9 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 44, server: 103.149.183.191, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 52, server: 103.149.182.38, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 219.79.165.55, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 58.152.26.173, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 219.79.165.55, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 58.152.26.173, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 阿里云, server: n1744453319.lie5d.cyou, port: 443, type: vmess, uuid: 6928af97-a23e-408c-956e-5cd2207f3557, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1744453319.lie5d.cyou}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 103.243.26.209, port: 8080, type: vmess, uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [103.243.26.209]}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_2, server: 219.76.13.180, port: 443, type: vless, uuid: 9f70b695-3579-438c-a2c7-b248ddd03656, tls: true, servername: cmedget.cecd.top, network: ws, ws-opts: {path: "/?ed=2560&X@节点狂魔", headers: {Host: cmedget.cecd.top}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_3, server: 43.247.134.213, port: 59516, type: vmess, uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
@@ -1123,7 +1124,7 @@ proxies:
   - {name: 🇷🇺 俄罗斯 091, server: che-0001-xr.packet-drop-society.net, port: 443, type: vless, uuid: 562c71d0-f18b-402c-b1ad-5c2bbfcd6e02, tls: true, network: tcp, udp: true}
   - {name: 🇷🇺 俄罗斯 092, server: 638947655065548930.bandar-prx-dnraacq.info, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 093, server: 80.92.206.172, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 194.87.18.124, port: 443, type: trojan, password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f, sni: www.bilibili.com, udp: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 194.87.18.124, port: 443, type: trojan, password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇦 沙特阿拉伯 002, server: 91.209.253.52, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes ", headers: {Host: saas.git.cloudns.org}}, udp: true}
   - {name: 🇸🇪 _SE_瑞典, server: 193.180.211.52, port: 443, type: trojan, password: 72a9357f-8841-4229-ad79-c3fdee0aae51, sni: joss.dus.biz.id, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/193.180.211.52=443, headers: {Host: joss.dus.biz.id}}, udp: true}
   - {name: 🇸🇪 瑞典 001, server: 148.135.184.84, port: 35500, type: vmess, uuid: 744847f4-8549-4bab-a8e4-6b410d271c16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2408,7 +2409,7 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.144.172.243, port: 443, type: trojan, password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f, sni: www.bilibili.com, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.144.172.243, port: 443, type: trojan, password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 185.148.107.61, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_13, server: 172.82.67.156.sslip.io, port: 443, type: vless, uuid: 55821780-6970-49df-8a23-800c2c9b7d3a, tls: true, servername: 172.82.67.156.sslip.io, network: ws, ws-opts: {path: /4kMdPPOPDnAtNtvgyaVXm, headers: {Host: 172.82.67.156.sslip.io}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_14, server: 103.243.26.209, port: 10086, type: vmess, uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [103.243.26.209]}}, udp: true}
@@ -3162,6 +3163,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 52
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 阿里云
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -5514,6 +5516,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 52
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 阿里云
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -7275,6 +7278,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 52
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 阿里云
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -7500,6 +7504,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 52
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 阿里云
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -9728,6 +9733,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 52
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 阿里云
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -9947,6 +9953,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 52
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 阿里云
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3

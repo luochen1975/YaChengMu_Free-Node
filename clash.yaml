@@ -81,9 +81,11 @@ proxies:
   - {name: 亚太地区 003, server: 103.115.109.250, port: 40762, type: vmess, uuid: 35ce6e3a-4ddc-472c-9e9f-a34362c194e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 亚太地区 004, server: 103.159.207.84, port: 50832, type: vmess, uuid: c31c40eb-95fc-4937-ba45-7a21e8f5da32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 亚太地区 005, server: 103.169.142.53, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: abcd.freewarp.eu.org, network: ws, ws-opts: {path: /snippets, headers: {Host: abcd.freewarp.eu.org}}, udp: true}
-  - {name: 亚太地区 V2CROSS.COM, server: 103.219.103.217, port: 23344, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, udp: true}
-  - {name: 亚太地区 V2CROSS.COM 2, server: liubu9.singdns.com, port: 17459, type: ss, cipher: aes-128-gcm, password: 57bc0c04-8184-48f5-906b-897d095ed445, udp: true}
-  - {name: 亚太地区 V2CROSS.COM 3, server: 103.219.103.217, port: 21712, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, udp: true}
+  - {name: 亚太地区 V2CROSS.COM, server: wangcai.singdns.com, port: 23344, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, udp: true}
+  - {name: 亚太地区 V2CROSS.COM 2, server: 103.219.103.217, port: 23344, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, udp: true}
+  - {name: 亚太地区 V2CROSS.COM 3, server: wangcai.singdns.com, port: 21712, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, udp: true}
+  - {name: 亚太地区 V2CROSS.COM 4, server: 103.219.103.217, port: 21712, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, udp: true}
+  - {name: 亚太地区 V2CROSS.COM 5, server: liubu9.singdns.com, port: 17459, type: ss, cipher: aes-128-gcm, password: 57bc0c04-8184-48f5-906b-897d095ed445, udp: true}
   - {name: 伊拉克 - 巴格达 - TIGRIS - 1, server: 81.90.29.126, port: 53672, type: ss, cipher: chacha20-ietf-poly1305, password: yprgZbB7xDL4PSvE4wJU4m, udp: true}
   - {name: 安圭拉 001, server: 209.94.90.87, port: 2087, type: vless, uuid: 8d5911d9-f9f9-484f-8f67-5729ab5fd1af, tls: true, servername: saas.cfliu.filegear-sg.me, client-fingerprint: chrome, network: ws, ws-opts: {path: "/snippets?ip=tw.tp81.netlib.re:81&nat64=6to4", headers: {Host: saas.cfliu.filegear-sg.me}}, udp: true}
   - {name: 最低2元1000G, server: xn--ktff-jt6hr36l.tencentapp.cn, port: 443, type: trojan, password: 0, sni: 3bccf70f.ba73fe85.netlib.re, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3bccf70f.ba73fe85.netlib.re}}, udp: true}
@@ -764,7 +766,7 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 44, server: 103.149.183.191, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 52, server: 103.149.182.38, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 219.79.165.55, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 219.79.165.55, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 103.243.26.209, port: 8080, type: vmess, uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [103.243.26.209]}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_2, server: 219.76.13.180, port: 443, type: vless, uuid: 9f70b695-3579-438c-a2c7-b248ddd03656, tls: true, servername: cmedget.cecd.top, network: ws, ws-opts: {path: "/?ed=2560&X@节点狂魔", headers: {Host: cmedget.cecd.top}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_3, server: 43.247.134.213, port: 59516, type: vmess, uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
@@ -2648,6 +2650,8 @@ proxy-groups:
       - 亚太地区 V2CROSS.COM
       - 亚太地区 V2CROSS.COM 2
       - 亚太地区 V2CROSS.COM 3
+      - 亚太地区 V2CROSS.COM 4
+      - 亚太地区 V2CROSS.COM 5
       - 伊拉克 - 巴格达 - TIGRIS - 1
       - 安圭拉 001
       - 最低2元1000G
@@ -3321,7 +3325,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 44
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 52
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -5102,6 +5106,8 @@ proxy-groups:
       - 亚太地区 V2CROSS.COM
       - 亚太地区 V2CROSS.COM 2
       - 亚太地区 V2CROSS.COM 3
+      - 亚太地区 V2CROSS.COM 4
+      - 亚太地区 V2CROSS.COM 5
       - 伊拉克 - 巴格达 - TIGRIS - 1
       - 安圭拉 001
       - 最低2元1000G
@@ -5775,7 +5781,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 44
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 52
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -7588,7 +7594,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 44
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 52
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -7824,7 +7830,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 44
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 52
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -9260,6 +9266,8 @@ proxy-groups:
       - 亚太地区 V2CROSS.COM
       - 亚太地区 V2CROSS.COM 2
       - 亚太地区 V2CROSS.COM 3
+      - 亚太地区 V2CROSS.COM 4
+      - 亚太地区 V2CROSS.COM 5
       - 伊拉克 - 巴格达 - TIGRIS - 1
       - 安圭拉 001
       - 最低2元1000G
@@ -10153,7 +10161,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 44
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 52
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -10383,7 +10391,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 44
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 52
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -11807,6 +11815,8 @@ proxy-groups:
       - 亚太地区 V2CROSS.COM
       - 亚太地区 V2CROSS.COM 2
       - 亚太地区 V2CROSS.COM 3
+      - 亚太地区 V2CROSS.COM 4
+      - 亚太地区 V2CROSS.COM 5
       - 伊拉克 - 巴格达 - TIGRIS - 1
       - 安圭拉 001
       - 最低2元1000G

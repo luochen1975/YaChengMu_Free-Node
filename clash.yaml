@@ -60,8 +60,8 @@ proxies:
   - {name: 亚太地区 003, server: 103.115.109.250, port: 40762, type: vmess, uuid: 35ce6e3a-4ddc-472c-9e9f-a34362c194e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 亚太地区 004, server: 103.159.207.84, port: 50832, type: vmess, uuid: c31c40eb-95fc-4937-ba45-7a21e8f5da32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 亚太地区 005, server: 103.169.142.53, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: abcd.freewarp.eu.org, network: ws, ws-opts: {path: /snippets, headers: {Host: abcd.freewarp.eu.org}}, udp: true}
-  - {name: 亚太地区 V2CROSS.COM, server: 103.219.103.217, port: 23344, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, udp: true}
-  - {name: 亚太地区 V2CROSS.COM 2, server: 103.219.103.217, port: 21712, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, udp: true}
+  - {name: 亚太地区 V2CROSS.COM, server: 103.219.103.217, port: 21712, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, udp: true}
+  - {name: 亚太地区 V2CROSS.COM 2, server: 103.219.103.217, port: 23344, type: ss, cipher: aes-128-gcm, password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74, udp: true}
   - {name: 伊拉克 - 巴格达 - TIGRIS - 1, server: 81.90.29.126, port: 53672, type: ss, cipher: chacha20-ietf-poly1305, password: yprgZbB7xDL4PSvE4wJU4m, udp: true}
   - {name: 安圭拉 001, server: 209.94.90.87, port: 2087, type: vless, uuid: 8d5911d9-f9f9-484f-8f67-5729ab5fd1af, tls: true, servername: saas.cfliu.filegear-sg.me, client-fingerprint: chrome, network: ws, ws-opts: {path: "/snippets?ip=tw.tp81.netlib.re:81&nat64=6to4", headers: {Host: saas.cfliu.filegear-sg.me}}, udp: true}
   - {name: 最低2元1000G, server: mfa.gov.ua, port: 2096, type: vless, uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87, tls: true, servername: snippet.danfeng.us.ci, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: snippet.danfeng.us.ci}}, udp: true}
@@ -2390,6 +2390,7 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
+  - {name: 🇺🇸 美国 加州, server: usygh.zippydeal.xyz, port: 5710, type: trojan, password: fg20mtCFHy, sni: usygh.zippydeal.xyz, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 185.148.107.61, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_13, server: 172.82.67.156.sslip.io, port: 443, type: vless, uuid: 55821780-6970-49df-8a23-800c2c9b7d3a, tls: true, servername: 172.82.67.156.sslip.io, network: ws, ws-opts: {path: /4kMdPPOPDnAtNtvgyaVXm, headers: {Host: 172.82.67.156.sslip.io}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_14, server: 103.243.26.209, port: 10086, type: vmess, uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [103.243.26.209]}}, udp: true}
@@ -2419,6 +2420,7 @@ proxies:
   - {name: 🇺🇸 美国(yudou678.top玉豆免费节点)_2, server: 121.165.101.69, port: 19413, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: "/telegram🇨🇳@wangcai2/?ed=2560", headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
   - {name: 🇺🇸 美国2, server: 160.16.117.182, port: 4211, type: trojan, password: dd2f25b4c70689de8bc0f7fa9d6591cb, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国3, server: 18.162.123.55, port: 2773, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国加利福尼亚州洛杉矶 Zenlayer, server: uspoc.southbyte.xyz, port: 5684, type: trojan, password: fg20mtCFHy, sni: uspoc.southbyte.xyz, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 1, server: 103.186.154.158, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 2, server: 103.186.155.232, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 3, server: 103.186.155.65, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -4746,6 +4748,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_13
       - 🇺🇸 美国(yfuye.com免费节点)_14
@@ -4775,6 +4778,7 @@ proxy-groups:
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_2
       - 🇺🇸 美国2
       - 🇺🇸 美国3
+      - 🇺🇸 美国加利福尼亚州洛杉矶 Zenlayer
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
       - 🇻🇳 越南 - Hải Dương - FASTLY - 2
       - 🇻🇳 越南 - Hải Dương - FASTLY - 3
@@ -7077,6 +7081,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_13
       - 🇺🇸 美国(yfuye.com免费节点)_14
@@ -7106,6 +7111,7 @@ proxy-groups:
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_2
       - 🇺🇸 美国2
       - 🇺🇸 美国3
+      - 🇺🇸 美国加利福尼亚州洛杉矶 Zenlayer
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
       - 🇻🇳 越南 - Hải Dương - FASTLY - 2
       - 🇻🇳 越南 - Hải Dương - FASTLY - 3
@@ -8721,6 +8727,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_13
       - 🇺🇸 美国(yfuye.com免费节点)_14
@@ -8750,6 +8757,7 @@ proxy-groups:
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_2
       - 🇺🇸 美国2
       - 🇺🇸 美国3
+      - 🇺🇸 美国加利福尼亚州洛杉矶 Zenlayer
   - name: 🎏 ‍其他
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -11135,6 +11143,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_13
       - 🇺🇸 美国(yfuye.com免费节点)_14
@@ -11164,6 +11173,7 @@ proxy-groups:
       - 🇺🇸 美国(yudou678.top玉豆免费节点)_2
       - 🇺🇸 美国2
       - 🇺🇸 美国3
+      - 🇺🇸 美国加利福尼亚州洛杉矶 Zenlayer
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:

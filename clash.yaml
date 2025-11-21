@@ -777,8 +777,8 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - HostHatch - 3, server: 216.250.97.82, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Microsoft Corporation - 9, server: 36.150.27.99, port: 30101, type: ssr, cipher: aes-256-cfb, password: hrkycyiepu, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 502:DzrH8M, obfs-param: 0f2a3502.ikea.com, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 5, server: 68e64cf5-t66sg0-t7luxf-tng5.hk3.p5pv.com, port: 80, type: vmess, uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: 68e64cf5-t66sg0-t7luxf-tng5.hk3.p5pv.com}}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 219.79.165.55, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 219.79.165.55, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: 103.243.26.209, port: 8080, type: vmess, uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [103.243.26.209]}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_2, server: 219.76.13.180, port: 443, type: vless, uuid: 9f70b695-3579-438c-a2c7-b248ddd03656, tls: true, servername: cmedget.cecd.top, network: ws, ws-opts: {path: "/?ed=2560&X@节点狂魔", headers: {Host: cmedget.cecd.top}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_3, server: 43.247.134.213, port: 59516, type: vmess, uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
@@ -3223,7 +3223,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -5636,7 +5636,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -7390,7 +7390,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -7611,7 +7611,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -9904,7 +9904,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3
@@ -10119,7 +10119,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_2
       - 🇭🇰 香港(yfuye.com免费节点)_3

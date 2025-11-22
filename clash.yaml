@@ -664,7 +664,6 @@ proxies:
   - {name: 🇬🇧 英国 032, server: 164.38.155.61, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, client-fingerprint: chrome, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
   - {name: 🇬🇧 英国 033, server: 77.75.199.61, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: vless.hubp.de, client-fingerprint: chrome, network: ws, ws-opts: {path: /snippets, headers: {Host: vless.hubp.de}}, udp: true}
   - {name: 🇬🇧 英国 035, server: 185.221.219.229, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: 185.221.219.229}}, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇬🇧 英国(yfuye.com免费节点), server: 104.239.87.213, port: 2053, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, servername: ak.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: ak.hexo.cloudns.ch}}, udp: true}
   - {name: 🇬🇷 GR_speednode_0021, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -1304,6 +1303,7 @@ proxies:
   - {name: 🇺🇸 美国 - Boydton - Microsoft Corporation - 4, server: support.zoom.us, port: 8080, type: vless, uuid: 8e2b79fb-e184-4fb7-965f-39a095a6a151, tls: false, servername: zorox-net.senu-zer.online, network: ws, ws-opts: {path: /, headers: {Host: zorox-net.senu-zer.online}}, udp: true}
   - {name: "🇺🇸 美国 - 圣克拉拉 - DigitalOcean, LLC - 6", server: 36.150.27.99, port: 30401, type: ssr, cipher: aes-256-cfb, password: hrkycyiepu, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 502:DzrH8M, obfs-param: 0f2a3502.ikea.com, udp: true}
   - {name: "🇺🇸 美国 - 圣克拉拉 - DigitalOcean, LLC - 7", server: 36.150.27.99, port: 31404, type: ssr, cipher: aes-256-cfb, password: hrkycyiepu, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 502:DzrH8M, obfs-param: 0f2a3502.ikea.com, udp: true}
+  - {name: 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - 洛杉矶 - M247 Europe SRL - 2, server: 185.193.48.157, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: zwBLM6bBE5YxvwvnKgxAq3ErXpqMYv20, udp: true}
   - {name: 🇺🇸 美国 - 洛杉矶 - Multacom Corporation - 1, server: 74.48.14.238, port: 2087, type: vmess, uuid: ffd95a2c-ab52-434b-8def-2d06a959f5b5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /grqf}, udp: true}
   - {name: 🇺🇸 美国 001, server: 172.67.192.215, port: 443, type: trojan, password: d0728e94-82c2-456b-b5d4-eeab540599df, sni: joss.krikkrik.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/AE5, headers: {Host: joss.krikkrik.xyz}}, udp: true}
@@ -2361,8 +2361,6 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 Microsoft数据中心, server: west_a.gaogroup.bid, port: 443, type: vmess, uuid: ef004cfa-b463-4473-97df-4f0da4473ae0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ctzxvws, headers: {Host: west_a.gaogroup.bid}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 74.117.196.232, port: 37934, type: vmess, uuid: f1a513d2-c32a-49dc-8e64-d4f8a2f1e001, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 108.162.198.11, port: 2096, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, servername: ak.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: ak.hexo.cloudns.ch}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: 193.124.18.18, port: 2087, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, servername: ak.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: ak.hexo.cloudns.ch}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_100, server: 205.198.92.174, port: 8443, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, servername: ak.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: ak.hexo.cloudns.ch}}, udp: true}
@@ -3183,7 +3181,6 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇧 英国(yfuye.com免费节点)
       - 🇬🇷 GR_speednode_0021
       - 🇭🇰 HK_66
@@ -3812,6 +3809,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_6
       - 🇺🇸 美国
       - 🇺🇸 美国 - Boydton - Microsoft Corporation - 4
+      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 3
       - 🇺🇸 美国 - 洛杉矶 - M247 Europe SRL - 2
       - 🇺🇸 美国 - 洛杉矶 - Multacom Corporation - 1
       - 🇺🇸 美国 001
@@ -4869,8 +4867,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 Microsoft数据中心
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -5666,7 +5662,6 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇧 英国(yfuye.com免费节点)
       - 🇬🇷 GR_speednode_0021
       - 🇭🇰 HK_66
@@ -6295,6 +6290,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_6
       - 🇺🇸 美国
       - 🇺🇸 美国 - Boydton - Microsoft Corporation - 4
+      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 3
       - 🇺🇸 美国 - 洛杉矶 - M247 Europe SRL - 2
       - 🇺🇸 美国 - 洛杉矶 - Multacom Corporation - 1
       - 🇺🇸 美国 001
@@ -7352,8 +7348,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 Microsoft数据中心
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -8092,6 +8086,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_6
       - 🇺🇸 美国
       - 🇺🇸 美国 - Boydton - Microsoft Corporation - 4
+      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 3
       - 🇺🇸 美国 - 洛杉矶 - M247 Europe SRL - 2
       - 🇺🇸 美国 - 洛杉矶 - Multacom Corporation - 1
       - 🇺🇸 美国 001
@@ -9149,8 +9144,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 Microsoft数据中心
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -9775,7 +9768,6 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇧 英国(yfuye.com免费节点)
       - 🇬🇷 GR_speednode_0021
       - 🇮🇪 爱尔兰 - 都柏林 - Amazon Technologies Inc. - 1
@@ -10674,6 +10666,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_6
       - 🇺🇸 美国
       - 🇺🇸 美国 - Boydton - Microsoft Corporation - 4
+      - 🇺🇸 美国 - 洛杉矶 - Datacamp Limited - 3
       - 🇺🇸 美国 - 洛杉矶 - M247 Europe SRL - 2
       - 🇺🇸 美国 - 洛杉矶 - Multacom Corporation - 1
       - 🇺🇸 美国 001
@@ -11731,8 +11724,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 Microsoft数据中心
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -12354,7 +12345,6 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 033
       - 🇬🇧 英国 035
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇧 英国(yfuye.com免费节点)
       - 🇬🇷 GR_speednode_0021
       - 🇮🇪 爱尔兰 - 都柏林 - Amazon Technologies Inc. - 1

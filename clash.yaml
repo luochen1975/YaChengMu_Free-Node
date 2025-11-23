@@ -718,7 +718,7 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - HostHatch - 3, server: 216.250.97.82, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Microsoft Corporation - 9, server: 36.150.27.99, port: 30101, type: ssr, cipher: aes-256-cfb, password: hrkycyiepu, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 502:DzrH8M, obfs-param: 0f2a3502.ikea.com, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 5, server: 68e64cf5-t66sg0-t7luxf-tng5.hk3.p5pv.com, port: 80, type: vmess, uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: 68e64cf5-t66sg0-t7luxf-tng5.hk3.p5pv.com}}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.53.22, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 58.152.53.22, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: wangcai206.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: true, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_10, server: wangcai204.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: true, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_11, server: 103.30.78.141, port: 666, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, servername: ww2.x-aniu-jp.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-jp.netlib.re}}, udp: true}
@@ -1046,6 +1046,7 @@ proxies:
   - {name: 🇵🇱 波兰 002, server: 128.204.223.42, port: 27377, type: vmess, uuid: bd996dac-3b1c-42a9-b8a1-66b87d0b72ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇵🇱 波兰 003, server: 185.254.220.229, port: 1002, type: vless, uuid: 489d84ab-2895-4dea-adf2-8915349742b4, tls: true, network: tcp, udp: true}
   - {name: 🇵🇱 波兰 004, server: 128.204.223.42, port: 29532, type: vmess, uuid: 70073f5e-9182-4f17-8758-5f7b16b241b4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇵🇱 波兰 V2CROSS.COM, server: 188.116.22.96, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: "🇵🇹 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1", server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇷🇴 罗马尼亚 001, server: 89.46.235.246, port: 443, type: vmess, uuid: cfa8c2a5-5196-43cb-b54b-e391b2838835, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU_speednode_0040, server: 81.161.98.228, port: 1443, type: vless, uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a, tls: true, servername: cdn.filterai.ru, network: ws, ws-opts: {path: /websocketpl, headers: {Host: cdn.filterai.ru}}, udp: true}
@@ -3220,7 +3221,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HostHatch - 3
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -3547,6 +3548,7 @@ proxy-groups:
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
       - 🇵🇱 波兰 004
+      - 🇵🇱 波兰 V2CROSS.COM
       - 🇷🇴 罗马尼亚 001
       - 🇷🇺 RU_speednode_0040
       - 🇷🇺 RU_speednode_0041
@@ -5690,7 +5692,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HostHatch - 3
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -6017,6 +6019,7 @@ proxy-groups:
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
       - 🇵🇱 波兰 004
+      - 🇵🇱 波兰 V2CROSS.COM
       - 🇷🇴 罗马尼亚 001
       - 🇷🇺 RU_speednode_0040
       - 🇷🇺 RU_speednode_0041
@@ -7562,7 +7565,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HostHatch - 3
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -7802,7 +7805,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HostHatch - 3
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -9884,6 +9887,7 @@ proxy-groups:
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
       - 🇵🇱 波兰 004
+      - 🇵🇱 波兰 V2CROSS.COM
       - 🇷🇴 罗马尼亚 001
       - 🇷🇺 RU_speednode_0040
       - 🇷🇺 RU_speednode_0041
@@ -10146,7 +10150,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HostHatch - 3
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -10380,7 +10384,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HostHatch - 3
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -12450,6 +12454,7 @@ proxy-groups:
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
       - 🇵🇱 波兰 004
+      - 🇵🇱 波兰 V2CROSS.COM
       - 🇷🇴 罗马尼亚 001
       - 🇷🇺 RU_speednode_0040
       - 🇷🇺 RU_speednode_0041

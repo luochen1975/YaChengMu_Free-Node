@@ -938,7 +938,6 @@ proxies:
   - {name: 🇰🇷 韩国 005, server: 125.134.123.178, port: 50001, type: vmess, uuid: ffde381b-4a30-41d4-90eb-151f228b06ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qq, headers: {Host: aa.nbee.pp.ua}}, udp: true}
   - {name: 🇰🇷 韩国 006, server: 154.223.19.117, port: 46418, type: vmess, uuid: d1de8433-692d-47fd-9a8d-6ccb02ea39bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 韩国 007, server: 221.140.109.7, port: 30012, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: true, servername: aa.ylks.xyz, network: ws, ws-opts: {path: /blue, headers: {Host: aa.ylks.xyz}}, udp: true}
-  - {name: 🇰🇷 韩国 首尔Choopa数据中心, server: 141.164.45.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 🇰🇷 韩国(yfuye.com免费节点)_1, server: 211.252.50.74, port: 30004, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, servername: ak.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: ak.hexo.cloudns.ch}}, udp: true}
   - {name: 🇰🇷 韩国(yfuye.com免费节点)_2, server: 221.153.216.221, port: 50001, type: vless, uuid: 54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58, tls: true, servername: bp.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=proxyip.sg.cmliussss.net, headers: {Host: bp.hexo.cloudns.ch}}, udp: true}
   - {name: 🇰🇷 韩国(yfuye.com免费节点)_3, server: 125.131.230.120, port: 50001, type: vless, uuid: 54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58, tls: true, servername: bp.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=proxyip.sg.cmliussss.net, headers: {Host: bp.hexo.cloudns.ch}}, udp: true}
@@ -2353,6 +2352,7 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
+  - {name: 🇺🇸 美国 Microsoft数据中心, server: west_a.gaogroup.bid, port: 443, type: vmess, uuid: ef004cfa-b463-4473-97df-4f0da4473ae0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ctzxvws, headers: {Host: west_a.gaogroup.bid}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 108.162.198.11, port: 2096, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, servername: ak.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: ak.hexo.cloudns.ch}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: 193.124.18.18, port: 2087, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, servername: ak.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: ak.hexo.cloudns.ch}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_100, server: 205.198.92.174, port: 8443, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, servername: ak.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: ak.hexo.cloudns.ch}}, udp: true}
@@ -3439,7 +3439,6 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇰🇷 韩国 007
-      - 🇰🇷 韩国 首尔Choopa数据中心
       - 🇰🇷 韩国(yfuye.com免费节点)_1
       - 🇰🇷 韩国(yfuye.com免费节点)_2
       - 🇰🇷 韩国(yfuye.com免费节点)_3
@@ -4848,6 +4847,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 Microsoft数据中心
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -5909,7 +5909,6 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇰🇷 韩国 007
-      - 🇰🇷 韩国 首尔Choopa数据中心
       - 🇰🇷 韩国(yfuye.com免费节点)_1
       - 🇰🇷 韩国(yfuye.com免费节点)_2
       - 🇰🇷 韩国(yfuye.com免费节点)_3
@@ -7318,6 +7317,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 Microsoft数据中心
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -9103,6 +9103,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 Microsoft数据中心
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -9775,7 +9776,6 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇰🇷 韩国 007
-      - 🇰🇷 韩国 首尔Choopa数据中心
       - 🇰🇷 韩国(yfuye.com免费节点)_1
       - 🇰🇷 韩国(yfuye.com免费节点)_2
       - 🇰🇷 韩国(yfuye.com免费节点)_3
@@ -11672,6 +11672,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 Microsoft数据中心
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -12341,7 +12342,6 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇰🇷 韩国 007
-      - 🇰🇷 韩国 首尔Choopa数据中心
       - 🇰🇷 韩国(yfuye.com免费节点)_1
       - 🇰🇷 韩国(yfuye.com免费节点)_2
       - 🇰🇷 韩国(yfuye.com免费节点)_3

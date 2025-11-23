@@ -716,8 +716,6 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - HostHatch - 3, server: 216.250.97.82, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Microsoft Corporation - 9, server: 36.150.27.99, port: 30101, type: ssr, cipher: aes-256-cfb, password: hrkycyiepu, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 502:DzrH8M, obfs-param: 0f2a3502.ikea.com, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Pccw IMS - 5, server: 68e64cf5-t66sg0-t7luxf-tng5.hk3.p5pv.com, port: 80, type: vmess, uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: 68e64cf5-t66sg0-t7luxf-tng5.hk3.p5pv.com}}, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.53.22, port: 443, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 58.152.25.241, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: wangcai206.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: true, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_10, server: wangcai204.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: true, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_11, server: 103.30.78.141, port: 666, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, servername: ww2.x-aniu-jp.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-jp.netlib.re}}, udp: true}
@@ -734,6 +732,7 @@ proxies:
   - {name: 🇭🇰 香港(yfuye.com免费节点)_8, server: 202.81.230.146, port: 443, type: vless, uuid: 54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58, tls: true, servername: bp.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=proxyip.sg.cmliussss.net, headers: {Host: bp.hexo.cloudns.ch}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_9, server: x.cf.090227.xyz, port: 2096, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, servername: ww2.x-aniu-hk.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-hk.netlib.re}}, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
+  - {name: 🇭🇰 香港5, server: 58.152.53.22, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港6|@ripaojiedian, server: 188.116.22.96, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 🇮🇪 爱尔兰 - 都柏林 - Amazon Technologies Inc. - 1, server: 18.203.127.31, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇮🇪 爱尔兰 - 都柏林 - Amazon Technologies Inc. - 2, server: 34.245.193.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -2355,6 +2354,7 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 74.117.196.232, port: 37934, type: vmess, uuid: f1a513d2-c32a-49dc-8e64-d4f8a2f1e001, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_1, server: 108.162.198.11, port: 2096, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, servername: ak.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: ak.hexo.cloudns.ch}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_10, server: 193.124.18.18, port: 2087, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, servername: ak.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: ak.hexo.cloudns.ch}}, udp: true}
   - {name: 🇺🇸 美国(yfuye.com免费节点)_100, server: 205.198.92.174, port: 8443, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, servername: ak.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: ak.hexo.cloudns.ch}}, udp: true}
@@ -3217,8 +3217,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HostHatch - 3
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -3235,6 +3233,7 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_8
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
+      - 🇭🇰 香港5
       - 🇭🇰 香港6|@ripaojiedian
       - 🇮🇪 爱尔兰 - 都柏林 - Amazon Technologies Inc. - 1
       - 🇮🇪 爱尔兰 - 都柏林 - Amazon Technologies Inc. - 2
@@ -4849,6 +4848,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -5686,8 +5686,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HostHatch - 3
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -5704,6 +5702,7 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_8
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
+      - 🇭🇰 香港5
       - 🇭🇰 香港6|@ripaojiedian
       - 🇮🇪 爱尔兰 - 都柏林 - Amazon Technologies Inc. - 1
       - 🇮🇪 爱尔兰 - 都柏林 - Amazon Technologies Inc. - 2
@@ -7318,6 +7317,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -7559,8 +7559,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HostHatch - 3
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -7577,6 +7575,7 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_8
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
+      - 🇭🇰 香港5
       - 🇭🇰 香港6|@ripaojiedian
   - name: 🇹🇼 ‍台湾
     type: url-test
@@ -7799,8 +7798,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HostHatch - 3
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -7817,6 +7814,7 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_8
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
+      - 🇭🇰 香港5
       - 🇭🇰 香港6|@ripaojiedian
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -9105,6 +9103,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100
@@ -10144,8 +10143,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HostHatch - 3
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -10162,6 +10159,7 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_8
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
+      - 🇭🇰 香港5
       - 🇭🇰 香港6|@ripaojiedian
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
@@ -10378,8 +10376,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HostHatch - 3
       - 🇭🇰 中国 - 香港 - Microsoft Corporation - 9
       - 🇭🇰 中国 - 香港 - Pccw IMS - 5
-      - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -10396,6 +10392,7 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_8
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
+      - 🇭🇰 香港5
       - 🇭🇰 香港6|@ripaojiedian
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -11675,6 +11672,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国(yfuye.com免费节点)_1
       - 🇺🇸 美国(yfuye.com免费节点)_10
       - 🇺🇸 美国(yfuye.com免费节点)_100

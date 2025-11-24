@@ -472,7 +472,6 @@ proxies:
   - {name: 🇪🇺 欧洲 002, server: 138.199.175.204, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012ijnqibqygqo98710, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇪🇺 欧洲 003, server: 138.199.219.74, port: 443, type: vless, uuid: 9a04ee08-59f3-4de9-8424-6b32f06fbc68, tls: true, servername: 138.199.219.74, network: ws, ws-opts: {path: "/linkws?ed", headers: {Host: 138.199.219.74}}, udp: true}
   - {name: 🇪🇺 欧洲 004, server: direct-jde6zos4zet26b15zzd1.appcity-download.ir, port: 64286, type: vless, uuid: ca2bbc0a-3139-4a1c-bc93-049ad63c1d95, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
-  - {name: 🇪🇺 欧盟 V2CROSS.COM, server: 45.87.175.166, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 🇫🇮 芬兰 001, server: 95.216.186.191, port: 80, type: vmess, uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /telegram-id-, headers: {Host: google.com}}, udp: true}
   - {name: 🇫🇷 _FR_法国, server: 178.33.161.196, port: 2053, type: trojan, password: be94cd60-8e91-4cd6-9c53-26ee1314edfd, sni: joss.gpj1.web.id, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/178.33.161.196=2053, headers: {Host: joss.gpj1.web.id}}, udp: true}
   - {name: 🇫🇷 _FR_法国 2, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -1140,7 +1139,6 @@ proxies:
   - {name: 🇷🇺 俄罗斯 091, server: che-0001-xr.packet-drop-society.net, port: 443, type: vless, uuid: 562c71d0-f18b-402c-b1ad-5c2bbfcd6e02, tls: true, network: tcp, udp: true}
   - {name: 🇷🇺 俄罗斯 092, server: 638947655065548930.bandar-prx-dnraacq.info, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 093, server: 80.92.206.172, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 37.18.14.33, port: 443, type: trojan, password: Qzy7tgpRhu, sni: m.vk.com, skip-cert-verify: false, udp: true}
   - {name: 🇷🇺 俄罗斯(yfuye.com免费节点)_1, server: 85.193.91.193, port: 2053, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, servername: ak.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: ak.hexo.cloudns.ch}}, udp: true}
   - {name: 🇷🇺 俄罗斯(yfuye.com免费节点)_10, server: 147.45.68.97, port: 2053, type: vless, uuid: 54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58, tls: true, servername: bp.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=proxyip.sg.cmliussss.net, headers: {Host: bp.hexo.cloudns.ch}}, udp: true}
   - {name: 🇷🇺 俄罗斯(yfuye.com免费节点)_2, server: 95.163.242.122, port: 2053, type: vless, uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56, tls: true, servername: ak.hexo.cloudns.ch, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: ak.hexo.cloudns.ch}}, udp: true}
@@ -2968,7 +2966,6 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国
       - 🇫🇷 _FR_法国 2
@@ -3630,7 +3627,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯(yfuye.com免费节点)_1
       - 🇷🇺 俄罗斯(yfuye.com免费节点)_10
       - 🇷🇺 俄罗斯(yfuye.com免费节点)_2
@@ -5430,7 +5426,6 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国
       - 🇫🇷 _FR_法国 2
@@ -6092,7 +6087,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯(yfuye.com免费节点)_1
       - 🇷🇺 俄罗斯(yfuye.com免费节点)_10
       - 🇷🇺 俄罗斯(yfuye.com免费节点)_2
@@ -9498,7 +9492,6 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国
       - 🇫🇷 _FR_法国 2
@@ -9944,7 +9937,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯(yfuye.com免费节点)_1
       - 🇷🇺 俄罗斯(yfuye.com免费节点)_10
       - 🇷🇺 俄罗斯(yfuye.com免费节点)_2
@@ -12051,7 +12043,6 @@ proxy-groups:
       - 🇪🇺 欧洲 002
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
-      - 🇪🇺 欧盟 V2CROSS.COM
       - 🇫🇮 芬兰 001
       - 🇫🇷 _FR_法国
       - 🇫🇷 _FR_法国 2
@@ -12497,7 +12488,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇷🇺 俄罗斯(yfuye.com免费节点)_1
       - 🇷🇺 俄罗斯(yfuye.com免费节点)_10
       - 🇷🇺 俄罗斯(yfuye.com免费节点)_2

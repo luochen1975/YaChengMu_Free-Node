@@ -719,6 +719,7 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|18, server: bs2.jymzffbquawl.com, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|19, server: bs2.jymzffbquawl.com, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.53.22, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_1, server: wangcai206.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: true, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_10, server: wangcai204.000444.cn, port: 8880, type: vless, uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510, tls: true, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}, udp: true}
   - {name: 🇭🇰 香港(yfuye.com免费节点)_11, server: 103.30.78.141, port: 666, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, servername: ww2.x-aniu-jp.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-jp.netlib.re}}, udp: true}
@@ -736,7 +737,6 @@ proxies:
   - {name: 🇭🇰 香港(yfuye.com免费节点)_9, server: x.cf.090227.xyz, port: 2096, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, servername: ww2.x-aniu-hk.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww2.x-aniu-hk.netlib.re}}, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
   - {name: 🇭🇰 香港3, server: 58.152.110.92, port: 443, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港5, server: 58.152.53.22, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇮🇪 爱尔兰 001, server: 52.215.68.89, port: 22222, type: vless, uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e, tls: true, servername: telegram-channel-vlessconfig.sohala.uk, network: ws, ws-opts: {path: /telegram-channel-vlessconfig-ws, headers: {Host: telegram-channel-vlessconfig.sohala.uk}}, udp: true}
   - {name: 🇮🇱 以色列 001, server: 185.47.172.105, port: 2083, type: vless, uuid: 354712c4-dab3-452c-89fd-0a2edd6999f9, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇮🇳 印度(yfuye.com免费节点)_1, server: 185.113.10.197, port: 49246, type: vless, uuid: e016e15a-7e21-4d9a-8951-f1112c850f28, tls: false, network: tcp, udp: true}
@@ -3226,6 +3226,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -3243,7 +3244,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港5
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 001
       - 🇮🇳 印度(yfuye.com免费节点)_1
@@ -5704,6 +5704,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -5721,7 +5722,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港5
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 001
       - 🇮🇳 印度(yfuye.com免费节点)_1
@@ -7574,6 +7574,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -7591,7 +7592,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港5
   - name: 🇹🇼 ‍台湾
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -7804,6 +7804,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -7821,7 +7822,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -10160,6 +10160,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -10177,7 +10178,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港5
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
     proxies:
@@ -10384,6 +10384,7 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港(yfuye.com免费节点)_1
       - 🇭🇰 香港(yfuye.com免费节点)_10
       - 🇭🇰 香港(yfuye.com免费节点)_11
@@ -10401,7 +10402,6 @@ proxy-groups:
       - 🇭🇰 香港(yfuye.com免费节点)_9
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03

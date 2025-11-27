@@ -731,9 +731,9 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4, server: 865c5c01-sv4n40-t65a3e-tqgz.hk3.p5pv.com, port: 80, type: vmess, uuid: 88da0d21-b25d-11ec-b9f7-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: 865c5c01-sv4n40-t65a3e-tqgz.hk3.p5pv.com}}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Ipxo LLC - 5, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: ba7858bc-897f-4c8f-b5ce-9e0228c6d661, sni: green2.cdntencentmusic.com, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Ipxo LLC - 6, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: ba7858bc-897f-4c8f-b5ce-9e0228c6d661, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 112.120.31.179, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
-  - {name: 🇭🇰 香港4, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港5, server: 112.120.31.179, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港7, server: ss.020.node-for-bigairport.win, port: 11688, type: ss, cipher: aes-256-gcm, password: b0c9d775-32f7-459a-b24d-ecda7c9f3720, udp: true}
   - {name: 🇮🇪 爱尔兰 001, server: 52.215.68.89, port: 22222, type: vless, uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e, tls: true, servername: telegram-channel-vlessconfig.sohala.uk, network: ws, ws-opts: {path: /telegram-channel-vlessconfig-ws, headers: {Host: telegram-channel-vlessconfig.sohala.uk}}, udp: true}
   - {name: 🇮🇱 以色列 001, server: 185.47.172.105, port: 2083, type: vless, uuid: 354712c4-dab3-452c-89fd-0a2edd6999f9, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
@@ -916,7 +916,6 @@ proxies:
   - {name: 🇯🇵 日本 126, server: tls.07.node-for-bigairport.win, port: 22211, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}, udp: true}
   - {name: 🇯🇵 日本 127, server: 103.231.75.129, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇯🇵 日本 128, server: 85.208.110.41, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
-  - {name: 🇯🇵 日本 东京樱花网络数据中心, server: 160.16.82.24, port: 2145, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, udp: true}
   - {name: 🇯🇵 日本2, server: 153.121.45.139, port: 3093, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.117.182, port: 3093, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本3, server: 153.121.44.99, port: 3093, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
@@ -2395,6 +2394,8 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.14.99.163, port: 59807, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 2, server: 38.96.254.102, port: 18509, type: trojan, password: .ie4rghJuMkcf0oF, sni: shoppingmall.electricbanana.click, udp: true}
   - {name: 🇺🇸 美国2, server: 160.16.116.227, port: 4054, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 160.16.117.182, port: 2890, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国3, server: 18.162.187.235, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -3207,7 +3208,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 6
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇭🇰 香港7
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 001
@@ -3389,7 +3390,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京樱花网络数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -4862,6 +4862,8 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -5649,7 +5651,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 6
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇭🇰 香港7
       - 🇮🇪 爱尔兰 001
       - 🇮🇱 以色列 001
@@ -5831,7 +5833,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京樱花网络数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -7304,6 +7305,8 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -7488,7 +7491,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 6
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇭🇰 香港7
   - name: 🇹🇼 ‍台湾
     type: url-test
@@ -7726,7 +7729,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 6
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇭🇰 香港7
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -7944,7 +7947,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京樱花网络数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -9050,6 +9052,8 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -10045,7 +10049,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 6
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇭🇰 香港7
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
@@ -10277,7 +10281,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 6
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇭🇰 香港7
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -10489,7 +10493,6 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
-      - 🇯🇵 日本 东京樱花网络数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -11592,6 +11595,8 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3

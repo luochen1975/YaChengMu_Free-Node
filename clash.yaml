@@ -189,6 +189,7 @@ proxies:
   - {name: 🇨🇦 加拿大 010, server: cxc--join.outline-vpn.cloud, port: 443, type: vless, uuid: b75b3034-36ab-4979-beae-3d02db1b11ec, tls: true, servername: always-online1.lp-airdrop.top, client-fingerprint: randomized, network: ws, ws-opts: {path: Path/Telegram, headers: {Host: always-online1.lp-airdrop.top}}, udp: true}
   - {name: 🇨🇦 加拿大 011, server: mtn--join.outline-vpn.cloud, port: 443, type: vless, uuid: b9ad895b-12ac-40fc-a5ac-a5b2a1285001, tls: true, servername: 3k.pureboy.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 3k.pureboy.eu.org}}, udp: true}
   - {name: 🇨🇦 加拿大 012, server: 205.233.181.184, port: 2087, type: vless, uuid: fca01448-d84a-436e-9aec-3be1ebdfb350, tls: true, servername: Sb-1u6.paGEs.dEv, network: ws, ws-opts: {path: "/pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560", headers: {Host: Sb-1u6.paGEs.dEv}}, udp: true}
+  - {name: 🇨🇦 加拿大多伦多 V2CROSS.COM, server: 198.57.27.27, port: 12990, type: trojan, password: 6pRjKQJ0CWyFtG.9, sni: diningtable.electricbanana.click, udp: true}
   - {name: 🇨🇭 CH_speednode_0005, server: 91.192.102.92, port: 443, type: trojan, password: 8d047125-8467-4724-bb62-ef64405dca78, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/91.192.102.92=443, headers: {Host: joss.gpj1.web.id}}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇭 瑞士 001, server: 83.173.198.77, port: 8443, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, packet-encoding: xudp, servername: kejiland.freewarp.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
@@ -1132,7 +1133,6 @@ proxies:
   - {name: 🇷🇺 俄罗斯 091, server: che-0001-xr.packet-drop-society.net, port: 443, type: vless, uuid: 562c71d0-f18b-402c-b1ad-5c2bbfcd6e02, tls: true, network: tcp, udp: true}
   - {name: 🇷🇺 俄罗斯 092, server: 638947655065548930.bandar-prx-dnraacq.info, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 093, server: 80.92.206.172, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
-  - {name: 🇷🇺 俄罗斯 莫斯科JustHost, server: 45.136.244.201, port: 49934, type: vmess, uuid: 90afa47d-341a-497d-ae25-1d81258804d5, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇸🇦 沙特阿拉伯 002, server: 91.209.253.52, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes ", headers: {Host: saas.git.cloudns.org}}, udp: true}
   - {name: 🇸🇪 瑞典 001, server: 148.135.184.84, port: 35500, type: vmess, uuid: 744847f4-8549-4bab-a8e4-6b410d271c16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇪 瑞典 002, server: 141.147.161.53, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -2603,6 +2603,7 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 CH_speednode_0005
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
@@ -3540,7 +3541,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯 莫斯科JustHost
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 001
       - 🇸🇪 瑞典 002
@@ -4984,6 +4984,7 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 CH_speednode_0005
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
@@ -5921,7 +5922,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯 莫斯科JustHost
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 001
       - 🇸🇪 瑞典 002
@@ -9034,6 +9034,7 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 CH_speednode_0005
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
@@ -9616,7 +9617,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯 莫斯科JustHost
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 001
       - 🇸🇪 瑞典 002
@@ -11508,6 +11508,7 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 CH_speednode_0005
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
@@ -12090,7 +12091,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
-      - 🇷🇺 俄罗斯 莫斯科JustHost
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 瑞典 001
       - 🇸🇪 瑞典 002

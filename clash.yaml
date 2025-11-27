@@ -189,7 +189,6 @@ proxies:
   - {name: 🇨🇦 加拿大 010, server: cxc--join.outline-vpn.cloud, port: 443, type: vless, uuid: b75b3034-36ab-4979-beae-3d02db1b11ec, tls: true, servername: always-online1.lp-airdrop.top, client-fingerprint: randomized, network: ws, ws-opts: {path: Path/Telegram, headers: {Host: always-online1.lp-airdrop.top}}, udp: true}
   - {name: 🇨🇦 加拿大 011, server: mtn--join.outline-vpn.cloud, port: 443, type: vless, uuid: b9ad895b-12ac-40fc-a5ac-a5b2a1285001, tls: true, servername: 3k.pureboy.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 3k.pureboy.eu.org}}, udp: true}
   - {name: 🇨🇦 加拿大 012, server: 205.233.181.184, port: 2087, type: vless, uuid: fca01448-d84a-436e-9aec-3be1ebdfb350, tls: true, servername: Sb-1u6.paGEs.dEv, network: ws, ws-opts: {path: "/pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560", headers: {Host: Sb-1u6.paGEs.dEv}}, udp: true}
-  - {name: 🇨🇦 加拿大多伦多 V2CROSS.COM, server: 198.57.27.27, port: 12990, type: trojan, password: 6pRjKQJ0CWyFtG.9, udp: true}
   - {name: 🇨🇭 CH_speednode_0005, server: 91.192.102.92, port: 443, type: trojan, password: 8d047125-8467-4724-bb62-ef64405dca78, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/91.192.102.92=443, headers: {Host: joss.gpj1.web.id}}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇭 瑞士 001, server: 83.173.198.77, port: 8443, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, packet-encoding: xudp, servername: kejiland.freewarp.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
@@ -898,6 +897,7 @@ proxies:
   - {name: 🇯🇵 日本 126, server: tls.07.node-for-bigairport.win, port: 22211, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}, udp: true}
   - {name: 🇯🇵 日本 127, server: 103.231.75.129, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇯🇵 日本 128, server: 85.208.110.41, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
+  - {name: 🇯🇵 日本 东京Amazon数据中心, server: cgroup.node1.v.nodelist-airport.com, port: 53231, type: vmess, uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇯🇵 日本2, server: 153.121.45.139, port: 3093, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.117.182, port: 3093, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本3, server: 153.121.44.99, port: 3093, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
@@ -939,6 +939,7 @@ proxies:
   - {name: 🇱🇺 卢森堡 001, server: 188.42.89.44, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, packet-encoding: xudp, servername: kejiland.freewarp.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /snippets, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇱🇺 卢森堡 002, server: 94.242.231.244, port: 2053, type: vless, uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f, tls: true, servername: juzibaipiao.5112233.xyz, network: ws, ws-opts: {path: "/?ed=2048security=tls", headers: {Host: juzibaipiao.5112233.xyz}}, udp: true}
   - {name: 🇱🇺 卢森堡 003, server: 188.42.88.62, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: ss.nzvrn.com, network: ws, ws-opts: {path: "/snippets&freecodes ", headers: {Host: ss.nzvrn.com}}, udp: true}
+  - {name: 🇱🇺 卢森堡 V2CROSS.COM, server: 5.188.108.13, port: 11790, type: trojan, password: .+QAJot50sDi6mvb, sni: runningshoes.purpletornado.click, skip-cert-verify: true, udp: true}
   - {name: 🇲🇩 摩尔多瓦 001, server: 5.182.39.44, port: 444, type: vmess, uuid: 7d52a409-aa5a-471f-aca5-e7621bf1b813, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, servername: v5.heduian.link, udp: true}
   - {name: 🇳🇱 NL_speednode_0024, server: ru1.monkeyisland.xyz, port: 443, type: vless, uuid: 6184fcfb-52e0-40bb-a271-bbd097b70a8e, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4, short-id: "83e9f5b24040c5f7" }, servername: ru1.monkeyisland.xyz, client-fingerprint: chrome, network: tcp, udp: true}
@@ -2604,7 +2605,6 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 CH_speednode_0005
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
@@ -3308,6 +3308,7 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
+      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -3349,6 +3350,7 @@ proxy-groups:
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
       - 🇱🇺 卢森堡 003
+      - 🇱🇺 卢森堡 V2CROSS.COM
       - 🇲🇩 摩尔多瓦 001
       - 🇳🇱 IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
       - 🇳🇱 NL_speednode_0024
@@ -4986,7 +4988,6 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 CH_speednode_0005
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
@@ -5690,6 +5691,7 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
+      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -5731,6 +5733,7 @@ proxy-groups:
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
       - 🇱🇺 卢森堡 003
+      - 🇱🇺 卢森堡 V2CROSS.COM
       - 🇲🇩 摩尔多瓦 001
       - 🇳🇱 IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
       - 🇳🇱 NL_speednode_0024
@@ -7747,6 +7750,7 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
+      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -9037,7 +9041,6 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 CH_speednode_0005
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
@@ -9427,6 +9430,7 @@ proxy-groups:
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
       - 🇱🇺 卢森堡 003
+      - 🇱🇺 卢森堡 V2CROSS.COM
       - 🇲🇩 摩尔多瓦 001
       - 🇳🇱 IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
       - 🇳🇱 NL_speednode_0024
@@ -10228,6 +10232,7 @@ proxy-groups:
       - 🇯🇵 日本 126
       - 🇯🇵 日本 127
       - 🇯🇵 日本 128
+      - 🇯🇵 日本 东京Amazon数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -11512,7 +11517,6 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 CH_speednode_0005
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
@@ -11902,6 +11906,7 @@ proxy-groups:
       - 🇱🇺 卢森堡 001
       - 🇱🇺 卢森堡 002
       - 🇱🇺 卢森堡 003
+      - 🇱🇺 卢森堡 V2CROSS.COM
       - 🇲🇩 摩尔多瓦 001
       - 🇳🇱 IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
       - 🇳🇱 NL_speednode_0024

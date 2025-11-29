@@ -195,6 +195,7 @@ proxies:
   - {name: 🇨🇦 加拿大 010, server: cxc--join.outline-vpn.cloud, port: 443, type: vless, uuid: b75b3034-36ab-4979-beae-3d02db1b11ec, tls: true, servername: always-online1.lp-airdrop.top, client-fingerprint: randomized, network: ws, ws-opts: {path: Path/Telegram, headers: {Host: always-online1.lp-airdrop.top}}, udp: true}
   - {name: 🇨🇦 加拿大 011, server: mtn--join.outline-vpn.cloud, port: 443, type: vless, uuid: b9ad895b-12ac-40fc-a5ac-a5b2a1285001, tls: true, servername: 3k.pureboy.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 3k.pureboy.eu.org}}, udp: true}
   - {name: 🇨🇦 加拿大 012, server: 205.233.181.184, port: 2087, type: vless, uuid: fca01448-d84a-436e-9aec-3be1ebdfb350, tls: true, servername: Sb-1u6.paGEs.dEv, network: ws, ws-opts: {path: "/pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560", headers: {Host: Sb-1u6.paGEs.dEv}}, udp: true}
+  - {name: 🇨🇦 加拿大多伦多 V2CROSS.COM, server: 198.57.27.27, port: 12990, type: trojan, password: 6pRjKQJ0CWyFtG.9, sni: diningtable.electricbanana.click, udp: true}
   - {name: 🇨🇭 CH_speednode_0005, server: 91.192.102.92, port: 443, type: trojan, password: 8d047125-8467-4724-bb62-ef64405dca78, sni: joss.gpj1.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /Free-VPN-CF-Geo-Project/91.192.102.92=443, headers: {Host: joss.gpj1.web.id}}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇭 瑞士 001, server: 83.173.198.77, port: 8443, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, packet-encoding: xudp, servername: kejiland.freewarp.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
@@ -346,6 +347,7 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国 V2CROSS.COM, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 003, server: 190.93.246.246, port: 8443, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: true, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: bitget1.asdasd.click}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 004, server: 190.93.246.220, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lg.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lg.kpcloud.eu.org}}, udp: true}
@@ -1164,7 +1166,6 @@ proxies:
   - {name: 🇸🇬 sg-sgp-07.all.all.1x Hysteria2, server: sg-sgp-07.skyvpn.uk, port: 20443, type: hysteria2, password: 58807a72-9bf7-4c8e-a0de-e6c455a8e23e, auth: 58807a72-9bf7-4c8e-a0de-e6c455a8e23e, sni: sg-sgp-07.skyvpn.uk, skip-cert-verify: false, obfs: salamander, obfs-password: BdLpwuGkhyibxBF7kVE5, udp: true}
   - {name: 🇸🇬 sg-sgp-07.all.all.1x tls WS direct vless, server: sg-sgp-07.skyvpn.uk, port: 443, type: vless, uuid: 58807a72-9bf7-4c8e-a0de-e6c455a8e23e, tls: true, alpn: [http/1.1], servername: sg-sgp-07.skyvpn.uk, client-fingerprint: chrome, network: ws, ws-opts: {path: /o2vPaxUoyLOfNeEJTMd, headers: {Host: sg-sgp-07.skyvpn.uk}}, udp: true}
   - {name: 🇸🇬 新加坡, server: 160.16.132.158, port: 127, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 2", server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: v12.hdacd.com, udp: true}
   - {name: 🇸🇬 新加坡 - 新加坡 - M247 Europe SRL - 1, server: 160.16.89.176, port: 127, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, udp: true}
   - {name: 🇸🇬 新加坡 001, server: node4.rtxconfigz.com, port: 443, type: vmess, uuid: 44e57485-eccc-46ef-808f-cd17ac810018, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: node4.rtxconfigz.com, network: ws, ws-opts: {path: /, headers: {Host: node4.rtxconfigz.com}}, udp: true}
   - {name: 🇸🇬 新加坡 002, server: sg006.421421.xyz, port: 20230, type: trojan, password: 1b26d982-fd68-44f4-bf6d-22fe17a9249a, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.alibaba.com}}, udp: true}
@@ -2592,6 +2593,7 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 CH_speednode_0005
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
@@ -2743,6 +2745,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国 V2CROSS.COM
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -4954,6 +4957,7 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 CH_speednode_0005
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
@@ -5105,6 +5109,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国 V2CROSS.COM
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -7411,6 +7416,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国 V2CROSS.COM
       - 🇭🇰 HK_66
       - 🇭🇰 HK²_5|0.6MB/s|2%|YT|NF|D+|X|KeepHistory
       - 🇭🇰 HK²_6|4.4MB/s|2%|GPT|YT|NF|D+|X
@@ -8957,6 +8963,7 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 CH_speednode_0005
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
@@ -9869,6 +9876,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国 V2CROSS.COM
       - 🇭🇰 HK_66
       - 🇭🇰 HK²_5|0.6MB/s|2%|YT|NF|D+|X|KeepHistory
       - 🇭🇰 HK²_6|4.4MB/s|2%|GPT|YT|NF|D+|X
@@ -11403,6 +11411,7 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 CH_speednode_0005
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001

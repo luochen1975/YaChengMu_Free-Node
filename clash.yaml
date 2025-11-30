@@ -190,6 +190,7 @@ proxies:
   - {name: 🇨🇦 加拿大 010, server: cxc--join.outline-vpn.cloud, port: 443, type: vless, uuid: b75b3034-36ab-4979-beae-3d02db1b11ec, tls: true, servername: always-online1.lp-airdrop.top, client-fingerprint: randomized, network: ws, ws-opts: {path: Path/Telegram, headers: {Host: always-online1.lp-airdrop.top}}, udp: true}
   - {name: 🇨🇦 加拿大 011, server: mtn--join.outline-vpn.cloud, port: 443, type: vless, uuid: b9ad895b-12ac-40fc-a5ac-a5b2a1285001, tls: true, servername: 3k.pureboy.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 3k.pureboy.eu.org}}, udp: true}
   - {name: 🇨🇦 加拿大 012, server: 205.233.181.184, port: 2087, type: vless, uuid: fca01448-d84a-436e-9aec-3be1ebdfb350, tls: true, servername: Sb-1u6.paGEs.dEv, network: ws, ws-opts: {path: "/pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560", headers: {Host: Sb-1u6.paGEs.dEv}}, udp: true}
+  - {name: 🇨🇦 加拿大多伦多 V2CROSS.COM, server: 198.57.27.27, port: 12990, type: trojan, password: 6pRjKQJ0CWyFtG.9, sni: diningtable.electricbanana.click, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇭 瑞士 001, server: 83.173.198.77, port: 8443, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, packet-encoding: xudp, servername: kejiland.freewarp.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇨🇭 瑞士 002, server: 64.110.66.235, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -340,7 +341,6 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 中国 V2CROSS.COM, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, udp: true}
   - {name: 🇨🇷 哥斯达黎加 002, server: 190.93.247.165, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lj.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lj.kpcloud.eu.org}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 003, server: 190.93.246.246, port: 8443, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: true, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: bitget1.asdasd.click}}, udp: true}
   - {name: 🇨🇷 哥斯达黎加 004, server: 190.93.246.220, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: true, servername: lg.kpcloud.eu.org, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lg.kpcloud.eu.org}}, udp: true}
@@ -792,7 +792,6 @@ proxies:
   - {name: 🇮🇷 伊朗 052, server: hetz-vm1.serjio.sbs, port: 8080, type: vmess, uuid: 166b8dda-9126-4ecc-8d22-6b5ba2df9c1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 054, server: 46.62.199.20, port: 1414, type: vmess, uuid: 3550a751-0da4-49b2-8c7c-8ed00e616ff7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 055, server: 91.98.193.193, port: 8080, type: vmess, uuid: 3ead03ea-0bc8-4a91-bb55-b2a8751f4a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 37.202.200.19, port: 25010, type: trojan, password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05, sni: 37.202.200.19, udp: true}
   - {name: 🇮🇹 意大利 001, server: 151.101.242.172, port: 80, type: vless, uuid: 62915088-0f71-4592-bf82-3f02d4db1239, tls: true, servername: Germany.ss.ss, network: ws, ws-opts: {path: "WEDBAZ?ed=2048", headers: {Host: Germany.ss.ss}}, udp: true}
   - {name: 🇮🇹 意大利 002, server: 31.14.135.127, port: 7035, type: vless, uuid: 7d27c544-135d-41a2-bd84-713b8af4f3c2, tls: true, servername: filimo.com, network: ws, ws-opts: {path: /, headers: {Host: filimo.com}}, udp: true}
   - {name: 🇮🇹 意大利 003, server: pizaitaliano.gojustore.site, port: 7035, type: vless, uuid: e265fc78-e269-46b2-9b6a-85f573dab3d5, tls: true, servername: filimo.com, network: ws, ws-opts: {path: /, headers: {Host: filimo.com}}, udp: true}
@@ -814,6 +813,7 @@ proxies:
   - {name: 🇯🇵 东京X06, server: tk-x06.xiaoxiaobujidao.xyz, port: 18443, type: vless, uuid: 1f05a69e-1dfb-340a-8a6b-117a59ed7e7f, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0}, servername: dash.cloudflare.com, client-fingerprint: firefox, network: tcp, udp: true}
   - {name: 🇯🇵 东京X07, server: tk-x07.xiaoxiaobujidao.xyz, port: 12443, type: vless, uuid: 1f05a69e-1dfb-340a-8a6b-117a59ed7e7f, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0}, servername: dash.cloudflare.com, client-fingerprint: firefox, network: tcp, udp: true}
   - {name: 🇯🇵 日本, server: 13.231.125.141, port: 4012, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 - 东京 - Skyspark Hosting LLC - 1, server: 37.202.200.19, port: 25010, type: trojan, password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05, sni: 37.202.200.19, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 001, server: 160.16.240.91, port: 1331, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 002, server: 160.16.240.91, port: 316, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 003, server: 160.16.240.91, port: 5041, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true, udp: true}
@@ -1203,6 +1203,7 @@ proxies:
   - {name: 🇸🇬 新加坡3, server: 43.199.161.175, port: 1196, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 52.199.129.13, port: 2752, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡3|v6, server: 2a02:6ea0:d14a::cdf0:54bf, port: 24444, type: vmess, uuid: 3cebc7fb-a486-4698-8998-41d15ca62ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5e60be5f/}, udp: true}
+  - {name: 🇸🇬 新加坡4|@ripaojiedian, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡8|v6, server: 2605:e440:16::281, port: 24444, type: vmess, uuid: 3cebc7fb-a486-4698-8998-41d15ca62ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5e60be5f/}, udp: true}
   - {name: 🇸🇬 新加坡9|v6, server: 2605:e440:16::346, port: 24444, type: vmess, uuid: 3cebc7fb-a486-4698-8998-41d15ca62ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5e60be5f/}, udp: true}
   - {name: 🇸🇬 新加坡S1|v6, server: v6sgs1.lajichang.xyz, port: 25555, type: ss, cipher: aes-128-gcm, password: 3cebc7fb-a486-4698-8998-41d15ca62ccc, udp: true}
@@ -2642,6 +2643,7 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
@@ -2792,7 +2794,6 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 中国 V2CROSS.COM
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -3240,7 +3241,6 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
-      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003
@@ -3261,6 +3261,7 @@ proxy-groups:
       - 🇯🇵 东京X06
       - 🇯🇵 东京X07
       - 🇯🇵 日本
+      - 🇯🇵 日本 - 东京 - Skyspark Hosting LLC - 1
       - 🇯🇵 日本 001
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
@@ -3649,6 +3650,7 @@ proxy-groups:
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡3|v6
+      - 🇸🇬 新加坡4|@ripaojiedian
       - 🇸🇬 新加坡8|v6
       - 🇸🇬 新加坡9|v6
       - 🇸🇬 新加坡S1|v6
@@ -5060,6 +5062,7 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
@@ -5210,7 +5213,6 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 中国 V2CROSS.COM
       - 🇨🇷 哥斯达黎加 002
       - 🇨🇷 哥斯达黎加 003
       - 🇨🇷 哥斯达黎加 004
@@ -5658,7 +5660,6 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
-      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003
@@ -5679,6 +5680,7 @@ proxy-groups:
       - 🇯🇵 东京X06
       - 🇯🇵 东京X07
       - 🇯🇵 日本
+      - 🇯🇵 日本 - 东京 - Skyspark Hosting LLC - 1
       - 🇯🇵 日本 001
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
@@ -6067,6 +6069,7 @@ proxy-groups:
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡3|v6
+      - 🇸🇬 新加坡4|@ripaojiedian
       - 🇸🇬 新加坡8|v6
       - 🇸🇬 新加坡9|v6
       - 🇸🇬 新加坡S1|v6
@@ -7636,7 +7639,6 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 中国 V2CROSS.COM
       - 🇭🇰 HK_66
       - 🇭🇰 HK²_5|0.6MB/s|2%|YT|NF|D+|X|KeepHistory
       - 🇭🇰 HK²_6|4.4MB/s|2%|GPT|YT|NF|D+|X
@@ -7794,6 +7796,7 @@ proxy-groups:
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡3|v6
+      - 🇸🇬 新加坡4|@ripaojiedian
       - 🇸🇬 新加坡8|v6
       - 🇸🇬 新加坡9|v6
       - 🇸🇬 新加坡S1|v6
@@ -7821,6 +7824,7 @@ proxy-groups:
       - 🇯🇵 东京X06
       - 🇯🇵 东京X07
       - 🇯🇵 日本
+      - 🇯🇵 日本 - 东京 - Skyspark Hosting LLC - 1
       - 🇯🇵 日本 001
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
@@ -9240,6 +9244,7 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
@@ -9580,7 +9585,6 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
-      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003
@@ -10208,7 +10212,6 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
-      - 🇨🇳 中国 V2CROSS.COM
       - 🇭🇰 HK_66
       - 🇭🇰 HK²_5|0.6MB/s|2%|YT|NF|D+|X|KeepHistory
       - 🇭🇰 HK²_6|4.4MB/s|2%|GPT|YT|NF|D+|X
@@ -10363,6 +10366,7 @@ proxy-groups:
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡3|v6
+      - 🇸🇬 新加坡4|@ripaojiedian
       - 🇸🇬 新加坡8|v6
       - 🇸🇬 新加坡9|v6
       - 🇸🇬 新加坡S1|v6
@@ -10387,6 +10391,7 @@ proxy-groups:
       - 🇯🇵 东京X06
       - 🇯🇵 东京X07
       - 🇯🇵 日本
+      - 🇯🇵 日本 - 东京 - Skyspark Hosting LLC - 1
       - 🇯🇵 日本 001
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
@@ -11800,6 +11805,7 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
@@ -12140,7 +12146,6 @@ proxy-groups:
       - 🇮🇷 伊朗 052
       - 🇮🇷 伊朗 054
       - 🇮🇷 伊朗 055
-      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇹 意大利 001
       - 🇮🇹 意大利 002
       - 🇮🇹 意大利 003

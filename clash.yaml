@@ -190,7 +190,6 @@ proxies:
   - {name: 🇨🇦 加拿大 010, server: cxc--join.outline-vpn.cloud, port: 443, type: vless, uuid: b75b3034-36ab-4979-beae-3d02db1b11ec, tls: true, servername: always-online1.lp-airdrop.top, client-fingerprint: randomized, network: ws, ws-opts: {path: Path/Telegram, headers: {Host: always-online1.lp-airdrop.top}}, udp: true}
   - {name: 🇨🇦 加拿大 011, server: mtn--join.outline-vpn.cloud, port: 443, type: vless, uuid: b9ad895b-12ac-40fc-a5ac-a5b2a1285001, tls: true, servername: 3k.pureboy.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 3k.pureboy.eu.org}}, udp: true}
   - {name: 🇨🇦 加拿大 012, server: 205.233.181.184, port: 2087, type: vless, uuid: fca01448-d84a-436e-9aec-3be1ebdfb350, tls: true, servername: Sb-1u6.paGEs.dEv, network: ws, ws-opts: {path: "/pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560", headers: {Host: Sb-1u6.paGEs.dEv}}, udp: true}
-  - {name: 🇨🇦 加拿大多伦多 V2CROSS.COM, server: 198.57.27.27, port: 12990, type: trojan, password: 6pRjKQJ0CWyFtG.9, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇭 瑞士 001, server: 83.173.198.77, port: 8443, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, packet-encoding: xudp, servername: kejiland.freewarp.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇨🇭 瑞士 002, server: 64.110.66.235, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -742,7 +741,6 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9, server: 8ae4848c-szjwg0-t44yvp-155d9.hk3.p5pv.com, port: 80, type: vmess, uuid: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: 8ae4848c-szjwg0-t44yvp-155d9.hk3.p5pv.com, network: ws, ws-opts: {path: /, headers: {Host: 8ae4848c-szjwg0-t44yvp-155d9.hk3.p5pv.com}}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 219.79.165.186, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 58.152.53.8, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港11|v6, server: 2400:8a20:112:1::687, port: 24444, type: vmess, uuid: 3cebc7fb-a486-4698-8998-41d15ca62ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5e60be5f/}, udp: true}
   - {name: 🇭🇰 香港12|v6, server: 2400:8a20:112:1::688, port: 24444, type: vmess, uuid: 3cebc7fb-a486-4698-8998-41d15ca62ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5e60be5f/}, udp: true}
@@ -757,6 +755,7 @@ proxies:
   - {name: 🇭🇰 香港2|v6, server: 2401:b60:5:9c::a, port: 24444, type: vmess, uuid: 3cebc7fb-a486-4698-8998-41d15ca62ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5e60be5f/}, udp: true}
   - {name: 🇭🇰 香港3, server: 58.152.18.55, port: 443, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港3|v6, server: 2a0f:7803:fb31:a4::a, port: 24444, type: vmess, uuid: 3cebc7fb-a486-4698-8998-41d15ca62ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5e60be5f/}, udp: true}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 219.79.165.186, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5, server: 112.120.31.179, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港6, server: 103.149.182.86, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 香港6|v6, server: 2602:fa4f:200:40aa:133b:47a2:a3ce:7fe4, port: 24444, type: vmess, uuid: 3cebc7fb-a486-4698-8998-41d15ca62ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5e60be5f/}, udp: true}
@@ -950,6 +949,7 @@ proxies:
   - {name: 🇯🇵 日本S1|v6, server: v6jps1.lajichang.xyz, port: 25555, type: ss, cipher: aes-128-gcm, password: 3cebc7fb-a486-4698-8998-41d15ca62ccc, udp: true}
   - {name: 🇯🇵 日本S2|v6, server: v6jps2.lajichang.xyz, port: 25555, type: ss, cipher: aes-128-gcm, password: 3cebc7fb-a486-4698-8998-41d15ca62ccc, udp: true}
   - {name: 🇯🇵 日本|@ripaojiedian, server: 13.231.194.84, port: 1924, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本东京 Amazon数据中心, server: 52.199.129.13, port: 2752, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇰🇭 柬埔寨 001, server: 111.92.240.243, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇰🇷 韩国 001, server: 112.156.154.95, port: 30067, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, packet-encoding: xudp, servername: kejiland.freewarp.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /snippets/ip=proxyip.fxxk.dedyn.io:443, headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇰🇷 韩国 002, server: 140.238.28.227, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -1070,6 +1070,7 @@ proxies:
   - {name: 🇵🇱 波兰 002, server: 128.204.223.42, port: 27377, type: vmess, uuid: bd996dac-3b1c-42a9-b8a1-66b87d0b72ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇵🇱 波兰 003, server: 185.254.220.229, port: 1002, type: vless, uuid: 489d84ab-2895-4dea-adf2-8915349742b4, tls: true, network: tcp, udp: true}
   - {name: 🇵🇱 波兰 004, server: 128.204.223.42, port: 29532, type: vmess, uuid: 70073f5e-9182-4f17-8758-5f7b16b241b4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇵🇱 波兰 V2CROSS.COM, server: 188.116.22.96, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 🇷🇴 罗马尼亚 001, server: 89.46.235.246, port: 443, type: vmess, uuid: cfa8c2a5-5196-43cb-b54b-e391b2838835, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU_speednode_0012, server: 80.90.187.190, port: 2053, type: vless, uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e, tls: true, servername: kuangbao.xiejiang.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: kuangbao.xiejiang.dpdns.org}}, udp: true}
   - {name: 🇷🇺 RU_speednode_0013, server: russia.whitenet.online, port: 443, type: vless, uuid: 4ce38652-b84c-5aab-8b2c-f897a217b41b, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: xdNyDss0OLTu3z6kcdg8X2wfTOLtmDTobE2on3vKe34, short-id: "ab1cd2" }, servername: vk.com, client-fingerprint: chrome, network: tcp, udp: true}
@@ -1202,7 +1203,6 @@ proxies:
   - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 160.16.136.130, port: 2760, type: trojan, password: 2cf6d686799e6fa95316394064f26c0a, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡2|v6, server: 2a0e:97c0:7d4:ff3c::a, port: 24444, type: vmess, uuid: 3cebc7fb-a486-4698-8998-41d15ca62ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5e60be5f/}, udp: true}
   - {name: 🇸🇬 新加坡3, server: 43.199.161.175, port: 1196, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 52.199.129.13, port: 2752, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡3|v6, server: 2a02:6ea0:d14a::cdf0:54bf, port: 24444, type: vmess, uuid: 3cebc7fb-a486-4698-8998-41d15ca62ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5e60be5f/}, udp: true}
   - {name: 🇸🇬 新加坡8|v6, server: 2605:e440:16::281, port: 24444, type: vmess, uuid: 3cebc7fb-a486-4698-8998-41d15ca62ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5e60be5f/}, udp: true}
   - {name: 🇸🇬 新加坡9|v6, server: 2605:e440:16::346, port: 24444, type: vmess, uuid: 3cebc7fb-a486-4698-8998-41d15ca62ccc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5e60be5f/}, udp: true}
@@ -2643,7 +2643,6 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
@@ -3191,7 +3190,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港11|v6
       - 🇭🇰 香港12|v6
@@ -3206,6 +3204,7 @@ proxy-groups:
       - 🇭🇰 香港2|v6
       - 🇭🇰 香港3
       - 🇭🇰 香港3|v6
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|v6
@@ -3398,6 +3397,7 @@ proxy-groups:
       - 🇯🇵 日本S1|v6
       - 🇯🇵 日本S2|v6
       - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本东京 Amazon数据中心
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 韩国 001
       - 🇰🇷 韩国 002
@@ -3518,6 +3518,7 @@ proxy-groups:
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
       - 🇵🇱 波兰 004
+      - 🇵🇱 波兰 V2CROSS.COM
       - 🇷🇴 罗马尼亚 001
       - 🇷🇺 RU_speednode_0012
       - 🇷🇺 RU_speednode_0013
@@ -3649,7 +3650,6 @@ proxy-groups:
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡2|v6
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡3|v6
       - 🇸🇬 新加坡8|v6
       - 🇸🇬 新加坡9|v6
@@ -5062,7 +5062,6 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
@@ -5610,7 +5609,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港11|v6
       - 🇭🇰 香港12|v6
@@ -5625,6 +5623,7 @@ proxy-groups:
       - 🇭🇰 香港2|v6
       - 🇭🇰 香港3
       - 🇭🇰 香港3|v6
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|v6
@@ -5817,6 +5816,7 @@ proxy-groups:
       - 🇯🇵 日本S1|v6
       - 🇯🇵 日本S2|v6
       - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本东京 Amazon数据中心
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 韩国 001
       - 🇰🇷 韩国 002
@@ -5937,6 +5937,7 @@ proxy-groups:
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
       - 🇵🇱 波兰 004
+      - 🇵🇱 波兰 V2CROSS.COM
       - 🇷🇴 罗马尼亚 001
       - 🇷🇺 RU_speednode_0012
       - 🇷🇺 RU_speednode_0013
@@ -6068,7 +6069,6 @@ proxy-groups:
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡2|v6
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡3|v6
       - 🇸🇬 新加坡8|v6
       - 🇸🇬 新加坡9|v6
@@ -7443,7 +7443,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港11|v6
       - 🇭🇰 香港12|v6
@@ -7458,6 +7457,7 @@ proxy-groups:
       - 🇭🇰 香港2|v6
       - 🇭🇰 香港3
       - 🇭🇰 香港3|v6
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|v6
@@ -7727,7 +7727,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港11|v6
       - 🇭🇰 香港12|v6
@@ -7742,6 +7741,7 @@ proxy-groups:
       - 🇭🇰 香港2|v6
       - 🇭🇰 香港3
       - 🇭🇰 香港3|v6
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|v6
@@ -7795,7 +7795,6 @@ proxy-groups:
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡2|v6
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡3|v6
       - 🇸🇬 新加坡8|v6
       - 🇸🇬 新加坡9|v6
@@ -7961,6 +7960,7 @@ proxy-groups:
       - 🇯🇵 日本S1|v6
       - 🇯🇵 日本S2|v6
       - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本东京 Amazon数据中心
   - name: 🇺🇸 ‍美国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -9244,7 +9244,6 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
@@ -9708,6 +9707,7 @@ proxy-groups:
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
       - 🇵🇱 波兰 004
+      - 🇵🇱 波兰 V2CROSS.COM
       - 🇷🇴 罗马尼亚 001
       - 🇷🇺 RU_speednode_0012
       - 🇷🇺 RU_speednode_0013
@@ -10022,7 +10022,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港11|v6
       - 🇭🇰 香港12|v6
@@ -10037,6 +10036,7 @@ proxy-groups:
       - 🇭🇰 香港2|v6
       - 🇭🇰 香港3
       - 🇭🇰 香港3|v6
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|v6
@@ -10300,7 +10300,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9
       - 🇭🇰 中国 - 香港 - PCCW IMS Limited - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港11|v6
       - 🇭🇰 香港12|v6
@@ -10315,6 +10314,7 @@ proxy-groups:
       - 🇭🇰 香港2|v6
       - 🇭🇰 香港3
       - 🇭🇰 香港3|v6
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇰 香港6|v6
@@ -10365,7 +10365,6 @@ proxy-groups:
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡2|v6
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡3|v6
       - 🇸🇬 新加坡8|v6
       - 🇸🇬 新加坡9|v6
@@ -10528,6 +10527,7 @@ proxy-groups:
       - 🇯🇵 日本S1|v6
       - 🇯🇵 日本S2|v6
       - 🇯🇵 日本|@ripaojiedian
+      - 🇯🇵 日本东京 Amazon数据中心
   - name: 👆🏻🇺🇸 ‍美国
     type: select
     proxies:
@@ -11805,7 +11805,6 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
@@ -12269,6 +12268,7 @@ proxy-groups:
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
       - 🇵🇱 波兰 004
+      - 🇵🇱 波兰 V2CROSS.COM
       - 🇷🇴 罗马尼亚 001
       - 🇷🇺 RU_speednode_0012
       - 🇷🇺 RU_speednode_0013

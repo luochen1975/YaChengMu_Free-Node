@@ -207,7 +207,6 @@ proxies:
   - {name: 🇨🇦 加拿大 010, server: cxc--join.outline-vpn.cloud, port: 443, type: vless, uuid: b75b3034-36ab-4979-beae-3d02db1b11ec, tls: true, servername: always-online1.lp-airdrop.top, client-fingerprint: randomized, network: ws, ws-opts: {path: Path/Telegram, headers: {Host: always-online1.lp-airdrop.top}}, udp: true}
   - {name: 🇨🇦 加拿大 011, server: mtn--join.outline-vpn.cloud, port: 443, type: vless, uuid: b9ad895b-12ac-40fc-a5ac-a5b2a1285001, tls: true, servername: 3k.pureboy.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 3k.pureboy.eu.org}}, udp: true}
   - {name: 🇨🇦 加拿大 012, server: 205.233.181.184, port: 2087, type: vless, uuid: fca01448-d84a-436e-9aec-3be1ebdfb350, tls: true, servername: Sb-1u6.paGEs.dEv, network: ws, ws-opts: {path: "/pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560", headers: {Host: Sb-1u6.paGEs.dEv}}, udp: true}
-  - {name: 🇨🇦 加拿大多伦多 V2CROSS.COM, server: 198.57.27.27, port: 12990, type: trojan, password: 6pRjKQJ0CWyFtG.9, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇭 瑞士 001, server: 83.173.198.77, port: 8443, type: vless, uuid: b65f4df7-f6af-42b2-877a-cef33f21675e, tls: true, packet-encoding: xudp, servername: kejiland.freewarp.eu.org, client-fingerprint: chrome, network: ws, ws-opts: {path: "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560", headers: {Host: kejiland.freewarp.eu.org}}, udp: true}
   - {name: 🇨🇭 瑞士 002, server: 64.110.66.235, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -488,8 +487,7 @@ proxies:
   - {name: 🇪🇺 欧洲 002, server: 138.199.175.204, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012ijnqibqygqo98710, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇪🇺 欧洲 003, server: 138.199.219.74, port: 443, type: vless, uuid: 9a04ee08-59f3-4de9-8424-6b32f06fbc68, tls: true, servername: 138.199.219.74, network: ws, ws-opts: {path: "/linkws?ed", headers: {Host: 138.199.219.74}}, udp: true}
   - {name: 🇪🇺 欧洲 004, server: direct-jde6zos4zet26b15zzd1.appcity-download.ir, port: 64286, type: vless, uuid: ca2bbc0a-3139-4a1c-bc93-049ad63c1d95, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
-  - {name: 🇪🇺 欧盟 V2CROSS.COM, server: 45.83.22.118, port: 5223, type: ss, cipher: chacha20-ietf-poly1305, password: NS8BriBL9gcPEHTXiN66aT, udp: true}
-  - {name: 🇪🇺 欧盟 V2CROSS.COM 2, server: 45.93.95.187, port: 8618, type: ss, cipher: chacha20-ietf-poly1305, password: 4lUEC91c1d8oeClzDbYpXA, udp: true}
+  - {name: 🇪🇺 欧盟 V2CROSS.COM, server: 45.93.95.187, port: 8618, type: ss, cipher: chacha20-ietf-poly1305, password: 4lUEC91c1d8oeClzDbYpXA, udp: true}
   - {name: 🇫🇮 FI_speednode_0029, server: inst.faceppm.ru, port: 1888, type: vless, uuid: 0f3c5d1e-21e7-4f5d-b57e-a308686e22f3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: GaVpyGU5Xqyd5SYmchrCIajjTiXF69bmCnUdftmrwTM, short-id: "16b7f8a207cda6e3" }, servername: www.kernel.org, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: 🇫🇮 芬兰 001, server: 95.216.186.191, port: 80, type: vmess, uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /telegram-id-, headers: {Host: google.com}}, udp: true}
   - {name: 🇫🇷 FR_speednode_0030, server: 7b3fb675-t5bb40-t6tn6w-jjv2.fr.cdnkuaishou.com, port: 8443, type: http, username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, tls: true, skip-cert-verify: true, udp: true}
@@ -830,9 +828,8 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 117, server: ueuuowos.nianjiushiwodewenti.com, port: 22653, type: ss, cipher: aes-128-gcm, password: 4ef80768-21a6-4ba2-bec7-96e8a99d2cb4, udp: true}
   - {name: 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 118, server: ueuuowos.nianjiushiwodewenti.com, port: 46855, type: ss, cipher: aes-128-gcm, password: 4ef80768-21a6-4ba2-bec7-96e8a99d2cb4, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 阿里云, server: 47.243.209.146, port: 13786, type: vmess, uuid: 95998ffa-0e46-4c40-85d0-45a7e7997a5c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true}, udp: true}
-  - {name: 🇭🇰 香港4, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5, server: 58.152.30.175, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港6, server: 47.243.69.126, port: 31904, type: vmess, uuid: 22550b74-3ebf-49b5-ea36-3078b5d47ed9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇮🇪 爱尔兰 - 都柏林 - Amazon Technologies Inc. - 1, server: 18.203.220.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -1239,6 +1236,7 @@ proxies:
   - {name: 🇷🇺 俄罗斯 091, server: che-0001-xr.packet-drop-society.net, port: 443, type: vless, uuid: 562c71d0-f18b-402c-b1ad-5c2bbfcd6e02, tls: true, network: tcp, udp: true}
   - {name: 🇷🇺 俄罗斯 092, server: 638947655065548930.bandar-prx-dnraacq.info, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
   - {name: 🇷🇺 俄罗斯 093, server: 80.92.206.172, port: 8880, type: vless, uuid: df0680ca-e43c-498d-ed86-8e196eedd012, tls: true, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, udp: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 109.71.246.210, port: 56689, type: ss, cipher: chacha20-ietf-poly1305, password: YQCSKoCF3QazW8YlvDBWA4, udp: true}
   - {name: 🇸🇦 沙特阿拉伯 002, server: 91.209.253.52, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, servername: saas.git.cloudns.org, network: ws, ws-opts: {path: "/snippets&freecodes ", headers: {Host: saas.git.cloudns.org}}, udp: true}
   - {name: 🇸🇪 SE_speednode_0058, server: 194.87.77.63, port: 8443, type: vless, uuid: 630b911a-1451-4d6c-b480-0c53c7ec0373, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg, short-id: "3f8ad1" }, servername: aliusfilms.ru, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: 🇸🇪 SE_speednode_0059, server: 185.146.173.185, port: 2052, type: vless, uuid: 08363e87-5f9e-46e3-8854-89fa0190fa1d, tls: false, servername: fggvggvvgv.fggghbvhh-ghvghggg-fgvg-mahdi-net-irancel.BLOG, network: ws, ws-opts: {path: /Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-, headers: {Host: fggvggvvgv.fggghbvhh-ghvghggg-fgvg-mahdi-net-irancel.BLOG}}, udp: true}
@@ -2444,7 +2442,6 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.96.254.102, port: 18509, type: trojan, password: .ie4rghJuMkcf0oF, sni: shoppingmall.electricbanana.click, udp: true}
   - {name: 🇺🇸 美国2, server: 160.16.214.6, port: 4054, type: trojan, password: 79314e99f0a473fe86efc7827942ad00, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 160.16.81.84, port: 4054, type: trojan, password: 79314e99f0a473fe86efc7827942ad00, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国3, server: 116.49.237.130, port: 1112, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -2708,7 +2705,6 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
@@ -2990,7 +2986,6 @@ proxy-groups:
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
       - 🇪🇺 欧盟 V2CROSS.COM
-      - 🇪🇺 欧盟 V2CROSS.COM 2
       - 🇫🇮 FI_speednode_0029
       - 🇫🇮 芬兰 001
       - 🇫🇷 FR_speednode_0030
@@ -3325,9 +3320,8 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 117
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 118
       - 🇭🇰 香港
-      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇮🇪 爱尔兰 - 都柏林 - Amazon Technologies Inc. - 1
@@ -3721,6 +3715,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 SE_speednode_0058
       - 🇸🇪 SE_speednode_0059
@@ -4923,7 +4918,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -5162,7 +5156,6 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
@@ -5444,7 +5437,6 @@ proxy-groups:
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
       - 🇪🇺 欧盟 V2CROSS.COM
-      - 🇪🇺 欧盟 V2CROSS.COM 2
       - 🇫🇮 FI_speednode_0029
       - 🇫🇮 芬兰 001
       - 🇫🇷 FR_speednode_0030
@@ -5779,9 +5771,8 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 117
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 118
       - 🇭🇰 香港
-      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇮🇪 爱尔兰 - 都柏林 - Amazon Technologies Inc. - 1
@@ -6175,6 +6166,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 SE_speednode_0058
       - 🇸🇪 SE_speednode_0059
@@ -7377,7 +7369,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -7624,9 +7615,8 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 117
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 118
       - 🇭🇰 香港
-      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇭🇰 香港6
   - name: 🇹🇼 ‍台湾
@@ -7947,9 +7937,8 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 117
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 118
       - 🇭🇰 香港
-      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇹🇼 Premium|广台|IEPL|01
@@ -9238,7 +9227,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -9440,7 +9428,6 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
@@ -9577,7 +9564,6 @@ proxy-groups:
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
       - 🇪🇺 欧盟 V2CROSS.COM
-      - 🇪🇺 欧盟 V2CROSS.COM 2
       - 🇫🇮 FI_speednode_0029
       - 🇫🇮 芬兰 001
       - 🇫🇷 FR_speednode_0030
@@ -10002,6 +9988,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 SE_speednode_0058
       - 🇸🇪 SE_speednode_0059
@@ -10280,9 +10267,8 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 117
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 118
       - 🇭🇰 香港
-      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇭🇰 香港6
   - name: 👆🏻🇹🇼 ‍台湾
@@ -10597,9 +10583,8 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 117
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 118
       - 🇭🇰 香港
-      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
-      - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇹🇼 Premium|广台|IEPL|01
@@ -11879,7 +11864,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -12078,7 +12062,6 @@ proxy-groups:
       - 🇨🇦 加拿大 010
       - 🇨🇦 加拿大 011
       - 🇨🇦 加拿大 012
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
@@ -12215,7 +12198,6 @@ proxy-groups:
       - 🇪🇺 欧洲 003
       - 🇪🇺 欧洲 004
       - 🇪🇺 欧盟 V2CROSS.COM
-      - 🇪🇺 欧盟 V2CROSS.COM 2
       - 🇫🇮 FI_speednode_0029
       - 🇫🇮 芬兰 001
       - 🇫🇷 FR_speednode_0030
@@ -12640,6 +12622,7 @@ proxy-groups:
       - 🇷🇺 俄罗斯 091
       - 🇷🇺 俄罗斯 092
       - 🇷🇺 俄罗斯 093
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇦 沙特阿拉伯 002
       - 🇸🇪 SE_speednode_0058
       - 🇸🇪 SE_speednode_0059

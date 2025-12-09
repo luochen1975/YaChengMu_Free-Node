@@ -250,6 +250,7 @@ proxies:
   - {name: 🇨🇳 中国 141, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 142, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 143, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 38117bbc-49f6-48f8-b39e-f41b94841793, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国 V2CROSS.COM, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇨🇴 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 6", server: hn.xn--wlqw1swrj04ju56d.com, port: 80, type: vmess, uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: tms.dingtalk.com, network: ws, ws-opts: {path: /, headers: {Host: hn.xn--wlqw1swrj04ju56d.com}}, udp: true}
   - {name: 🇨🇿 捷克 001, server: 109.123.235.244, port: 550, type: vmess, uuid: a72dc642-56ec-456f-aa18-930a274228f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 德国 - Frankfurt Am Main - Hetzner Online AG - 2, server: a.confignor.site, port: 7443, type: vmess, uuid: c04d7698-20f9-4a39-bdf3-930028bd7921, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -384,10 +385,11 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Global Connectivity Solutions LLP - 8, server: 183.236.97.18, port: 17703, type: trojan, password: 70d53b4f-def3-48fd-8906-ae489ddf1ffe, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4, server: 58.152.18.95, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.25.242, port: 443, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 219.79.186.107, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: t.me%25252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港2, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: newroot2v1.dsjsapp.com, path: /zksuapgx, tls: true, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 🇭🇰 香港3, server: 58.152.110.154, port: 443, type: trojan, password: 76d630f2af6619c4a5de0ef953df3c6a, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港4, server: 219.79.186.107, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港5, server: 58.152.25.242, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇮🇳 印度 - 海得拉巴 - Oracle Corporation - 1, server: 183.236.97.18, port: 17728, type: trojan, password: 70d53b4f-def3-48fd-8906-ae489ddf1ffe, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 🇮🇳 英属印度洋领地 001, server: vc.fly.dev, port: 443, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vc, headers: {Host: vc.fly.dev}}, udp: true}
   - {name: 🇮🇷 伊朗 005, server: 37.27.221.198, port: 8282, type: vmess, uuid: c16064c9-b650-4152-baac-ec690cfe796d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -515,6 +517,7 @@ proxies:
   - {name: 🇰🇷 韩国 005, server: 125.134.123.178, port: 50001, type: vmess, uuid: ffde381b-4a30-41d4-90eb-151f228b06ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qq, headers: {Host: aa.nbee.pp.ua}}, udp: true}
   - {name: 🇰🇷 韩国 006, server: 154.223.19.117, port: 46418, type: vmess, uuid: d1de8433-692d-47fd-9a8d-6ccb02ea39bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇱🇹 立陶宛 007, server: 185.148.104.118, port: 443, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hms02.fxiaomi.sbs/link, headers: {Host: ab-test-frosty-flower-e7fb.tariroc864.workers.dev}}, udp: true}
+  - {name: 🇱🇺 卢森堡 V2CROSS.COM, server: 5.188.108.13, port: 11790, type: trojan, password: .+QAJot50sDi6mvb, sni: runningshoes.purpletornado.click, skip-cert-verify: true, udp: true}
   - {name: 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇲🇩 摩尔多瓦 001, server: 5.182.39.44, port: 444, type: vmess, uuid: 7d52a409-aa5a-471f-aca5-e7621bf1b813, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇲🇾 马来西亚 - 吉隆坡 - TM TECHNOLOGY SERVICES SDN BHD - 6, server: 183.236.97.18, port: 17672, type: trojan, password: 70d53b4f-def3-48fd-8906-ae489ddf1ffe, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
@@ -939,6 +942,7 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.17.213.57, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.26.12.140, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip12.6929198.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 216.227.168.157, port: 45263, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2, server: 160.16.196.59, port: 2890, type: trojan, password: 76d630f2af6619c4a5de0ef953df3c6a, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 13.231.156.35, port: 968, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇻🇳 VN_speednode_0037, server: 103.186.154.192, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -1234,6 +1238,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国 V2CROSS.COM
       - 🇨🇿 捷克 001
       - 🇩🇪 德国 - Frankfurt Am Main - Hetzner Online AG - 2
       - 🇩🇪 德国 - 法兰克福 - Shenzhen Tencent Computer Systems Company Limited - 1
@@ -1362,9 +1367,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇮🇳 印度 - 海得拉巴 - Oracle Corporation - 1
       - 🇮🇳 英属印度洋领地 001
       - 🇮🇷 伊朗 005
@@ -1491,6 +1497,7 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇱🇹 立陶宛 007
+      - 🇱🇺 卢森堡 V2CROSS.COM
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
       - 🇲🇩 摩尔多瓦 001
       - 🇲🇾 马来西亚 - 吉隆坡 - TM TECHNOLOGY SERVICES SDN BHD - 6
@@ -1912,6 +1919,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇻🇳 VN_speednode_0037
@@ -2182,6 +2190,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国 V2CROSS.COM
       - 🇨🇿 捷克 001
       - 🇩🇪 德国 - Frankfurt Am Main - Hetzner Online AG - 2
       - 🇩🇪 德国 - 法兰克福 - Shenzhen Tencent Computer Systems Company Limited - 1
@@ -2310,9 +2319,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇮🇳 印度 - 海得拉巴 - Oracle Corporation - 1
       - 🇮🇳 英属印度洋领地 001
       - 🇮🇷 伊朗 005
@@ -2439,6 +2449,7 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇱🇹 立陶宛 007
+      - 🇱🇺 卢森堡 V2CROSS.COM
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
       - 🇲🇩 摩尔多瓦 001
       - 🇲🇾 马来西亚 - 吉隆坡 - TM TECHNOLOGY SERVICES SDN BHD - 6
@@ -2860,6 +2871,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇻🇳 VN_speednode_0037
@@ -3008,9 +3020,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
   - name: 🇹🇼 ‍台湾
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -3165,6 +3178,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国 V2CROSS.COM
       - 🇭🇰 HK-1.36.218.178-5027
       - 🇭🇰 HK-1.36.218.178-5151
       - 🇭🇰 HK-1.36.218.178-5158
@@ -3235,9 +3249,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -3754,6 +3769,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🎏 ‍其他
@@ -3948,6 +3964,7 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇱🇹 立陶宛 007
+      - 🇱🇺 卢森堡 V2CROSS.COM
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
       - 🇲🇩 摩尔多瓦 001
       - 🇲🇾 马来西亚 - 吉隆坡 - TM TECHNOLOGY SERVICES SDN BHD - 6
@@ -4075,9 +4092,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
     proxies:
@@ -4226,6 +4244,7 @@ proxy-groups:
       - 🇨🇳 中国 141
       - 🇨🇳 中国 142
       - 🇨🇳 中国 143
+      - 🇨🇳 中国 V2CROSS.COM
       - 🇭🇰 HK-1.36.218.178-5027
       - 🇭🇰 HK-1.36.218.178-5151
       - 🇭🇰 HK-1.36.218.178-5158
@@ -4296,9 +4315,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
       - 🇭🇰 香港3
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -4806,6 +4826,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他
@@ -4997,6 +5018,7 @@ proxy-groups:
       - 🇰🇷 韩国 005
       - 🇰🇷 韩国 006
       - 🇱🇹 立陶宛 007
+      - 🇱🇺 卢森堡 V2CROSS.COM
       - 🇲🇩 摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R.L. - 1
       - 🇲🇩 摩尔多瓦 001
       - 🇲🇾 马来西亚 - 吉隆坡 - TM TECHNOLOGY SERVICES SDN BHD - 6

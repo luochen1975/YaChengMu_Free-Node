@@ -45,13 +45,13 @@ proxies:
   - {name: ℹ️ 【机场推荐：https://a0a.xyz/】8, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: ℹ️ 【机场推荐：https://a0a.xyz/】9, server: aflzzul.meiquankongjian.com, port: 51515, type: vmess, uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflzzul.meiquankongjian.com}}, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇨🇦 加拿大多伦多 V2CROSS.COM, server: 198.57.27.27, port: 12990, type: trojan, password: 6pRjKQJ0CWyFtG.9, skip-cert-verify: true, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇳 _CN_中国, server: 219.79.214.159, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 _CN_中国_2, server: 103.149.183.80, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇩🇪 _DE_德国, server: 45.87.175.174, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
-  - {name: 🇩🇪 德国 - 法兰克福 - Play2go International Limited - 1, server: de1-nv.jugploer.icu, port: 2050, type: ss, cipher: chacha20-ietf-poly1305, password: 7saUuuV-YDq8BTKgWUQFARU5BuPeXEfZ, udp: true}
+  - {name: 🇩🇪 德国美因河畔法兰克福 xTom/AS3214, server: os-2.rise-fuji.com, port: 443, type: trojan, password: Fn9TZuYXiFYhsyp65T, sni: os-2.rise-fuji.com, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 🇫🇷 法国 - 巴黎 - Amazon Technologies Inc. - 1, server: 52.47.154.136, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国 09, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: v35.hdacd.com, udp: true}
   - {name: "🇬🇧 英国 - Slough - DigitalOcean, LLC - 1", server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: v36.hdacd.com, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -99,13 +99,15 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|18, server: bs2.jymzffbquawl.com, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|19, server: bs2.jymzffbquawl.com, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
-  - {name: 🇭🇰 中国 - 香港 - Amazon Technologies Inc. - 2, server: a001.standard-nodes-chickenfarms.com, port: 50000, type: ss, cipher: aes-256-gcm, password: 176c983f-6a7f-4a96-9865-891a6c48ec86, udp: true}
-  - {name: 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 1, server: 103.149.183.191, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-  - {name: 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 5, server: 103.149.182.86, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-  - {name: 🇭🇰 中国 - 香港 - Dodo K.K. - 4, server: jp9.trumpyun.pro, port: 28680, type: ss, cipher: chacha20-ietf-poly1305, password: 0c2c2621-f645-408f-8fa5-e57d5bc27b6e, udp: true}
+  - {name: "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 1", server: 8.210.248.133, port: 43307, type: vmess, uuid: f6a1f4ad-9d26-43c7-bce3-025df8dac591, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: "🇭🇰 中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 3", server: 8.218.238.254, port: 49496, type: vmess, uuid: cb4b3605-dfcd-4100-a9a8-76df4821ee2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/若想节点嘎嘎好用需先沐浴焚香然后给qq群938399693的群主磕800个响头(ಡωಡ)]}, udp: true}
+  - {name: 🇭🇰 中国 - 香港 - Alibaba.com LLC - 2, server: 47.242.73.27, port: 45189, type: vmess, uuid: f15e8eb0-beac-495c-e5b9-7d9b280a4d8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: 🇭🇰 中国 - 香港 - Cogent Communications - 5, server: ip.dudeuni.com, port: 52251, type: trojan, password: HQk9wst3vK, sni: ip.dudeuni.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 6, server: 103.149.182.38, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 103.149.182.86, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 香港3, server: 112.118.116.8, port: 443, type: trojan, password: f36f4495b4b26cc2fe346cfa23e05b1b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港4, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 _IR_伊朗, server: 217.60.249.112, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0eC4ZBvStOgQEzTpCYjWN5, udp: true}
   - {name: "🇯🇵 JP #1", server: shdata1.233netpro.com, port: 10121, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 Premium|广日|IEPL|01, server: pr3.jymzffbquawl.com, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -140,7 +142,7 @@ proxies:
   - {name: 🇸🇬 Standard|广新|IEPL|07, server: bs4.jymzffbquawl.com, port: 6602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|08, server: bs4.jymzffbquawl.com, port: 6603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇸🇬 新加坡, server: 202.181.103.235, port: 2760, type: trojan, password: f36f4495b4b26cc2fe346cfa23e05b1b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 新加坡 - 新加坡 - Amazon.com, Inc. - 1", server: ss.037.node-for-bigairport.win, port: 11688, type: ss, cipher: aes-256-gcm, password: 792e0bdb-01db-450c-94c4-925151eb396e, udp: true}
+  - {name: "🇸🇬 新加坡 - 新加坡 - Cloudflare, Inc. - 1", server: 162.159.24.131, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true}
   - {name: 🇸🇬 新加坡2, server: 160.16.82.24, port: 2760, type: trojan, password: f36f4495b4b26cc2fe346cfa23e05b1b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 160.16.153.13, port: 3901, type: trojan, password: f36f4495b4b26cc2fe346cfa23e05b1b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡3, server: 95.40.19.252, port: 1196, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -157,7 +159,6 @@ proxies:
   - {name: 🇹🇼 Standard|广台|IEPL|04, server: bs4.jymzffbquawl.com, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 Standard|广台|IEPL|05, server: bs4.jymzffbquawl.com, port: 3036, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 Standard|广台|IEPL|06, server: bs4.jymzffbquawl.com, port: 3046, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
-  - {name: 🇹🇼 中国 - 台湾 - Kaopu Cloud HK Limited - 3, server: 38.54.107.101, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|01, server: bs3.jymzffbquawl.com, port: 5600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|02, server: bs3.jymzffbquawl.com, port: 5601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|03, server: bs3.jymzffbquawl.com, port: 5602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -176,25 +177,17 @@ proxies:
   - {name: 🇺🇸 _US_美国_4 2, server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国, server: 38.180.137.196, port: 443, type: trojan, password: f36f4495b4b26cc2fe346cfa23e05b1b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.96.254.102, port: 18509, type: trojan, password: .ie4rghJuMkcf0oF, sni: shoppingmall.electricbanana.click, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2, server: 202.181.103.235, port: 4054, type: trojan, password: f36f4495b4b26cc2fe346cfa23e05b1b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 95.40.19.252, port: 1112, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.183.82.133, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 1, server: 103.186.154.142, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 10, server: 103.186.155.232, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 11, server: 103.186.155.4, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 12, server: 103.186.154.66, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 13, server: 103.186.155.223, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 14, server: 103.186.154.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 15, server: 103.186.155.142, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 16, server: 103.186.154.177, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 2, server: 103.186.155.69, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 3, server: 103.186.154.206, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 4, server: 103.186.155.15, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 5, server: 103.186.155.70, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 6, server: 103.186.155.5, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 7, server: 103.186.155.153, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 8, server: 103.186.155.83, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 9, server: 103.186.155.124, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 1, server: 103.186.154.244, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 2, server: 103.186.154.182, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 3, server: 103.186.155.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 4, server: 103.186.155.140, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 6, server: 103.186.154.223, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 7, server: 103.186.154.215, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - 河內市 - SPT - 5, server: 166.88.141.75, port: 20003, type: vmess, uuid: 54dfd347-68bd-4bc6-f887-f35c7bdbfa64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
 proxy-groups:
   - name: ✈️ ‍起飞
     type: select
@@ -259,13 +252,13 @@ proxy-groups:
       - ℹ️ 【机场推荐：https://a0a.xyz/】8
       - ℹ️ 【机场推荐：https://a0a.xyz/】9
       - 🇨🇦 _CA_加拿大
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 _CN_中国
       - 🇨🇳 _CN_中国_2
       - 🇩🇪 _DE_德国
-      - 🇩🇪 德国 - 法兰克福 - Play2go International Limited - 1
+      - 🇩🇪 德国美因河畔法兰克福 xTom/AS3214
       - 🇫🇷 _FR_法国
+      - 🇫🇷 法国 - 巴黎 - Amazon Technologies Inc. - 1
       - 🇫🇷 法国 09
       - 🇭🇰 HK_speednode_0002
       - 🇭🇰 Premium|广港|IEPL|01
@@ -308,13 +301,13 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 中国 - 香港 - Amazon Technologies Inc. - 2
-      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 1
-      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 5
-      - 🇭🇰 中国 - 香港 - Dodo K.K. - 4
+      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 2
+      - 🇭🇰 中国 - 香港 - Cogent Communications - 5
+      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
-      - 🇭🇰 香港4
       - 🇮🇷 _IR_伊朗
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
@@ -363,7 +356,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 中国 - 台湾 - Kaopu Cloud HK Limited - 3
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
       - 🇺🇸 Standard|广美|IEPL|03
@@ -381,25 +373,17 @@ proxy-groups:
       - 🇺🇸 _US_美国_4 2
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 10
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 11
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 12
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 13
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 14
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 15
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 16
       - 🇻🇳 越南 - Hải Dương - FASTLY - 2
       - 🇻🇳 越南 - Hải Dương - FASTLY - 3
       - 🇻🇳 越南 - Hải Dương - FASTLY - 4
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 5
       - 🇻🇳 越南 - Hải Dương - FASTLY - 6
       - 🇻🇳 越南 - Hải Dương - FASTLY - 7
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 8
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 9
+      - 🇻🇳 越南 - 河內市 - SPT - 5
   - name: 👆🏻 ‍指定
     type: select
     proxies:
@@ -439,13 +423,13 @@ proxy-groups:
       - ℹ️ 【机场推荐：https://a0a.xyz/】8
       - ℹ️ 【机场推荐：https://a0a.xyz/】9
       - 🇨🇦 _CA_加拿大
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 _CN_中国
       - 🇨🇳 _CN_中国_2
       - 🇩🇪 _DE_德国
-      - 🇩🇪 德国 - 法兰克福 - Play2go International Limited - 1
+      - 🇩🇪 德国美因河畔法兰克福 xTom/AS3214
       - 🇫🇷 _FR_法国
+      - 🇫🇷 法国 - 巴黎 - Amazon Technologies Inc. - 1
       - 🇫🇷 法国 09
       - 🇭🇰 HK_speednode_0002
       - 🇭🇰 Premium|广港|IEPL|01
@@ -488,13 +472,13 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 中国 - 香港 - Amazon Technologies Inc. - 2
-      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 1
-      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 5
-      - 🇭🇰 中国 - 香港 - Dodo K.K. - 4
+      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 2
+      - 🇭🇰 中国 - 香港 - Cogent Communications - 5
+      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
-      - 🇭🇰 香港4
       - 🇮🇷 _IR_伊朗
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
@@ -543,7 +527,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 中国 - 台湾 - Kaopu Cloud HK Limited - 3
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
       - 🇺🇸 Standard|广美|IEPL|03
@@ -561,25 +544,17 @@ proxy-groups:
       - 🇺🇸 _US_美国_4 2
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 10
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 11
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 12
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 13
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 14
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 15
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 16
       - 🇻🇳 越南 - Hải Dương - FASTLY - 2
       - 🇻🇳 越南 - Hải Dương - FASTLY - 3
       - 🇻🇳 越南 - Hải Dương - FASTLY - 4
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 5
       - 🇻🇳 越南 - Hải Dương - FASTLY - 6
       - 🇻🇳 越南 - Hải Dương - FASTLY - 7
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 8
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 9
+      - 🇻🇳 越南 - 河內市 - SPT - 5
   - name: 🛩️ ‍墙内
     type: select
     proxies:
@@ -673,13 +648,13 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 中国 - 香港 - Amazon Technologies Inc. - 2
-      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 1
-      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 5
-      - 🇭🇰 中国 - 香港 - Dodo K.K. - 4
+      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 2
+      - 🇭🇰 中国 - 香港 - Cogent Communications - 5
+      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
-      - 🇭🇰 香港4
   - name: 🇹🇼 ‍台湾
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -696,7 +671,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 中国 - 台湾 - Kaopu Cloud HK Limited - 3
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -746,13 +720,13 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 中国 - 香港 - Amazon Technologies Inc. - 2
-      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 1
-      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 5
-      - 🇭🇰 中国 - 香港 - Dodo K.K. - 4
+      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 2
+      - 🇭🇰 中国 - 香港 - Cogent Communications - 5
+      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
-      - 🇭🇰 香港4
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -763,7 +737,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 中国 - 台湾 - Kaopu Cloud HK Limited - 3
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -833,6 +806,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_4 2
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
@@ -878,32 +852,23 @@ proxy-groups:
       - ℹ️ 【机场推荐：https://a0a.xyz/】8
       - ℹ️ 【机场推荐：https://a0a.xyz/】9
       - 🇨🇦 _CA_加拿大
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇩🇪 _DE_德国
-      - 🇩🇪 德国 - 法兰克福 - Play2go International Limited - 1
+      - 🇩🇪 德国美因河畔法兰克福 xTom/AS3214
       - 🇫🇷 _FR_法国
+      - 🇫🇷 法国 - 巴黎 - Amazon Technologies Inc. - 1
       - 🇫🇷 法国 09
       - 🇮🇷 _IR_伊朗
       - 🇲🇩 _MD_摩尔多瓦
       - 🇳🇱 _NL_荷兰
       - 🇷🇺 _RU_俄罗斯_1
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 10
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 11
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 12
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 13
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 14
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 15
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 16
       - 🇻🇳 越南 - Hải Dương - FASTLY - 2
       - 🇻🇳 越南 - Hải Dương - FASTLY - 3
       - 🇻🇳 越南 - Hải Dương - FASTLY - 4
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 5
       - 🇻🇳 越南 - Hải Dương - FASTLY - 6
       - 🇻🇳 越南 - Hải Dương - FASTLY - 7
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 8
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 9
+      - 🇻🇳 越南 - 河內市 - SPT - 5
   - name: 👆🏻🇭🇰 ‍香港
     type: select
     proxies:
@@ -948,13 +913,13 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 中国 - 香港 - Amazon Technologies Inc. - 2
-      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 1
-      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 5
-      - 🇭🇰 中国 - 香港 - Dodo K.K. - 4
+      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 2
+      - 🇭🇰 中国 - 香港 - Cogent Communications - 5
+      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
-      - 🇭🇰 香港4
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
     proxies:
@@ -968,7 +933,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 中国 - 台湾 - Kaopu Cloud HK Limited - 3
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
@@ -1015,13 +979,13 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|18
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
-      - 🇭🇰 中国 - 香港 - Amazon Technologies Inc. - 2
-      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 1
-      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 5
-      - 🇭🇰 中国 - 香港 - Dodo K.K. - 4
+      - 🇭🇰 中国 - 香港 - Alibaba.com LLC - 2
+      - 🇭🇰 中国 - 香港 - Cogent Communications - 5
+      - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港2|@ripaojiedian
       - 🇭🇰 香港3
-      - 🇭🇰 香港4
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -1032,7 +996,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|04
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
-      - 🇹🇼 中国 - 台湾 - Kaopu Cloud HK Limited - 3
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
@@ -1093,6 +1056,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_4 2
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
@@ -1135,32 +1099,23 @@ proxy-groups:
       - ℹ️ 【机场推荐：https://a0a.xyz/】8
       - ℹ️ 【机场推荐：https://a0a.xyz/】9
       - 🇨🇦 _CA_加拿大
-      - 🇨🇦 加拿大多伦多 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇩🇪 _DE_德国
-      - 🇩🇪 德国 - 法兰克福 - Play2go International Limited - 1
+      - 🇩🇪 德国美因河畔法兰克福 xTom/AS3214
       - 🇫🇷 _FR_法国
+      - 🇫🇷 法国 - 巴黎 - Amazon Technologies Inc. - 1
       - 🇫🇷 法国 09
       - 🇮🇷 _IR_伊朗
       - 🇲🇩 _MD_摩尔多瓦
       - 🇳🇱 _NL_荷兰
       - 🇷🇺 _RU_俄罗斯_1
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 10
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 11
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 12
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 13
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 14
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 15
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 16
       - 🇻🇳 越南 - Hải Dương - FASTLY - 2
       - 🇻🇳 越南 - Hải Dương - FASTLY - 3
       - 🇻🇳 越南 - Hải Dương - FASTLY - 4
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 5
       - 🇻🇳 越南 - Hải Dương - FASTLY - 6
       - 🇻🇳 越南 - Hải Dương - FASTLY - 7
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 8
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 9
+      - 🇻🇳 越南 - 河內市 - SPT - 5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,DIRECT
   - DOMAIN-SUFFIX,ip6-localhost,DIRECT

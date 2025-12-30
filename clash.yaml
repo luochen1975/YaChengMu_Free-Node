@@ -82,11 +82,11 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Cogent Communications - 5, server: ip.dudeuni.com, port: 52251, type: trojan, password: HQk9wst3vK, sni: ip.dudeuni.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 6, server: 103.149.182.38, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 203.198.84.221, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司 3, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港2, server: 103.149.182.86, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 香港3, server: 58.152.18.226, port: 443, type: trojan, password: f36f4495b4b26cc2fe346cfa23e05b1b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港3|@ripaojiedian, server: 58.152.18.48, port: 443, type: trojan, password: f36f4495b4b26cc2fe346cfa23e05b1b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港4, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港5, server: 203.198.84.221, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 _IR_伊朗, server: 217.60.249.112, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0eC4ZBvStOgQEzTpCYjWN5, udp: true}
   - {name: "🇯🇵 JP #1", server: shdata1.233netpro.com, port: 10121, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 Premium|广日|IEPL|01, server: pr3.jymzffbquawl.com, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -264,11 +264,11 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Cogent Communications - 5
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
       - 🇮🇷 _IR_伊朗
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
@@ -417,11 +417,11 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Cogent Communications - 5
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
       - 🇮🇷 _IR_伊朗
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
@@ -599,11 +599,11 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Cogent Communications - 5
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
   - name: 🇹🇼 ‍台湾
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -673,11 +673,11 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Cogent Communications - 5
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -848,11 +848,11 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Cogent Communications - 5
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
     proxies:
@@ -916,11 +916,11 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Cogent Communications - 5
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司 2
+      - 🇭🇰 香港 电讯盈科有限公司 3
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03

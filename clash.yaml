@@ -310,7 +310,6 @@ proxies:
   - {name: 🇯🇵 Standard|广日|IEPL|07, server: bs4.jymzffbquawl.com, port: 4602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Standard|广日|IEPL|08, server: bs4.jymzffbquawl.com, port: 4603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本, server: 54.238.144.17, port: 3194, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 东京都Amazon数据中心, server: 18.181.195.198, port: 1112, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2, server: 52.198.241.226, port: 1933, type: trojan, password: f36f4495b4b26cc2fe346cfa23e05b1b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本3, server: 52.198.241.226, port: 4006, type: trojan, password: f36f4495b4b26cc2fe346cfa23e05b1b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 韩国 - Dongjak-gu - SK Broadband Co Ltd - 5, server: 218.50.149.114, port: 60940, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
@@ -372,6 +371,7 @@ proxies:
   - {name: 🇺🇸 美国 - 洛杉矶 - M247 Europe SRL - 2, server: 185.193.48.157, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: zwBLM6bBE5YxvwvnKgxAq3ErXpqMYv20, udp: true}
   - {name: 🇺🇸 美国 - 達拉斯 - NTT DATA - 1, server: 140.174.52.97, port: 37186, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 🇺🇸 美国 - 阿什本 - HostPapa - 9, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.96.254.102, port: 18509, type: trojan, password: .ie4rghJuMkcf0oF, sni: shoppingmall.electricbanana.click, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2, server: 153.121.44.99, port: 1281, type: trojan, password: f36f4495b4b26cc2fe346cfa23e05b1b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 3.113.31.15, port: 1221, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -696,7 +696,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
-      - 🇯🇵 日本 东京都Amazon数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇰🇷 韩国 - Dongjak-gu - SK Broadband Co Ltd - 5
@@ -756,6 +755,7 @@ proxy-groups:
       - 🇺🇸 美国 - 洛杉矶 - M247 Europe SRL - 2
       - 🇺🇸 美国 - 達拉斯 - NTT DATA - 1
       - 🇺🇸 美国 - 阿什本 - HostPapa - 9
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻 ‍指定
@@ -1055,7 +1055,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
-      - 🇯🇵 日本 东京都Amazon数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇰🇷 韩国 - Dongjak-gu - SK Broadband Co Ltd - 5
@@ -1115,6 +1114,7 @@ proxy-groups:
       - 🇺🇸 美国 - 洛杉矶 - M247 Europe SRL - 2
       - 🇺🇸 美国 - 達拉斯 - NTT DATA - 1
       - 🇺🇸 美国 - 阿什本 - HostPapa - 9
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🛩️ ‍墙内
@@ -1760,7 +1760,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
-      - 🇯🇵 日本 东京都Amazon数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本3
   - name: 🇺🇸 ‍美国
@@ -1790,6 +1789,7 @@ proxy-groups:
       - 🇺🇸 美国 - 洛杉矶 - M247 Europe SRL - 2
       - 🇺🇸 美国 - 達拉斯 - NTT DATA - 1
       - 🇺🇸 美国 - 阿什本 - HostPapa - 9
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🎏 ‍其他
@@ -2413,7 +2413,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
-      - 🇯🇵 日本 东京都Amazon数据中心
       - 🇯🇵 日本2
       - 🇯🇵 日本3
   - name: 👆🏻🇺🇸 ‍美国
@@ -2440,6 +2439,7 @@ proxy-groups:
       - 🇺🇸 美国 - 洛杉矶 - M247 Europe SRL - 2
       - 🇺🇸 美国 - 達拉斯 - NTT DATA - 1
       - 🇺🇸 美国 - 阿什本 - HostPapa - 9
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他

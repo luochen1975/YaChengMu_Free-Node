@@ -119,8 +119,8 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Ipxo LLC - 7, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 18d3ecf2-5231-4e82-8e7c-0cb2802c26ee, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Prime Security Corp. - 2, server: 47.112.189.21, port: 11234, type: ss, cipher: aes-256-gcm, password: 31ff2918-9330-4c11-afe0-d6c8b370684e, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.25.236, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港4, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.25.86, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港5, server: 58.152.25.236, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 _IR_伊朗, server: 217.60.249.112, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0eC4ZBvStOgQEzTpCYjWN5, udp: true}
   - {name: "🇯🇵 JP #1", server: shdata1.233netpro.com, port: 10121, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 Premium|广日|IEPL|01, server: pr3.jymzffbquawl.com, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -241,7 +241,9 @@ proxies:
   - {name: "🇺🇸 美国 - 肯特 - Cloudflare, Inc. - 32", server: 104.196.250.34, port: 2087, type: trojan, password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
   - {name: 🇺🇸 美国 - 西雅圖 - Casablanca INT fraction - 2, server: 85.239.232.127, port: 10026, type: ss, cipher: chacha20-ietf-poly1305, password: ef33c53f6e9e3c1b, udp: true}
   - {name: "🇺🇸 美国 - 迈阿密 - Cloudflare, Inc. - 17", server: 64.44.177.238, port: 10010, type: trojan, password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.96.254.102, port: 18509, type: trojan, password: .ie4rghJuMkcf0oF, sni: shoppingmall.electricbanana.click, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 18.177.146.37, port: 1112, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国科罗拉多州布隆菲尔德市 Level3, server: aflzzul.meiquankongjian.com, port: 52511, type: vmess, uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflzzul.meiquankongjian.com}}, udp: true}
   - {name: 🇻🇳 越南, server: 103.186.155.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 1, server: 103.186.155.52, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 10, server: 103.186.155.3, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -372,7 +374,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Prime Security Corp. - 2
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇮🇷 _IR_伊朗
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
@@ -444,7 +446,9 @@ proxy-groups:
       - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 1
       - 🇺🇸 美国 - 奥克顿 - OVH SAS - 4
       - 🇺🇸 美国 - 西雅圖 - Casablanca INT fraction - 2
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国3
+      - 🇺🇸 美国科罗拉多州布隆菲尔德市 Level3
       - 🇻🇳 越南
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
       - 🇻🇳 越南 - Hải Dương - FASTLY - 10
@@ -550,7 +554,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Prime Security Corp. - 2
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇮🇷 _IR_伊朗
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
@@ -622,7 +626,9 @@ proxy-groups:
       - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 1
       - 🇺🇸 美国 - 奥克顿 - OVH SAS - 4
       - 🇺🇸 美国 - 西雅圖 - Casablanca INT fraction - 2
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国3
+      - 🇺🇸 美国科罗拉多州布隆菲尔德市 Level3
       - 🇻🇳 越南
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
       - 🇻🇳 越南 - Hải Dương - FASTLY - 10
@@ -741,7 +747,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Prime Security Corp. - 2
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
   - name: 🇹🇼 ‍台湾
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -814,7 +820,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Prime Security Corp. - 2
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -890,7 +896,9 @@ proxy-groups:
       - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 1
       - 🇺🇸 美国 - 奥克顿 - OVH SAS - 4
       - 🇺🇸 美国 - 西雅圖 - Casablanca INT fraction - 2
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国3
+      - 🇺🇸 美国科罗拉多州布隆菲尔德市 Level3
   - name: 🎏 ‍其他
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -1014,7 +1022,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Prime Security Corp. - 2
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
     proxies:
@@ -1081,7 +1089,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Prime Security Corp. - 2
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -1148,7 +1156,9 @@ proxy-groups:
       - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 1
       - 🇺🇸 美国 - 奥克顿 - OVH SAS - 4
       - 🇺🇸 美国 - 西雅圖 - Casablanca INT fraction - 2
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国3
+      - 🇺🇸 美国科罗拉多州布隆菲尔德市 Level3
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:

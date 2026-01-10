@@ -162,7 +162,9 @@ proxies:
   - {name: 🇹🇼 Standard|广台|IEPL|05, server: bs4.jymzffbquawl.com, port: 3036, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 Standard|广台|IEPL|06, server: bs4.jymzffbquawl.com, port: 3046, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 TW_speednode_0025, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾省台中市 中华电信, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: db86510f-8f0e-4e0e-9534-746dd8e4d07e, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾省台中市 中华电信, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: f272b771-49f1-48f0-8ac4-ab7cd1a5c343, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾省台中市 中华电信 2, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 459850f0-b409-4f18-95e2-440d4ebea0cd, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇦 乌克兰 V2CROSS.COM 2, server: 85.90.207.104, port: 18793, type: ss, cipher: chacha20-ietf-poly1305, password: e716d7bbae4bdd14, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|01, server: bs3.jymzffbquawl.com, port: 5600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|02, server: bs3.jymzffbquawl.com, port: 5601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|03, server: bs3.jymzffbquawl.com, port: 5602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -205,7 +207,6 @@ proxies:
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 6, server: 103.186.155.104, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 7, server: 103.186.154.201, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 8, server: 103.186.155.229, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 9, server: 103.186.155.131, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: ✈️ ‍起飞
     type: select
@@ -382,6 +383,8 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0025
       - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台中市 中华电信 2
+      - 🇺🇦 乌克兰 V2CROSS.COM 2
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
       - 🇺🇸 Standard|广美|IEPL|03
@@ -423,7 +426,6 @@ proxy-groups:
       - 🇻🇳 越南 - Hải Dương - FASTLY - 6
       - 🇻🇳 越南 - Hải Dương - FASTLY - 7
       - 🇻🇳 越南 - Hải Dương - FASTLY - 8
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 9
   - name: 👆🏻 ‍指定
     type: select
     proxies:
@@ -575,6 +577,8 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0025
       - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台中市 中华电信 2
+      - 🇺🇦 乌克兰 V2CROSS.COM 2
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
       - 🇺🇸 Standard|广美|IEPL|03
@@ -616,7 +620,6 @@ proxy-groups:
       - 🇻🇳 越南 - Hải Dương - FASTLY - 6
       - 🇻🇳 越南 - Hải Dương - FASTLY - 7
       - 🇻🇳 越南 - Hải Dương - FASTLY - 8
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 9
   - name: 🛩️ ‍墙内
     type: select
     proxies:
@@ -754,6 +757,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0025
       - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台中市 中华电信 2
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -842,6 +846,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0025
       - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台中市 中华电信 2
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -952,6 +957,7 @@ proxy-groups:
       - 🇷🇺 RU_speednode_0016
       - 🇷🇺 RU_speednode_0017
       - 🇷🇺 俄罗斯 - 圣彼得堡 - LLC Baxet - 1
+      - 🇺🇦 乌克兰 V2CROSS.COM 2
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
       - 🇻🇳 越南 - Hải Dương - FASTLY - 10
       - 🇻🇳 越南 - Hải Dương - FASTLY - 11
@@ -973,7 +979,6 @@ proxy-groups:
       - 🇻🇳 越南 - Hải Dương - FASTLY - 6
       - 🇻🇳 越南 - Hải Dương - FASTLY - 7
       - 🇻🇳 越南 - Hải Dương - FASTLY - 8
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 9
   - name: 👆🏻🇭🇰 ‍香港
     type: select
     proxies:
@@ -1059,6 +1064,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0025
       - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台中市 中华电信 2
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
@@ -1144,6 +1150,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0025
       - 🇹🇼 台湾省台中市 中华电信
+      - 🇹🇼 台湾省台中市 中华电信 2
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
@@ -1242,6 +1249,7 @@ proxy-groups:
       - 🇷🇺 RU_speednode_0016
       - 🇷🇺 RU_speednode_0017
       - 🇷🇺 俄罗斯 - 圣彼得堡 - LLC Baxet - 1
+      - 🇺🇦 乌克兰 V2CROSS.COM 2
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
       - 🇻🇳 越南 - Hải Dương - FASTLY - 10
       - 🇻🇳 越南 - Hải Dương - FASTLY - 11
@@ -1263,7 +1271,6 @@ proxy-groups:
       - 🇻🇳 越南 - Hải Dương - FASTLY - 6
       - 🇻🇳 越南 - Hải Dương - FASTLY - 7
       - 🇻🇳 越南 - Hải Dương - FASTLY - 8
-      - 🇻🇳 越南 - Hải Dương - FASTLY - 9
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,DIRECT
   - DOMAIN-SUFFIX,ip6-localhost,DIRECT

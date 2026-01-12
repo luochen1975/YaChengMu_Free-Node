@@ -20,7 +20,7 @@ proxies:
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇳 _CN_中国, server: 156.244.36.105, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 34bafa5f59fc339f, udp: true}
   - {name: 🇨🇳 _CN_中国_1, server: 154.205.147.237, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 2272de48c53e0a57, udp: true}
-  - {name: 🇨🇳 中国 V2CROSS.COM, server: liubu9.singdns.com, port: 17459, type: ss, cipher: aes-128-gcm, password: 57bc0c04-8184-48f5-906b-897d095ed445, udp: true}
+  - {name: 🇨🇳 广东省湛江市 移动, server: tunnel2.qqa678.com, port: 47084, type: vmess, uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: "🇫🇷 法国 - 巴黎 - Amazon.com, Inc. - 1", server: 51.45.44.71, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -72,10 +72,10 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Strong Worth Holdings Limited - 2, server: 103.149.182.105, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Strong Worth Holdings Limited - 3, server: 103.141.221.124, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.25.220, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.46.60, port: 443, type: trojan, password: BxceQaOe, sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Bb2n.io%2Fv2ray-configs%2B%7C%2B160%2B", skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港2, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 96c798f6-4645-11ee-b8a1-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
   - {name: 🇭🇰 香港3, server: 112.118.116.123, port: 443, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港4, server: 58.152.25.220, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇺 _HU_匈牙利, server: 109.61.39.150, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 01dc0d7cbb650bc3, udp: true}
   - {name: 🇯🇴 _JO_约旦, server: 91.106.109.74, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 11bf054dcc0342cd, udp: true}
   - {name: "🇯🇵 JP #1", server: shdata1.233netpro.com, port: 10121, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -127,7 +127,7 @@ proxies:
   - {name: 🇹🇼 Standard|广台|IEPL|04, server: bs4.jymzffbquawl.com, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 Standard|广台|IEPL|05, server: bs4.jymzffbquawl.com, port: 3036, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 Standard|广台|IEPL|06, server: bs4.jymzffbquawl.com, port: 3046, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
-  - {name: 🇹🇼 台湾省台中市 中华电信, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 774b491c-f809-4dbd-b31c-bc3bd6ab92ac, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾省台中市 中华电信, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 91f1ea30-394c-43cf-b407-d0987bcab9af, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|01, server: bs3.jymzffbquawl.com, port: 5600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|02, server: bs3.jymzffbquawl.com, port: 5601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|03, server: bs3.jymzffbquawl.com, port: 5602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -200,7 +200,7 @@ proxy-groups:
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 _CN_中国
       - 🇨🇳 _CN_中国_1
-      - 🇨🇳 中国 V2CROSS.COM
+      - 🇨🇳 广东省湛江市 移动
       - 🇫🇷 _FR_法国
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -248,9 +248,9 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Strong Worth Holdings Limited - 3
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港4
       - 🇭🇺 _HU_匈牙利
       - 🇯🇴 _JO_约旦
       - 🇯🇵 Premium|广日|IEPL|01
@@ -347,7 +347,7 @@ proxy-groups:
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 _CN_中国
       - 🇨🇳 _CN_中国_1
-      - 🇨🇳 中国 V2CROSS.COM
+      - 🇨🇳 广东省湛江市 移动
       - 🇫🇷 _FR_法国
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -395,9 +395,9 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Strong Worth Holdings Limited - 3
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港4
       - 🇭🇺 _HU_匈牙利
       - 🇯🇴 _JO_约旦
       - 🇯🇵 Premium|广日|IEPL|01
@@ -578,9 +578,9 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Strong Worth Holdings Limited - 3
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港4
   - name: 🇹🇼 ‍台湾
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -606,7 +606,7 @@ proxy-groups:
     proxies:
       - 🇨🇳 _CN_中国
       - 🇨🇳 _CN_中国_1
-      - 🇨🇳 中国 V2CROSS.COM
+      - 🇨🇳 广东省湛江市 移动
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -653,9 +653,9 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Strong Worth Holdings Limited - 3
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港4
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -821,9 +821,9 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Strong Worth Holdings Limited - 3
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港4
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
     proxies:
@@ -843,7 +843,7 @@ proxy-groups:
     proxies:
       - 🇨🇳 _CN_中国
       - 🇨🇳 _CN_中国_1
-      - 🇨🇳 中国 V2CROSS.COM
+      - 🇨🇳 广东省湛江市 移动
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -890,9 +890,9 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Strong Worth Holdings Limited - 3
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港2
       - 🇭🇰 香港3
+      - 🇭🇰 香港4
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03

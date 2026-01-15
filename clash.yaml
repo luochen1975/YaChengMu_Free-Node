@@ -179,10 +179,10 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Leaseweb Hong Kong Limited - 27, server: 203.23.128.33, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇭🇰 中国 - 香港 - WSNT - 79, server: hk3.network-cdn-gw-yd.net, port: 32058, type: ss, cipher: chacha20-ietf-poly1305, password: aed6e687-58a9-4836-ba62-7d8184c94df4, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.53.219, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港2, server: 103.149.183.200, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 香港3, server: 58.152.110.111, port: 443, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4, server: 58.152.25.130, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港5, server: 58.152.53.219, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇺 _HU_匈牙利, server: 109.61.39.150, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 01dc0d7cbb650bc3, udp: true}
   - {name: 🇯🇴 _JO_约旦, server: 91.106.109.74, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 11bf054dcc0342cd, udp: true}
   - {name: "🇯🇵 JP #1", server: shdata1.233netpro.com, port: 10121, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -201,6 +201,7 @@ proxies:
   - {name: 🇯🇵 日本, server: 57.180.65.162, port: 2053, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 - 东京 - Kaopu Cloud HK Limited - 1, server: 154.205.139.9, port: 11204, type: ss, cipher: chacha20-ietf-poly1305, password: 303ac65e30f28b0b, udp: true}
   - {name: 🇯🇵 日本 - 东京 - Kaopu Cloud HK Limited - 2, server: 154.205.139.9, port: 11203, type: ss, cipher: chacha20-ietf-poly1305, password: 303ac65e30f28b0b, udp: true}
+  - {name: 🇯🇵 日本 V2CROSS.COM, server: 43.206.227.6, port: 2053, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2, server: 160.16.81.84, port: 4006, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本3, server: 160.16.89.176, port: 4006, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 _KR_韩国, server: 221.150.109.89, port: 43231, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
@@ -264,7 +265,7 @@ proxies:
   - {name: 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 2, server: 212.56.42.207, port: 29551, type: ss, cipher: chacha20-ietf-poly1305, password: 90e3f0733aa4fe2b, udp: true}
   - {name: 🇺🇸 美国 - 洛杉矶 - Akile LTD - 4, server: tunnel1.qqa678.com, port: 47084, type: vmess, uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - 洛杉矶 - HostPapa - 9, server: 8.138.92.143, port: 23382, type: ss, cipher: aes-128-gcm, password: beddd73b-ed90-4e76-8a30-492384220878, udp: true}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.96.254.102, port: 18509, type: trojan, password: .ie4rghJuMkcf0oF, sni: shoppingmall.electricbanana.click, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: c7.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c7.620720.xyz}}, udp: true}
   - {name: 🇺🇸 美国2, server: 160.16.89.176, port: 5076, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 13.113.239.128, port: 1112, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇻🇳 VN_speednode_0045, server: 103.186.155.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -484,10 +485,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Leaseweb Hong Kong Limited - 27
       - 🇭🇰 中国 - 香港 - WSNT - 79
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇭🇺 _HU_匈牙利
       - 🇯🇴 _JO_约旦
       - 🇯🇵 Premium|广日|IEPL|01
@@ -505,6 +506,7 @@ proxy-groups:
       - 🇯🇵 日本
       - 🇯🇵 日本 - 东京 - Kaopu Cloud HK Limited - 1
       - 🇯🇵 日本 - 东京 - Kaopu Cloud HK Limited - 2
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇰🇷 _KR_韩国
@@ -566,7 +568,7 @@ proxy-groups:
       - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 2
       - 🇺🇸 美国 - 洛杉矶 - Akile LTD - 4
       - 🇺🇸 美国 - 洛杉矶 - HostPapa - 9
-      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇻🇳 VN_speednode_0045
@@ -761,10 +763,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Leaseweb Hong Kong Limited - 27
       - 🇭🇰 中国 - 香港 - WSNT - 79
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇭🇺 _HU_匈牙利
       - 🇯🇴 _JO_约旦
       - 🇯🇵 Premium|广日|IEPL|01
@@ -782,6 +784,7 @@ proxy-groups:
       - 🇯🇵 日本
       - 🇯🇵 日本 - 东京 - Kaopu Cloud HK Limited - 1
       - 🇯🇵 日本 - 东京 - Kaopu Cloud HK Limited - 2
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇰🇷 _KR_韩国
@@ -843,7 +846,7 @@ proxy-groups:
       - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 2
       - 🇺🇸 美国 - 洛杉矶 - Akile LTD - 4
       - 🇺🇸 美国 - 洛杉矶 - HostPapa - 9
-      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇻🇳 VN_speednode_0045
@@ -1058,10 +1061,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Leaseweb Hong Kong Limited - 27
       - 🇭🇰 中国 - 香港 - WSNT - 79
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港5
   - name: 🇹🇼 ‍台湾
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -1229,10 +1232,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Leaseweb Hong Kong Limited - 27
       - 🇭🇰 中国 - 香港 - WSNT - 79
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -1284,6 +1287,7 @@ proxy-groups:
       - 🇯🇵 日本
       - 🇯🇵 日本 - 东京 - Kaopu Cloud HK Limited - 1
       - 🇯🇵 日本 - 东京 - Kaopu Cloud HK Limited - 2
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本3
   - name: 🇺🇸 ‍美国
@@ -1314,7 +1318,7 @@ proxy-groups:
       - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 2
       - 🇺🇸 美国 - 洛杉矶 - Akile LTD - 4
       - 🇺🇸 美国 - 洛杉矶 - HostPapa - 9
-      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🎏 ‍其他
@@ -1522,10 +1526,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Leaseweb Hong Kong Limited - 27
       - 🇭🇰 中国 - 香港 - WSNT - 79
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港5
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
     proxies:
@@ -1687,10 +1691,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Leaseweb Hong Kong Limited - 27
       - 🇭🇰 中国 - 香港 - WSNT - 79
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -1736,6 +1740,7 @@ proxy-groups:
       - 🇯🇵 日本
       - 🇯🇵 日本 - 东京 - Kaopu Cloud HK Limited - 1
       - 🇯🇵 日本 - 东京 - Kaopu Cloud HK Limited - 2
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本3
   - name: 👆🏻🇺🇸 ‍美国
@@ -1763,7 +1768,7 @@ proxy-groups:
       - 🇺🇸 美国 - 圣路易斯 - Contabo Inc. - 2
       - 🇺🇸 美国 - 洛杉矶 - Akile LTD - 4
       - 🇺🇸 美国 - 洛杉矶 - HostPapa - 9
-      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他

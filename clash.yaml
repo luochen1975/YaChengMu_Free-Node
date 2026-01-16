@@ -39,7 +39,7 @@ proxies:
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇳 _CN_中国, server: 156.244.36.105, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 34bafa5f59fc339f, udp: true}
   - {name: 🇨🇳 _CN_中国_1, server: 154.205.147.237, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 2272de48c53e0a57, udp: true}
-  - {name: 🇨🇳 广东省湛江市 移动, server: tunnel1.qqa678.com, port: 47084, type: vmess, uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 广东省湛江市 移动, server: 120.198.71.161, port: 47084, type: vmess, uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇿 CZ_speednode_0001, server: 194.87.10.161, port: 8388, type: ss, cipher: aes-256-gcm, password: d2umVadPT1m/FwIn, udp: true}
   - {name: 🇩🇪 德国 - Frankfurt Am Main - xTom GmbH - 2, server: pro-fw-de1.eisbeinhock.com, port: 5221, type: trojan, password: 8jJVmFbM7qKnR3bSXX, sni: pro-fw-de1.eisbeinhock.com, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 德国 - Frankfurt Am Main - xTom GmbH - 3, server: pro-de1.eisbeinhock.com, port: 465, type: trojan, password: 8jJVmFbM7qKnR3bSXX, sni: pro-de1.eisbeinhock.com, skip-cert-verify: true, udp: true}
@@ -102,7 +102,8 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 5, server: pro-iplc-hk2-1.dimsumyumcha.com, port: 6002, type: trojan, password: 8jJVmFbM7qKnR3bSXX, sni: pro-iplc-hk2-1.dimsumyumcha.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 6, server: pro-iplc-hk2-2.dimsumyumcha.com, port: 6002, type: trojan, password: 8jJVmFbM7qKnR3bSXX, sni: pro-iplc-hk2-2.dimsumyumcha.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.53.219, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 特别行政区, server: ru2.nnvpn.io, port: 443, type: trojan, password: yUHNMwWvenoHBaN5CtqKPwt1CTzXgW, sni: ru2.nnvpn.io, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.53.219, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.53.219, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港2, server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 香港3, server: 58.152.110.111, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4, server: 52.196.143.203, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -328,6 +329,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 5
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 特别行政区
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -525,6 +527,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 5
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 特别行政区
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -730,6 +733,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 5
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 特别行政区
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -811,6 +815,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 5
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 特别行政区
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -1029,6 +1034,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 5
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 特别行政区
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -1104,6 +1110,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 5
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 特别行政区
       - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3

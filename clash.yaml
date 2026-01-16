@@ -41,7 +41,7 @@ proxies:
   - {name: 🇨🇳 CN_speednode_0006, server: hk13.network-cdn-gw-yd.net, port: 32061, type: ss, cipher: chacha20-ietf-poly1305, password: aed6e687-58a9-4836-ba62-7d8184c94df4, udp: true}
   - {name: 🇨🇳 _CN_中国, server: 156.244.36.105, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 34bafa5f59fc339f, udp: true}
   - {name: 🇨🇳 _CN_中国_1, server: 154.205.147.237, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 2272de48c53e0a57, udp: true}
-  - {name: 🇨🇳 广东省广州市 电信, server: aflzzul.meiquankongjian.com, port: 52512, type: vmess, uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflzzul.meiquankongjian.com}}, udp: true}
+  - {name: 🇨🇳 广东省湛江市 移动, server: tunnel1.qqa678.com, port: 47084, type: vmess, uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 德国 - Frankfurt Am Main - xTom GmbH - 2, server: pro-fw-de1.eisbeinhock.com, port: 5221, type: trojan, password: 8jJVmFbM7qKnR3bSXX, sni: pro-fw-de1.eisbeinhock.com, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 德国 - Frankfurt Am Main - xTom GmbH - 3, server: pro-de1.eisbeinhock.com, port: 465, type: trojan, password: 8jJVmFbM7qKnR3bSXX, sni: pro-de1.eisbeinhock.com, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1, server: zula.ir, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: nasnet-511952424.mcitel.co, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: zula.ir}}, udp: true}
@@ -103,10 +103,10 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 5, server: pro-iplc-hk2-1.dimsumyumcha.com, port: 6002, type: trojan, password: 8jJVmFbM7qKnR3bSXX, sni: pro-iplc-hk2-1.dimsumyumcha.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 6, server: pro-iplc-hk2-2.dimsumyumcha.com, port: 6002, type: trojan, password: 8jJVmFbM7qKnR3bSXX, sni: pro-iplc-hk2-2.dimsumyumcha.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.53.219, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港2, server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 香港3, server: 58.152.110.111, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4, server: 52.196.143.203, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港5, server: 58.152.53.219, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港6, server: oss-4.qqa678.com, port: 47081, type: vmess, uuid: e49b8721-f124-4999-814a-fc777c0ae190, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇺 _HU_匈牙利, server: 109.61.39.150, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 01dc0d7cbb650bc3, udp: true}
   - {name: 🇯🇴 _JO_约旦, server: 91.106.109.74, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 11bf054dcc0342cd, udp: true}
@@ -135,7 +135,6 @@ proxies:
   - {name: 🇰🇷 _KR_韩国_3, server: 121.170.203.147, port: 61417, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 🇰🇷 _KR_韩国_4, server: 211.201.169.70, port: 19307, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 🇰🇷 _KR_韩国_5, server: 218.234.149.9, port: 4483, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 🇰🇷 韩国 首尔Amazon数据中心, server: cgroup.node2.v.nodelist-airport.com, port: 53113, type: vmess, uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 _NL_荷兰_1, server: fl3.cowjuice.me, port: 9443, type: ss, cipher: chacha20-ietf-poly1305, password: X36TIi4C3NH6Oln3TdGyjg, udp: true}
   - {name: 🇳🇱 荷兰 - 哈勒姆 - Online SAS NL - 1, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - xTom GmbH - 2, server: pro-fw-nl1.bananenpannenkoekjes.com, port: 6033, type: trojan, password: 8jJVmFbM7qKnR3bSXX, sni: pro-fw-nl1.bananenpannenkoekjes.com, skip-cert-verify: true, udp: true}
@@ -272,7 +271,7 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 _CN_中国
       - 🇨🇳 _CN_中国_1
-      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省湛江市 移动
       - 🇩🇪 德国 - Frankfurt Am Main - xTom GmbH - 2
       - 🇩🇪 德国 - Frankfurt Am Main - xTom GmbH - 3
       - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
@@ -329,10 +328,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 5
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
-      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇺 _HU_匈牙利
       - 🇯🇴 _JO_约旦
@@ -360,7 +359,6 @@ proxy-groups:
       - 🇰🇷 _KR_韩国_3
       - 🇰🇷 _KR_韩国_4
       - 🇰🇷 _KR_韩国_5
-      - 🇰🇷 韩国 首尔Amazon数据中心
       - 🇳🇱 _NL_荷兰_1
       - 🇳🇱 荷兰 - 哈勒姆 - Online SAS NL - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - xTom GmbH - 2
@@ -470,7 +468,7 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 _CN_中国
       - 🇨🇳 _CN_中国_1
-      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省湛江市 移动
       - 🇩🇪 德国 - Frankfurt Am Main - xTom GmbH - 2
       - 🇩🇪 德国 - Frankfurt Am Main - xTom GmbH - 3
       - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
@@ -527,10 +525,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 5
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
-      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇭🇺 _HU_匈牙利
       - 🇯🇴 _JO_约旦
@@ -558,7 +556,6 @@ proxy-groups:
       - 🇰🇷 _KR_韩国_3
       - 🇰🇷 _KR_韩国_4
       - 🇰🇷 _KR_韩国_5
-      - 🇰🇷 韩国 首尔Amazon数据中心
       - 🇳🇱 _NL_荷兰_1
       - 🇳🇱 荷兰 - 哈勒姆 - Online SAS NL - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - xTom GmbH - 2
@@ -732,10 +729,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 5
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
-      - 🇭🇰 香港5
       - 🇭🇰 香港6
   - name: 🇹🇼 ‍台湾
     type: url-test
@@ -769,7 +766,7 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 _CN_中国
       - 🇨🇳 _CN_中国_1
-      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省湛江市 移动
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -817,10 +814,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 5
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
-      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -956,7 +953,6 @@ proxy-groups:
       - 🇰🇷 _KR_韩国_3
       - 🇰🇷 _KR_韩国_4
       - 🇰🇷 _KR_韩国_5
-      - 🇰🇷 韩国 首尔Amazon数据中心
       - 🇳🇱 _NL_荷兰_1
       - 🇳🇱 荷兰 - 哈勒姆 - Online SAS NL - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - xTom GmbH - 2
@@ -1031,10 +1027,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 5
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
-      - 🇭🇰 香港5
       - 🇭🇰 香港6
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
@@ -1062,7 +1058,7 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0006
       - 🇨🇳 _CN_中国
       - 🇨🇳 _CN_中国_1
-      - 🇨🇳 广东省广州市 电信
+      - 🇨🇳 广东省湛江市 移动
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -1110,10 +1106,10 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 5
       - 🇭🇰 中国 - 香港 - xTom Hong Kong Limited - 6
       - 🇭🇰 香港
+      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
-      - 🇭🇰 香港5
       - 🇭🇰 香港6
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
@@ -1237,7 +1233,6 @@ proxy-groups:
       - 🇰🇷 _KR_韩国_3
       - 🇰🇷 _KR_韩国_4
       - 🇰🇷 _KR_韩国_5
-      - 🇰🇷 韩国 首尔Amazon数据中心
       - 🇳🇱 _NL_荷兰_1
       - 🇳🇱 荷兰 - 哈勒姆 - Online SAS NL - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - xTom GmbH - 2

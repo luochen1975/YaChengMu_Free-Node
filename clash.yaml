@@ -142,7 +142,6 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - ZYC Network LLC - 74, server: gd.bjnet2.com, port: 36602, type: ss, cipher: aes-128-gcm, password: be1c6eab-3d70-4cf0-ae9a-b3175c7dfb47, plugin: obfs, plugin-opts: {mode: http, host: 9962b9147f2651d984febb6ba061f477.baidu.com}, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港 电讯盈科有限公司, server: 58.152.53.219, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2525252Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 阿里云, server: n1761214908.wpg27.xyz, port: 443, type: vmess, uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1761214908.wpg27.xyz}}, udp: true}
   - {name: 🇭🇰 香港2, server: 91.149.236.182, port: 8388, type: ss, cipher: aes-256-gcm, password: OWsoMhOel+7mcZ+p, udp: true}
   - {name: 🇭🇰 香港4, server: 95.40.93.39, port: 3830, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5, server: 95.40.53.47, port: 3830, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -206,6 +205,7 @@ proxies:
   - {name: 🇹🇼 Standard|广台|IEPL|06, server: bs4.jymzffbquawl.com, port: 3046, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 TW_speednode_0034, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇹🇼 中国 - 台湾 - Akari Networks Limited - 69, server: 103.236.62.154, port: 33016, type: ss, cipher: 2022-blake3-aes-256-gcm, password: gD3jd3cGohPuzaqFc9fzHGXScgJcevr8LRj42Gowf9Q=:yNJ9VUaxMEl52+9Ot/zia7PsAS0aqIegUZUgGviscVM=, udp: true}
+  - {name: 🇹🇼 台湾省台中市 中华电信, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 04709581-0161-4d78-b03c-0f74a6513f2a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|01, server: bs3.jymzffbquawl.com, port: 5600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|02, server: bs3.jymzffbquawl.com, port: 5601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|03, server: bs3.jymzffbquawl.com, port: 5602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -419,7 +419,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - ZYC Network LLC - 74
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 阿里云
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港5
@@ -480,6 +479,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0034
       - 🇹🇼 中国 - 台湾 - Akari Networks Limited - 69
+      - 🇹🇼 台湾省台中市 中华电信
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
       - 🇺🇸 Standard|广美|IEPL|03
@@ -667,7 +667,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - ZYC Network LLC - 74
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 阿里云
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港5
@@ -728,6 +727,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0034
       - 🇹🇼 中国 - 台湾 - Akari Networks Limited - 69
+      - 🇹🇼 台湾省台中市 中华电信
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
       - 🇺🇸 Standard|广美|IEPL|03
@@ -944,7 +944,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - ZYC Network LLC - 74
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 阿里云
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港5
@@ -966,6 +965,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0034
       - 🇹🇼 中国 - 台湾 - Akari Networks Limited - 69
+      - 🇹🇼 台湾省台中市 中华电信
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -1083,7 +1083,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - ZYC Network LLC - 74
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 阿里云
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港5
@@ -1099,6 +1098,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0034
       - 🇹🇼 中国 - 台湾 - Akari Networks Limited - 69
+      - 🇹🇼 台湾省台中市 中华电信
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -1353,7 +1353,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - ZYC Network LLC - 74
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 阿里云
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港5
@@ -1372,6 +1371,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0034
       - 🇹🇼 中国 - 台湾 - Akari Networks Limited - 69
+      - 🇹🇼 台湾省台中市 中华电信
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
@@ -1486,7 +1486,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - ZYC Network LLC - 74
       - 🇭🇰 香港
       - 🇭🇰 香港 电讯盈科有限公司
-      - 🇭🇰 香港 阿里云
       - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港5
@@ -1502,6 +1501,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0034
       - 🇹🇼 中国 - 台湾 - Akari Networks Limited - 69
+      - 🇹🇼 台湾省台中市 中华电信
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:

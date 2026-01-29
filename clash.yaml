@@ -10,7 +10,6 @@ global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
   - {name: ℹ️ tg频道:@freenodedaily, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 不限速不限设备, server: 58.152.53.45, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 澳大利亚 - 堪培拉 - WorkTitans B.V. - 1, server: 45.15.185.70, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -20,7 +19,6 @@ proxies:
   - {name: 🇨🇳 CN_speednode_0004, server: mofahx2.til69.com, port: 33243, type: trojan, password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5, sni: v1-dy.ixigua.com, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN_speednode_0005, server: tunnel2.qqa678.com, port: 47083, type: vmess, uuid: 2ab2ff5b-9684-4150-bec0-6bd036ae7c26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN_speednode_0006, server: mofacpdd.til69.com, port: 39841, type: ss, cipher: chacha20-ietf-poly1305, password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6, udp: true}
-  - {name: 🇨🇳 新疆西藏福建可用, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true}
   - {name: 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1, server: 172.67.204.84, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-511952424.mcitel.co}}, udp: true}
   - {name: 🇩🇪 德国 - 法兰克福 - WAIcore Ltd - 2, server: 193.233.254.8, port: 1080, type: socks5, username: T2dAMTkzLjIzMy4yNTQuODo%3D, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 德国 黑森州法兰克福Choopa数据中心, server: 45.32.158.138, port: 20994, type: trojan, password: x.8ur1QiCyzlRHXeaB5UwoDfgZ04s, sni: ads.x5.ru, skip-cert-verify: true, udp: true}
@@ -29,6 +27,7 @@ proxies:
   - {name: 🇫🇷 FR_speednode_0009, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇬🇧 GB_speednode_0010, server: 185.245.83.41, port: 31687, type: trojan, password: 42bbf526-5530-470a-aeec-3b919b21c58d, sni: 0000.hkvip.ip-ddns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 0000.hkvip.ip-ddns.com}}, udp: true}
+  - {name: 🇬🇧 英国, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 113.108.0.62 #1", server: 113.108.0.62, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 117.78.52.97 #1", server: 117.78.52.97, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -75,7 +74,6 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 1, server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: 58.152.25.130, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港3, server: 58.152.110.210, port: 443, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4, server: 95.40.75.51, port: 2266, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4|@ripaojiedian, server: 95.40.16.175, port: 2266, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -96,7 +94,6 @@ proxies:
   - {name: 🇯🇵 Standard|广日|IEPL|07, server: bs4.jymzffbquawl.com, port: 4602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Standard|广日|IEPL|08, server: bs4.jymzffbquawl.com, port: 4603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本, server: 13.159.16.204, port: 3760, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 东京阿里云, server: n1753598451.74qxv.top, port: 443, type: vmess, uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1753598451.74qxv.top}}, udp: true}
   - {name: 🇯🇵 日本2, server: 153.121.39.240, port: 1933, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.57.238, port: 1933, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本3, server: 202.181.103.246, port: 3423, type: trojan, password: 869e9086806483ca4744a4cb0f3d6e16, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
@@ -107,8 +104,9 @@ proxies:
   - {name: 🇳🇱 NL_speednode_0016, server: 163.5.207.235, port: 443, type: trojan, password: 42bbf526-5530-470a-aeec-3b919b21c58d, sni: 0000.hkvip.ip-ddns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 0000.hkvip.ip-ddns.com}}, udp: true}
   - {name: 🇳🇱 NL_speednode_0017, server: 163.5.207.31, port: 443, type: trojan, password: 42bbf526-5530-470a-aeec-3b919b21c58d, sni: 0000.hkvip.ip-ddns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 0000.hkvip.ip-ddns.com}}, udp: true}
   - {name: 🇳🇱 NL_speednode_0018, server: 2.59.183.233, port: 444, type: trojan, password: 42bbf526-5530-470a-aeec-3b919b21c58d, sni: 0000.hkvip.ip-ddns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 0000.hkvip.ip-ddns.com}}, udp: true}
-  - {name: 🇳🇱 荷兰 V2CROSS.COM, server: 145.133.64.171, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true}
+  - {name: 🇳🇴 挪威 V2CROSS.COM, server: 83.143.87.9, port: 18581, type: trojan, password: RPyW62_b9aH.ztJKeArou, sni: 83.143.87.9, skip-cert-verify: true, udp: true}
   - {name: 🇵🇱 PL_speednode_0019, server: 31.133.0.167, port: 2053, type: trojan, password: 42bbf526-5530-470a-aeec-3b919b21c58d, sni: 0000.hkvip.ip-ddns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 0000.hkvip.ip-ddns.com}}, udp: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 212.193.18.144, port: 36158, type: trojan, password: ZblhWr0mqMakCPg.N, sni: ya.ru, skip-cert-verify: true, udp: true}
   - {name: "🇸🇬 SG #1", server: gzdata1.233netpro.com, port: 10131, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|01, server: bs3.jymzffbquawl.com, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|02, server: bs3.jymzffbquawl.com, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -200,7 +198,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - ℹ️ tg频道:@freenodedaily
-      - 不限速不限设备
       - 🇦🇺 澳大利亚 - 堪培拉 - WorkTitans B.V. - 1
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -210,7 +207,6 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0004
       - 🇨🇳 CN_speednode_0005
       - 🇨🇳 CN_speednode_0006
-      - 🇨🇳 新疆西藏福建可用
       - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
       - 🇩🇪 德国 - 法兰克福 - WAIcore Ltd - 2
       - 🇩🇪 德国 黑森州法兰克福Choopa数据中心
@@ -219,6 +215,7 @@ proxy-groups:
       - 🇫🇷 FR_speednode_0009
       - 🇫🇷 _FR_法国
       - 🇬🇧 GB_speednode_0010
+      - 🇬🇧 英国
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -261,7 +258,6 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
@@ -281,7 +277,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
-      - 🇯🇵 日本 东京阿里云
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -292,8 +287,9 @@ proxy-groups:
       - 🇳🇱 NL_speednode_0016
       - 🇳🇱 NL_speednode_0017
       - 🇳🇱 NL_speednode_0018
-      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇳🇴 挪威 V2CROSS.COM
       - 🇵🇱 PL_speednode_0019
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
       - 🇸🇬 Standard|广新|IEPL|03
@@ -358,7 +354,6 @@ proxy-groups:
     type: select
     proxies:
       - ℹ️ tg频道:@freenodedaily
-      - 不限速不限设备
       - 🇦🇺 澳大利亚 - 堪培拉 - WorkTitans B.V. - 1
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -368,7 +363,6 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0004
       - 🇨🇳 CN_speednode_0005
       - 🇨🇳 CN_speednode_0006
-      - 🇨🇳 新疆西藏福建可用
       - 🇩🇪 德国 - 兰河畔林堡 - OVH SAS - 1
       - 🇩🇪 德国 - 法兰克福 - WAIcore Ltd - 2
       - 🇩🇪 德国 黑森州法兰克福Choopa数据中心
@@ -377,6 +371,7 @@ proxy-groups:
       - 🇫🇷 FR_speednode_0009
       - 🇫🇷 _FR_法国
       - 🇬🇧 GB_speednode_0010
+      - 🇬🇧 英国
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -419,7 +414,6 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
@@ -439,7 +433,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
-      - 🇯🇵 日本 东京阿里云
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -450,8 +443,9 @@ proxy-groups:
       - 🇳🇱 NL_speednode_0016
       - 🇳🇱 NL_speednode_0017
       - 🇳🇱 NL_speednode_0018
-      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇳🇴 挪威 V2CROSS.COM
       - 🇵🇱 PL_speednode_0019
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
       - 🇸🇬 Standard|广新|IEPL|03
@@ -606,7 +600,6 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
@@ -640,7 +633,6 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0004
       - 🇨🇳 CN_speednode_0005
       - 🇨🇳 CN_speednode_0006
-      - 🇨🇳 新疆西藏福建可用
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -683,7 +675,6 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
@@ -738,7 +729,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
-      - 🇯🇵 日本 东京阿里云
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -782,7 +772,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - ℹ️ tg频道:@freenodedaily
-      - 不限速不限设备
       - 🇦🇺 澳大利亚 - 堪培拉 - WorkTitans B.V. - 1
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -794,14 +783,16 @@ proxy-groups:
       - 🇫🇷 FR_speednode_0009
       - 🇫🇷 _FR_法国
       - 🇬🇧 GB_speednode_0010
+      - 🇬🇧 英国
       - 🇮🇱 IL_speednode_0011
       - 🇰🇷 KR_speednode_0012
       - 🇰🇷 KR_speednode_0013
       - 🇳🇱 NL_speednode_0016
       - 🇳🇱 NL_speednode_0017
       - 🇳🇱 NL_speednode_0018
-      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇳🇴 挪威 V2CROSS.COM
       - 🇵🇱 PL_speednode_0019
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇹🇷 TR_speednode_0021
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
       - 🇻🇳 越南 - Hải Dương - FASTLY - 10
@@ -858,7 +849,6 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
@@ -886,7 +876,6 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0004
       - 🇨🇳 CN_speednode_0005
       - 🇨🇳 CN_speednode_0006
-      - 🇨🇳 新疆西藏福建可用
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -929,7 +918,6 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司 2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
@@ -978,7 +966,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
-      - 🇯🇵 日本 东京阿里云
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -1016,7 +1003,6 @@ proxy-groups:
     type: select
     proxies:
       - ℹ️ tg频道:@freenodedaily
-      - 不限速不限设备
       - 🇦🇺 澳大利亚 - 堪培拉 - WorkTitans B.V. - 1
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -1028,14 +1014,16 @@ proxy-groups:
       - 🇫🇷 FR_speednode_0009
       - 🇫🇷 _FR_法国
       - 🇬🇧 GB_speednode_0010
+      - 🇬🇧 英国
       - 🇮🇱 IL_speednode_0011
       - 🇰🇷 KR_speednode_0012
       - 🇰🇷 KR_speednode_0013
       - 🇳🇱 NL_speednode_0016
       - 🇳🇱 NL_speednode_0017
       - 🇳🇱 NL_speednode_0018
-      - 🇳🇱 荷兰 V2CROSS.COM
+      - 🇳🇴 挪威 V2CROSS.COM
       - 🇵🇱 PL_speednode_0019
+      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇹🇷 TR_speednode_0021
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
       - 🇻🇳 越南 - Hải Dương - FASTLY - 10

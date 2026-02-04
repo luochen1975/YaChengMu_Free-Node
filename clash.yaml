@@ -11,6 +11,7 @@ keep-alive-interval: 360
 proxies:
   - {name: ℹ️ tg频道:@freenodedaily, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇧🇬 保加利亚 - 索菲亞 - G-Core Labs S.A. - 1, server: 89.44.197.181, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: zDLmeWRsfcFdKT1Tpy02xodEToqCldTxvZcRoPIZZtBdnIEL, udp: true}
+  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.98.0, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN", headers: {Host: nasnet-162191099.sharghdaily.co}}, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇳 CN_speednode_0002, server: 183.240.138.163, port: 19812, type: ss, cipher: chacha20-ietf-poly1305, password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e, udp: true}
@@ -82,8 +83,7 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9, server: ac9bceef-t9sf40-tubliy-1la7v.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Ipxo LLC - 1, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: ff739b47-5060-4cff-b770-526a6fe3dfe5, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 Amazon数据中心, server: ss.020.node-for-bigairport.win, port: 11688, type: ss, cipher: aes-256-gcm, password: b0c9d775-32f7-459a-b24d-ecda7c9f3720, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 203.198.84.150, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港3, server: 203.198.84.150, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4, server: 54.46.5.155, port: 2266, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4|@ripaojiedian, server: 18.177.138.102, port: 2266, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5, server: 57.181.26.149, port: 2266, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -129,6 +129,7 @@ proxies:
   - {name: "🇯🇵 日本 - 东京 - Amazon.com, Inc. - 5", server: d3wq6-g01.jp07-sh-vm0.entry.fr0528.art, port: 28783, type: vmess, uuid: e30e0cfb-61c5-39aa-ba45-c6835b01f236, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, servername: d3wq6-g01.jp07-sh-vm0.entry.fr0528.art, udp: true}
   - {name: "🇯🇵 日本 - 东京 - Amazon.com, Inc. - 6", server: 9cqgu-g05.jp04-1d-vm0.entry.fr0528.art, port: 448, type: vmess, uuid: 8133667f-a211-30d9-8aec-bf1034c6e11e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, servername: 9cqgu-g05.jp04-1d-vm0.entry.fr0528.art, udp: true}
   - {name: 🇯🇵 日本 - 横滨市 - InfoSphere - 2, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: a65b7412-5e62-4718-9dc2-2f63e011594a, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 V2CROSS.COM, server: 160.191.245.48, port: 58623, type: vmess, uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2, server: 157.120.36.210, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 116.80.60.36, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本3, server: 116.80.76.130, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
@@ -170,9 +171,7 @@ proxies:
   - {name: 🇹🇼 Standard|广台|IEPL|04, server: bs4.jymzffbquawl.com, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 Standard|广台|IEPL|05, server: bs4.jymzffbquawl.com, port: 3036, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 Standard|广台|IEPL|06, server: bs4.jymzffbquawl.com, port: 3046, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
-  - {name: 🇹🇼 台湾省台中市 中华电信, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 0e1a4026-89b4-4f9c-b7c4-8fb2933c30db, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾省台中市 中华电信 2, server: 220.130.58.136, port: 35501, type: trojan, password: 223c2f69-6b95-4555-9f68-14b14d72b7ea, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾省台中市 中华电信 3, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 63dbd122-6932-43ea-9c0e-06ed91f0d3d3, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾省台中市 中华电信, server: 220.130.58.136, port: 35501, type: trojan, password: 223c2f69-6b95-4555-9f68-14b14d72b7ea, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|01, server: bs3.jymzffbquawl.com, port: 5600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|02, server: bs3.jymzffbquawl.com, port: 5601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|03, server: bs3.jymzffbquawl.com, port: 5602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -195,9 +194,7 @@ proxies:
   - {name: 🇺🇸 美国 - 洛杉矶 - Sharktech - 2, server: cg1c02.waimaojd.com, port: 443, type: vmess, uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cg1c02.waimaojd.com, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c02.waimaojd.com}}, udp: true}
   - {name: 🇺🇸 美国 - 西雅圖 - Zhejiang Aiyun Network Technology Co Ltd - 5, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 88c03e37-4c72-4536-be0c-1f171c4627fa, sni: douyin.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - 阿什本 - Psychz Networks - 3, server: 140.174.186.5, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sy4.620720.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 172.64.152.23, port: 8443, type: vmess, uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: frsys.fl-dl.com, network: ws, ws-opts: {path: /gbt, headers: {Host: frsys.fl-dl.com}}, udp: true}
-  - {name: 🇺🇸 美国 Cloudinnovation数据中心, server: 154.83.2.156, port: 2086, type: vmess, uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v205.19740822.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: digitalocean.com, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/NASNET/cdn?ed=2560", headers: {Host: nasnet-571299667.rahavard365.co}}, udp: true}
   - {name: 🇺🇸 美国2, server: 38.180.193.194, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 3.112.197.3, port: 1221, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.182.62.89, port: 1221, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -273,6 +270,7 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - 🇧🇬 保加利亚 - 索菲亞 - G-Core Labs S.A. - 1
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 CN_speednode_0002
@@ -337,8 +335,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 Amazon数据中心
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
@@ -376,6 +373,7 @@ proxy-groups:
       - 🇯🇵 日本 - 东京 - Amazon.com - 25
       - 🇯🇵 日本 - 东京 - Amazon.com - 7
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 2
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -415,8 +413,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 台湾省台中市 中华电信
-      - 🇹🇼 台湾省台中市 中华电信 2
-      - 🇹🇼 台湾省台中市 中华电信 3
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
       - 🇺🇸 Standard|广美|IEPL|03
@@ -437,8 +433,6 @@ proxy-groups:
       - 🇺🇸 美国 - 西雅圖 - Zhejiang Aiyun Network Technology Co Ltd - 5
       - 🇺🇸 美国 - 阿什本 - Psychz Networks - 3
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
@@ -489,6 +483,7 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - 🇧🇬 保加利亚 - 索菲亞 - G-Core Labs S.A. - 1
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 CN_speednode_0002
@@ -553,8 +548,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 Amazon数据中心
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
@@ -592,6 +586,7 @@ proxy-groups:
       - 🇯🇵 日本 - 东京 - Amazon.com - 25
       - 🇯🇵 日本 - 东京 - Amazon.com - 7
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 2
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -631,8 +626,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 台湾省台中市 中华电信
-      - 🇹🇼 台湾省台中市 中华电信 2
-      - 🇹🇼 台湾省台中市 中华电信 3
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
       - 🇺🇸 Standard|广美|IEPL|03
@@ -653,8 +646,6 @@ proxy-groups:
       - 🇺🇸 美国 - 西雅圖 - Zhejiang Aiyun Network Technology Co Ltd - 5
       - 🇺🇸 美国 - 阿什本 - Psychz Networks - 3
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
@@ -804,8 +795,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 Amazon数据中心
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
@@ -827,8 +817,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 台湾省台中市 中华电信
-      - 🇹🇼 台湾省台中市 中华电信 2
-      - 🇹🇼 台湾省台中市 中华电信 3
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -894,8 +882,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 Amazon数据中心
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
@@ -911,8 +898,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 台湾省台中市 中华电信
-      - 🇹🇼 台湾省台中市 中华电信 2
-      - 🇹🇼 台湾省台中市 中华电信 3
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -971,6 +956,7 @@ proxy-groups:
       - 🇯🇵 日本 - 东京 - Amazon.com - 25
       - 🇯🇵 日本 - 东京 - Amazon.com - 7
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 2
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -1001,8 +987,6 @@ proxy-groups:
       - 🇺🇸 美国 - 西雅圖 - Zhejiang Aiyun Network Technology Co Ltd - 5
       - 🇺🇸 美国 - 阿什本 - Psychz Networks - 3
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
@@ -1014,6 +998,7 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - 🇧🇬 保加利亚 - 索菲亞 - G-Core Labs S.A. - 1
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇫🇷 _FR_法国
@@ -1127,8 +1112,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 Amazon数据中心
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
@@ -1147,8 +1131,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 台湾省台中市 中华电信
-      - 🇹🇼 台湾省台中市 中华电信 2
-      - 🇹🇼 台湾省台中市 中华电信 3
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
@@ -1211,8 +1193,7 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9
       - 🇭🇰 中国 - 香港 - Ipxo LLC - 1
       - 🇭🇰 香港
-      - 🇭🇰 香港 Amazon数据中心
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
@@ -1228,8 +1209,6 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 台湾省台中市 中华电信
-      - 🇹🇼 台湾省台中市 中华电信 2
-      - 🇹🇼 台湾省台中市 中华电信 3
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
@@ -1282,6 +1261,7 @@ proxy-groups:
       - 🇯🇵 日本 - 东京 - Amazon.com - 25
       - 🇯🇵 日本 - 东京 - Amazon.com - 7
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 2
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -1309,8 +1289,6 @@ proxy-groups:
       - 🇺🇸 美国 - 西雅圖 - Zhejiang Aiyun Network Technology Co Ltd - 5
       - 🇺🇸 美国 - 阿什本 - Psychz Networks - 3
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
@@ -1319,6 +1297,7 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - 🇧🇬 保加利亚 - 索菲亞 - G-Core Labs S.A. - 1
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇫🇷 _FR_法国

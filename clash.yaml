@@ -10,7 +10,9 @@ global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
   - {name: ℹ️ tg频道:@freenodedaily, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 亚太地区 V2CROSS.COM, server: liubu9.singdns.com, port: 17459, type: ss, cipher: aes-128-gcm, password: 57bc0c04-8184-48f5-906b-897d095ed445, udp: true}
   - {name: 🇧🇬 保加利亚 - 索菲亞 - G-Core Labs S.A. - 1, server: 89.44.197.181, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: zDLmeWRsfcFdKT1Tpy02xodEToqCldTxvZcRoPIZZtBdnIEL, udp: true}
+  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.98.0, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN", headers: {Host: nasnet-162191099.sharghdaily.co}}, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇳 CN_speednode_0002, server: 183.240.138.163, port: 19812, type: ss, cipher: chacha20-ietf-poly1305, password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e, udp: true}
@@ -88,7 +90,7 @@ proxies:
   - {name: 🇭🇰 香港5, server: 57.181.26.149, port: 2266, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5|@ripaojiedian, server: 58.152.30.222, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇮🇳 IN_speednode_0022, server: amanm.wsone.icu, port: 443, type: trojan, password: M7v%w11Se*, sni: amanm.wsone.icu, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 95.81.123.15, port: 40956, type: vmess, uuid: 12929592-a7bd-41eb-ab4d-d804f76c4ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: imafake.locker, network: ws, ws-opts: {path: /speedtest, headers: {Host: imafake.locker}}, udp: true}
+  - {name: 🇮🇸 冰岛 V2CROSS.COM, server: 37.235.49.209, port: 28099, type: trojan, password: qmBSKnAl6LYi9=z23Rs.Z, sni: celestialcorset.crystalhamster.click, skip-cert-verify: true, udp: true}
   - {name: "🇯🇵 JP #1", server: shdata1.233netpro.com, port: 10121, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 Premium|广日|IEPL|01, server: pr3.jymzffbquawl.com, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Premium|广日|IEPL|02, server: pr3.jymzffbquawl.com, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -129,7 +131,6 @@ proxies:
   - {name: "🇯🇵 日本 - 东京 - Amazon.com, Inc. - 5", server: d3wq6-g01.jp07-sh-vm0.entry.fr0528.art, port: 28783, type: vmess, uuid: e30e0cfb-61c5-39aa-ba45-c6835b01f236, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, servername: d3wq6-g01.jp07-sh-vm0.entry.fr0528.art, udp: true}
   - {name: "🇯🇵 日本 - 东京 - Amazon.com, Inc. - 6", server: 9cqgu-g05.jp04-1d-vm0.entry.fr0528.art, port: 448, type: vmess, uuid: 8133667f-a211-30d9-8aec-bf1034c6e11e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, servername: 9cqgu-g05.jp04-1d-vm0.entry.fr0528.art, udp: true}
   - {name: 🇯🇵 日本 - 横滨市 - InfoSphere - 2, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: a65b7412-5e62-4718-9dc2-2f63e011594a, sni: douyin.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 V2CROSS.COM, server: 160.191.245.48, port: 58623, type: vmess, uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2, server: 157.120.36.210, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 116.80.60.36, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本3, server: 116.80.76.130, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
@@ -193,12 +194,10 @@ proxies:
   - {name: 🇺🇸 美国 - 洛杉矶 - Sharktech - 2, server: cg1c02.waimaojd.com, port: 443, type: vmess, uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cg1c02.waimaojd.com, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c02.waimaojd.com}}, udp: true}
   - {name: 🇺🇸 美国 - 西雅圖 - Zhejiang Aiyun Network Technology Co Ltd - 5, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 88c03e37-4c72-4536-be0c-1f171c4627fa, sni: douyin.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - 阿什本 - Psychz Networks - 3, server: 140.174.186.5, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.64.149.182, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-5712964102.sharghdaily.co}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: tgju.org, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-571296497.iranpress.co}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 162.159.152.4, port: 8443, type: vmess, uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: frsys.fl-dl.com, network: ws, ws-opts: {path: /gbt, headers: {Host: frsys.fl-dl.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 104.21.69.44, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-511952424.mcitel.co}}, udp: true}
-  - {name: 🇺🇸 美国 Cloudinnovation数据中心, server: 154.83.2.156, port: 2086, type: vmess, uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v205.19740822.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 DXC Technology, server: 20.108.113.196, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 162.159.152.4, port: 8443, type: vmess, uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: frsys.fl-dl.com, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.21.69.44, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-511952424.mcitel.co}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: tgju.org, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-571296497.iranpress.co}}, udp: true}
+  - {name: 🇺🇸 美国 俄亥俄州特拉华、费尔菲尔德与富兰克林县哥伦布市SupremeBytes有限公司, server: 167.160.90.51, port: 11475, type: ss, cipher: aes-128-gcm, password: 523z2fgrd7jx0z5xv6o5, udp: true}
   - {name: 🇺🇸 美国2, server: 38.180.193.194, port: 443, type: trojan, password: c1d83c0c7d57cead4379ba14a82df69b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 3.112.197.3, port: 1221, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.182.62.89, port: 1221, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -273,7 +272,9 @@ proxy-groups:
     tolerance: 100
     proxies:
       - ℹ️ tg频道:@freenodedaily
+      - 亚太地区 V2CROSS.COM
       - 🇧🇬 保加利亚 - 索菲亞 - G-Core Labs S.A. - 1
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 CN_speednode_0002
@@ -344,7 +345,7 @@ proxy-groups:
       - 🇭🇰 香港5
       - 🇭🇰 香港5|@ripaojiedian
       - 🇮🇳 IN_speednode_0022
-      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇮🇸 冰岛 V2CROSS.COM
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
       - 🇯🇵 Premium|广日|IEPL|03
@@ -377,7 +378,6 @@ proxy-groups:
       - 🇯🇵 日本 - 东京 - Amazon.com - 25
       - 🇯🇵 日本 - 东京 - Amazon.com - 7
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 2
-      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -438,9 +438,7 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国 俄亥俄州特拉华、费尔菲尔德与富兰克林县哥伦布市SupremeBytes有限公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
@@ -490,7 +488,9 @@ proxy-groups:
     type: select
     proxies:
       - ℹ️ tg频道:@freenodedaily
+      - 亚太地区 V2CROSS.COM
       - 🇧🇬 保加利亚 - 索菲亞 - G-Core Labs S.A. - 1
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 CN_speednode_0002
@@ -561,7 +561,7 @@ proxy-groups:
       - 🇭🇰 香港5
       - 🇭🇰 香港5|@ripaojiedian
       - 🇮🇳 IN_speednode_0022
-      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇮🇸 冰岛 V2CROSS.COM
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
       - 🇯🇵 Premium|广日|IEPL|03
@@ -594,7 +594,6 @@ proxy-groups:
       - 🇯🇵 日本 - 东京 - Amazon.com - 25
       - 🇯🇵 日本 - 东京 - Amazon.com - 7
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 2
-      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -655,9 +654,7 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国 俄亥俄州特拉华、费尔菲尔德与富兰克林县哥伦布市SupremeBytes有限公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
@@ -966,7 +963,6 @@ proxy-groups:
       - 🇯🇵 日本 - 东京 - Amazon.com - 25
       - 🇯🇵 日本 - 东京 - Amazon.com - 7
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 2
-      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -999,9 +995,7 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国 俄亥俄州特拉华、费尔菲尔德与富兰克林县哥伦布市SupremeBytes有限公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
@@ -1012,14 +1006,16 @@ proxy-groups:
     tolerance: 100
     proxies:
       - ℹ️ tg频道:@freenodedaily
+      - 亚太地区 V2CROSS.COM
       - 🇧🇬 保加利亚 - 索菲亞 - G-Core Labs S.A. - 1
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 2
       - 🇬🇧 GB_speednode_0013
       - 🇮🇳 IN_speednode_0022
-      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇮🇸 冰岛 V2CROSS.COM
       - 🇰🇷 KR_speednode_0023
       - 🇰🇷 韩国
       - 🇰🇷 韩国 - Geumcheon-gu - Korea Telecom - 4
@@ -1274,7 +1270,6 @@ proxy-groups:
       - 🇯🇵 日本 - 东京 - Amazon.com - 25
       - 🇯🇵 日本 - 东京 - Amazon.com - 7
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 2
-      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -1304,9 +1299,7 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 Cloudinnovation数据中心
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国 俄亥俄州特拉华、费尔菲尔德与富兰克林县哥伦布市SupremeBytes有限公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
@@ -1314,14 +1307,16 @@ proxy-groups:
     type: select
     proxies:
       - ℹ️ tg频道:@freenodedaily
+      - 亚太地区 V2CROSS.COM
       - 🇧🇬 保加利亚 - 索菲亞 - G-Core Labs S.A. - 1
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - 巴黎 - Online S.A.S. - 2
       - 🇬🇧 GB_speednode_0013
       - 🇮🇳 IN_speednode_0022
-      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇮🇸 冰岛 V2CROSS.COM
       - 🇰🇷 KR_speednode_0023
       - 🇰🇷 韩国
       - 🇰🇷 韩国 - Geumcheon-gu - Korea Telecom - 4

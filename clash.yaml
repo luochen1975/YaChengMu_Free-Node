@@ -10,6 +10,7 @@ global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
   - {name: ℹ️ tg频道:@freenodedaily, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.98.0, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-162191099.sharghdaily.co}}, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇩🇪 德国 - 法兰克福 - Bage Cloud LLC - 1, server: vde4.stablep.top, port: 38846, type: trojan, password: a2f34326-dc35-45c9-8391-53606ee23b0c, skip-cert-verify: true, udp: true}
@@ -82,7 +83,6 @@ proxies:
   - {name: 🇯🇵 Standard|广日|IEPL|07, server: bs4.jymzffbquawl.com, port: 4602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Standard|广日|IEPL|08, server: bs4.jymzffbquawl.com, port: 4603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本, server: 18.183.170.92, port: 26378, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 V2CROSS.COM, server: 160.191.245.48, port: 58623, type: vmess, uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2, server: 202.181.103.246, port: 3423, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 160.16.124.55, port: 3423, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本3, server: 160.16.214.104, port: 3423, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
@@ -161,11 +161,12 @@ proxies:
   - {name: 🇺🇸 美国 - 費利蒙 - CGI GLOBAL LIMITED - 2, server: us9.stablep.top, port: 38822, type: trojan, password: a2f34326-dc35-45c9-8391-53606ee23b0c, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - 費利蒙 - CGI GLOBAL LIMITED - 4, server: us9.stablep.top, port: 38813, type: trojan, password: 8bb14fbc-db35-41d9-9c46-a99590511f69, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - 費利蒙 - CGI GLOBAL LIMITED - 5, server: us9.stablep.top, port: 38821, type: trojan, password: 8bb14fbc-db35-41d9-9c46-a99590511f69, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: t1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t1.620720.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 172.64.149.182, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-5712964102.sharghdaily.co}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sy4.620720.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: fffffg.890602.pp.ua, port: 80, type: vmess, uuid: 4a7baca1-8048-4a91-8316-595b36657a54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TaBvkrUbsyvsvinsGGg, headers: {Host: fffffg.890602.pp.ua}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 5, server: nnmjki9.191262.xyz, port: 80, type: vmess, uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /GgigazFGDLgFWDItkD5XgXAL, headers: {Host: NnMJkI9.191262.xYZ}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.64.149.182, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-5712964102.sharghdaily.co}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sy4.620720.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: eed4.7777125.xyz, port: 443, type: vmess, uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eed4.7777125.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: t1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t1.620720.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 6, server: 172.67.204.84, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-511952424.mcitel.co}}, udp: true}
+  - {name: 🇺🇸 美国 Cloudinnovation数据中心, server: 154.83.2.156, port: 2086, type: vmess, uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v205.19740822.xyz}}, udp: true}
   - {name: 🇺🇸 美国2, server: 38.180.107.76, port: 443, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 160.16.231.103, port: 2760, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 52.194.248.81, port: 4569, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -204,6 +205,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - ℹ️ tg频道:@freenodedaily
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇩🇪 德国 - 法兰克福 - Bage Cloud LLC - 1
@@ -271,7 +273,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
-      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -352,7 +353,8 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -366,6 +368,7 @@ proxy-groups:
     type: select
     proxies:
       - ℹ️ tg频道:@freenodedaily
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇩🇪 德国 - 法兰克福 - Bage Cloud LLC - 1
@@ -433,7 +436,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
-      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -514,7 +516,8 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -741,7 +744,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
-      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -790,7 +792,8 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -803,6 +806,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - ℹ️ tg频道:@freenodedaily
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇩🇪 德国 - 法兰克福 - Bage Cloud LLC - 1
@@ -984,7 +988,6 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
-      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -1030,7 +1033,8 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -1040,6 +1044,7 @@ proxy-groups:
     type: select
     proxies:
       - ℹ️ tg频道:@freenodedaily
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇩🇪 德国 - 法兰克福 - Bage Cloud LLC - 1

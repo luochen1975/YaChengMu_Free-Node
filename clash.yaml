@@ -12,7 +12,6 @@ proxies:
   - {name: ℹ️ tg频道:@freenodedaily, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "🇧🇭 巴林 - 麦纳麦 - Amazon.com, Inc. - 1", server: blaab.wsone.icu, port: 443, type: trojan, password: M7v%w11Se*, sni: blaab.wsone.icu, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇨🇦 加拿大 V2CROSS.COM, server: 167.17.185.172, port: 10889, type: trojan, password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj, sni: web.max.ru, skip-cert-verify: true, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇩🇪 德国 - 法兰克福 - Global Connectivity Solutions LLP - 1, server: 185.100.159.79, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: i9lip2dJ8kV4wJQ0pJuRr6, udp: true}
   - {name: 🇫🇮 芬兰 - 赫尔辛基 - Scalaxy B.V. - 2, server: 38.244.137.202, port: 45380, type: ss, cipher: chacha20-ietf-poly1305, password: E6GbjW3IZ4Wokvz4VYLj4o, udp: true}
@@ -78,6 +77,7 @@ proxies:
   - {name: 🇭🇰 香港4, server: 43.199.205.175, port: 2826, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5, server: 13.231.159.122, port: 2826, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇮🇩 印度尼西亚 - 雅加达 - Google LLC - 1, server: qfdfsg.wsone.icu, port: 443, type: trojan, password: M7v%w11Se*, sni: qfdfsg.wsone.icu, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: free-de-2.undef.network, port: 443, type: trojan, password: pYIoKUPGpWeTYXEx3HjR7s97B, sni: free-de-2.undef.network, skip-cert-verify: true, network: ws, ws-opts: {path: /f2fc2a1f, headers: {Host: free-de-2.undef.network}}, udp: true}
   - {name: "🇯🇵 JP #1", server: shdata1.233netpro.com, port: 10121, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 Premium|广日|IEPL|01, server: pr3.jymzffbquawl.com, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Premium|广日|IEPL|02, server: pr3.jymzffbquawl.com, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -97,6 +97,7 @@ proxies:
   - {name: "🇯🇵 日本 - 东京 - NTT PC Communications, Inc. - 2", server: 160.16.144.208, port: 3423, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 - 横滨市 - InfoSphere - 1, server: 160.16.57.238, port: 400, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 - 横滨市 - InfoSphere - 3, server: 13.113.192.229, port: 2595, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 V2CROSS.COM, server: 160.191.245.48, port: 58623, type: vmess, uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2, server: 160.16.117.182, port: 193, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本3, server: 160.16.105.192, port: 400, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 KR_speednode_0005, server: 121.169.46.116, port: 1090, type: socks5, username: Og%3D%3D, skip-cert-verify: true, udp: true}
@@ -105,7 +106,6 @@ proxies:
   - {name: 🇰🇷 韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1, server: 152.70.92.69, port: 80, type: vmess, uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
   - {name: "🇵🇹 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1", server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 212.193.18.144, port: 36158, type: trojan, password: ZblhWr0mqMakCPg.N, sni: ya.ru, skip-cert-verify: true, udp: true}
   - {name: "🇸🇬 SG #1", server: gzdata1.233netpro.com, port: 10131, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|01, server: bs3.jymzffbquawl.com, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|02, server: bs3.jymzffbquawl.com, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -157,12 +157,11 @@ proxies:
   - {name: 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8, server: nju.bb4.indevs.in, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, headers: {Host: nju.bb4.indevs.in}}, udp: true}
   - {name: 🇺🇸 美国 - 紐約 - Massivegrid LTD - 9, server: bnmj.wc6.ccwu.cc, port: 80, type: vmess, uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kFK9O5cl8ZycyrxcJWNVFC21, headers: {Host: bnmj.wc6.ccwu.cc}}, udp: true}
   - {name: "🇺🇸 美国 - 芝加哥 - HIVELOCITY, Inc. - 2", server: 43.207.89.113, port: 3159, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: bbbnmki.kk7.ccwu.cc, port: 80, type: vmess, uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kFK9O5cl8ZycyrxcJWNVFC21, headers: {Host: bbbnmki.kk7.ccwu.cc}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: mmko.tt0.ccwu.cc, port: 80, type: vmess, uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kFK9O5cl8ZycyrxcJWNVFC21, headers: {Host: mmko.tt0.ccwu.cc}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 172.67.204.84, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-511952424.mcitel.co}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 5, server: bbnj.wc9.ccwu.cc, port: 80, type: vmess, uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kFK9O5cl8ZycyrxcJWNVFC21, headers: {Host: bbnj.wc9.ccwu.cc}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.64.149.182, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-5712964102.sharghdaily.co}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: mmko.tt0.ccwu.cc, port: 80, type: vmess, uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kFK9O5cl8ZycyrxcJWNVFC21, headers: {Host: mmko.tt0.ccwu.cc}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: mmkio.wc5.ccwu.cc, port: 80, type: vmess, uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mmkio.wc5.ccwu.cc}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io, port: 443, type: vmess, uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /KHtPvNZl371C8NsbbZ1wwDhJ3, headers: {Host: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io}}, udp: true}
   - {name: 🇺🇸 美国 V2CROSS.COM, server: dll.avaaaal.ir, port: 8443, type: vmess, uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cdge.avaaaal.ir, network: ws, ws-opts: {path: /, headers: {Host: dll.avaaaal.ir}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: nextmi.hajmyab.ir, port: 2053, type: vmess, uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: app.hajmyab.ir}}, udp: true}
   - {name: 🇺🇸 美国2, server: 153.121.65.107, port: 1281, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 43.199.205.175, port: 3159, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 1, server: 103.186.154.223, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -218,7 +217,6 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
-      - 🇨🇦 加拿大 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇩🇪 德国 - 法兰克福 - Global Connectivity Solutions LLP - 1
       - 🇫🇮 芬兰 - 赫尔辛基 - Scalaxy B.V. - 2
@@ -278,6 +276,7 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇮🇩 印度尼西亚 - 雅加达 - Google LLC - 1
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
       - 🇯🇵 Premium|广日|IEPL|03
@@ -295,12 +294,12 @@ proxy-groups:
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 5
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 1
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 3
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇰🇷 KR_speednode_0005
       - 🇰🇷 韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2
       - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
       - 🇸🇬 Standard|广新|IEPL|03
@@ -348,11 +347,10 @@ proxy-groups:
       - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
       - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 9
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
@@ -383,7 +381,6 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
-      - 🇨🇦 加拿大 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇩🇪 德国 - 法兰克福 - Global Connectivity Solutions LLP - 1
       - 🇫🇮 芬兰 - 赫尔辛基 - Scalaxy B.V. - 2
@@ -443,6 +440,7 @@ proxy-groups:
       - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇮🇩 印度尼西亚 - 雅加达 - Google LLC - 1
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
       - 🇯🇵 Premium|广日|IEPL|03
@@ -460,12 +458,12 @@ proxy-groups:
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 5
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 1
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 3
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本3
       - 🇰🇷 KR_speednode_0005
       - 🇰🇷 韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2
       - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
       - 🇸🇬 Standard|广新|IEPL|03
@@ -513,11 +511,10 @@ proxy-groups:
       - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
       - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 9
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
@@ -769,6 +766,7 @@ proxy-groups:
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 5
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 1
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 3
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本3
   - name: 🇺🇸 ‍美国
@@ -796,11 +794,10 @@ proxy-groups:
       - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
       - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 9
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🎏 ‍其他
@@ -811,7 +808,6 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
-      - 🇨🇦 加拿大 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇩🇪 德国 - 法兰克福 - Global Connectivity Solutions LLP - 1
       - 🇫🇮 芬兰 - 赫尔辛基 - Scalaxy B.V. - 2
@@ -822,10 +818,10 @@ proxy-groups:
       - 🇫🇷 法国 - 鲁贝 - OVH SAS - 5
       - 🇬🇧 英国 V2CROSS.COM
       - 🇮🇩 印度尼西亚 - 雅加达 - Google LLC - 1
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇰🇷 KR_speednode_0005
       - 🇰🇷 韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2
       - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇹🇷 土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1
       - 🇹🇷 土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 3
       - 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 5
@@ -1018,6 +1014,7 @@ proxy-groups:
       - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 5
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 1
       - 🇯🇵 日本 - 横滨市 - InfoSphere - 3
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本3
   - name: 👆🏻🇺🇸 ‍美国
@@ -1042,11 +1039,10 @@ proxy-groups:
       - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 8
       - 🇺🇸 美国 - 紐約 - Massivegrid LTD - 9
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他
@@ -1054,7 +1050,6 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
-      - 🇨🇦 加拿大 V2CROSS.COM
       - 🇨🇭 _CH_瑞士
       - 🇩🇪 德国 - 法兰克福 - Global Connectivity Solutions LLP - 1
       - 🇫🇮 芬兰 - 赫尔辛基 - Scalaxy B.V. - 2
@@ -1065,10 +1060,10 @@ proxy-groups:
       - 🇫🇷 法国 - 鲁贝 - OVH SAS - 5
       - 🇬🇧 英国 V2CROSS.COM
       - 🇮🇩 印度尼西亚 - 雅加达 - Google LLC - 1
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇰🇷 KR_speednode_0005
       - 🇰🇷 韩国 - 首尔特别市 - Kaopu Cloud HK Limited - 2
       - 🇰🇷 韩国 - 首尔特别市 - Oracle Corporation - 1
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇹🇷 土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 1
       - 🇹🇷 土耳其 - 伊斯坦布尔 - Baxet Group Inc. - 3
       - 🇹🇷 土耳其 - 伊斯坦布尔 - Global Connectivity Solutions LLP - 5

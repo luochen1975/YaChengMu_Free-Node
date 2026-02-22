@@ -12,16 +12,13 @@ proxies:
   - {name: ℹ️ tg频道:@freenodedaily, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 🇨🇳 中国 阿里云, server: n1753598445.74qxv.top, port: 443, type: vmess, uuid: f53b95dc-3ec3-49a2-803a-510e614ae577, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1753598445.74qxv.top, network: ws, ws-opts: {path: /, headers: {Host: n1753598445.74qxv.top}}, udp: true}
-  - {name: 🇨🇳 广东省云浮市 移动, server: ldu.izenny.com, port: 20149, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
-  - {name: 🇨🇳 广东省云浮市 移动 2, server: ldu.izenny.com, port: 55936, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
-  - {name: 🇨🇳 广东省云浮市 移动 3, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
-  - {name: 🇨🇳 广东省云浮市 移动 4, server: 183.232.137.2, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
+  - {name: 🇨🇳 广东省云浮市 移动, server: ldu.izenny.com, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
+  - {name: 🇨🇳 广东省云浮市 移动 2, server: ldu.izenny.com, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
+  - {name: 🇨🇳 广东省云浮市 移动 3, server: 183.232.137.2, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
   - {name: "🇨🇴 中国 - 深圳 - Hangzhou Alibaba Advertising Co., Ltd. - 7", server: hn.xn--wlqw1swrj04ju56d.com, port: 80, type: vmess, uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: tms.dingtalk.com, network: ws, ws-opts: {path: /, headers: {Host: hn.xn--wlqw1swrj04ju56d.com}}, udp: true}
   - {name: 🇩🇪 德国 - Frankfurt Am Main - HZ Hosting Ltd - 1, server: free-de-2.undef.network, port: 443, type: trojan, password: pYIoKUPGpWeTYXEx3HjR7s97B, sni: free-de-2.undef.network, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Ff2fc2a1f", headers: {Host: free-de-2.undef.network}}, udp: true}
   - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇬🇧 英国 - City of London - Microsoft Corporation - 1, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 113.108.0.62 #1", server: 113.108.0.62, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 117.78.52.97 #1", server: 117.78.52.97, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -74,13 +71,12 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 2, server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 3, server: 103.149.183.113, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 12, server: ldu.izenny.com, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
-  - {name: 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 13, server: 183.232.137.2, port: 34061, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港3, server: 13.159.21.118, port: 4856, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4, server: 13.192.236.37, port: 2826, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5, server: 16.163.31.145, port: 54548, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇮🇳 印度 - 孟买 - Oracle Corporation - 1, server: 183.232.137.2, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
-  - {name: 🇮🇳 印度 - 孟买 - Oracle Corporation - 2, server: ldu.izenny.com, port: 34411, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 193.151.146.232, port: 17356, type: vmess, uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇮🇸 冰岛 V2CROSS.COM, server: 37.235.49.209, port: 28099, type: trojan, password: qmBSKnAl6LYi9=z23Rs.Z, sni: celestialcorset.crystalhamster.click, skip-cert-verify: true, udp: true}
   - {name: "🇯🇵 JP #1", server: shdata1.233netpro.com, port: 10121, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 Premium|广日|IEPL|01, server: pr3.jymzffbquawl.com, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -128,10 +124,11 @@ proxies:
   - {name: 🇹🇼 Standard|广台|IEPL|05, server: bs4.jymzffbquawl.com, port: 3036, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 Standard|广台|IEPL|06, server: bs4.jymzffbquawl.com, port: 3046, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 中国 - 台湾 - Akile LTD - 10, server: 183.232.137.2, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
+  - {name: 🇹🇼 中国 - 台湾 - Akile LTD - 11, server: ldu.izenny.com, port: 43076, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
+  - {name: 🇹🇼 中国 - 台湾 - Akile LTD - 8, server: 183.232.137.2, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
   - {name: 🇹🇼 中国 - 台湾 - Akile LTD - 9, server: ldu.izenny.com, port: 18148, type: ss, cipher: chacha20-ietf-poly1305, password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da, udp: true}
   - {name: 🇹🇼 中国 - 台湾 - Data Center Network Limited - 1, server: 185.189.160.105, port: 41632, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 🇹🇼 台湾, server: ipv6-tw02.cnddns.com, port: 16811, type: vmess, uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾省台中市 中华电信, server: 220.130.58.136, port: 35502, type: trojan, password: 6f038cee-6ba1-4941-bce5-de1969f37405, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|01, server: bs3.jymzffbquawl.com, port: 5600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|02, server: bs3.jymzffbquawl.com, port: 5601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|03, server: bs3.jymzffbquawl.com, port: 5602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -150,7 +147,13 @@ proxies:
   - {name: 🇺🇸 美国 - Somers - Fourplex Telecom LLC - 1, server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, udp: true}
   - {name: 🇺🇸 美国 - 华盛顿特区 - HostPapa - 3, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: v4.hdacd.com, udp: true}
   - {name: 🇺🇸 美国 - 西雅圖 - Spartan Host Ltd - 4, server: 4f31f69b-tax5s0-tcdmjc-1gevg.se.oshuawei.com, port: 443, type: http, username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b, password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: bghy.1x9.indevs.in, port: 443, type: vmess, uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /iSRWSKUJKNuXvVzsYHmsMrnO, headers: {Host: bghy.1x9.indevs.in}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: yhj.huangshang2026.indevs.in, port: 443, type: vmess, uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yhj.huangshang2026.indevs.in}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: dffgg.2no.ccwu.cc, port: 443, type: vmess, uuid: 2215657e-2af4-405f-b770-4e61b298d5b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dffgg.2no.ccwu.cc}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: jki.huangdi.indevs.in, port: 443, type: vmess, uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jki.huangdi.indevs.in}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: bgn.1dd.ccwu.cc, port: 443, type: vmess, uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bgn.1dd.ccwu.cc}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 5, server: 104.19.173.68, port: 8080, type: vmess, uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /NASNET/cdn, headers: {Host: nasnet-571299667.rahavard365.co}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 6, server: t1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t1.620720.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: dll.avaaaal.ir, port: 8443, type: vmess, uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dll.avaaaal.ir, network: ws, ws-opts: {path: /, headers: {Host: cdge.avaaaal.ir}}, udp: true}
   - {name: 🇺🇸 美国2, server: 52.192.209.59, port: 4920, type: trojan, password: 64a59181551b5773e390bd717a7b7c06, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 16.163.143.47, port: 9718, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - FASTLY - 1, server: 103.186.155.33, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -191,15 +194,12 @@ proxy-groups:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
-      - 🇨🇳 中国 阿里云
       - 🇨🇳 广东省云浮市 移动
       - 🇨🇳 广东省云浮市 移动 2
       - 🇨🇳 广东省云浮市 移动 3
-      - 🇨🇳 广东省云浮市 移动 4
       - 🇩🇪 德国 - Frankfurt Am Main - HZ Hosting Ltd - 1
       - 🇫🇷 _FR_法国
       - 🇬🇧 英国 - City of London - Microsoft Corporation - 1
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -247,13 +247,12 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 2
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 3
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 12
-      - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 13
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇮🇳 印度 - 孟买 - Oracle Corporation - 1
-      - 🇮🇳 印度 - 孟买 - Oracle Corporation - 2
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 V2CROSS.COM
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
@@ -297,10 +296,11 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 中国 - 台湾 - Akile LTD - 10
+      - 🇹🇼 中国 - 台湾 - Akile LTD - 11
+      - 🇹🇼 中国 - 台湾 - Akile LTD - 8
       - 🇹🇼 中国 - 台湾 - Akile LTD - 9
       - 🇹🇼 中国 - 台湾 - Data Center Network Limited - 1
       - 🇹🇼 台湾
-      - 🇹🇼 台湾省台中市 中华电信
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
       - 🇺🇸 Standard|广美|IEPL|03
@@ -319,6 +319,12 @@ proxy-groups:
       - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 3
       - 🇺🇸 美国 - 西雅圖 - Spartan Host Ltd - 4
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
@@ -334,15 +340,12 @@ proxy-groups:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
-      - 🇨🇳 中国 阿里云
       - 🇨🇳 广东省云浮市 移动
       - 🇨🇳 广东省云浮市 移动 2
       - 🇨🇳 广东省云浮市 移动 3
-      - 🇨🇳 广东省云浮市 移动 4
       - 🇩🇪 德国 - Frankfurt Am Main - HZ Hosting Ltd - 1
       - 🇫🇷 _FR_法国
       - 🇬🇧 英国 - City of London - Microsoft Corporation - 1
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -390,13 +393,12 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 2
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 3
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 12
-      - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 13
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港5
       - 🇮🇳 印度 - 孟买 - Oracle Corporation - 1
-      - 🇮🇳 印度 - 孟买 - Oracle Corporation - 2
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 V2CROSS.COM
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
@@ -440,10 +442,11 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 中国 - 台湾 - Akile LTD - 10
+      - 🇹🇼 中国 - 台湾 - Akile LTD - 11
+      - 🇹🇼 中国 - 台湾 - Akile LTD - 8
       - 🇹🇼 中国 - 台湾 - Akile LTD - 9
       - 🇹🇼 中国 - 台湾 - Data Center Network Limited - 1
       - 🇹🇼 台湾
-      - 🇹🇼 台湾省台中市 中华电信
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
       - 🇺🇸 Standard|广美|IEPL|03
@@ -462,6 +465,12 @@ proxy-groups:
       - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 3
       - 🇺🇸 美国 - 西雅圖 - Spartan Host Ltd - 4
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇻🇳 越南 - Hải Dương - FASTLY - 1
@@ -570,7 +579,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 2
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 3
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 12
-      - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 13
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港4
@@ -592,21 +600,20 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 中国 - 台湾 - Akile LTD - 10
+      - 🇹🇼 中国 - 台湾 - Akile LTD - 11
+      - 🇹🇼 中国 - 台湾 - Akile LTD - 8
       - 🇹🇼 中国 - 台湾 - Akile LTD - 9
       - 🇹🇼 中国 - 台湾 - Data Center Network Limited - 1
       - 🇹🇼 台湾
-      - 🇹🇼 台湾省台中市 中华电信
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
     interval: 15
     tolerance: 100
     proxies:
-      - 🇨🇳 中国 阿里云
       - 🇨🇳 广东省云浮市 移动
       - 🇨🇳 广东省云浮市 移动 2
       - 🇨🇳 广东省云浮市 移动 3
-      - 🇨🇳 广东省云浮市 移动 4
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -654,7 +661,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 2
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 3
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 12
-      - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 13
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港4
@@ -670,10 +676,11 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 中国 - 台湾 - Akile LTD - 10
+      - 🇹🇼 中国 - 台湾 - Akile LTD - 11
+      - 🇹🇼 中国 - 台湾 - Akile LTD - 8
       - 🇹🇼 中国 - 台湾 - Akile LTD - 9
       - 🇹🇼 中国 - 台湾 - Data Center Network Limited - 1
       - 🇹🇼 台湾
-      - 🇹🇼 台湾省台中市 中华电信
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -738,6 +745,12 @@ proxy-groups:
       - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 3
       - 🇺🇸 美国 - 西雅圖 - Spartan Host Ltd - 4
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🎏 ‍其他
@@ -752,9 +765,8 @@ proxy-groups:
       - 🇩🇪 德国 - Frankfurt Am Main - HZ Hosting Ltd - 1
       - 🇫🇷 _FR_法国
       - 🇬🇧 英国 - City of London - Microsoft Corporation - 1
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇮🇳 印度 - 孟买 - Oracle Corporation - 1
-      - 🇮🇳 印度 - 孟买 - Oracle Corporation - 2
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 V2CROSS.COM
       - 🇰🇷 KR_speednode_0005
       - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 1
@@ -816,7 +828,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 2
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 3
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 12
-      - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 13
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港4
@@ -835,18 +846,17 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 中国 - 台湾 - Akile LTD - 10
+      - 🇹🇼 中国 - 台湾 - Akile LTD - 11
+      - 🇹🇼 中国 - 台湾 - Akile LTD - 8
       - 🇹🇼 中国 - 台湾 - Akile LTD - 9
       - 🇹🇼 中国 - 台湾 - Data Center Network Limited - 1
       - 🇹🇼 台湾
-      - 🇹🇼 台湾省台中市 中华电信
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
-      - 🇨🇳 中国 阿里云
       - 🇨🇳 广东省云浮市 移动
       - 🇨🇳 广东省云浮市 移动 2
       - 🇨🇳 广东省云浮市 移动 3
-      - 🇨🇳 广东省云浮市 移动 4
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -894,7 +904,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 2
       - 🇭🇰 中国 - 香港 - Dalian Yichuan Industrial CO - 3
       - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 12
-      - 🇭🇰 中国 - 香港 - MoeChuang Network Limited - 13
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港4
@@ -910,10 +919,11 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|05
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 中国 - 台湾 - Akile LTD - 10
+      - 🇹🇼 中国 - 台湾 - Akile LTD - 11
+      - 🇹🇼 中国 - 台湾 - Akile LTD - 8
       - 🇹🇼 中国 - 台湾 - Akile LTD - 9
       - 🇹🇼 中国 - 台湾 - Data Center Network Limited - 1
       - 🇹🇼 台湾
-      - 🇹🇼 台湾省台中市 中华电信
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
@@ -969,6 +979,12 @@ proxy-groups:
       - 🇺🇸 美国 - 华盛顿特区 - HostPapa - 3
       - 🇺🇸 美国 - 西雅圖 - Spartan Host Ltd - 4
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他
@@ -980,9 +996,8 @@ proxy-groups:
       - 🇩🇪 德国 - Frankfurt Am Main - HZ Hosting Ltd - 1
       - 🇫🇷 _FR_法国
       - 🇬🇧 英国 - City of London - Microsoft Corporation - 1
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇮🇳 印度 - 孟买 - Oracle Corporation - 1
-      - 🇮🇳 印度 - 孟买 - Oracle Corporation - 2
+      - 🇮🇷 伊朗 V2CROSS.COM
       - 🇮🇸 冰岛 V2CROSS.COM
       - 🇰🇷 KR_speednode_0005
       - 🇹🇷 土耳其 - 贝伊奥卢 - Turunc Smart Bilgisayar Teknoloji Ve Dis Ticaret Limited Sirketi - 1

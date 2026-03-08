@@ -10,20 +10,18 @@ global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
   - {name: ℹ️ tg频道:@freenodedaily, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 亚太地区 V2CROSS.COM, server: 103.181.164.237, port: 34114, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇨🇦 加拿大 V2CROSS.COM, server: 167.17.185.228, port: 10889, type: trojan, password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj, sni: web.max, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 加拿大 V2CROSS.COM 2, server: 167.17.185.169, port: 10889, type: trojan, password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj, sni: ya.ru, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大 V2CROSS.COM, server: 167.17.185.172, port: 10889, type: trojan, password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj, sni: web.max.ru, skip-cert-verify: true, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇳 CN_speednode_0001, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 - Sha Tin - 2, server: 3d60a50f-ta1og0-tkp3tl-1s09x.hkt.cdnhuawei.com, port: 8443, type: http, username: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, password: <password>, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 广东省佛山市 联通, server: chengbai02.ascwt179.com, port: 13223, type: ss, cipher: aes-128-gcm, password: JVrsLLN1tkN8oXZO, udp: true}
   - {name: 🇨🇳 新疆西藏福建可用, server: 23.227.38.72, port: 443, type: trojan, password: 13d29042-ab82-4195-9cd4-2bafc518e201, sni: yss2o9nzv7hsgw2z.sggogo202510.top, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: yss2o9nzv7hsgw2z.sggogo202510.top}}, udp: true}
   - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇫🇷 法国 - Paris - 1, server: 13.39.61.161, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国 - Paris - 2, server: 15.236.44.47, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国 - Paris - 3, server: 13.39.61.161, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国 - Paris - 4, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: AZERB.NET}}, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 113.108.0.62 #1", server: 113.108.0.62, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 117.78.52.97 #1", server: 117.78.52.97, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -130,7 +128,9 @@ proxies:
   - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国, server: 54.199.149.138, port: 4920, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - Washington - 1, server: 104.211.63.232, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: E2DnpxLTj4IEeLMQ, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: c7.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c7.620720.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: kwtgm.cmvvb.online, port: 8443, type: vmess, uuid: 9fc9b94d-6b44-4029-bc41-09e4ac92e508, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kwtgm.cmvvb.online, network: ws, ws-opts: {path: /, headers: {Host: kwtgm.cmvvb.online}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sy4.620720.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 加州, server: 64.94.95.118, port: 57142, type: trojan, password: kkzh2prsyr2ik47as615, sni: 64.94.95.118, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2, server: 160.16.130.21, port: 4019, type: trojan, password: f7dbed8b1ca85124e793ba6c0bcfd0db, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 43.198.86.230, port: 2960, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇻🇳 越南 - Hanoi - 2, server: 103.186.154.235, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -169,20 +169,18 @@ proxy-groups:
     tolerance: 100
     proxies:
       - ℹ️ tg频道:@freenodedaily
+      - 亚太地区 V2CROSS.COM
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇨🇦 加拿大 V2CROSS.COM 2
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 CN_speednode_0001
       - 🇨🇳 中国 - Sha Tin - 2
-      - 🇨🇳 广东省佛山市 联通
       - 🇨🇳 新疆西藏福建可用
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - Paris - 1
       - 🇫🇷 法国 - Paris - 2
       - 🇫🇷 法国 - Paris - 3
       - 🇫🇷 法国 - Paris - 4
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -283,6 +281,8 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Washington - 1
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇻🇳 越南 - Hanoi - 2
@@ -296,20 +296,18 @@ proxy-groups:
     type: select
     proxies:
       - ℹ️ tg频道:@freenodedaily
+      - 亚太地区 V2CROSS.COM
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇨🇦 加拿大 V2CROSS.COM 2
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 CN_speednode_0001
       - 🇨🇳 中国 - Sha Tin - 2
-      - 🇨🇳 广东省佛山市 联通
       - 🇨🇳 新疆西藏福建可用
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - Paris - 1
       - 🇫🇷 法国 - Paris - 2
       - 🇫🇷 法国 - Paris - 3
       - 🇫🇷 法国 - Paris - 4
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -410,6 +408,8 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Washington - 1
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇻🇳 越南 - Hanoi - 2
@@ -540,7 +540,6 @@ proxy-groups:
     proxies:
       - 🇨🇳 CN_speednode_0001
       - 🇨🇳 中国 - Sha Tin - 2
-      - 🇨🇳 广东省佛山市 联通
       - 🇨🇳 新疆西藏福建可用
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -658,6 +657,8 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Washington - 1
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🎏 ‍其他
@@ -667,16 +668,15 @@ proxy-groups:
     tolerance: 100
     proxies:
       - ℹ️ tg频道:@freenodedaily
+      - 亚太地区 V2CROSS.COM
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇨🇦 加拿大 V2CROSS.COM 2
       - 🇨🇭 _CH_瑞士
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - Paris - 1
       - 🇫🇷 法国 - Paris - 2
       - 🇫🇷 法国 - Paris - 3
       - 🇫🇷 法国 - Paris - 4
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇵🇹 葡萄牙 - Lisbon - 1
       - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇻🇳 越南 - Hanoi - 2
@@ -752,7 +752,6 @@ proxy-groups:
     proxies:
       - 🇨🇳 CN_speednode_0001
       - 🇨🇳 中国 - Sha Tin - 2
-      - 🇨🇳 广东省佛山市 联通
       - 🇨🇳 新疆西藏福建可用
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -861,22 +860,23 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Washington - 1
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:
       - ℹ️ tg频道:@freenodedaily
+      - 亚太地区 V2CROSS.COM
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇨🇦 加拿大 V2CROSS.COM 2
       - 🇨🇭 _CH_瑞士
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - Paris - 1
       - 🇫🇷 法国 - Paris - 2
       - 🇫🇷 法国 - Paris - 3
       - 🇫🇷 法国 - Paris - 4
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇵🇹 葡萄牙 - Lisbon - 1
       - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇻🇳 越南 - Hanoi - 2

@@ -11,6 +11,7 @@ keep-alive-interval: 360
 proxies:
   - {name: ℹ️ tg频道:@freenodedaily, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: ℹ️ 梯子地址https://kelayun.notepin.co, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 亚太地区 V2CROSS.COM, server: 103.181.164.237, port: 34114, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 月付2元1000G流量, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -144,8 +145,7 @@ proxies:
   - {name: 🇺🇸 美国, server: 160.16.72.33, port: 3057, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - Somers - 1, server: tinkered-pennies-puppies.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hbGrpfvNrJsUmKmPbR3iY2, udp: true}
   - {name: 🇺🇸 美国 - 洛杉矶 - 2, server: m.cnmjin.net, port: 16648, type: vmess, uuid: fcad95ed-9d9c-4621-9b1a-21fd5dde3f83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ac9761292953f408ccdba1b1b4953c3c.mobgslb.tbcache.com, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjin.net}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 0b4c4ed4-deed-4bda-ae3d-6c8ccd1d1199, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: zzrt.uhomdex.shop, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 美国 Microsoft数据中心, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
+  - {name: 🇺🇸 美国 DXC Technology, server: 20.90.104.203, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
   - {name: 🇺🇸 美国2, server: 160.16.70.180, port: 4019, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 13.231.19.155, port: 4920, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 16.163.155.36, port: 8401, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -189,6 +189,7 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - ℹ️ 梯子地址https://kelayun.notepin.co
+      - 亚太地区 V2CROSS.COM
       - 月付2元1000G流量
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -315,8 +316,7 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Somers - 1
       - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 Microsoft数据中心
+      - 🇺🇸 美国 DXC Technology
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -335,6 +335,7 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - ℹ️ 梯子地址https://kelayun.notepin.co
+      - 亚太地区 V2CROSS.COM
       - 月付2元1000G流量
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -461,8 +462,7 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Somers - 1
       - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 Microsoft数据中心
+      - 🇺🇸 美国 DXC Technology
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -730,8 +730,7 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Somers - 1
       - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 Microsoft数据中心
+      - 🇺🇸 美国 DXC Technology
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -745,6 +744,7 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - ℹ️ 梯子地址https://kelayun.notepin.co
+      - 亚太地区 V2CROSS.COM
       - 月付2元1000G流量
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -956,8 +956,7 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Somers - 1
       - 🇺🇸 美国 - 洛杉矶 - 2
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 Microsoft数据中心
+      - 🇺🇸 美国 DXC Technology
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -968,6 +967,7 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - ℹ️ 梯子地址https://kelayun.notepin.co
+      - 亚太地区 V2CROSS.COM
       - 月付2元1000G流量
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士

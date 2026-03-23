@@ -15,13 +15,18 @@ proxies:
   - {name: ℹ️ 梯子官网https://kelayun.notepin.co, server: 58.152.25.253, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: ℹ️ 购买地址https://kelayun.notepin.co, server: 194.33.45.157, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, sni: 194.33.45.157, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU_speednode_0004, server: enhanced-crayfish.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: enhanced-crayfish.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇬 保加利亚 V2CROSS.COM, server: 78.159.131.12, port: 28259, type: trojan, password: MeaDiUmPlkWbZJ2BON8tz, sni: ads.x5.ru, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.96.3, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sy4.620720.xyz, network: ws, ws-opts: {path: /, headers: {Host: sy4.620720.xyz}}, udp: true}
+  - {name: 🇧🇬 保加利亚 V2CROSS.COM, server: 194.68.225.52, port: 65232, type: ss, cipher: chacha20-ietf-poly1305, password: 6J754ee6ITjyfDysi78uqJ, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 🇩🇪 德国 - Frankfurt am Main - 1, server: 51.102.254.79, port: 22223, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 - Frankfurt am Main - 2, server: 51.102.254.79, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇰 丹麦 - Brøndby Strand - 1, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
-  - {name: 🇫🇷 法国 - 巴黎 - 1, server: 13.38.195.57, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 法国 - 巴黎 - 2, server: 15.236.33.201, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 法国 - 斯特拉斯堡 - 1, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 - 伦敦 - 1, server: v36.hdacd.com, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: v36.hdacd.com, udp: true}
   - {name: 🇬🇧 英国 Microsoft公司, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
+  - {name: 🇬🇧 英国 Microsoft公司 2, server: admin.c1.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
   - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 113.108.0.62 #1", server: 113.108.0.62, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -67,7 +72,13 @@ proxies:
   - {name: 🇭🇰 Standard|广港|IEPL|18, server: bs2.jymzffbquawl.com, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|19, server: bs2.jymzffbquawl.com, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Standard|广港|IEPL|20, server: bs2.jymzffbquawl.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
-  - {name: 🇭🇰 中国 - 香港 - 1, server: 106.75.162.7, port: 50000, type: ss, cipher: aes-128-gcm, password: d72781da-3ea8-4d7f-9bca-c04ed410443b, udp: true}
+  - {name: 🇭🇰 中国 - 香港 - 1, server: 9b1dcda4-t70f40-t7m3jq-1rnrp.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 989aa406-ea9b-11ef-97da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: 9b1dcda4-t70f40-t7m3jq-1rnrp.hkt.gotochinatown.net}}, udp: true}
+  - {name: 🇭🇰 中国 - 香港 - 2, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: hkt.gotochinatown.net, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+  - {name: 🇭🇰 中国 - 香港 - 3, server: ebf93ea5-t70f40-t7d1t3-81nv.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: ebf93ea5-t70f40-t7d1t3-81nv.hkt.gotochinatown.net}}, udp: true}
+  - {name: 🇭🇰 中国 - 香港 - 4, server: 2675373b-tbl8g0-tcjl4y-1qzi1.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8f99107c-f091-11ee-9935-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: 2675373b-tbl8g0-tcjl4y-1qzi1.hkt.gotochinatown.net}}, udp: true}
+  - {name: 🇭🇰 中国 - 香港 - 5, server: 040f3ec5-t70f40-ta64ri-1qzi1.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8f99107c-f091-11ee-9935-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: 040f3ec5-t70f40-ta64ri-1qzi1.hkt.gotochinatown.net}}, udp: true}
+  - {name: 🇭🇰 中国 - 香港 - 6, server: bd032d72-tb4kg0-tcjl4y-1qzi1.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8f99107c-f091-11ee-9935-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: bd032d72-tb4kg0-tcjl4y-1qzi1.hkt.gotochinatown.net}}, udp: true}
+  - {name: 🇭🇰 中国 - 香港 - 7, server: kaizen-hk-4.gocmydns.com, port: 443, type: trojan, password: 73ce6392-d417-3997-8c82-08346080cf4ecmynw, sni: www.zueuqnpjvcllc.co, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港3, server: 18.183.215.166, port: 6196, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港3|@ripaojiedian, server: 13.231.54.52, port: 6196, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
@@ -75,7 +86,8 @@ proxies:
   - {name: 🇭🇰 香港4|@ripaojiedian, server: 18.162.133.44, port: 51885, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5, server: 54.46.31.164, port: 5268, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5|@ripaojiedian, server: 43.199.248.9, port: 5823, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 印度 - 塔那 - 1, server: 65.20.67.50, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇺 匈牙利 - 布达佩斯 - 1, server: 194.71.130.26, port: 2949, type: ss, cipher: chacha20-ietf-poly1305, password: v8NKiSxilGVslodFPWWLR8, udp: true}
+  - {name: 🇮🇩 印度尼西亚 - Kresek - 1, server: 47.57.182.141, port: 443, type: vmess, uuid: 462d9694-62b5-4781-a287-61a422b920e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: mn1ray.jagoanvip.xyz, network: ws, ws-opts: {path: /vvip}, udp: true}
   - {name: "🇯🇵 JP #1", server: shdata1.233netpro.com, port: 10121, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 Premium|广日|IEPL|01, server: pr3.jymzffbquawl.com, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Premium|广日|IEPL|02, server: pr3.jymzffbquawl.com, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -90,6 +102,7 @@ proxies:
   - {name: 🇯🇵 Standard|广日|IEPL|07, server: bs4.jymzffbquawl.com, port: 4602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Standard|广日|IEPL|08, server: bs4.jymzffbquawl.com, port: 4603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 日本, server: 13.115.9.169, port: 3022, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 - Chiyoda City - 1, server: 103.181.164.145, port: 51556, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2, server: 52.198.113.21, port: 34818, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 13.115.190.132, port: 4937, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本3, server: 52.195.220.124, port: 2001, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
@@ -98,8 +111,7 @@ proxies:
   - {name: 🇰🇷 KR_speednode_0021, server: 211.110.32.47, port: 20000, type: trojan, password: trojan, sni: jflsjlaf.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jflsjlaf.pages.dev}}, udp: true}
   - {name: 🇰🇷 KR_speednode_0026, server: 118.35.208.37, port: 11434, type: trojan, password: trojan, sni: jflsjlaf.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jflsjlaf.pages.dev}}, udp: true}
   - {name: 🇲🇩 MD_speednode_0028, server: 89.221.225.71, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, udp: true}
-  - {name: 🇲🇽 墨西哥 - León - 1, server: 38.180.179.132, port: 443, type: trojan, password: 3ac6a6ca99f74941b1eaf892818e2ddb, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 1, server: 104.245.98.30, port: 26351, type: vmess, uuid: 827aa158-679f-4c5e-8a84-d8f7d142c9de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 1, server: nl-4.tr202512.com, port: 443, type: trojan, password: M08tvzYWtUEJNtbpHp, sni: nl-4.tr202512.com, skip-cert-verify: true, udp: true}
   - {name: 🇵🇱 PL_speednode_0029, server: outgoing-ladybird.rooster465.autos, port: 443, type: trojan, password: IL37892054, sni: outgoing-ladybird.rooster465.autos, skip-cert-verify: true, udp: true}
   - {name: 🇵🇱 PL_speednode_0030, server: fluent-stingray.crayfish192.xyz, port: 443, type: trojan, password: IL37892054, skip-cert-verify: true, udp: true}
   - {name: "🇸🇬 SG #1", server: gzdata1.233netpro.com, port: 10131, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -114,6 +126,7 @@ proxies:
   - {name: 🇸🇬 Standard|广新|IEPL|07, server: bs4.jymzffbquawl.com, port: 6602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|08, server: bs4.jymzffbquawl.com, port: 6603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇸🇬 新加坡, server: 52.195.220.124, port: 4674, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 - 新加坡 - 1, server: v45.hdacd.com, port: 30845, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: v45.hdacd.com, udp: true}
   - {name: 🇸🇬 新加坡2, server: 160.16.85.33, port: 4674, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 160.16.132.38, port: 4674, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡3, server: 54.46.52.255, port: 25343, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -147,34 +160,31 @@ proxies:
   - {name: 🇺🇸 _US_美国_4, server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国, server: 52.195.220.124, port: 4019, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 - 华盛顿特区 - 3, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 - 圣路易斯 - 4, server: v46.hdacd.com, port: 30846, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 - 华盛顿特区 - 1, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 CloudFlare节点, server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sy4.620720.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: nqzkb.cmvvb.online, port: 443, type: vmess, uuid: 16604b48-7497-428c-a6d4-b017b3a30ce4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nqzkb.cmvvb.online}}, udp: true}
   - {name: 🇺🇸 美国2, server: 160.16.85.33, port: 3057, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 13.115.190.132, port: 4019, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 18.167.37.12, port: 15407, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.167.47.162, port: 37223, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国|@ripaojiedian, server: 13.192.234.119, port: 4920, type: trojan, password: 86e150eb21c6faee48e81d496d7f61c2, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 1, server: 103.186.155.114, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 10, server: 103.186.155.124, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 11, server: 103.186.154.210, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 12, server: 103.186.154.253, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 13, server: 103.186.155.49, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 14, server: 103.186.154.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 15, server: 103.186.154.61, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 16, server: 103.186.155.46, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 17, server: 103.186.154.235, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 18, server: 103.186.154.152, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 19, server: 103.186.154.54, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 2, server: 103.186.155.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 20, server: 103.186.154.246, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 3, server: 103.186.154.242, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 4, server: 103.186.154.225, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 5, server: 103.186.154.201, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 6, server: 103.186.154.234, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 7, server: 103.186.154.42, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 - Hải Dương - 8, server: 103.186.155.67, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 1, server: 103.186.155.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 10, server: 103.186.155.4, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 11, server: 103.186.155.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 12, server: 103.186.155.236, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 13, server: 103.186.154.241, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 14, server: 103.186.155.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 15, server: 103.186.154.216, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 16, server: 103.186.155.213, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 17, server: 103.186.154.51, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 18, server: 103.186.154.70, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 19, server: 103.186.154.179, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 2, server: 103.186.155.70, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 3, server: 103.186.154.162, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 4, server: 103.186.155.240, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 5, server: 103.186.155.134, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 6, server: 103.186.155.79, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 7, server: 103.186.154.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 - Hải Dương - 8, server: 103.186.155.112, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: ✈️ ‍起飞
     type: select
@@ -210,12 +220,17 @@ proxy-groups:
       - ℹ️ 购买地址https://kelayun.notepin.co
       - 🇦🇺 AU_speednode_0004
       - 🇧🇬 保加利亚 V2CROSS.COM
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
+      - 🇩🇪 德国 - Frankfurt am Main - 1
+      - 🇩🇪 德国 - Frankfurt am Main - 2
+      - 🇩🇰 丹麦 - Brøndby Strand - 1
       - 🇫🇷 _FR_法国
-      - 🇫🇷 法国 - 巴黎 - 1
+      - 🇫🇷 法国 - 巴黎 - 2
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇬🇧 英国 - 伦敦 - 1
       - 🇬🇧 英国 Microsoft公司
+      - 🇬🇧 英国 Microsoft公司 2
       - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -258,6 +273,12 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - 1
+      - 🇭🇰 中国 - 香港 - 2
+      - 🇭🇰 中国 - 香港 - 3
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇭🇰 中国 - 香港 - 5
+      - 🇭🇰 中国 - 香港 - 6
+      - 🇭🇰 中国 - 香港 - 7
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
@@ -265,7 +286,8 @@ proxy-groups:
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇮🇳 印度 - 塔那 - 1
+      - 🇭🇺 匈牙利 - 布达佩斯 - 1
+      - 🇮🇩 印度尼西亚 - Kresek - 1
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
       - 🇯🇵 Premium|广日|IEPL|03
@@ -279,6 +301,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
+      - 🇯🇵 日本 - Chiyoda City - 1
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -287,7 +310,6 @@ proxy-groups:
       - 🇰🇷 KR_speednode_0021
       - 🇰🇷 KR_speednode_0026
       - 🇲🇩 MD_speednode_0028
-      - 🇲🇽 墨西哥 - León - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
       - 🇵🇱 PL_speednode_0029
       - 🇵🇱 PL_speednode_0030
@@ -302,6 +324,7 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|07
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 - 新加坡 - 1
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
@@ -334,10 +357,8 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
-      - 🇺🇸 美国 - 华盛顿特区 - 3
-      - 🇺🇸 美国 - 圣路易斯 - 4
+      - 🇺🇸 美国 - 华盛顿特区 - 1
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -355,7 +376,6 @@ proxy-groups:
       - 🇻🇳 越南 - Hải Dương - 18
       - 🇻🇳 越南 - Hải Dương - 19
       - 🇻🇳 越南 - Hải Dương - 2
-      - 🇻🇳 越南 - Hải Dương - 20
       - 🇻🇳 越南 - Hải Dương - 3
       - 🇻🇳 越南 - Hải Dương - 4
       - 🇻🇳 越南 - Hải Dương - 5
@@ -372,12 +392,17 @@ proxy-groups:
       - ℹ️ 购买地址https://kelayun.notepin.co
       - 🇦🇺 AU_speednode_0004
       - 🇧🇬 保加利亚 V2CROSS.COM
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
+      - 🇩🇪 德国 - Frankfurt am Main - 1
+      - 🇩🇪 德国 - Frankfurt am Main - 2
+      - 🇩🇰 丹麦 - Brøndby Strand - 1
       - 🇫🇷 _FR_法国
-      - 🇫🇷 法国 - 巴黎 - 1
+      - 🇫🇷 法国 - 巴黎 - 2
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇬🇧 英国 - 伦敦 - 1
       - 🇬🇧 英国 Microsoft公司
+      - 🇬🇧 英国 Microsoft公司 2
       - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -420,6 +445,12 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - 1
+      - 🇭🇰 中国 - 香港 - 2
+      - 🇭🇰 中国 - 香港 - 3
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇭🇰 中国 - 香港 - 5
+      - 🇭🇰 中国 - 香港 - 6
+      - 🇭🇰 中国 - 香港 - 7
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
@@ -427,7 +458,8 @@ proxy-groups:
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
       - 🇭🇰 香港5|@ripaojiedian
-      - 🇮🇳 印度 - 塔那 - 1
+      - 🇭🇺 匈牙利 - 布达佩斯 - 1
+      - 🇮🇩 印度尼西亚 - Kresek - 1
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
       - 🇯🇵 Premium|广日|IEPL|03
@@ -441,6 +473,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
+      - 🇯🇵 日本 - Chiyoda City - 1
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -449,7 +482,6 @@ proxy-groups:
       - 🇰🇷 KR_speednode_0021
       - 🇰🇷 KR_speednode_0026
       - 🇲🇩 MD_speednode_0028
-      - 🇲🇽 墨西哥 - León - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
       - 🇵🇱 PL_speednode_0029
       - 🇵🇱 PL_speednode_0030
@@ -464,6 +496,7 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|07
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 - 新加坡 - 1
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
@@ -496,10 +529,8 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
-      - 🇺🇸 美国 - 华盛顿特区 - 3
-      - 🇺🇸 美国 - 圣路易斯 - 4
+      - 🇺🇸 美国 - 华盛顿特区 - 1
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -517,7 +548,6 @@ proxy-groups:
       - 🇻🇳 越南 - Hải Dương - 18
       - 🇻🇳 越南 - Hải Dương - 19
       - 🇻🇳 越南 - Hải Dương - 2
-      - 🇻🇳 越南 - Hải Dương - 20
       - 🇻🇳 越南 - Hải Dương - 3
       - 🇻🇳 越南 - Hải Dương - 4
       - 🇻🇳 越南 - Hải Dương - 5
@@ -617,6 +647,12 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - 1
+      - 🇭🇰 中国 - 香港 - 2
+      - 🇭🇰 中国 - 香港 - 3
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇭🇰 中国 - 香港 - 5
+      - 🇭🇰 中国 - 香港 - 6
+      - 🇭🇰 中国 - 香港 - 7
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
@@ -688,6 +724,12 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - 1
+      - 🇭🇰 中国 - 香港 - 2
+      - 🇭🇰 中国 - 香港 - 3
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇭🇰 中国 - 香港 - 5
+      - 🇭🇰 中国 - 香港 - 6
+      - 🇭🇰 中国 - 香港 - 7
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
@@ -723,6 +765,7 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|07
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 - 新加坡 - 1
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
@@ -747,6 +790,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
+      - 🇯🇵 日本 - Chiyoda City - 1
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -774,10 +818,8 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
-      - 🇺🇸 美国 - 华盛顿特区 - 3
-      - 🇺🇸 美国 - 圣路易斯 - 4
+      - 🇺🇸 美国 - 华盛顿特区 - 1
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -796,18 +838,23 @@ proxy-groups:
       - ℹ️ 购买地址https://kelayun.notepin.co
       - 🇦🇺 AU_speednode_0004
       - 🇧🇬 保加利亚 V2CROSS.COM
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
+      - 🇩🇪 德国 - Frankfurt am Main - 1
+      - 🇩🇪 德国 - Frankfurt am Main - 2
+      - 🇩🇰 丹麦 - Brøndby Strand - 1
       - 🇫🇷 _FR_法国
-      - 🇫🇷 法国 - 巴黎 - 1
+      - 🇫🇷 法国 - 巴黎 - 2
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇬🇧 英国 - 伦敦 - 1
       - 🇬🇧 英国 Microsoft公司
+      - 🇬🇧 英国 Microsoft公司 2
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇮🇳 印度 - 塔那 - 1
+      - 🇭🇺 匈牙利 - 布达佩斯 - 1
+      - 🇮🇩 印度尼西亚 - Kresek - 1
       - 🇰🇷 KR_speednode_0021
       - 🇰🇷 KR_speednode_0026
       - 🇲🇩 MD_speednode_0028
-      - 🇲🇽 墨西哥 - León - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
       - 🇵🇱 PL_speednode_0029
       - 🇵🇱 PL_speednode_0030
@@ -823,7 +870,6 @@ proxy-groups:
       - 🇻🇳 越南 - Hải Dương - 18
       - 🇻🇳 越南 - Hải Dương - 19
       - 🇻🇳 越南 - Hải Dương - 2
-      - 🇻🇳 越南 - Hải Dương - 20
       - 🇻🇳 越南 - Hải Dương - 3
       - 🇻🇳 越南 - Hải Dương - 4
       - 🇻🇳 越南 - Hải Dương - 5
@@ -874,6 +920,12 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - 1
+      - 🇭🇰 中国 - 香港 - 2
+      - 🇭🇰 中国 - 香港 - 3
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇭🇰 中国 - 香港 - 5
+      - 🇭🇰 中国 - 香港 - 6
+      - 🇭🇰 中国 - 香港 - 7
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
@@ -939,6 +991,12 @@ proxy-groups:
       - 🇭🇰 Standard|广港|IEPL|19
       - 🇭🇰 Standard|广港|IEPL|20
       - 🇭🇰 中国 - 香港 - 1
+      - 🇭🇰 中国 - 香港 - 2
+      - 🇭🇰 中国 - 香港 - 3
+      - 🇭🇰 中国 - 香港 - 4
+      - 🇭🇰 中国 - 香港 - 5
+      - 🇭🇰 中国 - 香港 - 6
+      - 🇭🇰 中国 - 香港 - 7
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
@@ -971,6 +1029,7 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|07
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 - 新加坡 - 1
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
@@ -992,6 +1051,7 @@ proxy-groups:
       - 🇯🇵 Standard|广日|IEPL|07
       - 🇯🇵 Standard|广日|IEPL|08
       - 🇯🇵 日本
+      - 🇯🇵 日本 - Chiyoda City - 1
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -1016,10 +1076,8 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
-      - 🇺🇸 美国 - 华盛顿特区 - 3
-      - 🇺🇸 美国 - 圣路易斯 - 4
+      - 🇺🇸 美国 - 华盛顿特区 - 1
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -1035,18 +1093,23 @@ proxy-groups:
       - ℹ️ 购买地址https://kelayun.notepin.co
       - 🇦🇺 AU_speednode_0004
       - 🇧🇬 保加利亚 V2CROSS.COM
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
+      - 🇩🇪 德国 - Frankfurt am Main - 1
+      - 🇩🇪 德国 - Frankfurt am Main - 2
+      - 🇩🇰 丹麦 - Brøndby Strand - 1
       - 🇫🇷 _FR_法国
-      - 🇫🇷 法国 - 巴黎 - 1
+      - 🇫🇷 法国 - 巴黎 - 2
+      - 🇫🇷 法国 - 斯特拉斯堡 - 1
+      - 🇬🇧 英国 - 伦敦 - 1
       - 🇬🇧 英国 Microsoft公司
+      - 🇬🇧 英国 Microsoft公司 2
       - 🇬🇧 英国 V2CROSS.COM
-      - 🇮🇳 印度 - 塔那 - 1
+      - 🇭🇺 匈牙利 - 布达佩斯 - 1
+      - 🇮🇩 印度尼西亚 - Kresek - 1
       - 🇰🇷 KR_speednode_0021
       - 🇰🇷 KR_speednode_0026
       - 🇲🇩 MD_speednode_0028
-      - 🇲🇽 墨西哥 - León - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
       - 🇵🇱 PL_speednode_0029
       - 🇵🇱 PL_speednode_0030
@@ -1062,7 +1125,6 @@ proxy-groups:
       - 🇻🇳 越南 - Hải Dương - 18
       - 🇻🇳 越南 - Hải Dương - 19
       - 🇻🇳 越南 - Hải Dương - 2
-      - 🇻🇳 越南 - Hải Dương - 20
       - 🇻🇳 越南 - Hải Dương - 3
       - 🇻🇳 越南 - Hải Dương - 4
       - 🇻🇳 越南 - Hải Dương - 5

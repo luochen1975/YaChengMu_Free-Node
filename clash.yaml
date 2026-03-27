@@ -32,6 +32,8 @@ proxies:
   - {name: 🇫🇷 法国 - 巴黎 - 2, server: 13.36.51.154, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国 - 巴黎 - 3, server: 13.36.214.151, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 - Bexley - 1, server: 57.129.130.23, port: 443, type: vmess, uuid: 34faa20a-7597-444c-81a3-a92042e3cd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 57.129.130.23, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: 🇬🇧 英国 社会保险安全部, server: admin.c1.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, udp: true}
+  - {name: 🇬🇧 英国 社会保险安全部 2, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 113.108.0.62 #1", server: 113.108.0.62, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 117.78.52.97 #1", server: 117.78.52.97, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -168,10 +170,8 @@ proxies:
   - {name: 🇺🇸 美国 - 希尔斯伯勒 - 3, server: 15.204.50.250, port: 443, type: vmess, uuid: 64c58857-f224-4011-aaf3-5f7915a526b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [15.204.50.250]}}, udp: true}
   - {name: 🇺🇸 美国 - 洛杉矶 - 1, server: n2.chateditimage.com, port: 443, type: trojan, password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279, sni: n2.chateditimage.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - 洛杉矶 - 2, server: n1.chateditimage.com, port: 443, type: trojan, password: 4123ae62-0999-4984-8ead-091630e594a9, sni: n1.chateditimage.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: t1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t1.620720.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: c7.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c7.620720.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sy4.620720.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 DXC Technology, server: 20.117.159.69, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: c7.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c7.620720.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: sy4.620720.xyz, port: 443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sy4.620720.xyz}}, udp: true}
   - {name: 🇺🇸 美国2, server: 52.192.225.14, port: 4019, type: trojan, password: 6d29eb2f74293cb01a19b32cf08ad2e9, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 18.166.177.165, port: 49534, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - 1, server: 103.186.154.214, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -249,6 +249,8 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇫🇷 法国 - 巴黎 - 3
       - 🇬🇧 英国 - Bexley - 1
+      - 🇬🇧 英国 社会保险安全部
+      - 🇬🇧 英国 社会保险安全部 2
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -380,8 +382,6 @@ proxy-groups:
       - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 DXC Technology
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇻🇳 越南 - Hải Dương - 1
@@ -434,6 +434,8 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇫🇷 法国 - 巴黎 - 3
       - 🇬🇧 英国 - Bexley - 1
+      - 🇬🇧 英国 社会保险安全部
+      - 🇬🇧 英国 社会保险安全部 2
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -565,8 +567,6 @@ proxy-groups:
       - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 DXC Technology
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇻🇳 越南 - Hải Dương - 1
@@ -865,8 +865,6 @@ proxy-groups:
       - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 DXC Technology
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🎏 ‍其他
@@ -896,6 +894,8 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇫🇷 法国 - 巴黎 - 3
       - 🇬🇧 英国 - Bexley - 1
+      - 🇬🇧 英国 社会保险安全部
+      - 🇬🇧 英国 社会保险安全部 2
       - 🇮🇳 印度 - Mumbai - 1
       - 🇰🇷 KR_speednode_0021
       - 🇰🇷 KR_speednode_0026
@@ -1140,8 +1140,6 @@ proxy-groups:
       - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 DXC Technology
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他
@@ -1168,6 +1166,8 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇫🇷 法国 - 巴黎 - 3
       - 🇬🇧 英国 - Bexley - 1
+      - 🇬🇧 英国 社会保险安全部
+      - 🇬🇧 英国 社会保险安全部 2
       - 🇮🇳 印度 - Mumbai - 1
       - 🇰🇷 KR_speednode_0021
       - 🇰🇷 KR_speednode_0026

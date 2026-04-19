@@ -10,7 +10,6 @@ global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
   - {name: ℹ️ tg频道:@freenodedaily, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 亚太地区 V2CROSS.COM, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇦🇹 AT_speednode_0001, server: 152.53.45.251, port: 8888, type: trojan, password: trojan, sni: jflsjlaf.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jflsjlaf.pages.dev}}, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -22,9 +21,6 @@ proxies:
   - {name: 🇫🇷 法国 - 巴黎 - 1, server: 15.188.200.62, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国 - 巴黎 - 2, server: 15.188.200.62, port: 22223, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB_speednode_0005, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.46, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 伦敦Virgin Media, server: 82.26.155.20, port: 10369, type: trojan, password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj, sni: fra35.chasem2026sud.com, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 伦敦Virgin Media 2, server: 82.26.155.121, port: 10369, type: trojan, password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj, sni: fra33.chasem2026sud.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 113.108.0.62 #1", server: 113.108.0.62, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 117.78.52.97 #1", server: 117.78.52.97, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -72,7 +68,6 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - 3, server: hk2.network-cdn-gw-yd.net, port: 32063, type: ss, cipher: chacha20-ietf-poly1305, password: aed6e687-58a9-4836-ba62-7d8184c94df4, udp: true}
   - {name: 🇭🇰 中国 - 香港 - 4, server: hk1.network-cdn-gw-yd.net, port: 32060, type: ss, cipher: chacha20-ietf-poly1305, password: aed6e687-58a9-4836-ba62-7d8184c94df4, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: efan.dnsefan04881.com, port: 7754, type: vmess, uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港3, server: 16.162.188.94, port: 52687, type: trojan, password: 868ecdaf6aed618ec98cf78585672b2b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港3|@ripaojiedian, server: 95.40.85.50, port: 52687, type: trojan, password: 868ecdaf6aed618ec98cf78585672b2b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4, server: 54.65.250.149, port: 6313, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -137,7 +132,6 @@ proxies:
   - {name: 🇷🇺 RU_speednode_0012, server: 89.169.8.223, port: 443, type: ss, cipher: none, password: 79960b0b-7d31-4263-8915-6511b0e137a8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560", tls: true, mux: false, skip-cert-verify: true}, udp: true}
   - {name: 🇷🇺 俄罗斯 - 圣彼得堡 - 1, server: 195.58.49.100, port: 10990, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599, udp: true}
   - {name: 🇷🇺 俄罗斯 - 莫斯科 - 2, server: 89.125.103.52, port: 20129, type: ss, cipher: aes-256-gcm, password: 9cdc6440d42cb19c, udp: true}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 194.87.10.31, port: 23357, type: trojan, password: fQmMJwOLMlqHednu2SVED8gi-+H-db9kbg, sni: sgp9.node-resource.click, skip-cert-verify: true, udp: true}
   - {name: "🇸🇬 SG #1", server: gzdata1.233netpro.com, port: 10131, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|01, server: bs3.jymzffbquawl.com, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|02, server: bs3.jymzffbquawl.com, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -183,8 +177,6 @@ proxies:
   - {name: 🇺🇸 美国 - 埃尔塞贡多 - 1, server: 45.8.112.156, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: somebody, plugin: obfs, plugin-opts: {mode: http, host: 20xteamxa9-usa5-a7xr.update.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国 - 洛杉矶 - 2, server: 38.244.47.161, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: somebody, plugin: obfs, plugin-opts: {mode: http, host: 20xteamxa9-diy02-a7xr.update.microsoft.com}, udp: true}
   - {name: 🇺🇸 美国 - 洛杉矶 - 3, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 DXC Technology, server: admin.c1.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 166.88.197.60, port: 26650, type: trojan, password: UNWA6USASAb6=uAAZeZMFd+2uKB4.d5KOm, sni: sea9.firewallcontract.click, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2, server: 13.115.246.132, port: 3057, type: trojan, password: 868ecdaf6aed618ec98cf78585672b2b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 16.162.217.109, port: 14919, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3|@ripaojiedian, server: 54.46.52.234, port: 23255, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -247,7 +239,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - ℹ️ tg频道:@freenodedaily
-      - 亚太地区 V2CROSS.COM
       - 🇦🇹 AT_speednode_0001
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -259,9 +250,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇬🇧 GB_speednode_0005
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇬🇧 英国 伦敦Virgin Media 2
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -305,7 +293,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
@@ -369,7 +356,6 @@ proxy-groups:
       - 🇷🇺 RU_speednode_0012
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
       - 🇸🇬 Standard|广新|IEPL|03
@@ -413,8 +399,6 @@ proxy-groups:
       - 🇺🇸 美国 - 埃尔塞贡多 - 1
       - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 - 洛杉矶 - 3
-      - 🇺🇸 美国 DXC Technology
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
@@ -452,7 +436,6 @@ proxy-groups:
     type: select
     proxies:
       - ℹ️ tg频道:@freenodedaily
-      - 亚太地区 V2CROSS.COM
       - 🇦🇹 AT_speednode_0001
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -464,9 +447,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇬🇧 GB_speednode_0005
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇬🇧 英国 伦敦Virgin Media 2
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -510,7 +490,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
@@ -574,7 +553,6 @@ proxy-groups:
       - 🇷🇺 RU_speednode_0012
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
       - 🇸🇬 Standard|广新|IEPL|03
@@ -618,8 +596,6 @@ proxy-groups:
       - 🇺🇸 美国 - 埃尔塞贡多 - 1
       - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 - 洛杉矶 - 3
-      - 🇺🇸 美国 DXC Technology
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
@@ -748,7 +724,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
@@ -823,7 +798,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
@@ -913,8 +887,6 @@ proxy-groups:
       - 🇺🇸 美国 - 埃尔塞贡多 - 1
       - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 - 洛杉矶 - 3
-      - 🇺🇸 美国 DXC Technology
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
@@ -925,7 +897,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - ℹ️ tg频道:@freenodedaily
-      - 亚太地区 V2CROSS.COM
       - 🇦🇹 AT_speednode_0001
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -935,9 +906,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇬🇧 GB_speednode_0005
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇬🇧 英国 伦敦Virgin Media 2
       - 🇰🇷 KR_speednode_0007
       - 🇰🇷 KR_speednode_0008
       - 🇰🇷 韩国 - 首尔特别市 - 1
@@ -973,7 +941,6 @@ proxy-groups:
       - 🇷🇺 RU_speednode_0012
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇻🇳 VN_speednode_0023
       - 🇻🇳 VN_speednode_0024
       - 🇻🇳 VN_speednode_0025
@@ -1050,7 +1017,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
@@ -1119,7 +1085,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
@@ -1200,8 +1165,6 @@ proxy-groups:
       - 🇺🇸 美国 - 埃尔塞贡多 - 1
       - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 - 洛杉矶 - 3
-      - 🇺🇸 美国 DXC Technology
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国3|@ripaojiedian
@@ -1209,7 +1172,6 @@ proxy-groups:
     type: select
     proxies:
       - ℹ️ tg频道:@freenodedaily
-      - 亚太地区 V2CROSS.COM
       - 🇦🇹 AT_speednode_0001
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -1219,9 +1181,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇬🇧 GB_speednode_0005
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇬🇧 英国 伦敦Virgin Media
-      - 🇬🇧 英国 伦敦Virgin Media 2
       - 🇰🇷 KR_speednode_0007
       - 🇰🇷 KR_speednode_0008
       - 🇰🇷 韩国 - 首尔特别市 - 1
@@ -1257,7 +1216,6 @@ proxy-groups:
       - 🇷🇺 RU_speednode_0012
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
-      - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇻🇳 VN_speednode_0023
       - 🇻🇳 VN_speednode_0024
       - 🇻🇳 VN_speednode_0025

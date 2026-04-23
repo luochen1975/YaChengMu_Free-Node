@@ -17,6 +17,7 @@ proxies:
   - {name: 阿拉伯联合酋长国 - Muhadhdhib - 1, server: 147.78.0.182, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
   - {name: 🇦🇺 澳大利亚 - 堪培拉 - 1, server: 45.15.185.70, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
   - {name: 🇧🇬 保加利亚 - 索菲亞 - 1, server: 38.180.2.141, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+  - {name: 🇧🇬 保加利亚 V2CROSS.COM, server: 78.159.131.12, port: 28259, type: trojan, password: MeaDiUmPlkWbZJ2BON8tz, sni: ads.x5.ru, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇦 加拿大 - Beauharnois - 2, server: 148.113.139.160, port: 46534, type: ss, cipher: chacha20-ietf-poly1305, password: 7a106afc33eaa261, udp: true}
   - {name: 🇨🇦 加拿大 - 多伦多 - 5, server: 137.184.174.93, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
@@ -34,15 +35,18 @@ proxies:
   - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇫🇷 法国 - 格拉沃利讷 - 1, server: 135.125.10.106, port: 10018, type: ss, cipher: chacha20-ietf-poly1305, password: 4b4763efefa95114, udp: true}
   - {name: 🇫🇷 法国 - 格拉沃利讷 - 2, server: 51.178.114.83, port: 11202, type: ss, cipher: chacha20-ietf-poly1305, password: d5b878cbb46f3e33, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM 2, server: 82.38.31.61, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 伦敦Microsoft公司, server: 51.145.91.213, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM 2, server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM 4, server: 82.38.31.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM 5, server: 82.38.31.62, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM 6, server: 82.38.31.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+  - {name: 🇬🇧 英国 伦敦Virgin Media, server: 82.26.155.20, port: 10369, type: trojan, password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj, sni: fra35.chasem2026sud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 伦敦Virgin Media 2, server: 82.26.155.121, port: 10369, type: trojan, password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj, sni: fra33.chasem2026sud.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 伦敦Virgin Media 3, server: 82.26.155.3, port: 10369, type: trojan, password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj, sni: fra34.chasem2026sud.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - 2, server: 203.23.128.33, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇭🇰 中国 - 香港 - 3, server: 45.82.252.109, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
   - {name: 🇭🇰 中国 - 香港 - 4, server: 154.37.223.19, port: 56972, type: vmess, uuid: ae225455-5e8c-491d-d931-c06ac56f4aee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 202.85.76.170, port: 13223, type: ss, cipher: aes-128-gcm, password: JVrsLLN1tkN8oXZO, udp: true}
   - {name: 🇭🇰 香港3, server: 43.199.66.73, port: 52687, type: trojan, password: 1774240c00db2b77d5a99f6540c47b69, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4, server: 95.40.58.97, port: 50612, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5, server: 3.113.21.102, port: 3685, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -59,13 +63,12 @@ proxies:
   - {name: 🇯🇵 日本3, server: 52.192.67.190, port: 4380, type: trojan, password: 1774240c00db2b77d5a99f6540c47b69, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 KR_speednode_0009, server: 121.169.46.116, port: 1090, type: socks5, skip-cert-verify: true, udp: true}
   - {name: 🇱🇻 拉脱维亚 - 里加 - 1, server: 46.183.217.204, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
-  - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 1, server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
   - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 10, server: 82.38.31.122, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 11, server: 82.38.31.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
   - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 12, server: 82.38.31.186, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
   - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 13, server: 82.38.31.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 2, server: 82.38.31.101, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 3, server: 82.38.31.62, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 4, server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
   - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 5, server: 193.29.139.152, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 6, server: 79.127.227.53, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 7, server: 82.38.31.148, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -74,11 +77,8 @@ proxies:
   - {name: 🇵🇦 巴拿马 - Panama City - 1, server: 138.186.142.80, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
   - {name: 🇵🇰 巴基斯坦 - Kohlu - 2, server: 119.159.245.24, port: 26737, type: ss, cipher: chacha20-ietf-poly1305, password: 1d1bc54689ed4b75, udp: true}
   - {name: 🇵🇰 巴基斯坦 - 卡拉奇 - 1, server: 156.59.243.6, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
-  - {name: 🇵🇰 巴基斯坦 V2CROSS.COM, server: 119.159.245.24, port: 26739, type: ss, cipher: chacha20-ietf-poly1305, password: 1d1bc54689ed4b75, udp: true}
-  - {name: 🇵🇰 巴基斯坦 V2CROSS.COM 2, server: 119.159.245.24, port: 26736, type: ss, cipher: chacha20-ietf-poly1305, password: 1d1bc54689ed4b75, udp: true}
-  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.244.208.150, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 41d6655d3625fd14, udp: true}
   - {name: 🇷🇺 俄罗斯 - 莫斯科 - 1, server: 38.60.223.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 5.188.190.252, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 194.87.10.31, port: 23357, type: trojan, password: fQmMJwOLMlqHednu2SVED8gi-+H-db9kbg, sni: sgp9.node-resource.click, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡, server: 160.16.124.17, port: 32876, type: trojan, password: 1774240c00db2b77d5a99f6540c47b69, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡 - 新加坡 - 1, server: 38.89.142.56, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
   - {name: 🇸🇬 新加坡2, server: 52.192.67.190, port: 5594, type: trojan, password: 1774240c00db2b77d5a99f6540c47b69, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
@@ -86,7 +86,6 @@ proxies:
   - {name: 🇹🇼 中国 - 台湾 - 1, server: r3mrcg001286ek2.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
   - {name: 🇺🇸 US_3|2.4MB/s, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US_4|2.7MB/s, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_6|737KB/s, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US_8|6.0MB/s, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 _US_美国_1, server: 206.168.190.219, port: 2082, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
   - {name: 🇺🇸 _US_美国_2, server: wnd2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
@@ -95,11 +94,8 @@ proxies:
   - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国, server: 160.16.124.17, port: 4019, type: trojan, password: 1774240c00db2b77d5a99f6540c47b69, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - 鳳凰城 - 6, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 🇺🇸 美国 DXC Technology, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
-  - {name: 🇺🇸 美国 DXC Technology 2, server: admin.c1.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
-  - {name: 🇺🇸 美国 DXC Technology 3, server: admin.c1.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 154.26.132.38, port: 16922, type: ss, cipher: chacha20-ietf-poly1305, password: 42d2b47181a32de7, udp: true}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.54.57.90, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
+  - {name: 🇺🇸 美国 DXC Technology, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
+  - {name: 🇺🇸 美国 DXC Technology 2, server: admin.c1.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, udp: true}
   - {name: 🇺🇸 美国2, server: 95.40.58.97, port: 4019, type: trojan, password: 1774240c00db2b77d5a99f6540c47b69, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 54.46.121.89, port: 17871, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇻🇳 越南 - Hải Dương - 1, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -187,7 +183,6 @@ proxies:
   - {name: 🇻🇳 越南 - 胡志明市 - 18, server: 112.197.26.106, port: 45311, type: ss, cipher: chacha20-ietf-poly1305, password: ca5a5efae00a832b, udp: true}
   - {name: 🇻🇳 越南 - 胡志明市 - 19, server: 112.197.26.106, port: 45312, type: ss, cipher: chacha20-ietf-poly1305, password: ca5a5efae00a832b, udp: true}
   - {name: 🇻🇳 越南 - 胡志明市 - 20, server: 112.197.26.106, port: 26417, type: ss, cipher: chacha20-ietf-poly1305, password: fd7b0d14b590bceb, udp: true}
-  - {name: 🇻🇳 越南 - 胡志明市 - 85, server: 112.197.26.106, port: 45313, type: ss, cipher: chacha20-ietf-poly1305, password: ca5a5efae00a832b, udp: true}
 proxy-groups:
   - name: ✈️ ‍起飞
     type: select
@@ -224,6 +219,7 @@ proxy-groups:
       - 阿拉伯联合酋长国 - Muhadhdhib - 1
       - 🇦🇺 澳大利亚 - 堪培拉 - 1
       - 🇧🇬 保加利亚 - 索菲亞 - 1
+      - 🇧🇬 保加利亚 V2CROSS.COM
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 - Beauharnois - 2
       - 🇨🇦 加拿大 - 多伦多 - 5
@@ -243,13 +239,16 @@ proxy-groups:
       - 🇫🇷 法国 - 格拉沃利讷 - 2
       - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇬🇧 英国 V2CROSS.COM 3
-      - 🇬🇧 英国 伦敦Microsoft公司
+      - 🇬🇧 英国 V2CROSS.COM 4
+      - 🇬🇧 英国 V2CROSS.COM 5
+      - 🇬🇧 英国 V2CROSS.COM 6
+      - 🇬🇧 英国 伦敦Virgin Media
+      - 🇬🇧 英国 伦敦Virgin Media 2
+      - 🇬🇧 英国 伦敦Virgin Media 3
       - 🇭🇰 中国 - 香港 - 2
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港5
@@ -266,13 +265,12 @@ proxy-groups:
       - 🇯🇵 日本3
       - 🇰🇷 KR_speednode_0009
       - 🇱🇻 拉脱维亚 - 里加 - 1
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 10
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 11
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 12
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 13
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 3
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 4
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 5
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 6
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 7
@@ -281,9 +279,6 @@ proxy-groups:
       - 🇵🇦 巴拿马 - Panama City - 1
       - 🇵🇰 巴基斯坦 - Kohlu - 2
       - 🇵🇰 巴基斯坦 - 卡拉奇 - 1
-      - 🇵🇰 巴基斯坦 V2CROSS.COM
-      - 🇵🇰 巴基斯坦 V2CROSS.COM 2
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇬 新加坡
@@ -293,7 +288,6 @@ proxy-groups:
       - 🇹🇼 中国 - 台湾 - 1
       - 🇺🇸 US_3|2.4MB/s
       - 🇺🇸 US_4|2.7MB/s
-      - 🇺🇸 US_6|737KB/s
       - 🇺🇸 US_8|6.0MB/s
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
@@ -304,9 +298,6 @@ proxy-groups:
       - 🇺🇸 美国 - 鳳凰城 - 6
       - 🇺🇸 美国 DXC Technology
       - 🇺🇸 美国 DXC Technology 2
-      - 🇺🇸 美国 DXC Technology 3
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇻🇳 越南 - Hải Dương - 1
@@ -394,7 +385,6 @@ proxy-groups:
       - 🇻🇳 越南 - 胡志明市 - 18
       - 🇻🇳 越南 - 胡志明市 - 19
       - 🇻🇳 越南 - 胡志明市 - 20
-      - 🇻🇳 越南 - 胡志明市 - 85
   - name: 👆🏻 ‍指定
     type: select
     proxies:
@@ -406,6 +396,7 @@ proxy-groups:
       - 阿拉伯联合酋长国 - Muhadhdhib - 1
       - 🇦🇺 澳大利亚 - 堪培拉 - 1
       - 🇧🇬 保加利亚 - 索菲亞 - 1
+      - 🇧🇬 保加利亚 V2CROSS.COM
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 - Beauharnois - 2
       - 🇨🇦 加拿大 - 多伦多 - 5
@@ -425,13 +416,16 @@ proxy-groups:
       - 🇫🇷 法国 - 格拉沃利讷 - 2
       - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇬🇧 英国 V2CROSS.COM 3
-      - 🇬🇧 英国 伦敦Microsoft公司
+      - 🇬🇧 英国 V2CROSS.COM 4
+      - 🇬🇧 英国 V2CROSS.COM 5
+      - 🇬🇧 英国 V2CROSS.COM 6
+      - 🇬🇧 英国 伦敦Virgin Media
+      - 🇬🇧 英国 伦敦Virgin Media 2
+      - 🇬🇧 英国 伦敦Virgin Media 3
       - 🇭🇰 中国 - 香港 - 2
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港5
@@ -448,13 +442,12 @@ proxy-groups:
       - 🇯🇵 日本3
       - 🇰🇷 KR_speednode_0009
       - 🇱🇻 拉脱维亚 - 里加 - 1
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 10
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 11
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 12
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 13
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 3
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 4
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 5
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 6
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 7
@@ -463,9 +456,6 @@ proxy-groups:
       - 🇵🇦 巴拿马 - Panama City - 1
       - 🇵🇰 巴基斯坦 - Kohlu - 2
       - 🇵🇰 巴基斯坦 - 卡拉奇 - 1
-      - 🇵🇰 巴基斯坦 V2CROSS.COM
-      - 🇵🇰 巴基斯坦 V2CROSS.COM 2
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇸🇬 新加坡
@@ -475,7 +465,6 @@ proxy-groups:
       - 🇹🇼 中国 - 台湾 - 1
       - 🇺🇸 US_3|2.4MB/s
       - 🇺🇸 US_4|2.7MB/s
-      - 🇺🇸 US_6|737KB/s
       - 🇺🇸 US_8|6.0MB/s
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
@@ -486,9 +475,6 @@ proxy-groups:
       - 🇺🇸 美国 - 鳳凰城 - 6
       - 🇺🇸 美国 DXC Technology
       - 🇺🇸 美国 DXC Technology 2
-      - 🇺🇸 美国 DXC Technology 3
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇻🇳 越南 - Hải Dương - 1
@@ -576,7 +562,6 @@ proxy-groups:
       - 🇻🇳 越南 - 胡志明市 - 18
       - 🇻🇳 越南 - 胡志明市 - 19
       - 🇻🇳 越南 - 胡志明市 - 20
-      - 🇻🇳 越南 - 胡志明市 - 85
   - name: 🛩️ ‍墙内
     type: select
     proxies:
@@ -633,7 +618,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港5
@@ -654,7 +638,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港5
@@ -688,7 +671,6 @@ proxy-groups:
     proxies:
       - 🇺🇸 US_3|2.4MB/s
       - 🇺🇸 US_4|2.7MB/s
-      - 🇺🇸 US_6|737KB/s
       - 🇺🇸 US_8|6.0MB/s
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
@@ -699,9 +681,6 @@ proxy-groups:
       - 🇺🇸 美国 - 鳳凰城 - 6
       - 🇺🇸 美国 DXC Technology
       - 🇺🇸 美国 DXC Technology 2
-      - 🇺🇸 美国 DXC Technology 3
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🎏 ‍其他
@@ -718,6 +697,7 @@ proxy-groups:
       - 阿拉伯联合酋长国 - Muhadhdhib - 1
       - 🇦🇺 澳大利亚 - 堪培拉 - 1
       - 🇧🇬 保加利亚 - 索菲亞 - 1
+      - 🇧🇬 保加利亚 V2CROSS.COM
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 - Beauharnois - 2
       - 🇨🇦 加拿大 - 多伦多 - 5
@@ -737,8 +717,12 @@ proxy-groups:
       - 🇫🇷 法国 - 格拉沃利讷 - 2
       - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇬🇧 英国 V2CROSS.COM 3
-      - 🇬🇧 英国 伦敦Microsoft公司
+      - 🇬🇧 英国 V2CROSS.COM 4
+      - 🇬🇧 英国 V2CROSS.COM 5
+      - 🇬🇧 英国 V2CROSS.COM 6
+      - 🇬🇧 英国 伦敦Virgin Media
+      - 🇬🇧 英国 伦敦Virgin Media 2
+      - 🇬🇧 英国 伦敦Virgin Media 3
       - 🇭🇷 克罗地亚 - 萨格勒布 - 1
       - 🇮🇳 印度 - 孟买 - 1
       - 🇮🇳 印度 - 孟买 - 2
@@ -747,13 +731,12 @@ proxy-groups:
       - 🇯🇴 约旦 - 安曼 - 1
       - 🇰🇷 KR_speednode_0009
       - 🇱🇻 拉脱维亚 - 里加 - 1
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 10
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 11
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 12
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 13
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 3
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 4
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 5
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 6
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 7
@@ -762,9 +745,6 @@ proxy-groups:
       - 🇵🇦 巴拿马 - Panama City - 1
       - 🇵🇰 巴基斯坦 - Kohlu - 2
       - 🇵🇰 巴基斯坦 - 卡拉奇 - 1
-      - 🇵🇰 巴基斯坦 V2CROSS.COM
-      - 🇵🇰 巴基斯坦 V2CROSS.COM 2
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇻🇳 越南 - Hải Dương - 1
@@ -852,7 +832,6 @@ proxy-groups:
       - 🇻🇳 越南 - 胡志明市 - 18
       - 🇻🇳 越南 - 胡志明市 - 19
       - 🇻🇳 越南 - 胡志明市 - 20
-      - 🇻🇳 越南 - 胡志明市 - 85
   - name: 👆🏻🇭🇰 ‍香港
     type: select
     proxies:
@@ -860,7 +839,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港5
@@ -875,7 +853,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港5
@@ -900,7 +877,6 @@ proxy-groups:
     proxies:
       - 🇺🇸 US_3|2.4MB/s
       - 🇺🇸 US_4|2.7MB/s
-      - 🇺🇸 US_6|737KB/s
       - 🇺🇸 US_8|6.0MB/s
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
@@ -911,9 +887,6 @@ proxy-groups:
       - 🇺🇸 美国 - 鳳凰城 - 6
       - 🇺🇸 美国 DXC Technology
       - 🇺🇸 美国 DXC Technology 2
-      - 🇺🇸 美国 DXC Technology 3
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他
@@ -927,6 +900,7 @@ proxy-groups:
       - 阿拉伯联合酋长国 - Muhadhdhib - 1
       - 🇦🇺 澳大利亚 - 堪培拉 - 1
       - 🇧🇬 保加利亚 - 索菲亞 - 1
+      - 🇧🇬 保加利亚 V2CROSS.COM
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 - Beauharnois - 2
       - 🇨🇦 加拿大 - 多伦多 - 5
@@ -946,8 +920,12 @@ proxy-groups:
       - 🇫🇷 法国 - 格拉沃利讷 - 2
       - 🇬🇧 英国 V2CROSS.COM
       - 🇬🇧 英国 V2CROSS.COM 2
-      - 🇬🇧 英国 V2CROSS.COM 3
-      - 🇬🇧 英国 伦敦Microsoft公司
+      - 🇬🇧 英国 V2CROSS.COM 4
+      - 🇬🇧 英国 V2CROSS.COM 5
+      - 🇬🇧 英国 V2CROSS.COM 6
+      - 🇬🇧 英国 伦敦Virgin Media
+      - 🇬🇧 英国 伦敦Virgin Media 2
+      - 🇬🇧 英国 伦敦Virgin Media 3
       - 🇭🇷 克罗地亚 - 萨格勒布 - 1
       - 🇮🇳 印度 - 孟买 - 1
       - 🇮🇳 印度 - 孟买 - 2
@@ -956,13 +934,12 @@ proxy-groups:
       - 🇯🇴 约旦 - 安曼 - 1
       - 🇰🇷 KR_speednode_0009
       - 🇱🇻 拉脱维亚 - 里加 - 1
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 10
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 11
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 12
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 13
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
-      - 🇳🇱 荷兰 - 阿姆斯特丹 - 3
+      - 🇳🇱 荷兰 - 阿姆斯特丹 - 4
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 5
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 6
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 7
@@ -971,9 +948,6 @@ proxy-groups:
       - 🇵🇦 巴拿马 - Panama City - 1
       - 🇵🇰 巴基斯坦 - Kohlu - 2
       - 🇵🇰 巴基斯坦 - 卡拉奇 - 1
-      - 🇵🇰 巴基斯坦 V2CROSS.COM
-      - 🇵🇰 巴基斯坦 V2CROSS.COM 2
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇷🇺 俄罗斯 V2CROSS.COM
       - 🇻🇳 越南 - Hải Dương - 1
@@ -1061,7 +1035,6 @@ proxy-groups:
       - 🇻🇳 越南 - 胡志明市 - 18
       - 🇻🇳 越南 - 胡志明市 - 19
       - 🇻🇳 越南 - 胡志明市 - 20
-      - 🇻🇳 越南 - 胡志明市 - 85
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,DIRECT
   - DOMAIN-SUFFIX,ip6-localhost,DIRECT

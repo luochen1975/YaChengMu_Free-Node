@@ -10,8 +10,9 @@ global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
   - {name: ℹ️ tg频道:@freenodedaily, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 亚太地区 V2CROSS.COM, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 亚太地区 V2CROSS.COM, server: 103.181.164.145, port: 54022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇦🇪 AE_speednode_0001, server: 31.57.56.193, port: 51523, type: ss, cipher: chacha20-ietf-poly1305, password: R2MPY2rqL2Gf3Lb1sP5n5fdEkUJ1d-wp, udp: true}
+  - {name: 🇧🇬 保加利亚 V2CROSS.COM, server: 78.159.131.12, port: 28259, type: trojan, password: MeaDiUmPlkWbZJ2BON8tz, sni: 78.159.131.12, skip-cert-verify: true, udp: true}
   - {name: 🇧🇷 巴西 - 圣保罗 - 1, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -35,15 +36,12 @@ proxies:
   - {name: 🇬🇧 GB_speednode_0019, server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 🇬🇧 GB_speednode_0020, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 - 伦敦 - 1, server: 13.135.73.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM 6, server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM 7, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM 8, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM 4, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM 9, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK_speednode_0021, server: 154.37.223.19, port: 56972, type: vmess, uuid: ae225455-5e8c-491d-d931-c06ac56f4aee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港3, server: 18.167.12.175, port: 53018, type: trojan, password: 7ebc402f3383366fe4f554abd8625439, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4, server: 16.163.157.213, port: 1031, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇪 爱尔兰 V2CROSS.COM, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
-  - {name: 🇮🇪 爱尔兰 V2CROSS.COM 2, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
   - {name: 🇯🇵 JP_speednode_0028, server: 54.95.184.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇯🇵 日本, server: 116.80.61.236, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 - Shibuya City - 2, server: 45.12.134.57, port: 4443, type: trojan, password: strong-secret-pass-777, skip-cert-verify: true, udp: true}
@@ -57,7 +55,6 @@ proxies:
   - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 2, server: 95.169.192.234, port: 8443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 3, server: 5.35.47.30, port: 2053, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇵🇱 PL_speednode_0044, server: 217.30.10.70, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: 🇵🇱 波兰 V2CROSS.COM, server: bb.bejkn.cn, port: 11233, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 俄罗斯 - 莫斯科 - 1, server: 45.140.169.216, port: 30112, type: ss, cipher: aes-256-gcm, password: c5fcdf7829112cb4, udp: true}
   - {name: 🇸🇪 瑞典 - 斯德哥尔摩 - 1, server: 13.62.228.54, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇸🇪 瑞典 - 斯德哥尔摩 - 2, server: 51.20.135.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -83,6 +80,9 @@ proxies:
   - {name: 🇺🇸 美国 - 洛杉矶 - 10, server: cf.scpnb.top, port: 443, type: vmess, uuid: b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: partition-shepherd-vic-behalf.trycloudflare.com, network: ws, ws-opts: {path: /b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69-vm, headers: {Host: cf.scpnb.top}}, udp: true}
   - {name: 🇺🇸 美国 - 洛杉矶 - 9, server: skk.moe, port: 80, type: vmess, uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: accklsj.bufu.us.ci, network: ws, ws-opts: {path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess, headers: {Host: skk.moe}}, udp: true}
   - {name: 🇺🇸 美国 - 達拉斯 - 8, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 Akamai科技公司CDN网络节点, server: usaapp1.jisuyun.top, port: 2053, type: vmess, uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: usaapp1.jisuyun.top, network: ws, ws-opts: {path: /usavm, headers: {Host: usaapp1.jisuyun.top}}, udp: true}
+  - {name: 🇺🇸 美国 Amazon数据中心, server: 13.39.190.113, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: chengbai02.ascwt179.com, port: 13223, type: ss, cipher: aes-128-gcm, password: JVrsLLN1tkN8oXZO, udp: true}
   - {name: 🇺🇸 美国2, server: 13.231.222.58, port: 52249, type: trojan, password: 7ebc402f3383366fe4f554abd8625439, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 54.46.15.57, port: 38692, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国5, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -207,6 +207,7 @@ proxy-groups:
       - ℹ️ tg频道:@freenodedaily
       - 亚太地区 V2CROSS.COM
       - 🇦🇪 AE_speednode_0001
+      - 🇧🇬 保加利亚 V2CROSS.COM
       - 🇧🇷 巴西 - 圣保罗 - 1
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -230,15 +231,12 @@ proxy-groups:
       - 🇬🇧 GB_speednode_0019
       - 🇬🇧 GB_speednode_0020
       - 🇬🇧 英国 - 伦敦 - 1
-      - 🇬🇧 英国 V2CROSS.COM 6
-      - 🇬🇧 英国 V2CROSS.COM 7
-      - 🇬🇧 英国 V2CROSS.COM 8
+      - 🇬🇧 英国 V2CROSS.COM 4
+      - 🇬🇧 英国 V2CROSS.COM 9
       - 🇭🇰 HK_speednode_0021
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港4
-      - 🇮🇪 爱尔兰 V2CROSS.COM
-      - 🇮🇪 爱尔兰 V2CROSS.COM 2
       - 🇯🇵 JP_speednode_0028
       - 🇯🇵 日本
       - 🇯🇵 日本 - Shibuya City - 2
@@ -252,7 +250,6 @@ proxy-groups:
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 3
       - 🇵🇱 PL_speednode_0044
-      - 🇵🇱 波兰 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇸🇪 瑞典 - 斯德哥尔摩 - 1
       - 🇸🇪 瑞典 - 斯德哥尔摩 - 2
@@ -278,6 +275,9 @@ proxy-groups:
       - 🇺🇸 美国 - 洛杉矶 - 10
       - 🇺🇸 美国 - 洛杉矶 - 9
       - 🇺🇸 美国 - 達拉斯 - 8
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国5
@@ -377,6 +377,7 @@ proxy-groups:
       - ℹ️ tg频道:@freenodedaily
       - 亚太地区 V2CROSS.COM
       - 🇦🇪 AE_speednode_0001
+      - 🇧🇬 保加利亚 V2CROSS.COM
       - 🇧🇷 巴西 - 圣保罗 - 1
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -400,15 +401,12 @@ proxy-groups:
       - 🇬🇧 GB_speednode_0019
       - 🇬🇧 GB_speednode_0020
       - 🇬🇧 英国 - 伦敦 - 1
-      - 🇬🇧 英国 V2CROSS.COM 6
-      - 🇬🇧 英国 V2CROSS.COM 7
-      - 🇬🇧 英国 V2CROSS.COM 8
+      - 🇬🇧 英国 V2CROSS.COM 4
+      - 🇬🇧 英国 V2CROSS.COM 9
       - 🇭🇰 HK_speednode_0021
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港4
-      - 🇮🇪 爱尔兰 V2CROSS.COM
-      - 🇮🇪 爱尔兰 V2CROSS.COM 2
       - 🇯🇵 JP_speednode_0028
       - 🇯🇵 日本
       - 🇯🇵 日本 - Shibuya City - 2
@@ -422,7 +420,6 @@ proxy-groups:
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 3
       - 🇵🇱 PL_speednode_0044
-      - 🇵🇱 波兰 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇸🇪 瑞典 - 斯德哥尔摩 - 1
       - 🇸🇪 瑞典 - 斯德哥尔摩 - 2
@@ -448,6 +445,9 @@ proxy-groups:
       - 🇺🇸 美国 - 洛杉矶 - 10
       - 🇺🇸 美国 - 洛杉矶 - 9
       - 🇺🇸 美国 - 達拉斯 - 8
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国5
@@ -658,6 +658,9 @@ proxy-groups:
       - 🇺🇸 美国 - 洛杉矶 - 10
       - 🇺🇸 美国 - 洛杉矶 - 9
       - 🇺🇸 美国 - 達拉斯 - 8
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国5
@@ -670,6 +673,7 @@ proxy-groups:
       - ℹ️ tg频道:@freenodedaily
       - 亚太地区 V2CROSS.COM
       - 🇦🇪 AE_speednode_0001
+      - 🇧🇬 保加利亚 V2CROSS.COM
       - 🇧🇷 巴西 - 圣保罗 - 1
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -693,11 +697,8 @@ proxy-groups:
       - 🇬🇧 GB_speednode_0019
       - 🇬🇧 GB_speednode_0020
       - 🇬🇧 英国 - 伦敦 - 1
-      - 🇬🇧 英国 V2CROSS.COM 6
-      - 🇬🇧 英国 V2CROSS.COM 7
-      - 🇬🇧 英国 V2CROSS.COM 8
-      - 🇮🇪 爱尔兰 V2CROSS.COM
-      - 🇮🇪 爱尔兰 V2CROSS.COM 2
+      - 🇬🇧 英国 V2CROSS.COM 4
+      - 🇬🇧 英国 V2CROSS.COM 9
       - 🇰🇷 KR_speednode_0032
       - 🇰🇷 KR_speednode_0034
       - 🇰🇷 KR_speednode_0035
@@ -706,7 +707,6 @@ proxy-groups:
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 3
       - 🇵🇱 PL_speednode_0044
-      - 🇵🇱 波兰 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇸🇪 瑞典 - 斯德哥尔摩 - 1
       - 🇸🇪 瑞典 - 斯德哥尔摩 - 2
@@ -853,6 +853,9 @@ proxy-groups:
       - 🇺🇸 美国 - 洛杉矶 - 10
       - 🇺🇸 美国 - 洛杉矶 - 9
       - 🇺🇸 美国 - 達拉斯 - 8
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇸 美国5
@@ -862,6 +865,7 @@ proxy-groups:
       - ℹ️ tg频道:@freenodedaily
       - 亚太地区 V2CROSS.COM
       - 🇦🇪 AE_speednode_0001
+      - 🇧🇬 保加利亚 V2CROSS.COM
       - 🇧🇷 巴西 - 圣保罗 - 1
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -885,11 +889,8 @@ proxy-groups:
       - 🇬🇧 GB_speednode_0019
       - 🇬🇧 GB_speednode_0020
       - 🇬🇧 英国 - 伦敦 - 1
-      - 🇬🇧 英国 V2CROSS.COM 6
-      - 🇬🇧 英国 V2CROSS.COM 7
-      - 🇬🇧 英国 V2CROSS.COM 8
-      - 🇮🇪 爱尔兰 V2CROSS.COM
-      - 🇮🇪 爱尔兰 V2CROSS.COM 2
+      - 🇬🇧 英国 V2CROSS.COM 4
+      - 🇬🇧 英国 V2CROSS.COM 9
       - 🇰🇷 KR_speednode_0032
       - 🇰🇷 KR_speednode_0034
       - 🇰🇷 KR_speednode_0035
@@ -898,7 +899,6 @@ proxy-groups:
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 2
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 3
       - 🇵🇱 PL_speednode_0044
-      - 🇵🇱 波兰 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇸🇪 瑞典 - 斯德哥尔摩 - 1
       - 🇸🇪 瑞典 - 斯德哥尔摩 - 2

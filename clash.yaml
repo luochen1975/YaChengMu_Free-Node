@@ -9,13 +9,17 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
+  - {name: British, server: 45.140.169.244, port: 30129, type: ss, cipher: aes-256-gcm, password: cfe685726eea2c4b, udp: true}
   - {name: ℹ️ tg频道:@freenodedaily, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇦🇺 澳大利亚 V2CROSS.COM, server: 140.83.50.165, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: ℹ️ 官网https://kelayun.notepin.co, server: 45.140.168.54, port: 50129, type: ss, cipher: aes-256-gcm, password: 32c0ea6e823341a2, udp: true}
+  - {name: 最低2块钱1000G, server: 192.124.176.178, port: 8388, type: ss, cipher: aes-256-gcm, password: i7FDtT0q3sUi, udp: true}
   - {name: 🇧🇷 巴西 - 圣保罗 - 1, server: 109.104.155.45, port: 41348, type: ss, cipher: chacha20-ietf-poly1305, password: NVcw9OTGwmThWmhs1uh7rrIJcVz7ln96ifYZiv4zsWvToTjg, udp: true}
+  - {name: 🇨🇦 Montreal, server: 195.58.49.9, port: 20129, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇦 加拿大 - 列治文 - 1, server: 23.173.104.205, port: 2053, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇨🇦 加拿大 - 列治文 - 2, server: 23.173.104.238, port: 2053, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇨🇦 加拿大 - 多伦多 - 3, server: 150.136.254.79, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇨🇦 加拿大 TELUS, server: 66.103.204.102, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇳 中国 - 上海 - 1, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
   - {name: 🇩🇪 DE_speednode_0002, server: 185.216.177.197, port: 443, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560", tls: true, mux: false, skip-cert-verify: true}, udp: true}
@@ -26,15 +30,16 @@ proxies:
   - {name: 🇩🇪 德国 - 德赖艾希 - 5, server: 51.195.47.23, port: 2087, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇩🇪 德国 - 德赖艾希 - 6, server: 85.209.195.61, port: 2053, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇩🇪 德国 - 德赖艾希 - 7, server: 213.176.92.138, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇩🇪 德国 V2CROSS.COM, server: 194.76.173.184, port: 2053, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇪🇸 ES_speednode_0003, server: 5.188.181.201, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
   - {name: 🇫🇮 芬兰 - 万塔 - 3, server: 95.81.113.186, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇫🇮 芬兰 - 万塔 - 4, server: 84.19.3.83, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇫🇮 芬兰 - 赫尔辛基 - 1, server: 195.133.2.2, port: 34898, type: ss, cipher: chacha20-ietf-poly1305, password: RbIsi7QmpwbYYG9CbN40BS, udp: true}
   - {name: 🇫🇮 芬兰 - 赫尔辛基 - 2, server: 109.107.182.229, port: 51544, type: ss, cipher: chacha20-ietf-poly1305, password: 4iF5nYyTMSQNAbPBDEcEdk, udp: true}
+  - {name: 🇫🇷 France, server: 195.58.49.104, port: 30129, type: ss, cipher: aes-256-gcm, password: fbaf33bcffe53cf9, udp: true}
   - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇫🇷 法国 - 巴黎 - 1, server: 35.180.151.19, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国 - 巴黎 - 2, server: 35.180.151.19, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国 V2CROSS.COM, server: 51.89.226.75, port: 2083, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇬🇧 GB_speednode_0005, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB_speednode_0006, server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 🇬🇧 GB_speednode_0007, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -42,11 +47,13 @@ proxies:
   - {name: 🇬🇧 GB_speednode_0009, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB_speednode_0011, server: v24.hdacd.com, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 - 霍本 - 1, server: hl-freedom-2.undef.network, port: 443, type: trojan, password: mJVGfrOkZGnMywJD2uwmuXgOQ, sni: HL-FREEDOM-2.UNDEF.NETWORK, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇷 希腊 V2CROSS.COM, server: 92.118.126.170, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 113.108.0.62 #1", server: 113.108.0.62, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 117.78.52.97 #1", server: 117.78.52.97, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 120.241.114.62 #1", server: 120.241.114.62, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HongKong, server: 103.136.150.202, port: 8388, type: ss, cipher: aes-256-gcm, password: VDsL4fpZijD4, udp: true}
+  - {name: 🇭🇰 HongKong_1, server: 212.192.15.78, port: 20129, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, udp: true}
   - {name: 🇭🇰 Premium|广港|IEPL|01, server: pr1.jymzffbquawl.com, port: 3600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Premium|广港|IEPL|02, server: pr1.jymzffbquawl.com, port: 3601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇭🇰 Premium|广港|IEPL|03, server: pr1.jymzffbquawl.com, port: 3602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -91,13 +98,14 @@ proxies:
   - {name: 🇭🇰 中国 - 香港 - 4, server: 8.223.63.189, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇭🇰 中国 - 香港 - 5, server: 43.168.16.112, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 219.76.13.177, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇭🇰 香港3, server: 35.77.108.59, port: 53018, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港3|@ripaojiedian, server: 13.230.33.127, port: 53018, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4, server: 18.183.6.145, port: 54708, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4|@ripaojiedian, server: 54.250.178.21, port: 3685, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5, server: 18.162.145.230, port: 11233, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: "🇯🇵 JP #1", server: shdata1.233netpro.com, port: 10121, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 Japan, server: 103.115.18.142, port: 8388, type: ss, cipher: aes-256-gcm, password: 0OO6tD7aCVsS, udp: true}
+  - {name: 🇯🇵 Japan_1, server: 185.141.219.12, port: 30312, type: ss, cipher: aes-256-gcm, password: 99394cfebe6c0906, udp: true}
   - {name: 🇯🇵 Premium|广日|IEPL|01, server: pr3.jymzffbquawl.com, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Premium|广日|IEPL|02, server: pr3.jymzffbquawl.com, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇯🇵 Premium|广日|IEPL|03, server: pr4.jymzffbquawl.com, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -113,6 +121,7 @@ proxies:
   - {name: 🇯🇵 日本, server: 43.199.230.55, port: 15109, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 - Chiyoda City - 1, server: 103.181.164.145, port: 51556, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 - 成田市 - 2, server: 8.219.195.31, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇯🇵 日本 V2CROSS.COM, server: 43.165.190.11, port: 42841, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇯🇵 日本2, server: 35.77.108.59, port: 11541, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 13.230.33.127, port: 11541, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本3, server: 35.77.108.59, port: 24184, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
@@ -124,10 +133,11 @@ proxies:
   - {name: 🇰🇷 KR_speednode_0022, server: 210.99.72.52, port: 29090, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560", tls: true, mux: false, skip-cert-verify: true}, udp: true}
   - {name: 🇰🇷 KR_speednode_0023, server: 118.36.233.194, port: 18000, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560", tls: true, mux: false, skip-cert-verify: true}, udp: true}
   - {name: 🇰🇷 KR_speednode_0024, server: 222.113.253.35, port: 14147, type: ss, cipher: none, password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: woshinidie-et3.pages.dev, path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560", tls: true, mux: false, skip-cert-verify: true}, udp: true}
+  - {name: 🇰🇷 South Korea, server: 203.32.26.24, port: 20129, type: ss, cipher: aes-256-gcm, password: 63d7c17506d1f48b, udp: true}
   - {name: 🇰🇷 韩国 - Yeongdong-gun - 1, server: 146.56.113.221, port: 7778, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇲🇱 斯洛文尼亚 - 马里博尔 - 1, server: 92.42.201.244, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: TBaVYYRJbvS9AX0V3hcMeT, udp: true}
   - {name: 🇳🇱 荷兰 - 阿姆斯特丹 - 1, server: board-01.ddnskunlun.com, port: 11915, type: vmess, uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: board-01.ddnskunlun.com, udp: true}
-  - {name: 🇳🇴 挪威 V2CROSS.COM, server: 138.124.81.204, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇷🇺 Russia, server: 46.29.163.168, port: 60129, type: ss, cipher: aes-256-gcm, password: 9ca2803c16de72cd, udp: true}
   - {name: 🇸🇪 瑞典 - Steninge - 1, server: 150.241.74.98, port: 8443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇸🇪 瑞典 - Steninge - 2, server: 185.130.46.81, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇸🇪 瑞典 - Steninge - 3, server: 185.239.142.215, port: 443, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
@@ -143,12 +153,12 @@ proxies:
   - {name: 🇸🇬 Standard|广新|IEPL|08, server: bs4.jymzffbquawl.com, port: 6603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇸🇬 新加坡, server: 18.163.195.98, port: 3842, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡 - 新加坡 - 1, server: 8.222.195.24, port: 14706, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: 🇸🇬 新加坡 DigitalOcean数据中心, server: 209.97.163.209, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇸🇬 新加坡2, server: 18.163.195.98, port: 4840, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 13.230.33.127, port: 1180, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡3, server: 52.195.173.99, port: 44079, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 5243.199.69.35, port: 1275, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡|@ripaojiedian, server: 13.230.33.127, port: 2511, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇭 Thailand, server: 176.32.39.99, port: 30129, type: ss, cipher: aes-256-gcm, password: 1a87017d0bf57f34, udp: true}
   - {name: 🇹🇼 Premium|广台|IEPL|01, server: pr3.jymzffbquawl.com, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 Premium|广台|IEPL|02, server: pr3.jymzffbquawl.com, port: 3036, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 Premium|广台|IEPL|03, server: pr4.jymzffbquawl.com, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -161,6 +171,7 @@ proxies:
   - {name: 🇹🇼 Standard|广台|IEPL|06, server: bs4.jymzffbquawl.com, port: 3046, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 TW_speednode_0028, server: tvhinet.lajichang.xyz, port: 2096, type: trojan, password: e5c22f63-e473-496a-beff-fdc5655008c1, sni: bing.com, skip-cert-verify: true, udp: true}
   - {name: 🇹🇼 TW_speednode_0030, server: 103.127.243.54, port: 53229, type: vmess, uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/ABCDE]}, udp: true}
+  - {name: 🇹🇼 Taiwan, server: 45.140.169.216, port: 30120, type: ss, cipher: aes-256-gcm, password: c5fcdf7829112cb4, udp: true}
   - {name: 🇹🇼 中国 - 台湾 - 2, server: v11.zgtfqs.click, port: 30811, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|01, server: bs3.jymzffbquawl.com, port: 5600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|02, server: bs3.jymzffbquawl.com, port: 5601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -182,13 +193,16 @@ proxies:
   - {name: 🇺🇸 美国 - Reston - 5, server: 104.234.50.215, port: 2053, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇺🇸 美国 - 水牛城 - 2, server: 107.172.75.141, port: 10086, type: vmess, uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - 洛杉矶 - 1, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 - 洛杉矶 - 4, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - 紐約 - 6, server: 45.150.65.54, port: 2053, type: trojan, password: "8r<[9'l6hAO#8ZQi", sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: 🇺🇸 美国 DXC Technology, server: 20.120.129.200, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 159.223.79.119, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 154.17.225.73, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM 3, server: 172.86.114.80, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: 🇺🇸 美国 亚利桑那州凤凰城Oracle云计算数据中心, server: 129.146.137.214, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: 🇺🇸 美国 加利福尼亚州旧金山Digital Ocean数据中心, server: 162.243.128.185, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.64.152.23, port: 2096, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /tr, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 172.86.114.80, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇺🇸 美国 佛罗里达州迈阿密市, server: 72.56.108.132, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇺🇸 美国 加利福尼亚, server: 64.181.218.67, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇺🇸 美国 加利福尼亚 2, server: 64.188.115.82, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇺🇸 美国 新泽西州皮斯卡特维Choopa数据中心, server: 208.167.245.42, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇺🇸 美国 纽约州纽约DigitalOcean数据中心, server: 162.243.71.74, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: 🇺🇸 美国 纽约市DigitalOcean云公司, server: 104.131.172.195, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: 🇺🇸 美国2, server: 35.77.108.59, port: 3882, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 13.231.250.137, port: 6604, type: trojan, password: a922dfbe65cf53c7bc225fcfeb6cedbc, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 54.46.53.9, port: 2702, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -273,13 +287,17 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
+      - British
       - ℹ️ tg频道:@freenodedaily
-      - 🇦🇺 澳大利亚 V2CROSS.COM
+      - ℹ️ 官网https://kelayun.notepin.co
+      - 最低2块钱1000G
       - 🇧🇷 巴西 - 圣保罗 - 1
+      - 🇨🇦 Montreal
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 - 列治文 - 1
       - 🇨🇦 加拿大 - 列治文 - 2
       - 🇨🇦 加拿大 - 多伦多 - 3
+      - 🇨🇦 加拿大 TELUS
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 中国 - 上海 - 1
       - 🇩🇪 DE_speednode_0002
@@ -290,15 +308,16 @@ proxy-groups:
       - 🇩🇪 德国 - 德赖艾希 - 5
       - 🇩🇪 德国 - 德赖艾希 - 6
       - 🇩🇪 德国 - 德赖艾希 - 7
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇪🇸 ES_speednode_0003
       - 🇫🇮 芬兰 - 万塔 - 3
       - 🇫🇮 芬兰 - 万塔 - 4
       - 🇫🇮 芬兰 - 赫尔辛基 - 1
       - 🇫🇮 芬兰 - 赫尔辛基 - 2
+      - 🇫🇷 France
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
-      - 🇫🇷 法国 V2CROSS.COM
       - 🇬🇧 GB_speednode_0005
       - 🇬🇧 GB_speednode_0006
       - 🇬🇧 GB_speednode_0007
@@ -306,7 +325,9 @@ proxy-groups:
       - 🇬🇧 GB_speednode_0009
       - 🇬🇧 GB_speednode_0011
       - 🇬🇧 英国 - 霍本 - 1
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇷 希腊 V2CROSS.COM
+      - 🇭🇰 HongKong
+      - 🇭🇰 HongKong_1
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -351,12 +372,13 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 中国 - 香港 - 5
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇯🇵 Japan
+      - 🇯🇵 Japan_1
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
       - 🇯🇵 Premium|广日|IEPL|03
@@ -372,6 +394,7 @@ proxy-groups:
       - 🇯🇵 日本
       - 🇯🇵 日本 - Chiyoda City - 1
       - 🇯🇵 日本 - 成田市 - 2
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -383,10 +406,11 @@ proxy-groups:
       - 🇰🇷 KR_speednode_0022
       - 🇰🇷 KR_speednode_0023
       - 🇰🇷 KR_speednode_0024
+      - 🇰🇷 South Korea
       - 🇰🇷 韩国 - Yeongdong-gun - 1
       - 🇲🇱 斯洛文尼亚 - 马里博尔 - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
-      - 🇳🇴 挪威 V2CROSS.COM
+      - 🇷🇺 Russia
       - 🇸🇪 瑞典 - Steninge - 1
       - 🇸🇪 瑞典 - Steninge - 2
       - 🇸🇪 瑞典 - Steninge - 3
@@ -401,12 +425,12 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 - 新加坡 - 1
-      - 🇸🇬 新加坡 DigitalOcean数据中心
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
+      - 🇹🇭 Thailand
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -419,6 +443,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0028
       - 🇹🇼 TW_speednode_0030
+      - 🇹🇼 Taiwan
       - 🇹🇼 中国 - 台湾 - 2
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
@@ -439,13 +464,16 @@ proxy-groups:
       - 🇺🇸 美国 - Reston - 5
       - 🇺🇸 美国 - 水牛城 - 2
       - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇺🇸 美国 - 洛杉矶 - 4
       - 🇺🇸 美国 - 紐約 - 6
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 亚利桑那州凤凰城Oracle云计算数据中心
-      - 🇺🇸 美国 加利福尼亚州旧金山Digital Ocean数据中心
+      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇺🇸 美国 加利福尼亚
+      - 🇺🇸 美国 加利福尼亚 2
+      - 🇺🇸 美国 新泽西州皮斯卡特维Choopa数据中心
+      - 🇺🇸 美国 纽约州纽约DigitalOcean数据中心
+      - 🇺🇸 美国 纽约市DigitalOcean云公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -505,13 +533,17 @@ proxy-groups:
   - name: 👆🏻 ‍指定
     type: select
     proxies:
+      - British
       - ℹ️ tg频道:@freenodedaily
-      - 🇦🇺 澳大利亚 V2CROSS.COM
+      - ℹ️ 官网https://kelayun.notepin.co
+      - 最低2块钱1000G
       - 🇧🇷 巴西 - 圣保罗 - 1
+      - 🇨🇦 Montreal
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 - 列治文 - 1
       - 🇨🇦 加拿大 - 列治文 - 2
       - 🇨🇦 加拿大 - 多伦多 - 3
+      - 🇨🇦 加拿大 TELUS
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 中国 - 上海 - 1
       - 🇩🇪 DE_speednode_0002
@@ -522,15 +554,16 @@ proxy-groups:
       - 🇩🇪 德国 - 德赖艾希 - 5
       - 🇩🇪 德国 - 德赖艾希 - 6
       - 🇩🇪 德国 - 德赖艾希 - 7
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇪🇸 ES_speednode_0003
       - 🇫🇮 芬兰 - 万塔 - 3
       - 🇫🇮 芬兰 - 万塔 - 4
       - 🇫🇮 芬兰 - 赫尔辛基 - 1
       - 🇫🇮 芬兰 - 赫尔辛基 - 2
+      - 🇫🇷 France
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
-      - 🇫🇷 法国 V2CROSS.COM
       - 🇬🇧 GB_speednode_0005
       - 🇬🇧 GB_speednode_0006
       - 🇬🇧 GB_speednode_0007
@@ -538,7 +571,9 @@ proxy-groups:
       - 🇬🇧 GB_speednode_0009
       - 🇬🇧 GB_speednode_0011
       - 🇬🇧 英国 - 霍本 - 1
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇷 希腊 V2CROSS.COM
+      - 🇭🇰 HongKong
+      - 🇭🇰 HongKong_1
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -583,12 +618,13 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 中国 - 香港 - 5
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
       - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇯🇵 Japan
+      - 🇯🇵 Japan_1
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
       - 🇯🇵 Premium|广日|IEPL|03
@@ -604,6 +640,7 @@ proxy-groups:
       - 🇯🇵 日本
       - 🇯🇵 日本 - Chiyoda City - 1
       - 🇯🇵 日本 - 成田市 - 2
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -615,10 +652,11 @@ proxy-groups:
       - 🇰🇷 KR_speednode_0022
       - 🇰🇷 KR_speednode_0023
       - 🇰🇷 KR_speednode_0024
+      - 🇰🇷 South Korea
       - 🇰🇷 韩国 - Yeongdong-gun - 1
       - 🇲🇱 斯洛文尼亚 - 马里博尔 - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
-      - 🇳🇴 挪威 V2CROSS.COM
+      - 🇷🇺 Russia
       - 🇸🇪 瑞典 - Steninge - 1
       - 🇸🇪 瑞典 - Steninge - 2
       - 🇸🇪 瑞典 - Steninge - 3
@@ -633,12 +671,12 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 - 新加坡 - 1
-      - 🇸🇬 新加坡 DigitalOcean数据中心
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
+      - 🇹🇭 Thailand
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -651,6 +689,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0028
       - 🇹🇼 TW_speednode_0030
+      - 🇹🇼 Taiwan
       - 🇹🇼 中国 - 台湾 - 2
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
@@ -671,13 +710,16 @@ proxy-groups:
       - 🇺🇸 美国 - Reston - 5
       - 🇺🇸 美国 - 水牛城 - 2
       - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇺🇸 美国 - 洛杉矶 - 4
       - 🇺🇸 美国 - 紐約 - 6
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 亚利桑那州凤凰城Oracle云计算数据中心
-      - 🇺🇸 美国 加利福尼亚州旧金山Digital Ocean数据中心
+      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇺🇸 美国 加利福尼亚
+      - 🇺🇸 美国 加利福尼亚 2
+      - 🇺🇸 美国 新泽西州皮斯卡特维Choopa数据中心
+      - 🇺🇸 美国 纽约州纽约DigitalOcean数据中心
+      - 🇺🇸 美国 纽约市DigitalOcean云公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -786,6 +828,8 @@ proxy-groups:
     interval: 15
     tolerance: 100
     proxies:
+      - 🇭🇰 HongKong
+      - 🇭🇰 HongKong_1
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -830,7 +874,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 中国 - 香港 - 5
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
@@ -854,6 +897,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0028
       - 🇹🇼 TW_speednode_0030
+      - 🇹🇼 Taiwan
       - 🇹🇼 中国 - 台湾 - 2
   - name: 🇨🇳 ‍中国
     type: url-test
@@ -862,6 +906,8 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 中国 - 上海 - 1
+      - 🇭🇰 HongKong
+      - 🇭🇰 HongKong_1
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -906,7 +952,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 中国 - 香港 - 5
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
@@ -924,6 +969,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0028
       - 🇹🇼 TW_speednode_0030
+      - 🇹🇼 Taiwan
       - 🇹🇼 中国 - 台湾 - 2
   - name: 🇸🇬 ‍新加坡
     type: url-test
@@ -941,7 +987,6 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 - 新加坡 - 1
-      - 🇸🇬 新加坡 DigitalOcean数据中心
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
@@ -953,6 +998,8 @@ proxy-groups:
     interval: 15
     tolerance: 100
     proxies:
+      - 🇯🇵 Japan
+      - 🇯🇵 Japan_1
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
       - 🇯🇵 Premium|广日|IEPL|03
@@ -968,6 +1015,7 @@ proxy-groups:
       - 🇯🇵 日本
       - 🇯🇵 日本 - Chiyoda City - 1
       - 🇯🇵 日本 - 成田市 - 2
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -998,13 +1046,16 @@ proxy-groups:
       - 🇺🇸 美国 - Reston - 5
       - 🇺🇸 美国 - 水牛城 - 2
       - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇺🇸 美国 - 洛杉矶 - 4
       - 🇺🇸 美国 - 紐約 - 6
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 亚利桑那州凤凰城Oracle云计算数据中心
-      - 🇺🇸 美国 加利福尼亚州旧金山Digital Ocean数据中心
+      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇺🇸 美国 加利福尼亚
+      - 🇺🇸 美国 加利福尼亚 2
+      - 🇺🇸 美国 新泽西州皮斯卡特维Choopa数据中心
+      - 🇺🇸 美国 纽约州纽约DigitalOcean数据中心
+      - 🇺🇸 美国 纽约市DigitalOcean云公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -1016,13 +1067,17 @@ proxy-groups:
     interval: 30
     tolerance: 100
     proxies:
+      - British
       - ℹ️ tg频道:@freenodedaily
-      - 🇦🇺 澳大利亚 V2CROSS.COM
+      - ℹ️ 官网https://kelayun.notepin.co
+      - 最低2块钱1000G
       - 🇧🇷 巴西 - 圣保罗 - 1
+      - 🇨🇦 Montreal
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 - 列治文 - 1
       - 🇨🇦 加拿大 - 列治文 - 2
       - 🇨🇦 加拿大 - 多伦多 - 3
+      - 🇨🇦 加拿大 TELUS
       - 🇨🇭 _CH_瑞士
       - 🇩🇪 DE_speednode_0002
       - 🇩🇪 德国 - 德赖艾希 - 1
@@ -1032,15 +1087,16 @@ proxy-groups:
       - 🇩🇪 德国 - 德赖艾希 - 5
       - 🇩🇪 德国 - 德赖艾希 - 6
       - 🇩🇪 德国 - 德赖艾希 - 7
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇪🇸 ES_speednode_0003
       - 🇫🇮 芬兰 - 万塔 - 3
       - 🇫🇮 芬兰 - 万塔 - 4
       - 🇫🇮 芬兰 - 赫尔辛基 - 1
       - 🇫🇮 芬兰 - 赫尔辛基 - 2
+      - 🇫🇷 France
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
-      - 🇫🇷 法国 V2CROSS.COM
       - 🇬🇧 GB_speednode_0005
       - 🇬🇧 GB_speednode_0006
       - 🇬🇧 GB_speednode_0007
@@ -1048,21 +1104,23 @@ proxy-groups:
       - 🇬🇧 GB_speednode_0009
       - 🇬🇧 GB_speednode_0011
       - 🇬🇧 英国 - 霍本 - 1
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇷 希腊 V2CROSS.COM
       - 🇰🇷 KR_speednode_0019
       - 🇰🇷 KR_speednode_0020
       - 🇰🇷 KR_speednode_0021
       - 🇰🇷 KR_speednode_0022
       - 🇰🇷 KR_speednode_0023
       - 🇰🇷 KR_speednode_0024
+      - 🇰🇷 South Korea
       - 🇰🇷 韩国 - Yeongdong-gun - 1
       - 🇲🇱 斯洛文尼亚 - 马里博尔 - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
-      - 🇳🇴 挪威 V2CROSS.COM
+      - 🇷🇺 Russia
       - 🇸🇪 瑞典 - Steninge - 1
       - 🇸🇪 瑞典 - Steninge - 2
       - 🇸🇪 瑞典 - Steninge - 3
       - 🇸🇪 瑞典 - Steninge - 4
+      - 🇹🇭 Thailand
       - 🇻🇳 VN_speednode_0042
       - 🇻🇳 VN_speednode_0043
       - 🇻🇳 VN_speednode_0044
@@ -1117,6 +1175,8 @@ proxy-groups:
   - name: 👆🏻🇭🇰 ‍香港
     type: select
     proxies:
+      - 🇭🇰 HongKong
+      - 🇭🇰 HongKong_1
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -1161,7 +1221,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 中国 - 香港 - 5
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
@@ -1182,11 +1241,14 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0028
       - 🇹🇼 TW_speednode_0030
+      - 🇹🇼 Taiwan
       - 🇹🇼 中国 - 台湾 - 2
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
       - 🇨🇳 中国 - 上海 - 1
+      - 🇭🇰 HongKong
+      - 🇭🇰 HongKong_1
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -1231,7 +1293,6 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - 4
       - 🇭🇰 中国 - 香港 - 5
       - 🇭🇰 香港
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
@@ -1249,6 +1310,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 TW_speednode_0028
       - 🇹🇼 TW_speednode_0030
+      - 🇹🇼 Taiwan
       - 🇹🇼 中国 - 台湾 - 2
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
@@ -1263,7 +1325,6 @@ proxy-groups:
       - 🇸🇬 Standard|广新|IEPL|08
       - 🇸🇬 新加坡
       - 🇸🇬 新加坡 - 新加坡 - 1
-      - 🇸🇬 新加坡 DigitalOcean数据中心
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
@@ -1272,6 +1333,8 @@ proxy-groups:
   - name: 👆🏻🇯🇵 ‍日本
     type: select
     proxies:
+      - 🇯🇵 Japan
+      - 🇯🇵 Japan_1
       - 🇯🇵 Premium|广日|IEPL|01
       - 🇯🇵 Premium|广日|IEPL|02
       - 🇯🇵 Premium|广日|IEPL|03
@@ -1287,6 +1350,7 @@ proxy-groups:
       - 🇯🇵 日本
       - 🇯🇵 日本 - Chiyoda City - 1
       - 🇯🇵 日本 - 成田市 - 2
+      - 🇯🇵 日本 V2CROSS.COM
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -1314,13 +1378,16 @@ proxy-groups:
       - 🇺🇸 美国 - Reston - 5
       - 🇺🇸 美国 - 水牛城 - 2
       - 🇺🇸 美国 - 洛杉矶 - 1
+      - 🇺🇸 美国 - 洛杉矶 - 4
       - 🇺🇸 美国 - 紐約 - 6
-      - 🇺🇸 美国 DXC Technology
+      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 V2CROSS.COM 2
-      - 🇺🇸 美国 V2CROSS.COM 3
-      - 🇺🇸 美国 亚利桑那州凤凰城Oracle云计算数据中心
-      - 🇺🇸 美国 加利福尼亚州旧金山Digital Ocean数据中心
+      - 🇺🇸 美国 佛罗里达州迈阿密市
+      - 🇺🇸 美国 加利福尼亚
+      - 🇺🇸 美国 加利福尼亚 2
+      - 🇺🇸 美国 新泽西州皮斯卡特维Choopa数据中心
+      - 🇺🇸 美国 纽约州纽约DigitalOcean数据中心
+      - 🇺🇸 美国 纽约市DigitalOcean云公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -1329,13 +1396,17 @@ proxy-groups:
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:
+      - British
       - ℹ️ tg频道:@freenodedaily
-      - 🇦🇺 澳大利亚 V2CROSS.COM
+      - ℹ️ 官网https://kelayun.notepin.co
+      - 最低2块钱1000G
       - 🇧🇷 巴西 - 圣保罗 - 1
+      - 🇨🇦 Montreal
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 - 列治文 - 1
       - 🇨🇦 加拿大 - 列治文 - 2
       - 🇨🇦 加拿大 - 多伦多 - 3
+      - 🇨🇦 加拿大 TELUS
       - 🇨🇭 _CH_瑞士
       - 🇩🇪 DE_speednode_0002
       - 🇩🇪 德国 - 德赖艾希 - 1
@@ -1345,15 +1416,16 @@ proxy-groups:
       - 🇩🇪 德国 - 德赖艾希 - 5
       - 🇩🇪 德国 - 德赖艾希 - 6
       - 🇩🇪 德国 - 德赖艾希 - 7
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇪🇸 ES_speednode_0003
       - 🇫🇮 芬兰 - 万塔 - 3
       - 🇫🇮 芬兰 - 万塔 - 4
       - 🇫🇮 芬兰 - 赫尔辛基 - 1
       - 🇫🇮 芬兰 - 赫尔辛基 - 2
+      - 🇫🇷 France
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
-      - 🇫🇷 法国 V2CROSS.COM
       - 🇬🇧 GB_speednode_0005
       - 🇬🇧 GB_speednode_0006
       - 🇬🇧 GB_speednode_0007
@@ -1361,21 +1433,23 @@ proxy-groups:
       - 🇬🇧 GB_speednode_0009
       - 🇬🇧 GB_speednode_0011
       - 🇬🇧 英国 - 霍本 - 1
-      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇷 希腊 V2CROSS.COM
       - 🇰🇷 KR_speednode_0019
       - 🇰🇷 KR_speednode_0020
       - 🇰🇷 KR_speednode_0021
       - 🇰🇷 KR_speednode_0022
       - 🇰🇷 KR_speednode_0023
       - 🇰🇷 KR_speednode_0024
+      - 🇰🇷 South Korea
       - 🇰🇷 韩国 - Yeongdong-gun - 1
       - 🇲🇱 斯洛文尼亚 - 马里博尔 - 1
       - 🇳🇱 荷兰 - 阿姆斯特丹 - 1
-      - 🇳🇴 挪威 V2CROSS.COM
+      - 🇷🇺 Russia
       - 🇸🇪 瑞典 - Steninge - 1
       - 🇸🇪 瑞典 - Steninge - 2
       - 🇸🇪 瑞典 - Steninge - 3
       - 🇸🇪 瑞典 - Steninge - 4
+      - 🇹🇭 Thailand
       - 🇻🇳 VN_speednode_0042
       - 🇻🇳 VN_speednode_0043
       - 🇻🇳 VN_speednode_0044

@@ -43,12 +43,11 @@ proxies:
   - {name: 🇩🇪 德国 - Frankfurt am Main - 4, server: 63.185.124.176, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 德国 - 兰河畔林堡 - 1, server: de5.niekotin.de, port: 80, type: vmess, uuid: 85bf5801-4658-441c-a2e5-842c6c71a521, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: de5.niekotin.de}}, udp: true}
   - {name: 🇩🇪 德国 - 法兰克福 - 2, server: 103.244.145.247, port: 28893, type: ss, cipher: chacha20-ietf-poly1305, password: V6_RXT2UlL5ONSD3Fmvd9XqBGNmespBu, udp: true}
-  - {name: 🇩🇪 德国 V2CROSS.COM, server: 91.233.8.25, port: 443, type: trojan, password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz, sni: fra34.tracker-ws.click, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 V2CROSS.COM, server: 91.233.8.138, port: 443, type: trojan, password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq, sni: www.homelywebs.click, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇫🇷 法国 - 巴黎 - 1, server: 90081bb25c.node.tro.cac.cab, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国 - 巴黎 - 2, server: 155.117.198.83, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国 - 巴黎 - 3, server: 155.117.198.86, port: 45619, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: fr.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 113.108.0.62 #1", server: 113.108.0.62, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 117.78.52.97 #1", server: 117.78.52.97, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -163,6 +162,7 @@ proxies:
   - {name: 🇹🇼 Standard|广台|IEPL|06, server: bs4.jymzffbquawl.com, port: 3046, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 _TW_中国台湾, server: r3mrcg001286ek2.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
   - {name: 🇹🇼 中国 - 台湾 - 1, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾省台北市 中华电信, server: r3mrcg00129437x.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|01, server: bs3.jymzffbquawl.com, port: 5600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|02, server: bs3.jymzffbquawl.com, port: 5601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇺🇸 Standard|广美|IEPL|03, server: bs3.jymzffbquawl.com, port: 5602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -175,6 +175,7 @@ proxies:
   - {name: 🇺🇸 US_speednode_0047, server: 8e2d06c5-teisg0-ts3rye-mrtr.jp.oshuawei.com, port: 443, type: http, username: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9, password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US_speednode_0048, server: 3c3915de-t9zts0-ta5i1s-1j61y.jp.oshuawei.com, port: 443, type: http, username: f13f964e-f06c-11ec-a858-f23c91cfbbc9, password: f13f964e-f06c-11ec-a858-f23c91cfbbc9, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 _US_美国, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 _US_美国_1, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 _US_美国_1 2, server: 206.168.190.219, port: 2082, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
   - {name: 🇺🇸 _US_美国_2 2, server: wnd2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_3, server: 45.199.138.186, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696682720138}, udp: true}
@@ -182,11 +183,9 @@ proxies:
   - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国, server: 16.162.93.34, port: 5224, type: trojan, password: d84665c37878196ecf983cf6910e3b44, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 Akamai科技公司CDN网络节点, server: 172.237.145.189, port: 443, type: trojan, password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM, sni: 172.237.145.189, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 Akamai科技公司CDN网络节点 2, server: 172.238.120.124, port: 443, type: trojan, password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心, server: 45.79.8.17, port: 443, type: trojan, password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf, sni: 45.79.8.17, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司, server: 130.94.104.210, port: 443, type: trojan, password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m, sni: www.cdn-structure.click, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 2, server: 130.94.107.171, port: 443, type: trojan, password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV, sni: www.logger-guard.click, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 3, server: 130.94.68.100, port: 443, type: trojan, password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE, sni: www.rolll.click, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 Akamai科技公司CDN网络节点 2, server: 172.238.19.11, port: 443, type: trojan, password: E_hUHrn0+6VeZO=v9=fLgoPDXZWGfcrejg, sni: 172.238.19.11, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 Akamai科技公司CDN网络节点 3, server: 172.235.63.252, port: 443, type: trojan, password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司, server: 130.94.68.100, port: 443, type: trojan, password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE, sni: www.rolll.click, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 95.40.84.43, port: 2520, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: ✈️ ‍起飞
@@ -255,7 +254,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇫🇷 法国 - 巴黎 - 3
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 HK_speednode_0016
       - 🇭🇰 HK_speednode_0017
       - 🇭🇰 Premium|广港|IEPL|01
@@ -364,6 +362,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 _TW_中国台湾
       - 🇹🇼 中国 - 台湾 - 1
+      - 🇹🇼 台湾省台北市 中华电信
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
       - 🇺🇸 Standard|广美|IEPL|03
@@ -375,6 +374,7 @@ proxy-groups:
       - 🇺🇸 US_speednode_0047
       - 🇺🇸 US_speednode_0048
       - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_2 2
       - 🇺🇸 _US_美国_3
@@ -383,10 +383,8 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇺🇸 美国 Akamai科技公司CDN网络节点 2
-      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点 3
       - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 2
-      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 3
       - 🇺🇸 美国3
   - name: 👆🏻 ‍指定
     type: select
@@ -430,7 +428,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇫🇷 法国 - 巴黎 - 3
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 HK_speednode_0016
       - 🇭🇰 HK_speednode_0017
       - 🇭🇰 Premium|广港|IEPL|01
@@ -539,6 +536,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 _TW_中国台湾
       - 🇹🇼 中国 - 台湾 - 1
+      - 🇹🇼 台湾省台北市 中华电信
       - 🇺🇸 Standard|广美|IEPL|01
       - 🇺🇸 Standard|广美|IEPL|02
       - 🇺🇸 Standard|广美|IEPL|03
@@ -550,6 +548,7 @@ proxy-groups:
       - 🇺🇸 US_speednode_0047
       - 🇺🇸 US_speednode_0048
       - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_2 2
       - 🇺🇸 _US_美国_3
@@ -558,10 +557,8 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇺🇸 美国 Akamai科技公司CDN网络节点 2
-      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点 3
       - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 2
-      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 3
       - 🇺🇸 美国3
   - name: 🛩️ ‍墙内
     type: select
@@ -684,6 +681,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 _TW_中国台湾
       - 🇹🇼 中国 - 台湾 - 1
+      - 🇹🇼 台湾省台北市 中华电信
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -763,6 +761,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 _TW_中国台湾
       - 🇹🇼 中国 - 台湾 - 1
+      - 🇹🇼 台湾省台北市 中华电信
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -820,6 +819,7 @@ proxy-groups:
       - 🇺🇸 US_speednode_0047
       - 🇺🇸 US_speednode_0048
       - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_2 2
       - 🇺🇸 _US_美国_3
@@ -828,10 +828,8 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇺🇸 美国 Akamai科技公司CDN网络节点 2
-      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点 3
       - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 2
-      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 3
       - 🇺🇸 美国3
   - name: 🎏 ‍其他
     type: url-test
@@ -868,7 +866,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇫🇷 法国 - 巴黎 - 3
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇰🇷 KR_speednode_0018
       - 🇰🇷 韩国 - Geumcheon-gu - 1
       - 🇰🇷 韩国 - Geumcheon-gu - 2
@@ -955,6 +952,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 _TW_中国台湾
       - 🇹🇼 中国 - 台湾 - 1
+      - 🇹🇼 台湾省台北市 中华电信
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
@@ -1031,6 +1029,7 @@ proxy-groups:
       - 🇹🇼 Standard|广台|IEPL|06
       - 🇹🇼 _TW_中国台湾
       - 🇹🇼 中国 - 台湾 - 1
+      - 🇹🇼 台湾省台北市 中华电信
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
@@ -1079,6 +1078,7 @@ proxy-groups:
       - 🇺🇸 US_speednode_0047
       - 🇺🇸 US_speednode_0048
       - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_2 2
       - 🇺🇸 _US_美国_3
@@ -1087,10 +1087,8 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇺🇸 美国 Akamai科技公司CDN网络节点 2
-      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点 3
       - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 2
-      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司 3
       - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他
     type: select
@@ -1124,7 +1122,6 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇫🇷 法国 - 巴黎 - 3
-      - 🇬🇧 英国 V2CROSS.COM
       - 🇰🇷 KR_speednode_0018
       - 🇰🇷 韩国 - Geumcheon-gu - 1
       - 🇰🇷 韩国 - Geumcheon-gu - 2

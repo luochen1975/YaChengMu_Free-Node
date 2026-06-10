@@ -11,7 +11,6 @@ keep-alive-interval: 360
 proxies:
   - {name: ℹ️ tg频道:@freenodedaily, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: ℹ️ 官网https://kelayun.notepin.co, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 亚太地区 V2CROSS.COM, server: 103.179.142.212, port: 22047, type: vmess, uuid: 948763b5-a064-453c-a015-185cb183bbfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 月付2块钱1000G, server: 95.40.4.37, port: 2520, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
@@ -21,6 +20,7 @@ proxies:
   - {name: 🇫🇷 法国 - 巴黎 - 1, server: 13.37.141.219, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国 - 巴黎 - 2, server: 15.236.101.176, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国 - 巴黎 - 3, server: 13.37.141.219, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 185.126.236.44, port: 443, type: trojan, password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL, sni: www.mesaly.click, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 113.108.0.62 #1", server: 113.108.0.62, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 117.78.52.97 #1", server: 117.78.52.97, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -141,6 +141,7 @@ proxies:
   - {name: 🇷🇴 罗马尼亚 - Voluntari - 18, server: 84.239.49.173, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 罗马尼亚 - Voluntari - 19, server: 84.239.49.155, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 罗马尼亚 - Voluntari - 8, server: 84.239.14.146, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.137.157.254, port: 443, type: trojan, password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd, sni: www.directorypipeline.click, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 俄罗斯 - 圣彼得堡 - 1, server: 195.58.49.162, port: 8012, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599, udp: true}
   - {name: 🇷🇺 俄罗斯 - 莫斯科 - 2, server: 45.140.169.244, port: 50129, type: ss, cipher: aes-256-gcm, password: cfe685726eea2c4b, udp: true}
   - {name: "🇸🇬 SG #1", server: gzdata1.233netpro.com, port: 10131, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -188,7 +189,7 @@ proxies:
   - {name: 🇺🇸 美国 - 夏洛特 - 1, server: 77.110.126.179, port: 35311, type: trojan, password: SoftNetConnect, sni: www.speedtest.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - 洛杉矶 - 2, server: 156.239.47.83, port: 13666, type: vmess, uuid: 1d39f715-2740-4d99-bc3b-197cc48dcee7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /graphql}, udp: true}
   - {name: 🇺🇸 美国 CloudFlare节点, server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 149.104.87.182, port: 443, type: trojan, password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA, sni: www.jewelapp.click, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 加利福尼亚, server: 64.176.65.85, port: 443, type: trojan, password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2, server: 43.198.98.40, port: 17005, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 43.199.217.233, port: 39959, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -221,7 +222,6 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - ℹ️ 官网https://kelayun.notepin.co
-      - 亚太地区 V2CROSS.COM
       - 月付2块钱1000G
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -231,6 +231,7 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇫🇷 法国 - 巴黎 - 3
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -346,6 +347,7 @@ proxy-groups:
       - 🇷🇴 罗马尼亚 - Voluntari - 18
       - 🇷🇴 罗马尼亚 - Voluntari - 19
       - 🇷🇴 罗马尼亚 - Voluntari - 8
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
       - 🇸🇬 Standard|广新|IEPL|01
@@ -391,7 +393,7 @@ proxy-groups:
       - 🇺🇸 美国 - 夏洛特 - 1
       - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻 ‍指定
@@ -399,7 +401,6 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - ℹ️ 官网https://kelayun.notepin.co
-      - 亚太地区 V2CROSS.COM
       - 月付2块钱1000G
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -409,6 +410,7 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇫🇷 法国 - 巴黎 - 3
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -524,6 +526,7 @@ proxy-groups:
       - 🇷🇴 罗马尼亚 - Voluntari - 18
       - 🇷🇴 罗马尼亚 - Voluntari - 19
       - 🇷🇴 罗马尼亚 - Voluntari - 8
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
       - 🇸🇬 Standard|广新|IEPL|01
@@ -569,7 +572,7 @@ proxy-groups:
       - 🇺🇸 美国 - 夏洛特 - 1
       - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🛩️ ‍墙内
@@ -823,7 +826,7 @@ proxy-groups:
       - 🇺🇸 美国 - 夏洛特 - 1
       - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🎏 ‍其他
@@ -834,7 +837,6 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - ℹ️ 官网https://kelayun.notepin.co
-      - 亚太地区 V2CROSS.COM
       - 月付2块钱1000G
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -843,6 +845,7 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇫🇷 法国 - 巴黎 - 3
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇰🇷 KR_speednode_0008
       - 🇳🇱 荷兰 - Dronten - 1
       - 🇷🇴 RO_speednode_0010
@@ -893,6 +896,7 @@ proxy-groups:
       - 🇷🇴 罗马尼亚 - Voluntari - 18
       - 🇷🇴 罗马尼亚 - Voluntari - 19
       - 🇷🇴 罗马尼亚 - Voluntari - 8
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
   - name: 👆🏻🇭🇰 ‍香港
@@ -1082,7 +1086,7 @@ proxy-groups:
       - 🇺🇸 美国 - 夏洛特 - 1
       - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他
@@ -1090,7 +1094,6 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - ℹ️ 官网https://kelayun.notepin.co
-      - 亚太地区 V2CROSS.COM
       - 月付2块钱1000G
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
@@ -1099,6 +1102,7 @@ proxy-groups:
       - 🇫🇷 法国 - 巴黎 - 1
       - 🇫🇷 法国 - 巴黎 - 2
       - 🇫🇷 法国 - 巴黎 - 3
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇰🇷 KR_speednode_0008
       - 🇳🇱 荷兰 - Dronten - 1
       - 🇷🇴 RO_speednode_0010
@@ -1149,6 +1153,7 @@ proxy-groups:
       - 🇷🇴 罗马尼亚 - Voluntari - 18
       - 🇷🇴 罗马尼亚 - Voluntari - 19
       - 🇷🇴 罗马尼亚 - Voluntari - 8
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
 rules:

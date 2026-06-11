@@ -20,6 +20,7 @@ proxies:
   - {name: 🇩🇪 德国 - Frankfurt am Main - 4, server: 3.76.90.234, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 德国 - Frankfurt am Main - 5, server: 3.127.163.98, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 德国 - 法兰克福 - 1, server: 155.117.198.85, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 V2CROSS.COM, server: 91.233.8.138, port: 443, type: trojan, password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq, sni: www.homelywebs.click, skip-cert-verify: true, udp: true}
   - {name: 🇫🇮 芬兰 - 赫尔辛基 - 1, server: 144.31.7.129, port: 51523, type: ss, cipher: chacha20-ietf-poly1305, password: tndCP2Df9-PTx_J0sZeoHmTdvkg0w4Kv, udp: true}
   - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇫🇷 法国 - 巴黎 - 1, server: 52.47.70.99, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
@@ -160,7 +161,6 @@ proxies:
   - {name: 🇷🇴 RO_speednode_0059, server: 84.239.49.253, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_speednode_0060, server: 84.239.14.159, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_speednode_0061, server: 84.239.49.247, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.137.157.254, port: 443, type: trojan, password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd, sni: www.directorypipeline.click, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 俄罗斯 - 新西伯利亚 - 1, server: 193.233.18.234, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: YvNtVuLvHpZVAr8RMVRWRb, udp: true}
   - {name: "🇸🇬 SG #1", server: gzdata1.233netpro.com, port: 10131, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|01, server: bs3.jymzffbquawl.com, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -210,8 +210,6 @@ proxies:
   - {name: 🇺🇸 美国, server: 43.198.203.3, port: 49277, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - Sulphur Springs - 1, server: 198.71.54.21, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 097H_-eSMWbWFtuktVuT8wWjANSN9tmh, udp: true}
   - {name: 🇺🇸 美国 - 圣路易斯 - 2, server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: v2ray1.dozapp.xyz, network: ws, ws-opts: {path: /lMnsZUN4/}, udp: true}
-  - {name: 🇺🇸 美国 Linode数据中心, server: 172.105.9.126, port: 443, type: trojan, password: lTLVIqIvFqp+es9giS.0o77ztLrCQLaxVh, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 加利福尼亚, server: 64.176.65.85, port: 443, type: trojan, password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf, sni: 64.176.65.85, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2, server: 18.166.223.23, port: 17005, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 95.40.109.247, port: 49277, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 18.163.120.29, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -255,6 +253,7 @@ proxy-groups:
       - 🇩🇪 德国 - Frankfurt am Main - 4
       - 🇩🇪 德国 - Frankfurt am Main - 5
       - 🇩🇪 德国 - 法兰克福 - 1
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇫🇮 芬兰 - 赫尔辛基 - 1
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - 巴黎 - 1
@@ -390,7 +389,6 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0059
       - 🇷🇴 RO_speednode_0060
       - 🇷🇴 RO_speednode_0061
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 新西伯利亚 - 1
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
@@ -438,8 +436,6 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Sulphur Springs - 1
       - 🇺🇸 美国 - 圣路易斯 - 2
-      - 🇺🇸 美国 Linode数据中心
-      - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -458,6 +454,7 @@ proxy-groups:
       - 🇩🇪 德国 - Frankfurt am Main - 4
       - 🇩🇪 德国 - Frankfurt am Main - 5
       - 🇩🇪 德国 - 法兰克福 - 1
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇫🇮 芬兰 - 赫尔辛基 - 1
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - 巴黎 - 1
@@ -593,7 +590,6 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0059
       - 🇷🇴 RO_speednode_0060
       - 🇷🇴 RO_speednode_0061
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 新西伯利亚 - 1
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
@@ -641,8 +637,6 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Sulphur Springs - 1
       - 🇺🇸 美国 - 圣路易斯 - 2
-      - 🇺🇸 美国 Linode数据中心
-      - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -914,8 +908,6 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Sulphur Springs - 1
       - 🇺🇸 美国 - 圣路易斯 - 2
-      - 🇺🇸 美国 Linode数据中心
-      - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -937,6 +929,7 @@ proxy-groups:
       - 🇩🇪 德国 - Frankfurt am Main - 4
       - 🇩🇪 德国 - Frankfurt am Main - 5
       - 🇩🇪 德国 - 法兰克福 - 1
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇫🇮 芬兰 - 赫尔辛基 - 1
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - 巴黎 - 1
@@ -1000,7 +993,6 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0059
       - 🇷🇴 RO_speednode_0060
       - 🇷🇴 RO_speednode_0061
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 新西伯利亚 - 1
   - name: 👆🏻🇭🇰 ‍香港
     type: select
@@ -1205,8 +1197,6 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Sulphur Springs - 1
       - 🇺🇸 美国 - 圣路易斯 - 2
-      - 🇺🇸 美国 Linode数据中心
-      - 🇺🇸 美国 加利福尼亚
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -1225,6 +1215,7 @@ proxy-groups:
       - 🇩🇪 德国 - Frankfurt am Main - 4
       - 🇩🇪 德国 - Frankfurt am Main - 5
       - 🇩🇪 德国 - 法兰克福 - 1
+      - 🇩🇪 德国 V2CROSS.COM
       - 🇫🇮 芬兰 - 赫尔辛基 - 1
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - 巴黎 - 1
@@ -1288,7 +1279,6 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0059
       - 🇷🇴 RO_speednode_0060
       - 🇷🇴 RO_speednode_0061
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 新西伯利亚 - 1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,DIRECT

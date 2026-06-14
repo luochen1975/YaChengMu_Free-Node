@@ -137,11 +137,10 @@ proxies:
   - {name: 🇷🇴 RO_speednode_0045, server: 84.239.49.245, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_speednode_0046, server: 84.239.49.223, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_speednode_0047, server: 84.239.49.253, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.137.157.254, port: 443, type: trojan, password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd, sni: www.directorypipeline.click, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 俄罗斯 - 莫斯科 - 1, server: 185.22.154.46, port: 20129, type: ss, cipher: aes-256-gcm, password: 32c0ea6e823341a2, udp: true}
   - {name: 🇷🇺 俄罗斯 - 莫斯科 - 2, server: 185.22.154.170, port: 8033, type: ss, cipher: aes-256-gcm, password: c5fcdf7829112cb4, udp: true}
   - {name: 🇷🇺 俄罗斯 - 莫斯科 - 3, server: 185.22.154.212, port: 50129, type: ss, cipher: aes-256-gcm, password: cfe685726eea2c4b, udp: true}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 195.133.23.28, port: 8033, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599, udp: true}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 2, server: 195.58.48.56, port: 50801, type: ss, cipher: aes-256-gcm, password: 1a87017d0bf57f34, udp: true}
   - {name: "🇸🇬 SG #1", server: gzdata1.233netpro.com, port: 10131, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|01, server: bs3.jymzffbquawl.com, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇸🇬 Standard|广新|IEPL|02, server: bs3.jymzffbquawl.com, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -184,7 +183,8 @@ proxies:
   - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国, server: 95.40.55.96, port: 17005, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - 堪薩斯城 - 1, server: 95.182.86.97, port: 1019, type: ss, cipher: aes-256-gcm, password: Rt2YkW, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.16.174.117, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 洛杉矶, server: 66.81.247.155, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true}
   - {name: 🇺🇸 美国2, server: 16.163.144.103, port: 17005, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 43.198.12.196, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -338,11 +338,10 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0045
       - 🇷🇴 RO_speednode_0046
       - 🇷🇴 RO_speednode_0047
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
       - 🇷🇺 俄罗斯 - 莫斯科 - 3
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
       - 🇸🇬 Standard|广新|IEPL|03
@@ -384,6 +383,7 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - 堪薩斯城 - 1
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 洛杉矶
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻 ‍指定
@@ -512,11 +512,10 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0045
       - 🇷🇴 RO_speednode_0046
       - 🇷🇴 RO_speednode_0047
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
       - 🇷🇺 俄罗斯 - 莫斯科 - 3
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇸🇬 Standard|广新|IEPL|01
       - 🇸🇬 Standard|广新|IEPL|02
       - 🇸🇬 Standard|广新|IEPL|03
@@ -558,6 +557,7 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - 堪薩斯城 - 1
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 洛杉矶
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🛩️ ‍墙内
@@ -811,6 +811,7 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - 堪薩斯城 - 1
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 洛杉矶
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🎏 ‍其他
@@ -876,11 +877,10 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0045
       - 🇷🇴 RO_speednode_0046
       - 🇷🇴 RO_speednode_0047
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
       - 🇷🇺 俄罗斯 - 莫斯科 - 3
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
   - name: 👆🏻🇭🇰 ‍香港
     type: select
     proxies:
@@ -1068,6 +1068,7 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - 堪薩斯城 - 1
       - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 洛杉矶
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他
@@ -1130,11 +1131,10 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0045
       - 🇷🇴 RO_speednode_0046
       - 🇷🇴 RO_speednode_0047
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
       - 🇷🇺 俄罗斯 - 莫斯科 - 3
-      - 🇷🇺 俄罗斯 V2CROSS.COM
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,DIRECT
   - DOMAIN-SUFFIX,ip6-localhost,DIRECT

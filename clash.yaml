@@ -86,6 +86,7 @@ proxies:
   - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国, server: 95.40.55.96, port: 17005, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - 纽约 - 1, server: 198.98.53.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: eDfN7SODQceIOmIAbtJJtK, udp: true}
+  - {name: 🇺🇸 美国 加州, server: 216.24.57.1, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true}
   - {name: 🇺🇸 美国2, server: 16.163.144.103, port: 17005, type: trojan, password: d02e3bb7e6b3333e818d36866d40de6e, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 43.198.12.196, port: 17801, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -193,6 +194,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
       - 🇺🇸 美国 - 纽约 - 1
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻 ‍指定
@@ -275,6 +277,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
       - 🇺🇸 美国 - 纽约 - 1
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🛩️ ‍墙内
@@ -392,6 +395,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
       - 🇺🇸 美国 - 纽约 - 1
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🎏 ‍其他
@@ -504,6 +508,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
       - 🇺🇸 美国 - 纽约 - 1
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他

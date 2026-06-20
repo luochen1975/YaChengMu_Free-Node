@@ -18,6 +18,7 @@ proxies:
   - {name: ℹ️ 裤佬网盘https://526900.xyz, server: 84.239.49.214, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: ℹ️ 裤佬群聊https://t.me/+j664EmVv8m0wZGVk, server: 84.239.49.175, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: ℹ️ 裤佬自用机场https://kelayun.notepin.co/, server: 84.239.49.234, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 亚太地区 V2CROSS.COM, server: 103.125.219.70, port: 443, type: trojan, password: s75Gtmy56sptTA39hmBH965YYx4ZgfQR_I, sni: 103.125.219.70, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇳 中国 - 上海 - 1, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
@@ -112,6 +113,7 @@ proxies:
   - {name: 🇯🇵 日本3|@ripaojiedian, server: 18.163.200.170, port: 37973, type: trojan, password: e0195c73018d597b1c2f0ea89d8676ae, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本|@ripaojiedian, server: 43.207.206.41, port: 4099, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 KR_speednode_0004, server: 129.154.50.159, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: tjsp.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tjsp.hhxaf.cc.cd}}, udp: true}
+  - {name: 🇰🇷 韩国 V2CROSS.COM, server: 211.49.57.175, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: hhcm.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hhcm.hhxaf.cc.cd}}, udp: true}
   - {name: 🇷🇴 RO_dcff6_0015, server: 84.239.49.42, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_dcff6_0016, server: 84.239.14.146, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_dcff6_0017, server: 84.239.49.40, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
@@ -158,6 +160,7 @@ proxies:
   - {name: 🇷🇴 RO_speednode_0050, server: 84.239.49.184, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_speednode_0052, server: 84.239.49.199, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 罗马尼亚 - Voluntari - 29, server: 84.239.49.209, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.137.157.154, port: 443, type: trojan, password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz, sni: fra154.clientfirewall.click, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 俄罗斯 - 莫斯科 - 1, server: 46.29.163.195, port: 20129, type: ss, cipher: aes-256-gcm, password: b24a80e79cee1d1f, udp: true}
   - {name: 🇸🇪 瑞典 - 斯德哥尔摩 - 1, server: 207.2.120.46, port: 3478, type: ss, cipher: chacha20-ietf-poly1305, password: yu2XnSPWhmQjxn83iJA3DA, udp: true}
   - {name: "🇸🇬 SG #1", server: gzdata1.233netpro.com, port: 10131, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -175,7 +178,6 @@ proxies:
   - {name: 🇸🇬 新加坡3, server: 18.166.66.17, port: 41421, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 18.162.50.252, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡|@ripaojiedian, server: 35.77.34.38, port: 29642, type: trojan, password: e0195c73018d597b1c2f0ea89d8676ae, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇷 土耳其 V2CROSS.COM, server: 103.130.147.40, port: 1122, type: ss, cipher: aes-256-gcm, password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=, udp: true}
   - {name: 🇹🇼 Premium|广台|IEPL|01, server: pr3.jymzffbquawl.com, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 Premium|广台|IEPL|02, server: pr3.jymzffbquawl.com, port: 3036, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
   - {name: 🇹🇼 Premium|广台|IEPL|03, server: pr4.jymzffbquawl.com, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 1a985193720.microsoft.com}, udp: true}
@@ -208,6 +210,7 @@ proxies:
   - {name: 🇺🇸 _US_美国_4, server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国, server: 52.195.226.220, port: 17005, type: trojan, password: e0195c73018d597b1c2f0ea89d8676ae, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司, server: 130.94.114.217, port: 443, type: trojan, password: BhNAljna1sXjsY.Nqdl0ksXJ1VsGRqXz1V, sni: 130.94.114.217, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2, server: 18.163.80.1, port: 17005, type: trojan, password: e0195c73018d597b1c2f0ea89d8676ae, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 13.115.223.251, port: 17005, type: trojan, password: e0195c73018d597b1c2f0ea89d8676ae, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 16.163.107.6, port: 39959, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -249,6 +252,7 @@ proxy-groups:
       - ℹ️ 裤佬网盘https://526900.xyz
       - ℹ️ 裤佬群聊https://t.me/+j664EmVv8m0wZGVk
       - ℹ️ 裤佬自用机场https://kelayun.notepin.co/
+      - 亚太地区 V2CROSS.COM
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 中国 - 上海 - 1
@@ -338,6 +342,7 @@ proxy-groups:
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇰🇷 KR_speednode_0004
+      - 🇰🇷 韩国 V2CROSS.COM
       - 🇷🇴 RO_dcff6_0015
       - 🇷🇴 RO_dcff6_0016
       - 🇷🇴 RO_dcff6_0017
@@ -384,6 +389,7 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0050
       - 🇷🇴 RO_speednode_0052
       - 🇷🇴 罗马尼亚 - Voluntari - 29
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇸🇪 瑞典 - 斯德哥尔摩 - 1
       - 🇸🇬 Standard|广新|IEPL|01
@@ -400,7 +406,6 @@ proxy-groups:
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇹🇷 土耳其 V2CROSS.COM
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -432,6 +437,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -448,6 +454,7 @@ proxy-groups:
       - ℹ️ 裤佬网盘https://526900.xyz
       - ℹ️ 裤佬群聊https://t.me/+j664EmVv8m0wZGVk
       - ℹ️ 裤佬自用机场https://kelayun.notepin.co/
+      - 亚太地区 V2CROSS.COM
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 中国 - 上海 - 1
@@ -537,6 +544,7 @@ proxy-groups:
       - 🇯🇵 日本3|@ripaojiedian
       - 🇯🇵 日本|@ripaojiedian
       - 🇰🇷 KR_speednode_0004
+      - 🇰🇷 韩国 V2CROSS.COM
       - 🇷🇴 RO_dcff6_0015
       - 🇷🇴 RO_dcff6_0016
       - 🇷🇴 RO_dcff6_0017
@@ -583,6 +591,7 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0050
       - 🇷🇴 RO_speednode_0052
       - 🇷🇴 罗马尼亚 - Voluntari - 29
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇸🇪 瑞典 - 斯德哥尔摩 - 1
       - 🇸🇬 Standard|广新|IEPL|01
@@ -599,7 +608,6 @@ proxy-groups:
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇬 新加坡|@ripaojiedian
-      - 🇹🇷 土耳其 V2CROSS.COM
       - 🇹🇼 Premium|广台|IEPL|01
       - 🇹🇼 Premium|广台|IEPL|02
       - 🇹🇼 Premium|广台|IEPL|03
@@ -631,6 +639,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -894,6 +903,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -913,6 +923,7 @@ proxy-groups:
       - ℹ️ 裤佬网盘https://526900.xyz
       - ℹ️ 裤佬群聊https://t.me/+j664EmVv8m0wZGVk
       - ℹ️ 裤佬自用机场https://kelayun.notepin.co/
+      - 亚太地区 V2CROSS.COM
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇩🇪 德国 - Frankfurt Am Main - 9
@@ -932,6 +943,7 @@ proxy-groups:
       - 🇬🇧 英国 - Erith - 1
       - 🇮🇩 共享账号https://id.dhsv.eu.org
       - 🇰🇷 KR_speednode_0004
+      - 🇰🇷 韩国 V2CROSS.COM
       - 🇷🇴 RO_dcff6_0015
       - 🇷🇴 RO_dcff6_0016
       - 🇷🇴 RO_dcff6_0017
@@ -978,9 +990,9 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0050
       - 🇷🇴 RO_speednode_0052
       - 🇷🇴 罗马尼亚 - Voluntari - 29
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇸🇪 瑞典 - 斯德哥尔摩 - 1
-      - 🇹🇷 土耳其 V2CROSS.COM
   - name: 👆🏻🇭🇰 ‍香港
     type: select
     proxies:
@@ -1176,6 +1188,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
+      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
       - 🇺🇸 美国2
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3
@@ -1192,6 +1205,7 @@ proxy-groups:
       - ℹ️ 裤佬网盘https://526900.xyz
       - ℹ️ 裤佬群聊https://t.me/+j664EmVv8m0wZGVk
       - ℹ️ 裤佬自用机场https://kelayun.notepin.co/
+      - 亚太地区 V2CROSS.COM
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇩🇪 德国 - Frankfurt Am Main - 9
@@ -1211,6 +1225,7 @@ proxy-groups:
       - 🇬🇧 英国 - Erith - 1
       - 🇮🇩 共享账号https://id.dhsv.eu.org
       - 🇰🇷 KR_speednode_0004
+      - 🇰🇷 韩国 V2CROSS.COM
       - 🇷🇴 RO_dcff6_0015
       - 🇷🇴 RO_dcff6_0016
       - 🇷🇴 RO_dcff6_0017
@@ -1257,9 +1272,9 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0050
       - 🇷🇴 RO_speednode_0052
       - 🇷🇴 罗马尼亚 - Voluntari - 29
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇸🇪 瑞典 - 斯德哥尔摩 - 1
-      - 🇹🇷 土耳其 V2CROSS.COM
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,DIRECT
   - DOMAIN-SUFFIX,ip6-localhost,DIRECT

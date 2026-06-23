@@ -72,7 +72,6 @@ proxies:
   - {name: 🇧🇪 比利时 035, server: pelang.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: pelang.org}}, udp: true}
   - {name: 🇧🇪 比利时 036, server: pulau.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: pulau.org}}, udp: true}
   - {name: 🇧🇬 保加利亚 001, server: 185.250.38.63, port: 550, type: vmess, uuid: 0c6abb66-660e-4db9-9e64-3a2625639278, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.98.0, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇭 瑞士 001, server: 83.228.224.161, port: 42549, type: trojan, password: SoftNetConnect, sni: www.speedtest.net, skip-cert-verify: true, udp: true}
@@ -156,9 +155,9 @@ proxies:
   - {name: 🇫🇷 法国 096, server: 146.59.70.146, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: yichueng.org}}, udp: true}
   - {name: 🇫🇷 法国 097, server: 146.59.85.226, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: pelang.org}}, udp: true}
   - {name: 🇫🇷 法国 098, server: yichueng.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: yichueng.org}}, udp: true}
-  - {name: 🇬🇧 GB_speednode_0007, server: 802344f1-ta1og0-tgzvop-hns7.uk.oshuawei.com, port: 443, type: http, username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 - Erith - 1, server: 69.84.182.49, port: 80, type: vmess, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir., network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇬🇧 英国 004, server: 46.250.234.32, port: 45317, type: vmess, uuid: b2836369-220b-4840-80c4-8cf904c735ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 185.126.236.190, port: 443, type: trojan, password: VGBzLm49=M_i02Az30tIeonkQw180t-edg, sni: 185.126.236.190, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 _HK_中国香港, server: li.feng3d.com, port: 8388, type: ss, cipher: aes-256-gcm, password: feng3d@ss2025, udp: true}
   - {name: 🇭🇰 _HK_中国香港_1, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 _HK_中国香港_2, server: 8.210.239.58, port: 443, type: vmess, uuid: 5fdc6ab1-8347-411c-9bbf-fbc3ea853d2f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: n1761296889.4u9ma.icu, network: ws, ws-opts: {path: /}, udp: true}
@@ -184,7 +183,8 @@ proxies:
   - {name: 🇯🇵 日本3, server: 18.162.41.225, port: 37973, type: trojan, password: 860c3c2c89a1c7515792be1c5295d21e, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本3|@ripaojiedian, server: 18.163.125.35, port: 5701, type: trojan, password: 2009158055b4d37156cee7082c50ffde, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇰🇭 柬埔寨 001, server: 111.92.240.243, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
-  - {name: 🇰🇷 KR_speednode_0011, server: b96d8f0d-t9zts0-tgzvop-hns7.kr.oshuawei.com, port: 31433, type: http, username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 KR_speednode_0001, server: 121.169.46.116, port: 1090, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 KR_speednode_0003, server: 5399cdbf-t9zts0-tc4puo-m0b9.kr.oshuawei.com, port: 31433, type: http, username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 韩国 - Geumcheon-gu - 1, server: 221.150.109.89, port: 59490, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 🇰🇷 韩国 001, server: 140.238.28.227, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇰🇷 韩国 002, server: 140.238.31.168, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -229,32 +229,25 @@ proxies:
   - {name: 🇷🇴 RO_dcff6_0045, server: 84.239.49.245, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_dcff6_0046, server: 84.239.49.223, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_dcff6_0047, server: 84.239.49.253, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0019, server: 84.239.49.199, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0023, server: 84.239.49.233, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0026, server: 84.239.49.212, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0028, server: 84.239.49.57, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0031, server: 84.239.49.211, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0032, server: 84.239.49.240, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0033, server: 84.239.49.38, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0034, server: 84.239.49.185, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0038, server: 84.239.49.173, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0042, server: 84.239.49.162, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0045, server: 84.239.49.238, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0047, server: 84.239.49.180, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0050, server: 84.239.49.184, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0051, server: 84.239.49.204, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0052, server: 84.239.49.235, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0057, server: 84.239.49.161, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0058, server: 84.239.49.247, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0060, server: 84.239.49.209, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0061, server: 84.239.49.198, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0062, server: 84.239.49.170, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0066, server: 84.239.49.196, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0074, server: 84.239.49.163, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0075, server: 84.239.49.159, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0076, server: 84.239.14.160, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0007, server: 84.239.49.182, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0010, server: 84.239.49.235, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0011, server: 84.239.49.233, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0013, server: 84.239.49.180, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0014, server: 84.239.49.240, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0015, server: 84.239.49.184, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0017, server: 84.239.49.159, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0020, server: 84.239.49.161, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0023, server: 84.239.49.162, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0028, server: 84.239.49.212, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0030, server: 84.239.49.57, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0031, server: 84.239.49.187, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0032, server: 84.239.49.202, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0033, server: 84.239.49.211, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0040, server: 84.239.49.238, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0043, server: 84.239.49.196, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0044, server: 84.239.49.198, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0049, server: 84.239.14.160, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 罗马尼亚 001, server: 89.46.235.246, port: 443, type: vmess, uuid: cfa8c2a5-5196-43cb-b54b-e391b2838835, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.137.157.59, port: 443, type: trojan, password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX, sni: www.lateralio.click, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 俄罗斯 - 圣彼得堡 - 1, server: 195.133.23.164, port: 60129, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599, udp: true}
   - {name: 🇷🇺 俄罗斯 - 莫斯科 - 2, server: 46.29.163.176, port: 20129, type: ss, cipher: aes-256-gcm, password: b24a80e79cee1d1f, udp: true}
   - {name: 🇷🇺 俄罗斯 001, server: 194.87.106.131, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -275,9 +268,8 @@ proxies:
   - {name: 🇸🇬 新加坡2, server: 18.162.41.225, port: 6357, type: trojan, password: 860c3c2c89a1c7515792be1c5295d21e, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇹🇼 _TW_中国台湾, server: r3mrcg001286ek2.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true}
   - {name: 🇺🇦 乌克兰 001, server: 176.126.114.248, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
-  - {name: 🇺🇸 US_speednode_0088, server: 7a106425-t9zts0-tgzvop-hns7.sj.oshuawei.com, port: 443, type: http, username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_speednode_0089, server: a86296f0-ta1og0-tgzvop-hns7.sj.oshuawei.com, port: 443, type: http, username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_speednode_0090, server: 8b8d8416-tegxs0-tgzvop-hns7.sj.hyhuawei.com, port: 443, type: http, username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US_speednode_0069, server: 54bcaef3-tcev40-th02zb-m0b9.jp.oshuawei.com, port: 443, type: http, username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US_speednode_0070, server: fssU65471415523990.u1.huawei-cacahe.net, port: 443, type: http, username: f8eca8df-a1a5-4918-a194-d34112a3673f, password: f8eca8df-a1a5-4918-a194-d34112a3673f, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 _US_美国, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 _US_美国_1, server: 82.198.246.214, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 _US_美国_1 2, server: 206.168.190.219, port: 2082, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
@@ -401,8 +393,7 @@ proxies:
   - {name: 🇺🇸 美国 421, server: 104.19.21.230, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}, udp: true}
   - {name: 🇺🇸 美国 422, server: 104.22.37.243, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}, udp: true}
   - {name: 🇺🇸 美国 423, server: 104.26.8.156, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.64.155.209, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.54.64.247, port: 443, type: trojan, password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 Fastly全球Anycast节点, server: 151.101.1.194, port: 80, type: trojan, password: MITIVPN, skip-cert-verify: true, network: ws, ws-opts: {path: /ed=mitivpn}, udp: true}
   - {name: 🇺🇸 美国2, server: 95.40.53.232, port: 17005, type: trojan, password: 860c3c2c89a1c7515792be1c5295d21e, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: ✈️ ‍起飞
@@ -495,7 +486,6 @@ proxy-groups:
       - 🇧🇪 比利时 035
       - 🇧🇪 比利时 036
       - 🇧🇬 保加利亚 001
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
@@ -579,9 +569,9 @@ proxy-groups:
       - 🇫🇷 法国 096
       - 🇫🇷 法国 097
       - 🇫🇷 法国 098
-      - 🇬🇧 GB_speednode_0007
       - 🇬🇧 英国 - Erith - 1
       - 🇬🇧 英国 004
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
       - 🇭🇰 _HK_中国香港_2
@@ -607,7 +597,8 @@ proxy-groups:
       - 🇯🇵 日本3
       - 🇯🇵 日本3|@ripaojiedian
       - 🇰🇭 柬埔寨 001
-      - 🇰🇷 KR_speednode_0011
+      - 🇰🇷 KR_speednode_0001
+      - 🇰🇷 KR_speednode_0003
       - 🇰🇷 韩国 - Geumcheon-gu - 1
       - 🇰🇷 韩国 001
       - 🇰🇷 韩国 002
@@ -652,32 +643,25 @@ proxy-groups:
       - 🇷🇴 RO_dcff6_0045
       - 🇷🇴 RO_dcff6_0046
       - 🇷🇴 RO_dcff6_0047
-      - 🇷🇴 RO_speednode_0019
+      - 🇷🇴 RO_speednode_0007
+      - 🇷🇴 RO_speednode_0010
+      - 🇷🇴 RO_speednode_0011
+      - 🇷🇴 RO_speednode_0013
+      - 🇷🇴 RO_speednode_0014
+      - 🇷🇴 RO_speednode_0015
+      - 🇷🇴 RO_speednode_0017
+      - 🇷🇴 RO_speednode_0020
       - 🇷🇴 RO_speednode_0023
-      - 🇷🇴 RO_speednode_0026
       - 🇷🇴 RO_speednode_0028
+      - 🇷🇴 RO_speednode_0030
       - 🇷🇴 RO_speednode_0031
       - 🇷🇴 RO_speednode_0032
       - 🇷🇴 RO_speednode_0033
-      - 🇷🇴 RO_speednode_0034
-      - 🇷🇴 RO_speednode_0038
-      - 🇷🇴 RO_speednode_0042
-      - 🇷🇴 RO_speednode_0045
-      - 🇷🇴 RO_speednode_0047
-      - 🇷🇴 RO_speednode_0050
-      - 🇷🇴 RO_speednode_0051
-      - 🇷🇴 RO_speednode_0052
-      - 🇷🇴 RO_speednode_0057
-      - 🇷🇴 RO_speednode_0058
-      - 🇷🇴 RO_speednode_0060
-      - 🇷🇴 RO_speednode_0061
-      - 🇷🇴 RO_speednode_0062
-      - 🇷🇴 RO_speednode_0066
-      - 🇷🇴 RO_speednode_0074
-      - 🇷🇴 RO_speednode_0075
-      - 🇷🇴 RO_speednode_0076
+      - 🇷🇴 RO_speednode_0040
+      - 🇷🇴 RO_speednode_0043
+      - 🇷🇴 RO_speednode_0044
+      - 🇷🇴 RO_speednode_0049
       - 🇷🇴 罗马尼亚 001
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
       - 🇷🇺 俄罗斯 001
@@ -698,9 +682,8 @@ proxy-groups:
       - 🇸🇬 新加坡2
       - 🇹🇼 _TW_中国台湾
       - 🇺🇦 乌克兰 001
-      - 🇺🇸 US_speednode_0088
-      - 🇺🇸 US_speednode_0089
-      - 🇺🇸 US_speednode_0090
+      - 🇺🇸 US_speednode_0069
+      - 🇺🇸 US_speednode_0070
       - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_1 2
@@ -824,8 +807,7 @@ proxy-groups:
       - 🇺🇸 美国 421
       - 🇺🇸 美国 422
       - 🇺🇸 美国 423
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 Fastly全球Anycast节点
       - 🇺🇸 美国2
   - name: 👆🏻 ‍指定
     type: select
@@ -893,7 +875,6 @@ proxy-groups:
       - 🇧🇪 比利时 035
       - 🇧🇪 比利时 036
       - 🇧🇬 保加利亚 001
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
@@ -977,9 +958,9 @@ proxy-groups:
       - 🇫🇷 法国 096
       - 🇫🇷 法国 097
       - 🇫🇷 法国 098
-      - 🇬🇧 GB_speednode_0007
       - 🇬🇧 英国 - Erith - 1
       - 🇬🇧 英国 004
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
       - 🇭🇰 _HK_中国香港_2
@@ -1005,7 +986,8 @@ proxy-groups:
       - 🇯🇵 日本3
       - 🇯🇵 日本3|@ripaojiedian
       - 🇰🇭 柬埔寨 001
-      - 🇰🇷 KR_speednode_0011
+      - 🇰🇷 KR_speednode_0001
+      - 🇰🇷 KR_speednode_0003
       - 🇰🇷 韩国 - Geumcheon-gu - 1
       - 🇰🇷 韩国 001
       - 🇰🇷 韩国 002
@@ -1050,32 +1032,25 @@ proxy-groups:
       - 🇷🇴 RO_dcff6_0045
       - 🇷🇴 RO_dcff6_0046
       - 🇷🇴 RO_dcff6_0047
-      - 🇷🇴 RO_speednode_0019
+      - 🇷🇴 RO_speednode_0007
+      - 🇷🇴 RO_speednode_0010
+      - 🇷🇴 RO_speednode_0011
+      - 🇷🇴 RO_speednode_0013
+      - 🇷🇴 RO_speednode_0014
+      - 🇷🇴 RO_speednode_0015
+      - 🇷🇴 RO_speednode_0017
+      - 🇷🇴 RO_speednode_0020
       - 🇷🇴 RO_speednode_0023
-      - 🇷🇴 RO_speednode_0026
       - 🇷🇴 RO_speednode_0028
+      - 🇷🇴 RO_speednode_0030
       - 🇷🇴 RO_speednode_0031
       - 🇷🇴 RO_speednode_0032
       - 🇷🇴 RO_speednode_0033
-      - 🇷🇴 RO_speednode_0034
-      - 🇷🇴 RO_speednode_0038
-      - 🇷🇴 RO_speednode_0042
-      - 🇷🇴 RO_speednode_0045
-      - 🇷🇴 RO_speednode_0047
-      - 🇷🇴 RO_speednode_0050
-      - 🇷🇴 RO_speednode_0051
-      - 🇷🇴 RO_speednode_0052
-      - 🇷🇴 RO_speednode_0057
-      - 🇷🇴 RO_speednode_0058
-      - 🇷🇴 RO_speednode_0060
-      - 🇷🇴 RO_speednode_0061
-      - 🇷🇴 RO_speednode_0062
-      - 🇷🇴 RO_speednode_0066
-      - 🇷🇴 RO_speednode_0074
-      - 🇷🇴 RO_speednode_0075
-      - 🇷🇴 RO_speednode_0076
+      - 🇷🇴 RO_speednode_0040
+      - 🇷🇴 RO_speednode_0043
+      - 🇷🇴 RO_speednode_0044
+      - 🇷🇴 RO_speednode_0049
       - 🇷🇴 罗马尼亚 001
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
       - 🇷🇺 俄罗斯 001
@@ -1096,9 +1071,8 @@ proxy-groups:
       - 🇸🇬 新加坡2
       - 🇹🇼 _TW_中国台湾
       - 🇺🇦 乌克兰 001
-      - 🇺🇸 US_speednode_0088
-      - 🇺🇸 US_speednode_0089
-      - 🇺🇸 US_speednode_0090
+      - 🇺🇸 US_speednode_0069
+      - 🇺🇸 US_speednode_0070
       - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_1 2
@@ -1222,8 +1196,7 @@ proxy-groups:
       - 🇺🇸 美国 421
       - 🇺🇸 美国 422
       - 🇺🇸 美国 423
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 Fastly全球Anycast节点
       - 🇺🇸 美国2
   - name: 🛩️ ‍墙内
     type: select
@@ -1394,9 +1367,8 @@ proxy-groups:
     interval: 15
     tolerance: 300
     proxies:
-      - 🇺🇸 US_speednode_0088
-      - 🇺🇸 US_speednode_0089
-      - 🇺🇸 US_speednode_0090
+      - 🇺🇸 US_speednode_0069
+      - 🇺🇸 US_speednode_0070
       - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_1 2
@@ -1520,8 +1492,7 @@ proxy-groups:
       - 🇺🇸 美国 421
       - 🇺🇸 美国 422
       - 🇺🇸 美国 423
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 Fastly全球Anycast节点
       - 🇺🇸 美国2
   - name: 🎏 ‍其他
     type: url-test
@@ -1592,7 +1563,6 @@ proxy-groups:
       - 🇧🇪 比利时 035
       - 🇧🇪 比利时 036
       - 🇧🇬 保加利亚 001
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
@@ -1630,14 +1600,15 @@ proxy-groups:
       - 🇫🇷 法国 096
       - 🇫🇷 法国 097
       - 🇫🇷 法国 098
-      - 🇬🇧 GB_speednode_0007
       - 🇬🇧 英国 - Erith - 1
       - 🇬🇧 英国 004
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇮🇩 共享账号https://id.dhsv.eu.org
       - 🇮🇷 伊朗 001
       - 🇮🇷 伊朗 025
       - 🇰🇭 柬埔寨 001
-      - 🇰🇷 KR_speednode_0011
+      - 🇰🇷 KR_speednode_0001
+      - 🇰🇷 KR_speednode_0003
       - 🇰🇷 韩国 - Geumcheon-gu - 1
       - 🇰🇷 韩国 001
       - 🇰🇷 韩国 002
@@ -1682,32 +1653,25 @@ proxy-groups:
       - 🇷🇴 RO_dcff6_0045
       - 🇷🇴 RO_dcff6_0046
       - 🇷🇴 RO_dcff6_0047
-      - 🇷🇴 RO_speednode_0019
+      - 🇷🇴 RO_speednode_0007
+      - 🇷🇴 RO_speednode_0010
+      - 🇷🇴 RO_speednode_0011
+      - 🇷🇴 RO_speednode_0013
+      - 🇷🇴 RO_speednode_0014
+      - 🇷🇴 RO_speednode_0015
+      - 🇷🇴 RO_speednode_0017
+      - 🇷🇴 RO_speednode_0020
       - 🇷🇴 RO_speednode_0023
-      - 🇷🇴 RO_speednode_0026
       - 🇷🇴 RO_speednode_0028
+      - 🇷🇴 RO_speednode_0030
       - 🇷🇴 RO_speednode_0031
       - 🇷🇴 RO_speednode_0032
       - 🇷🇴 RO_speednode_0033
-      - 🇷🇴 RO_speednode_0034
-      - 🇷🇴 RO_speednode_0038
-      - 🇷🇴 RO_speednode_0042
-      - 🇷🇴 RO_speednode_0045
-      - 🇷🇴 RO_speednode_0047
-      - 🇷🇴 RO_speednode_0050
-      - 🇷🇴 RO_speednode_0051
-      - 🇷🇴 RO_speednode_0052
-      - 🇷🇴 RO_speednode_0057
-      - 🇷🇴 RO_speednode_0058
-      - 🇷🇴 RO_speednode_0060
-      - 🇷🇴 RO_speednode_0061
-      - 🇷🇴 RO_speednode_0062
-      - 🇷🇴 RO_speednode_0066
-      - 🇷🇴 RO_speednode_0074
-      - 🇷🇴 RO_speednode_0075
-      - 🇷🇴 RO_speednode_0076
+      - 🇷🇴 RO_speednode_0040
+      - 🇷🇴 RO_speednode_0043
+      - 🇷🇴 RO_speednode_0044
+      - 🇷🇴 RO_speednode_0049
       - 🇷🇴 罗马尼亚 001
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
       - 🇷🇺 俄罗斯 001
@@ -1821,9 +1785,8 @@ proxy-groups:
   - name: 👆🏻🇺🇸 ‍美国
     type: select
     proxies:
-      - 🇺🇸 US_speednode_0088
-      - 🇺🇸 US_speednode_0089
-      - 🇺🇸 US_speednode_0090
+      - 🇺🇸 US_speednode_0069
+      - 🇺🇸 US_speednode_0070
       - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_1 2
@@ -1947,8 +1910,7 @@ proxy-groups:
       - 🇺🇸 美国 421
       - 🇺🇸 美国 422
       - 🇺🇸 美国 423
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 Fastly全球Anycast节点
       - 🇺🇸 美国2
   - name: 👆🏻🎏 ‍其他
     type: select
@@ -2016,7 +1978,6 @@ proxy-groups:
       - 🇧🇪 比利时 035
       - 🇧🇪 比利时 036
       - 🇧🇬 保加利亚 001
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
@@ -2054,14 +2015,15 @@ proxy-groups:
       - 🇫🇷 法国 096
       - 🇫🇷 法国 097
       - 🇫🇷 法国 098
-      - 🇬🇧 GB_speednode_0007
       - 🇬🇧 英国 - Erith - 1
       - 🇬🇧 英国 004
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇮🇩 共享账号https://id.dhsv.eu.org
       - 🇮🇷 伊朗 001
       - 🇮🇷 伊朗 025
       - 🇰🇭 柬埔寨 001
-      - 🇰🇷 KR_speednode_0011
+      - 🇰🇷 KR_speednode_0001
+      - 🇰🇷 KR_speednode_0003
       - 🇰🇷 韩国 - Geumcheon-gu - 1
       - 🇰🇷 韩国 001
       - 🇰🇷 韩国 002
@@ -2106,32 +2068,25 @@ proxy-groups:
       - 🇷🇴 RO_dcff6_0045
       - 🇷🇴 RO_dcff6_0046
       - 🇷🇴 RO_dcff6_0047
-      - 🇷🇴 RO_speednode_0019
+      - 🇷🇴 RO_speednode_0007
+      - 🇷🇴 RO_speednode_0010
+      - 🇷🇴 RO_speednode_0011
+      - 🇷🇴 RO_speednode_0013
+      - 🇷🇴 RO_speednode_0014
+      - 🇷🇴 RO_speednode_0015
+      - 🇷🇴 RO_speednode_0017
+      - 🇷🇴 RO_speednode_0020
       - 🇷🇴 RO_speednode_0023
-      - 🇷🇴 RO_speednode_0026
       - 🇷🇴 RO_speednode_0028
+      - 🇷🇴 RO_speednode_0030
       - 🇷🇴 RO_speednode_0031
       - 🇷🇴 RO_speednode_0032
       - 🇷🇴 RO_speednode_0033
-      - 🇷🇴 RO_speednode_0034
-      - 🇷🇴 RO_speednode_0038
-      - 🇷🇴 RO_speednode_0042
-      - 🇷🇴 RO_speednode_0045
-      - 🇷🇴 RO_speednode_0047
-      - 🇷🇴 RO_speednode_0050
-      - 🇷🇴 RO_speednode_0051
-      - 🇷🇴 RO_speednode_0052
-      - 🇷🇴 RO_speednode_0057
-      - 🇷🇴 RO_speednode_0058
-      - 🇷🇴 RO_speednode_0060
-      - 🇷🇴 RO_speednode_0061
-      - 🇷🇴 RO_speednode_0062
-      - 🇷🇴 RO_speednode_0066
-      - 🇷🇴 RO_speednode_0074
-      - 🇷🇴 RO_speednode_0075
-      - 🇷🇴 RO_speednode_0076
+      - 🇷🇴 RO_speednode_0040
+      - 🇷🇴 RO_speednode_0043
+      - 🇷🇴 RO_speednode_0044
+      - 🇷🇴 RO_speednode_0049
       - 🇷🇴 罗马尼亚 001
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
       - 🇷🇺 俄罗斯 001

@@ -29,6 +29,7 @@ proxies:
   - {name: 亚太地区 003, server: 103.177.136.45, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 亚太地区 004, server: 103.176.111.247, port: 80, type: vmess, uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nkpvpn.akamaized.net}}, udp: true}
   - {name: 亚太地区 005, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: exa.nextvpn.cc}}, udp: true}
+  - {name: 亚太地区 V2CROSS.COM, server: 160.250.247.70, port: 49178, type: vmess, uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 其他 001, server: tmp9929.kkk.al, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 其他 002, server: overloaded.icu, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 其他 003, server: jpv6.499399.xyz, port: 80, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: jpv6.499399.xyz}}, udp: true}
@@ -692,7 +693,6 @@ proxies:
   - {name: 🇬🇧 英国 030, server: 217.163.76.147, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com}}, udp: true}
   - {name: 🇬🇧 英国 031, server: 146.70.158.111, port: 443, type: vmess, uuid: 11ae0edd-2f63-4495-8683-037abbda9986, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇬🇧 英国 032, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇷 希腊 V2CROSS.COM, server: 92.119.35.105, port: 443, type: trojan, password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 113.108.0.62 #1", server: 113.108.0.62, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 117.78.52.97 #1", server: 117.78.52.97, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -802,7 +802,6 @@ proxies:
   - {name: 🇯🇵 日本 038, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 039, server: 3h-philippines1.09vpn.com, port: 80, type: vmess, uuid: 3fd35fa2-a0c6-4f0c-8310-c3c03a268155, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc}}, udp: true}
   - {name: 🇯🇵 日本 040, server: 172.104.80.66, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 041, server: 160.250.247.70, port: 49178, type: vmess, uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 042, server: fullaccesstojapannetsubnode1.azurewebsites.net, port: 443, type: vmess, uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: fullaccesstojapannetsubnode1.azurewebsites.net}}, udp: true}
   - {name: 🇯🇵 日本 043, server: 146.56.162.25, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
   - {name: 🇯🇵 日本 044, server: f1f3227.u1.glados-config.net, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /s/f1f3227.fm.apple.com:111548, headers: {Host: f1f3227.u1.glados-config.net}}, udp: true}
@@ -932,8 +931,6 @@ proxies:
   - {name: 🇷🇴 罗马尼亚 003, server: 193.29.107.237, port: 30000, type: vmess, uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.67170227.xyz}}, udp: true}
   - {name: 🇷🇴 罗马尼亚 004, server: 37.120.236.252, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.83571945.xyz}}, udp: true}
   - {name: 🇷🇴 罗马尼亚 005, server: 37.120.236.251, port: 443, type: vmess, uuid: ed162daa-ee20-44ed-830f-b522c501387a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/143013092425, headers: {Host: www.42088326.xyz}}, udp: true}
-  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.137.157.154, port: 443, type: trojan, password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz, sni: fra154.clientfirewall.click, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM 2, server: 185.137.157.250, port: 443, type: trojan, password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz, sni: fra250.clientfirewall.click, skip-cert-verify: true, udp: true}
   - {name: 🇷🇸 塞尔维亚 001, server: 152.89.160.10, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.31383769.xyz}}, udp: true}
   - {name: 🇷🇺 俄罗斯 - 圣彼得堡 - 1, server: 195.133.23.164, port: 60129, type: ss, cipher: aes-256-gcm, password: 9f3d1a6d31468599, udp: true}
   - {name: 🇷🇺 俄罗斯 - 莫斯科 - 2, server: 46.29.163.176, port: 20129, type: ss, cipher: aes-256-gcm, password: b24a80e79cee1d1f, udp: true}
@@ -1855,6 +1852,8 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 172.67.193.108, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gwdef.sbs}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.21.83.115, port: 443, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /link, headers: {Host: hms02.fxiaomi.sbs}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.16.68.38, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.61.52.243, port: 443, type: trojan, password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk, sni: 45.61.52.243, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 45.61.58.89, port: 443, type: trojan, password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk, skip-cert-verify: true, udp: true}
   - {name: 🇺🇿 乌兹别克斯坦 001, server: 37.110.209.228, port: 80, type: vmess, uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sazgar.serveirc.com}}, udp: true}
   - {name: 🇻🇳 越南 001, server: 103.75.185.221, port: 80, type: vmess, uuid: 9e5999ba-870a-46b1-8500-37c640371ec6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bs, headers: {Host: 103.75.185.221}}, udp: true}
   - {name: 🇻🇳 越南 002, server: max1.flash5g.com, port: 80, type: vmess, uuid: 4e25f91f-603c-4e83-b002-c26030757816, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AnhBin, headers: {Host: max1.flash5g.com}}, udp: true}
@@ -1907,6 +1906,7 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
+      - 亚太地区 V2CROSS.COM
       - 其他 001
       - 其他 002
       - 其他 003
@@ -2570,7 +2570,6 @@ proxy-groups:
       - 🇬🇧 英国 030
       - 🇬🇧 英国 031
       - 🇬🇧 英国 032
-      - 🇬🇷 希腊 V2CROSS.COM
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -2675,7 +2674,6 @@ proxy-groups:
       - 🇯🇵 日本 038
       - 🇯🇵 日本 039
       - 🇯🇵 日本 040
-      - 🇯🇵 日本 041
       - 🇯🇵 日本 042
       - 🇯🇵 日本 043
       - 🇯🇵 日本 044
@@ -2805,8 +2803,6 @@ proxy-groups:
       - 🇷🇴 罗马尼亚 003
       - 🇷🇴 罗马尼亚 004
       - 🇷🇴 罗马尼亚 005
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
       - 🇷🇸 塞尔维亚 001
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
@@ -3726,6 +3722,8 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇿 乌兹别克斯坦 001
       - 🇻🇳 越南 001
       - 🇻🇳 越南 002
@@ -3753,6 +3751,7 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
+      - 亚太地区 V2CROSS.COM
       - 其他 001
       - 其他 002
       - 其他 003
@@ -4416,7 +4415,6 @@ proxy-groups:
       - 🇬🇧 英国 030
       - 🇬🇧 英国 031
       - 🇬🇧 英国 032
-      - 🇬🇷 希腊 V2CROSS.COM
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
       - 🇭🇰 Premium|广港|IEPL|03
@@ -4521,7 +4519,6 @@ proxy-groups:
       - 🇯🇵 日本 038
       - 🇯🇵 日本 039
       - 🇯🇵 日本 040
-      - 🇯🇵 日本 041
       - 🇯🇵 日本 042
       - 🇯🇵 日本 043
       - 🇯🇵 日本 044
@@ -4651,8 +4648,6 @@ proxy-groups:
       - 🇷🇴 罗马尼亚 003
       - 🇷🇴 罗马尼亚 004
       - 🇷🇴 罗马尼亚 005
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
       - 🇷🇸 塞尔维亚 001
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
@@ -5572,6 +5567,8 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM 2
       - 🇺🇿 乌兹别克斯坦 001
       - 🇻🇳 越南 001
       - 🇻🇳 越南 002
@@ -5964,7 +5961,6 @@ proxy-groups:
       - 🇯🇵 日本 038
       - 🇯🇵 日本 039
       - 🇯🇵 日本 040
-      - 🇯🇵 日本 041
       - 🇯🇵 日本 042
       - 🇯🇵 日本 043
       - 🇯🇵 日本 044
@@ -6807,6 +6803,8 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM 2
   - name: 🎏 ‍其他
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -6833,6 +6831,7 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
+      - 亚太地区 V2CROSS.COM
       - 其他 001
       - 其他 002
       - 其他 003
@@ -7360,7 +7359,6 @@ proxy-groups:
       - 🇬🇧 英国 030
       - 🇬🇧 英国 031
       - 🇬🇧 英国 032
-      - 🇬🇷 希腊 V2CROSS.COM
       - 🇭🇷 克罗地亚 002
       - 🇭🇺 匈牙利 001
       - 🇮🇩 共享账号https://id.dhsv.eu.org
@@ -7501,8 +7499,6 @@ proxy-groups:
       - 🇷🇴 罗马尼亚 003
       - 🇷🇴 罗马尼亚 004
       - 🇷🇴 罗马尼亚 005
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
       - 🇷🇸 塞尔维亚 001
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2
@@ -7892,7 +7888,6 @@ proxy-groups:
       - 🇯🇵 日本 038
       - 🇯🇵 日本 039
       - 🇯🇵 日本 040
-      - 🇯🇵 日本 041
       - 🇯🇵 日本 042
       - 🇯🇵 日本 043
       - 🇯🇵 日本 044
@@ -8732,6 +8727,8 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 V2CROSS.COM 2
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:
@@ -8755,6 +8752,7 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
+      - 亚太地区 V2CROSS.COM
       - 其他 001
       - 其他 002
       - 其他 003
@@ -9282,7 +9280,6 @@ proxy-groups:
       - 🇬🇧 英国 030
       - 🇬🇧 英国 031
       - 🇬🇧 英国 032
-      - 🇬🇷 希腊 V2CROSS.COM
       - 🇭🇷 克罗地亚 002
       - 🇭🇺 匈牙利 001
       - 🇮🇩 共享账号https://id.dhsv.eu.org
@@ -9423,8 +9420,6 @@ proxy-groups:
       - 🇷🇴 罗马尼亚 003
       - 🇷🇴 罗马尼亚 004
       - 🇷🇴 罗马尼亚 005
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
       - 🇷🇸 塞尔维亚 001
       - 🇷🇺 俄罗斯 - 圣彼得堡 - 1
       - 🇷🇺 俄罗斯 - 莫斯科 - 2

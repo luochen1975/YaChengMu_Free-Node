@@ -29,7 +29,6 @@ proxies:
   - {name: 亚太地区 003, server: 103.177.136.45, port: 46424, type: trojan, password: 4f4d1167-ef14-4304-9bce-0740472503ef, sni: de.01.naiun.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 亚太地区 004, server: 103.176.111.247, port: 80, type: vmess, uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nkpvpn.akamaized.net}}, udp: true}
   - {name: 亚太地区 005, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: exa.nextvpn.cc}}, udp: true}
-  - {name: 亚太地区 V2CROSS.COM, server: 160.250.247.70, port: 49178, type: vmess, uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 其他 001, server: tmp9929.kkk.al, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 其他 002, server: overloaded.icu, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 其他 003, server: jpv6.499399.xyz, port: 80, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: jpv6.499399.xyz}}, udp: true}
@@ -701,7 +700,10 @@ proxies:
   - {name: 🇬🇧 英国 032, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 041, server: 185.137.157.142, port: 443, type: trojan, password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 042, server: 178.62.118.205, port: 29574, type: vmess, uuid: e101dd33-236f-4fdd-ae59-07b13e836c22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇷 希腊 V2CROSS.COM, server: 92.119.35.117, port: 443, type: trojan, password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.38.31.213, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM 2, server: 82.38.31.211, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+  - {name: 🇬🇧 英国 伦敦Choopa数据中心, server: 45.77.227.183, port: 443, type: trojan, password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇷 希腊 V2CROSS.COM, server: 92.119.35.105, port: 443, type: trojan, password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 103.85.87.135 #1", server: 103.85.87.135, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 113.108.0.62 #1", server: 113.108.0.62, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 HK 117.78.52.97 #1", server: 117.78.52.97, port: 10111, type: trojan, password: 506E47DB-5BAC-B41B-BBA7-752CDED3FAEE, sni: m.ctrip.com, skip-cert-verify: true, udp: true}
@@ -765,6 +767,7 @@ proxies:
   - {name: 🇮🇳 印度 005, server: 20.193.153.19, port: 15834, type: vmess, uuid: 39a8c374-76b1-4e90-ab85-85cd9a42ded2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇮🇳 印度 006, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
   - {name: 🇮🇳 印度 007, server: 152.67.190.105, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com}}, udp: true}
+  - {name: 🇮🇳 印度 V2CROSS.COM, server: 103.111.114.80, port: 28061, type: ss, cipher: chacha20-ietf-poly1305, password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm, udp: true}
   - {name: 🇮🇷 伊朗 001, server: 5.226.49.4, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇮🇷 伊朗 026, server: omega.jahanweb.sbs, port: 443, type: vmess, uuid: 7045d070-f349-4f5f-9c93-d60fbae5ec75, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 027, server: alirez.diiginet.ir, port: 26052, type: vmess, uuid: 447a4ac1-a540-48d2-8a29-803b9205deba, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
@@ -816,6 +819,7 @@ proxies:
   - {name: 🇯🇵 日本 038, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 039, server: 3h-philippines1.09vpn.com, port: 80, type: vmess, uuid: 3fd35fa2-a0c6-4f0c-8310-c3c03a268155, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc}}, udp: true}
   - {name: 🇯🇵 日本 040, server: 172.104.80.66, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 041, server: 160.250.247.70, port: 49178, type: vmess, uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 042, server: fullaccesstojapannetsubnode1.azurewebsites.net, port: 443, type: vmess, uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: fullaccesstojapannetsubnode1.azurewebsites.net}}, udp: true}
   - {name: 🇯🇵 日本 043, server: 146.56.162.25, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
   - {name: 🇯🇵 日本 044, server: f1f3227.u1.glados-config.net, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /s/f1f3227.fm.apple.com:111548, headers: {Host: f1f3227.u1.glados-config.net}}, udp: true}
@@ -826,7 +830,6 @@ proxies:
   - {name: 🇯🇵 日本 049, server: 47.245.42.92, port: 443, type: vmess, uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1753598452.wpg27.xyz}}, udp: true}
   - {name: 🇯🇵 日本 050, server: seoul02.zgjok.com, port: 443, type: vmess, uuid: 1a1e5196-eab4-4772-9012-65c27f19a524, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: seoul02.zgjok.com}}, udp: true}
   - {name: 🇯🇵 日本 056, server: 139.162.125.97, port: 49499, type: vmess, uuid: 3ce1d2e3-0e1b-4b00-921b-fcc0f8abe1f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 东京Fastly节点, server: 151.101.110.219, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: true, network: ws, ws-opts: {path: /de=mitivpn, headers: {Host: ssl.fastly.com}}, udp: true}
   - {name: 🇯🇵 日本2, server: 16.163.95.104, port: 37973, type: trojan, password: ba5b6f1d3a9da87096165da523fb4375, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2|@ripaojiedian, server: 13.158.46.252, port: 37973, type: trojan, password: a844e75e40134ee742e80ced8509b310, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本3, server: 95.40.43.133, port: 3743, type: trojan, password: ba5b6f1d3a9da87096165da523fb4375, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
@@ -1915,10 +1918,6 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 38.11.216.165, port: 37004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.93976091.xyz}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 38.11.71.67, port: 37002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.64786755.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 192.74.230.149, port: 30001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.37319796.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.16.174.46, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.61.52.243, port: 443, type: trojan, password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk, sni: 45.61.52.243, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.60.202.163, port: 443, type: trojan, password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司, server: 130.94.94.15, port: 443, type: trojan, password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR, sni: 130.94.94.15, skip-cert-verify: true, udp: true}
   - {name: 🇺🇿 乌兹别克斯坦 001, server: 37.110.209.228, port: 80, type: vmess, uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sazgar.serveirc.com}}, udp: true}
   - {name: 🇻🇳 越南 001, server: 103.75.185.221, port: 80, type: vmess, uuid: 9e5999ba-870a-46b1-8500-37c640371ec6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bs, headers: {Host: 103.75.185.221}}, udp: true}
   - {name: 🇻🇳 越南 002, server: max1.flash5g.com, port: 80, type: vmess, uuid: 4e25f91f-603c-4e83-b002-c26030757816, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AnhBin, headers: {Host: max1.flash5g.com}}, udp: true}
@@ -1971,7 +1970,6 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
-      - 亚太地区 V2CROSS.COM
       - 其他 001
       - 其他 002
       - 其他 003
@@ -2643,6 +2641,9 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 041
       - 🇬🇧 英国 042
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇬🇧 英国 伦敦Choopa数据中心
       - 🇬🇷 希腊 V2CROSS.COM
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -2703,6 +2704,7 @@ proxy-groups:
       - 🇮🇳 印度 005
       - 🇮🇳 印度 006
       - 🇮🇳 印度 007
+      - 🇮🇳 印度 V2CROSS.COM
       - 🇮🇷 伊朗 001
       - 🇮🇷 伊朗 026
       - 🇮🇷 伊朗 027
@@ -2753,6 +2755,7 @@ proxy-groups:
       - 🇯🇵 日本 038
       - 🇯🇵 日本 039
       - 🇯🇵 日本 040
+      - 🇯🇵 日本 041
       - 🇯🇵 日本 042
       - 🇯🇵 日本 043
       - 🇯🇵 日本 044
@@ -2763,7 +2766,6 @@ proxy-groups:
       - 🇯🇵 日本 049
       - 🇯🇵 日本 050
       - 🇯🇵 日本 056
-      - 🇯🇵 日本 东京Fastly节点
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -3850,10 +3852,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
       - 🇺🇿 乌兹别克斯坦 001
       - 🇻🇳 越南 001
       - 🇻🇳 越南 002
@@ -3881,7 +3879,6 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
-      - 亚太地区 V2CROSS.COM
       - 其他 001
       - 其他 002
       - 其他 003
@@ -4553,6 +4550,9 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 041
       - 🇬🇧 英国 042
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇬🇧 英国 伦敦Choopa数据中心
       - 🇬🇷 希腊 V2CROSS.COM
       - 🇭🇰 Premium|广港|IEPL|01
       - 🇭🇰 Premium|广港|IEPL|02
@@ -4613,6 +4613,7 @@ proxy-groups:
       - 🇮🇳 印度 005
       - 🇮🇳 印度 006
       - 🇮🇳 印度 007
+      - 🇮🇳 印度 V2CROSS.COM
       - 🇮🇷 伊朗 001
       - 🇮🇷 伊朗 026
       - 🇮🇷 伊朗 027
@@ -4663,6 +4664,7 @@ proxy-groups:
       - 🇯🇵 日本 038
       - 🇯🇵 日本 039
       - 🇯🇵 日本 040
+      - 🇯🇵 日本 041
       - 🇯🇵 日本 042
       - 🇯🇵 日本 043
       - 🇯🇵 日本 044
@@ -4673,7 +4675,6 @@ proxy-groups:
       - 🇯🇵 日本 049
       - 🇯🇵 日本 050
       - 🇯🇵 日本 056
-      - 🇯🇵 日本 东京Fastly节点
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -5760,10 +5761,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
       - 🇺🇿 乌兹别克斯坦 001
       - 🇻🇳 越南 001
       - 🇻🇳 越南 002
@@ -6164,6 +6161,7 @@ proxy-groups:
       - 🇯🇵 日本 038
       - 🇯🇵 日本 039
       - 🇯🇵 日本 040
+      - 🇯🇵 日本 041
       - 🇯🇵 日本 042
       - 🇯🇵 日本 043
       - 🇯🇵 日本 044
@@ -6174,7 +6172,6 @@ proxy-groups:
       - 🇯🇵 日本 049
       - 🇯🇵 日本 050
       - 🇯🇵 日本 056
-      - 🇯🇵 日本 东京Fastly节点
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -7050,10 +7047,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
   - name: 🎏 ‍其他
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -7080,7 +7073,6 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
-      - 亚太地区 V2CROSS.COM
       - 其他 001
       - 其他 002
       - 其他 003
@@ -7615,6 +7607,9 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 041
       - 🇬🇧 英国 042
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇬🇧 英国 伦敦Choopa数据中心
       - 🇬🇷 希腊 V2CROSS.COM
       - 🇭🇷 克罗地亚 002
       - 🇭🇺 匈牙利 001
@@ -7627,6 +7622,7 @@ proxy-groups:
       - 🇮🇳 印度 005
       - 🇮🇳 印度 006
       - 🇮🇳 印度 007
+      - 🇮🇳 印度 V2CROSS.COM
       - 🇮🇷 伊朗 001
       - 🇮🇷 伊朗 026
       - 🇮🇷 伊朗 027
@@ -8157,6 +8153,7 @@ proxy-groups:
       - 🇯🇵 日本 038
       - 🇯🇵 日本 039
       - 🇯🇵 日本 040
+      - 🇯🇵 日本 041
       - 🇯🇵 日本 042
       - 🇯🇵 日本 043
       - 🇯🇵 日本 044
@@ -8167,7 +8164,6 @@ proxy-groups:
       - 🇯🇵 日本 049
       - 🇯🇵 日本 050
       - 🇯🇵 日本 056
-      - 🇯🇵 日本 东京Fastly节点
       - 🇯🇵 日本2
       - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
@@ -9040,10 +9036,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:
@@ -9067,7 +9059,6 @@ proxy-groups:
       - 亚太地区 003
       - 亚太地区 004
       - 亚太地区 005
-      - 亚太地区 V2CROSS.COM
       - 其他 001
       - 其他 002
       - 其他 003
@@ -9602,6 +9593,9 @@ proxy-groups:
       - 🇬🇧 英国 032
       - 🇬🇧 英国 041
       - 🇬🇧 英国 042
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇬🇧 英国 V2CROSS.COM 2
+      - 🇬🇧 英国 伦敦Choopa数据中心
       - 🇬🇷 希腊 V2CROSS.COM
       - 🇭🇷 克罗地亚 002
       - 🇭🇺 匈牙利 001
@@ -9614,6 +9608,7 @@ proxy-groups:
       - 🇮🇳 印度 005
       - 🇮🇳 印度 006
       - 🇮🇳 印度 007
+      - 🇮🇳 印度 V2CROSS.COM
       - 🇮🇷 伊朗 001
       - 🇮🇷 伊朗 026
       - 🇮🇷 伊朗 027

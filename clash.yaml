@@ -462,6 +462,7 @@ proxies:
   - {name: 🇨🇭 瑞士 005, server: 140.238.212.95, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com}}, udp: true}
   - {name: 🇨🇭 瑞士 006, server: sinavip.cnavippanel.com, port: 1514, type: vmess, uuid: 0aca35ee-b845-45d7-9b52-379a2984378a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇭 瑞士 008, server: 178.83.45.94, port: 41515, type: vmess, uuid: 1de9d119-12ca-4620-a29c-60b40a7f8650, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 _CN_中国, server: 114.80.8.128, port: 39001, type: trojan, password: 1df3ece1218bedba28c6c6ac726a07bb, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 001, server: 120.82.70.149, port: 36101, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇨🇳 中国 002, server: 103.117.101.16, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇨🇳 中国 003, server: 104.208.85.56, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -469,7 +470,6 @@ proxies:
   - {name: 🇨🇳 中国 005, server: 176.119.149.46, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇨🇳 中国 006, server: 101.33.120.19, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇨🇳 中国 007, server: 8.219.53.156, port: 443, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cloud.189.cn}}, udp: true}
-  - {name: 🇨🇳 中国 009, server: 114.80.8.128, port: 39001, type: trojan, password: 1df3ece1218bedba28c6c6ac726a07bb, sni: 114.80.8.128, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 012, server: 129.226.157.220, port: 59121, type: vmess, uuid: d9865d63-d95c-454b-ba07-8e88b838a801, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 014, server: 103.212.98.234, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.59795160.xyz, network: ws, ws-opts: {path: /path/011410073331, headers: {Host: www.59795160.xyz}}, udp: true}
   - {name: 🇨🇳 中国 015, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true, udp: true}
@@ -732,8 +732,7 @@ proxies:
   - {name: 🇫🇮 芬兰 001, server: 95.216.186.191, port: 80, type: vmess, uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /telegram-id-, headers: {Host: google.com}}, udp: true}
   - {name: 🇫🇮 芬兰 004, server: 91.132.197.5, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.29794192.xyz}}, udp: true}
   - {name: 🇫🇷 FR_speednode_0004, server: fe01bdcc-t9zts0-tan99f-1rdqg.fr.oshuawei.com, port: 443, type: http, username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b, password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 _FR_法国, server: 13.36.168.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇫🇷 _FR_法国 2, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇫🇷 法国 001, server: 141.11.139.82, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇫🇷 法国 003, server: intense-basilisk.rooster465.autos, port: 443, type: trojan, password: XG59623478, sni: intense-basilisk.rooster465.autos, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国 089, server: 91.134.8.88, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: lammaland.org}}, udp: true}
@@ -805,16 +804,12 @@ proxies:
   - {name: 🇬🇧 英国 088, server: 31.77.149.99, port: 110, type: vmess, uuid: f0841ef6-a703-4248-9c69-efed21a38e65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 099, server: 2.26.7.59, port: 110, type: vmess, uuid: 958f5940-de3d-4466-bb30-b605993db27e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK_speednode_0008, server: 19016135-te7og0-tfo5nb-yjq0.hkt.cdnhuawei.com, port: 8443, type: http, username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9, password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 _HK_中国香港, server: 212.192.15.138, port: 20123, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, udp: true}
-  - {name: 🇭🇰 _HK_中国香港_2, server: 47.76.127.88, port: 5566, type: vmess, uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 _HK_中国香港特别行政区, server: 47.83.221.185, port: 80, type: vmess, uuid: 771a590c-5eac-5732-b796-17251132f8d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - 3, server: 396068668893076.yf.r.hy2use.net, port: 45048, type: trojan, password: 4a5759f9-b8b2-4d4a-82e0-011738b92f5e, sni: 11333yf.r.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港3, server: 54.46.117.102, port: 32583, type: trojan, password: b1a42ca60884057bf527d8d38b618cfb, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 16.163.109.165, port: 32583, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港4, server: 54.46.14.230, port: 27161, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 16.163.129.148, port: 39411, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港5, server: 43.199.252.80, port: 29443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 18.162.245.50, port: 11035, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港3, server: 16.163.109.165, port: 32583, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港4, server: 16.163.129.148, port: 39411, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港5, server: 18.162.245.50, port: 11035, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇷 克罗地亚 002, server: 89.18.58.104, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇺 匈牙利 001, server: 185.128.26.70, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.96437658.xyz}}, udp: true}
   - {name: 🇮🇩 共享账号https://id.dhsv.eu.org, server: 84.239.49.176, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
@@ -854,8 +849,8 @@ proxies:
   - {name: 🇮🇷 伊朗 164, server: ir.masterlord.ir, port: 1900, type: vmess, uuid: a5ae0167-b947-4394-a5b8-23a87b63c158, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 190, server: dn.torontomovie.com, port: 8080, type: vmess, uuid: a020b5fa-fa21-4f08-9bcd-95f4de69484c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 191, server: 94.184.17.132, port: 32748, type: vmess, uuid: 0257f746-fdfd-4eba-ba90-28cae94390e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本, server: 43.199.31.196, port: 10624, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 - 东京 - 1, server: 18.183.180.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 _JP_日本_1, server: 18.183.180.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 _JP_日本_2, server: 161.33.139.138, port: 58905, type: vmess, uuid: 1610f8dc-0661-4032-ac6a-a7250603f608, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 161.33.139.138, network: ws, ws-opts: {path: /1610f8dc-0661-4032-ac6a-a7250603f608-vm}, udp: true}
   - {name: 🇯🇵 日本 - 东京 - 3, server: 52.195.12.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇯🇵 日本 - 東京都 - 2, server: vps123.kbxa.top, port: 443, type: vmess, uuid: cd07d6e6-f631-4757-a03c-b8727c568c85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /123, headers: {Host: vps123.kbxa.top}}, udp: true}
   - {name: 🇯🇵 日本 001, server: 146.56.45.242, port: 33333, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -910,10 +905,8 @@ proxies:
   - {name: 🇯🇵 日本 075, server: 153.121.73.175, port: 49803, type: vmess, uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 078, server: 168.138.43.75, port: 80, type: vmess, uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp01.a0a.xyz}}, udp: true}
   - {name: 🇯🇵 日本 079, server: 18.183.83.131, port: 18021, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本2, server: 16.163.56.186, port: 40138, type: trojan, password: b1a42ca60884057bf527d8d38b618cfb, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 16.163.109.165, port: 40138, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本3, server: 18.166.63.229, port: 40138, type: trojan, password: b1a42ca60884057bf527d8d38b618cfb, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 16.163.109.165, port: 24370, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本2, server: 16.163.109.165, port: 40138, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本3, server: 16.163.109.165, port: 24370, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇰🇬 吉尔吉斯斯坦 001, server: 185.48.136.150, port: 443, type: vmess, uuid: 14bb927f-a4ec-4de7-90fb-388c1f69dbc1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sazgar22.zapto.org}}, udp: true}
   - {name: 🇰🇭 柬埔寨 001, server: 111.92.240.243, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇰🇷 KR_speednode_0014, server: 701489ed-t9zts0-tan99f-1rdqg.kr.oshuawei.com, port: 31433, type: http, username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b, password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
@@ -1059,7 +1052,8 @@ proxies:
   - {name: 🇷🇴 罗马尼亚 005, server: 37.120.236.251, port: 443, type: vmess, uuid: ed162daa-ee20-44ed-830f-b522c501387a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/143013092425, headers: {Host: www.42088326.xyz}}, udp: true}
   - {name: 🇷🇴 罗马尼亚 006, server: 185.126.236.44, port: 443, type: trojan, password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL, sni: www.mesaly.click, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 罗马尼亚 007, server: 185.126.236.190, port: 443, type: trojan, password: VGBzLm49=M_i02Az30tIeonkQw180t-edg, sni: 185.126.236.190, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.137.157.140, port: 443, type: trojan, password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.137.157.128, port: 443, type: trojan, password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM 2, server: 185.137.157.142, port: 443, type: trojan, password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q, skip-cert-verify: true, udp: true}
   - {name: 🇷🇸 塞尔维亚 001, server: 152.89.160.10, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.31383769.xyz}}, udp: true}
   - {name: 🇷🇺 俄罗斯 - 莫斯科 - 1, server: 46.17.40.13, port: 10129, type: ss, cipher: aes-256-gcm, password: b24a80e79cee1d1f, udp: true}
   - {name: 🇷🇺 俄罗斯 001, server: 194.87.106.131, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -1106,8 +1100,8 @@ proxies:
   - {name: 🇸🇪 瑞典 023, server: 148.135.14.99, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1704188270531, headers: {Host: www.20414124.xyz}}, udp: true}
   - {name: 🇸🇪 瑞典 024, server: 148.135.31.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1703924658447, headers: {Host: www.72672771.xyz}}, udp: true}
   - {name: 🇸🇪 瑞典 025, server: 148.135.33.140, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1704188270531, headers: {Host: www.31270022.xyz}}, udp: true}
-  - {name: 🇸🇬 _SG_新加坡_1, server: aw-sg.vndmall.pro, port: 8888, type: ss, cipher: aes-256-gcm, password: a338A9, udp: true}
-  - {name: 🇸🇬 新加坡, server: 18.166.63.229, port: 48738, type: trojan, password: b1a42ca60884057bf527d8d38b618cfb, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡, server: 18.162.125.197, port: 48738, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 - 新加坡 - 1, server: aw-sg.vndmall.pro, port: 8888, type: ss, cipher: aes-256-gcm, password: a338A9, udp: true}
   - {name: 🇸🇬 新加坡 - 新加坡 - 2, server: ss.049.node-for-bigairport.win, port: 19000, type: ss, cipher: chacha20-ietf-poly1305, password: 792e0bdb-01db-450c-94c4-925151eb396e, udp: true}
   - {name: 🇸🇬 新加坡 001, server: 23.101.27.60, port: 8848, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇸🇬 新加坡 002, server: 18.139.108.70, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -1125,11 +1119,8 @@ proxies:
   - {name: 🇸🇬 新加坡 018, server: 139.180.211.152, port: 18063, type: vmess, uuid: 0d4f647b-0d96-4820-9de8-0186156185dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Dialog Zoom, headers: {Host: m.zoom.us}}, udp: true}
   - {name: 🇸🇬 新加坡 019, server: 172.104.182.226, port: 80, type: vmess, uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpngiare.net, headers: {Host: vpngiare.akamaized.net}}, udp: true}
   - {name: 🇸🇬 新加坡 021, server: 159.27.90.254, port: 63086, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
-  - {name: 🇸🇬 新加坡2, server: 16.163.56.186, port: 6357, type: trojan, password: b1a42ca60884057bf527d8d38b618cfb, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 16.163.109.165, port: 6357, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡3, server: 43.199.31.196, port: 41421, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 16.162.191.181, port: 45744, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 18.162.125.197, port: 48738, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡2, server: 16.163.109.165, port: 6357, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡3, server: 16.162.191.181, port: 45744, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇹🇭 泰国 001, server: 119.59.98.39, port: 30001, type: vmess, uuid: 4d24fbde-cb0e-4025-98ec-222933847d3d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.98666598.xyz}}, udp: true}
   - {name: 🇹🇭 泰国 002, server: cacerts.digicert.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cacerts.digicert.com}}, udp: true}
   - {name: 🇹🇷 土耳其 004, server: 78.111.102.232, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
@@ -1137,7 +1128,7 @@ proxies:
   - {name: 🇹🇷 土耳其 006, server: v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
   - {name: 🇹🇷 土耳其 010, server: 185.226.92.148, port: 80, type: vmess, uuid: 643a36fa-1229-4f9b-b1dd-5acc16aafb2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇹🇷 土耳其 024, server: 78.135.73.38, port: 449, type: trojan, password: 0ds_NIm933rf_Nxio294_nbZi3, sni: grape-ataturk-tr.yyuyy.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 _TW_中国台湾, server: namrcg001640lrm.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56, udp: true}
+  - {name: 🇹🇼 中国 - 台湾 - 1, server: namrcg001640lrm.cybervena.com, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56, udp: true}
   - {name: 🇺🇦 乌克兰 001, server: 176.126.114.248, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇺🇦 乌克兰 011, server: 95.164.33.62, port: 443, type: trojan, password: 0b1371aa-649d-41dc-9126-338c87936500, sni: sourceforge.net, skip-cert-verify: true, network: ws, ws-opts: {path: "%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fwebsocket", headers: {Host: sourceforge.net}}, udp: true}
   - {name: 🇺🇦 乌克兰 012, server: 195.137.167.100, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /afrhms16v.bestxray.buzz/linkws, headers: {Host: y-old-mode-9c0diab.wiriy73548.workers.dev}}, udp: true}
@@ -1159,13 +1150,12 @@ proxies:
   - {name: 🇺🇸 US_speednode_0061, server: 786f666d-t9zts0-tatrrz-yjq0.sjc.oshuawei.com, port: 443, type: http, username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9, password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US_speednode_0062, server: d6a15dd2-tegxs0-tejxhc-1rdqg.se.oshuawei.com, port: 443, type: http, username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b, password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US_speednode_0063, server: iranpoems.ir, port: 443, type: trojan, password: Mitivpn, sni: www.gamingdll.ir, skip-cert-verify: true, network: ws, ws-opts: {path: /usa=mitivpn, headers: {Host: www.gamingdll.ir}}, udp: true}
-  - {name: 🇺🇸 _US_美国_1, server: 206.168.190.219, port: 2082, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
-  - {name: 🇺🇸 _US_美国_3, server: 3.16.130.237, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇺🇸 _US_美国_5, server: 3.145.46.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇺🇸 _US_美国_5 2, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 _US_美国_8, server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net, port: 443, type: trojan, password: eb6fb64d-18c0-44d0-9ee5-f29c29194083, sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国, server: 18.163.105.231, port: 17005, type: trojan, password: b1a42ca60884057bf527d8d38b618cfb, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 _US_美国_1, server: 3.135.183.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 _US_美国_1 2, server: 206.168.190.219, port: 2082, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
+  - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国, server: 18.162.115.77, port: 49277, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - Dublin - 1, server: 3.145.57.90, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 美国 - 圣克拉拉 - 2, server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net, port: 443, type: trojan, password: eb6fb64d-18c0-44d0-9ee5-f29c29194083, sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 001, server: 107.172.218.245, port: 8552, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇺🇸 美国 002, server: 154.17.25.217, port: 9998, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇺🇸 美国 003, server: 154.17.20.16, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -1195,7 +1185,6 @@ proxies:
   - {name: 🇺🇸 美国 027, server: 147.78.245.166, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇺🇸 美国 028, server: 170.64.166.132, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇺🇸 美国 029, server: 150.230.193.37, port: 10618, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
-  - {name: 🇺🇸 美国 038, server: 18.162.115.77, port: 49277, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 039, server: 18.163.192.100, port: 49277, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 075, server: 38.60.136.156, port: 443, type: trojan, password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 088, server: 149.104.87.141, port: 443, type: trojan, password: NX7LOtiM.=RdQTq..yxi-dm6OcQrkgE5rg, sni: 149.104.87.141, skip-cert-verify: true, udp: true}
@@ -1864,7 +1853,6 @@ proxies:
   - {name: 🇺🇸 美国 315, server: 16.162.217.128, port: 27167, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 3159, server: blackshadow.dpdns.org, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: support.zoom.us.blackshadow.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /195.123.218.174-443, headers: {Host: support.zoom.us.blackshadow.dpdns.org}}, udp: true}
   - {name: 🇺🇸 美国 316, server: 13.158.45.13, port: 51976, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 3168, server: 47.83.221.185, port: 80, type: vmess, uuid: 771a590c-5eac-5732-b796-17251132f8d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 317, server: 18.166.209.37, port: 3743, type: trojan, password: 333967de4411e1e833244ba4becc20bf, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 318, server: 18.166.209.37, port: 48738, type: trojan, password: 333967de4411e1e833244ba4becc20bf, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 319, server: 54.46.14.161, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
@@ -2241,9 +2229,7 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 141.101.114.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
   - {name: 🇺🇸 美国 998, server: oplg1.cfcdn2.xyz, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 23.227.38.23, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.19.229.21, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true}
-  - {name: 🇺🇸 美国2, server: 18.166.63.229, port: 17005, type: trojan, password: b1a42ca60884057bf527d8d38b618cfb, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国3, server: 18.163.115.109, port: 44265, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.54.64.247, port: 443, type: trojan, password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk, skip-cert-verify: true, udp: true}
   - {name: 🇺🇿 乌兹别克斯坦 001, server: 37.110.209.228, port: 80, type: vmess, uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sazgar.serveirc.com}}, udp: true}
   - {name: 🇻🇳 越南 001, server: 103.75.185.221, port: 80, type: vmess, uuid: 9e5999ba-870a-46b1-8500-37c640371ec6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bs, headers: {Host: 103.75.185.221}}, udp: true}
   - {name: 🇻🇳 越南 002, server: max1.flash5g.com, port: 80, type: vmess, uuid: 4e25f91f-603c-4e83-b002-c26030757816, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /AnhBin, headers: {Host: max1.flash5g.com}}, udp: true}
@@ -2735,6 +2721,7 @@ proxy-groups:
       - 🇨🇭 瑞士 005
       - 🇨🇭 瑞士 006
       - 🇨🇭 瑞士 008
+      - 🇨🇳 _CN_中国
       - 🇨🇳 中国 001
       - 🇨🇳 中国 002
       - 🇨🇳 中国 003
@@ -2742,7 +2729,6 @@ proxy-groups:
       - 🇨🇳 中国 005
       - 🇨🇳 中国 006
       - 🇨🇳 中国 007
-      - 🇨🇳 中国 009
       - 🇨🇳 中国 012
       - 🇨🇳 中国 014
       - 🇨🇳 中国 015
@@ -3006,7 +2992,6 @@ proxy-groups:
       - 🇫🇮 芬兰 004
       - 🇫🇷 FR_speednode_0004
       - 🇫🇷 _FR_法国
-      - 🇫🇷 _FR_法国 2
       - 🇫🇷 法国 001
       - 🇫🇷 法国 003
       - 🇫🇷 法国 089
@@ -3078,16 +3063,12 @@ proxy-groups:
       - 🇬🇧 英国 088
       - 🇬🇧 英国 099
       - 🇭🇰 HK_speednode_0008
-      - 🇭🇰 _HK_中国香港
-      - 🇭🇰 _HK_中国香港_2
+      - 🇭🇰 _HK_中国香港特别行政区
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 香港
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
-      - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇷 克罗地亚 002
       - 🇭🇺 匈牙利 001
       - 🇮🇩 共享账号https://id.dhsv.eu.org
@@ -3127,8 +3108,8 @@ proxy-groups:
       - 🇮🇷 伊朗 164
       - 🇮🇷 伊朗 190
       - 🇮🇷 伊朗 191
-      - 🇯🇵 日本
-      - 🇯🇵 日本 - 东京 - 1
+      - 🇯🇵 _JP_日本_1
+      - 🇯🇵 _JP_日本_2
       - 🇯🇵 日本 - 东京 - 3
       - 🇯🇵 日本 - 東京都 - 2
       - 🇯🇵 日本 001
@@ -3184,9 +3165,7 @@ proxy-groups:
       - 🇯🇵 日本 078
       - 🇯🇵 日本 079
       - 🇯🇵 日本2
-      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇰🇬 吉尔吉斯斯坦 001
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 KR_speednode_0014
@@ -3333,6 +3312,7 @@ proxy-groups:
       - 🇷🇴 罗马尼亚 006
       - 🇷🇴 罗马尼亚 007
       - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
       - 🇷🇸 塞尔维亚 001
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇷🇺 俄罗斯 001
@@ -3379,8 +3359,8 @@ proxy-groups:
       - 🇸🇪 瑞典 023
       - 🇸🇪 瑞典 024
       - 🇸🇪 瑞典 025
-      - 🇸🇬 _SG_新加坡_1
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 - 新加坡 - 1
       - 🇸🇬 新加坡 - 新加坡 - 2
       - 🇸🇬 新加坡 001
       - 🇸🇬 新加坡 002
@@ -3399,10 +3379,7 @@ proxy-groups:
       - 🇸🇬 新加坡 019
       - 🇸🇬 新加坡 021
       - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
       - 🇹🇭 泰国 001
       - 🇹🇭 泰国 002
       - 🇹🇷 土耳其 004
@@ -3410,7 +3387,7 @@ proxy-groups:
       - 🇹🇷 土耳其 006
       - 🇹🇷 土耳其 010
       - 🇹🇷 土耳其 024
-      - 🇹🇼 _TW_中国台湾
+      - 🇹🇼 中国 - 台湾 - 1
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 011
       - 🇺🇦 乌克兰 012
@@ -3433,12 +3410,11 @@ proxy-groups:
       - 🇺🇸 US_speednode_0062
       - 🇺🇸 US_speednode_0063
       - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_5
-      - 🇺🇸 _US_美国_5 2
-      - 🇺🇸 _US_美国_8
       - 🇺🇸 美国
       - 🇺🇸 美国 - Dublin - 1
+      - 🇺🇸 美国 - 圣克拉拉 - 2
       - 🇺🇸 美国 001
       - 🇺🇸 美国 002
       - 🇺🇸 美国 003
@@ -3468,7 +3444,6 @@ proxy-groups:
       - 🇺🇸 美国 027
       - 🇺🇸 美国 028
       - 🇺🇸 美国 029
-      - 🇺🇸 美国 038
       - 🇺🇸 美国 039
       - 🇺🇸 美国 075
       - 🇺🇸 美国 088
@@ -4137,7 +4112,6 @@ proxy-groups:
       - 🇺🇸 美国 315
       - 🇺🇸 美国 3159
       - 🇺🇸 美国 316
-      - 🇺🇸 美国 3168
       - 🇺🇸 美国 317
       - 🇺🇸 美国 318
       - 🇺🇸 美国 319
@@ -4514,9 +4488,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇿 乌兹别克斯坦 001
       - 🇻🇳 越南 001
       - 🇻🇳 越南 002
@@ -4983,6 +4955,7 @@ proxy-groups:
       - 🇨🇭 瑞士 005
       - 🇨🇭 瑞士 006
       - 🇨🇭 瑞士 008
+      - 🇨🇳 _CN_中国
       - 🇨🇳 中国 001
       - 🇨🇳 中国 002
       - 🇨🇳 中国 003
@@ -4990,7 +4963,6 @@ proxy-groups:
       - 🇨🇳 中国 005
       - 🇨🇳 中国 006
       - 🇨🇳 中国 007
-      - 🇨🇳 中国 009
       - 🇨🇳 中国 012
       - 🇨🇳 中国 014
       - 🇨🇳 中国 015
@@ -5254,7 +5226,6 @@ proxy-groups:
       - 🇫🇮 芬兰 004
       - 🇫🇷 FR_speednode_0004
       - 🇫🇷 _FR_法国
-      - 🇫🇷 _FR_法国 2
       - 🇫🇷 法国 001
       - 🇫🇷 法国 003
       - 🇫🇷 法国 089
@@ -5326,16 +5297,12 @@ proxy-groups:
       - 🇬🇧 英国 088
       - 🇬🇧 英国 099
       - 🇭🇰 HK_speednode_0008
-      - 🇭🇰 _HK_中国香港
-      - 🇭🇰 _HK_中国香港_2
+      - 🇭🇰 _HK_中国香港特别行政区
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 香港
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
-      - 🇭🇰 香港5|@ripaojiedian
       - 🇭🇷 克罗地亚 002
       - 🇭🇺 匈牙利 001
       - 🇮🇩 共享账号https://id.dhsv.eu.org
@@ -5375,8 +5342,8 @@ proxy-groups:
       - 🇮🇷 伊朗 164
       - 🇮🇷 伊朗 190
       - 🇮🇷 伊朗 191
-      - 🇯🇵 日本
-      - 🇯🇵 日本 - 东京 - 1
+      - 🇯🇵 _JP_日本_1
+      - 🇯🇵 _JP_日本_2
       - 🇯🇵 日本 - 东京 - 3
       - 🇯🇵 日本 - 東京都 - 2
       - 🇯🇵 日本 001
@@ -5432,9 +5399,7 @@ proxy-groups:
       - 🇯🇵 日本 078
       - 🇯🇵 日本 079
       - 🇯🇵 日本2
-      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇰🇬 吉尔吉斯斯坦 001
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 KR_speednode_0014
@@ -5581,6 +5546,7 @@ proxy-groups:
       - 🇷🇴 罗马尼亚 006
       - 🇷🇴 罗马尼亚 007
       - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
       - 🇷🇸 塞尔维亚 001
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇷🇺 俄罗斯 001
@@ -5627,8 +5593,8 @@ proxy-groups:
       - 🇸🇪 瑞典 023
       - 🇸🇪 瑞典 024
       - 🇸🇪 瑞典 025
-      - 🇸🇬 _SG_新加坡_1
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 - 新加坡 - 1
       - 🇸🇬 新加坡 - 新加坡 - 2
       - 🇸🇬 新加坡 001
       - 🇸🇬 新加坡 002
@@ -5647,10 +5613,7 @@ proxy-groups:
       - 🇸🇬 新加坡 019
       - 🇸🇬 新加坡 021
       - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
       - 🇹🇭 泰国 001
       - 🇹🇭 泰国 002
       - 🇹🇷 土耳其 004
@@ -5658,7 +5621,7 @@ proxy-groups:
       - 🇹🇷 土耳其 006
       - 🇹🇷 土耳其 010
       - 🇹🇷 土耳其 024
-      - 🇹🇼 _TW_中国台湾
+      - 🇹🇼 中国 - 台湾 - 1
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 011
       - 🇺🇦 乌克兰 012
@@ -5681,12 +5644,11 @@ proxy-groups:
       - 🇺🇸 US_speednode_0062
       - 🇺🇸 US_speednode_0063
       - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_5
-      - 🇺🇸 _US_美国_5 2
-      - 🇺🇸 _US_美国_8
       - 🇺🇸 美国
       - 🇺🇸 美国 - Dublin - 1
+      - 🇺🇸 美国 - 圣克拉拉 - 2
       - 🇺🇸 美国 001
       - 🇺🇸 美国 002
       - 🇺🇸 美国 003
@@ -5716,7 +5678,6 @@ proxy-groups:
       - 🇺🇸 美国 027
       - 🇺🇸 美国 028
       - 🇺🇸 美国 029
-      - 🇺🇸 美国 038
       - 🇺🇸 美国 039
       - 🇺🇸 美国 075
       - 🇺🇸 美国 088
@@ -6385,7 +6346,6 @@ proxy-groups:
       - 🇺🇸 美国 315
       - 🇺🇸 美国 3159
       - 🇺🇸 美国 316
-      - 🇺🇸 美国 3168
       - 🇺🇸 美国 317
       - 🇺🇸 美国 318
       - 🇺🇸 美国 319
@@ -6762,9 +6722,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇿 乌兹别克斯坦 001
       - 🇻🇳 越南 001
       - 🇻🇳 越南 002
@@ -6828,29 +6786,26 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇭🇰 HK_speednode_0008
-      - 🇭🇰 _HK_中国香港
-      - 🇭🇰 _HK_中国香港_2
+      - 🇭🇰 _HK_中国香港特别行政区
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 香港
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
-      - 🇭🇰 香港5|@ripaojiedian
   - name: 🇹🇼 ‍台湾
     type: url-test
     url: https://i.ytimg.com/generate_204
     interval: 15
     tolerance: 100
     proxies:
-      - 🇹🇼 _TW_中国台湾
+      - 🇹🇼 中国 - 台湾 - 1
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
     interval: 15
     tolerance: 100
     proxies:
+      - 🇨🇳 _CN_中国
       - 🇨🇳 中国 001
       - 🇨🇳 中国 002
       - 🇨🇳 中国 003
@@ -6858,7 +6813,6 @@ proxy-groups:
       - 🇨🇳 中国 005
       - 🇨🇳 中国 006
       - 🇨🇳 中国 007
-      - 🇨🇳 中国 009
       - 🇨🇳 中国 012
       - 🇨🇳 中国 014
       - 🇨🇳 中国 015
@@ -7008,25 +6962,21 @@ proxy-groups:
       - 🇨🇳 中国 182
       - 🇨🇳 中国 183
       - 🇭🇰 HK_speednode_0008
-      - 🇭🇰 _HK_中国香港
-      - 🇭🇰 _HK_中国香港_2
+      - 🇭🇰 _HK_中国香港特别行政区
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 香港
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇹🇼 _TW_中国台湾
+      - 🇹🇼 中国 - 台湾 - 1
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
     interval: 15
     tolerance: 100
     proxies:
-      - 🇸🇬 _SG_新加坡_1
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 - 新加坡 - 1
       - 🇸🇬 新加坡 - 新加坡 - 2
       - 🇸🇬 新加坡 001
       - 🇸🇬 新加坡 002
@@ -7045,18 +6995,15 @@ proxy-groups:
       - 🇸🇬 新加坡 019
       - 🇸🇬 新加坡 021
       - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
   - name: 🇯🇵 ‍日本
     type: url-test
     url: https://i.ytimg.com/generate_204
     interval: 15
     tolerance: 100
     proxies:
-      - 🇯🇵 日本
-      - 🇯🇵 日本 - 东京 - 1
+      - 🇯🇵 _JP_日本_1
+      - 🇯🇵 _JP_日本_2
       - 🇯🇵 日本 - 东京 - 3
       - 🇯🇵 日本 - 東京都 - 2
       - 🇯🇵 日本 001
@@ -7112,9 +7059,7 @@ proxy-groups:
       - 🇯🇵 日本 078
       - 🇯🇵 日本 079
       - 🇯🇵 日本2
-      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
-      - 🇯🇵 日本3|@ripaojiedian
   - name: 🇺🇸 ‍美国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -7129,12 +7074,11 @@ proxy-groups:
       - 🇺🇸 US_speednode_0062
       - 🇺🇸 US_speednode_0063
       - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_5
-      - 🇺🇸 _US_美国_5 2
-      - 🇺🇸 _US_美国_8
       - 🇺🇸 美国
       - 🇺🇸 美国 - Dublin - 1
+      - 🇺🇸 美国 - 圣克拉拉 - 2
       - 🇺🇸 美国 001
       - 🇺🇸 美国 002
       - 🇺🇸 美国 003
@@ -7164,7 +7108,6 @@ proxy-groups:
       - 🇺🇸 美国 027
       - 🇺🇸 美国 028
       - 🇺🇸 美国 029
-      - 🇺🇸 美国 038
       - 🇺🇸 美国 039
       - 🇺🇸 美国 075
       - 🇺🇸 美国 088
@@ -7833,7 +7776,6 @@ proxy-groups:
       - 🇺🇸 美国 315
       - 🇺🇸 美国 3159
       - 🇺🇸 美国 316
-      - 🇺🇸 美国 3168
       - 🇺🇸 美国 317
       - 🇺🇸 美国 318
       - 🇺🇸 美国 319
@@ -8210,9 +8152,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: 🎏 ‍其他
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -8787,7 +8727,6 @@ proxy-groups:
       - 🇫🇮 芬兰 004
       - 🇫🇷 FR_speednode_0004
       - 🇫🇷 _FR_法国
-      - 🇫🇷 _FR_法国 2
       - 🇫🇷 法国 001
       - 🇫🇷 法国 003
       - 🇫🇷 法国 089
@@ -9043,6 +8982,7 @@ proxy-groups:
       - 🇷🇴 罗马尼亚 006
       - 🇷🇴 罗马尼亚 007
       - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
       - 🇷🇸 塞尔维亚 001
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇷🇺 俄罗斯 001
@@ -9124,23 +9064,20 @@ proxy-groups:
     type: select
     proxies:
       - 🇭🇰 HK_speednode_0008
-      - 🇭🇰 _HK_中国香港
-      - 🇭🇰 _HK_中国香港_2
+      - 🇭🇰 _HK_中国香港特别行政区
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 香港
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
-      - 🇭🇰 香港5|@ripaojiedian
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
     proxies:
-      - 🇹🇼 _TW_中国台湾
+      - 🇹🇼 中国 - 台湾 - 1
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
+      - 🇨🇳 _CN_中国
       - 🇨🇳 中国 001
       - 🇨🇳 中国 002
       - 🇨🇳 中国 003
@@ -9148,7 +9085,6 @@ proxy-groups:
       - 🇨🇳 中国 005
       - 🇨🇳 中国 006
       - 🇨🇳 中国 007
-      - 🇨🇳 中国 009
       - 🇨🇳 中国 012
       - 🇨🇳 中国 014
       - 🇨🇳 中国 015
@@ -9298,22 +9234,18 @@ proxy-groups:
       - 🇨🇳 中国 182
       - 🇨🇳 中国 183
       - 🇭🇰 HK_speednode_0008
-      - 🇭🇰 _HK_中国香港
-      - 🇭🇰 _HK_中国香港_2
+      - 🇭🇰 _HK_中国香港特别行政区
       - 🇭🇰 中国 - 香港 - 3
       - 🇭🇰 香港
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇹🇼 _TW_中国台湾
+      - 🇹🇼 中国 - 台湾 - 1
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
-      - 🇸🇬 _SG_新加坡_1
       - 🇸🇬 新加坡
+      - 🇸🇬 新加坡 - 新加坡 - 1
       - 🇸🇬 新加坡 - 新加坡 - 2
       - 🇸🇬 新加坡 001
       - 🇸🇬 新加坡 002
@@ -9332,15 +9264,12 @@ proxy-groups:
       - 🇸🇬 新加坡 019
       - 🇸🇬 新加坡 021
       - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3|@ripaojiedian
-      - 🇸🇬 新加坡|@ripaojiedian
   - name: 👆🏻🇯🇵 ‍日本
     type: select
     proxies:
-      - 🇯🇵 日本
-      - 🇯🇵 日本 - 东京 - 1
+      - 🇯🇵 _JP_日本_1
+      - 🇯🇵 _JP_日本_2
       - 🇯🇵 日本 - 东京 - 3
       - 🇯🇵 日本 - 東京都 - 2
       - 🇯🇵 日本 001
@@ -9396,9 +9325,7 @@ proxy-groups:
       - 🇯🇵 日本 078
       - 🇯🇵 日本 079
       - 🇯🇵 日本2
-      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
-      - 🇯🇵 日本3|@ripaojiedian
   - name: 👆🏻🇺🇸 ‍美国
     type: select
     proxies:
@@ -9410,12 +9337,11 @@ proxy-groups:
       - 🇺🇸 US_speednode_0062
       - 🇺🇸 US_speednode_0063
       - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国_3
+      - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_5
-      - 🇺🇸 _US_美国_5 2
-      - 🇺🇸 _US_美国_8
       - 🇺🇸 美国
       - 🇺🇸 美国 - Dublin - 1
+      - 🇺🇸 美国 - 圣克拉拉 - 2
       - 🇺🇸 美国 001
       - 🇺🇸 美国 002
       - 🇺🇸 美国 003
@@ -9445,7 +9371,6 @@ proxy-groups:
       - 🇺🇸 美国 027
       - 🇺🇸 美国 028
       - 🇺🇸 美国 029
-      - 🇺🇸 美国 038
       - 🇺🇸 美国 039
       - 🇺🇸 美国 075
       - 🇺🇸 美国 088
@@ -10114,7 +10039,6 @@ proxy-groups:
       - 🇺🇸 美国 315
       - 🇺🇸 美国 3159
       - 🇺🇸 美国 316
-      - 🇺🇸 美国 3168
       - 🇺🇸 美国 317
       - 🇺🇸 美国 318
       - 🇺🇸 美国 319
@@ -10491,9 +10415,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
+      - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:
@@ -11065,7 +10987,6 @@ proxy-groups:
       - 🇫🇮 芬兰 004
       - 🇫🇷 FR_speednode_0004
       - 🇫🇷 _FR_法国
-      - 🇫🇷 _FR_法国 2
       - 🇫🇷 法国 001
       - 🇫🇷 法国 003
       - 🇫🇷 法国 089
@@ -11321,6 +11242,7 @@ proxy-groups:
       - 🇷🇴 罗马尼亚 006
       - 🇷🇴 罗马尼亚 007
       - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇷🇴 罗马尼亚 V2CROSS.COM 2
       - 🇷🇸 塞尔维亚 001
       - 🇷🇺 俄罗斯 - 莫斯科 - 1
       - 🇷🇺 俄罗斯 001

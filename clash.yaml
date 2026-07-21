@@ -489,7 +489,6 @@ proxies:
   - {name: 🇮🇳 印度 003, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}, udp: true}
   - {name: 🇮🇳 印度 004, server: 152.67.190.105, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com}}, udp: true}
   - {name: 🇮🇳 印度 005, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}, udp: true}
-  - {name: 🇮🇳 印度 V2CROSS.COM, server: 103.111.114.82, port: 28061, type: ss, cipher: chacha20-ietf-poly1305, password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm, udp: true}
   - {name: 🇮🇷 伊朗 002, server: 31.56.179.194, port: 22247, type: vmess, uuid: 1f23397d-fdb3-4773-fc11-857284546f2f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇮🇷 伊朗 003, server: cl.northbookway.shop, port: 1080, type: vmess, uuid: 5c21b2cb-9aee-4d82-80ac-b6779e6bfec9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api, headers: {Host: sub.zirolost.sbs}}, udp: true}
   - {name: 🇮🇷 伊朗 004, server: 5.226.49.4, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -660,6 +659,8 @@ proxies:
   - {name: 🇷🇺 俄罗斯 024, server: haxus3.janechiu.icu, port: 443, type: vmess, uuid: 0df258cb-a376-4b8e-a378-a556a4658aeb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haxus3.janechiu.icu}}, udp: true}
   - {name: 🇷🇺 俄罗斯 025, server: us03.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us03.gogogoo.cyou}}, udp: true}
   - {name: 🇷🇺 俄罗斯 026, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: full-mackerel.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 2, server: casual-stallion.rooster465.autos, port: 443, type: trojan, password: IQ68037294, skip-cert-verify: true, udp: true}
   - {name: 🇸🇪 瑞典 002, server: 217.142.138.61, port: 80, type: vmess, uuid: ac1b933d-afff-4487-93ef-f57130a55dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
   - {name: 🇸🇪 瑞典 004, server: 5.249.160.226, port: 80, type: vmess, uuid: 86afaa7e-e00c-4c05-a7d1-44e7ba91d77a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.249.160.226}}, udp: true}
   - {name: 🇸🇪 瑞典 005, server: 141.147.161.53, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -1626,9 +1627,7 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 192.74.236.156, port: 30004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.91334565.xyz}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 38.99.82.203, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 38.99.82.203}}, udp: true}
   - {name: 🇺🇸 美国 999, server: lin0502.hwcar.sbs, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: linja05.hwcar.sbs}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.16.174.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.20.6.134, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: //assignment, headers: {Host: www.multiplydose.com}}, udp: true}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.54.64.247, port: 443, type: trojan, password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.54.64.247, port: 443, type: trojan, password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk, sni: 38.54.64.247, skip-cert-verify: true, udp: true}
   - {name: 🇺🇿 乌兹别克斯坦 001, server: 37.110.209.228, port: 80, type: vmess, uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sazgar.serveirc.com}}, udp: true}
   - {name: 🇻🇳 _VN_越南, server: 103.166.184.134, port: 27467, type: vmess, uuid: 93637105-bcea-4a68-b089-1bb6091f0b16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
   - {name: 🇻🇳 越南 001, server: 103.75.185.221, port: 80, type: vmess, uuid: 9e5999ba-870a-46b1-8500-37c640371ec6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bs, headers: {Host: 103.75.185.221}}, udp: true}
@@ -2148,7 +2147,6 @@ proxy-groups:
       - 🇮🇳 印度 003
       - 🇮🇳 印度 004
       - 🇮🇳 印度 005
-      - 🇮🇳 印度 V2CROSS.COM
       - 🇮🇷 伊朗 002
       - 🇮🇷 伊朗 003
       - 🇮🇷 伊朗 004
@@ -2319,6 +2317,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 024
       - 🇷🇺 俄罗斯 025
       - 🇷🇺 俄罗斯 026
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇸🇪 瑞典 002
       - 🇸🇪 瑞典 004
       - 🇸🇪 瑞典 005
@@ -3285,8 +3285,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇿 乌兹别克斯坦 001
       - 🇻🇳 _VN_越南
@@ -3782,7 +3780,6 @@ proxy-groups:
       - 🇮🇳 印度 003
       - 🇮🇳 印度 004
       - 🇮🇳 印度 005
-      - 🇮🇳 印度 V2CROSS.COM
       - 🇮🇷 伊朗 002
       - 🇮🇷 伊朗 003
       - 🇮🇷 伊朗 004
@@ -3953,6 +3950,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 024
       - 🇷🇺 俄罗斯 025
       - 🇷🇺 俄罗斯 026
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇸🇪 瑞典 002
       - 🇸🇪 瑞典 004
       - 🇸🇪 瑞典 005
@@ -4919,8 +4918,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇿 乌兹别克斯坦 001
       - 🇻🇳 _VN_越南
@@ -6129,8 +6126,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: 🎏 ‍其他
     type: url-test
@@ -6486,7 +6481,6 @@ proxy-groups:
       - 🇮🇳 印度 003
       - 🇮🇳 印度 004
       - 🇮🇳 印度 005
-      - 🇮🇳 印度 V2CROSS.COM
       - 🇮🇷 伊朗 002
       - 🇮🇷 伊朗 003
       - 🇮🇷 伊朗 004
@@ -6622,6 +6616,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 024
       - 🇷🇺 俄罗斯 025
       - 🇷🇺 俄罗斯 026
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇸🇪 瑞典 002
       - 🇸🇪 瑞典 004
       - 🇸🇪 瑞典 005
@@ -7797,8 +7793,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 华盛顿Cogent通信公司
   - name: 👆🏻🎏 ‍其他
     type: select
@@ -8151,7 +8145,6 @@ proxy-groups:
       - 🇮🇳 印度 003
       - 🇮🇳 印度 004
       - 🇮🇳 印度 005
-      - 🇮🇳 印度 V2CROSS.COM
       - 🇮🇷 伊朗 002
       - 🇮🇷 伊朗 003
       - 🇮🇷 伊朗 004
@@ -8287,6 +8280,8 @@ proxy-groups:
       - 🇷🇺 俄罗斯 024
       - 🇷🇺 俄罗斯 025
       - 🇷🇺 俄罗斯 026
+      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇷🇺 俄罗斯 V2CROSS.COM 2
       - 🇸🇪 瑞典 002
       - 🇸🇪 瑞典 004
       - 🇸🇪 瑞典 005

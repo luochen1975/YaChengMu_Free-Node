@@ -466,6 +466,7 @@ proxies:
   - {name: 🇬🇧 英国 020, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 36fb7fe7-b1e7-4f65-a2d5-ce944d44f582, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 🇬🇧 英国 021, server: 213.35.113.150, port: 80, type: vmess, uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: 🇬🇧 英国 022, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 82.38.31.36, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 🇭🇰 HK_speednode_0008, server: 19016135-te7og0-tfo5nb-yjq0.hkt.cdnhuawei.com, port: 8443, type: http, username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9, password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 _HK_中国香港, server: 8.210.171.48, port: 443, type: ss, cipher: aes-256-gcm, password: a172cf0d-ae89-42f3-8505-0c51dae293a1, udp: true}
   - {name: 🇭🇰 _HK_中国香港_1, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1652,8 +1653,7 @@ proxies:
   - {name: 🇺🇸 美国 997, server: jplin003.xmrth-node.xyz, port: 15901, type: vmess, uuid: 454b28a9-83b1-39e6-a622-27961c067c76, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: jplin003.xmrth-node.xyz}}, udp: true}
   - {name: 🇺🇸 美国 998, server: hkaz2.xmrth-node.xyz, port: 14017, type: vmess, uuid: 454b28a9-83b1-39e6-a622-27961c067c76, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz2.xmrth-node.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: tw1.xmrth-node.xyz, port: 15660, type: vmess, uuid: 454b28a9-83b1-39e6-a622-27961c067c76, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: tw1.xmrth-node.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.26.6.159, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: //assignment, headers: {Host: www.creationlong.org}}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 149.104.104.58, port: 443, type: trojan, password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix, sni: 149.104.104.58, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 18.167.84.124, port: 49277, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3|@ripaojiedian, server: 43.198.106.37, port: 29085, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国|@ripaojiedian, server: 16.162.187.38, port: 49277, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
@@ -2152,6 +2152,7 @@ proxy-groups:
       - 🇬🇧 英国 020
       - 🇬🇧 英国 021
       - 🇬🇧 英国 022
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 HK_speednode_0008
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
@@ -3338,8 +3339,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
@@ -3813,6 +3813,7 @@ proxy-groups:
       - 🇬🇧 英国 020
       - 🇬🇧 英国 021
       - 🇬🇧 英国 022
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇰 HK_speednode_0008
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
@@ -4999,8 +5000,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
@@ -6217,8 +6217,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
@@ -6568,6 +6567,7 @@ proxy-groups:
       - 🇬🇧 英国 020
       - 🇬🇧 英国 021
       - 🇬🇧 英国 022
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇺 匈牙利 001
       - 🇭🇺 匈牙利 002
       - 🇭🇺 匈牙利 003
@@ -7913,8 +7913,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
@@ -8261,6 +8260,7 @@ proxy-groups:
       - 🇬🇧 英国 020
       - 🇬🇧 英国 021
       - 🇬🇧 英国 022
+      - 🇬🇧 英国 V2CROSS.COM
       - 🇭🇺 匈牙利 001
       - 🇭🇺 匈牙利 002
       - 🇭🇺 匈牙利 003

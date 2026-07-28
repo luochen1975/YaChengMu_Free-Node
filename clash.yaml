@@ -165,7 +165,8 @@ proxies:
   - {name: 🇧🇿 伯利兹 019, server: 203.30.188.189, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
   - {name: 🇧🇿 伯利兹 020, server: 203.30.188.121, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
   - {name: 🇧🇿 伯利兹 021, server: 203.30.191.2, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}, udp: true}
-  - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇨🇦 CA_speednode_0001, server: 50.114.177.134, port: 10210, type: ss, cipher: aes-256-gcm, password: 2803361d6c196af8, udp: true}
+  - {name: 🇨🇦 _CA_加拿大 2, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇨🇦 加拿大 - 多伦多 - 1, server: 50.114.177.134, port: 20188, type: ss, cipher: aes-256-gcm, password: 2803361d6c196af8, udp: true}
   - {name: 🇨🇦 加拿大 001, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hohm.microsoft.com}}, udp: true}
   - {name: 🇨🇦 加拿大 002, server: 51.79.102.253, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc}}, udp: true}
@@ -462,15 +463,10 @@ proxies:
   - {name: 🇬🇧 英国 024, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 025, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 _HK_中国香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 _HK_中国香港_2, server: 260323.1.0.l3.unclemanco.com, port: 9030, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 94aaf10040.download.windowsupdate.com}, udp: true}
-  - {name: 🇭🇰 _HK_中国香港_3, server: 47.76.127.88, port: 5566, type: vmess, uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 _HK_中国香港_5, server: v10.zgtfqs.click, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 _HK_中国香港_3, server: v10.zgtfqs.click, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - 2, server: 185.206.171.78, port: 8081, type: vmess, uuid: 450037e8-e9fb-4296-bdf7-213f40b753c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港3, server: 18.166.29.24, port: 13118, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港3|@ripaojiedian, server: 18.166.67.128, port: 47867, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港4, server: 54.46.125.192, port: 27161, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: 16.162.119.232, port: 7674, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港5, server: 16.163.144.226, port: 27161, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港3, server: 18.166.67.128, port: 47867, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港4, server: 16.162.119.232, port: 7674, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇷 克罗地亚 001, server: desired-tahr.rooster465.autos, port: 443, type: trojan, password: KV63147582, sni: desired-tahr.rooster465.autos, skip-cert-verify: true, udp: true}
   - {name: 🇭🇷 克罗地亚 002, server: engaging-llama.rooster465.autos, port: 443, type: trojan, password: JT80563429, sni: engaging-llama.rooster465.autos, skip-cert-verify: true, udp: true}
   - {name: 🇭🇷 克罗地亚 003, server: top-goshawk.rooster465.autos, port: 443, type: trojan, password: JT80563429, sni: top-goshawk.rooster465.autos, skip-cert-verify: true, udp: true}
@@ -509,8 +505,7 @@ proxies:
   - {name: 🇮🇷 伊朗 011, server: 2.189.59.4, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 🇮🇷 伊朗 012, server: site.hooracoffee.ir, port: 443, type: vmess, uuid: ed954dba-5ad5-4688-8174-247944361c38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /www, headers: {Host: site.hooracoffee.ir}}, udp: true}
   - {name: 🇮🇷 伊朗 013, server: linkxt.gozar8.ir, port: 443, type: vmess, uuid: 6ad27411-ee45-46ed-a33a-5f67e3d13d6a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: linkxt.gozar8.ir}}, udp: true}
-  - {name: 🇯🇵 日本, server: 43.198.210.48, port: 27826, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 001, server: 18.183.93.4, port: 6102, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本, server: 18.183.93.4, port: 6102, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 002, server: 18.183.93.4, port: 34638, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 003, server: fullaccesstojapannetsubnode1.azurewebsites.net, port: 443, type: vmess, uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: fullaccesstojapannetsubnode1.azurewebsites.net}}, udp: true}
   - {name: 🇯🇵 日本 004, server: 140.238.42.147, port: 11188, type: vmess, uuid: 798550eb-c374-4113-b0d5-530e7d4ddedc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hello, headers: {Host: 140.238.42.147}}, udp: true}
@@ -541,10 +536,8 @@ proxies:
   - {name: 🇯🇵 日本 029, server: steam.dnspro.icu, port: 5001, type: vmess, uuid: d4c93465-70f0-30d5-ab5f-a8881f3f49e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: steam.dnspro.icu}}, udp: true}
   - {name: 🇯🇵 日本 030, server: sh-cn-1.dnspro.icu, port: 20025, type: vmess, uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: sh-cn-1.dnspro.icu}}, udp: true}
   - {name: 🇯🇵 日本 031, server: cvywfavasdc.cymlr.xyz, port: 443, type: vmess, uuid: 23f4bc80-3b0a-4aa3-cbe5-b8be4e8c32fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ksebupo, headers: {Host: cvywfavasdc.cymlr.xyz}}, udp: true}
-  - {name: 🇯🇵 日本2, server: 13.158.67.26, port: 40138, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 16.162.91.50, port: 38937, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本3, server: 18.163.181.97, port: 38937, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本3|@ripaojiedian, server: 16.163.57.145, port: 40138, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本2, server: 16.162.91.50, port: 38937, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本3, server: 16.163.57.145, port: 40138, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇰🇬 吉尔吉斯斯坦 001, server: 185.48.136.150, port: 443, type: vmess, uuid: 14bb927f-a4ec-4de7-90fb-388c1f69dbc1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sazgar22.zapto.org}}, udp: true}
   - {name: 🇰🇭 柬埔寨 001, server: 111.92.240.243, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇰🇷 韩国 002, server: 140.238.2.250, port: 443, type: vmess, uuid: 41a7089a-040b-4538-8b8d-010902405bde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
@@ -570,8 +563,8 @@ proxies:
   - {name: 🇲🇳 蒙古 001, server: 180.149.90.66, port: 443, type: vmess, uuid: f5c137d1-ca89-42c0-b604-db39aef60a73, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tabyan777.sytes.net}}, udp: true}
   - {name: 🇲🇾 马来西亚 001, server: 47.250.135.244, port: 10000, type: vmess, uuid: aedc66b8-99d7-4a21-8310-61870e7f870d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇲🇾 马来西亚 002, server: 47.250.217.108, port: 25031, type: vmess, uuid: 626a25dc-97e3-4d39-98cb-93b78d4f83c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 47.250.217.108}}, udp: true}
-  - {name: 🇳🇱 NL_speednode_0006, server: 188.164.248.122, port: 443, type: trojan, password: c206d543-023d-46cc-9d5a-1f0f2fc16323, sni: space.byu.id.yxls.eu.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /in-pdr, headers: {Host: space.byu.id.yxls.eu.cc}}, udp: true}
-  - {name: 🇳🇱 _NL_荷兰, server: 193.29.139.223, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+  - {name: 🇳🇱 NL_speednode_0007, server: 193.29.139.223, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+  - {name: 🇳🇱 荷兰 001, server: 188.164.248.122, port: 443, type: trojan, password: c206d543-023d-46cc-9d5a-1f0f2fc16323, sni: space.byu.id.yxls.eu.cc, skip-cert-verify: true, network: ws, ws-opts: {path: /in-pdr, headers: {Host: space.byu.id.yxls.eu.cc}}, udp: true}
   - {name: 🇳🇱 荷兰 007, server: electric-rhino.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: electric-rhino.rooster465.autos, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 荷兰 009, server: meet-doe.rooster465.autos, port: 443, type: trojan, password: WG39087154, sni: meet-doe.rooster465.autos, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 荷兰 010, server: open-caribou.rooster465.autos, port: 443, type: trojan, password: WG39087154, sni: open-caribou.rooster465.autos, skip-cert-verify: true, udp: true}
@@ -611,91 +604,81 @@ proxies:
   - {name: 🇵🇱 波兰 001, server: cg1c07.waimaojd.com, port: 443, type: vmess, uuid: be8e3136-b874-4085-bd23-ec3699300490, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c07.waimaojd.com}}, udp: true}
   - {name: 🇵🇱 波兰 002, server: cg1c14.waimaojd.com, port: 443, type: vmess, uuid: be8e3136-b874-4085-bd23-ec3699300490, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c14.waimaojd.com}}, udp: true}
   - {name: 🇵🇱 波兰 003, server: 128.204.223.42, port: 37382, type: vmess, uuid: 9bc5a428-a0ac-4100-84f6-c3bd3b214ebe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇷🇴 RO_speednode_0007, server: 84.239.49.178, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_speednode_0008, server: 84.239.49.157, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0009, server: 84.239.49.211, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0010, server: 84.239.49.180, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0011, server: 84.239.49.154, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0012, server: 84.239.49.253, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0013, server: 84.239.49.40, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0014, server: 84.239.49.204, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0015, server: 84.239.49.42, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0016, server: 84.239.49.215, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0009, server: 84.239.49.40, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0010, server: 84.239.49.204, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0011, server: 84.239.49.155, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0012, server: 84.239.49.211, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0013, server: 84.239.49.178, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0014, server: 84.239.49.196, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0015, server: 84.239.49.154, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0016, server: 84.239.49.180, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_speednode_0017, server: 84.239.49.224, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0018, server: 84.239.49.155, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0019, server: 84.239.14.149, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0020, server: 84.239.49.187, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0021, server: 84.239.49.196, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0022, server: 84.239.49.166, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0023, server: 84.239.49.202, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0024, server: 84.239.49.164, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0025, server: 84.239.49.160, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0026, server: 84.239.14.146, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0027, server: 84.239.49.227, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0028, server: 84.239.49.162, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0029, server: 84.239.49.198, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0030, server: 84.239.49.175, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0031, server: 84.239.49.207, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0032, server: 84.239.14.159, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0033, server: 84.239.49.239, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0034, server: 84.239.49.234, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0035, server: 84.239.49.57, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0036, server: 84.239.49.245, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0037, server: 84.239.49.209, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0038, server: 84.239.14.158, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0039, server: 84.239.49.159, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0040, server: 84.239.49.39, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0041, server: 84.239.49.235, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0042, server: 84.239.49.185, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0043, server: 84.239.49.247, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0044, server: 84.239.49.191, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0045, server: 84.239.14.157, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0046, server: 84.239.49.37, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0047, server: 84.239.49.240, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0048, server: 193.176.84.34, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0049, server: 84.239.49.214, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0050, server: 84.239.49.219, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0051, server: 84.239.14.152, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0052, server: 84.239.49.212, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0053, server: 84.239.49.176, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0054, server: 84.239.14.147, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0055, server: 193.176.84.31, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0056, server: 193.176.84.37, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0057, server: 84.239.49.38, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0058, server: 84.239.49.183, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0059, server: 193.176.84.27, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0060, server: 84.239.49.163, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0061, server: 84.239.49.249, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0062, server: 84.239.49.233, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0063, server: 84.239.49.156, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0064, server: 84.239.14.148, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0065, server: 84.239.49.199, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0066, server: 84.239.49.170, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0067, server: 84.239.49.182, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0068, server: 84.239.49.171, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0069, server: 84.239.49.223, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0070, server: 84.239.49.231, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0071, server: 84.239.14.154, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0072, server: 84.239.49.161, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0073, server: 193.176.84.24, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0074, server: 84.239.49.173, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0075, server: 193.176.84.26, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0076, server: 84.239.49.201, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0077, server: 193.176.84.19, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0078, server: 193.176.84.25, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0079, server: 84.239.49.238, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0080, server: 84.239.49.242, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0081, server: 193.176.84.36, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_speednode_0082, server: 84.239.49.254, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 罗马尼亚 - Voluntari - 16, server: 84.239.49.55, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 罗马尼亚 - Voluntari - 19, server: 84.239.14.160, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 罗马尼亚 - Voluntari - 2, server: 84.239.49.225, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0018, server: 84.239.14.149, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0019, server: 84.239.49.166, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0020, server: 84.239.49.215, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0021, server: 84.239.49.164, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0022, server: 84.239.49.245, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0023, server: 84.239.14.147, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0024, server: 84.239.49.207, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0025, server: 84.239.49.209, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0026, server: 84.239.49.227, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0027, server: 84.239.49.214, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0028, server: 84.239.49.37, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0029, server: 84.239.49.162, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0030, server: 84.239.49.212, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0031, server: 84.239.14.146, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0032, server: 84.239.49.198, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0033, server: 84.239.49.176, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0034, server: 84.239.14.152, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0035, server: 84.239.49.219, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0036, server: 84.239.14.159, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0037, server: 84.239.49.191, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0038, server: 84.239.49.185, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0039, server: 84.239.49.239, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0040, server: 84.239.49.160, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0041, server: 84.239.49.38, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0042, server: 193.176.84.37, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0043, server: 84.239.49.183, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0044, server: 84.239.14.157, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0045, server: 193.176.84.31, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0046, server: 84.239.49.163, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0047, server: 84.239.49.233, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0048, server: 84.239.49.249, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0049, server: 193.176.84.27, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0050, server: 84.239.49.223, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0051, server: 84.239.49.231, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0052, server: 84.239.49.161, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0053, server: 84.239.49.171, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0054, server: 84.239.14.154, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0055, server: 84.239.49.170, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0056, server: 84.239.49.173, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0057, server: 84.239.49.242, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0058, server: 84.239.49.254, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0059, server: 84.239.49.201, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0060, server: 84.239.49.238, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0061, server: 193.176.84.36, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0062, server: 84.239.49.55, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0063, server: 84.239.14.160, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0064, server: 84.239.49.184, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0065, server: 84.239.49.225, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_speednode_0066, server: 193.176.84.32, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 - Voluntari - 1, server: 84.239.49.187, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 - Voluntari - 15, server: 84.239.49.234, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 - Voluntari - 17, server: 84.239.49.57, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 - Voluntari - 21, server: 84.239.49.39, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 - Voluntari - 22, server: 84.239.49.175, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 - Voluntari - 24, server: 84.239.49.159, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 - Voluntari - 25, server: 84.239.49.247, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 - Voluntari - 26, server: 84.239.49.235, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 - Voluntari - 9, server: 84.239.49.42, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 罗马尼亚 001, server: upward-hedgehog.rooster465.autos, port: 443, type: trojan, password: WG39087154, sni: upward-hedgehog.rooster465.autos, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 罗马尼亚 002, server: 45.82.31.164, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
   - {name: 🇷🇴 罗马尼亚 003, server: 193.29.107.237, port: 30000, type: vmess, uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.67170227.xyz}}, udp: true}
   - {name: 🇷🇴 罗马尼亚 004, server: 37.120.236.252, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.83571945.xyz}}, udp: true}
   - {name: 🇷🇴 罗马尼亚 005, server: 37.120.236.251, port: 443, type: vmess, uuid: ed162daa-ee20-44ed-830f-b522c501387a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/143013092425, headers: {Host: www.42088326.xyz}}, udp: true}
   - {name: 🇷🇸 塞尔维亚 001, server: 152.89.160.10, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.31383769.xyz}}, udp: true}
+  - {name: 🇷🇺 _RU_俄罗斯_1, server: 185.22.154.103, port: 10921, type: ss, cipher: aes-256-gcm, password: cfe685726eea2c4b, udp: true}
   - {name: 🇷🇺 俄罗斯 002, server: relaxed-gull.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: relaxed-gull.rooster465.autos, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 俄罗斯 003, server: eminent-lamb.rooster465.autos, port: 443, type: trojan, password: WG39087154, sni: eminent-lamb.rooster465.autos, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 俄罗斯 004, server: choice-worm.rooster465.autos, port: 443, type: trojan, password: WG39087154, sni: choice-worm.rooster465.autos, skip-cert-verify: true, udp: true}
@@ -751,7 +734,7 @@ proxies:
   - {name: 🇸🇪 瑞典 014, server: 148.135.33.140, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1704188270531, headers: {Host: www.31270022.xyz}}, udp: true}
   - {name: 🇸🇪 瑞典 015, server: 185.146.173.129, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /afrhms16v.bestxray.buzz/linkws, headers: {Host: nt-haze-7dad.rogap16875.workers.dev}}, udp: true}
   - {name: 🇸🇪 瑞典 016, server: 148.135.14.99, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1704188270531, headers: {Host: www.20414124.xyz}}, udp: true}
-  - {name: 🇸🇬 新加坡, server: 18.166.29.24, port: 48738, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡, server: 18.166.67.128, port: 6357, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡 001, server: 172.104.182.226, port: 80, type: vmess, uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vpngiare.akamaized.net}}, udp: true}
   - {name: 🇸🇬 新加坡 002, server: 23.101.27.60, port: 8848, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇸🇬 新加坡 003, server: 18.139.108.70, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
@@ -769,15 +752,14 @@ proxies:
   - {name: 🇸🇬 新加坡 015, server: 159.27.90.254, port: 63086, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
   - {name: 🇸🇬 新加坡 016, server: st-1.dnspro.icu, port: 9111, type: vmess, uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: st-1.dnspro.icu}}, udp: true}
   - {name: 🇸🇬 新加坡 017, server: st-2.dnspro.icu, port: 5100, type: vmess, uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iso, headers: {Host: st-2.dnspro.icu}}, udp: true}
-  - {name: 🇸🇬 新加坡2, server: 18.163.181.97, port: 48738, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡2|@ripaojiedian, server: 16.162.91.50, port: 6357, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡2, server: 16.162.91.50, port: 6357, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡3, server: 18.166.29.72, port: 32434, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 18.166.67.128, port: 6357, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇹🇭 泰国 001, server: 119.59.98.39, port: 30001, type: vmess, uuid: 4d24fbde-cb0e-4025-98ec-222933847d3d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.98666598.xyz}}, udp: true}
   - {name: 🇹🇭 泰国 002, server: cacerts.digicert.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cacerts.digicert.com}}, udp: true}
   - {name: 🇹🇷 土耳其 001, server: 78.111.102.232, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
   - {name: 🇹🇷 土耳其 002, server: v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
-  - {name: 🇹🇼 TW_speednode_0084, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 _TW_中国台湾, server: twdx6.baidupi.top, port: 2096, type: vmess, uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /assets/images/, headers: {Host: cos.ap-shanghai.myqcloud.com}}, udp: true}
+  - {name: 🇹🇼 中国 - 台湾 - 3, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇦 乌克兰 001, server: flowing-gobbler.rooster465.autos, port: 443, type: trojan, password: FC60532879, sni: flowing-gobbler.rooster465.autos, skip-cert-verify: true, udp: true}
   - {name: 🇺🇦 乌克兰 002, server: fleet-hawk.rooster465.autos, port: 443, type: trojan, password: FC60532879, sni: fleet-hawk.rooster465.autos, skip-cert-verify: true, udp: true}
   - {name: 🇺🇦 乌克兰 003, server: 85.90.217.42, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
@@ -790,19 +772,18 @@ proxies:
   - {name: 🇺🇦 乌克兰 010, server: 94.131.14.177, port: 2082, type: vmess, uuid: 2c5fee13-f08b-4ba8-86db-27dd51cb9781, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 94.131.14.177}}, udp: true}
   - {name: 🇺🇦 乌克兰 011, server: 95.164.69.27, port: 80, type: vmess, uuid: cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: internet.life.com.by}}, udp: true}
   - {name: 🇺🇦 乌克兰 012, server: 195.137.167.100, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /afrhms16v.bestxray.buzz/linkws, headers: {Host: y-old-mode-9c0diab.wiriy73548.workers.dev}}, udp: true}
-  - {name: 🇺🇸 US_speednode_0085, server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com, port: 443, type: http, username: 1b609740-eec2-11ef-8543-f23c93136cb3, password: 1b609740-eec2-11ef-8543-f23c93136cb3, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_speednode_0086, server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com, port: 443, type: http, username: 16955d72-1794-11f0-a035-f23c95b6f51d, password: 16955d72-1794-11f0-a035-f23c95b6f51d, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_speednode_0087, server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com, port: 5443, type: http, username: 1b609740-eec2-11ef-8543-f23c93136cb3, password: 1b609740-eec2-11ef-8543-f23c93136cb3, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_speednode_0090, server: 104.16.174.12, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 US_speednode_0068, server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com, port: 443, type: http, username: 16955d72-1794-11f0-a035-f23c95b6f51d, password: 16955d72-1794-11f0-a035-f23c95b6f51d, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US_speednode_0069, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
+  - {name: 🇺🇸 US_speednode_0070, server: 208.103.161.170, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_1, server: 206.168.190.219, port: 2082, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
   - {name: 🇺🇸 _US_美国_2, server: wnd2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_4, server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国, server: 18.163.181.97, port: 49277, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国, server: 18.163.123.29, port: 17005, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - Ashburn - 1, server: 34.207.235.215, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇺🇸 美国 - Ashburn - 2, server: 54.197.30.38, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇺🇸 美国 008, server: 18.163.123.29, port: 17005, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 009, server: 18.163.123.29, port: 49277, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 010, server: 104.16.174.12, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 012, server: 198.62.62.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
   - {name: 🇺🇸 美国 013, server: 104.18.152.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 014, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
@@ -1755,8 +1736,6 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 23.27.53.19, port: 8080, type: vmess, uuid: ce556780-838a-4d08-b743-69cbf496909a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ce556780-838a-4d08-b743-69cbf496909a-vm, headers: {Host: www.bing.com}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 20.205.115.140, port: 10000, type: vmess, uuid: de4ceb36-b708-4658-81b2-2f2612e39a23, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20.205.115.140}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 104.16.199.1, port: 443, type: vmess, uuid: c83d9439-9392-4c26-a10c-a223b2e8768d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pngvws, headers: {Host: guil.tk}}, udp: true}
-  - {name: 🇺🇸 美国2, server: 18.163.181.97, port: 17005, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国3, server: 35.77.116.7, port: 35966, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇿 乌兹别克斯坦 001, server: 37.110.209.228, port: 80, type: vmess, uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sazgar.serveirc.com}}, udp: true}
   - {name: 🇻🇳 越南 001, server: 103.147.126.127, port: 80, type: vmess, uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nkpvpn.site, headers: {Host: frontier-i18n.tiktokv.com}}, udp: true}
   - {name: 🇻🇳 越南 002, server: 103.75.185.221, port: 80, type: vmess, uuid: 9e5999ba-870a-46b1-8500-37c640371ec6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bs, headers: {Host: 103.75.185.221}}, udp: true}
@@ -1952,7 +1931,8 @@ proxy-groups:
       - 🇧🇿 伯利兹 019
       - 🇧🇿 伯利兹 020
       - 🇧🇿 伯利兹 021
-      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 CA_speednode_0001
+      - 🇨🇦 _CA_加拿大 2
       - 🇨🇦 加拿大 - 多伦多 - 1
       - 🇨🇦 加拿大 001
       - 🇨🇦 加拿大 002
@@ -2249,15 +2229,10 @@ proxy-groups:
       - 🇬🇧 英国 024
       - 🇬🇧 英国 025
       - 🇭🇰 _HK_中国香港
-      - 🇭🇰 _HK_中国香港_2
       - 🇭🇰 _HK_中国香港_3
-      - 🇭🇰 _HK_中国香港_5
       - 🇭🇰 中国 - 香港 - 2
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港5
       - 🇭🇷 克罗地亚 001
       - 🇭🇷 克罗地亚 002
       - 🇭🇷 克罗地亚 003
@@ -2297,7 +2272,6 @@ proxy-groups:
       - 🇮🇷 伊朗 012
       - 🇮🇷 伊朗 013
       - 🇯🇵 日本
-      - 🇯🇵 日本 001
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
       - 🇯🇵 日本 004
@@ -2329,9 +2303,7 @@ proxy-groups:
       - 🇯🇵 日本 030
       - 🇯🇵 日本 031
       - 🇯🇵 日本2
-      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇰🇬 吉尔吉斯斯坦 001
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 韩国 002
@@ -2357,8 +2329,8 @@ proxy-groups:
       - 🇲🇳 蒙古 001
       - 🇲🇾 马来西亚 001
       - 🇲🇾 马来西亚 002
-      - 🇳🇱 NL_speednode_0006
-      - 🇳🇱 _NL_荷兰
+      - 🇳🇱 NL_speednode_0007
+      - 🇳🇱 荷兰 001
       - 🇳🇱 荷兰 007
       - 🇳🇱 荷兰 009
       - 🇳🇱 荷兰 010
@@ -2398,7 +2370,6 @@ proxy-groups:
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
-      - 🇷🇴 RO_speednode_0007
       - 🇷🇴 RO_speednode_0008
       - 🇷🇴 RO_speednode_0009
       - 🇷🇴 RO_speednode_0010
@@ -2458,31 +2429,22 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0064
       - 🇷🇴 RO_speednode_0065
       - 🇷🇴 RO_speednode_0066
-      - 🇷🇴 RO_speednode_0067
-      - 🇷🇴 RO_speednode_0068
-      - 🇷🇴 RO_speednode_0069
-      - 🇷🇴 RO_speednode_0070
-      - 🇷🇴 RO_speednode_0071
-      - 🇷🇴 RO_speednode_0072
-      - 🇷🇴 RO_speednode_0073
-      - 🇷🇴 RO_speednode_0074
-      - 🇷🇴 RO_speednode_0075
-      - 🇷🇴 RO_speednode_0076
-      - 🇷🇴 RO_speednode_0077
-      - 🇷🇴 RO_speednode_0078
-      - 🇷🇴 RO_speednode_0079
-      - 🇷🇴 RO_speednode_0080
-      - 🇷🇴 RO_speednode_0081
-      - 🇷🇴 RO_speednode_0082
-      - 🇷🇴 罗马尼亚 - Voluntari - 16
-      - 🇷🇴 罗马尼亚 - Voluntari - 19
-      - 🇷🇴 罗马尼亚 - Voluntari - 2
+      - 🇷🇴 罗马尼亚 - Voluntari - 1
+      - 🇷🇴 罗马尼亚 - Voluntari - 15
+      - 🇷🇴 罗马尼亚 - Voluntari - 17
+      - 🇷🇴 罗马尼亚 - Voluntari - 21
+      - 🇷🇴 罗马尼亚 - Voluntari - 22
+      - 🇷🇴 罗马尼亚 - Voluntari - 24
+      - 🇷🇴 罗马尼亚 - Voluntari - 25
+      - 🇷🇴 罗马尼亚 - Voluntari - 26
+      - 🇷🇴 罗马尼亚 - Voluntari - 9
       - 🇷🇴 罗马尼亚 001
       - 🇷🇴 罗马尼亚 002
       - 🇷🇴 罗马尼亚 003
       - 🇷🇴 罗马尼亚 004
       - 🇷🇴 罗马尼亚 005
       - 🇷🇸 塞尔维亚 001
+      - 🇷🇺 _RU_俄罗斯_1
       - 🇷🇺 俄罗斯 002
       - 🇷🇺 俄罗斯 003
       - 🇷🇺 俄罗斯 004
@@ -2557,14 +2519,13 @@ proxy-groups:
       - 🇸🇬 新加坡 016
       - 🇸🇬 新加坡 017
       - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡|@ripaojiedian
       - 🇹🇭 泰国 001
       - 🇹🇭 泰国 002
       - 🇹🇷 土耳其 001
       - 🇹🇷 土耳其 002
-      - 🇹🇼 TW_speednode_0084
+      - 🇹🇼 _TW_中国台湾
+      - 🇹🇼 中国 - 台湾 - 3
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -2577,10 +2538,9 @@ proxy-groups:
       - 🇺🇦 乌克兰 010
       - 🇺🇦 乌克兰 011
       - 🇺🇦 乌克兰 012
-      - 🇺🇸 US_speednode_0085
-      - 🇺🇸 US_speednode_0086
-      - 🇺🇸 US_speednode_0087
-      - 🇺🇸 US_speednode_0090
+      - 🇺🇸 US_speednode_0068
+      - 🇺🇸 US_speednode_0069
+      - 🇺🇸 US_speednode_0070
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
       - 🇺🇸 _US_美国_4
@@ -2588,8 +2548,8 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Ashburn - 1
       - 🇺🇸 美国 - Ashburn - 2
-      - 🇺🇸 美国 008
       - 🇺🇸 美国 009
+      - 🇺🇸 美国 010
       - 🇺🇸 美国 012
       - 🇺🇸 美国 013
       - 🇺🇸 美国 014
@@ -3542,8 +3502,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
       - 🇺🇿 乌兹别克斯坦 001
       - 🇻🇳 越南 001
       - 🇻🇳 越南 002
@@ -3714,7 +3672,8 @@ proxy-groups:
       - 🇧🇿 伯利兹 019
       - 🇧🇿 伯利兹 020
       - 🇧🇿 伯利兹 021
-      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 CA_speednode_0001
+      - 🇨🇦 _CA_加拿大 2
       - 🇨🇦 加拿大 - 多伦多 - 1
       - 🇨🇦 加拿大 001
       - 🇨🇦 加拿大 002
@@ -4011,15 +3970,10 @@ proxy-groups:
       - 🇬🇧 英国 024
       - 🇬🇧 英国 025
       - 🇭🇰 _HK_中国香港
-      - 🇭🇰 _HK_中国香港_2
       - 🇭🇰 _HK_中国香港_3
-      - 🇭🇰 _HK_中国香港_5
       - 🇭🇰 中国 - 香港 - 2
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港5
       - 🇭🇷 克罗地亚 001
       - 🇭🇷 克罗地亚 002
       - 🇭🇷 克罗地亚 003
@@ -4059,7 +4013,6 @@ proxy-groups:
       - 🇮🇷 伊朗 012
       - 🇮🇷 伊朗 013
       - 🇯🇵 日本
-      - 🇯🇵 日本 001
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
       - 🇯🇵 日本 004
@@ -4091,9 +4044,7 @@ proxy-groups:
       - 🇯🇵 日本 030
       - 🇯🇵 日本 031
       - 🇯🇵 日本2
-      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
-      - 🇯🇵 日本3|@ripaojiedian
       - 🇰🇬 吉尔吉斯斯坦 001
       - 🇰🇭 柬埔寨 001
       - 🇰🇷 韩国 002
@@ -4119,8 +4070,8 @@ proxy-groups:
       - 🇲🇳 蒙古 001
       - 🇲🇾 马来西亚 001
       - 🇲🇾 马来西亚 002
-      - 🇳🇱 NL_speednode_0006
-      - 🇳🇱 _NL_荷兰
+      - 🇳🇱 NL_speednode_0007
+      - 🇳🇱 荷兰 001
       - 🇳🇱 荷兰 007
       - 🇳🇱 荷兰 009
       - 🇳🇱 荷兰 010
@@ -4160,7 +4111,6 @@ proxy-groups:
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
-      - 🇷🇴 RO_speednode_0007
       - 🇷🇴 RO_speednode_0008
       - 🇷🇴 RO_speednode_0009
       - 🇷🇴 RO_speednode_0010
@@ -4220,31 +4170,22 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0064
       - 🇷🇴 RO_speednode_0065
       - 🇷🇴 RO_speednode_0066
-      - 🇷🇴 RO_speednode_0067
-      - 🇷🇴 RO_speednode_0068
-      - 🇷🇴 RO_speednode_0069
-      - 🇷🇴 RO_speednode_0070
-      - 🇷🇴 RO_speednode_0071
-      - 🇷🇴 RO_speednode_0072
-      - 🇷🇴 RO_speednode_0073
-      - 🇷🇴 RO_speednode_0074
-      - 🇷🇴 RO_speednode_0075
-      - 🇷🇴 RO_speednode_0076
-      - 🇷🇴 RO_speednode_0077
-      - 🇷🇴 RO_speednode_0078
-      - 🇷🇴 RO_speednode_0079
-      - 🇷🇴 RO_speednode_0080
-      - 🇷🇴 RO_speednode_0081
-      - 🇷🇴 RO_speednode_0082
-      - 🇷🇴 罗马尼亚 - Voluntari - 16
-      - 🇷🇴 罗马尼亚 - Voluntari - 19
-      - 🇷🇴 罗马尼亚 - Voluntari - 2
+      - 🇷🇴 罗马尼亚 - Voluntari - 1
+      - 🇷🇴 罗马尼亚 - Voluntari - 15
+      - 🇷🇴 罗马尼亚 - Voluntari - 17
+      - 🇷🇴 罗马尼亚 - Voluntari - 21
+      - 🇷🇴 罗马尼亚 - Voluntari - 22
+      - 🇷🇴 罗马尼亚 - Voluntari - 24
+      - 🇷🇴 罗马尼亚 - Voluntari - 25
+      - 🇷🇴 罗马尼亚 - Voluntari - 26
+      - 🇷🇴 罗马尼亚 - Voluntari - 9
       - 🇷🇴 罗马尼亚 001
       - 🇷🇴 罗马尼亚 002
       - 🇷🇴 罗马尼亚 003
       - 🇷🇴 罗马尼亚 004
       - 🇷🇴 罗马尼亚 005
       - 🇷🇸 塞尔维亚 001
+      - 🇷🇺 _RU_俄罗斯_1
       - 🇷🇺 俄罗斯 002
       - 🇷🇺 俄罗斯 003
       - 🇷🇺 俄罗斯 004
@@ -4319,14 +4260,13 @@ proxy-groups:
       - 🇸🇬 新加坡 016
       - 🇸🇬 新加坡 017
       - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡|@ripaojiedian
       - 🇹🇭 泰国 001
       - 🇹🇭 泰国 002
       - 🇹🇷 土耳其 001
       - 🇹🇷 土耳其 002
-      - 🇹🇼 TW_speednode_0084
+      - 🇹🇼 _TW_中国台湾
+      - 🇹🇼 中国 - 台湾 - 3
       - 🇺🇦 乌克兰 001
       - 🇺🇦 乌克兰 002
       - 🇺🇦 乌克兰 003
@@ -4339,10 +4279,9 @@ proxy-groups:
       - 🇺🇦 乌克兰 010
       - 🇺🇦 乌克兰 011
       - 🇺🇦 乌克兰 012
-      - 🇺🇸 US_speednode_0085
-      - 🇺🇸 US_speednode_0086
-      - 🇺🇸 US_speednode_0087
-      - 🇺🇸 US_speednode_0090
+      - 🇺🇸 US_speednode_0068
+      - 🇺🇸 US_speednode_0069
+      - 🇺🇸 US_speednode_0070
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
       - 🇺🇸 _US_美国_4
@@ -4350,8 +4289,8 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Ashburn - 1
       - 🇺🇸 美国 - Ashburn - 2
-      - 🇺🇸 美国 008
       - 🇺🇸 美国 009
+      - 🇺🇸 美国 010
       - 🇺🇸 美国 012
       - 🇺🇸 美国 013
       - 🇺🇸 美国 014
@@ -5304,8 +5243,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
       - 🇺🇿 乌兹别克斯坦 001
       - 🇻🇳 越南 001
       - 🇻🇳 越南 002
@@ -5370,22 +5307,18 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇭🇰 _HK_中国香港
-      - 🇭🇰 _HK_中国香港_2
       - 🇭🇰 _HK_中国香港_3
-      - 🇭🇰 _HK_中国香港_5
       - 🇭🇰 中国 - 香港 - 2
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港5
   - name: 🇹🇼 ‍台湾
     type: url-test
     url: https://i.ytimg.com/generate_204
     interval: 15
     tolerance: 100
     proxies:
-      - 🇹🇼 TW_speednode_0084
+      - 🇹🇼 _TW_中国台湾
+      - 🇹🇼 中国 - 台湾 - 3
   - name: 🇨🇳 ‍中国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -5511,16 +5444,12 @@ proxy-groups:
       - 🇨🇳 中国 117
       - 🇨🇳 中国 118
       - 🇭🇰 _HK_中国香港
-      - 🇭🇰 _HK_中国香港_2
       - 🇭🇰 _HK_中国香港_3
-      - 🇭🇰 _HK_中国香港_5
       - 🇭🇰 中国 - 香港 - 2
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港5
-      - 🇹🇼 TW_speednode_0084
+      - 🇹🇼 _TW_中国台湾
+      - 🇹🇼 中国 - 台湾 - 3
   - name: 🇸🇬 ‍新加坡
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -5546,9 +5475,7 @@ proxy-groups:
       - 🇸🇬 新加坡 016
       - 🇸🇬 新加坡 017
       - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡|@ripaojiedian
   - name: 🇯🇵 ‍日本
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -5556,7 +5483,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇯🇵 日本
-      - 🇯🇵 日本 001
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
       - 🇯🇵 日本 004
@@ -5588,19 +5514,16 @@ proxy-groups:
       - 🇯🇵 日本 030
       - 🇯🇵 日本 031
       - 🇯🇵 日本2
-      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
-      - 🇯🇵 日本3|@ripaojiedian
   - name: 🇺🇸 ‍美国
     type: url-test
     url: https://i.ytimg.com/generate_204
     interval: 15
     tolerance: 300
     proxies:
-      - 🇺🇸 US_speednode_0085
-      - 🇺🇸 US_speednode_0086
-      - 🇺🇸 US_speednode_0087
-      - 🇺🇸 US_speednode_0090
+      - 🇺🇸 US_speednode_0068
+      - 🇺🇸 US_speednode_0069
+      - 🇺🇸 US_speednode_0070
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
       - 🇺🇸 _US_美国_4
@@ -5608,8 +5531,8 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Ashburn - 1
       - 🇺🇸 美国 - Ashburn - 2
-      - 🇺🇸 美国 008
       - 🇺🇸 美国 009
+      - 🇺🇸 美国 010
       - 🇺🇸 美国 012
       - 🇺🇸 美国 013
       - 🇺🇸 美国 014
@@ -6562,8 +6485,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
   - name: 🎏 ‍其他
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -6726,7 +6647,8 @@ proxy-groups:
       - 🇧🇿 伯利兹 019
       - 🇧🇿 伯利兹 020
       - 🇧🇿 伯利兹 021
-      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 CA_speednode_0001
+      - 🇨🇦 _CA_加拿大 2
       - 🇨🇦 加拿大 - 多伦多 - 1
       - 🇨🇦 加拿大 001
       - 🇨🇦 加拿大 002
@@ -6967,8 +6889,8 @@ proxy-groups:
       - 🇲🇳 蒙古 001
       - 🇲🇾 马来西亚 001
       - 🇲🇾 马来西亚 002
-      - 🇳🇱 NL_speednode_0006
-      - 🇳🇱 _NL_荷兰
+      - 🇳🇱 NL_speednode_0007
+      - 🇳🇱 荷兰 001
       - 🇳🇱 荷兰 007
       - 🇳🇱 荷兰 009
       - 🇳🇱 荷兰 010
@@ -7008,7 +6930,6 @@ proxy-groups:
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
-      - 🇷🇴 RO_speednode_0007
       - 🇷🇴 RO_speednode_0008
       - 🇷🇴 RO_speednode_0009
       - 🇷🇴 RO_speednode_0010
@@ -7068,31 +6989,22 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0064
       - 🇷🇴 RO_speednode_0065
       - 🇷🇴 RO_speednode_0066
-      - 🇷🇴 RO_speednode_0067
-      - 🇷🇴 RO_speednode_0068
-      - 🇷🇴 RO_speednode_0069
-      - 🇷🇴 RO_speednode_0070
-      - 🇷🇴 RO_speednode_0071
-      - 🇷🇴 RO_speednode_0072
-      - 🇷🇴 RO_speednode_0073
-      - 🇷🇴 RO_speednode_0074
-      - 🇷🇴 RO_speednode_0075
-      - 🇷🇴 RO_speednode_0076
-      - 🇷🇴 RO_speednode_0077
-      - 🇷🇴 RO_speednode_0078
-      - 🇷🇴 RO_speednode_0079
-      - 🇷🇴 RO_speednode_0080
-      - 🇷🇴 RO_speednode_0081
-      - 🇷🇴 RO_speednode_0082
-      - 🇷🇴 罗马尼亚 - Voluntari - 16
-      - 🇷🇴 罗马尼亚 - Voluntari - 19
-      - 🇷🇴 罗马尼亚 - Voluntari - 2
+      - 🇷🇴 罗马尼亚 - Voluntari - 1
+      - 🇷🇴 罗马尼亚 - Voluntari - 15
+      - 🇷🇴 罗马尼亚 - Voluntari - 17
+      - 🇷🇴 罗马尼亚 - Voluntari - 21
+      - 🇷🇴 罗马尼亚 - Voluntari - 22
+      - 🇷🇴 罗马尼亚 - Voluntari - 24
+      - 🇷🇴 罗马尼亚 - Voluntari - 25
+      - 🇷🇴 罗马尼亚 - Voluntari - 26
+      - 🇷🇴 罗马尼亚 - Voluntari - 9
       - 🇷🇴 罗马尼亚 001
       - 🇷🇴 罗马尼亚 002
       - 🇷🇴 罗马尼亚 003
       - 🇷🇴 罗马尼亚 004
       - 🇷🇴 罗马尼亚 005
       - 🇷🇸 塞尔维亚 001
+      - 🇷🇺 _RU_俄罗斯_1
       - 🇷🇺 俄罗斯 002
       - 🇷🇺 俄罗斯 003
       - 🇷🇺 俄罗斯 004
@@ -7179,19 +7091,15 @@ proxy-groups:
     type: select
     proxies:
       - 🇭🇰 _HK_中国香港
-      - 🇭🇰 _HK_中国香港_2
       - 🇭🇰 _HK_中国香港_3
-      - 🇭🇰 _HK_中国香港_5
       - 🇭🇰 中国 - 香港 - 2
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港5
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
     proxies:
-      - 🇹🇼 TW_speednode_0084
+      - 🇹🇼 _TW_中国台湾
+      - 🇹🇼 中国 - 台湾 - 3
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
@@ -7314,16 +7222,12 @@ proxy-groups:
       - 🇨🇳 中国 117
       - 🇨🇳 中国 118
       - 🇭🇰 _HK_中国香港
-      - 🇭🇰 _HK_中国香港_2
       - 🇭🇰 _HK_中国香港_3
-      - 🇭🇰 _HK_中国香港_5
       - 🇭🇰 中国 - 香港 - 2
       - 🇭🇰 香港3
-      - 🇭🇰 香港3|@ripaojiedian
       - 🇭🇰 香港4
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇭🇰 香港5
-      - 🇹🇼 TW_speednode_0084
+      - 🇹🇼 _TW_中国台湾
+      - 🇹🇼 中国 - 台湾 - 3
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
@@ -7346,14 +7250,11 @@ proxy-groups:
       - 🇸🇬 新加坡 016
       - 🇸🇬 新加坡 017
       - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2|@ripaojiedian
       - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡|@ripaojiedian
   - name: 👆🏻🇯🇵 ‍日本
     type: select
     proxies:
       - 🇯🇵 日本
-      - 🇯🇵 日本 001
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
       - 🇯🇵 日本 004
@@ -7385,16 +7286,13 @@ proxy-groups:
       - 🇯🇵 日本 030
       - 🇯🇵 日本 031
       - 🇯🇵 日本2
-      - 🇯🇵 日本2|@ripaojiedian
       - 🇯🇵 日本3
-      - 🇯🇵 日本3|@ripaojiedian
   - name: 👆🏻🇺🇸 ‍美国
     type: select
     proxies:
-      - 🇺🇸 US_speednode_0085
-      - 🇺🇸 US_speednode_0086
-      - 🇺🇸 US_speednode_0087
-      - 🇺🇸 US_speednode_0090
+      - 🇺🇸 US_speednode_0068
+      - 🇺🇸 US_speednode_0069
+      - 🇺🇸 US_speednode_0070
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_2
       - 🇺🇸 _US_美国_4
@@ -7402,8 +7300,8 @@ proxy-groups:
       - 🇺🇸 美国
       - 🇺🇸 美国 - Ashburn - 1
       - 🇺🇸 美国 - Ashburn - 2
-      - 🇺🇸 美国 008
       - 🇺🇸 美国 009
+      - 🇺🇸 美国 010
       - 🇺🇸 美国 012
       - 🇺🇸 美国 013
       - 🇺🇸 美国 014
@@ -8356,8 +8254,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国2
-      - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:
@@ -8517,7 +8413,8 @@ proxy-groups:
       - 🇧🇿 伯利兹 019
       - 🇧🇿 伯利兹 020
       - 🇧🇿 伯利兹 021
-      - 🇨🇦 _CA_加拿大
+      - 🇨🇦 CA_speednode_0001
+      - 🇨🇦 _CA_加拿大 2
       - 🇨🇦 加拿大 - 多伦多 - 1
       - 🇨🇦 加拿大 001
       - 🇨🇦 加拿大 002
@@ -8758,8 +8655,8 @@ proxy-groups:
       - 🇲🇳 蒙古 001
       - 🇲🇾 马来西亚 001
       - 🇲🇾 马来西亚 002
-      - 🇳🇱 NL_speednode_0006
-      - 🇳🇱 _NL_荷兰
+      - 🇳🇱 NL_speednode_0007
+      - 🇳🇱 荷兰 001
       - 🇳🇱 荷兰 007
       - 🇳🇱 荷兰 009
       - 🇳🇱 荷兰 010
@@ -8799,7 +8696,6 @@ proxy-groups:
       - 🇵🇱 波兰 001
       - 🇵🇱 波兰 002
       - 🇵🇱 波兰 003
-      - 🇷🇴 RO_speednode_0007
       - 🇷🇴 RO_speednode_0008
       - 🇷🇴 RO_speednode_0009
       - 🇷🇴 RO_speednode_0010
@@ -8859,31 +8755,22 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0064
       - 🇷🇴 RO_speednode_0065
       - 🇷🇴 RO_speednode_0066
-      - 🇷🇴 RO_speednode_0067
-      - 🇷🇴 RO_speednode_0068
-      - 🇷🇴 RO_speednode_0069
-      - 🇷🇴 RO_speednode_0070
-      - 🇷🇴 RO_speednode_0071
-      - 🇷🇴 RO_speednode_0072
-      - 🇷🇴 RO_speednode_0073
-      - 🇷🇴 RO_speednode_0074
-      - 🇷🇴 RO_speednode_0075
-      - 🇷🇴 RO_speednode_0076
-      - 🇷🇴 RO_speednode_0077
-      - 🇷🇴 RO_speednode_0078
-      - 🇷🇴 RO_speednode_0079
-      - 🇷🇴 RO_speednode_0080
-      - 🇷🇴 RO_speednode_0081
-      - 🇷🇴 RO_speednode_0082
-      - 🇷🇴 罗马尼亚 - Voluntari - 16
-      - 🇷🇴 罗马尼亚 - Voluntari - 19
-      - 🇷🇴 罗马尼亚 - Voluntari - 2
+      - 🇷🇴 罗马尼亚 - Voluntari - 1
+      - 🇷🇴 罗马尼亚 - Voluntari - 15
+      - 🇷🇴 罗马尼亚 - Voluntari - 17
+      - 🇷🇴 罗马尼亚 - Voluntari - 21
+      - 🇷🇴 罗马尼亚 - Voluntari - 22
+      - 🇷🇴 罗马尼亚 - Voluntari - 24
+      - 🇷🇴 罗马尼亚 - Voluntari - 25
+      - 🇷🇴 罗马尼亚 - Voluntari - 26
+      - 🇷🇴 罗马尼亚 - Voluntari - 9
       - 🇷🇴 罗马尼亚 001
       - 🇷🇴 罗马尼亚 002
       - 🇷🇴 罗马尼亚 003
       - 🇷🇴 罗马尼亚 004
       - 🇷🇴 罗马尼亚 005
       - 🇷🇸 塞尔维亚 001
+      - 🇷🇺 _RU_俄罗斯_1
       - 🇷🇺 俄罗斯 002
       - 🇷🇺 俄罗斯 003
       - 🇷🇺 俄罗斯 004

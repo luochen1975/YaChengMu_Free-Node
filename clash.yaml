@@ -214,6 +214,7 @@ proxies:
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇭 瑞士 001, server: 64.110.66.235, port: 8080, type: vmess, uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}, udp: true}
   - {name: 🇨🇭 瑞士 002, server: 140.238.212.95, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com}}, udp: true}
+  - {name: 🇨🇳 中国 - 上海 - 1, server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
   - {name: 🇨🇳 中国 001, server: 119.246.1.143, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 002, server: v35.hdacd.com, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 中国 003, server: 221.204.41.88, port: 443, type: vmess, uuid: 1c503beb-4589-409b-bddf-5190925f72f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: 1c503beb-4589-409b-bddf-5190925f72f0-vm, headers: {Host: speeches-obligations-view-epinions.trycloudflare.com}}, udp: true}
@@ -486,13 +487,12 @@ proxies:
   - {name: 🇬🇧 英国 027, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 36fb7fe7-b1e7-4f65-a2d5-ce944d44f582, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 🇬🇧 英国 028, server: 213.35.113.150, port: 80, type: vmess, uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: 🇬🇧 英国 030, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 Technicolor SA, server: oplosgru-c.catcat321.com, port: 20004, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK_speednode_0050, server: 18.166.249.45, port: 29443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK_speednode_0052, server: 18.163.90.221, port: 29085, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 _HK_中国香港, server: 47.86.167.194, port: 800, type: vmess, uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/x], headers: {Host: [sjskendn.dingtalk.com]}}, udp: true}
   - {name: 🇭🇰 _HK_中国香港_1, server: drbkg16egf3fzlm3.v.3dns.vip, port: 443, type: vmess, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: drbkg16egf3fzlm3.v.3dns.vip}}, udp: true}
   - {name: 🇭🇰 _HK_中国香港_2, server: m01c7b2z26dtqgee.v.3dns.vip, port: 443, type: vmess, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: m01c7b2z26dtqgee.v.3dns.vip}}, udp: true}
-  - {name: 🇭🇰 中国 - 香港 - 1, server: v9.hdacd.com, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 中国 - 香港 - 2, server: ss.046.node-for-bigairport.win, port: 19000, type: ss, cipher: chacha20-ietf-poly1305, password: 792e0bdb-01db-450c-94c4-925151eb396e, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港3, server: 18.166.178.12, port: 14684, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港3|@ripaojiedian, server: 95.40.107.76, port: 50887, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
@@ -746,10 +746,9 @@ proxies:
   - {name: 🇷🇴 RO_speednode_0227, server: 84.239.49.212, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_speednode_0228, server: 84.239.14.157, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_speednode_0229, server: 193.176.84.38, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 罗马尼亚 - Voluntari - 14, server: 84.239.49.254, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 罗马尼亚 - 布加勒斯特 - 22, server: 193.176.84.36, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 罗马尼亚 - 布加勒斯特 - 29, server: 193.176.84.31, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 罗马尼亚 - 布加勒斯特 - 36, server: 193.176.84.22, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 - 布加勒斯特 - 4, server: 193.176.84.36, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 - 布加勒斯特 - 6, server: 193.176.84.31, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 罗马尼亚 - 布加勒斯特 - 8, server: 193.176.84.22, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 罗马尼亚 001, server: 89.34.230.135, port: 51185, type: vmess, uuid: af6b6c9b-62bc-46c2-9147-81ec34885899, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 罗马尼亚 002, server: 45.82.31.164, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
   - {name: 🇷🇴 罗马尼亚 003, server: 193.29.107.237, port: 30000, type: vmess, uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.67170227.xyz}}, udp: true}
@@ -874,7 +873,9 @@ proxies:
   - {name: 🇺🇸 _US_美国_4, server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国, server: 18.163.100.58, port: 12680, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 - 洛杉矶 - 8, server: 138.199.35.199, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 - Ashburn - 1, server: 54.196.207.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 美国 - 洛杉矶 - 12, server: 88.210.36.106, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @VPNine1)7eb777f:123571}, udp: true}
+  - {name: 🇺🇸 美国 - 洛杉矶 - 2, server: 142.171.48.179, port: 28167, type: vmess, uuid: a75d95d5-ae5b-4207-a6a3-ada2943776b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: gw.alicdn.com, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国 007, server: 18.163.100.58, port: 53001, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 059, server: 172.67.176.245, port: 443, type: vmess, uuid: 0632bfa9-b15c-4257-8c75-32f7c0c53b27, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cg1c12.waimaojd.com}}, udp: true}
   - {name: 🇺🇸 美国 060, server: 172.64.80.1, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2ray1.dozapp.xyz}}, udp: true}
@@ -1884,8 +1885,6 @@ proxies:
   - {name: 🇺🇸 美国 997, server: cf.877774.xyz, port: 80, type: vmess, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.}}, udp: true}
   - {name: 🇺🇸 美国 998, server: saas.sin.fan, port: 80, type: vmess, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 130.33.96.204, port: 16645, type: vmess, uuid: 2dd31bd9-e22c-471a-a9cc-9128fc768326, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 4921b448814c533740d0eb52bb6b64b2.mobgslb.tbcache.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.18.152.144, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.130.125.126, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
   - {name: 🇺🇸 美国2, server: 18.167.20.3, port: 49277, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3, server: 43.198.98.22, port: 35966, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇿 乌兹别克斯坦 001, server: 37.110.209.228, port: 80, type: vmess, uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sazgar.serveirc.com}}, udp: true}
@@ -2132,6 +2131,7 @@ proxy-groups:
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
+      - 🇨🇳 中国 - 上海 - 1
       - 🇨🇳 中国 001
       - 🇨🇳 中国 002
       - 🇨🇳 中国 003
@@ -2404,13 +2404,12 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 028
       - 🇬🇧 英国 030
+      - 🇬🇧 英国 Technicolor SA
       - 🇭🇰 HK_speednode_0050
       - 🇭🇰 HK_speednode_0052
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
       - 🇭🇰 _HK_中国香港_2
-      - 🇭🇰 中国 - 香港 - 1
-      - 🇭🇰 中国 - 香港 - 2
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
@@ -2664,10 +2663,9 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0227
       - 🇷🇴 RO_speednode_0228
       - 🇷🇴 RO_speednode_0229
-      - 🇷🇴 罗马尼亚 - Voluntari - 14
-      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 22
-      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 29
-      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 36
+      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 4
+      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 6
+      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 8
       - 🇷🇴 罗马尼亚 001
       - 🇷🇴 罗马尼亚 002
       - 🇷🇴 罗马尼亚 003
@@ -2792,7 +2790,9 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
-      - 🇺🇸 美国 - 洛杉矶 - 8
+      - 🇺🇸 美国 - Ashburn - 1
+      - 🇺🇸 美国 - 洛杉矶 - 12
+      - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 007
       - 🇺🇸 美国 059
       - 🇺🇸 美国 060
@@ -3802,8 +3802,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇿 乌兹别克斯坦 001
@@ -4025,6 +4023,7 @@ proxy-groups:
       - 🇨🇭 _CH_瑞士
       - 🇨🇭 瑞士 001
       - 🇨🇭 瑞士 002
+      - 🇨🇳 中国 - 上海 - 1
       - 🇨🇳 中国 001
       - 🇨🇳 中国 002
       - 🇨🇳 中国 003
@@ -4297,13 +4296,12 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 028
       - 🇬🇧 英国 030
+      - 🇬🇧 英国 Technicolor SA
       - 🇭🇰 HK_speednode_0050
       - 🇭🇰 HK_speednode_0052
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
       - 🇭🇰 _HK_中国香港_2
-      - 🇭🇰 中国 - 香港 - 1
-      - 🇭🇰 中国 - 香港 - 2
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
@@ -4557,10 +4555,9 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0227
       - 🇷🇴 RO_speednode_0228
       - 🇷🇴 RO_speednode_0229
-      - 🇷🇴 罗马尼亚 - Voluntari - 14
-      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 22
-      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 29
-      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 36
+      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 4
+      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 6
+      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 8
       - 🇷🇴 罗马尼亚 001
       - 🇷🇴 罗马尼亚 002
       - 🇷🇴 罗马尼亚 003
@@ -4685,7 +4682,9 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
-      - 🇺🇸 美国 - 洛杉矶 - 8
+      - 🇺🇸 美国 - Ashburn - 1
+      - 🇺🇸 美国 - 洛杉矶 - 12
+      - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 007
       - 🇺🇸 美国 059
       - 🇺🇸 美国 060
@@ -5695,8 +5694,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
       - 🇺🇿 乌兹别克斯坦 001
@@ -5767,8 +5764,6 @@ proxy-groups:
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
       - 🇭🇰 _HK_中国香港_2
-      - 🇭🇰 中国 - 香港 - 1
-      - 🇭🇰 中国 - 香港 - 2
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
@@ -5786,6 +5781,7 @@ proxy-groups:
     interval: 15
     tolerance: 100
     proxies:
+      - 🇨🇳 中国 - 上海 - 1
       - 🇨🇳 中国 001
       - 🇨🇳 中国 002
       - 🇨🇳 中国 003
@@ -5915,8 +5911,6 @@ proxy-groups:
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
       - 🇭🇰 _HK_中国香港_2
-      - 🇭🇰 中国 - 香港 - 1
-      - 🇭🇰 中国 - 香港 - 2
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
@@ -6037,7 +6031,9 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
-      - 🇺🇸 美国 - 洛杉矶 - 8
+      - 🇺🇸 美国 - Ashburn - 1
+      - 🇺🇸 美国 - 洛杉矶 - 12
+      - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 007
       - 🇺🇸 美国 059
       - 🇺🇸 美国 060
@@ -7047,8 +7043,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🎏 ‍其他
@@ -7410,6 +7404,7 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 028
       - 🇬🇧 英国 030
+      - 🇬🇧 英国 Technicolor SA
       - 🇭🇺 匈牙利 001
       - 🇮🇪 爱尔兰 001
       - 🇮🇪 爱尔兰 002
@@ -7621,10 +7616,9 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0227
       - 🇷🇴 RO_speednode_0228
       - 🇷🇴 RO_speednode_0229
-      - 🇷🇴 罗马尼亚 - Voluntari - 14
-      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 22
-      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 29
-      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 36
+      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 4
+      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 6
+      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 8
       - 🇷🇴 罗马尼亚 001
       - 🇷🇴 罗马尼亚 002
       - 🇷🇴 罗马尼亚 003
@@ -7708,8 +7702,6 @@ proxy-groups:
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
       - 🇭🇰 _HK_中国香港_2
-      - 🇭🇰 中国 - 香港 - 1
-      - 🇭🇰 中国 - 香港 - 2
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
@@ -7721,6 +7713,7 @@ proxy-groups:
   - name: 👆🏻🇨🇳 ‍中国
     type: select
     proxies:
+      - 🇨🇳 中国 - 上海 - 1
       - 🇨🇳 中国 001
       - 🇨🇳 中国 002
       - 🇨🇳 中国 003
@@ -7850,8 +7843,6 @@ proxy-groups:
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
       - 🇭🇰 _HK_中国香港_2
-      - 🇭🇰 中国 - 香港 - 1
-      - 🇭🇰 中国 - 香港 - 2
       - 🇭🇰 香港
       - 🇭🇰 香港3
       - 🇭🇰 香港3|@ripaojiedian
@@ -7963,7 +7954,9 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
-      - 🇺🇸 美国 - 洛杉矶 - 8
+      - 🇺🇸 美国 - Ashburn - 1
+      - 🇺🇸 美国 - 洛杉矶 - 12
+      - 🇺🇸 美国 - 洛杉矶 - 2
       - 🇺🇸 美国 007
       - 🇺🇸 美国 059
       - 🇺🇸 美国 060
@@ -8973,8 +8966,6 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他
@@ -9333,6 +9324,7 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 028
       - 🇬🇧 英国 030
+      - 🇬🇧 英国 Technicolor SA
       - 🇭🇺 匈牙利 001
       - 🇮🇪 爱尔兰 001
       - 🇮🇪 爱尔兰 002
@@ -9544,10 +9536,9 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0227
       - 🇷🇴 RO_speednode_0228
       - 🇷🇴 RO_speednode_0229
-      - 🇷🇴 罗马尼亚 - Voluntari - 14
-      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 22
-      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 29
-      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 36
+      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 4
+      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 6
+      - 🇷🇴 罗马尼亚 - 布加勒斯特 - 8
       - 🇷🇴 罗马尼亚 001
       - 🇷🇴 罗马尼亚 002
       - 🇷🇴 罗马尼亚 003

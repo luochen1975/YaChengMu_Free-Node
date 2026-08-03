@@ -19,7 +19,6 @@ proxies:
   - {name: 亚太地区 007, server: 103.167.199.114, port: 80, type: vmess, uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nkpvpn.akamaized.net}}, udp: true}
   - {name: 亚太地区 008, server: 103.187.1.243, port: 80, type: vmess, uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kvw0870h/, headers: {Host: 4gvpn.akamaized.net}}, udp: true}
   - {name: 亚太地区 009, server: 103.186.149.132, port: 80, type: vmess, uuid: a479fc02-07c5-4864-8564-c4f147dfa488, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shopvpn.net, headers: {Host: frontier-i18n.tiktokv.com}}, udp: true}
-  - {name: 亚太地区 V2CROSS.COM, server: 103.115.18.71, port: 8388, type: ss, cipher: aes-256-gcm, password: tl6ynStvifLD, udp: true}
   - {name: 其他 001, server: 127.0.0.53, port: 80, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 其他 002, server: 127.0.0.53, port: 81, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 其他 003, server: 127.0.0.53, port: 82, type: vmess, uuid: 88888888-8888-8888-8888-888888888888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -488,6 +487,7 @@ proxies:
   - {name: 🇬🇧 英国 027, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 36fb7fe7-b1e7-4f65-a2d5-ce944d44f582, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 🇬🇧 英国 028, server: 213.35.113.150, port: 80, type: vmess, uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: 🇬🇧 英国 030, server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 Technicolor SA, server: oplosgru-c.catcat321.com, port: 20004, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK_speednode_0050, server: 18.166.249.45, port: 29443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK_speednode_0052, server: 18.163.90.221, port: 29085, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 _HK_中国香港, server: u2frxj0g13vdi0wo.v.3dns.vip, port: 443, type: vmess, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: u2frxj0g13vdi0wo.v.3dns.vip}}, udp: true}
@@ -1927,7 +1927,6 @@ proxy-groups:
       - 亚太地区 007
       - 亚太地区 008
       - 亚太地区 009
-      - 亚太地区 V2CROSS.COM
       - 其他 001
       - 其他 002
       - 其他 003
@@ -2396,6 +2395,7 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 028
       - 🇬🇧 英国 030
+      - 🇬🇧 英国 Technicolor SA
       - 🇭🇰 HK_speednode_0050
       - 🇭🇰 HK_speednode_0052
       - 🇭🇰 _HK_中国香港
@@ -3810,7 +3810,6 @@ proxy-groups:
       - 亚太地区 007
       - 亚太地区 008
       - 亚太地区 009
-      - 亚太地区 V2CROSS.COM
       - 其他 001
       - 其他 002
       - 其他 003
@@ -4279,6 +4278,7 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 028
       - 🇬🇧 英国 030
+      - 🇬🇧 英国 Technicolor SA
       - 🇭🇰 HK_speednode_0050
       - 🇭🇰 HK_speednode_0052
       - 🇭🇰 _HK_中国香港
@@ -7025,7 +7025,6 @@ proxy-groups:
       - 亚太地区 007
       - 亚太地区 008
       - 亚太地区 009
-      - 亚太地区 V2CROSS.COM
       - 其他 001
       - 其他 002
       - 其他 003
@@ -7369,6 +7368,7 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 028
       - 🇬🇧 英国 030
+      - 🇬🇧 英国 Technicolor SA
       - 🇭🇺 匈牙利 001
       - 🇮🇪 爱尔兰 001
       - 🇮🇪 爱尔兰 002
@@ -8936,7 +8936,6 @@ proxy-groups:
       - 亚太地区 007
       - 亚太地区 008
       - 亚太地区 009
-      - 亚太地区 V2CROSS.COM
       - 其他 001
       - 其他 002
       - 其他 003
@@ -9280,6 +9279,7 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 028
       - 🇬🇧 英国 030
+      - 🇬🇧 英国 Technicolor SA
       - 🇭🇺 匈牙利 001
       - 🇮🇪 爱尔兰 001
       - 🇮🇪 爱尔兰 002

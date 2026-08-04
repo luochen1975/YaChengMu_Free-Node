@@ -503,6 +503,7 @@ proxies:
   - {name: 🇬🇧 英国 027, server: 213.35.113.150, port: 80, type: vmess, uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: 🇬🇧 英国 030, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 031, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 Technicolor SA, server: hkdcrtc-e.catcat321.com, port: 20066, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK_speednode_0007, server: 16.162.22.218, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 _HK_中国香港, server: ejomsxptp19apygl.v.3dns.vip, port: 443, type: vmess, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: ejomsxptp19apygl.v.3dns.vip}}, udp: true}
   - {name: 🇭🇰 _HK_中国香港_1, server: ex1ogt73nzpqkac2.v.3dns.vip, port: 443, type: vmess, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws-vmess, headers: {Host: ex1ogt73nzpqkac2.v.3dns.vip}}, udp: true}
@@ -1841,6 +1842,7 @@ proxies:
   - {name: 🇺🇸 美国 997, server: 104.16.60.8, port: 8880, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linde06.indiavideo.sbs/linkws, headers: {Host: square-snowflake-486a.beshir-beisel.workers.dev}}, udp: true}
   - {name: 🇺🇸 美国 998, server: 104.16.68.38, port: 8080, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: icy-butterfly-4100.email-0kn8d.workers.dev}}, udp: true}
   - {name: 🇺🇸 美国 999, server: 162.159.140.93, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 Akamai科技公司CDN网络节点, server: deapp.jisuyun.top, port: 2053, type: vmess, uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: deapp.jisuyun.top, network: ws, ws-opts: {path: /devm, headers: {Host: deapp.jisuyun.top}}, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 18.163.100.58, port: 39024, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.163.193.0, port: 15775, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国|@ripaojiedian, server: 18.166.178.12, port: 39024, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
@@ -2378,6 +2380,7 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 030
       - 🇬🇧 英国 031
+      - 🇬🇧 英国 Technicolor SA
       - 🇭🇰 HK_speednode_0007
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
@@ -3716,6 +3719,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
@@ -4228,6 +4232,7 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 030
       - 🇬🇧 英国 031
+      - 🇬🇧 英国 Technicolor SA
       - 🇭🇰 HK_speednode_0007
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 _HK_中国香港_1
@@ -5566,6 +5571,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
@@ -6911,6 +6917,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
@@ -7286,6 +7293,7 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 030
       - 🇬🇧 英国 031
+      - 🇬🇧 英国 Technicolor SA
       - 🇭🇺 匈牙利 001
       - 🇮🇪 爱尔兰 001
       - 🇮🇪 爱尔兰 002
@@ -8796,6 +8804,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
@@ -9168,6 +9177,7 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 030
       - 🇬🇧 英国 031
+      - 🇬🇧 英国 Technicolor SA
       - 🇭🇺 匈牙利 001
       - 🇮🇪 爱尔兰 001
       - 🇮🇪 爱尔兰 002

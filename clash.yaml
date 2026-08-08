@@ -521,7 +521,8 @@ proxies:
   - {name: 🇬🇧 英国 026, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 36fb7fe7-b1e7-4f65-a2d5-ce944d44f582, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 🇬🇧 英国 027, server: 213.35.113.150, port: 80, type: vmess, uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: 🇬🇧 英国 028, server: 194.164.192.16, port: 443, type: vmess, uuid: 5f72f180-b21b-4b7a-8484-240759012604, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5f72f180-b21b-4b7a-8484-240759096785, headers: {Host: apjhdggyx.com}}, udp: true}
-  - {name: 🇬🇧 英国 Technicolor SA, server: oplosgru-c.catcat321.com, port: 20004, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 Technicolor SA, server: oplosgru-c.catcat321.com, port: 20088, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 Technicolor SA 2, server: oplosgru-c.catcat321.com, port: 20004, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 _HK_中国香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - Hong Kong - 5, server: 43.198.204.35, port: 443, type: vmess, uuid: f23bb427c1f94373876c2f43e9f790f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cE0gedPXwOU6cqoN.v.3dns.vip, network: ws, ws-opts: {path: /ws-vmess}, udp: true}
   - {name: 🇭🇰 香港3, server: 18.166.178.12, port: 5077, type: trojan, password: d1960ba9f0f6353353994fa844cf817b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
@@ -1859,6 +1860,7 @@ proxies:
   - {name: 🇺🇸 美国 997, server: nl.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentre.online}}, udp: true}
   - {name: 🇺🇸 美国 998, server: cf-dx-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: cf-dx-dns.sharecentre.online}}, udp: true}
   - {name: 🇺🇸 美国 999, server: hcmn4.sos4g.xyz, port: 80, type: vmess, uuid: 88feb3a4-8dd9-4001-91d6-9cceabca5a4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sos4g.xyz, headers: {Host: tv.akamaized.net}}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 149.104.104.58, port: 443, type: trojan, password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国2|@ripaojiedian, server: 18.166.178.12, port: 28051, type: trojan, password: 6ec301428255a78a1d826988d86cc87e, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国3|@ripaojiedian, server: 43.198.89.155, port: 1431, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国|@ripaojiedian, server: 95.40.107.76, port: 39024, type: trojan, password: 6ec301428255a78a1d826988d86cc87e, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
@@ -2416,6 +2418,7 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 028
       - 🇬🇧 英国 Technicolor SA
+      - 🇬🇧 英国 Technicolor SA 2
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 中国 - Hong Kong - 5
       - 🇭🇰 香港3
@@ -3753,6 +3756,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
@@ -4285,6 +4289,7 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 028
       - 🇬🇧 英国 Technicolor SA
+      - 🇬🇧 英国 Technicolor SA 2
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 中国 - Hong Kong - 5
       - 🇭🇰 香港3
@@ -5622,6 +5627,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
@@ -7010,6 +7016,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
@@ -7404,6 +7411,7 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 028
       - 🇬🇧 英国 Technicolor SA
+      - 🇬🇧 英国 Technicolor SA 2
       - 🇭🇺 匈牙利 001
       - 🇮🇪 爱尔兰 - Dublin - 1
       - 🇮🇪 爱尔兰 001
@@ -8907,6 +8915,7 @@ proxy-groups:
       - 🇺🇸 美国 997
       - 🇺🇸 美国 998
       - 🇺🇸 美国 999
+      - 🇺🇸 美国 V2CROSS.COM
       - 🇺🇸 美国2|@ripaojiedian
       - 🇺🇸 美国3|@ripaojiedian
       - 🇺🇸 美国|@ripaojiedian
@@ -9298,6 +9307,7 @@ proxy-groups:
       - 🇬🇧 英国 027
       - 🇬🇧 英国 028
       - 🇬🇧 英国 Technicolor SA
+      - 🇬🇧 英国 Technicolor SA 2
       - 🇭🇺 匈牙利 001
       - 🇮🇪 爱尔兰 - Dublin - 1
       - 🇮🇪 爱尔兰 001

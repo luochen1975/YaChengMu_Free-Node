@@ -486,7 +486,6 @@ proxies:
   - {name: 🇫🇷 法国 030, server: 51.254.133.152, port: 80, type: vmess, uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: fr5.niekotin.de}}, udp: true}
   - {name: 🇫🇷 法国 031, server: 51.77.20.136, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: capellare.com}}, udp: true}
   - {name: 🇫🇷 法国 032, server: 51.77.20.132, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.baradiha.com}}, udp: true}
-  - {name: 🇫🇷 法国巴黎 CloudFlare节点, server: 141.101.90.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇬🇧 GB_speednode_0002, server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com, port: 443, type: http, username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB_speednode_0003, server: 07b7ddcf-tcxds0-tifnix-1ro8s.uk.oshuawei.com, port: 443, type: http, username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9, password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国 005, server: 158.94.216.239, port: 30000, type: vmess, uuid: 8306d734-79a7-4598-aba8-78206d345346, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
@@ -1829,17 +1828,15 @@ proxies:
   - {name: 🇺🇸 美国 997, server: hkaz5.xmrth-node.xyz, port: 15904, type: vmess, uuid: 454b28a9-83b1-39e6-a622-27961c067c76, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz5.xmrth-node.xyz}}, udp: true}
   - {name: 🇺🇸 美国 998, server: hkaz4.xmrth-node.xyz, port: 15866, type: vmess, uuid: 454b28a9-83b1-39e6-a622-27961c067c76, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz4.xmrth-node.xyz}}, udp: true}
   - {name: 🇺🇸 美国 999, server: hkaz3.xmrth-node.xyz, port: 16078, type: vmess, uuid: 454b28a9-83b1-39e6-a622-27961c067c76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.18.152.208, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.18.152.73, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.18.152.140, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 104.18.152.103, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 5, server: 104.18.152.155, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 6, server: join-telegram-channel.tirexnet.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 7, server: 104.18.12.149, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 8, server: 104.16.174.71, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 9, server: 104.18.152.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 10, server: 104.16.174.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 11, server: 104.16.174.37, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.18.152.97, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.18.152.187, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.26.14.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 104.16.174.22, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: //assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 5, server: 104.16.174.36, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 6, server: 104.18.22.63, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 7, server: 104.18.152.225, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 8, server: 104.17.111.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 加州, server: 216.24.57.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇿 乌兹别克斯坦 001, server: 37.110.209.228, port: 80, type: vmess, uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sazgar.serveirc.com}}, udp: true}
   - {name: 🇻🇳 越南 001, server: 103.147.126.127, port: 80, type: vmess, uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frontier-i18n.tiktokv.com}}, udp: true}
   - {name: 🇻🇳 越南 002, server: 103.125.189.138, port: 80, type: vmess, uuid: a479fc02-07c5-4864-8564-c4f147dfa488, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frontier-i18n.tiktokv.com}}, udp: true}
@@ -2358,7 +2355,6 @@ proxy-groups:
       - 🇫🇷 法国 030
       - 🇫🇷 法国 031
       - 🇫🇷 法国 032
-      - 🇫🇷 法国巴黎 CloudFlare节点
       - 🇬🇧 GB_speednode_0002
       - 🇬🇧 GB_speednode_0003
       - 🇬🇧 英国 005
@@ -3709,9 +3705,7 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点 6
       - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 加州
       - 🇺🇿 乌兹别克斯坦 001
       - 🇻🇳 越南 001
       - 🇻🇳 越南 002
@@ -4205,7 +4199,6 @@ proxy-groups:
       - 🇫🇷 法国 030
       - 🇫🇷 法国 031
       - 🇫🇷 法国 032
-      - 🇫🇷 法国巴黎 CloudFlare节点
       - 🇬🇧 GB_speednode_0002
       - 🇬🇧 GB_speednode_0003
       - 🇬🇧 英国 005
@@ -5556,9 +5549,7 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点 6
       - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 加州
       - 🇺🇿 乌兹别克斯坦 001
       - 🇻🇳 越南 001
       - 🇻🇳 越南 002
@@ -6918,9 +6909,7 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点 6
       - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 加州
   - name: 🎏 ‍其他
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -7278,7 +7267,6 @@ proxy-groups:
       - 🇫🇷 法国 030
       - 🇫🇷 法国 031
       - 🇫🇷 法国 032
-      - 🇫🇷 法国巴黎 CloudFlare节点
       - 🇬🇧 GB_speednode_0002
       - 🇬🇧 GB_speednode_0003
       - 🇬🇧 英国 005
@@ -8789,9 +8777,7 @@ proxy-groups:
       - 🇺🇸 美国 CloudFlare节点 6
       - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 加州
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:
@@ -9146,7 +9132,6 @@ proxy-groups:
       - 🇫🇷 法国 030
       - 🇫🇷 法国 031
       - 🇫🇷 法国 032
-      - 🇫🇷 法国巴黎 CloudFlare节点
       - 🇬🇧 GB_speednode_0002
       - 🇬🇧 GB_speednode_0003
       - 🇬🇧 英国 005

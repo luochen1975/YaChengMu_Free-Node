@@ -16,18 +16,21 @@ proxies:
   - {name: 🇨🇳 CN_speednode_0002, server: 121.46.230.234, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
   - {name: 🇨🇳 CN_speednode_0003, server: 120.232.250.161, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
   - {name: 🇨🇳 _CN_中国, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 _DE_德国, server: 79.76.100.14, port: 59924, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: kwwU9fwtA1cW+BCUvO0sabEQGskLfLt7B0aWHeJpdYo=, udp: true}
   - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇫🇷 法国 - Paris - 1, server: 95.170.13.47, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-  - {name: 🇭🇰 _HK_中国香港_2, server: t.cnmjcn.cyou, port: 16632, type: vmess, uuid: 62319519-82bc-46ff-99cd-237bd0882cef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com}}, udp: true}
-  - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 _HK_中国香港, server: v10.zgtfqs.click, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: none, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 _HK_中国香港_1, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港2, server: 103.236.66.4, port: 10001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
   - {name: 🇭🇰 香港3, server: 112.28.141.77, port: 10006, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
   - {name: 🇭🇰 香港4, server: 95.40.24.249, port: 53001, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5, server: 54.168.189, port: 1103, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇪 _IE_爱尔兰, server: 34.241.245.82, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇮🇪 爱尔兰 - Dublin - 1, server: 3.250.223.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇮🇪 爱尔兰 - Dublin - 2, server: 3.250.80.208, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇮🇪 爱尔兰 - Dublin - 3, server: 54.247.216.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇮🇪 爱尔兰 - Dublin - 4, server: 34.241.245.82, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 _JP_日本, server: 45.159.51.180, port: 39618, type: vmess, uuid: 09d4921e-13e9-426f-8cd3-73556e8a0199, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: 🇯🇵 _JP_日本_1, server: p4.cnb.linuxlh.xin, port: 16617, type: vmess, uuid: 6ee2a7ba-cd92-427f-ac4f-2f8d284e316c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com}}, udp: true}
   - {name: 🇯🇵 日本, server: 18.163.11126, port: 9408, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2, server: 103.236.66.4, port: 40001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
   - {name: 🇯🇵 日本3, server: 103.236.66.4, port: 40002, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
@@ -38,6 +41,7 @@ proxies:
   - {name: 🇳🇱 NL_speednode_0007, server: 84.17.47.148, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 NL_speednode_0009, server: 84.17.47.146, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 NL_speednode_0010, server: 84.17.47.149, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 _NL_荷兰, server: 141.148.244.146, port: 45819, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: w5pcVb0VsP2Ze6TbJAXR7ZaofRyoJn5sm0CdhBg78q4=, udp: true}
   - {name: 🇷🇴 RO_speednode_0011, server: 84.239.49.218, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_speednode_0012, server: 84.239.49.202, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_speednode_0013, server: 84.239.49.59, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
@@ -139,6 +143,7 @@ proxies:
   - {name: 🇷🇴 RO_speednode_0125, server: 84.239.49.227, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_speednode_0126, server: 193.176.84.39, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 RO_speednode_0127, server: 84.239.49.180, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 _SG_新加坡, server: v45.hdacd.com, port: 30845, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡3, server: 54.255.201.71, port: 41421, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇸🇮 SI_speednode_0129, server: 45.144.54.40, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
   - {name: 🇹🇭 _TH_泰国, server: 103.169.67.34, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
@@ -149,7 +154,8 @@ proxies:
   - {name: 🇺🇸 US_speednode_0140, server: purposebydesig.club, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US_speednode_0141, server: 38.28.193.188, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US_speednode_0143, server: 138.199.35.198, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 _US_美国_1, server: 192.227.247.27, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 192.227.247.27, udp: true}
+  - {name: 🇺🇸 _US_美国, server: 192.227.247.27, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 192.227.247.27, udp: true}
+  - {name: 🇺🇸 _US_美国_1, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 _US_美国_1 2, server: 206.168.190.219, port: 2082, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
   - {name: 🇺🇸 _US_美国_2, server: wnd2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_3, server: 45.199.138.186, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696682720138}, udp: true}
@@ -196,18 +202,21 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0002
       - 🇨🇳 CN_speednode_0003
       - 🇨🇳 _CN_中国
+      - 🇩🇪 _DE_德国
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - Paris - 1
-      - 🇭🇰 _HK_中国香港_2
-      - 🇭🇰 香港
+      - 🇭🇰 _HK_中国香港
+      - 🇭🇰 _HK_中国香港_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港5
+      - 🇮🇪 _IE_爱尔兰
       - 🇮🇪 爱尔兰 - Dublin - 1
       - 🇮🇪 爱尔兰 - Dublin - 2
       - 🇮🇪 爱尔兰 - Dublin - 3
-      - 🇮🇪 爱尔兰 - Dublin - 4
+      - 🇯🇵 _JP_日本
+      - 🇯🇵 _JP_日本_1
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
@@ -218,6 +227,7 @@ proxy-groups:
       - 🇳🇱 NL_speednode_0007
       - 🇳🇱 NL_speednode_0009
       - 🇳🇱 NL_speednode_0010
+      - 🇳🇱 _NL_荷兰
       - 🇷🇴 RO_speednode_0011
       - 🇷🇴 RO_speednode_0012
       - 🇷🇴 RO_speednode_0013
@@ -319,6 +329,7 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0125
       - 🇷🇴 RO_speednode_0126
       - 🇷🇴 RO_speednode_0127
+      - 🇸🇬 _SG_新加坡
       - 🇸🇬 新加坡3
       - 🇸🇮 SI_speednode_0129
       - 🇹🇭 _TH_泰国
@@ -329,6 +340,7 @@ proxy-groups:
       - 🇺🇸 US_speednode_0140
       - 🇺🇸 US_speednode_0141
       - 🇺🇸 US_speednode_0143
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_2
@@ -351,18 +363,21 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0002
       - 🇨🇳 CN_speednode_0003
       - 🇨🇳 _CN_中国
+      - 🇩🇪 _DE_德国
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - Paris - 1
-      - 🇭🇰 _HK_中国香港_2
-      - 🇭🇰 香港
+      - 🇭🇰 _HK_中国香港
+      - 🇭🇰 _HK_中国香港_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
       - 🇭🇰 香港5
+      - 🇮🇪 _IE_爱尔兰
       - 🇮🇪 爱尔兰 - Dublin - 1
       - 🇮🇪 爱尔兰 - Dublin - 2
       - 🇮🇪 爱尔兰 - Dublin - 3
-      - 🇮🇪 爱尔兰 - Dublin - 4
+      - 🇯🇵 _JP_日本
+      - 🇯🇵 _JP_日本_1
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
@@ -373,6 +388,7 @@ proxy-groups:
       - 🇳🇱 NL_speednode_0007
       - 🇳🇱 NL_speednode_0009
       - 🇳🇱 NL_speednode_0010
+      - 🇳🇱 _NL_荷兰
       - 🇷🇴 RO_speednode_0011
       - 🇷🇴 RO_speednode_0012
       - 🇷🇴 RO_speednode_0013
@@ -474,6 +490,7 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0125
       - 🇷🇴 RO_speednode_0126
       - 🇷🇴 RO_speednode_0127
+      - 🇸🇬 _SG_新加坡
       - 🇸🇬 新加坡3
       - 🇸🇮 SI_speednode_0129
       - 🇹🇭 _TH_泰国
@@ -484,6 +501,7 @@ proxy-groups:
       - 🇺🇸 US_speednode_0140
       - 🇺🇸 US_speednode_0141
       - 🇺🇸 US_speednode_0143
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_2
@@ -548,8 +566,8 @@ proxy-groups:
     interval: 15
     tolerance: 100
     proxies:
-      - 🇭🇰 _HK_中国香港_2
-      - 🇭🇰 香港
+      - 🇭🇰 _HK_中国香港
+      - 🇭🇰 _HK_中国香港_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
@@ -571,8 +589,8 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0002
       - 🇨🇳 CN_speednode_0003
       - 🇨🇳 _CN_中国
-      - 🇭🇰 _HK_中国香港_2
-      - 🇭🇰 香港
+      - 🇭🇰 _HK_中国香港
+      - 🇭🇰 _HK_中国香港_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
@@ -584,6 +602,7 @@ proxy-groups:
     interval: 15
     tolerance: 100
     proxies:
+      - 🇸🇬 _SG_新加坡
       - 🇸🇬 新加坡3
   - name: 🇯🇵 ‍日本
     type: url-test
@@ -591,6 +610,8 @@ proxy-groups:
     interval: 15
     tolerance: 100
     proxies:
+      - 🇯🇵 _JP_日本
+      - 🇯🇵 _JP_日本_1
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
@@ -606,6 +627,7 @@ proxy-groups:
       - 🇺🇸 US_speednode_0140
       - 🇺🇸 US_speednode_0141
       - 🇺🇸 US_speednode_0143
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_2
@@ -627,12 +649,13 @@ proxy-groups:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
+      - 🇩🇪 _DE_德国
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - Paris - 1
+      - 🇮🇪 _IE_爱尔兰
       - 🇮🇪 爱尔兰 - Dublin - 1
       - 🇮🇪 爱尔兰 - Dublin - 2
       - 🇮🇪 爱尔兰 - Dublin - 3
-      - 🇮🇪 爱尔兰 - Dublin - 4
       - 🇰🇷 韩国 - Seoul - 1
       - 🇲🇾 马来西亚 - Cyberjaya - 1
       - 🇳🇱 NL_speednode_0004
@@ -640,6 +663,7 @@ proxy-groups:
       - 🇳🇱 NL_speednode_0007
       - 🇳🇱 NL_speednode_0009
       - 🇳🇱 NL_speednode_0010
+      - 🇳🇱 _NL_荷兰
       - 🇷🇴 RO_speednode_0011
       - 🇷🇴 RO_speednode_0012
       - 🇷🇴 RO_speednode_0013
@@ -746,8 +770,8 @@ proxy-groups:
   - name: 👆🏻🇭🇰 ‍香港
     type: select
     proxies:
-      - 🇭🇰 _HK_中国香港_2
-      - 🇭🇰 香港
+      - 🇭🇰 _HK_中国香港
+      - 🇭🇰 _HK_中国香港_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
@@ -763,8 +787,8 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0002
       - 🇨🇳 CN_speednode_0003
       - 🇨🇳 _CN_中国
-      - 🇭🇰 _HK_中国香港_2
-      - 🇭🇰 香港
+      - 🇭🇰 _HK_中国香港
+      - 🇭🇰 _HK_中国香港_1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
@@ -773,10 +797,13 @@ proxy-groups:
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
+      - 🇸🇬 _SG_新加坡
       - 🇸🇬 新加坡3
   - name: 👆🏻🇯🇵 ‍日本
     type: select
     proxies:
+      - 🇯🇵 _JP_日本
+      - 🇯🇵 _JP_日本_1
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
@@ -789,6 +816,7 @@ proxy-groups:
       - 🇺🇸 US_speednode_0140
       - 🇺🇸 US_speednode_0141
       - 🇺🇸 US_speednode_0143
+      - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国_1
       - 🇺🇸 _US_美国_1 2
       - 🇺🇸 _US_美国_2
@@ -807,12 +835,13 @@ proxy-groups:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
       - 🇨🇭 _CH_瑞士
+      - 🇩🇪 _DE_德国
       - 🇫🇷 _FR_法国
       - 🇫🇷 法国 - Paris - 1
+      - 🇮🇪 _IE_爱尔兰
       - 🇮🇪 爱尔兰 - Dublin - 1
       - 🇮🇪 爱尔兰 - Dublin - 2
       - 🇮🇪 爱尔兰 - Dublin - 3
-      - 🇮🇪 爱尔兰 - Dublin - 4
       - 🇰🇷 韩国 - Seoul - 1
       - 🇲🇾 马来西亚 - Cyberjaya - 1
       - 🇳🇱 NL_speednode_0004
@@ -820,6 +849,7 @@ proxy-groups:
       - 🇳🇱 NL_speednode_0007
       - 🇳🇱 NL_speednode_0009
       - 🇳🇱 NL_speednode_0010
+      - 🇳🇱 _NL_荷兰
       - 🇷🇴 RO_speednode_0011
       - 🇷🇴 RO_speednode_0012
       - 🇷🇴 RO_speednode_0013

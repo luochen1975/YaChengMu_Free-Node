@@ -26,10 +26,13 @@ proxies:
   - {name: 🇭🇰 香港2, server: 103.236.66.4, port: 10001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
   - {name: 🇭🇰 香港3, server: 112.28.141.77, port: 10006, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
   - {name: 🇭🇰 香港4, server: 95.40.24.249, port: 53001, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 18.142.250.141, port: 7674, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港5, server: 54.168.189, port: 1103, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港5|@ripaojiedian, server: 35.78.206.14, port: 2944, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本, server: 18.163.11126, port: 9408, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2, server: 103.236.66.4, port: 40001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
   - {name: 🇯🇵 日本3, server: 103.236.66.4, port: 40002, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 18.167.96.176, port: 9408, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷 韩国 - Seoul - 1, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
   - {name: 🇲🇾 马来西亚 - Cyberjaya - 1, server: 118.107.222.231, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
   - {name: 🇳🇱 NL_speednode_0004, server: 84.17.47.125, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
@@ -143,6 +146,7 @@ proxies:
   - {name: 🇷🇴 罗马尼亚 - Bucharest - 8, server: 193.176.84.21, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇷🇴 罗马尼亚 - Bucharest - 9, server: 193.176.84.22, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡3, server: 54.255.201.71, port: 41421, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 95.40.28.75, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇸🇮 SI_speednode_0129, server: 45.144.54.40, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
   - {name: 🇹🇼 台湾, server: 36.33.35.105, port: 30001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
   - {name: 🇺🇸 US_speednode_0131, server: 138.199.35.216, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
@@ -165,6 +169,7 @@ proxies:
   - {name: 🇺🇸 美国 - San Jose - 9, server: 3ce8ee8.hb.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c47ab06:133288}, udp: true}
   - {name: 🇺🇸 美国2, server: 103.236.66.4, port: 50003, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
   - {name: 🇺🇸 美国3, server: 43.198.210.207, port: 1431, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国3|@ripaojiedian, server: 18.167.96.176, port: 52770, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: ✈️ ‍起飞
     type: select
@@ -210,10 +215,13 @@ proxy-groups:
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
+      - 🇯🇵 日本|@ripaojiedian
       - 🇰🇷 韩国 - Seoul - 1
       - 🇲🇾 马来西亚 - Cyberjaya - 1
       - 🇳🇱 NL_speednode_0004
@@ -327,6 +335,7 @@ proxy-groups:
       - 🇷🇴 罗马尼亚 - Bucharest - 8
       - 🇷🇴 罗马尼亚 - Bucharest - 9
       - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇮 SI_speednode_0129
       - 🇹🇼 台湾
       - 🇺🇸 US_speednode_0131
@@ -349,6 +358,7 @@ proxy-groups:
       - 🇺🇸 美国 - San Jose - 9
       - 🇺🇸 美国2
       - 🇺🇸 美国3
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 👆🏻 ‍指定
     type: select
     proxies:
@@ -369,10 +379,13 @@ proxy-groups:
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
+      - 🇯🇵 日本|@ripaojiedian
       - 🇰🇷 韩国 - Seoul - 1
       - 🇲🇾 马来西亚 - Cyberjaya - 1
       - 🇳🇱 NL_speednode_0004
@@ -486,6 +499,7 @@ proxy-groups:
       - 🇷🇴 罗马尼亚 - Bucharest - 8
       - 🇷🇴 罗马尼亚 - Bucharest - 9
       - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3|@ripaojiedian
       - 🇸🇮 SI_speednode_0129
       - 🇹🇼 台湾
       - 🇺🇸 US_speednode_0131
@@ -508,6 +522,7 @@ proxy-groups:
       - 🇺🇸 美国 - San Jose - 9
       - 🇺🇸 美国2
       - 🇺🇸 美国3
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🛩️ ‍墙内
     type: select
     proxies:
@@ -564,7 +579,9 @@ proxy-groups:
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 🇹🇼 ‍台湾
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -586,7 +603,9 @@ proxy-groups:
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇹🇼 台湾
   - name: 🇸🇬 ‍新加坡
     type: url-test
@@ -595,6 +614,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 🇯🇵 ‍日本
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -604,6 +624,7 @@ proxy-groups:
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
+      - 🇯🇵 日本|@ripaojiedian
   - name: 🇺🇸 ‍美国
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -630,6 +651,7 @@ proxy-groups:
       - 🇺🇸 美国 - San Jose - 9
       - 🇺🇸 美国2
       - 🇺🇸 美国3
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 🎏 ‍其他
     type: url-test
     url: https://i.ytimg.com/generate_204
@@ -765,7 +787,9 @@ proxy-groups:
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港5|@ripaojiedian
   - name: 👆🏻🇹🇼 ‍台湾
     type: select
     proxies:
@@ -781,18 +805,22 @@ proxy-groups:
       - 🇭🇰 香港2
       - 🇭🇰 香港3
       - 🇭🇰 香港4
+      - 🇭🇰 香港4|@ripaojiedian
       - 🇭🇰 香港5
+      - 🇭🇰 香港5|@ripaojiedian
       - 🇹🇼 台湾
   - name: 👆🏻🇸🇬 ‍新加坡
     type: select
     proxies:
       - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3|@ripaojiedian
   - name: 👆🏻🇯🇵 ‍日本
     type: select
     proxies:
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
+      - 🇯🇵 日本|@ripaojiedian
   - name: 👆🏻🇺🇸 ‍美国
     type: select
     proxies:
@@ -816,6 +844,7 @@ proxy-groups:
       - 🇺🇸 美国 - San Jose - 9
       - 🇺🇸 美国2
       - 🇺🇸 美国3
+      - 🇺🇸 美国3|@ripaojiedian
   - name: 👆🏻🎏 ‍其他
     type: select
     proxies:

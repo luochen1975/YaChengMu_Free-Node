@@ -10,19 +10,18 @@ global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
   - {name: ℹ️ tg频道:@freenodedaily, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇨🇦 _CA_加拿大, server: 35.182.226.121, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇨🇦 _CA_加拿大 2, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇨🇦 _CA_加拿大_1, server: 3.96.124.46, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇨🇦 加拿大 - Montréal - 1, server: 35.182.226.121, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇨🇦 加拿大 - Montréal - 2, server: 35.182.129.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇳 CN_speednode_0001, server: 120.232.251.128, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
   - {name: 🇨🇳 CN_speednode_0002, server: 121.46.230.234, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
   - {name: 🇨🇳 CN_speednode_0003, server: 120.232.250.161, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-  - {name: 🇨🇳 _CN_中国, server: 121.46.230.232, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-  - {name: 🇨🇳 中国 - Hefei - 1, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, servername: 112.132.215.108, udp: true}
-  - {name: 🇫🇷 _FR_法国, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: 🇨🇳 _CN_中国, server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 _FR_法国, server: 95.170.13.47, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+  - {name: 🇫🇷 _FR_法国 2, server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇬🇧 _GB_英国, server: 13.40.94.70, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇭🇰 _HK_中国香港, server: v10.zgtfqs.click, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: none, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 _HK_中国香港, server: planb.mojcn.com.linuxlh.xin, port: 16632, type: vmess, uuid: 56a511bd-f207-48f4-be5b-4652afe178a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com}}, udp: true}
   - {name: 🇭🇰 香港, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港2, server: 103.236.66.4, port: 10001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
   - {name: 🇭🇰 香港3, server: 112.28.141.77, port: 10006, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
@@ -31,7 +30,7 @@ proxies:
   - {name: 🇯🇵 日本, server: 18.167.96.176, port: 9408, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本2, server: 103.236.66.4, port: 40001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
   - {name: 🇯🇵 日本3, server: 103.236.66.4, port: 40002, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
-  - {name: 🇲🇾 _MY_马来西亚, server: 118.107.222.231, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+  - {name: 🇲🇾 马来西亚 - Cyberjaya - 1, server: 118.107.222.231, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
   - {name: 🇳🇱 NL_speednode_0004, server: 84.17.47.125, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 NL_speednode_0006, server: 84.17.47.150, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 NL_speednode_0007, server: 84.17.47.148, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
@@ -140,6 +139,7 @@ proxies:
   - {name: 🇷🇴 RO_speednode_0127, server: 84.239.49.180, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡3, server: 95.40.28.75, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇸🇮 SI_speednode_0129, server: 45.144.54.40, port: 1080, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇭 _TH_泰国, server: 103.169.67.34, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
   - {name: 🇹🇼 台湾, server: 36.33.35.105, port: 30001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
   - {name: 🇺🇸 US_speednode_0131, server: 138.199.35.216, port: 9002, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US_speednode_0133, server: fan.365747.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
@@ -148,14 +148,12 @@ proxies:
   - {name: 🇺🇸 US_speednode_0141, server: 38.28.193.188, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US_speednode_0143, server: 138.199.35.198, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 _US_美国_1, server: 206.168.190.219, port: 2082, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
-  - {name: 🇺🇸 _US_美国_2, server: p05.rghvf.sbs, port: 1233, type: vmess, uuid: 9b6419f8-8120-442e-a48c-6bf52aef0abf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gb.uniquenames.net, udp: true}
+  - {name: 🇺🇸 _US_美国_2, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 _US_美国_2 2, server: wnd2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
-  - {name: 🇺🇸 _US_美国_3, server: 38.246.226.240, port: 52080, type: vmess, uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: 🇺🇸 _US_美国_3, server: 192.227.247.27, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 _US_美国_3 2, server: 45.199.138.186, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696682720138}, udp: true}
-  - {name: 🇺🇸 _US_美国_4, server: 195.133.192.232, port: 1233, type: vmess, uuid: 9b6419f8-8120-442e-a48c-6bf52aef0abf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: gb.uniquenames.net, udp: true}
-  - {name: 🇺🇸 _US_美国_4 2, server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
-  - {name: 🇺🇸 _US_美国_5, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 _US_美国_5 2, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 _US_美国_4, server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
+  - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国, server: 103.236.66.4, port: 50001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
   - {name: 🇺🇸 美国 - Los Angeles - 1, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
   - {name: 🇺🇸 美国2, server: 103.236.66.4, port: 50003, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
@@ -190,16 +188,15 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
-      - 🇨🇦 _CA_加拿大 2
-      - 🇨🇦 _CA_加拿大_1
+      - 🇨🇦 加拿大 - Montréal - 1
       - 🇨🇦 加拿大 - Montréal - 2
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 CN_speednode_0001
       - 🇨🇳 CN_speednode_0002
       - 🇨🇳 CN_speednode_0003
       - 🇨🇳 _CN_中国
-      - 🇨🇳 中国 - Hefei - 1
       - 🇫🇷 _FR_法国
+      - 🇫🇷 _FR_法国 2
       - 🇬🇧 _GB_英国
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 香港
@@ -210,7 +207,7 @@ proxy-groups:
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
-      - 🇲🇾 _MY_马来西亚
+      - 🇲🇾 马来西亚 - Cyberjaya - 1
       - 🇳🇱 NL_speednode_0004
       - 🇳🇱 NL_speednode_0006
       - 🇳🇱 NL_speednode_0007
@@ -319,6 +316,7 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0127
       - 🇸🇬 新加坡3
       - 🇸🇮 SI_speednode_0129
+      - 🇹🇭 _TH_泰国
       - 🇹🇼 台湾
       - 🇺🇸 US_speednode_0131
       - 🇺🇸 US_speednode_0133
@@ -332,9 +330,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国_3 2
       - 🇺🇸 _US_美国_4
-      - 🇺🇸 _US_美国_4 2
       - 🇺🇸 _US_美国_5
-      - 🇺🇸 _US_美国_5 2
       - 🇺🇸 美国
       - 🇺🇸 美国 - Los Angeles - 1
       - 🇺🇸 美国2
@@ -344,16 +340,15 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
-      - 🇨🇦 _CA_加拿大 2
-      - 🇨🇦 _CA_加拿大_1
+      - 🇨🇦 加拿大 - Montréal - 1
       - 🇨🇦 加拿大 - Montréal - 2
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 CN_speednode_0001
       - 🇨🇳 CN_speednode_0002
       - 🇨🇳 CN_speednode_0003
       - 🇨🇳 _CN_中国
-      - 🇨🇳 中国 - Hefei - 1
       - 🇫🇷 _FR_法国
+      - 🇫🇷 _FR_法国 2
       - 🇬🇧 _GB_英国
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 香港
@@ -364,7 +359,7 @@ proxy-groups:
       - 🇯🇵 日本
       - 🇯🇵 日本2
       - 🇯🇵 日本3
-      - 🇲🇾 _MY_马来西亚
+      - 🇲🇾 马来西亚 - Cyberjaya - 1
       - 🇳🇱 NL_speednode_0004
       - 🇳🇱 NL_speednode_0006
       - 🇳🇱 NL_speednode_0007
@@ -473,6 +468,7 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0127
       - 🇸🇬 新加坡3
       - 🇸🇮 SI_speednode_0129
+      - 🇹🇭 _TH_泰国
       - 🇹🇼 台湾
       - 🇺🇸 US_speednode_0131
       - 🇺🇸 US_speednode_0133
@@ -486,9 +482,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国_3 2
       - 🇺🇸 _US_美国_4
-      - 🇺🇸 _US_美国_4 2
       - 🇺🇸 _US_美国_5
-      - 🇺🇸 _US_美国_5 2
       - 🇺🇸 美国
       - 🇺🇸 美国 - Los Angeles - 1
       - 🇺🇸 美国2
@@ -568,7 +562,6 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0002
       - 🇨🇳 CN_speednode_0003
       - 🇨🇳 _CN_中国
-      - 🇨🇳 中国 - Hefei - 1
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 香港
       - 🇭🇰 香港2
@@ -610,9 +603,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国_3 2
       - 🇺🇸 _US_美国_4
-      - 🇺🇸 _US_美国_4 2
       - 🇺🇸 _US_美国_5
-      - 🇺🇸 _US_美国_5 2
       - 🇺🇸 美国
       - 🇺🇸 美国 - Los Angeles - 1
       - 🇺🇸 美国2
@@ -625,13 +616,13 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
-      - 🇨🇦 _CA_加拿大 2
-      - 🇨🇦 _CA_加拿大_1
+      - 🇨🇦 加拿大 - Montréal - 1
       - 🇨🇦 加拿大 - Montréal - 2
       - 🇨🇭 _CH_瑞士
       - 🇫🇷 _FR_法国
+      - 🇫🇷 _FR_法国 2
       - 🇬🇧 _GB_英国
-      - 🇲🇾 _MY_马来西亚
+      - 🇲🇾 马来西亚 - Cyberjaya - 1
       - 🇳🇱 NL_speednode_0004
       - 🇳🇱 NL_speednode_0006
       - 🇳🇱 NL_speednode_0007
@@ -739,6 +730,7 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0126
       - 🇷🇴 RO_speednode_0127
       - 🇸🇮 SI_speednode_0129
+      - 🇹🇭 _TH_泰国
   - name: 👆🏻🇭🇰 ‍香港
     type: select
     proxies:
@@ -759,7 +751,6 @@ proxy-groups:
       - 🇨🇳 CN_speednode_0002
       - 🇨🇳 CN_speednode_0003
       - 🇨🇳 _CN_中国
-      - 🇨🇳 中国 - Hefei - 1
       - 🇭🇰 _HK_中国香港
       - 🇭🇰 香港
       - 🇭🇰 香港2
@@ -792,9 +783,7 @@ proxy-groups:
       - 🇺🇸 _US_美国_3
       - 🇺🇸 _US_美国_3 2
       - 🇺🇸 _US_美国_4
-      - 🇺🇸 _US_美国_4 2
       - 🇺🇸 _US_美国_5
-      - 🇺🇸 _US_美国_5 2
       - 🇺🇸 美国
       - 🇺🇸 美国 - Los Angeles - 1
       - 🇺🇸 美国2
@@ -804,13 +793,13 @@ proxy-groups:
     proxies:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
-      - 🇨🇦 _CA_加拿大 2
-      - 🇨🇦 _CA_加拿大_1
+      - 🇨🇦 加拿大 - Montréal - 1
       - 🇨🇦 加拿大 - Montréal - 2
       - 🇨🇭 _CH_瑞士
       - 🇫🇷 _FR_法国
+      - 🇫🇷 _FR_法国 2
       - 🇬🇧 _GB_英国
-      - 🇲🇾 _MY_马来西亚
+      - 🇲🇾 马来西亚 - Cyberjaya - 1
       - 🇳🇱 NL_speednode_0004
       - 🇳🇱 NL_speednode_0006
       - 🇳🇱 NL_speednode_0007
@@ -918,6 +907,7 @@ proxy-groups:
       - 🇷🇴 RO_speednode_0126
       - 🇷🇴 RO_speednode_0127
       - 🇸🇮 SI_speednode_0129
+      - 🇹🇭 _TH_泰国
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,DIRECT
   - DOMAIN-SUFFIX,ip6-localhost,DIRECT

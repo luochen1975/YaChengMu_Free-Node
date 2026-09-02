@@ -11,8 +11,7 @@ keep-alive-interval: 360
 proxies:
   - {name: ℹ️ tg频道:@freenodedaily, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇨🇦 加拿大 - Montréal - 1, server: 35.182.226.121, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇨🇦 加拿大 - Montréal - 2, server: 35.182.129.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇨🇦 加拿大 - Montréal - 1, server: 3.97.16.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇨🇭 _CH_瑞士, server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: 🇨🇳 CN_speednode_0001, server: 120.232.251.128, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
   - {name: 🇨🇳 CN_speednode_0002, server: 121.46.230.234, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
@@ -155,7 +154,9 @@ proxies:
   - {name: 🇺🇸 _US_美国_4, server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
   - {name: 🇺🇸 _US_美国_5, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 美国, server: 103.236.66.4, port: 50001, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
+  - {name: 🇺🇸 美国 - Buffalo - 2, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: v4.hdacd.com, udp: true}
   - {name: 🇺🇸 美国 - Los Angeles - 1, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+  - {name: 🇺🇸 美国 - Los Angeles - 3, server: www.361371.xyz, port: 443, type: vmess, uuid: da77c564-3815-468c-8867-0aea0b397027, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.361371.xyz, network: ws, ws-opts: {path: /ws-6rm27y, headers: {Host: www.361371.xyz}}, udp: true}
   - {name: 🇺🇸 美国2, server: 103.236.66.4, port: 50003, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
   - {name: 🇺🇸 美国3, server: 18.167.96.176, port: 52770, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -189,7 +190,6 @@ proxy-groups:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 - Montréal - 1
-      - 🇨🇦 加拿大 - Montréal - 2
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 CN_speednode_0001
       - 🇨🇳 CN_speednode_0002
@@ -332,7 +332,9 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
+      - 🇺🇸 美国 - Buffalo - 2
       - 🇺🇸 美国 - Los Angeles - 1
+      - 🇺🇸 美国 - Los Angeles - 3
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻 ‍指定
@@ -341,7 +343,6 @@ proxy-groups:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 - Montréal - 1
-      - 🇨🇦 加拿大 - Montréal - 2
       - 🇨🇭 _CH_瑞士
       - 🇨🇳 CN_speednode_0001
       - 🇨🇳 CN_speednode_0002
@@ -484,7 +485,9 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
+      - 🇺🇸 美国 - Buffalo - 2
       - 🇺🇸 美国 - Los Angeles - 1
+      - 🇺🇸 美国 - Los Angeles - 3
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🛩️ ‍墙内
@@ -605,7 +608,9 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
+      - 🇺🇸 美国 - Buffalo - 2
       - 🇺🇸 美国 - Los Angeles - 1
+      - 🇺🇸 美国 - Los Angeles - 3
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 🎏 ‍其他
@@ -617,7 +622,6 @@ proxy-groups:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 - Montréal - 1
-      - 🇨🇦 加拿大 - Montréal - 2
       - 🇨🇭 _CH_瑞士
       - 🇫🇷 _FR_法国
       - 🇫🇷 _FR_法国 2
@@ -785,7 +789,9 @@ proxy-groups:
       - 🇺🇸 _US_美国_4
       - 🇺🇸 _US_美国_5
       - 🇺🇸 美国
+      - 🇺🇸 美国 - Buffalo - 2
       - 🇺🇸 美国 - Los Angeles - 1
+      - 🇺🇸 美国 - Los Angeles - 3
       - 🇺🇸 美国2
       - 🇺🇸 美国3
   - name: 👆🏻🎏 ‍其他
@@ -794,7 +800,6 @@ proxy-groups:
       - ℹ️ tg频道:@freenodedaily
       - 🇨🇦 _CA_加拿大
       - 🇨🇦 加拿大 - Montréal - 1
-      - 🇨🇦 加拿大 - Montréal - 2
       - 🇨🇭 _CH_瑞士
       - 🇫🇷 _FR_法国
       - 🇫🇷 _FR_法国 2

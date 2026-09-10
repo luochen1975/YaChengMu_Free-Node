@@ -200,6 +200,7 @@ proxies:
   - {name: 🇩🇪 德国 017, server: 46.183.187.73, port: 443, type: vmess, uuid: 92a048ec-a160-497e-8069-c2e902626d7a, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 德国 018, server: 5.75.192.206, port: 15307, type: vmess, uuid: 18c1c45d-95bf-435b-ae4c-7eb96f793af4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 德国 019, server: 128.140.109.232, port: 80, type: vmess, uuid: 05a178f9-e6ba-4006-93d7-3d980cdc3a76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 法尔肯施泰因Hetzner, server: 88.198.82.150, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇩🇰 DK_1|4.1MB/s, server: 185.245.84.50, port: 9443, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇪🇸 ES_1|3.0MB/s, server: 82.102.17.178, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇪🇸 ES_2|2.3MB/s, server: 130.195.250.18, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
@@ -872,14 +873,10 @@ proxies:
   - {name: 🇺🇸 美国 399, server: 104.16.90.120, port: 8443, type: vmess, uuid: 01c0530f-168d-4645-a74c-f2b3b015c217, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: node-de-1.e4e3e2.top}}, udp: true}
   - {name: 🇺🇸 美国 400, server: 104.20.77.131, port: 443, type: vmess, uuid: 91a4ed1f-f693-4685-a6be-f0981d6f2613, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wss28885, headers: {Host: tree.blanku.me}}, udp: true}
   - {name: 🇺🇸 美国 401, server: 185.143.234.120, port: 80, type: vmess, uuid: b831381d-6324-4d53-ad4f-8cda48b30811, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /graphql, headers: {Host: koochehpas.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.18.152.187, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.18.152.50, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.18.152.140, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: join-telegram-channel.tirexnet.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 5, server: www.speedtest.org, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 6, server: 104.17.111.8, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 7, server: 104.18.152.246, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.130.125.112, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.26.15.137, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 172.67.130.246, port: 443, type: trojan, password: Telegram_healer_config, sni: 3OQxS5h6kCscecND.ZMh9KCGos2cq55uh6qDYaa938a5UgB.wOrkERS.dEV, skip-cert-verify: true, network: ws, ws-opts: {path: "/tr/zMUJnc0O87fJR02xzGNed?ed=2560", headers: {Host: 3OQxS5h6kCscecND.ZMh9KCGos2cq55uh6qDYaa938a5UgB.wOrkERS.dEV}}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.130.125.158, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 | USA, server: 104.18.152.50, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 | USA 10, server: 104.18.152.159, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 | USA 11, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true}
   - {name: 🇺🇸 美国 | USA 13, server: 104.18.15.230, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
@@ -893,11 +890,13 @@ proxies:
   - {name: 🇺🇸 美国 | USA 23, server: 104.18.152.229, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 | USA 28, server: 104.18.152.207, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 | USA 29, server: 104.18.152.204, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 | USA 3, server: www.speedtest.org, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 | USA 30, server: 104.18.152.97, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 | USA 4, server: 216.24.57.1, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 | USA 5, server: 104.18.152.103, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 | USA 6, server: 8.6.112.0, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 | USA 7, server: ip.myip2.qzz.io, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 加州, server: render.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国2, server: 103.236.66.4, port: 50003, type: ss, cipher: aes-256-gcm, password: Butterfly123@qwe9527, udp: true}
   - {name: 🇺🇿 乌兹别克斯坦 001, server: 37.110.209.228, port: 80, type: vmess, uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sazgar.serveirc.com}}, udp: true}
   - {name: 🇻🇳 越南 001, server: 103.232.54.160, port: 80, type: vmess, uuid: d95cded2-816a-4b5d-bb21-6180bd6d4d3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zenpn.com, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
@@ -1120,6 +1119,7 @@ proxy-groups:
       - 🇩🇪 德国 017
       - 🇩🇪 德国 018
       - 🇩🇪 德国 019
+      - 🇩🇪 德国 法尔肯施泰因Hetzner
       - 🇩🇰 DK_1|4.1MB/s
       - 🇪🇸 ES_1|3.0MB/s
       - 🇪🇸 ES_2|2.3MB/s
@@ -1792,14 +1792,10 @@ proxy-groups:
       - 🇺🇸 美国 399
       - 🇺🇸 美国 400
       - 🇺🇸 美国 401
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 CloudFlare节点 6
-      - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 | USA
       - 🇺🇸 美国 | USA 10
       - 🇺🇸 美国 | USA 11
       - 🇺🇸 美国 | USA 13
@@ -1813,11 +1809,13 @@ proxy-groups:
       - 🇺🇸 美国 | USA 23
       - 🇺🇸 美国 | USA 28
       - 🇺🇸 美国 | USA 29
+      - 🇺🇸 美国 | USA 3
       - 🇺🇸 美国 | USA 30
       - 🇺🇸 美国 | USA 4
       - 🇺🇸 美国 | USA 5
       - 🇺🇸 美国 | USA 6
       - 🇺🇸 美国 | USA 7
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国2
       - 🇺🇿 乌兹别克斯坦 001
       - 🇻🇳 越南 001
@@ -2015,6 +2013,7 @@ proxy-groups:
       - 🇩🇪 德国 017
       - 🇩🇪 德国 018
       - 🇩🇪 德国 019
+      - 🇩🇪 德国 法尔肯施泰因Hetzner
       - 🇩🇰 DK_1|4.1MB/s
       - 🇪🇸 ES_1|3.0MB/s
       - 🇪🇸 ES_2|2.3MB/s
@@ -2687,14 +2686,10 @@ proxy-groups:
       - 🇺🇸 美国 399
       - 🇺🇸 美国 400
       - 🇺🇸 美国 401
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 CloudFlare节点 6
-      - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 | USA
       - 🇺🇸 美国 | USA 10
       - 🇺🇸 美国 | USA 11
       - 🇺🇸 美国 | USA 13
@@ -2708,11 +2703,13 @@ proxy-groups:
       - 🇺🇸 美国 | USA 23
       - 🇺🇸 美国 | USA 28
       - 🇺🇸 美国 | USA 29
+      - 🇺🇸 美国 | USA 3
       - 🇺🇸 美国 | USA 30
       - 🇺🇸 美国 | USA 4
       - 🇺🇸 美国 | USA 5
       - 🇺🇸 美国 | USA 6
       - 🇺🇸 美国 | USA 7
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国2
       - 🇺🇿 乌兹别克斯坦 001
       - 🇻🇳 越南 001
@@ -3313,14 +3310,10 @@ proxy-groups:
       - 🇺🇸 美国 399
       - 🇺🇸 美国 400
       - 🇺🇸 美国 401
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 CloudFlare节点 6
-      - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 | USA
       - 🇺🇸 美国 | USA 10
       - 🇺🇸 美国 | USA 11
       - 🇺🇸 美国 | USA 13
@@ -3334,11 +3327,13 @@ proxy-groups:
       - 🇺🇸 美国 | USA 23
       - 🇺🇸 美国 | USA 28
       - 🇺🇸 美国 | USA 29
+      - 🇺🇸 美国 | USA 3
       - 🇺🇸 美国 | USA 30
       - 🇺🇸 美国 | USA 4
       - 🇺🇸 美国 | USA 5
       - 🇺🇸 美国 | USA 6
       - 🇺🇸 美国 | USA 7
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国2
   - name: 🎏 ‍其他
     type: url-test
@@ -3472,6 +3467,7 @@ proxy-groups:
       - 🇩🇪 德国 017
       - 🇩🇪 德国 018
       - 🇩🇪 德国 019
+      - 🇩🇪 德国 法尔肯施泰因Hetzner
       - 🇩🇰 DK_1|4.1MB/s
       - 🇪🇸 ES_1|3.0MB/s
       - 🇪🇸 ES_2|2.3MB/s
@@ -4234,14 +4230,10 @@ proxy-groups:
       - 🇺🇸 美国 399
       - 🇺🇸 美国 400
       - 🇺🇸 美国 401
-      - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇺🇸 美国 CloudFlare节点 6
-      - 🇺🇸 美国 CloudFlare节点 7
       - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 | USA
       - 🇺🇸 美国 | USA 10
       - 🇺🇸 美国 | USA 11
       - 🇺🇸 美国 | USA 13
@@ -4255,11 +4247,13 @@ proxy-groups:
       - 🇺🇸 美国 | USA 23
       - 🇺🇸 美国 | USA 28
       - 🇺🇸 美国 | USA 29
+      - 🇺🇸 美国 | USA 3
       - 🇺🇸 美国 | USA 30
       - 🇺🇸 美国 | USA 4
       - 🇺🇸 美国 | USA 5
       - 🇺🇸 美国 | USA 6
       - 🇺🇸 美国 | USA 7
+      - 🇺🇸 美国 加州
       - 🇺🇸 美国2
   - name: 👆🏻🎏 ‍其他
     type: select
@@ -4390,6 +4384,7 @@ proxy-groups:
       - 🇩🇪 德国 017
       - 🇩🇪 德国 018
       - 🇩🇪 德国 019
+      - 🇩🇪 德国 法尔肯施泰因Hetzner
       - 🇩🇰 DK_1|4.1MB/s
       - 🇪🇸 ES_1|3.0MB/s
       - 🇪🇸 ES_2|2.3MB/s

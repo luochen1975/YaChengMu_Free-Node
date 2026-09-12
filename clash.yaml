@@ -216,7 +216,6 @@ proxies:
   - {name: 🇫🇷 法国 | FRA 7, server: www.ignitelimit.com, port: 443, type: trojan, password: humanity, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment}, udp: true}
   - {name: 🇫🇷 法国 | FRA 8, server: 104.17.111.1, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇫🇷 法国 | FRA 9, server: 104.18.152.230, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇫🇷 法国巴黎 CloudFlare节点, server: 141.101.90.101, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇬🇧 GB_1|3.1MB/s, server: 82.110.60.9, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: 🇬🇧 GB_2|3.5MB/s, server: 212.102.63.1, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB_3|3.3MB/s, server: 37.120.233.34, port: 443, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
@@ -876,12 +875,11 @@ proxies:
   - {name: 🇺🇸 美国 857, server: ahsorathiyaa.fly.dev, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: ahsorathiyaa.fly.dev}}, udp: true}
   - {name: 🇺🇸 美国 858, server: 23.227.60.184, port: 2096, type: vmess, uuid: 73376c70-3108-11ee-9710-1239d0255272, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-service-name: /}, udp: true}
   - {name: 🇺🇸 美国 859, server: 104.31.16.3, port: 2087, type: vmess, uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: "", grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.67.221.242, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: www.speedtest.org, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.21.46.3, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 198.41.223.96, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.21.8.107, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: join-telegram-channel.tirexnet.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: www.speedtest.org, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 5, server: 172.67.221.242, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 | USA, server: 104.16.174.12, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 10, server: join-telegram-channel.tirexnet.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 | USA 12, server: 104.18.152.159, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 | USA 16, server: 104.16.174.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
   - {name: 🇺🇸 美国 | USA 2, server: 104.18.152.161, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true}
@@ -1124,7 +1122,6 @@ proxy-groups:
       - 🇫🇷 法国 | FRA 7
       - 🇫🇷 法国 | FRA 8
       - 🇫🇷 法国 | FRA 9
-      - 🇫🇷 法国巴黎 CloudFlare节点
       - 🇬🇧 GB_1|3.1MB/s
       - 🇬🇧 GB_2|3.5MB/s
       - 🇬🇧 GB_3|3.3MB/s
@@ -1786,10 +1783,9 @@ proxy-groups:
       - 🇺🇸 美国 859
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
       - 🇺🇸 美国 | USA
-      - 🇺🇸 美国 | USA 10
       - 🇺🇸 美国 | USA 12
       - 🇺🇸 美国 | USA 16
       - 🇺🇸 美国 | USA 2
@@ -2007,7 +2003,6 @@ proxy-groups:
       - 🇫🇷 法国 | FRA 7
       - 🇫🇷 法国 | FRA 8
       - 🇫🇷 法国 | FRA 9
-      - 🇫🇷 法国巴黎 CloudFlare节点
       - 🇬🇧 GB_1|3.1MB/s
       - 🇬🇧 GB_2|3.5MB/s
       - 🇬🇧 GB_3|3.3MB/s
@@ -2669,10 +2664,9 @@ proxy-groups:
       - 🇺🇸 美国 859
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
       - 🇺🇸 美国 | USA
-      - 🇺🇸 美国 | USA 10
       - 🇺🇸 美国 | USA 12
       - 🇺🇸 美国 | USA 16
       - 🇺🇸 美国 | USA 2
@@ -3275,10 +3269,9 @@ proxy-groups:
       - 🇺🇸 美国 859
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
       - 🇺🇸 美国 | USA
-      - 🇺🇸 美国 | USA 10
       - 🇺🇸 美国 | USA 12
       - 🇺🇸 美国 | USA 16
       - 🇺🇸 美国 | USA 2
@@ -3434,7 +3427,6 @@ proxy-groups:
       - 🇫🇷 法国 | FRA 7
       - 🇫🇷 法国 | FRA 8
       - 🇫🇷 法国 | FRA 9
-      - 🇫🇷 法国巴黎 CloudFlare节点
       - 🇬🇧 GB_1|3.1MB/s
       - 🇬🇧 GB_2|3.5MB/s
       - 🇬🇧 GB_3|3.3MB/s
@@ -4186,10 +4178,9 @@ proxy-groups:
       - 🇺🇸 美国 859
       - 🇺🇸 美国 CloudFlare节点
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
       - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
       - 🇺🇸 美国 | USA
-      - 🇺🇸 美国 | USA 10
       - 🇺🇸 美国 | USA 12
       - 🇺🇸 美国 | USA 16
       - 🇺🇸 美国 | USA 2
@@ -4342,7 +4333,6 @@ proxy-groups:
       - 🇫🇷 法国 | FRA 7
       - 🇫🇷 法国 | FRA 8
       - 🇫🇷 法国 | FRA 9
-      - 🇫🇷 法国巴黎 CloudFlare节点
       - 🇬🇧 GB_1|3.1MB/s
       - 🇬🇧 GB_2|3.5MB/s
       - 🇬🇧 GB_3|3.3MB/s
